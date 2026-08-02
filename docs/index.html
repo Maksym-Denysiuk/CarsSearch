@@ -97,6 +97,19 @@
   .empty-note { color: var(--muted); font-style: italic; font-size: 0.8rem; }
   footer { padding: 1rem 1.5rem 2rem; color: var(--muted); font-size: 0.8rem; }
   #status { padding: 2rem; color: var(--muted); }
+  .sort-indicator { display: inline-block; width: 1em; opacity: 0.6; }
+  th.sorted { color: var(--accent); }
+  tr.group-header td {
+    background: var(--chip-bg);
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.4rem 0.6rem;
+  }
+  tr.group-header:hover td { color: var(--accent); }
+  .group-caret { display: inline-block; width: 1em; transition: transform 0.1s ease; }
+  .group-caret.collapsed { transform: rotate(-90deg); }
+  .group-count { color: var(--muted); font-weight: 400; }
+  tr.group-row.hidden-row { display: none; }
 </style>
 </head>
 <body>
@@ -107,6 +120,13 @@
     <input type="search" id="search" placeholder="Filter by name, manufacturer, tier, engine...">
     <select id="tierFilter"><option value="">All tiers</option></select>
     <select id="phase2Filter"><option value="">All phase2_status</option></select>
+    <select id="groupBy">
+      <option value="">No grouping</option>
+      <option value="tier">Group by tier</option>
+      <option value="manufacturer">Group by manufacturer</option>
+      <option value="phase2_status">Group by phase 2 status</option>
+      <option value="roof_removable">Group by roof removable</option>
+    </select>
     <span class="stat" id="count"></span>
   </div>
 </header>
@@ -115,17 +135,17 @@
   <table id="carTable" hidden>
     <thead>
       <tr>
-        <th data-key="name">Name</th>
-        <th data-key="manufacturer">Manufacturer</th>
-        <th data-key="tier">Tier</th>
-        <th data-key="average_budget_eur" class="num">Avg. Budget (EUR)</th>
-        <th data-key="roof_removable">Roof removable</th>
-        <th data-key="roof_automated_process">Roof mechanism</th>
-        <th data-key="engine">Engine</th>
-        <th data-key="fuel_or_charge_consumption">Consumption</th>
-        <th data-key="tank_or_battery_size">Tank / battery</th>
-        <th data-key="doors" class="num">Doors</th>
-        <th data-key="phase2_status">Phase 2 status</th>
+        <th data-key="name">Name<span class="sort-indicator"></span></th>
+        <th data-key="manufacturer">Manufacturer<span class="sort-indicator"></span></th>
+        <th data-key="tier">Tier<span class="sort-indicator"></span></th>
+        <th data-key="average_budget_eur" class="num">Avg. Budget (EUR)<span class="sort-indicator"></span></th>
+        <th data-key="roof_removable">Roof removable<span class="sort-indicator"></span></th>
+        <th data-key="roof_automated_process">Roof mechanism<span class="sort-indicator"></span></th>
+        <th data-key="engine">Engine<span class="sort-indicator"></span></th>
+        <th data-key="fuel_or_charge_consumption">Consumption<span class="sort-indicator"></span></th>
+        <th data-key="tank_or_battery_size">Tank / battery<span class="sort-indicator"></span></th>
+        <th data-key="doors" class="num">Doors<span class="sort-indicator"></span></th>
+        <th data-key="phase2_status">Phase 2 status<span class="sort-indicator"></span></th>
         <th>Selling items</th>
       </tr>
     </thead>
@@ -136,7 +156,7 @@
 
 <script>
 (function () {
-  var state = { cars: [], sortKey: 'average_budget_eur', sortDir: 1 };
+  var state = { cars: [], sortKey: 'average_budget_eur', sortDir: 1, groupBy: '', collapsedGroups: new Set() };
 
   function fmtBudget(v) {
     if (v === null || v === undefined) return '<span class="empty-note">n/a</span>';
@@ -191,6 +211,43 @@
     };
   }
 
+  // The raw `tier` field mixes a coarse category with free-text research notes
+  // (e.g. "exotic (>100k) - NEW find, convergence pass"), so grouping on it
+  // verbatim produces ~25 near-duplicate buckets. Bucket to a small canonical
+  // set for grouping purposes only; the Tier column itself still shows the
+  // full original text.
+  function normalizeTier(tier) {
+    var t = (tier || '').toLowerCase();
+    if (t.indexOf('not yet available') === 0) return 'not yet available';
+    if (t.indexOf('ultra-exotic') === 0) return 'ultra-exotic (>100k)';
+    if (t.indexOf('niche/exotic') === 0 || t.indexOf('premium/exotic') === 0 || t.indexOf('exotic') === 0) return 'exotic (>100k)';
+    if (t.indexOf('premium') === 0) return 'premium';
+    if (t.indexOf('niche') === 0 || t.indexOf('mainstream/niche') === 0) return 'niche/boutique';
+    if (t.indexOf('mainstream') === 0) return 'mainstream';
+    return tier;
+  }
+
+  function groupLabel(c, key) {
+    if (key === 'roof_removable') return c.roof_removable ? 'Roof removable: yes' : 'Roof removable: no';
+    if (key === 'tier') return normalizeTier(c.tier);
+    var v = c[key];
+    return (v === null || v === undefined || v === '') ? '(unknown)' : String(v);
+  }
+
+  function groupRows(rows) {
+    var key = state.groupBy;
+    if (!key) return [{ label: null, key: null, rows: rows }];
+    var order = [];
+    var buckets = {};
+    rows.forEach(function (c) {
+      var label = groupLabel(c, key);
+      if (!buckets[label]) { buckets[label] = []; order.push(label); }
+      buckets[label].push(c);
+    });
+    order.sort();
+    return order.map(function (label) { return { label: label, key: label, rows: buckets[label] }; });
+  }
+
   function filteredSortedCars() {
     var f = currentFilters();
     var rows = state.cars.filter(function (c) {
@@ -216,26 +273,55 @@
     return rows;
   }
 
+  function carRowHtml(c, groupKey) {
+    var hidden = groupKey !== null && state.collapsedGroups.has(groupKey);
+    return '<tr class="group-row' + (hidden ? ' hidden-row' : '') + '"' +
+      (groupKey !== null ? ' data-group="' + esc(groupKey) + '"' : '') + '>' +
+      '<td><strong>' + esc(c.name) + '</strong><br><span class="chip">' + esc(c.model_variant) + '</span></td>' +
+      '<td>' + esc(c.manufacturer) + '</td>' +
+      '<td>' + esc(c.tier) + '</td>' +
+      '<td class="num">' + fmtBudget(c.average_budget_eur) + '</td>' +
+      '<td>' + fmtBool(c.roof_removable) + '</td>' +
+      '<td>' + esc(c.roof_automated_process) + '</td>' +
+      '<td>' + esc(c.engine) + '</td>' +
+      '<td>' + esc(c.fuel_or_charge_consumption) + '</td>' +
+      '<td>' + esc(c.tank_or_battery_size) + '</td>' +
+      '<td class="num">' + esc(c.doors) + '</td>' +
+      '<td><span class="chip">' + esc(c.phase2_status) + '</span></td>' +
+      '<td>' + renderSellingItems(c.selling_items) + '</td>' +
+      '</tr>';
+  }
+
+  function groupHeaderHtml(group) {
+    var collapsed = state.collapsedGroups.has(group.key);
+    return '<tr class="group-header" data-toggle-group="' + esc(group.key) + '">' +
+      '<td colspan="12">' +
+      '<span class="group-caret' + (collapsed ? ' collapsed' : '') + '">&#9662;</span> ' +
+      esc(group.label) + ' <span class="group-count">(' + group.rows.length + ')</span>' +
+      '</td></tr>';
+  }
+
   function render() {
     var rows = filteredSortedCars();
+    var groups = groupRows(rows);
     var tbody = document.getElementById('carRows');
-    tbody.innerHTML = rows.map(function (c) {
-      return '<tr>' +
-        '<td><strong>' + esc(c.name) + '</strong><br><span class="chip">' + esc(c.model_variant) + '</span></td>' +
-        '<td>' + esc(c.manufacturer) + '</td>' +
-        '<td>' + esc(c.tier) + '</td>' +
-        '<td class="num">' + fmtBudget(c.average_budget_eur) + '</td>' +
-        '<td>' + fmtBool(c.roof_removable) + '</td>' +
-        '<td>' + esc(c.roof_automated_process) + '</td>' +
-        '<td>' + esc(c.engine) + '</td>' +
-        '<td>' + esc(c.fuel_or_charge_consumption) + '</td>' +
-        '<td>' + esc(c.tank_or_battery_size) + '</td>' +
-        '<td class="num">' + esc(c.doors) + '</td>' +
-        '<td><span class="chip">' + esc(c.phase2_status) + '</span></td>' +
-        '<td>' + renderSellingItems(c.selling_items) + '</td>' +
-        '</tr>';
+    tbody.innerHTML = groups.map(function (g) {
+      var rowsHtml = g.rows.map(function (c) { return carRowHtml(c, g.key); }).join('');
+      return g.label === null ? rowsHtml : groupHeaderHtml(g) + rowsHtml;
     }).join('');
-    document.getElementById('count').textContent = rows.length + ' / ' + state.cars.length + ' models shown';
+    document.getElementById('count').textContent = rows.length + ' / ' + state.cars.length + ' models shown' +
+      (state.groupBy ? ' in ' + groups.length + ' group' + (groups.length === 1 ? '' : 's') : '');
+    updateSortIndicators();
+  }
+
+  function updateSortIndicators() {
+    document.querySelectorAll('#carTable th[data-key]').forEach(function (th) {
+      var key = th.getAttribute('data-key');
+      var indicator = th.querySelector('.sort-indicator');
+      var active = key === state.sortKey;
+      th.classList.toggle('sorted', active);
+      if (indicator) indicator.textContent = active ? (state.sortDir === 1 ? '▲' : '▼') : '';
+    });
   }
 
   function wireSorting() {
@@ -245,6 +331,21 @@
         if (state.sortKey === key) { state.sortDir *= -1; } else { state.sortKey = key; state.sortDir = 1; }
         render();
       });
+    });
+  }
+
+  function wireGrouping() {
+    document.getElementById('groupBy').addEventListener('change', function (e) {
+      state.groupBy = e.target.value;
+      state.collapsedGroups.clear();
+      render();
+    });
+    document.getElementById('carRows').addEventListener('click', function (e) {
+      var headerRow = e.target.closest('tr.group-header');
+      if (!headerRow) return;
+      var key = headerRow.getAttribute('data-toggle-group');
+      if (state.collapsedGroups.has(key)) { state.collapsedGroups.delete(key); } else { state.collapsedGroups.add(key); }
+      render();
     });
   }
 
@@ -280,6 +381,7 @@
         ' · ' + state.cars.length + ' models total. ' + (m.specs_disclaimer || '');
       populateFilters(state.cars);
       wireSorting();
+      wireGrouping();
       wireFilters();
       render();
     })
