@@ -12,11 +12,16 @@ Car-research-/
 ├── phase1-roadster-guide.md             # Phase 1, first pass (baseline ~24 models)
 ├── phase1-extended-roadster-list.md     # Phase 1, deep-research convergence pass + addendum
 ├── phase2-portugal-europe-listings.md   # Phase 2, human-readable real-listing writeup
-└── storage/
-    └── car_data.json                    # Authoritative structured dataset (Phases 1-2 combined)
+├── storage/
+│   └── car_data.json                    # Authoritative structured dataset (Phases 1-2 combined)
+└── docs/
+    ├── car_data.schema.json             # JSON Schema (2020-12) for storage/car_data.json
+    └── index.html                       # Simple static viewer for storage/car_data.json
 ```
 
 `storage/car_data.json` is the **authoritative, up-to-date source** — it's kept in sync with the latest findings from both phases. The `.md` files are the narrative research trail (useful for methodology and reasoning) and may lag behind the JSON on the newest finds; when they disagree, trust the JSON.
+
+`docs/car_data.schema.json` documents and validates the structure of `storage/car_data.json`. `docs/index.html` is a dependency-free viewer (fetch + filter/sort table) — since it uses `fetch()`, opening it via `file://` will fail in most browsers; serve the repo root instead, e.g. `python3 -m http.server 8000` then visit `http://localhost:8000/docs/`. Whenever the JSON's shape changes, update the schema alongside it.
 
 ## The three phases
 

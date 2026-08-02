@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Car-research- : Roadster Dataset Viewer</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #666;
+    --border: #ddd;
+    --row-alt: #f7f7f7;
+    --accent: #b3261e;
+    --chip-bg: #eee;
+    --link: #0b57d0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15161a;
+      --fg: #e8e8e8;
+      --muted: #9a9a9a;
+      --border: #333;
+      --row-alt: #1c1d22;
+      --accent: #ff6b60;
+      --chip-bg: #2a2b31;
+      --link: #8ab4ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+  }
+  header {
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    z-index: 5;
+  }
+  h1 { margin: 0 0 0.25rem; font-size: 1.3rem; }
+  .subtitle { color: var(--muted); font-size: 0.9rem; margin: 0 0 0.75rem; }
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  input[type="search"], select {
+    padding: 0.4rem 0.6rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg);
+    color: var(--fg);
+    font-size: 0.9rem;
+  }
+  input[type="search"] { flex: 1 1 240px; min-width: 180px; }
+  .stat { font-size: 0.85rem; color: var(--muted); }
+  main { padding: 1rem 1.5rem 2rem; overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; min-width: 1100px; font-size: 0.85rem; }
+  caption { display: none; }
+  th, td {
+    text-align: left;
+    padding: 0.5rem 0.6rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    cursor: pointer;
+    white-space: nowrap;
+    user-select: none;
+  }
+  th:hover { color: var(--accent); }
+  tbody tr:nth-child(even) { background: var(--row-alt); }
+  .num { text-align: right; white-space: nowrap; }
+  .chip {
+    display: inline-block;
+    background: var(--chip-bg);
+    border-radius: 999px;
+    padding: 0.1rem 0.55rem;
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+  .bool-yes { color: #1a7f37; }
+  .bool-no { color: var(--muted); }
+  details summary { cursor: pointer; color: var(--link); font-size: 0.8rem; }
+  .listing { display: block; margin: 0.15rem 0; font-size: 0.8rem; }
+  .listing a { color: var(--link); }
+  .empty-note { color: var(--muted); font-style: italic; font-size: 0.8rem; }
+  footer { padding: 1rem 1.5rem 2rem; color: var(--muted); font-size: 0.8rem; }
+  #status { padding: 2rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Car-research- : Roadster Dataset Viewer</h1>
+  <p class="subtitle">Renders <code>storage/car_data.json</code> (validated against <code>docs/car_data.schema.json</code>). Portugal roadster buying research, 2024&ndash;2026 model years.</p>
+  <div class="controls">
+    <input type="search" id="search" placeholder="Filter by name, manufacturer, tier, engine...">
+    <select id="tierFilter"><option value="">All tiers</option></select>
+    <select id="phase2Filter"><option value="">All phase2_status</option></select>
+    <span class="stat" id="count"></span>
+  </div>
+</header>
+<main>
+  <div id="status">Loading storage/car_data.json&hellip;</div>
+  <table id="carTable" hidden>
+    <thead>
+      <tr>
+        <th data-key="name">Name</th>
+        <th data-key="manufacturer">Manufacturer</th>
+        <th data-key="tier">Tier</th>
+        <th data-key="average_budget_eur" class="num">Avg. Budget (EUR)</th>
+        <th data-key="roof_removable">Roof removable</th>
+        <th data-key="roof_automated_process">Roof mechanism</th>
+        <th data-key="engine">Engine</th>
+        <th data-key="fuel_or_charge_consumption">Consumption</th>
+        <th data-key="tank_or_battery_size">Tank / battery</th>
+        <th data-key="doors" class="num">Doors</th>
+        <th data-key="phase2_status">Phase 2 status</th>
+        <th>Selling items</th>
+      </tr>
+    </thead>
+    <tbody id="carRows"></tbody>
+  </table>
+</main>
+<footer id="meta"></footer>
+
+<script>
+(function () {
+  var state = { cars: [], sortKey: 'average_budget_eur', sortDir: 1 };
+
+  function fmtBudget(v) {
+    if (v === null || v === undefined) return '<span class="empty-note">n/a</span>';
+    return '&euro;' + Number(v).toLocaleString('en-US');
+  }
+
+  function fmtBool(v) {
+    return v
+      ? '<span class="bool-yes">yes</span>'
+      : '<span class="bool-no">no</span>';
+  }
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function renderSellingItems(items) {
+    if (!items || !items.length) return '<span class="empty-note">none</span>';
+    return '<details><summary>' + items.length + ' listing' + (items.length > 1 ? 's' : '') + '</summary>' +
+      items.map(function (it) {
+        var link = esc(it.link);
+        var isUrl = /^https?:\/\//.test(link);
+        var linkHtml = isUrl ? '<a href="' + link + '" target="_blank" rel="noopener">source</a>' : esc(it.link);
+        return '<span class="listing">' + esc(it.budget) + ' &mdash; ' + esc(it.location) + ' (' + linkHtml + ')</span>';
+      }).join('') + '</details>';
+  }
+
+  function populateFilters(cars) {
+    var tierSel = document.getElementById('tierFilter');
+    var phaseSel = document.getElementById('phase2Filter');
+    var tiers = Array.from(new Set(cars.map(function (c) { return c.tier; }))).sort();
+    var phases = Array.from(new Set(cars.map(function (c) { return c.phase2_status; }))).sort();
+    tiers.forEach(function (t) {
+      var o = document.createElement('option');
+      o.value = t; o.textContent = t;
+      tierSel.appendChild(o);
+    });
+    phases.forEach(function (p) {
+      var o = document.createElement('option');
+      o.value = p; o.textContent = p;
+      phaseSel.appendChild(o);
+    });
+  }
+
+  function currentFilters() {
+    return {
+      q: document.getElementById('search').value.trim().toLowerCase(),
+      tier: document.getElementById('tierFilter').value,
+      phase2: document.getElementById('phase2Filter').value
+    };
+  }
+
+  function filteredSortedCars() {
+    var f = currentFilters();
+    var rows = state.cars.filter(function (c) {
+      if (f.tier && c.tier !== f.tier) return false;
+      if (f.phase2 && c.phase2_status !== f.phase2) return false;
+      if (f.q) {
+        var hay = [c.name, c.manufacturer, c.tier, c.engine, c.model_variant].join(' ').toLowerCase();
+        if (hay.indexOf(f.q) === -1) return false;
+      }
+      return true;
+    });
+    var key = state.sortKey, dir = state.sortDir;
+    rows.sort(function (a, b) {
+      var av = a[key], bv = b[key];
+      if (av === null || av === undefined) av = dir === 1 ? Infinity : -Infinity;
+      if (bv === null || bv === undefined) bv = dir === 1 ? Infinity : -Infinity;
+      if (typeof av === 'string') av = av.toLowerCase();
+      if (typeof bv === 'string') bv = bv.toLowerCase();
+      if (av < bv) return -1 * dir;
+      if (av > bv) return 1 * dir;
+      return 0;
+    });
+    return rows;
+  }
+
+  function render() {
+    var rows = filteredSortedCars();
+    var tbody = document.getElementById('carRows');
+    tbody.innerHTML = rows.map(function (c) {
+      return '<tr>' +
+        '<td><strong>' + esc(c.name) + '</strong><br><span class="chip">' + esc(c.model_variant) + '</span></td>' +
+        '<td>' + esc(c.manufacturer) + '</td>' +
+        '<td>' + esc(c.tier) + '</td>' +
+        '<td class="num">' + fmtBudget(c.average_budget_eur) + '</td>' +
+        '<td>' + fmtBool(c.roof_removable) + '</td>' +
+        '<td>' + esc(c.roof_automated_process) + '</td>' +
+        '<td>' + esc(c.engine) + '</td>' +
+        '<td>' + esc(c.fuel_or_charge_consumption) + '</td>' +
+        '<td>' + esc(c.tank_or_battery_size) + '</td>' +
+        '<td class="num">' + esc(c.doors) + '</td>' +
+        '<td><span class="chip">' + esc(c.phase2_status) + '</span></td>' +
+        '<td>' + renderSellingItems(c.selling_items) + '</td>' +
+        '</tr>';
+    }).join('');
+    document.getElementById('count').textContent = rows.length + ' / ' + state.cars.length + ' models shown';
+  }
+
+  function wireSorting() {
+    document.querySelectorAll('#carTable th[data-key]').forEach(function (th) {
+      th.addEventListener('click', function () {
+        var key = th.getAttribute('data-key');
+        if (state.sortKey === key) { state.sortDir *= -1; } else { state.sortKey = key; state.sortDir = 1; }
+        render();
+      });
+    });
+  }
+
+  function wireFilters() {
+    document.getElementById('search').addEventListener('input', render);
+    document.getElementById('tierFilter').addEventListener('change', render);
+    document.getElementById('phase2Filter').addEventListener('change', render);
+  }
+
+  function showError(msg) {
+    var el = document.getElementById('status');
+    el.hidden = false;
+    el.innerHTML = '<strong>Could not load data.</strong> ' + esc(msg) +
+      '<br><br>If you opened this file directly (file://), browsers block fetch() of local files. ' +
+      'Serve the repo root with a local server instead, e.g.:<br>' +
+      '<code>cd Car-research- &amp;&amp; python3 -m http.server 8000</code><br>' +
+      'then open <code>http://localhost:8000/docs/</code>.';
+  }
+
+  fetch('../storage/car_data.json')
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(function (data) {
+      state.cars = data.cars || [];
+      document.getElementById('status').hidden = true;
+      document.getElementById('carTable').hidden = false;
+      var m = data.metadata || {};
+      document.getElementById('meta').textContent =
+        'Generated ' + (m.generated || '?') + ' · Phase 2 price threshold: €' +
+        (m.phase2_price_threshold_eur || '?').toLocaleString('en-US') +
+        ' · ' + state.cars.length + ' models total. ' + (m.specs_disclaimer || '');
+      populateFilters(state.cars);
+      wireSorting();
+      wireFilters();
+      render();
+    })
+    .catch(function (err) { showError(err.message); });
+})();
+</script>
+</body>
+</html>
