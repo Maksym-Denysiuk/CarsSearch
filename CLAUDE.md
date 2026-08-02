@@ -62,6 +62,27 @@ The viewer lets you star cars and switch to a "Favorites" tab that shows only st
 
 Explicitly skipped per instruction. Intended future scope: define the buyer's real (non-open) budget, narrow the shortlist accordingly, contact sellers/dealers for the surviving candidates, arrange viewings/inspections, negotiate, and make the final purchase decision. No files exist for this phase yet.
 
+## Tier assignment rules
+
+`tier` used to be free text, and it drifted badly: 24 distinct strings across 58 cars, many of them compound labels ("premium/exotic"), research-provenance notes bolted onto the value ("exotic (>100k) - NEW find, convergence pass"), or scope flags mixed in ("mainstream (2+2 city convertible, flagged)"). That made grouping/filtering by tier nearly useless. `tier` is now a closed enum (enforced in `docs/car_data.schema.json`) with exactly six values, assigned by **objective rule**, not by feel:
+
+| Tier | Rule |
+|---|---|
+| `mainstream` | `average_budget_eur` < €40,000 |
+| `premium` | €40,000 ≤ `average_budget_eur` < €100,000 |
+| `exotic` | €100,000 ≤ `average_budget_eur` < €500,000 |
+| `ultra-exotic` | `average_budget_eur` ≥ €500,000, **or** the model is a bespoke/very-limited-run car that sold out before or shortly after reveal (regardless of its exact price) |
+| `not yet available` | `average_budget_eur` is `null` — no confirmed production price exists yet. Use this even if rumored/estimated figures exist in `average_budget_basis`; don't tier off a rumor. |
+| `unconfirmed` | A model's real-world trims straddle two of the bands above badly enough that one average is misleading (e.g. a base trim is `premium` and a flagship trim is `exotic`) — or the tier genuinely can't be determined confidently for any other reason. **Always prefer `unconfirmed` over inventing a compound label or guessing.** |
+
+Rules for applying this:
+
+1. **Derive, don't hand-pick.** `tier` is a function of `average_budget_eur` (plus the sold-out/bespoke and trim-spread exceptions above) — never assign a tier that contradicts the number.
+2. **No compound labels.** Never join two tiers with `/` (e.g. `premium/exotic`). If a car genuinely spans two bands, use `unconfirmed` and explain the spread in `model_variant` (see the KTM X-Bow and Chevrolet Corvette entries in `storage/car_data.json` for the pattern).
+3. **No research-provenance notes in `tier`.** Things like "NEW find, convergence pass" describe the research process, not the car — leave them out entirely (they're not needed elsewhere either).
+4. **Scope/status flags belong in `model_variant`, not `tier`.** Notes like "2+2 city convertible, flagged" or "also 4-seat, flagged" are about the car's fit for this dataset's scope — append them to `model_variant` as a plain sentence, not as a `tier` suffix.
+5. **Re-derive on every price update.** Whenever `average_budget_eur` changes (new listings, corrected estimate), recompute `tier` from the table above — don't let it go stale.
+
 ## Data quality notes
 
 - **Pricing/listing data** (`average_budget_eur`, `selling_items`) comes from live web searches performed this session and is traceable to a source URL per entry.

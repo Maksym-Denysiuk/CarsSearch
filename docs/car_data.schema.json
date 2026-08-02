@@ -82,7 +82,8 @@
         "tank_or_battery_size",
         "doors",
         "phase2_status",
-        "selling_items"
+        "selling_items",
+        "image"
       ],
       "additionalProperties": false,
       "properties": {
@@ -101,7 +102,8 @@
         },
         "tier": {
           "type": "string",
-          "description": "Free-text market tier, e.g. 'mainstream', 'premium', 'exotic (>100k)', 'ultra-exotic (>100k, sold out)', 'not yet available'."
+          "enum": ["mainstream", "premium", "exotic", "ultra-exotic", "not yet available", "unconfirmed"],
+          "description": "Canonical market tier, price-derived from average_budget_eur. See CLAUDE.md's 'Tier assignment rules' for the exact thresholds and when to use 'unconfirmed' instead of guessing. Do not append research-provenance notes or compound multiple tiers with '/' here -- put that context in model_variant or average_budget_basis instead."
         },
         "model_variant": {
           "type": "string",
@@ -163,6 +165,11 @@
           "type": "array",
           "description": "Real for-sale listings found for this model (Portugal first, then Europe). Empty when phase2_status indicates none were searched or found.",
           "items": { "$ref": "#/$defs/selling_item" }
+        },
+        "image": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "description": "URL of one representative photo of the car, sourced from an og:image tag on one of its selling_items listing pages. Null when no selling_items exist or none of the listing pages exposed a usable (non-placeholder) image."
         }
       }
     },

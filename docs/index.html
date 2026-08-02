@@ -1,40 +1,76 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Car-research- : Roadster Dataset Viewer</title>
+<script>
+(function () {
+  try {
+    var t = window.localStorage.getItem('carResearchTheme');
+    document.documentElement.setAttribute('data-theme', (t === 'light' || t === 'dark') ? t : 'dark');
+  } catch (e) { /* localStorage unavailable -- default dark stays */ }
+})();
+</script>
+<title>MD-CarResearch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    color-scheme: light dark;
-    --bg: #ffffff;
-    --fg: #1a1a1a;
-    --muted: #666;
-    --border: #ddd;
-    --row-alt: #f7f7f7;
-    --accent: #b3261e;
-    --chip-bg: #eee;
-    --link: #0b57d0;
+    color-scheme: light;
+    --bg: #f7f3e8;
+    --bg-elev: #ffffff;
+    --bg-elev-2: #f0ead9;
+    --border: #e3d9bf;
+    --fg: #0a1420;
+    --muted: #5b6472;
+    --accent: #b8860b;
+    --accent-2: #8a6508;
+    --accent-soft: rgba(184,134,11,0.12);
+    --accent-ink: #ffffff;
+    --danger: #e0566a;
+    --chip-bg: var(--bg-elev-2);
+    --row-alt: var(--bg-elev);
+    --link: #b8860b;
+    --radius: 14px;
+    --shadow: 0 16px 40px rgba(0,0,0,0.12), 0 2px 8px rgba(0,0,0,0.08);
+    --shadow-glow: 0 4px 20px rgba(184,134,11,0.18);
   }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #15161a;
-      --fg: #e8e8e8;
-      --muted: #9a9a9a;
-      --border: #333;
-      --row-alt: #1c1d22;
-      --accent: #ff6b60;
-      --chip-bg: #2a2b31;
-      --link: #8ab4ff;
-    }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #070f18;
+    --bg-elev: #0d2030;
+    --bg-elev-2: #142736;
+    --border: #203446;
+    --fg: #eef1f5;
+    --muted: #9fb0c0;
+    --accent: #cda23c;
+    --accent-2: #96691a;
+    --accent-soft: rgba(205,162,60,0.15);
+    --accent-ink: #0a1420;
+    --shadow: 0 16px 40px rgba(0,0,0,0.5), 0 2px 8px rgba(0,0,0,0.3);
+    --shadow-glow: 0 4px 20px rgba(205,162,60,0.18);
+    --link: #cda23c;
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background: var(--bg);
     color: var(--fg);
   }
+  #splash {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg);
+    transition: opacity 0.5s ease;
+  }
+  #splash img { width: min(42vw, 220px); height: auto; }
+  #splash.hidden { opacity: 0; pointer-events: none; }
   header {
     padding: 1.25rem 1.5rem;
     border-bottom: 1px solid var(--border);
@@ -43,8 +79,81 @@
     background: var(--bg);
     z-index: 5;
   }
-  h1 { margin: 0 0 0.25rem; font-size: 1.3rem; }
+  h1 { margin: 0 0 0.25rem; font-size: 1.3rem; font-family: 'Playfair Display', Georgia, "Times New Roman", serif; font-weight: 700; }
   .subtitle { color: var(--muted); font-size: 0.9rem; margin: 0 0 0.75rem; }
+  .header-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .theme-toggle {
+    flex-shrink: 0;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--bg-elev-2);
+    color: var(--accent);
+    font-size: 1.05rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .theme-toggle:hover { border-color: var(--accent); }
+  .category-section { margin: 0.4rem 0 1rem; }
+  .category-section summary {
+    cursor: pointer;
+    color: var(--muted);
+    font-size: 0.85rem;
+    font-weight: 600;
+    list-style: none;
+  }
+  .category-section summary::-webkit-details-marker { display: none; }
+  .category-section summary::before { content: '\25b8'; display: inline-block; margin-right: 0.35rem; transition: transform 0.1s ease; }
+  .category-section[open] summary::before { transform: rotate(90deg); }
+  .category-section summary:hover { color: var(--accent); }
+  .category-section[open] { margin-bottom: 1.25rem; }
+  .category-option {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.85rem;
+    color: var(--fg);
+    padding: 0.4rem 0 0 1.15rem;
+    cursor: pointer;
+  }
+  .category-option input[type="radio"] { accent-color: var(--accent); }
+  .filters-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+  }
+  .filters-label { font-size: 0.85rem; color: var(--muted); margin-right: 0.15rem; }
+  .filters-divider { width: 1px; align-self: stretch; background: var(--border); margin: 0 0.25rem; }
+  .filter-input { width: 160px; }
+  .chip-toggle {
+    padding: 0.35rem 0.85rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--bg-elev-2);
+    color: var(--muted);
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  .chip-toggle:hover { border-color: var(--accent); }
+  .chip-toggle.active {
+    background: var(--accent);
+    color: var(--accent-ink);
+    border-color: var(--accent);
+    box-shadow: var(--shadow-glow);
+  }
   .controls {
     display: flex;
     flex-wrap: wrap;
@@ -57,7 +166,7 @@
     border-radius: 6px;
     background: var(--bg);
     color: var(--fg);
-    font-size: 0.9rem;
+    font-size: 16px; /* not 0.9rem -- iOS Safari auto-zooms on focus for inputs under 16px */
   }
   input[type="search"] { flex: 1 1 240px; min-width: 180px; }
   .stat { font-size: 0.85rem; color: var(--muted); }
@@ -89,13 +198,59 @@
     font-size: 0.75rem;
     white-space: nowrap;
   }
-  .bool-yes { color: #1a7f37; }
-  .bool-no { color: var(--muted); }
+  .bool-yes { color: var(--accent); font-weight: 600; }
+  .bool-no { color: inherit; }
   details summary { cursor: pointer; color: var(--link); font-size: 0.8rem; }
   .listing { display: block; margin: 0.15rem 0; font-size: 0.8rem; }
   .listing a { color: var(--link); }
   .empty-note { color: var(--muted); font-style: italic; font-size: 0.8rem; }
-  footer { padding: 1rem 1.5rem 2rem; color: var(--muted); font-size: 0.8rem; }
+  .site-footer {
+    border-top: 1px solid var(--border);
+    background: var(--bg-elev);
+    margin-top: 2rem;
+    position: relative;
+  }
+  .site-footer::before {
+    content: '';
+    position: absolute;
+    top: -1px; left: 0; right: 0; height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    opacity: 0.5;
+  }
+  .footer-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 2rem 1.5rem 1.25rem;
+  }
+  .footer-brand { display: flex; align-items: center; gap: 0.6rem; flex-shrink: 0; }
+  .brand-mark {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 6px;
+    background: var(--bg);
+    border: 1px solid var(--accent);
+    box-shadow: inset 0 0 0 1px var(--accent-soft), 0 0 0 4px var(--accent-soft);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent);
+    font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+  .brand-name { display: flex; flex-direction: column; line-height: 1.25; }
+  .brand-name strong { font-family: 'Playfair Display', Georgia, "Times New Roman", serif; font-size: 1rem; }
+  .footer-tagline { font-size: 0.75rem; color: var(--muted); }
+  .footer-meta { flex: 1 1 320px; max-width: 640px; font-size: 0.8rem; color: var(--muted); margin: 0; }
+  .footer-bottom {
+    border-top: 1px solid var(--border);
+    padding: 0.9rem 1.5rem;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
   #status { padding: 2rem; color: var(--muted); }
   .sort-indicator { display: inline-block; width: 1em; opacity: 0.6; }
   th.sorted { color: var(--accent); }
@@ -110,29 +265,62 @@
   .group-caret.collapsed { transform: rotate(-90deg); }
   .group-count { color: var(--muted); font-weight: 400; }
   tr.group-row.hidden-row { display: none; }
-  .fav-col { width: 2.2rem; text-align: center; }
+  .fav-col { width: 2.6rem; text-align: center; }
   .fav-star {
     cursor: pointer;
     font-size: 1.1rem;
     line-height: 1;
     background: none;
     border: none;
-    padding: 0.1rem;
+    padding: 0.6rem;
+    min-width: 2.2rem;
+    min-height: 2.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     color: var(--muted);
   }
-  .fav-star.is-fav { color: #d4a017; }
+  .fav-star.is-fav { color: var(--accent); }
   .fav-star:hover { color: var(--accent); }
-  .tabs { display: flex; gap: 0.25rem; }
-  .tab-btn {
-    padding: 0.4rem 0.75rem;
+  .view-toggle {
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    background: var(--bg-elev-2);
     border: 1px solid var(--border);
-    border-radius: 6px;
-    background: var(--bg);
-    color: var(--fg);
-    font-size: 0.9rem;
-    cursor: pointer;
+    border-radius: 999px;
+    padding: 0.2rem;
+    gap: 0.15rem;
   }
-  .tab-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .view-toggle .toggle-thumb {
+    position: absolute;
+    top: 0.2rem;
+    bottom: 0.2rem;
+    left: 0.2rem;
+    width: calc(50% - 0.2rem);
+    background: var(--accent);
+    border-radius: 999px;
+    box-shadow: var(--shadow-glow);
+    transition: transform 0.2s ease;
+  }
+  .view-toggle.is-favorites .toggle-thumb { transform: translateX(100%); }
+  .toggle-btn {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 0.45rem 1.25rem;
+    border: none;
+    border-radius: 999px;
+    background: transparent;
+    color: var(--muted);
+    font-size: 0.9rem;
+    font-weight: 600;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  .toggle-btn.active { color: var(--accent-ink); }
   .btn {
     padding: 0.4rem 0.75rem;
     border: 1px solid var(--border);
@@ -143,20 +331,68 @@
     cursor: pointer;
   }
   .btn:hover { border-color: var(--accent); color: var(--accent); }
+  .col-picker { position: relative; }
+  .col-picker-panel {
+    position: absolute;
+    top: calc(100% + 0.4rem);
+    left: 0;
+    z-index: 10;
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 0.6rem 0.75rem;
+    min-width: 220px;
+    display: none;
+  }
+  .col-picker-panel.open { display: block; }
+  .col-picker-panel label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+  }
+  .col-picker-panel input[type="checkbox"] { accent-color: var(--accent); }
+
+  @media (max-width: 640px) {
+    header { padding: 1rem; }
+    main { padding: 1rem 1rem 2rem; }
+    .footer-inner { padding: 1.5rem 1rem 1rem; }
+    .footer-bottom { padding: 0.9rem 1rem; }
+    .view-toggle { width: 100%; }
+    .toggle-btn { padding: 0.45rem 0.5rem; font-size: 0.82rem; }
+    input[type="search"] { min-width: 0; flex-basis: 100%; }
+    .filter-input { width: 100%; }
+    .col-picker-panel { left: auto; right: 0; }
+    .theme-toggle { width: 2.75rem; height: 2.75rem; }
+    .chip-toggle { padding: 0.55rem 0.9rem; }
+    .toggle-btn { padding: 0.65rem 0.5rem; }
+    .fav-col { width: 3rem; }
+  }
 </style>
 </head>
 <body>
+<div id="splash"><img src="assets/logo.png" alt="Maksym Denysiuk logo"></div>
 <header>
-  <h1>Car-research- : Roadster Dataset Viewer</h1>
-  <p class="subtitle">Renders <code>storage/car_data.json</code> (validated against <code>docs/car_data.schema.json</code>). Portugal roadster buying research, 2024&ndash;2026 model years.</p>
+  <div class="header-top">
+    <div>
+      <h1>MD-CarResearch</h1>
+      <details class="category-section" id="categorySection">
+        <summary>Category</summary>
+        <label class="category-option"><input type="radio" name="category" id="catRoadsters" data-category="roadsters" checked> Roadsters</label>
+      </details>
+    </div>
+    <button type="button" class="theme-toggle" id="themeToggle" title="Switch to light theme" aria-label="Switch to light theme">&#9728;</button>
+  </div>
   <div class="controls">
-    <div class="tabs" role="tablist" aria-label="View">
-      <button type="button" class="tab-btn active" id="tabAll" role="tab" aria-selected="true">All cars</button>
-      <button type="button" class="tab-btn" id="tabFavorites" role="tab" aria-selected="false">&#9733; Favorites (<span id="favCount">0</span>)</button>
+    <div class="view-toggle" id="viewToggle" role="tablist" aria-label="View">
+      <span class="toggle-thumb" aria-hidden="true"></span>
+      <button type="button" class="toggle-btn active" id="tabAll" role="tab" aria-selected="true">All in category</button>
+      <button type="button" class="toggle-btn" id="tabFavorites" role="tab" aria-selected="false">Favorite in category (<span id="favCount">0</span>)</button>
     </div>
     <input type="search" id="search" placeholder="Filter by name, manufacturer, tier, engine...">
-    <select id="tierFilter"><option value="">All tiers</option></select>
-    <select id="phase2Filter"><option value="">All phase2_status</option></select>
     <select id="groupBy">
       <option value="">No grouping</option>
       <option value="tier">Group by tier</option>
@@ -164,42 +400,127 @@
       <option value="phase2_status">Group by phase 2 status</option>
       <option value="roof_removable">Group by roof removable</option>
     </select>
-    <button type="button" class="btn" id="exportFavorites" title="Download storage/favorites.json with your current selection">Export favorites.json</button>
+    <div class="col-picker">
+      <button type="button" class="btn" id="colPickerBtn" aria-haspopup="true" aria-expanded="false">Columns</button>
+      <div class="col-picker-panel" id="colPickerPanel"></div>
+    </div>
     <span class="stat" id="count"></span>
+  </div>
+  <div class="filters-bar" id="filtersBar">
+    <span class="filters-label">Price range:</span>
+    <button type="button" class="chip-toggle active" data-range="0-50">&euro;0 &ndash; 50k</button>
+    <button type="button" class="chip-toggle active" data-range="50-100">&euro;50k &ndash; 100k</button>
+    <button type="button" class="chip-toggle" data-range="100-120">&euro;100k &ndash; 120k</button>
+    <button type="button" class="chip-toggle" data-range="120+">&euro;120k+</button>
+    <span class="filters-divider" aria-hidden="true"></span>
+    <span class="filters-label">Engine:</span>
+    <input type="search" id="engineFilter" class="filter-input" placeholder="e.g. V8, electric, turbo">
+    <span class="filters-label">Consumption:</span>
+    <input type="search" id="consumptionFilter" class="filter-input" placeholder="e.g. kWh, L/100km">
   </div>
 </header>
 <main>
   <div id="status">Loading storage/car_data.json&hellip;</div>
   <table id="carTable" hidden>
-    <thead>
-      <tr>
-        <th data-key="favorite" class="fav-col" title="Favorite">&#9733;<span class="sort-indicator"></span></th>
-        <th data-key="name">Name<span class="sort-indicator"></span></th>
-        <th data-key="manufacturer">Manufacturer<span class="sort-indicator"></span></th>
-        <th data-key="tier">Tier<span class="sort-indicator"></span></th>
-        <th data-key="average_budget_eur" class="num">Avg. Budget (EUR)<span class="sort-indicator"></span></th>
-        <th data-key="roof_removable">Roof removable<span class="sort-indicator"></span></th>
-        <th data-key="roof_automated_process">Roof mechanism<span class="sort-indicator"></span></th>
-        <th data-key="engine">Engine<span class="sort-indicator"></span></th>
-        <th data-key="fuel_or_charge_consumption">Consumption<span class="sort-indicator"></span></th>
-        <th data-key="tank_or_battery_size">Tank / battery<span class="sort-indicator"></span></th>
-        <th data-key="doors" class="num">Doors<span class="sort-indicator"></span></th>
-        <th data-key="phase2_status">Phase 2 status<span class="sort-indicator"></span></th>
-        <th>Selling items</th>
-      </tr>
-    </thead>
+    <thead id="tableHead"></thead>
     <tbody id="carRows"></tbody>
   </table>
 </main>
-<footer id="meta"></footer>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="brand-mark">MD</div>
+      <div class="brand-name">
+        <strong>MD-CarResearch</strong>
+        <span class="footer-tagline">Multi-category car search &amp; research tool</span>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 Maksym Denysiuk. Personal research project.</span>
+  </div>
+</footer>
 
 <script>
 (function () {
   var LS_KEY = 'carResearchFavorites';
+  var COLS_LS_KEY = 'carResearchColumns';
+  var PRICE_LS_KEY = 'carResearchPriceRanges';
+  var THEME_LS_KEY = 'carResearchTheme';
+
+  var PRICE_RANGES = [
+    { id: '0-50', min: 0, max: 50000 },
+    { id: '50-100', min: 50000, max: 100000 },
+    { id: '100-120', min: 100000, max: 120000 },
+    { id: '120+', min: 120000, max: Infinity }
+  ];
+  var DEFAULT_PRICE_RANGES = ['0-50', '50-100'];
+
+  var COLUMNS = [
+    { id: 'name', label: 'Name', sortKey: 'name', defaultVisible: true,
+      cell: function (c) { return '<strong>' + esc(c.name) + '</strong><br><span class="chip">' + esc(c.model_variant) + '</span>'; } },
+    { id: 'manufacturer', label: 'Manufacturer', sortKey: 'manufacturer', defaultVisible: true,
+      cell: function (c) { return esc(c.manufacturer); } },
+    { id: 'average_budget_eur', label: 'Avg. Budget (EUR)', sortKey: 'average_budget_eur', numeric: true, defaultVisible: true,
+      cell: function (c) { return fmtBudget(c.average_budget_eur); } },
+    { id: 'selling_items', label: 'Selling items', defaultVisible: true,
+      cell: function (c) { return renderSellingItems(c.selling_items); } },
+    { id: 'tank_or_battery_size', label: 'Tank / battery', sortKey: 'tank_or_battery_size', defaultVisible: true,
+      cell: function (c) { return esc(c.tank_or_battery_size); } },
+    { id: 'fuel_or_charge_consumption', label: 'Consumption', sortKey: 'fuel_or_charge_consumption', defaultVisible: true,
+      cell: function (c) { return esc(c.fuel_or_charge_consumption); } },
+    { id: 'engine', label: 'Engine', sortKey: 'engine', defaultVisible: true,
+      cell: function (c) { return esc(c.engine); } },
+    { id: 'roof_removable', label: 'Roof removable', sortKey: 'roof_removable', defaultVisible: true,
+      cell: function (c) { return fmtBool(c.roof_removable); } },
+    { id: 'roof_automated_process', label: 'Roof mechanism', sortKey: 'roof_automated_process', defaultVisible: true,
+      cell: function (c) { return esc(c.roof_automated_process); } },
+    { id: 'tier', label: 'Tier', sortKey: 'tier', defaultVisible: false,
+      cell: function (c) { return esc(c.tier); } },
+    { id: 'doors', label: 'Doors', sortKey: 'doors', numeric: true, defaultVisible: false,
+      cell: function (c) { return esc(c.doors); } },
+    { id: 'phase2_status', label: 'Phase 2 status', sortKey: 'phase2_status', defaultVisible: false,
+      cell: function (c) { return '<span class="chip">' + esc(c.phase2_status) + '</span>'; } }
+  ];
+
   var state = {
     cars: [], sortKey: 'average_budget_eur', sortDir: 1, groupBy: '', collapsedGroups: new Set(),
-    favorites: new Set(), view: 'all'
+    favorites: new Set(), view: 'all', visibleColumns: null, priceRanges: null,
+    categories: new Set(['roadsters'])
   };
+
+  function loadPriceRanges() {
+    try {
+      var raw = window.localStorage.getItem(PRICE_LS_KEY);
+      if (!raw) return DEFAULT_PRICE_RANGES.slice();
+      var arr = JSON.parse(raw);
+      return Array.isArray(arr) ? arr : DEFAULT_PRICE_RANGES.slice();
+    } catch (e) { return DEFAULT_PRICE_RANGES.slice(); }
+  }
+
+  function savePriceRanges() {
+    try { window.localStorage.setItem(PRICE_LS_KEY, JSON.stringify(Array.from(state.priceRanges))); }
+    catch (e) { /* localStorage unavailable */ }
+  }
+
+  function loadVisibleColumns() {
+    var defaults = COLUMNS.filter(function (col) { return col.defaultVisible; }).map(function (col) { return col.id; });
+    try {
+      var raw = window.localStorage.getItem(COLS_LS_KEY);
+      if (!raw) return defaults;
+      var arr = JSON.parse(raw);
+      return Array.isArray(arr) ? arr : defaults;
+    } catch (e) { return defaults; }
+  }
+
+  function saveVisibleColumns() {
+    try { window.localStorage.setItem(COLS_LS_KEY, JSON.stringify(Array.from(state.visibleColumns))); }
+    catch (e) { /* localStorage unavailable */ }
+  }
+
+  function visibleColumnDefs() {
+    return COLUMNS.filter(function (col) { return state.visibleColumns.has(col.id); });
+  }
 
   function loadFavoritesFromLocalStorage() {
     try {
@@ -224,26 +545,6 @@
 
   function updateFavCount() {
     document.getElementById('favCount').textContent = state.favorites.size;
-  }
-
-  function exportFavorites() {
-    var payload = {
-      metadata: {
-        description: 'User-curated shortlist of favorite roadster models, referencing car ids from storage/car_data.json.',
-        updated: new Date().toISOString().slice(0, 10),
-        note: "Exported from docs/index.html. Commit this file to storage/favorites.json to persist it in the repo."
-      },
-      favorite_ids: Array.from(state.favorites).sort()
-    };
-    var blob = new Blob([JSON.stringify(payload, null, 2) + '\n'], { type: 'application/json' });
-    var url = URL.createObjectURL(blob);
-    var a = document.createElement('a');
-    a.href = url;
-    a.download = 'favorites.json';
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
   }
 
   function fmtBudget(v) {
@@ -274,50 +575,16 @@
       }).join('') + '</details>';
   }
 
-  function populateFilters(cars) {
-    var tierSel = document.getElementById('tierFilter');
-    var phaseSel = document.getElementById('phase2Filter');
-    var tiers = Array.from(new Set(cars.map(function (c) { return c.tier; }))).sort();
-    var phases = Array.from(new Set(cars.map(function (c) { return c.phase2_status; }))).sort();
-    tiers.forEach(function (t) {
-      var o = document.createElement('option');
-      o.value = t; o.textContent = t;
-      tierSel.appendChild(o);
-    });
-    phases.forEach(function (p) {
-      var o = document.createElement('option');
-      o.value = p; o.textContent = p;
-      phaseSel.appendChild(o);
-    });
-  }
-
   function currentFilters() {
     return {
       q: document.getElementById('search').value.trim().toLowerCase(),
-      tier: document.getElementById('tierFilter').value,
-      phase2: document.getElementById('phase2Filter').value
+      engine: document.getElementById('engineFilter').value.trim().toLowerCase(),
+      consumption: document.getElementById('consumptionFilter').value.trim().toLowerCase()
     };
-  }
-
-  // The raw `tier` field mixes a coarse category with free-text research notes
-  // (e.g. "exotic (>100k) - NEW find, convergence pass"), so grouping on it
-  // verbatim produces ~25 near-duplicate buckets. Bucket to a small canonical
-  // set for grouping purposes only; the Tier column itself still shows the
-  // full original text.
-  function normalizeTier(tier) {
-    var t = (tier || '').toLowerCase();
-    if (t.indexOf('not yet available') === 0) return 'not yet available';
-    if (t.indexOf('ultra-exotic') === 0) return 'ultra-exotic (>100k)';
-    if (t.indexOf('niche/exotic') === 0 || t.indexOf('premium/exotic') === 0 || t.indexOf('exotic') === 0) return 'exotic (>100k)';
-    if (t.indexOf('premium') === 0) return 'premium';
-    if (t.indexOf('niche') === 0 || t.indexOf('mainstream/niche') === 0) return 'niche/boutique';
-    if (t.indexOf('mainstream') === 0) return 'mainstream';
-    return tier;
   }
 
   function groupLabel(c, key) {
     if (key === 'roof_removable') return c.roof_removable ? 'Roof removable: yes' : 'Roof removable: no';
-    if (key === 'tier') return normalizeTier(c.tier);
     var v = c[key];
     return (v === null || v === undefined || v === '') ? '(unknown)' : String(v);
   }
@@ -339,13 +606,22 @@
   function filteredSortedCars() {
     var f = currentFilters();
     var rows = state.cars.filter(function (c) {
+      if (!state.categories.has('roadsters')) return false;
       if (state.view === 'favorites' && !state.favorites.has(c.id)) return false;
-      if (f.tier && c.tier !== f.tier) return false;
-      if (f.phase2 && c.phase2_status !== f.phase2) return false;
+      if (state.priceRanges.size) {
+        var budget = c.average_budget_eur;
+        if (budget === null || budget === undefined) return false;
+        var inRange = PRICE_RANGES.some(function (r) {
+          return state.priceRanges.has(r.id) && budget >= r.min && budget < r.max;
+        });
+        if (!inRange) return false;
+      }
       if (f.q) {
         var hay = [c.name, c.manufacturer, c.tier, c.engine, c.model_variant].join(' ').toLowerCase();
         if (hay.indexOf(f.q) === -1) return false;
       }
+      if (f.engine && (c.engine || '').toLowerCase().indexOf(f.engine) === -1) return false;
+      if (f.consumption && (c.fuel_or_charge_consumption || '').toLowerCase().indexOf(f.consumption) === -1) return false;
       return true;
     });
     var key = state.sortKey, dir = state.sortDir;
@@ -368,45 +644,51 @@
     return rows;
   }
 
-  function carRowHtml(c, groupKey) {
+  function carRowHtml(c, groupKey, cols) {
     var hidden = groupKey !== null && state.collapsedGroups.has(groupKey);
     var isFav = state.favorites.has(c.id);
+    var cells = cols.map(function (col) {
+      return '<td' + (col.numeric ? ' class="num"' : '') + '>' + col.cell(c) + '</td>';
+    }).join('');
     return '<tr class="group-row' + (hidden ? ' hidden-row' : '') + '"' +
       (groupKey !== null ? ' data-group="' + esc(groupKey) + '"' : '') + '>' +
       '<td class="fav-col"><button type="button" class="fav-star' + (isFav ? ' is-fav' : '') + '" data-fav-id="' + esc(c.id) + '" ' +
       'aria-pressed="' + isFav + '" title="' + (isFav ? 'Remove from favorites' : 'Add to favorites') + '">' +
       (isFav ? '&#9733;' : '&#9734;') + '</button></td>' +
-      '<td><strong>' + esc(c.name) + '</strong><br><span class="chip">' + esc(c.model_variant) + '</span></td>' +
-      '<td>' + esc(c.manufacturer) + '</td>' +
-      '<td>' + esc(c.tier) + '</td>' +
-      '<td class="num">' + fmtBudget(c.average_budget_eur) + '</td>' +
-      '<td>' + fmtBool(c.roof_removable) + '</td>' +
-      '<td>' + esc(c.roof_automated_process) + '</td>' +
-      '<td>' + esc(c.engine) + '</td>' +
-      '<td>' + esc(c.fuel_or_charge_consumption) + '</td>' +
-      '<td>' + esc(c.tank_or_battery_size) + '</td>' +
-      '<td class="num">' + esc(c.doors) + '</td>' +
-      '<td><span class="chip">' + esc(c.phase2_status) + '</span></td>' +
-      '<td>' + renderSellingItems(c.selling_items) + '</td>' +
+      cells +
       '</tr>';
   }
 
-  function groupHeaderHtml(group) {
+  function groupHeaderHtml(group, colCount) {
     var collapsed = state.collapsedGroups.has(group.key);
     return '<tr class="group-header" data-toggle-group="' + esc(group.key) + '">' +
-      '<td colspan="13">' +
+      '<td colspan="' + colCount + '">' +
       '<span class="group-caret' + (collapsed ? ' collapsed' : '') + '">&#9662;</span> ' +
       esc(group.label) + ' <span class="group-count">(' + group.rows.length + ')</span>' +
       '</td></tr>';
   }
 
+  function renderHead(cols) {
+    var thead = document.getElementById('tableHead');
+    var favTh = '<th data-key="favorite" class="fav-col" title="Favorite">&#9733;<span class="sort-indicator"></span></th>';
+    var colsHtml = cols.map(function (col) {
+      return '<th data-key="' + esc(col.sortKey || '') + '"' + (col.numeric ? ' class="num"' : '') +
+        (!col.sortKey ? ' style="cursor:default"' : '') + '>' + esc(col.label) + '<span class="sort-indicator"></span></th>';
+    }).join('');
+    thead.innerHTML = '<tr>' + favTh + colsHtml + '</tr>';
+    wireSorting();
+  }
+
   function render() {
+    var cols = visibleColumnDefs();
+    renderHead(cols);
     var rows = filteredSortedCars();
     var groups = groupRows(rows);
     var tbody = document.getElementById('carRows');
+    var colCount = cols.length + 1;
     tbody.innerHTML = groups.map(function (g) {
-      var rowsHtml = g.rows.map(function (c) { return carRowHtml(c, g.key); }).join('');
-      return g.label === null ? rowsHtml : groupHeaderHtml(g) + rowsHtml;
+      var rowsHtml = g.rows.map(function (c) { return carRowHtml(c, g.key, cols); }).join('');
+      return g.label === null ? rowsHtml : groupHeaderHtml(g, colCount) + rowsHtml;
     }).join('');
     document.getElementById('count').textContent = rows.length + ' / ' +
       (state.view === 'favorites' ? state.favorites.size : state.cars.length) + ' models shown' +
@@ -427,8 +709,9 @@
 
   function wireSorting() {
     document.querySelectorAll('#carTable th[data-key]').forEach(function (th) {
+      var key = th.getAttribute('data-key');
+      if (!key) return;
       th.addEventListener('click', function () {
-        var key = th.getAttribute('data-key');
         if (state.sortKey === key) { state.sortDir *= -1; } else { state.sortKey = key; state.sortDir = 1; }
         render();
       });
@@ -452,6 +735,7 @@
 
   function setView(view) {
     state.view = view;
+    document.getElementById('viewToggle').classList.toggle('is-favorites', view === 'favorites');
     document.getElementById('tabAll').classList.toggle('active', view === 'all');
     document.getElementById('tabAll').setAttribute('aria-selected', String(view === 'all'));
     document.getElementById('tabFavorites').classList.toggle('active', view === 'favorites');
@@ -467,13 +751,101 @@
     });
     document.getElementById('tabAll').addEventListener('click', function () { setView('all'); });
     document.getElementById('tabFavorites').addEventListener('click', function () { setView('favorites'); });
-    document.getElementById('exportFavorites').addEventListener('click', exportFavorites);
+  }
+
+  function wireCategoryFilter() {
+    document.getElementById('categorySection').addEventListener('change', function (e) {
+      var checkbox = e.target.closest('input[data-category]');
+      if (!checkbox) return;
+      var id = checkbox.getAttribute('data-category');
+      if (checkbox.checked) { state.categories.add(id); } else { state.categories.delete(id); }
+      render();
+    });
   }
 
   function wireFilters() {
     document.getElementById('search').addEventListener('input', render);
-    document.getElementById('tierFilter').addEventListener('change', render);
-    document.getElementById('phase2Filter').addEventListener('change', render);
+    document.getElementById('engineFilter').addEventListener('input', render);
+    document.getElementById('consumptionFilter').addEventListener('input', render);
+  }
+
+  function syncPriceFilterChips() {
+    document.querySelectorAll('#filtersBar .chip-toggle').forEach(function (chip) {
+      var id = chip.getAttribute('data-range');
+      chip.classList.toggle('active', state.priceRanges.has(id));
+    });
+  }
+
+  function wirePriceFilter() {
+    syncPriceFilterChips();
+    document.getElementById('filtersBar').addEventListener('click', function (e) {
+      var chip = e.target.closest('.chip-toggle');
+      if (!chip) return;
+      var id = chip.getAttribute('data-range');
+      var active = chip.classList.toggle('active');
+      if (active) { state.priceRanges.add(id); } else { state.priceRanges.delete(id); }
+      savePriceRanges();
+      render();
+    });
+  }
+
+  function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    try { window.localStorage.setItem(THEME_LS_KEY, theme); } catch (e) { /* localStorage unavailable */ }
+    var btn = document.getElementById('themeToggle');
+    var isDark = theme === 'dark';
+    btn.innerHTML = isDark ? '&#9728;' : '&#9789;';
+    var label = isDark ? 'Switch to light theme' : 'Switch to dark theme';
+    btn.title = label;
+    btn.setAttribute('aria-label', label);
+  }
+
+  function wireThemeToggle() {
+    var current = document.documentElement.getAttribute('data-theme') || 'dark';
+    applyTheme(current);
+    document.getElementById('themeToggle').addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+    });
+  }
+
+  function renderColumnPicker() {
+    var panel = document.getElementById('colPickerPanel');
+    panel.innerHTML = COLUMNS.map(function (col) {
+      var checked = state.visibleColumns.has(col.id) ? ' checked' : '';
+      return '<label><input type="checkbox" data-col-id="' + esc(col.id) + '"' + checked + '>' + esc(col.label) + '</label>';
+    }).join('');
+  }
+
+  function wireColumnPicker() {
+    renderColumnPicker();
+    var btn = document.getElementById('colPickerBtn');
+    var panel = document.getElementById('colPickerPanel');
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var open = panel.classList.toggle('open');
+      btn.setAttribute('aria-expanded', String(open));
+    });
+    panel.addEventListener('click', function (e) { e.stopPropagation(); });
+    panel.addEventListener('change', function (e) {
+      var checkbox = e.target.closest('input[data-col-id]');
+      if (!checkbox) return;
+      var id = checkbox.getAttribute('data-col-id');
+      if (checkbox.checked) { state.visibleColumns.add(id); } else { state.visibleColumns.delete(id); }
+      saveVisibleColumns();
+      render();
+    });
+    document.addEventListener('click', function () {
+      panel.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false');
+    });
+  }
+
+  function hideSplash() {
+    var splash = document.getElementById('splash');
+    if (!splash) return;
+    splash.classList.add('hidden');
+    setTimeout(function () { splash.remove(); }, 500);
   }
 
   function showError(msg) {
@@ -511,19 +883,20 @@
 
       document.getElementById('status').hidden = true;
       document.getElementById('carTable').hidden = false;
-      var m = data.metadata || {};
-      document.getElementById('meta').textContent =
-        'Generated ' + (m.generated || '?') + ' · Phase 2 price threshold: €' +
-        (m.phase2_price_threshold_eur || '?').toLocaleString('en-US') +
-        ' · ' + state.cars.length + ' models total. ' + (m.specs_disclaimer || '');
-      populateFilters(state.cars);
-      wireSorting();
+      state.visibleColumns = new Set(loadVisibleColumns());
+      state.priceRanges = new Set(loadPriceRanges());
       wireGrouping();
       wireFavorites();
       wireFilters();
+      wireColumnPicker();
+      wirePriceFilter();
+      wireCategoryFilter();
       render();
+      hideSplash();
     })
-    .catch(function (err) { showError(err.message); });
+    .catch(function (err) { showError(err.message); hideSplash(); });
+
+  wireThemeToggle();
 })();
 </script>
 </body>
