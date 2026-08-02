@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/MaximDenisuk/Car-research-/docs/favorites.schema.json",
+  "title": "Car-research- favorites list",
+  "description": "Schema for storage/favorites.json — a user-curated shortlist referencing car ids from storage/car_data.json.",
+  "type": "object",
+  "required": ["metadata", "favorite_ids"],
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["description", "updated"],
+      "additionalProperties": true,
+      "properties": {
+        "description": { "type": "string" },
+        "updated": { "type": "string", "format": "date" },
+        "note": { "type": "string" }
+      }
+    },
+    "favorite_ids": {
+      "type": "array",
+      "description": "Array of car `id` values (see storage/car_data.json) that have been marked as favorites. No duplicates.",
+      "items": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+      "uniqueItems": true
+    }
+  }
+}

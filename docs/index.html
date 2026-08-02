@@ -110,6 +110,39 @@
   .group-caret.collapsed { transform: rotate(-90deg); }
   .group-count { color: var(--muted); font-weight: 400; }
   tr.group-row.hidden-row { display: none; }
+  .fav-col { width: 2.2rem; text-align: center; }
+  .fav-star {
+    cursor: pointer;
+    font-size: 1.1rem;
+    line-height: 1;
+    background: none;
+    border: none;
+    padding: 0.1rem;
+    color: var(--muted);
+  }
+  .fav-star.is-fav { color: #d4a017; }
+  .fav-star:hover { color: var(--accent); }
+  .tabs { display: flex; gap: 0.25rem; }
+  .tab-btn {
+    padding: 0.4rem 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg);
+    color: var(--fg);
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  .tab-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .btn {
+    padding: 0.4rem 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg);
+    color: var(--fg);
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  .btn:hover { border-color: var(--accent); color: var(--accent); }
 </style>
 </head>
 <body>
@@ -117,6 +150,10 @@
   <h1>Car-research- : Roadster Dataset Viewer</h1>
   <p class="subtitle">Renders <code>storage/car_data.json</code> (validated against <code>docs/car_data.schema.json</code>). Portugal roadster buying research, 2024&ndash;2026 model years.</p>
   <div class="controls">
+    <div class="tabs" role="tablist" aria-label="View">
+      <button type="button" class="tab-btn active" id="tabAll" role="tab" aria-selected="true">All cars</button>
+      <button type="button" class="tab-btn" id="tabFavorites" role="tab" aria-selected="false">&#9733; Favorites (<span id="favCount">0</span>)</button>
+    </div>
     <input type="search" id="search" placeholder="Filter by name, manufacturer, tier, engine...">
     <select id="tierFilter"><option value="">All tiers</option></select>
     <select id="phase2Filter"><option value="">All phase2_status</option></select>
@@ -127,6 +164,7 @@
       <option value="phase2_status">Group by phase 2 status</option>
       <option value="roof_removable">Group by roof removable</option>
     </select>
+    <button type="button" class="btn" id="exportFavorites" title="Download storage/favorites.json with your current selection">Export favorites.json</button>
     <span class="stat" id="count"></span>
   </div>
 </header>
@@ -135,6 +173,7 @@
   <table id="carTable" hidden>
     <thead>
       <tr>
+        <th data-key="favorite" class="fav-col" title="Favorite">&#9733;<span class="sort-indicator"></span></th>
         <th data-key="name">Name<span class="sort-indicator"></span></th>
         <th data-key="manufacturer">Manufacturer<span class="sort-indicator"></span></th>
         <th data-key="tier">Tier<span class="sort-indicator"></span></th>
@@ -156,7 +195,56 @@
 
 <script>
 (function () {
-  var state = { cars: [], sortKey: 'average_budget_eur', sortDir: 1, groupBy: '', collapsedGroups: new Set() };
+  var LS_KEY = 'carResearchFavorites';
+  var state = {
+    cars: [], sortKey: 'average_budget_eur', sortDir: 1, groupBy: '', collapsedGroups: new Set(),
+    favorites: new Set(), view: 'all'
+  };
+
+  function loadFavoritesFromLocalStorage() {
+    try {
+      var raw = window.localStorage.getItem(LS_KEY);
+      if (!raw) return null;
+      var arr = JSON.parse(raw);
+      return Array.isArray(arr) ? arr : null;
+    } catch (e) { return null; }
+  }
+
+  function saveFavoritesToLocalStorage() {
+    try { window.localStorage.setItem(LS_KEY, JSON.stringify(Array.from(state.favorites))); }
+    catch (e) { /* localStorage unavailable (e.g. private mode) -- favorites still work for this page load */ }
+  }
+
+  function toggleFavorite(id) {
+    if (state.favorites.has(id)) { state.favorites.delete(id); } else { state.favorites.add(id); }
+    saveFavoritesToLocalStorage();
+    updateFavCount();
+    render();
+  }
+
+  function updateFavCount() {
+    document.getElementById('favCount').textContent = state.favorites.size;
+  }
+
+  function exportFavorites() {
+    var payload = {
+      metadata: {
+        description: 'User-curated shortlist of favorite roadster models, referencing car ids from storage/car_data.json.',
+        updated: new Date().toISOString().slice(0, 10),
+        note: "Exported from docs/index.html. Commit this file to storage/favorites.json to persist it in the repo."
+      },
+      favorite_ids: Array.from(state.favorites).sort()
+    };
+    var blob = new Blob([JSON.stringify(payload, null, 2) + '\n'], { type: 'application/json' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = 'favorites.json';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
 
   function fmtBudget(v) {
     if (v === null || v === undefined) return '<span class="empty-note">n/a</span>';
@@ -251,6 +339,7 @@
   function filteredSortedCars() {
     var f = currentFilters();
     var rows = state.cars.filter(function (c) {
+      if (state.view === 'favorites' && !state.favorites.has(c.id)) return false;
       if (f.tier && c.tier !== f.tier) return false;
       if (f.phase2 && c.phase2_status !== f.phase2) return false;
       if (f.q) {
@@ -261,7 +350,13 @@
     });
     var key = state.sortKey, dir = state.sortDir;
     rows.sort(function (a, b) {
-      var av = a[key], bv = b[key];
+      var av, bv;
+      if (key === 'favorite') {
+        av = state.favorites.has(a.id) ? 1 : 0;
+        bv = state.favorites.has(b.id) ? 1 : 0;
+      } else {
+        av = a[key]; bv = b[key];
+      }
       if (av === null || av === undefined) av = dir === 1 ? Infinity : -Infinity;
       if (bv === null || bv === undefined) bv = dir === 1 ? Infinity : -Infinity;
       if (typeof av === 'string') av = av.toLowerCase();
@@ -275,8 +370,12 @@
 
   function carRowHtml(c, groupKey) {
     var hidden = groupKey !== null && state.collapsedGroups.has(groupKey);
+    var isFav = state.favorites.has(c.id);
     return '<tr class="group-row' + (hidden ? ' hidden-row' : '') + '"' +
       (groupKey !== null ? ' data-group="' + esc(groupKey) + '"' : '') + '>' +
+      '<td class="fav-col"><button type="button" class="fav-star' + (isFav ? ' is-fav' : '') + '" data-fav-id="' + esc(c.id) + '" ' +
+      'aria-pressed="' + isFav + '" title="' + (isFav ? 'Remove from favorites' : 'Add to favorites') + '">' +
+      (isFav ? '&#9733;' : '&#9734;') + '</button></td>' +
       '<td><strong>' + esc(c.name) + '</strong><br><span class="chip">' + esc(c.model_variant) + '</span></td>' +
       '<td>' + esc(c.manufacturer) + '</td>' +
       '<td>' + esc(c.tier) + '</td>' +
@@ -295,7 +394,7 @@
   function groupHeaderHtml(group) {
     var collapsed = state.collapsedGroups.has(group.key);
     return '<tr class="group-header" data-toggle-group="' + esc(group.key) + '">' +
-      '<td colspan="12">' +
+      '<td colspan="13">' +
       '<span class="group-caret' + (collapsed ? ' collapsed' : '') + '">&#9662;</span> ' +
       esc(group.label) + ' <span class="group-count">(' + group.rows.length + ')</span>' +
       '</td></tr>';
@@ -309,9 +408,11 @@
       var rowsHtml = g.rows.map(function (c) { return carRowHtml(c, g.key); }).join('');
       return g.label === null ? rowsHtml : groupHeaderHtml(g) + rowsHtml;
     }).join('');
-    document.getElementById('count').textContent = rows.length + ' / ' + state.cars.length + ' models shown' +
+    document.getElementById('count').textContent = rows.length + ' / ' +
+      (state.view === 'favorites' ? state.favorites.size : state.cars.length) + ' models shown' +
       (state.groupBy ? ' in ' + groups.length + ' group' + (groups.length === 1 ? '' : 's') : '');
     updateSortIndicators();
+    updateFavCount();
   }
 
   function updateSortIndicators() {
@@ -349,6 +450,26 @@
     });
   }
 
+  function setView(view) {
+    state.view = view;
+    document.getElementById('tabAll').classList.toggle('active', view === 'all');
+    document.getElementById('tabAll').setAttribute('aria-selected', String(view === 'all'));
+    document.getElementById('tabFavorites').classList.toggle('active', view === 'favorites');
+    document.getElementById('tabFavorites').setAttribute('aria-selected', String(view === 'favorites'));
+    render();
+  }
+
+  function wireFavorites() {
+    document.getElementById('carRows').addEventListener('click', function (e) {
+      var star = e.target.closest('.fav-star');
+      if (!star) return;
+      toggleFavorite(star.getAttribute('data-fav-id'));
+    });
+    document.getElementById('tabAll').addEventListener('click', function () { setView('all'); });
+    document.getElementById('tabFavorites').addEventListener('click', function () { setView('favorites'); });
+    document.getElementById('exportFavorites').addEventListener('click', exportFavorites);
+  }
+
   function wireFilters() {
     document.getElementById('search').addEventListener('input', render);
     document.getElementById('tierFilter').addEventListener('change', render);
@@ -365,13 +486,29 @@
       'then open <code>http://localhost:8000/docs/</code>.';
   }
 
-  fetch('../storage/car_data.json')
-    .then(function (r) {
-      if (!r.ok) throw new Error('HTTP ' + r.status);
+  function fetchJson(url) {
+    return fetch(url).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status + ' for ' + url);
       return r.json();
-    })
-    .then(function (data) {
+    });
+  }
+
+  Promise.all([
+    fetchJson('../storage/car_data.json'),
+    fetchJson('../storage/favorites.json').catch(function () { return { favorite_ids: [] }; })
+  ])
+    .then(function (results) {
+      var data = results[0];
+      var favData = results[1];
       state.cars = data.cars || [];
+
+      // Seed favorites from the committed storage/favorites.json, then let
+      // localStorage (this browser's live edits) override it if present --
+      // localStorage represents "what you've clicked since your last export".
+      var seeded = Array.isArray(favData.favorite_ids) ? favData.favorite_ids : [];
+      var local = loadFavoritesFromLocalStorage();
+      state.favorites = new Set(local !== null ? local : seeded);
+
       document.getElementById('status').hidden = true;
       document.getElementById('carTable').hidden = false;
       var m = data.metadata || {};
@@ -382,6 +519,7 @@
       populateFilters(state.cars);
       wireSorting();
       wireGrouping();
+      wireFavorites();
       wireFilters();
       render();
     })

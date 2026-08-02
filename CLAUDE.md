@@ -13,15 +13,26 @@ Car-research-/
 ├── phase1-extended-roadster-list.md     # Phase 1, deep-research convergence pass + addendum
 ├── phase2-portugal-europe-listings.md   # Phase 2, human-readable real-listing writeup
 ├── storage/
-│   └── car_data.json                    # Authoritative structured dataset (Phases 1-2 combined)
+│   ├── car_data.json                    # Authoritative structured dataset (Phases 1-2 combined)
+│   └── favorites.json                   # Committed snapshot of the user's favorite car ids
 └── docs/
     ├── car_data.schema.json             # JSON Schema (2020-12) for storage/car_data.json
+    ├── favorites.schema.json            # JSON Schema (2020-12) for storage/favorites.json
     └── index.html                       # Simple static viewer for storage/car_data.json
 ```
 
 `storage/car_data.json` is the **authoritative, up-to-date source** — it's kept in sync with the latest findings from both phases. The `.md` files are the narrative research trail (useful for methodology and reasoning) and may lag behind the JSON on the newest finds; when they disagree, trust the JSON.
 
-`docs/car_data.schema.json` documents and validates the structure of `storage/car_data.json`. `docs/index.html` is a dependency-free viewer (fetch + filter/sort table) — since it uses `fetch()`, opening it via `file://` will fail in most browsers; serve the repo root instead, e.g. `python3 -m http.server 8000` then visit `http://localhost:8000/docs/`. Whenever the JSON's shape changes, update the schema alongside it.
+`docs/car_data.schema.json` documents and validates the structure of `storage/car_data.json`. `docs/index.html` is a dependency-free viewer (fetch + filter/sort/group table) — since it uses `fetch()`, opening it via `file://` will fail in most browsers; serve the repo root instead, e.g. `python3 -m http.server 8000` then visit `http://localhost:8000/docs/`. Whenever a JSON's shape changes, update its schema alongside it.
+
+### Favorites
+
+The viewer lets you star cars and switch to a "Favorites" tab that shows only starred models. Because `docs/index.html` is a static page with no backend, it can't silently write back into the repo (embedding a GitHub write-token in public client-side JS would be a real security hole — anyone visiting the page could steal it). So favoriting works in two layers:
+
+1. **Instant, per-browser**: clicking a star updates `localStorage` immediately — no reload needed, persists across visits in that browser.
+2. **Committed snapshot**: `storage/favorites.json` (validated by `docs/favorites.schema.json`) is what the page seeds its initial favorites from, and what's checked into the repo. The "Export favorites.json" button downloads the current selection in that exact shape — download it and commit it to `storage/favorites.json` (yourself, or hand the file to Claude Code) whenever you want your picks to persist for other visitors/devices.
+
+`favorite_ids` in both the export and `storage/favorites.json` are `car.id` values from `storage/car_data.json` — no duplicated car data.
 
 ## The three phases
 

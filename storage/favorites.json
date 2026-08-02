@@ -1,0 +1,8 @@
+{
+  "metadata": {
+    "description": "User-curated shortlist of favorite roadster models, referencing car ids from storage/car_data.json.",
+    "updated": "2026-08-02",
+    "note": "This file is the persisted/committed snapshot. The live viewer (docs/index.html) keeps favorites in the browser's localStorage as you click, and offers an 'Export favorites.json' button to produce an updated version of this file to commit back into the repo."
+  },
+  "favorite_ids": []
+}
