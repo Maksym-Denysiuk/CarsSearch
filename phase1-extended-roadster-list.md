@@ -102,3 +102,22 @@
 - Pricing conversions retain the same approximations as Phase 1 (GBP→EUR ~1.17, USD→EUR ~0.92, VAT removal by national rate).
 
 **Next: Phase 2** — for the realistic/attainable tiers (mainstream, premium, grand-tourer, exotic-but-orderable), search actual listings in Portugal first, then wider Europe: price, location, mileage, transmission, roof type. Tax and import-tax columns left empty per instructions.
+
+## Addendum — convergence-run findings (round 2, same day)
+
+Per instruction to keep running Phase 1 until 3 consecutive search rounds return no new models, a further ~15 targeted rounds were run. **Honest result: true 3-in-a-row-clean convergence was not achieved for the ultra-exotic bespoke/coachbuilt tier** — that segment (Bugatti, Pagani, Bentley Mulliner, Rolls-Royce Coachbuild, Aspark, Ferrari special series, Hennessey) produces a new sold-out limited edition at a rate of roughly one per 2-3 search rounds, because these are genuinely being announced in real time (this session's date is 2026-08-02) rather than being a fixed, discoverable set. Two consecutive clean rounds *were* achieved for the mainstream/premium/GT/mid-exotic tiers before the ultra-exotic tail kept surfacing new entries. New confirmed models added to `storage/car_data.json` from this pass:
+
+- **Ferrari Amalfi Spider** — official, revealed March 2026, 631hp V8 GT convertible, deliveries early 2027 (not yet delivered).
+- **BMW Skytop** — official, 50 units, sold out, targa-top roadster based on G15 8-series, ~$500k, deliveries early 2026.
+- **Porsche 911 GT3 S/C** — official, no-roof track-focused GT3 variant, $273,000, arriving Fall 2026.
+- **Hennessey Venom F5 Revolution Roadster** — 12 units, $3M+, 1817hp open-top hypercar.
+- **Rolls-Royce Project Nightingale** — first Coachbuild Collection model, 100 units, electric convertible, deliveries 2028.
+- **Ferrari 296 Speciale Aperta** — performance evolution of the 296 GTS, ~$510,000 estimated (Ferrari hasn't confirmed formal pricing).
+- **Ferrari 849 Testarossa Spider** — the actual SF90 Spider successor/replacement, official, from ~€500,000 (Europe).
+- **Aspark Owl Roadster** — $3.5M, 20 units, 1953hp electric hypercar, "quickest EV in the world" claim.
+- **Bentley Mulliner Batur Convertible** — 16 units, sold out, ~$2.6M, first true Mulliner-built convertible, final W12 send-off.
+- **Longbow Roadster** — pricing now confirmed at £64,995 (previously "not yet public").
+
+**Confirmed still excluded (rumor/render only, not official):** Fiat 124 Spider revival, Alfa Romeo Spider revival, Nissan Z Roadster (exec aspiration, no confirmed product), Porsche 992 Speedster (rumored), Ferrari F80 Aperta (anticipated H2 2026, not yet confirmed), BMW i4-based electric convertible (2028, future), Alpine A310 Roadster (2028, future — coupe first).
+
+All of the above are now reflected in `storage/car_data.json`, which is the authoritative structured dataset going forward (see `CLAUDE.md`).

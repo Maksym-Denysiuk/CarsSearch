@@ -4,6 +4,8 @@ Researched actual for-sale listings (2024–2026 model years) for every roadster
 
 No fabricated data: every row below is either a real listing with a source, or an explicit "no listing found" note. Search date: 2026-08-02.
 
+**Rule update (applied going forward from this point):** a later instruction added a rule that Phase 2 (real-listing search) is **skipped entirely for any car whose average budget exceeds €100,000**. This file was produced *before* that rule existed, so it still contains real listing data for several cars over that threshold (Ferrari, McLaren, Bentley, Aston Martin, Porsche exotics, etc.). Rather than discard already-verified real data, those entries are retained here and in `storage/car_data.json` under `phase2_status: "found_prior_to_threshold_rule"`, distinct from `"completed"` (≤€100k, in-scope) and `"skipped_price_threshold"` (>€100k, no search performed). **`storage/car_data.json` is the authoritative, up-to-date structured source** — it also includes new models found in the Phase 1 convergence pass (Ferrari Amalfi Spider, BMW Skytop, Ferrari 849 Testarossa Spider, etc.) that are not in this file. See `CLAUDE.md` for the full project structure.
+
 ## Mainstream / affordable
 
 | Car Name | Model / Variant | Market | Price | Location | Mileage (km) | Transmission | Roof (removable/foldable) | Tax | Import Tax | Source |
