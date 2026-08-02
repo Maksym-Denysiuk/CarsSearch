@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="336" viewBox="0 0 600 336"
+     role="group" aria-label="Car body types" class="body-type-chart">
+  <!--
+    Body-type silhouettes. Every g element's id is a value of the body_type enum
+    in docs/request.schema.json and docs/results.schema.json, so this chart IS
+    the enum's documentation: if a shape has no matching enum value (or the
+    other way round) something is out of sync. tools/verify.py asserts it.
+
+    Drawn here rather than hot-linked so the site owns its own assets: no usage
+    rights to borrow, no third-party availability to depend on, no mixed-content
+    risk, and the labels are in the same language as the rest of the UI.
+
+    Line art only: stroke="currentColor" everywhere, so it inherits the page's
+    light/dark theme with no per-theme copies.
+
+    Keep this file valid XML (no double hyphens inside comments): it is served
+    as image/svg+xml, so a parse error breaks it everywhere except innerHTML.
+  -->
+  <style>
+    .bt-hit { fill: transparent; stroke: none; }
+    .bt-shape { fill: none; stroke: currentColor; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+    .bt-wheel { fill: none; stroke: currentColor; stroke-width: 2; }
+    .bt-label { fill: currentColor; font-family: inherit; font-size: 12px; text-anchor: middle; }
+  </style>
+
+  <g id="hatchback" class="bt-option" data-body-type="hatchback">
+    <rect class="bt-hit" x="6" y="6" width="138" height="100" rx="10"/>
+    <g transform="translate(25,18)">
+      <path class="bt-shape" d="M6,37 L6,27 L24,25 L34,12 L58,12 L86,26 L92,26 L92,37 Z"/>
+      <circle class="bt-wheel" cx="26" cy="37" r="7"/>
+      <circle class="bt-wheel" cx="76" cy="37" r="7"/>
+    </g>
+    <text class="bt-label" x="75" y="92">Hatchback</text>
+  </g>
+
+  <g id="sedan" class="bt-option" data-body-type="sedan">
+    <rect class="bt-hit" x="156" y="6" width="138" height="100" rx="10"/>
+    <g transform="translate(175,18)">
+      <path class="bt-shape" d="M6,37 L6,27 L22,25 L34,13 L52,13 L64,22 L88,22 L92,25 L92,37 Z"/>
+      <circle class="bt-wheel" cx="26" cy="37" r="7"/>
+      <circle class="bt-wheel" cx="76" cy="37" r="7"/>
+    </g>
+    <text class="bt-label" x="225" y="92">Sedan</text>
+  </g>
+
+  <g id="estate" class="bt-option" data-body-type="estate">
+    <rect class="bt-hit" x="306" y="6" width="138" height="100" rx="10"/>
+    <g transform="translate(325,18)">
+      <path class="bt-shape" d="M6,37 L6,27 L22,25 L34,13 L70,13 L86,15 L90,26 L90,37 Z"/>
+      <circle class="bt-wheel" cx="26" cy="37" r="7"/>
+      <circle class="bt-wheel" cx="76" cy="37" r="7"/>
+    </g>
+    <text class="bt-label" x="375" y="92">Estate</text>
+  </g>
+
+  <g id="coupe" class="bt-option" data-body-type="coupe">
+    <rect class="bt-hit" x="456" y="6" width="138" height="100" rx="10"/>
+    <g transform="translate(475,18)">
+      <path class="bt-shape" d="M6,37 L6,28 L20,25 L32,15 L48,13 L74,22 L90,27 L90,37 Z"/>
+      <circle class="bt-wheel" cx="26" cy="37" r="7"/>
+      <circle class="bt-wheel" cx="76" cy="37" r="7"/>
+    </g>
+    <text class="bt-label" x="525" y="92">Coup&#233;</text>
+  </g>
+
+  <g id="roadster" class="bt-option" data-body-type="roadster">
+    <rect class="bt-hit" x="6" y="118" width="138" height="100" rx="10"/>
+    <g transform="translate(25,130)">
+      <path class="bt-shape" d="M6,37 L6,28 L18,26 L40,23 L48,15 L52,15 L54,23 L72,23 L86,26 L88,28 L88,37 Z"/>
+      <circle class="bt-wheel" cx="26" cy="37" r="7"/>
+      <circle class="bt-wheel" cx="76" cy="37" r="7"/>
+    </g>
+    <text class="bt-label" x="75" y="204">Roadster</text>
+  </g>
+
+  <g id="convertible" class="bt-option" data-body-type="convertible">
+    <rect class="bt-hit" x="156" y="118" width="138" height="100" rx="10"/>
+    <g transform="translate(175,130)">
+      <path class="bt-shape" d="M6,37 L6,28 L18,26 L36,23 L44,14 L50,14 L52,23 L70,23 L74,18 L84,20 L90,27 L90,37 Z"/>
+      <circle class="bt-wheel" cx="26" cy="37" r="7"/>
+      <circle class="bt-wheel" cx="76" cy="37" r="7"/>
+    </g>
+    <text class="bt-label" x="225" y="204">Convertible</text>
+  </g>
+
+  <g id="suv-compact" class="bt-option" data-body-type="suv-compact">
+    <rect class="bt-hit" x="306" y="118" width="138" height="100" rx="10"/>
+    <g transform="translate(325,130)">
+      <path class="bt-shape" d="M8,35 L8,24 L22,22 L32,10 L58,10 L70,22 L88,23 L92,26 L92,35 Z"/>
+      <circle class="bt-wheel" cx="26" cy="36" r="8"/>
+      <circle class="bt-wheel" cx="76" cy="36" r="8"/>
+    </g>
+    <text class="bt-label" x="375" y="204">SUV &#8212; compact</text>
+  </g>
+
+  <g id="suv-midsize" class="bt-option" data-body-type="suv-midsize">
+    <rect class="bt-hit" x="456" y="118" width="138" height="100" rx="10"/>
+    <g transform="translate(475,130)">
+      <path class="bt-shape" d="M6,35 L6,24 L20,22 L30,9 L64,9 L76,21 L90,22 L94,25 L94,35 Z"/>
+      <circle class="bt-wheel" cx="26" cy="36" r="8"/>
+      <circle class="bt-wheel" cx="78" cy="36" r="8"/>
+    </g>
+    <text class="bt-label" x="525" y="204">SUV &#8212; midsize</text>
+  </g>
+
+  <g id="suv-large" class="bt-option" data-body-type="suv-large">
+    <rect class="bt-hit" x="6" y="230" width="138" height="100" rx="10"/>
+    <g transform="translate(25,242)">
+      <path class="bt-shape" d="M6,35 L6,24 L18,22 L28,8 L74,8 L86,10 L92,22 L92,35 Z"/>
+      <circle class="bt-wheel" cx="26" cy="36" r="8"/>
+      <circle class="bt-wheel" cx="76" cy="36" r="8"/>
+    </g>
+    <text class="bt-label" x="75" y="316">SUV &#8212; large</text>
+  </g>
+
+  <g id="mpv" class="bt-option" data-body-type="mpv">
+    <rect class="bt-hit" x="156" y="230" width="138" height="100" rx="10"/>
+    <g transform="translate(175,242)">
+      <path class="bt-shape" d="M6,36 L6,27 L12,25 L34,8 L68,8 L84,14 L88,26 L88,36 Z"/>
+      <circle class="bt-wheel" cx="26" cy="37" r="7"/>
+      <circle class="bt-wheel" cx="74" cy="37" r="7"/>
+    </g>
+    <text class="bt-label" x="225" y="316">MPV</text>
+  </g>
+
+  <g id="pickup" class="bt-option" data-body-type="pickup">
+    <rect class="bt-hit" x="306" y="230" width="138" height="100" rx="10"/>
+    <g transform="translate(325,242)">
+      <path class="bt-shape" d="M6,36 L6,26 L20,24 L30,12 L54,12 L60,24 L92,24 L92,36 Z"/>
+      <path class="bt-shape" d="M62,28 L90,28"/>
+      <circle class="bt-wheel" cx="24" cy="37" r="7"/>
+      <circle class="bt-wheel" cx="78" cy="37" r="7"/>
+    </g>
+    <text class="bt-label" x="375" y="316">Pickup</text>
+  </g>
+
+  <g id="van" class="bt-option" data-body-type="van">
+    <rect class="bt-hit" x="456" y="230" width="138" height="100" rx="10"/>
+    <g transform="translate(475,242)">
+      <path class="bt-shape" d="M6,34 L6,20 L12,14 L26,10 L84,10 L90,14 L90,34 Z"/>
+      <path class="bt-shape" d="M26,10 L26,22 L12,22"/>
+      <circle class="bt-wheel" cx="24" cy="35" r="7"/>
+      <circle class="bt-wheel" cx="76" cy="35" r="7"/>
+    </g>
+    <text class="bt-label" x="525" y="316">Van</text>
+  </g>
+</svg>

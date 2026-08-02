@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Maksym-Denysiuk/CarsSearch/docs/brands.schema.json",
+  "title": "CarsSearch brand checklist",
+  "description": "Schema for Config/brands.json — the immutable reference checklist of car brands grouped by parent company. The search pipeline reads this file to derive each request's per-brand checklist and never writes to it; progress state belongs to request.json.",
+  "type": "object",
+  "required": ["schema_version", "generated", "description", "groups"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "generated": { "type": "string", "format": "date" },
+    "description": { "type": "string" },
+    "groups": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/group" }
+    }
+  },
+  "$defs": {
+    "group": {
+      "type": "object",
+      "required": ["group_id", "name", "active", "brands"],
+      "additionalProperties": false,
+      "properties": {
+        "group_id": {
+          "type": "string",
+          "pattern": "^g[0-9]{2}-[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "Stable identifier, e.g. 'g03-vw'. The numeric part preserves the owner's original list ordering."
+        },
+        "name": { "type": "string", "description": "Parent company / group display name." },
+        "active": {
+          "type": "boolean",
+          "description": "False excludes every brand in the group from active searches (e.g. the distressed/defunct group). Request completion is evaluated over active groups only."
+        },
+        "note": { "type": "string", "description": "Why the group is grouped or flagged the way it is." },
+        "brands": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/brand" }
+        }
+      }
+    },
+    "brand": {
+      "type": "object",
+      "required": ["brand_id", "name", "aliases"],
+      "additionalProperties": false,
+      "properties": {
+        "brand_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "Stable kebab-case identifier, unique across the whole file (not just within its group)."
+        },
+        "name": { "type": "string", "description": "Brand display name as the owner listed it." },
+        "aliases": {
+          "type": "array",
+          "description": "Alternative spellings/trade names used when matching this brand in search results and page text. May be empty.",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "note": { "type": "string", "description": "Market/status context, e.g. bankruptcy date or home market." }
+      }
+    }
+  }
+}

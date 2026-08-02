@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Maksym-Denysiuk/CarsSearch/docs/requests_index.schema.json",
+  "title": "CarsSearch requests manifest",
+  "description": "Schema for Requests/index.json — the manifest of every search request. GitHub Pages serves no directory listing, so the viewer discovers requests through this file. It is DERIVED: never hand-edited, always regenerated wholesale from the individual request.json files, which is what keeps it merge-conflict-proof.",
+  "type": "object",
+  "required": ["schema_version", "generated", "requests"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "generated": {
+      "type": "string",
+      "description": "ISO-8601 timestamp of the regeneration that produced this file."
+    },
+    "requests": {
+      "type": "array",
+      "description": "One row per request, newest-first is not required — the viewer sorts by date_of_request.",
+      "items": { "$ref": "#/$defs/request_row" }
+    }
+  },
+  "$defs": {
+    "request_row": {
+      "type": "object",
+      "required": [
+        "request_id",
+        "title",
+        "request_path",
+        "results_path",
+        "favorites_path",
+        "date_of_request",
+        "status",
+        "search_state",
+        "counts"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "request_id": {
+          "type": "string",
+          "pattern": "^req-[0-9]{4}-[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "Stable id, also the folder name under Requests/."
+        },
+        "title": { "type": "string", "description": "Human-readable label shown in the request picker." },
+        "request_path": {
+          "type": "string",
+          "description": "Repo-root-relative path to this request's request.json. The viewer lives in docs/ and prefixes '../'."
+        },
+        "results_path": { "type": "string", "description": "Repo-root-relative path to this request's results.json." },
+        "favorites_path": { "type": "string", "description": "Repo-root-relative path to this request's favorites.json." },
+        "date_of_request": { "type": "string", "format": "date" },
+        "status": { "$ref": "#/$defs/request_status" },
+        "search_state": {
+          "type": "object",
+          "description": "Mirror of request.json's system_fields.search_state, so the picker can show live progress without loading every request file.",
+          "required": ["group", "brand", "models_done"],
+          "additionalProperties": false,
+          "properties": {
+            "group": { "type": ["string", "null"], "description": "Display name of the group currently being searched; null when idle/done." },
+            "brand": { "type": ["string", "null"], "description": "Display name of the brand currently being searched; null when idle/done." },
+            "models_done": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "counts": {
+          "type": "object",
+          "required": ["models", "offerings"],
+          "additionalProperties": false,
+          "properties": {
+            "models": { "type": "integer", "minimum": 0, "description": "Number of model entries in this request's results.json." },
+            "offerings": { "type": "integer", "minimum": 0, "description": "Total offerings across all of this request's models." }
+          }
+        }
+      }
+    },
+    "request_status": {
+      "type": "string",
+      "enum": ["tbd", "in progress", "done"]
+    }
+  }
+}

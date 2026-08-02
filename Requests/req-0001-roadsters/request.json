@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "request_id": "req-0001-roadsters",
+  "title": "Roadsters — Portugal, 2024+",
+  "user_fields": {
+    "body_type": "roadster",
+    "not_older_than": 2024,
+    "special_filter": "Open-top two-seat sports cars; Portugal first, then wider Europe."
+  },
+  "system_fields": {
+    "date_of_request": "2026-08-02",
+    "status": "done",
+    "search_state": {
+      "group_id": null,
+      "group_name": null,
+      "brand_id": null,
+      "brand_name": null
+    },
+    "progress": {
+      "groups_total": 10,
+      "groups_done": 10,
+      "brands_total": 23,
+      "brands_done": 23,
+      "brands_failed": 0,
+      "models_found": 42,
+      "groups": [
+        {
+          "group_id": "g01-bmw",
+          "group_name": "BMW Group",
+          "status": "done",
+          "brands": [
+            {
+              "brand_id": "bmw",
+              "brand_name": "BMW",
+              "status": "done",
+              "models_found": 2,
+              "completed_at": "2026-08-02T00:00:00Z"
+            },
+            {
+              "brand_id": "mini",
+              "brand_name": "MINI",
+              "status": "done",
+              "models_found": 1,
+              "completed_at": "2026-08-02T00:00:00Z"
+            },
+            {
+              "brand_id": "rolls-royce",
+              "brand_name": "Rolls-Royce",
+              "status": "done",
+              "models_found": 1,
+              "completed_at": "2026-08-02T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "group_id": "g02-mercedes-benz",
+          "group_name": "Mercedes-Benz Group",
+          "status": "done",
+          "brands": [
+            {
+              "brand_id": "mercedes-amg",
+              "brand_name": "Mercedes-AMG",
+              "status": "done",
+              "models_found": 1,
+              "completed_at": "2026-08-02T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "group_id": "g03-vw",
+          "group_name": "Volkswagen Group",
+          "status": "done",
+          "brands": [
+            {
+              "brand_id": "audi",
+              "brand_name": "Audi",
+              "status": "done",
+              "models_found": 1,
+              "completed_at": "2026-08-02T00:00:00Z"
+            },
+            {
+              "brand_id": "bentley",
+              "brand_name": "Bentley",
+              "status": "done",
+              "models_found": 2,
+              "completed_at": "2026-08-02T00:00:00Z"
+            },
+            {
+              "brand_id": "lamborghini",
+              "brand_name": "Lamborghini",
+              "status": "done",
+              "models_found": 3,
+              "completed_at": "2026-08-02T00:00:00Z"
+            },
+            {
+              "brand_id": "porsche",
+              "brand_name": "Porsche",
+              "status": "done",
+              "models_found": 4,
+              "completed_at": "2026-08-02T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "group_id": "g04-stellantis",
+          "group_name": "Stellantis",
+          "status": "done",
+          "brands": [
+            {
+              "brand_id": "fiat",
+              "brand_name": "Fiat",
+              "status": "done",
+              "models_found": 1,
+              "completed_at": "2026-08-02T00:00:00Z"
+            },
+            {
+              "brand_id": "maserati",
+              "brand_name": "Maserati",
+              "status": "done",
+              "models_found": 2,
+              "completed_at": "2026-08-02T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "group_id": "g06-hyundai",
+          "group_name": "Hyundai Motor Group",
+          "status": "done",
+          "brands": [
+            {
+              "brand_id": "genesis",
+              "brand_name": "Genesis",
+              "status": "done",
+              "models_found": 1,
+              "completed_at": "2026-08-02T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "group_id": "g07-gm",
+          "group_name": "General Motors (GM)",
+          "status": "done",
+          "brands": [
+            {
+              "brand_id": "chevrolet",
+              "brand_name": "Chevrolet",
+              "status": "done",
+              "models_found": 1,
+              "completed_at": "2026-08-02T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "group_id": "g10-geely",
+          "group_name": "Geely Holding Group & Affiliates",
+          "status": "done",
+          "brands": [
+            {
+              "brand_id": "polestar",
+              "brand_name": "Polestar",
+              "status": "done",
+              "models_found": 1,
+              "completed_at": "2026-08-02T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "group_id": "g12-electric-emerging",
+          "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+          "status": "done",
+          "brands": [
+            {
+              "brand_id": "byd",
+              "brand_name": "BYD",
+              "status": "done",
+              "models_found": 2,
+              "completed_at": "2026-08-02T00:00:00Z"
+            },
+            {
+              "brand_id": "mg",
+              "brand_name": "MG",
+              "status": "done",
+              "models_found": 1,
+              "completed_at": "2026-08-02T00:00:00Z"
+            },
+            {
+              "brand_id": "tesla",
+              "brand_name": "Tesla",
+              "status": "done",
+              "models_found": 1,
+              "completed_at": "2026-08-02T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "group_id": "g13-independent-mainstream",
+          "group_name": "Independent Mainstream Manufacturers",
+          "status": "done",
+          "brands": [
+            {
+              "brand_id": "mazda",
+              "brand_name": "Mazda",
+              "status": "done",
+              "models_found": 1,
+              "completed_at": "2026-08-02T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "group_id": "g14-specialist-low-volume",
+          "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+          "status": "done",
+          "brands": [
+            {
+              "brand_id": "ariel-motor-company",
+              "brand_name": "Ariel Motor Company",
+              "status": "done",
+              "models_found": 1,
+              "completed_at": "2026-08-02T00:00:00Z"
+            },
+            {
+              "brand_id": "aston-martin",
+              "brand_name": "Aston Martin",
+              "status": "done",
+              "models_found": 3,
+              "completed_at": "2026-08-02T00:00:00Z"
+            },
+            {
+              "brand_id": "ferrari",
+              "brand_name": "Ferrari",
+              "status": "done",
+              "models_found": 7,
+              "completed_at": "2026-08-02T00:00:00Z"
+            },
+            {
+              "brand_id": "mclaren",
+              "brand_name": "McLaren",
+              "status": "done",
+              "models_found": 2,
+              "completed_at": "2026-08-02T00:00:00Z"
+            },
+            {
+              "brand_id": "morgan-motor-company",
+              "brand_name": "Morgan Motor Company",
+              "status": "done",
+              "models_found": 2,
+              "completed_at": "2026-08-02T00:00:00Z"
+            },
+            {
+              "brand_id": "pagani",
+              "brand_name": "Pagani",
+              "status": "done",
+              "models_found": 1,
+              "completed_at": "2026-08-02T00:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    "results_path": "Requests/req-0001-roadsters/results.json",
+    "favorites_path": "Requests/req-0001-roadsters/favorites.json"
+  }
+}

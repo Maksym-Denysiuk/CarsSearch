@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Maksym-Denysiuk/CarsSearch/docs/request.schema.json",
+  "title": "CarsSearch search request",
+  "description": "Schema for Requests/<request_id>/request.json — the SINGLE SOURCE OF TRUTH for a request's progress. It owns both State (where the search is right now) and Status (how far along it is). The pipeline rewrites this file on every run, reconciling it against Config/brands.json; Requests/index.json is a derived mirror of it.",
+  "type": "object",
+  "required": ["schema_version", "request_id", "title", "user_fields", "system_fields"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "request_id": { "type": "string", "pattern": "^req-[0-9]{4}-[a-z0-9]+(-[a-z0-9]+)*$" },
+    "title": { "type": "string" },
+    "user_fields": {
+      "type": "object",
+      "description": "What the user asked for. Written once at creation; the pipeline never modifies these.",
+      "required": ["body_type", "not_older_than", "special_filter"],
+      "additionalProperties": false,
+      "properties": {
+        "body_type": {
+          "$ref": "#/$defs/body_type",
+          "description": "Closed enum, not free text: two identical-looking requests must search identically. Ids match the shape ids in docs/assets/body-types.svg, so the chart is the enum's documentation."
+        },
+        "not_older_than": {
+          "type": "integer",
+          "minimum": 2022,
+          "description": "Earliest acceptable model year. Goes into the search query itself, not applied as a post-filter."
+        },
+        "special_filter": {
+          "type": "string",
+          "description": "Free-text extra criteria (e.g. 'manual gearbox, RWD'). Empty string means no extra criteria. Never interpolated into a shell/argv."
+        }
+      }
+    },
+    "system_fields": {
+      "type": "object",
+      "description": "Owned and rewritten by the pipeline.",
+      "required": ["date_of_request", "status", "search_state", "progress", "results_path", "favorites_path"],
+      "additionalProperties": false,
+      "properties": {
+        "date_of_request": { "type": "string", "format": "date" },
+        "status": {
+          "type": "string",
+          "enum": ["tbd", "in progress", "done"],
+          "description": "tbd until the first run picks it up; done once every brand in every active group is terminal (done or failed)."
+        },
+        "search_state": {
+          "type": "object",
+          "description": "STATE — exactly where the search is right now. Stored structured; the '[Group; Brand]' display string is derived in the UI, because resume needs the structure.",
+          "required": ["group_id", "group_name", "brand_id", "brand_name"],
+          "additionalProperties": false,
+          "properties": {
+            "group_id": { "type": ["string", "null"] },
+            "group_name": { "type": ["string", "null"] },
+            "brand_id": { "type": ["string", "null"] },
+            "brand_name": { "type": ["string", "null"] }
+          }
+        },
+        "progress": { "$ref": "#/$defs/progress" },
+        "results_path": { "type": "string", "description": "Repo-root-relative path to this request's results.json." },
+        "favorites_path": { "type": "string", "description": "Repo-root-relative path to this request's favorites.json." }
+      }
+    }
+  },
+  "$defs": {
+    "body_type": {
+      "type": "string",
+      "enum": [
+        "hatchback",
+        "sedan",
+        "estate",
+        "coupe",
+        "roadster",
+        "convertible",
+        "suv-compact",
+        "suv-midsize",
+        "suv-large",
+        "mpv",
+        "pickup",
+        "van"
+      ],
+      "description": "Kept identical to results.schema.json's body_type enum — tools/verify.py asserts the two lists match."
+    },
+    "progress": {
+      "type": "object",
+      "description": "The checklist, mirrored from Config/brands.json at every run start. Any brand present in Config but missing here is inserted as 'pending' — that reconciliation is what makes Config authoritative.",
+      "required": [
+        "groups_total",
+        "groups_done",
+        "brands_total",
+        "brands_done",
+        "brands_failed",
+        "models_found",
+        "groups"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "groups_total": { "type": "integer", "minimum": 0, "description": "Active groups only." },
+        "groups_done": { "type": "integer", "minimum": 0 },
+        "brands_total": { "type": "integer", "minimum": 0, "description": "Brands in active groups only." },
+        "brands_done": { "type": "integer", "minimum": 0 },
+        "brands_failed": { "type": "integer", "minimum": 0, "description": "Counted separately from brands_done, and never blocks completion — attempted counts as complete." },
+        "models_found": { "type": "integer", "minimum": 0 },
+        "groups": { "type": "array", "items": { "$ref": "#/$defs/group_progress" } }
+      }
+    },
+    "group_progress": {
+      "type": "object",
+      "required": ["group_id", "group_name", "status", "brands"],
+      "additionalProperties": false,
+      "properties": {
+        "group_id": { "type": "string", "pattern": "^g[0-9]{2}-[a-z0-9]+(-[a-z0-9]+)*$" },
+        "group_name": { "type": "string" },
+        "status": {
+          "type": "string",
+          "enum": ["pending", "in progress", "done"],
+          "description": "Flips to done only when every brand in the group is terminal."
+        },
+        "brands": { "type": "array", "items": { "$ref": "#/$defs/brand_progress" } }
+      }
+    },
+    "brand_progress": {
+      "type": "object",
+      "required": ["brand_id", "brand_name", "status", "models_found", "completed_at"],
+      "additionalProperties": false,
+      "properties": {
+        "brand_id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "brand_name": { "type": "string" },
+        "status": { "type": "string", "enum": ["pending", "in progress", "done", "failed"] },
+        "models_found": { "type": "integer", "minimum": 0 },
+        "completed_at": { "type": ["string", "null"], "description": "ISO-8601 timestamp; null until the brand reaches a terminal status." },
+        "error": { "type": "string", "description": "Present only when status is 'failed' — why it failed, kept visible rather than swallowed." }
+      }
+    }
+  }
+}

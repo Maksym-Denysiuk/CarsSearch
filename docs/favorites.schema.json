@@ -1,16 +1,18 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/MaximDenisuk/Car-research-/docs/favorites.schema.json",
-  "title": "Car-research- favorites list",
-  "description": "Schema for storage/favorites.json — a user-curated shortlist referencing car ids from storage/car_data.json.",
+  "$id": "https://github.com/Maksym-Denysiuk/CarsSearch/docs/favorites.schema.json",
+  "title": "CarsSearch per-request favorites",
+  "description": "Schema for Requests/<request_id>/favorites.json — a user-curated shortlist referencing model ids from that same request's results.json. Favorites are per-request: the viewer keys its localStorage as 'carResearchFavorites:<request_id>', and the 'Export favorites.json' button produces a file in exactly this shape to commit back.",
   "type": "object",
-  "required": ["metadata", "favorite_ids"],
+  "required": ["schema_version", "request_id", "metadata", "favorite_ids"],
   "additionalProperties": false,
   "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "request_id": { "type": "string", "pattern": "^req-[0-9]{4}-[a-z0-9]+(-[a-z0-9]+)*$" },
     "metadata": {
       "type": "object",
       "required": ["description", "updated"],
-      "additionalProperties": true,
+      "additionalProperties": false,
       "properties": {
         "description": { "type": "string" },
         "updated": { "type": "string", "format": "date" },
@@ -19,7 +21,7 @@
     },
     "favorite_ids": {
       "type": "array",
-      "description": "Array of car `id` values (see storage/car_data.json) that have been marked as favorites. No duplicates.",
+      "description": "Model `id` values from this request's results.json. No duplicates.",
       "items": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
       "uniqueItems": true
     }

@@ -1,0 +1,1015 @@
+{
+  "schema_version": 1,
+  "generated": "2026-08-02",
+  "description": "Immutable reference checklist of car brands, grouped by parent company. The search pipeline READS this file to derive each request's per-brand checklist and NEVER writes to it; all progress state lives in the owning request's request.json. Groups with active=false are excluded from active searches.",
+  "groups": [
+    {
+      "group_id": "g01-bmw",
+      "name": "BMW Group",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "bmw",
+          "name": "BMW",
+          "aliases": []
+        },
+        {
+          "brand_id": "bmw-alpina",
+          "name": "BMW Alpina",
+          "aliases": [
+            "Alpina"
+          ]
+        },
+        {
+          "brand_id": "mini",
+          "name": "MINI",
+          "aliases": [
+            "Mini"
+          ]
+        },
+        {
+          "brand_id": "rolls-royce",
+          "name": "Rolls-Royce",
+          "aliases": [
+            "Rolls Royce"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "g02-mercedes-benz",
+      "name": "Mercedes-Benz Group",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "mercedes-benz",
+          "name": "Mercedes-Benz",
+          "aliases": [
+            "Mercedes"
+          ]
+        },
+        {
+          "brand_id": "mercedes-amg",
+          "name": "Mercedes-AMG",
+          "aliases": [
+            "AMG"
+          ]
+        },
+        {
+          "brand_id": "mercedes-maybach",
+          "name": "Mercedes-Maybach",
+          "aliases": [
+            "Maybach"
+          ]
+        },
+        {
+          "brand_id": "smart",
+          "name": "Smart",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "group_id": "g03-vw",
+      "name": "Volkswagen Group",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "volkswagen",
+          "name": "Volkswagen",
+          "aliases": [
+            "VW"
+          ]
+        },
+        {
+          "brand_id": "audi",
+          "name": "Audi",
+          "aliases": []
+        },
+        {
+          "brand_id": "porsche",
+          "name": "Porsche",
+          "aliases": []
+        },
+        {
+          "brand_id": "skoda",
+          "name": "Skoda",
+          "aliases": [
+            "Škoda"
+          ]
+        },
+        {
+          "brand_id": "seat",
+          "name": "SEAT",
+          "aliases": [
+            "Seat"
+          ]
+        },
+        {
+          "brand_id": "cupra",
+          "name": "Cupra",
+          "aliases": []
+        },
+        {
+          "brand_id": "lamborghini",
+          "name": "Lamborghini",
+          "aliases": []
+        },
+        {
+          "brand_id": "bentley",
+          "name": "Bentley",
+          "aliases": []
+        },
+        {
+          "brand_id": "scout-motors",
+          "name": "Scout Motors",
+          "aliases": [
+            "Scout"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "g04-stellantis",
+      "name": "Stellantis",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "alfa-romeo",
+          "name": "Alfa Romeo",
+          "aliases": []
+        },
+        {
+          "brand_id": "jeep",
+          "name": "Jeep",
+          "aliases": []
+        },
+        {
+          "brand_id": "ram",
+          "name": "Ram",
+          "aliases": [
+            "RAM Trucks"
+          ]
+        },
+        {
+          "brand_id": "dodge",
+          "name": "Dodge",
+          "aliases": []
+        },
+        {
+          "brand_id": "chrysler",
+          "name": "Chrysler",
+          "aliases": []
+        },
+        {
+          "brand_id": "peugeot",
+          "name": "Peugeot",
+          "aliases": []
+        },
+        {
+          "brand_id": "citroen",
+          "name": "Citroën",
+          "aliases": [
+            "Citroen"
+          ]
+        },
+        {
+          "brand_id": "opel",
+          "name": "Opel",
+          "aliases": []
+        },
+        {
+          "brand_id": "vauxhall",
+          "name": "Vauxhall",
+          "aliases": []
+        },
+        {
+          "brand_id": "fiat",
+          "name": "Fiat",
+          "aliases": []
+        },
+        {
+          "brand_id": "abarth",
+          "name": "Abarth",
+          "aliases": []
+        },
+        {
+          "brand_id": "maserati",
+          "name": "Maserati",
+          "aliases": []
+        },
+        {
+          "brand_id": "lancia",
+          "name": "Lancia",
+          "aliases": []
+        },
+        {
+          "brand_id": "ds-automobiles",
+          "name": "DS Automobiles",
+          "aliases": [
+            "DS"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "g05-toyota",
+      "name": "Toyota Motor Corporation",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "toyota",
+          "name": "Toyota",
+          "aliases": []
+        },
+        {
+          "brand_id": "lexus",
+          "name": "Lexus",
+          "aliases": []
+        },
+        {
+          "brand_id": "daihatsu",
+          "name": "Daihatsu",
+          "aliases": []
+        },
+        {
+          "brand_id": "century",
+          "name": "Century",
+          "aliases": [
+            "Toyota Century"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "g06-hyundai",
+      "name": "Hyundai Motor Group",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "hyundai",
+          "name": "Hyundai",
+          "aliases": []
+        },
+        {
+          "brand_id": "kia",
+          "name": "Kia",
+          "aliases": []
+        },
+        {
+          "brand_id": "genesis",
+          "name": "Genesis",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "group_id": "g07-gm",
+      "name": "General Motors (GM)",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "chevrolet",
+          "name": "Chevrolet",
+          "aliases": [
+            "Chevy"
+          ]
+        },
+        {
+          "brand_id": "gmc",
+          "name": "GMC",
+          "aliases": []
+        },
+        {
+          "brand_id": "cadillac",
+          "name": "Cadillac",
+          "aliases": []
+        },
+        {
+          "brand_id": "buick",
+          "name": "Buick",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "group_id": "g08-ford",
+      "name": "Ford Motor Company",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "ford",
+          "name": "Ford",
+          "aliases": []
+        },
+        {
+          "brand_id": "lincoln",
+          "name": "Lincoln",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "group_id": "g09-renault-nissan-mitsubishi",
+      "name": "Renault-Nissan-Mitsubishi Alliance",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "renault",
+          "name": "Renault",
+          "aliases": []
+        },
+        {
+          "brand_id": "nissan",
+          "name": "Nissan",
+          "aliases": []
+        },
+        {
+          "brand_id": "mitsubishi",
+          "name": "Mitsubishi",
+          "aliases": [
+            "Mitsubishi Motors"
+          ]
+        },
+        {
+          "brand_id": "alpine",
+          "name": "Alpine",
+          "aliases": []
+        },
+        {
+          "brand_id": "infiniti",
+          "name": "Infiniti",
+          "aliases": []
+        },
+        {
+          "brand_id": "dacia",
+          "name": "Dacia",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "group_id": "g10-geely",
+      "name": "Geely Holding Group & Affiliates",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "geely-auto",
+          "name": "Geely Auto",
+          "aliases": [
+            "Geely"
+          ]
+        },
+        {
+          "brand_id": "volvo-cars",
+          "name": "Volvo Cars",
+          "aliases": [
+            "Volvo"
+          ]
+        },
+        {
+          "brand_id": "polestar",
+          "name": "Polestar",
+          "aliases": []
+        },
+        {
+          "brand_id": "lotus",
+          "name": "Lotus",
+          "aliases": []
+        },
+        {
+          "brand_id": "zeekr",
+          "name": "Zeekr",
+          "aliases": []
+        },
+        {
+          "brand_id": "lynk-and-co",
+          "name": "Lynk & Co",
+          "aliases": [
+            "Lynk and Co",
+            "Lynk&Co"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "g11-tata-jlr",
+      "name": "Tata Motors & Jaguar Land Rover (JLR)",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "tata-motors",
+          "name": "Tata Motors",
+          "aliases": [
+            "Tata"
+          ]
+        },
+        {
+          "brand_id": "jaguar",
+          "name": "Jaguar",
+          "aliases": []
+        },
+        {
+          "brand_id": "land-rover",
+          "name": "Land Rover",
+          "aliases": [
+            "Land-Rover"
+          ]
+        },
+        {
+          "brand_id": "range-rover",
+          "name": "Range Rover",
+          "aliases": []
+        },
+        {
+          "brand_id": "defender",
+          "name": "Defender",
+          "aliases": [
+            "Land Rover Defender"
+          ]
+        },
+        {
+          "brand_id": "discovery",
+          "name": "Discovery",
+          "aliases": [
+            "Land Rover Discovery"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "g12-electric-emerging",
+      "name": "Dedicated Electric & Emerging Automotive Manufacturers",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "tesla",
+          "name": "Tesla",
+          "aliases": []
+        },
+        {
+          "brand_id": "byd",
+          "name": "BYD",
+          "aliases": []
+        },
+        {
+          "brand_id": "denza",
+          "name": "Denza",
+          "aliases": []
+        },
+        {
+          "brand_id": "yangwang",
+          "name": "Yangwang",
+          "aliases": []
+        },
+        {
+          "brand_id": "fangchengbao",
+          "name": "Fangchengbao",
+          "aliases": [
+            "Bao"
+          ]
+        },
+        {
+          "brand_id": "rivian",
+          "name": "Rivian",
+          "aliases": []
+        },
+        {
+          "brand_id": "lucid-motors",
+          "name": "Lucid Motors",
+          "aliases": [
+            "Lucid"
+          ]
+        },
+        {
+          "brand_id": "nio",
+          "name": "Nio",
+          "aliases": [
+            "NIO"
+          ]
+        },
+        {
+          "brand_id": "onvo",
+          "name": "Onvo",
+          "aliases": [
+            "ONVO"
+          ]
+        },
+        {
+          "brand_id": "xpeng",
+          "name": "Xpeng",
+          "aliases": [
+            "XPeng",
+            "Xiaopeng"
+          ]
+        },
+        {
+          "brand_id": "xiaomi",
+          "name": "Xiaomi",
+          "aliases": [
+            "Xiaomi Auto"
+          ]
+        },
+        {
+          "brand_id": "vinfast",
+          "name": "VinFast",
+          "aliases": []
+        },
+        {
+          "brand_id": "avatr",
+          "name": "Avatr",
+          "aliases": [
+            "AVATR"
+          ]
+        },
+        {
+          "brand_id": "gac-aion",
+          "name": "GAC Aion",
+          "aliases": [
+            "Aion"
+          ]
+        },
+        {
+          "brand_id": "im-motors",
+          "name": "IM Motors",
+          "aliases": [
+            "IM",
+            "Zhiji"
+          ]
+        },
+        {
+          "brand_id": "mg",
+          "name": "MG",
+          "aliases": [
+            "MG Motor",
+            "Morris Garages"
+          ]
+        },
+        {
+          "brand_id": "roewe",
+          "name": "Roewe",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "group_id": "g13-independent-mainstream",
+      "name": "Independent Mainstream Manufacturers",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "honda",
+          "name": "Honda",
+          "aliases": []
+        },
+        {
+          "brand_id": "acura",
+          "name": "Acura",
+          "aliases": []
+        },
+        {
+          "brand_id": "mazda",
+          "name": "Mazda",
+          "aliases": []
+        },
+        {
+          "brand_id": "subaru",
+          "name": "Subaru",
+          "aliases": []
+        },
+        {
+          "brand_id": "suzuki",
+          "name": "Suzuki",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "group_id": "g14-specialist-low-volume",
+      "name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "ferrari",
+          "name": "Ferrari",
+          "aliases": []
+        },
+        {
+          "brand_id": "aston-martin",
+          "name": "Aston Martin",
+          "aliases": []
+        },
+        {
+          "brand_id": "mclaren",
+          "name": "McLaren",
+          "aliases": []
+        },
+        {
+          "brand_id": "pagani",
+          "name": "Pagani",
+          "aliases": []
+        },
+        {
+          "brand_id": "koenigsegg",
+          "name": "Koenigsegg",
+          "aliases": []
+        },
+        {
+          "brand_id": "morgan-motor-company",
+          "name": "Morgan Motor Company",
+          "aliases": [
+            "Morgan"
+          ]
+        },
+        {
+          "brand_id": "ariel-motor-company",
+          "name": "Ariel Motor Company",
+          "aliases": [
+            "Ariel"
+          ]
+        },
+        {
+          "brand_id": "bac",
+          "name": "BAC",
+          "aliases": [
+            "Briggs Automotive Company"
+          ]
+        },
+        {
+          "brand_id": "brabus",
+          "name": "Brabus",
+          "aliases": []
+        },
+        {
+          "brand_id": "ruf-automobile",
+          "name": "RUF Automobile",
+          "aliases": [
+            "RUF"
+          ]
+        },
+        {
+          "brand_id": "manhart-performance",
+          "name": "Manhart Performance",
+          "aliases": [
+            "Manhart"
+          ]
+        },
+        {
+          "brand_id": "czinger-vehicles",
+          "name": "Czinger Vehicles",
+          "aliases": [
+            "Czinger"
+          ]
+        },
+        {
+          "brand_id": "de-tomaso",
+          "name": "De Tomaso",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "group_id": "g15-gwm",
+      "name": "Great Wall Motor (GWM)",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "haval",
+          "name": "Haval",
+          "aliases": []
+        },
+        {
+          "brand_id": "wey",
+          "name": "Wey",
+          "aliases": [
+            "WEY"
+          ]
+        },
+        {
+          "brand_id": "tank",
+          "name": "Tank",
+          "aliases": [
+            "GWM Tank"
+          ]
+        },
+        {
+          "brand_id": "ora",
+          "name": "Ora",
+          "aliases": [
+            "ORA"
+          ]
+        },
+        {
+          "brand_id": "gwm-poer",
+          "name": "GWM Poer",
+          "aliases": [
+            "Poer",
+            "Pao"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "g16-chery",
+      "name": "Chery Group",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "chery",
+          "name": "Chery",
+          "aliases": []
+        },
+        {
+          "brand_id": "exeed",
+          "name": "Exeed",
+          "aliases": [
+            "EXEED"
+          ]
+        },
+        {
+          "brand_id": "jetour",
+          "name": "Jetour",
+          "aliases": []
+        },
+        {
+          "brand_id": "omoda",
+          "name": "Omoda",
+          "aliases": [
+            "OMODA"
+          ]
+        },
+        {
+          "brand_id": "jaecoo",
+          "name": "Jaecoo",
+          "aliases": [
+            "JAECOO"
+          ]
+        },
+        {
+          "brand_id": "icar",
+          "name": "iCar",
+          "aliases": [
+            "iCAUR"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "g17-changan",
+      "name": "Changan Group",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "changan",
+          "name": "Changan",
+          "aliases": []
+        },
+        {
+          "brand_id": "deepal",
+          "name": "Deepal",
+          "aliases": []
+        },
+        {
+          "brand_id": "nevo",
+          "name": "Nevo",
+          "aliases": [
+            "Qiyuan",
+            "Changan Nevo"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "g18-faw",
+      "name": "FAW Group",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "hongqi",
+          "name": "Hongqi",
+          "aliases": []
+        },
+        {
+          "brand_id": "bestune",
+          "name": "Bestune",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "group_id": "g19-dongfeng",
+      "name": "Dongfeng Motor",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "voyah",
+          "name": "Voyah",
+          "aliases": []
+        },
+        {
+          "brand_id": "m-hero",
+          "name": "M-Hero",
+          "aliases": [
+            "Mengshi"
+          ]
+        },
+        {
+          "brand_id": "forthing",
+          "name": "Forthing",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "group_id": "g20-baic",
+      "name": "BAIC Group",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "baic",
+          "name": "BAIC",
+          "aliases": [
+            "Beijing"
+          ]
+        },
+        {
+          "brand_id": "arcfox",
+          "name": "Arcfox",
+          "aliases": [
+            "ARCFOX"
+          ]
+        },
+        {
+          "brand_id": "bj",
+          "name": "BJ",
+          "aliases": [
+            "Beijing Off-Road",
+            "BAIC BJ"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "g21-jac",
+      "name": "JAC Group",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "jac",
+          "name": "JAC",
+          "aliases": []
+        },
+        {
+          "brand_id": "maextro",
+          "name": "Maextro",
+          "aliases": [
+            "Huawei HIMA Maextro"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "g22-saic",
+      "name": "SAIC Group",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "maxus",
+          "name": "Maxus",
+          "aliases": [
+            "LDV"
+          ]
+        }
+      ],
+      "note": "Additional SAIC brands are listed under g12-electric-emerging (MG, Roewe)."
+    },
+    {
+      "group_id": "g23-huawei-hima",
+      "name": "Huawei HIMA Alliance",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "aito",
+          "name": "AITO",
+          "aliases": [
+            "Seres",
+            "Wenjie"
+          ]
+        },
+        {
+          "brand_id": "luxeed",
+          "name": "Luxeed",
+          "aliases": [
+            "Chery Luxeed",
+            "Zhijie"
+          ]
+        },
+        {
+          "brand_id": "stelato",
+          "name": "Stelato",
+          "aliases": [
+            "BAIC Stelato",
+            "Xiangjie"
+          ]
+        }
+      ],
+      "note": "Cross-brand partnership, not a standalone manufacturer."
+    },
+    {
+      "group_id": "g24-chinese-ev-independents",
+      "name": "Chinese EV Independents",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "li-auto",
+          "name": "Li Auto",
+          "aliases": [
+            "Lixiang"
+          ]
+        },
+        {
+          "brand_id": "leapmotor",
+          "name": "Leapmotor",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "group_id": "g25-other-national",
+      "name": "Other National / Emerging Markets",
+      "active": true,
+      "brands": [
+        {
+          "brand_id": "togg",
+          "name": "Togg",
+          "aliases": [],
+          "note": "Turkey."
+        },
+        {
+          "brand_id": "perodua",
+          "name": "Perodua",
+          "aliases": [],
+          "note": "Malaysia."
+        },
+        {
+          "brand_id": "lada",
+          "name": "Lada",
+          "aliases": [
+            "AvtoVAZ"
+          ],
+          "note": "Russia."
+        },
+        {
+          "brand_id": "proton",
+          "name": "Proton",
+          "aliases": [],
+          "note": "Malaysia."
+        }
+      ]
+    },
+    {
+      "group_id": "g26-defunct",
+      "name": "Distressed / Defunct",
+      "active": false,
+      "brands": [
+        {
+          "brand_id": "neta",
+          "name": "Neta",
+          "aliases": [
+            "Hozon"
+          ],
+          "note": "Bankruptcy 2025."
+        },
+        {
+          "brand_id": "jiyue",
+          "name": "Jiyue",
+          "aliases": [],
+          "note": "Collapsed December 2024."
+        },
+        {
+          "brand_id": "fisker",
+          "name": "Fisker",
+          "aliases": [],
+          "note": "Chapter 11, June 2024."
+        },
+        {
+          "brand_id": "rising-auto",
+          "name": "Rising Auto",
+          "aliases": [
+            "Feifan"
+          ],
+          "note": "Folded into Roewe; no longer independent."
+        },
+        {
+          "brand_id": "jac-yiwei",
+          "name": "JAC Yiwei",
+          "aliases": [
+            "Yiwei"
+          ],
+          "note": "Suspended 2025."
+        }
+      ],
+      "note": "Flagged inactive: excluded from the active 2022+ search unless confirming discontinued models."
+    }
+  ]
+}
