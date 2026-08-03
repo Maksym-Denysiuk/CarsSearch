@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g09-renault-nissan-mitsubishi",
-      "group_name": "Renault-Nissan-Mitsubishi Alliance",
-      "brand_id": "dacia",
-      "brand_name": "Dacia"
+      "group_id": "g10-geely",
+      "group_name": "Geely Holding Group & Affiliates",
+      "brand_id": "geely-auto",
+      "brand_name": "Geely Auto"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 8,
+      "groups_done": 9,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 49,
+      "brands_failed": 50,
       "models_found": 0,
       "groups": [
         {
@@ -391,7 +391,7 @@
         {
           "group_id": "g09-renault-nissan-mitsubishi",
           "group_name": "Renault-Nissan-Mitsubishi Alliance",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "renault",
@@ -431,9 +431,9 @@
             {
               "brand_id": "dacia",
               "brand_name": "Dacia",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:27:53.825531+00:00"
             }
           ]
         },
