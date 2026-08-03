@@ -51,10 +51,10 @@
       "date_of_request": "2026-08-02",
       "status": "in progress",
       "search_state": {
-        "group_id": "g14-specialist-low-volume",
-        "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-        "brand_id": "manhart-performance",
-        "brand_name": "Manhart Performance"
+        "group_id": "g21-jac",
+        "group_name": "JAC Group",
+        "brand_id": "jac",
+        "brand_name": "JAC"
       },
       "counts": {
         "models": 0,
