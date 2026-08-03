@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g12-electric-emerging",
       "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "gac-aion",
-      "brand_name": "GAC Aion"
+      "brand_id": "im-motors",
+      "brand_name": "IM Motors"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 11,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 75,
+      "brands_failed": 76,
       "models_found": 0,
       "groups": [
         {
@@ -634,9 +634,9 @@
             {
               "brand_id": "gac-aion",
               "brand_name": "GAC Aion",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:33.189599+00:00"
             },
             {
               "brand_id": "im-motors",
