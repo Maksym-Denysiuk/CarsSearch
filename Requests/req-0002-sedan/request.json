@@ -23,7 +23,7 @@
       "groups_done": 0,
       "brands_total": 131,
       "brands_done": 1,
-      "brands_failed": 1,
+      "brands_failed": 2,
       "models_found": 12,
       "groups": [
         {
@@ -340,14 +340,38 @@
         {
           "group_id": "g05-toyota",
           "group_name": "Toyota Motor Corporation",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "toyota",
               "brand_name": "Toyota",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T22:34:22.713968+00:00",
+              "error": "local_llm_tool_error",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 10,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 10
+                  }
+                }
+              }
             },
             {
               "brand_id": "lexus",
