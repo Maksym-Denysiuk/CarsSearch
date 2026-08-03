@@ -49,12 +49,12 @@
       "results_path": "Requests/req-0003-convertible/results.json",
       "favorites_path": "Requests/req-0003-convertible/favorites.json",
       "date_of_request": "2026-08-02",
-      "status": "in progress",
+      "status": "done",
       "search_state": {
-        "group_id": "g21-jac",
-        "group_name": "JAC Group",
-        "brand_id": "jac",
-        "brand_name": "JAC"
+        "group_id": null,
+        "group_name": null,
+        "brand_id": null,
+        "brand_name": null
       },
       "counts": {
         "models": 0,
