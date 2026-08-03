@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g04-stellantis",
       "group_name": "Stellantis",
-      "brand_id": "fiat",
-      "brand_name": "Fiat"
+      "brand_id": "abarth",
+      "brand_name": "Abarth"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 3,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 26,
+      "brands_failed": 27,
       "models_found": 0,
       "groups": [
         {
@@ -235,9 +235,9 @@
             {
               "brand_id": "fiat",
               "brand_name": "Fiat",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:21.553158+00:00"
             },
             {
               "brand_id": "abarth",
