@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g14-specialist-low-volume",
       "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-      "brand_id": "czinger-vehicles",
-      "brand_name": "Czinger Vehicles"
+      "brand_id": "de-tomaso",
+      "brand_name": "De Tomaso"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 13,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 95,
+      "brands_failed": 96,
       "models_found": 0,
       "groups": [
         {
@@ -788,9 +788,9 @@
             {
               "brand_id": "czinger-vehicles",
               "brand_name": "Czinger Vehicles",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:05.390747+00:00"
             },
             {
               "brand_id": "de-tomaso",
