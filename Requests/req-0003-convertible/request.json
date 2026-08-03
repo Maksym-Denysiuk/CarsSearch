@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g20-baic",
-      "group_name": "BAIC Group",
-      "brand_id": "bj",
-      "brand_name": "BJ"
+      "group_id": "g21-jac",
+      "group_name": "JAC Group",
+      "brand_id": "jac",
+      "brand_name": "JAC"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 19,
+      "groups_done": 20,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 118,
+      "brands_failed": 119,
       "models_found": 0,
       "groups": [
         {
@@ -972,7 +972,7 @@
         {
           "group_id": "g20-baic",
           "group_name": "BAIC Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "baic",
@@ -991,9 +991,9 @@
             {
               "brand_id": "bj",
               "brand_name": "BJ",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:41.741070+00:00"
             }
           ]
         },
