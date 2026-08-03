@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g05-toyota",
-      "group_name": "Toyota Motor Corporation",
-      "brand_id": "century",
-      "brand_name": "Century"
+      "group_id": "g06-hyundai",
+      "group_name": "Hyundai Motor Group",
+      "brand_id": "hyundai",
+      "brand_name": "Hyundai"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 4,
+      "groups_done": 5,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 34,
+      "brands_failed": 35,
       "models_found": 0,
       "groups": [
         {
@@ -272,7 +272,7 @@
         {
           "group_id": "g05-toyota",
           "group_name": "Toyota Motor Corporation",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "toyota",
@@ -298,9 +298,9 @@
             {
               "brand_id": "century",
               "brand_name": "Century",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:27:51.603461+00:00"
             }
           ]
         },
