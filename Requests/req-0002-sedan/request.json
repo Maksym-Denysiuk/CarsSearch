@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g14-specialist-low-volume",
       "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-      "brand_id": "ferrari",
-      "brand_name": "Ferrari"
+      "brand_id": "aston-martin",
+      "brand_name": "Aston Martin"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 13,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 84,
+      "brands_failed": 85,
       "models_found": 0,
       "groups": [
         {
@@ -706,14 +706,14 @@
         {
           "group_id": "g14-specialist-low-volume",
           "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "ferrari",
               "brand_name": "Ferrari",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:03.808035+00:00"
             },
             {
               "brand_id": "aston-martin",
