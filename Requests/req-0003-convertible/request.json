@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g12-electric-emerging",
       "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "fangchengbao",
-      "brand_name": "Fangchengbao"
+      "brand_id": "rivian",
+      "brand_name": "Rivian"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 11,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 66,
+      "brands_failed": 67,
       "models_found": 0,
       "groups": [
         {
@@ -571,9 +571,9 @@
             {
               "brand_id": "fangchengbao",
               "brand_name": "Fangchengbao",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:29.616696+00:00"
             },
             {
               "brand_id": "rivian",
