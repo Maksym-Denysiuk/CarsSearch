@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g04-stellantis",
       "group_name": "Stellantis",
-      "brand_id": "maserati",
-      "brand_name": "Maserati"
+      "brand_id": "lancia",
+      "brand_name": "Lancia"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 3,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 28,
+      "brands_failed": 29,
       "models_found": 0,
       "groups": [
         {
@@ -249,9 +249,9 @@
             {
               "brand_id": "maserati",
               "brand_name": "Maserati",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:21.856099+00:00"
             },
             {
               "brand_id": "lancia",
