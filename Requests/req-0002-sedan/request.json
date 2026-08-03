@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g15-gwm",
       "group_name": "Great Wall Motor (GWM)",
-      "brand_id": "ora",
-      "brand_name": "Ora"
+      "brand_id": "gwm-poer",
+      "brand_name": "GWM Poer"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 14,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 100,
+      "brands_failed": 101,
       "models_found": 0,
       "groups": [
         {
@@ -830,9 +830,9 @@
             {
               "brand_id": "ora",
               "brand_name": "Ora",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:08.340352+00:00"
             },
             {
               "brand_id": "gwm-poer",
