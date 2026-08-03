@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g21-jac",
-      "group_name": "JAC Group",
-      "brand_id": "maextro",
-      "brand_name": "Maextro"
+      "group_id": "g22-saic",
+      "group_name": "SAIC Group",
+      "brand_id": "maxus",
+      "brand_name": "Maxus"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 20,
+      "groups_done": 21,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 120,
+      "brands_failed": 121,
       "models_found": 0,
       "groups": [
         {
@@ -1000,7 +1000,7 @@
         {
           "group_id": "g21-jac",
           "group_name": "JAC Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "jac",
@@ -1012,9 +1012,9 @@
             {
               "brand_id": "maextro",
               "brand_name": "Maextro",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:11.442743+00:00"
             }
           ]
         },
