@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g20-baic",
       "group_name": "BAIC Group",
-      "brand_id": "baic",
-      "brand_name": "BAIC"
+      "brand_id": "arcfox",
+      "brand_name": "Arcfox"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 19,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 116,
+      "brands_failed": 117,
       "models_found": 0,
       "groups": [
         {
@@ -972,14 +972,14 @@
         {
           "group_id": "g20-baic",
           "group_name": "BAIC Group",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "baic",
               "brand_name": "BAIC",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:10.754414+00:00"
             },
             {
               "brand_id": "arcfox",
