@@ -51,10 +51,10 @@
       "date_of_request": "2026-08-02",
       "status": "in progress",
       "search_state": {
-        "group_id": "g12-electric-emerging",
-        "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-        "brand_id": "nio",
-        "brand_name": "Nio"
+        "group_id": "g14-specialist-low-volume",
+        "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+        "brand_id": "manhart-performance",
+        "brand_name": "Manhart Performance"
       },
       "counts": {
         "models": 0,
