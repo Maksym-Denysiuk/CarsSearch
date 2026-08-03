@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g08-ford",
-      "group_name": "Ford Motor Company",
-      "brand_id": "lincoln",
-      "brand_name": "Lincoln"
+      "group_id": "g09-renault-nissan-mitsubishi",
+      "group_name": "Renault-Nissan-Mitsubishi Alliance",
+      "brand_id": "renault",
+      "brand_name": "Renault"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 7,
+      "groups_done": 8,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 43,
+      "brands_failed": 44,
       "models_found": 0,
       "groups": [
         {
@@ -370,7 +370,7 @@
         {
           "group_id": "g08-ford",
           "group_name": "Ford Motor Company",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "ford",
@@ -382,9 +382,9 @@
             {
               "brand_id": "lincoln",
               "brand_name": "Lincoln",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:24.061223+00:00"
             }
           ]
         },
