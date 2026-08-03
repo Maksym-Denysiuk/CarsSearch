@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g14-specialist-low-volume",
       "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-      "brand_id": "ariel-motor-company",
-      "brand_name": "Ariel Motor Company"
+      "brand_id": "bac",
+      "brand_name": "BAC"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 13,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 90,
+      "brands_failed": 91,
       "models_found": 0,
       "groups": [
         {
@@ -753,9 +753,9 @@
             {
               "brand_id": "ariel-motor-company",
               "brand_name": "Ariel Motor Company",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:35.390403+00:00"
             },
             {
               "brand_id": "bac",
