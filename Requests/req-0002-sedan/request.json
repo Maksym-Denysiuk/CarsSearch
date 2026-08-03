@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g23-huawei-hima",
       "group_name": "Huawei HIMA Alliance",
-      "brand_id": "aito",
-      "brand_name": "AITO"
+      "brand_id": "luxeed",
+      "brand_name": "Luxeed"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 22,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 122,
+      "brands_failed": 123,
       "models_found": 0,
       "groups": [
         {
@@ -1035,14 +1035,14 @@
         {
           "group_id": "g23-huawei-hima",
           "group_name": "Huawei HIMA Alliance",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "aito",
               "brand_name": "AITO",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:11.731632+00:00"
             },
             {
               "brand_id": "luxeed",
