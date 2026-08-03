@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-03",
+  "generated": "2026-08-02",
   "requests": [
     {
       "request_id": "req-0001-roadsters",
@@ -27,7 +27,7 @@
       "results_path": "Requests/req-0002-sedan/results.json",
       "favorites_path": "Requests/req-0002-sedan/favorites.json",
       "date_of_request": "2026-08-02",
-      "status": "done",
+      "status": "tbd",
       "search_state": {
         "group": null,
         "brand": null,
@@ -45,7 +45,7 @@
       "results_path": "Requests/req-0003-convertible/results.json",
       "favorites_path": "Requests/req-0003-convertible/favorites.json",
       "date_of_request": "2026-08-02",
-      "status": "done",
+      "status": "tbd",
       "search_state": {
         "group": null,
         "brand": null,
