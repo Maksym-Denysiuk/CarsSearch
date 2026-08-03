@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g18-faw",
-      "group_name": "FAW Group",
-      "brand_id": "bestune",
-      "brand_name": "Bestune"
+      "group_id": "g19-dongfeng",
+      "group_name": "Dongfeng Motor",
+      "brand_id": "voyah",
+      "brand_name": "Voyah"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 17,
+      "groups_done": 18,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 112,
+      "brands_failed": 113,
       "models_found": 0,
       "groups": [
         {
@@ -923,7 +923,7 @@
         {
           "group_id": "g18-faw",
           "group_name": "FAW Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "hongqi",
@@ -935,9 +935,9 @@
             {
               "brand_id": "bestune",
               "brand_name": "Bestune",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:10.165045+00:00"
             }
           ]
         },
