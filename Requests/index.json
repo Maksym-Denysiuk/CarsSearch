@@ -31,10 +31,10 @@
       "date_of_request": "2026-08-02",
       "status": "in progress",
       "search_state": {
-        "group_id": "g12-electric-emerging",
-        "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-        "brand_id": "gac-aion",
-        "brand_name": "GAC Aion"
+        "group_id": "g15-gwm",
+        "group_name": "Great Wall Motor (GWM)",
+        "brand_id": "ora",
+        "brand_name": "Ora"
       },
       "counts": {
         "models": 0,
