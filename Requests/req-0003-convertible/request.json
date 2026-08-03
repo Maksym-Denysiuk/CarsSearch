@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g03-vw",
       "group_name": "Volkswagen Group",
-      "brand_id": "volkswagen",
-      "brand_name": "Volkswagen"
+      "brand_id": "audi",
+      "brand_name": "Audi"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 2,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 8,
+      "brands_failed": 9,
       "models_found": 0,
       "groups": [
         {
@@ -97,14 +97,14 @@
         {
           "group_id": "g03-vw",
           "group_name": "Volkswagen Group",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "volkswagen",
               "brand_name": "Volkswagen",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:16.623474+00:00"
             },
             {
               "brand_id": "audi",
