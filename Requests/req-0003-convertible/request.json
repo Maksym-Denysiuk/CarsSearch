@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g12-electric-emerging",
       "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "rivian",
-      "brand_name": "Rivian"
+      "brand_id": "lucid-motors",
+      "brand_name": "Lucid Motors"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 11,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 67,
+      "brands_failed": 68,
       "models_found": 0,
       "groups": [
         {
@@ -578,9 +578,9 @@
             {
               "brand_id": "rivian",
               "brand_name": "Rivian",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:29.760543+00:00"
             },
             {
               "brand_id": "lucid-motors",
