@@ -11,13 +11,15 @@
       "date_of_request": "2026-08-02",
       "status": "done",
       "search_state": {
-        "group": null,
-        "brand": null,
-        "models_done": 58
+        "group_id": null,
+        "group_name": null,
+        "brand_id": null,
+        "brand_name": null
       },
       "counts": {
-        "models": 58,
-        "offerings": 52
+        "models": 42,
+        "brands_done": 23,
+        "brands_total": 23
       }
     },
     {
@@ -29,13 +31,15 @@
       "date_of_request": "2026-08-02",
       "status": "in progress",
       "search_state": {
-        "group": "BMW Group",
-        "brand": "BMW Alpina",
-        "models_done": 0
+        "group_id": "g01-bmw",
+        "group_name": "BMW Group",
+        "brand_id": "bmw-alpina",
+        "brand_name": "BMW Alpina"
       },
       "counts": {
-        "models": 0,
-        "offerings": 0
+        "models": 10,
+        "brands_done": 2,
+        "brands_total": 131
       }
     },
     {
@@ -47,13 +51,15 @@
       "date_of_request": "2026-08-02",
       "status": "in progress",
       "search_state": {
-        "group": "BMW Group",
-        "brand": "BMW Alpina",
-        "models_done": 0
+        "group_id": "g01-bmw",
+        "group_name": "BMW Group",
+        "brand_id": "bmw-alpina",
+        "brand_name": "BMW Alpina"
       },
       "counts": {
         "models": 0,
-        "offerings": 0
+        "brands_done": 3,
+        "brands_total": 131
       }
     }
   ]
