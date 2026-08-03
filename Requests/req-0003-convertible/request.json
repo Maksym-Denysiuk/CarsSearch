@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g07-gm",
-      "group_name": "General Motors (GM)",
-      "brand_id": "buick",
-      "brand_name": "Buick"
+      "group_id": "g08-ford",
+      "group_name": "Ford Motor Company",
+      "brand_id": "ford",
+      "brand_name": "Ford"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 6,
+      "groups_done": 7,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 41,
+      "brands_failed": 42,
       "models_found": 0,
       "groups": [
         {
@@ -335,7 +335,7 @@
         {
           "group_id": "g07-gm",
           "group_name": "General Motors (GM)",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "chevrolet",
@@ -361,9 +361,9 @@
             {
               "brand_id": "buick",
               "brand_name": "Buick",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:23.771922+00:00"
             }
           ]
         },
