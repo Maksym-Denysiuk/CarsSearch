@@ -22,9 +22,9 @@
       "groups_total": 25,
       "groups_done": 0,
       "brands_total": 131,
-      "brands_done": 1,
+      "brands_done": 2,
       "brands_failed": 0,
-      "models_found": 0,
+      "models_found": 4,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -99,14 +99,14 @@
         {
           "group_id": "g03-vw",
           "group_name": "Volkswagen Group",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "volkswagen",
               "brand_name": "Volkswagen",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 4,
+              "completed_at": "2026-08-03T20:04:51.373576+00:00"
             },
             {
               "brand_id": "audi",
