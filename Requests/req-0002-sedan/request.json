@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g24-chinese-ev-independents",
       "group_name": "Chinese EV Independents",
-      "brand_id": "li-auto",
-      "brand_name": "Li Auto"
+      "brand_id": "leapmotor",
+      "brand_name": "Leapmotor"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 23,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 125,
+      "brands_failed": 126,
       "models_found": 0,
       "groups": [
         {
@@ -1063,14 +1063,14 @@
         {
           "group_id": "g24-chinese-ev-independents",
           "group_name": "Chinese EV Independents",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "li-auto",
               "brand_name": "Li Auto",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:14.430934+00:00"
             },
             {
               "brand_id": "leapmotor",
