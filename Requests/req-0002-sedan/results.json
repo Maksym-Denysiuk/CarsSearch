@@ -262,6 +262,144 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "volkswagen-passat",
+      "name": "Passat",
+      "manufacturer": "Volkswagen",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "volkswagen",
+      "brand_name": "Volkswagen",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 23027,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/volkswagen-passat-passat-variant-1-5-e-tsi-dsg-shz-kam-acc-app-benzin-weiss-cat_ma74gr100100ge218va213mt545tr480898-755803f0-4b83-4c2b-9ec6-9f1cb7a1f906",
+          "price_eur": 24490,
+          "price_display": "€ 24.490",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-03T22:44:19.485463Z",
+          "location": "Fernwald-Steinbach",
+          "year": 2025,
+          "mileage": "44.287 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/volkswagen-passat-passat-variant-2-0-tdi-dsg-business-shz-acc-diesel-schwarz-cat_ma74gr100100ge218va213mt558tr1529-917fe416-1d6d-4842-9293-abde9efeafa0",
+          "price_eur": 26690,
+          "price_display": "€ 26.690",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-03T22:44:19.485463Z",
+          "location": "Fernwald-Steinbach",
+          "year": 2025,
+          "mileage": "43.978 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/volkswagen-passat-1-5tsi-dsg-business-apps-navi-acc-led-dab-benzin-schwarz-cat_ma74gr100100ge217va213mt546tr1529-6072a4e9-a098-4938-9b92-db8955c88225",
+          "price_eur": 17900,
+          "price_display": "€ 17.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-03T22:44:19.485463Z",
+          "location": "Bad Hersfeld",
+          "year": 2024,
+          "mileage": "92.800 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/volkswagen/passat?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 19,
+          "new": 19,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/volkswagen/passat",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/volkswagen/passat?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "volkswagen-passat-cc",
+      "name": "Passat CC",
+      "manufacturer": "Volkswagen",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "volkswagen",
+      "brand_name": "Volkswagen",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/volkswagen/passat-cc?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 20,
+          "new": 2,
+          "duplicates": 18,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/volkswagen/passat-cc",
+          "found": 4,
+          "new": 4,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/volkswagen/passat-cc?fregfrom=2024",
+          "found": 20,
+          "new": 0,
+          "duplicates": 20,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
