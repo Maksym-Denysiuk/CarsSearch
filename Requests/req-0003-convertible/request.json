@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g07-gm",
       "group_name": "General Motors (GM)",
-      "brand_id": "cadillac",
-      "brand_name": "Cadillac"
+      "brand_id": "buick",
+      "brand_name": "Buick"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 6,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 40,
+      "brands_failed": 41,
       "models_found": 0,
       "groups": [
         {
@@ -354,9 +354,9 @@
             {
               "brand_id": "cadillac",
               "brand_name": "Cadillac",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:23.625932+00:00"
             },
             {
               "brand_id": "buick",
