@@ -1,10 +1,267 @@
 {
   "schema_version": 1,
   "request_id": "req-0002-sedan",
-  "generated": "2026-08-02",
+  "generated": "2026-08-03",
   "metadata": {
     "currency": "EUR",
-    "specs_disclaimer": "No models researched yet -- this request is pending its first search pass."
+    "specs_disclaimer": "Spec fields (engine, consumption, tank/battery, variant, roof, doors, tax, photo) are omitted rather than estimated: this pipeline reads listing search results, which do not publish them. Offerings, prices and years are read from the listing cards and each price was re-verified against the listing page it came from."
   },
-  "models": []
+  "models": [
+    {
+      "id": "bmw-320",
+      "name": "320",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 38314,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-320-ver-e-pack-desportivo-m-auto-ID8Q0ABY.html",
+          "price_eur": 43946,
+          "price_display": "43 946",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-03T22:26:59.376510Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "62 812 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-320-ver-e-auto-ID8Q0wmB.html",
+          "price_eur": 34500,
+          "price_display": "34 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-03T22:26:59.376510Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "28 000 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-320-ver-e-auto-ID8Q0ukK.html",
+          "price_eur": 34500,
+          "price_display": "34 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-03T22:26:59.376510Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "48 000 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-3er-i-m-sport-paket-led-acc-hud-360-cam-garantie-benzin-grau-cat_ma13gr100038ge28va105mt103tr479990-efc22c40-14ef-47de-a003-32746b2cda40",
+          "price_eur": 38990,
+          "price_display": "€ 38.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-03T22:26:59.376510Z",
+          "location": "Bekond",
+          "year": 2025,
+          "mileage": "26.000 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-3er-d-xdrive-limousine-m-sportpaket-navi+acc+shz-diesel-weiss-cat_ma13gr100038ge28va105mt118tr479990-30e50bbc-b00e-4a02-a769-a17adca7b856",
+          "price_eur": 38645,
+          "price_display": "€ 38.645",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-03T22:26:59.376510Z",
+          "location": "Idar-Oberstein",
+          "year": 2025,
+          "mileage": "5.394 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-3er-d-xdrive-m-sport-pro-ahk-acc-hifi-360-sthz-diesel-grau-cat_ma13gr100038ge28va106mt118tr479990-c04fe166-b1de-437f-a262-27aa19f71380",
+          "price_eur": 39300,
+          "price_display": "€ 39.300",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-03T22:26:59.376510Z",
+          "location": "Roßtal",
+          "year": 2025,
+          "mileage": "50.000 km",
+          "fuel": "Diesel"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/320?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 34,
+          "new": 31,
+          "duplicates": 3,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/320",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/320?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bmw-330",
+      "name": "330",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 42135,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-330-ver-e-pack-desportivo-m-pro-auto-ID8Q0uPX.html",
+          "price_eur": 44750,
+          "price_display": "44 750",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-03T22:26:59.376510Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "27 231 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-330-ver-e-pack-desportivo-m-auto-ID8PUSVN.html",
+          "price_eur": 45890,
+          "price_display": "45 890",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-03T22:26:59.376510Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "48 393 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-330-ID8PXqrY.html",
+          "price_eur": 40900,
+          "price_display": "40 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-03T22:26:59.376510Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "18 900 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-3er-i-touring-xdrive-m-sport-curved-kam-hifi-acc-benzin-grau-cat_ma13gr100038ge28va106mt122tr479990-59ed0221-b666-45e1-bfd5-c915e7de10c8",
+          "price_eur": 36980,
+          "price_display": "€ 36.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-03T22:26:59.376510Z",
+          "location": "Landshut",
+          "year": 2024,
+          "mileage": "21.333 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-3er-i-touring-xdrive-m-sport-18zoll-led-acc-hifi-benzin-schwarz-cat_ma13gr100038ge28va106mt122tr479990-52f21a52-97a3-492f-b959-b39d0acf554c",
+          "price_eur": 37390,
+          "price_display": "€ 37.390",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-03T22:26:59.376510Z",
+          "location": "Harztor",
+          "year": 2025,
+          "mileage": "20.051 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-3er-d-xdrive-touring-m-sport-park-assistent-hifi-diesel-grau-cat_ma13gr100038ge28va106mt121tr479990-acd0a027-c9ef-47b9-a77f-4dd6c5c2b0a9",
+          "price_eur": 46900,
+          "price_display": "€ 46.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-03T22:26:59.376510Z",
+          "location": "Berlin",
+          "year": 2024,
+          "mileage": "9.000 km",
+          "fuel": "Diesel"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/330?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 33,
+          "new": 31,
+          "duplicates": 2,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/330",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/330?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    }
+  ]
 }
