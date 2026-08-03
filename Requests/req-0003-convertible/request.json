@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g04-stellantis",
       "group_name": "Stellantis",
-      "brand_id": "lancia",
-      "brand_name": "Lancia"
+      "brand_id": "ds-automobiles",
+      "brand_name": "DS Automobiles"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 3,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 29,
+      "brands_failed": 30,
       "models_found": 0,
       "groups": [
         {
@@ -256,9 +256,9 @@
             {
               "brand_id": "lancia",
               "brand_name": "Lancia",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:22.004945+00:00"
             },
             {
               "brand_id": "ds-automobiles",
