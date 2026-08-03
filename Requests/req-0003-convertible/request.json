@@ -20,7 +20,7 @@
       "groups_total": 25,
       "groups_done": 0,
       "brands_total": 131,
-      "brands_done": 1,
+      "brands_done": 2,
       "brands_failed": 0,
       "models_found": 0,
       "groups": [
@@ -97,14 +97,14 @@
         {
           "group_id": "g03-vw",
           "group_name": "Volkswagen Group",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "volkswagen",
               "brand_name": "Volkswagen",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T01:03:33.514623+00:00"
             },
             {
               "brand_id": "audi",
