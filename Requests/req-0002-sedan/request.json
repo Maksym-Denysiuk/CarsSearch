@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g09-renault-nissan-mitsubishi",
       "group_name": "Renault-Nissan-Mitsubishi Alliance",
-      "brand_id": "renault",
-      "brand_name": "Renault"
+      "brand_id": "nissan",
+      "brand_name": "Nissan"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 8,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 44,
+      "brands_failed": 45,
       "models_found": 0,
       "groups": [
         {
@@ -391,14 +391,14 @@
         {
           "group_id": "g09-renault-nissan-mitsubishi",
           "group_name": "Renault-Nissan-Mitsubishi Alliance",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "renault",
               "brand_name": "Renault",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:27:53.083052+00:00"
             },
             {
               "brand_id": "nissan",
