@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g04-stellantis",
       "group_name": "Stellantis",
-      "brand_id": "dodge",
-      "brand_name": "Dodge"
+      "brand_id": "chrysler",
+      "brand_name": "Chrysler"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 3,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 20,
+      "brands_failed": 21,
       "models_found": 0,
       "groups": [
         {
@@ -193,9 +193,9 @@
             {
               "brand_id": "dodge",
               "brand_name": "Dodge",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:20.647596+00:00"
             },
             {
               "brand_id": "chrysler",
