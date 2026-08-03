@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g10-geely",
       "group_name": "Geely Holding Group & Affiliates",
-      "brand_id": "zeekr",
-      "brand_name": "Zeekr"
+      "brand_id": "lynk-and-co",
+      "brand_name": "Lynk & Co"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 9,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 54,
+      "brands_failed": 55,
       "models_found": 0,
       "groups": [
         {
@@ -473,9 +473,9 @@
             {
               "brand_id": "zeekr",
               "brand_name": "Zeekr",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:27:56.879444+00:00"
             },
             {
               "brand_id": "lynk-and-co",
