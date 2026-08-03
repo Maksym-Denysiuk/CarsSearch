@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g04-stellantis",
       "group_name": "Stellantis",
-      "brand_id": "ram",
-      "brand_name": "Ram"
+      "brand_id": "dodge",
+      "brand_name": "Dodge"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 3,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 19,
+      "brands_failed": 20,
       "models_found": 0,
       "groups": [
         {
@@ -186,9 +186,9 @@
             {
               "brand_id": "ram",
               "brand_name": "Ram",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:27:47.080398+00:00"
             },
             {
               "brand_id": "dodge",
