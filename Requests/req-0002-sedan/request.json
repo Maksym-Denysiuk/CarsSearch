@@ -9,21 +9,1114 @@
   },
   "system_fields": {
     "date_of_request": "2026-08-02",
-    "status": "tbd",
+    "status": "in progress",
     "search_state": {
-      "group_id": null,
-      "group_name": null,
-      "brand_id": null,
-      "brand_name": null
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw-alpina",
+      "brand_name": "BMW Alpina"
     },
     "progress": {
-      "groups_total": 0,
+      "groups_total": 25,
       "groups_done": 0,
-      "brands_total": 0,
+      "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 0,
+      "brands_failed": 1,
       "models_found": 0,
-      "groups": []
+      "groups": [
+        {
+          "group_id": "g01-bmw",
+          "group_name": "BMW Group",
+          "status": "in progress",
+          "brands": [
+            {
+              "brand_id": "bmw",
+              "brand_name": "BMW",
+              "status": "failed",
+              "models_found": 0,
+              "completed_at": "2026-08-03T00:27:44.266196+00:00"
+            },
+            {
+              "brand_id": "bmw-alpina",
+              "brand_name": "BMW Alpina",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "mini",
+              "brand_name": "MINI",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "rolls-royce",
+              "brand_name": "Rolls-Royce",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g02-mercedes-benz",
+          "group_name": "Mercedes-Benz Group",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "mercedes-benz",
+              "brand_name": "Mercedes-Benz",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "mercedes-amg",
+              "brand_name": "Mercedes-AMG",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "mercedes-maybach",
+              "brand_name": "Mercedes-Maybach",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "smart",
+              "brand_name": "Smart",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g03-vw",
+          "group_name": "Volkswagen Group",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "volkswagen",
+              "brand_name": "Volkswagen",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "audi",
+              "brand_name": "Audi",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "porsche",
+              "brand_name": "Porsche",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "skoda",
+              "brand_name": "Skoda",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "seat",
+              "brand_name": "SEAT",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "cupra",
+              "brand_name": "Cupra",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "lamborghini",
+              "brand_name": "Lamborghini",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "bentley",
+              "brand_name": "Bentley",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "scout-motors",
+              "brand_name": "Scout Motors",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g04-stellantis",
+          "group_name": "Stellantis",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "alfa-romeo",
+              "brand_name": "Alfa Romeo",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "jeep",
+              "brand_name": "Jeep",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "ram",
+              "brand_name": "Ram",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "dodge",
+              "brand_name": "Dodge",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "chrysler",
+              "brand_name": "Chrysler",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "peugeot",
+              "brand_name": "Peugeot",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "citroen",
+              "brand_name": "Citroën",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "opel",
+              "brand_name": "Opel",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "vauxhall",
+              "brand_name": "Vauxhall",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "fiat",
+              "brand_name": "Fiat",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "abarth",
+              "brand_name": "Abarth",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "maserati",
+              "brand_name": "Maserati",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "lancia",
+              "brand_name": "Lancia",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "ds-automobiles",
+              "brand_name": "DS Automobiles",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g05-toyota",
+          "group_name": "Toyota Motor Corporation",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "toyota",
+              "brand_name": "Toyota",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "lexus",
+              "brand_name": "Lexus",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "daihatsu",
+              "brand_name": "Daihatsu",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "century",
+              "brand_name": "Century",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g06-hyundai",
+          "group_name": "Hyundai Motor Group",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "hyundai",
+              "brand_name": "Hyundai",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "kia",
+              "brand_name": "Kia",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "genesis",
+              "brand_name": "Genesis",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g07-gm",
+          "group_name": "General Motors (GM)",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "chevrolet",
+              "brand_name": "Chevrolet",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "gmc",
+              "brand_name": "GMC",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "cadillac",
+              "brand_name": "Cadillac",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "buick",
+              "brand_name": "Buick",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g08-ford",
+          "group_name": "Ford Motor Company",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "ford",
+              "brand_name": "Ford",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "lincoln",
+              "brand_name": "Lincoln",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g09-renault-nissan-mitsubishi",
+          "group_name": "Renault-Nissan-Mitsubishi Alliance",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "renault",
+              "brand_name": "Renault",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "nissan",
+              "brand_name": "Nissan",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "mitsubishi",
+              "brand_name": "Mitsubishi",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "alpine",
+              "brand_name": "Alpine",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "infiniti",
+              "brand_name": "Infiniti",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "dacia",
+              "brand_name": "Dacia",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g10-geely",
+          "group_name": "Geely Holding Group & Affiliates",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "geely-auto",
+              "brand_name": "Geely Auto",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "volvo-cars",
+              "brand_name": "Volvo Cars",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "polestar",
+              "brand_name": "Polestar",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "lotus",
+              "brand_name": "Lotus",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "zeekr",
+              "brand_name": "Zeekr",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "lynk-and-co",
+              "brand_name": "Lynk & Co",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g11-tata-jlr",
+          "group_name": "Tata Motors & Jaguar Land Rover (JLR)",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "tata-motors",
+              "brand_name": "Tata Motors",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "jaguar",
+              "brand_name": "Jaguar",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "land-rover",
+              "brand_name": "Land Rover",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "range-rover",
+              "brand_name": "Range Rover",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "defender",
+              "brand_name": "Defender",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "discovery",
+              "brand_name": "Discovery",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g12-electric-emerging",
+          "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "tesla",
+              "brand_name": "Tesla",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "byd",
+              "brand_name": "BYD",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "denza",
+              "brand_name": "Denza",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "yangwang",
+              "brand_name": "Yangwang",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "fangchengbao",
+              "brand_name": "Fangchengbao",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "rivian",
+              "brand_name": "Rivian",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "lucid-motors",
+              "brand_name": "Lucid Motors",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "nio",
+              "brand_name": "Nio",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "onvo",
+              "brand_name": "Onvo",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "xpeng",
+              "brand_name": "Xpeng",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "xiaomi",
+              "brand_name": "Xiaomi",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "vinfast",
+              "brand_name": "VinFast",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "avatr",
+              "brand_name": "Avatr",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "gac-aion",
+              "brand_name": "GAC Aion",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "im-motors",
+              "brand_name": "IM Motors",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "mg",
+              "brand_name": "MG",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "roewe",
+              "brand_name": "Roewe",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g13-independent-mainstream",
+          "group_name": "Independent Mainstream Manufacturers",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "honda",
+              "brand_name": "Honda",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "acura",
+              "brand_name": "Acura",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "mazda",
+              "brand_name": "Mazda",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "subaru",
+              "brand_name": "Subaru",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "suzuki",
+              "brand_name": "Suzuki",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g14-specialist-low-volume",
+          "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "ferrari",
+              "brand_name": "Ferrari",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "aston-martin",
+              "brand_name": "Aston Martin",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "mclaren",
+              "brand_name": "McLaren",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "pagani",
+              "brand_name": "Pagani",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "koenigsegg",
+              "brand_name": "Koenigsegg",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "morgan-motor-company",
+              "brand_name": "Morgan Motor Company",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "ariel-motor-company",
+              "brand_name": "Ariel Motor Company",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "bac",
+              "brand_name": "BAC",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "brabus",
+              "brand_name": "Brabus",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "ruf-automobile",
+              "brand_name": "RUF Automobile",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "manhart-performance",
+              "brand_name": "Manhart Performance",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "czinger-vehicles",
+              "brand_name": "Czinger Vehicles",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "de-tomaso",
+              "brand_name": "De Tomaso",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g15-gwm",
+          "group_name": "Great Wall Motor (GWM)",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "haval",
+              "brand_name": "Haval",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "wey",
+              "brand_name": "Wey",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "tank",
+              "brand_name": "Tank",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "ora",
+              "brand_name": "Ora",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "gwm-poer",
+              "brand_name": "GWM Poer",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g16-chery",
+          "group_name": "Chery Group",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "chery",
+              "brand_name": "Chery",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "exeed",
+              "brand_name": "Exeed",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "jetour",
+              "brand_name": "Jetour",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "omoda",
+              "brand_name": "Omoda",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "jaecoo",
+              "brand_name": "Jaecoo",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "icar",
+              "brand_name": "iCar",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g17-changan",
+          "group_name": "Changan Group",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "changan",
+              "brand_name": "Changan",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "deepal",
+              "brand_name": "Deepal",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "nevo",
+              "brand_name": "Nevo",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g18-faw",
+          "group_name": "FAW Group",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "hongqi",
+              "brand_name": "Hongqi",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "bestune",
+              "brand_name": "Bestune",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g19-dongfeng",
+          "group_name": "Dongfeng Motor",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "voyah",
+              "brand_name": "Voyah",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "m-hero",
+              "brand_name": "M-Hero",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "forthing",
+              "brand_name": "Forthing",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g20-baic",
+          "group_name": "BAIC Group",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "baic",
+              "brand_name": "BAIC",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "arcfox",
+              "brand_name": "Arcfox",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "bj",
+              "brand_name": "BJ",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g21-jac",
+          "group_name": "JAC Group",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "jac",
+              "brand_name": "JAC",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "maextro",
+              "brand_name": "Maextro",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g22-saic",
+          "group_name": "SAIC Group",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "maxus",
+              "brand_name": "Maxus",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g23-huawei-hima",
+          "group_name": "Huawei HIMA Alliance",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "aito",
+              "brand_name": "AITO",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "luxeed",
+              "brand_name": "Luxeed",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "stelato",
+              "brand_name": "Stelato",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g24-chinese-ev-independents",
+          "group_name": "Chinese EV Independents",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "li-auto",
+              "brand_name": "Li Auto",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "leapmotor",
+              "brand_name": "Leapmotor",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g25-other-national",
+          "group_name": "Other National / Emerging Markets",
+          "status": "pending",
+          "brands": [
+            {
+              "brand_id": "togg",
+              "brand_name": "Togg",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "perodua",
+              "brand_name": "Perodua",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "lada",
+              "brand_name": "Lada",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "proton",
+              "brand_name": "Proton",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        }
+      ]
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json"
