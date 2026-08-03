@@ -97,7 +97,11 @@
     return '&euro;' + Number(v).toLocaleString('en-US');
   }
 
+  // An absent spec field is now legal (see results.schema.json's note on
+  // the model row), and it must not render as a definite "no": nobody
+  // asked whether that roof comes off, and "no" claims somebody did.
   function fmtBool(v) {
+    if (v === null || v === undefined) return '<span class="empty-note">n/a</span>';
     return v ? '<span class="bool-yes">yes</span>' : '<span class="bool-no">no</span>';
   }
 

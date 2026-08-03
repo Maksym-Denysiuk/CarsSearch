@@ -44,6 +44,7 @@
     },
     "model": {
       "type": "object",
+      "description": "One car model found for this request. The spec fields (model_variant, roof_removable, roof_mechanism, engine, fuel_or_charge_consumption, tank_or_battery_size, doors, tax, import_tax, photo) are OPTIONAL: they come from a model's spec page, and a producer that only reads listing search results cannot source them. Such a producer must omit them entirely rather than write a placeholder — a 'tbd' tax written by something that never consulted a tax table reads as a researched unknown when it is really an unasked question, which is the same class of fabrication the offering firewall exists to prevent. Consumers must therefore treat every spec field as possibly absent; docs/app.js renders a blank cell. The identifying, provenance and offering fields below stay required, because anything producing a model row at all can answer them.",
       "required": [
         "id",
         "name",
@@ -54,19 +55,9 @@
         "brand_name",
         "body_type",
         "tier",
-        "model_variant",
         "first_year",
         "average_budget_eur",
         "average_budget_basis",
-        "roof_removable",
-        "roof_mechanism",
-        "engine",
-        "fuel_or_charge_consumption",
-        "tank_or_battery_size",
-        "doors",
-        "tax",
-        "import_tax",
-        "photo",
         "search_status",
         "search_status_note",
         "offerings",
@@ -145,7 +136,10 @@
         "price_eur": { "type": "integer", "minimum": 0, "description": "Asking price in EUR. Must be substring-present in the fetched page text or the offering is dropped." },
         "price_display": { "type": "string", "description": "Price exactly as displayed on the source page." },
         "found_in_round": { "type": ["integer", "null"], "minimum": 1, "description": "Which ladder round surfaced it; null for migrated data that predates the ladder." },
-        "captured_at": { "type": ["string", "null"], "description": "ISO-8601 timestamp of the fetch; null for migrated data." }
+        "captured_at": { "type": ["string", "null"], "description": "ISO-8601 timestamp of the fetch; null for migrated data." },
+        "year": { "type": ["integer", "null"], "description": "Model year as the listing card published it; null when the card showed none (a brand-new car has no first registration) or when it could not be read. Optional, and null-when-unknown rather than omitted-when-unknown, because this is the field a not_older_than request is about: publishing it is what makes that filter auditable from this file instead of only from a live re-run." },
+        "mileage": { "type": ["string", "null"], "description": "Odometer reading exactly as displayed by the source, units included ('123.990 km'). A string because the sources' formatting varies and reparsing it into a number here would invent precision." },
+        "fuel": { "type": ["string", "null"], "description": "Fuel type as the source labels it, in the source's own language ('Diesel', 'Hibrido'). Not normalised to an enum: a mapping would have to guess at labels that vary per market." }
       }
     },
     "search_round": {
@@ -156,10 +150,10 @@
         "round": { "type": "integer", "minimum": 1 },
         "source": { "type": "string", "description": "Source adapter id, e.g. 'standvirtual'." },
         "url": { "type": "string", "description": "The exact URL fetched for this round." },
-        "found": { "type": "integer", "minimum": 0, "description": "Cards parsed off the page. Equals new + duplicates + dropped." },
-        "new": { "type": "integer", "minimum": 0 },
+        "found": { "type": "integer", "minimum": 0, "description": "Cards parsed off the page. Equals new + duplicates." },
+        "new": { "type": "integer", "minimum": 0, "description": "Not seen in any earlier round or from any earlier source." },
         "duplicates": { "type": "integer", "minimum": 0, "description": "Already seen in an earlier round — the progressive-exclusion counter." },
-        "dropped": { "type": "integer", "minimum": 0, "description": "Rejected by the firewall (unvisited URL, price not in page text, non-EU/EEA country)." },
+        "dropped": { "type": "integer", "minimum": 0, "description": "A SUBSET OF new: those that were fetched, examined and then rejected by the firewall (unvisited URL, price not in page text, non-EU/EEA country, title does not mention the searched model, listed year older than the request allows). Not a fourth disjoint bucket — do not expect new + duplicates + dropped to equal found. A producer that verifies only the first N new cards per source leaves the remainder never examined, so new - dropped overstates how many were actually kept; firewall_kept in the brand's diagnostics is the number that were." },
         "error": { "type": ["string", "null"], "description": "Timeout/block/parse failure for this round; the ladder continues to the next rung regardless." }
       }
     },

@@ -128,7 +128,43 @@
         "status": { "type": "string", "enum": ["pending", "in progress", "done", "failed"] },
         "models_found": { "type": "integer", "minimum": 0 },
         "completed_at": { "type": ["string", "null"], "description": "ISO-8601 timestamp; null until the brand reaches a terminal status." },
-        "error": { "type": "string", "description": "Present only when status is 'failed' — why it failed, kept visible rather than swallowed." }
+        "error": { "type": "string", "description": "Present only when status is 'failed' — why it failed, kept visible rather than swallowed." },
+        "diagnostics": { "$ref": "#/$defs/brand_diagnostics" }
+      }
+    },
+    "brand_diagnostics": {
+      "type": "object",
+      "description": "What the search for this brand actually did, recorded on the brand it describes. Optional: a producer that cannot answer these omits the object entirely rather than writing zeros, because a zero here is a measurement ('the parser produced no cards') and an absent object is the lack of one. Exists so that 'the sites had no cars' stays distinguishable from 'the parser broke' from the committed record alone, months later, with no live debugging session — the two look identical in models_found.",
+      "additionalProperties": false,
+      "properties": {
+        "models_suggested": { "type": "integer", "minimum": 0, "description": "Candidate model names the search actually used." },
+        "models_discovered": { "type": "integer", "minimum": 0, "description": "Distinct model names the sources themselves published for this brand. Zero means no source could answer and a vocabulary had to be recalled rather than looked up." },
+        "models_rejected_as_invented": { "type": "integer", "minimum": 0, "description": "Suggested names no source had listed, dropped before they could reach a URL." },
+        "model_suggestion_retries": { "type": "integer", "minimum": 0 },
+        "searches_attempted": { "type": "integer", "minimum": 0 },
+        "search_fetch_failures": { "type": "integer", "minimum": 0, "description": "Equal to searches_attempted means the sites refused us, not that they had no cars." },
+        "parse_failures": { "type": "integer", "minimum": 0, "description": "A source's own parser raising. Non-zero means a code bug or markup drift, never an empty market." },
+        "cards_parsed": { "type": "integer", "minimum": 0, "description": "Cards parsed off the search pages, before dedup. Zero with zero fetch failures is the signature of a stale selector." },
+        "unique_offerings": { "type": "integer", "minimum": 0 },
+        "candidates_checked": { "type": "integer", "minimum": 0, "description": "Listing pages fetched and put through the firewall. Bounded per source, so this is smaller than cards_parsed by design." },
+        "candidate_fetch_failures": { "type": "integer", "minimum": 0 },
+        "firewall_kept": { "type": "integer", "minimum": 0 },
+        "firewall_drops_by_reason": {
+          "type": "object",
+          "description": "Firewall drop reason -> count. The only place a systematic drop (every price failing the substring check, say) becomes visible.",
+          "additionalProperties": { "type": "integer", "minimum": 0 }
+        },
+        "circuit_breaker_tripped": { "type": "boolean" },
+        "search_status": { "type": ["string", "null"], "description": "The derived search_status for this brand as a whole." },
+        "requests_made": { "type": "integer", "minimum": 0, "description": "HTTP requests this brand made, against the per-run cap." },
+        "by_source": {
+          "type": "object",
+          "description": "The same counters again, split by source adapter name. With more than one source the brand-level totals stop being diagnosable on their own: '6 cards, 0 kept' reads very differently once you can see it was one source returning 403 while another worked normally.",
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": { "type": "integer" }
+          }
+        }
       }
     }
   }
