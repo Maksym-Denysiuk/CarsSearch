@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g16-chery",
       "group_name": "Chery Group",
-      "brand_id": "jaecoo",
-      "brand_name": "Jaecoo"
+      "brand_id": "icar",
+      "brand_name": "iCar"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 15,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 106,
+      "brands_failed": 107,
       "models_found": 0,
       "groups": [
         {
@@ -879,9 +879,9 @@
             {
               "brand_id": "jaecoo",
               "brand_name": "Jaecoo",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:09.267892+00:00"
             },
             {
               "brand_id": "icar",
