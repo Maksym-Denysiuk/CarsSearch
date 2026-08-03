@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g03-vw",
-      "group_name": "Volkswagen Group",
-      "brand_id": "scout-motors",
-      "brand_name": "Scout Motors"
+      "group_id": "g04-stellantis",
+      "group_name": "Stellantis",
+      "brand_id": "alfa-romeo",
+      "brand_name": "Alfa Romeo"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 2,
+      "groups_done": 3,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 16,
+      "brands_failed": 17,
       "models_found": 0,
       "groups": [
         {
@@ -97,7 +97,7 @@
         {
           "group_id": "g03-vw",
           "group_name": "Volkswagen Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "volkswagen",
@@ -158,9 +158,9 @@
             {
               "brand_id": "scout-motors",
               "brand_name": "Scout Motors",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:17.821735+00:00"
             }
           ]
         },
