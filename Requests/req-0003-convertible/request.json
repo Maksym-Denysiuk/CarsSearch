@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g06-hyundai",
-      "group_name": "Hyundai Motor Group",
-      "brand_id": "genesis",
-      "brand_name": "Genesis"
+      "group_id": "g07-gm",
+      "group_name": "General Motors (GM)",
+      "brand_id": "chevrolet",
+      "brand_name": "Chevrolet"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 5,
+      "groups_done": 6,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 37,
+      "brands_failed": 38,
       "models_found": 0,
       "groups": [
         {
@@ -307,7 +307,7 @@
         {
           "group_id": "g06-hyundai",
           "group_name": "Hyundai Motor Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "hyundai",
@@ -326,9 +326,9 @@
             {
               "brand_id": "genesis",
               "brand_name": "Genesis",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:23.184276+00:00"
             }
           ]
         },
