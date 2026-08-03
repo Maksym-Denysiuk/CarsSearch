@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g17-changan",
       "group_name": "Changan Group",
-      "brand_id": "deepal",
-      "brand_name": "Deepal"
+      "brand_id": "nevo",
+      "brand_name": "Nevo"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 16,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 109,
+      "brands_failed": 110,
       "models_found": 0,
       "groups": [
         {
@@ -907,9 +907,9 @@
             {
               "brand_id": "deepal",
               "brand_name": "Deepal",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:09.716601+00:00"
             },
             {
               "brand_id": "nevo",
