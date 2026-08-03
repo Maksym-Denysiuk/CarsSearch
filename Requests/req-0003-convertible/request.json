@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g25-other-national",
       "group_name": "Other National / Emerging Markets",
-      "brand_id": "lada",
-      "brand_name": "Lada"
+      "brand_id": "proton",
+      "brand_name": "Proton"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 24,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 129,
+      "brands_failed": 130,
       "models_found": 0,
       "groups": [
         {
@@ -1103,9 +1103,9 @@
             {
               "brand_id": "lada",
               "brand_name": "Lada",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:45.650459+00:00"
             },
             {
               "brand_id": "proton",
