@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g05-toyota",
       "group_name": "Toyota Motor Corporation",
-      "brand_id": "toyota",
-      "brand_name": "Toyota"
+      "brand_id": "lexus",
+      "brand_name": "Lexus"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 4,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 31,
+      "brands_failed": 32,
       "models_found": 0,
       "groups": [
         {
@@ -272,14 +272,14 @@
         {
           "group_id": "g05-toyota",
           "group_name": "Toyota Motor Corporation",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "toyota",
               "brand_name": "Toyota",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:22.304058+00:00"
             },
             {
               "brand_id": "lexus",
