@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g19-dongfeng",
-      "group_name": "Dongfeng Motor",
-      "brand_id": "forthing",
-      "brand_name": "Forthing"
+      "group_id": "g20-baic",
+      "group_name": "BAIC Group",
+      "brand_id": "baic",
+      "brand_name": "BAIC"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 18,
+      "groups_done": 19,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 115,
+      "brands_failed": 116,
       "models_found": 0,
       "groups": [
         {
@@ -944,7 +944,7 @@
         {
           "group_id": "g19-dongfeng",
           "group_name": "Dongfeng Motor",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "voyah",
@@ -963,9 +963,9 @@
             {
               "brand_id": "forthing",
               "brand_name": "Forthing",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:10.607184+00:00"
             }
           ]
         },
