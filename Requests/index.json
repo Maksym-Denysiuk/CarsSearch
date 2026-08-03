@@ -51,10 +51,10 @@
       "date_of_request": "2026-08-02",
       "status": "in progress",
       "search_state": {
-        "group_id": "g09-renault-nissan-mitsubishi",
-        "group_name": "Renault-Nissan-Mitsubishi Alliance",
-        "brand_id": "renault",
-        "brand_name": "Renault"
+        "group_id": "g12-electric-emerging",
+        "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+        "brand_id": "nio",
+        "brand_name": "Nio"
       },
       "counts": {
         "models": 0,
