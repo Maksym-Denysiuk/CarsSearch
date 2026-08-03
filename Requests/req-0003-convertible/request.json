@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g07-gm",
       "group_name": "General Motors (GM)",
-      "brand_id": "chevrolet",
-      "brand_name": "Chevrolet"
+      "brand_id": "gmc",
+      "brand_name": "GMC"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 6,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 38,
+      "brands_failed": 39,
       "models_found": 0,
       "groups": [
         {
@@ -335,14 +335,14 @@
         {
           "group_id": "g07-gm",
           "group_name": "General Motors (GM)",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "chevrolet",
               "brand_name": "Chevrolet",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:23.336275+00:00"
             },
             {
               "brand_id": "gmc",
