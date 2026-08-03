@@ -22,9 +22,9 @@
       "groups_total": 25,
       "groups_done": 0,
       "brands_total": 131,
-      "brands_done": 1,
+      "brands_done": 2,
       "brands_failed": 1,
-      "models_found": 6,
+      "models_found": 10,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -274,14 +274,14 @@
         {
           "group_id": "g05-toyota",
           "group_name": "Toyota Motor Corporation",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "toyota",
               "brand_name": "Toyota",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 4,
+              "completed_at": "2026-08-03T18:05:54.752059+00:00"
             },
             {
               "brand_id": "lexus",
