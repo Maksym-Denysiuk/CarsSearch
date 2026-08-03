@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g17-changan",
-      "group_name": "Changan Group",
-      "brand_id": "nevo",
-      "brand_name": "Nevo"
+      "group_id": "g18-faw",
+      "group_name": "FAW Group",
+      "brand_id": "hongqi",
+      "brand_name": "Hongqi"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 16,
+      "groups_done": 17,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 110,
+      "brands_failed": 111,
       "models_found": 0,
       "groups": [
         {
@@ -895,7 +895,7 @@
         {
           "group_id": "g17-changan",
           "group_name": "Changan Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "changan",
@@ -914,9 +914,9 @@
             {
               "brand_id": "nevo",
               "brand_name": "Nevo",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:40.557566+00:00"
             }
           ]
         },
