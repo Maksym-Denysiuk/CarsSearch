@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g15-gwm",
       "group_name": "Great Wall Motor (GWM)",
-      "brand_id": "haval",
-      "brand_name": "Haval"
+      "brand_id": "wey",
+      "brand_name": "Wey"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 14,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 97,
+      "brands_failed": 98,
       "models_found": 0,
       "groups": [
         {
@@ -804,14 +804,14 @@
         {
           "group_id": "g15-gwm",
           "group_name": "Great Wall Motor (GWM)",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "haval",
               "brand_name": "Haval",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:38.602300+00:00"
             },
             {
               "brand_id": "wey",
