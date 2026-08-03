@@ -31,10 +31,10 @@
       "date_of_request": "2026-08-02",
       "status": "in progress",
       "search_state": {
-        "group_id": "g04-stellantis",
-        "group_name": "Stellantis",
-        "brand_id": "vauxhall",
-        "brand_name": "Vauxhall"
+        "group_id": "g10-geely",
+        "group_name": "Geely Holding Group & Affiliates",
+        "brand_id": "geely-auto",
+        "brand_name": "Geely Auto"
       },
       "counts": {
         "models": 0,
