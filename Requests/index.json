@@ -13,7 +13,7 @@
       "search_state": {
         "group": null,
         "brand": null,
-        "models_done": 58
+        "models_done": 42
       },
       "counts": {
         "models": 58,
@@ -31,11 +31,11 @@
       "search_state": {
         "group": "BMW Group",
         "brand": "BMW Alpina",
-        "models_done": 0
+        "models_done": 12
       },
       "counts": {
-        "models": 0,
-        "offerings": 0
+        "models": 2,
+        "offerings": 12
       }
     },
     {
