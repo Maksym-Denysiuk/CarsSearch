@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g12-electric-emerging",
       "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "im-motors",
-      "brand_name": "IM Motors"
+      "brand_id": "mg",
+      "brand_name": "MG"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 11,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 76,
+      "brands_failed": 77,
       "models_found": 0,
       "groups": [
         {
@@ -641,9 +641,9 @@
             {
               "brand_id": "im-motors",
               "brand_name": "IM Motors",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:02.399074+00:00"
             },
             {
               "brand_id": "mg",
