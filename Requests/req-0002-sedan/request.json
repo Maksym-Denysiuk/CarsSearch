@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g25-other-national",
       "group_name": "Other National / Emerging Markets",
-      "brand_id": "perodua",
-      "brand_name": "Perodua"
+      "brand_id": "lada",
+      "brand_name": "Lada"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 24,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 128,
+      "brands_failed": 129,
       "models_found": 0,
       "groups": [
         {
@@ -1096,9 +1096,9 @@
             {
               "brand_id": "perodua",
               "brand_name": "Perodua",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:14.885792+00:00"
             },
             {
               "brand_id": "lada",
