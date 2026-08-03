@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g15-gwm",
       "group_name": "Great Wall Motor (GWM)",
-      "brand_id": "wey",
-      "brand_name": "Wey"
+      "brand_id": "tank",
+      "brand_name": "Tank"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 14,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 98,
+      "brands_failed": 99,
       "models_found": 0,
       "groups": [
         {
@@ -816,9 +816,9 @@
             {
               "brand_id": "wey",
               "brand_name": "Wey",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:38.754708+00:00"
             },
             {
               "brand_id": "tank",
