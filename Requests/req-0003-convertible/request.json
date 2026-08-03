@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g24-chinese-ev-independents",
-      "group_name": "Chinese EV Independents",
-      "brand_id": "leapmotor",
-      "brand_name": "Leapmotor"
+      "group_id": "g25-other-national",
+      "group_name": "Other National / Emerging Markets",
+      "brand_id": "togg",
+      "brand_name": "Togg"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 23,
+      "groups_done": 24,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 126,
+      "brands_failed": 127,
       "models_found": 0,
       "groups": [
         {
@@ -1063,7 +1063,7 @@
         {
           "group_id": "g24-chinese-ev-independents",
           "group_name": "Chinese EV Independents",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "li-auto",
@@ -1075,9 +1075,9 @@
             {
               "brand_id": "leapmotor",
               "brand_name": "Leapmotor",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:45.202230+00:00"
             }
           ]
         },
