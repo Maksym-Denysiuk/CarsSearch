@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g04-stellantis",
-      "group_name": "Stellantis",
-      "brand_id": "ds-automobiles",
-      "brand_name": "DS Automobiles"
+      "group_id": "g05-toyota",
+      "group_name": "Toyota Motor Corporation",
+      "brand_id": "toyota",
+      "brand_name": "Toyota"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 3,
+      "groups_done": 4,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 30,
+      "brands_failed": 31,
       "models_found": 0,
       "groups": [
         {
@@ -167,7 +167,7 @@
         {
           "group_id": "g04-stellantis",
           "group_name": "Stellantis",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "alfa-romeo",
@@ -263,9 +263,9 @@
             {
               "brand_id": "ds-automobiles",
               "brand_name": "DS Automobiles",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:22.155472+00:00"
             }
           ]
         },
