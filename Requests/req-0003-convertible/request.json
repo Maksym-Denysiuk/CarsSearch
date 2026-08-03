@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g14-specialist-low-volume",
       "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-      "brand_id": "koenigsegg",
-      "brand_name": "Koenigsegg"
+      "brand_id": "morgan-motor-company",
+      "brand_name": "Morgan Motor Company"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 13,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 88,
+      "brands_failed": 89,
       "models_found": 0,
       "groups": [
         {
@@ -739,9 +739,9 @@
             {
               "brand_id": "koenigsegg",
               "brand_name": "Koenigsegg",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:35.094976+00:00"
             },
             {
               "brand_id": "morgan-motor-company",
