@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g02-mercedes-benz",
       "group_name": "Mercedes-Benz Group",
-      "brand_id": "mercedes-maybach",
-      "brand_name": "Mercedes-Maybach"
+      "brand_id": "smart",
+      "brand_name": "Smart"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 1,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 6,
+      "brands_failed": 7,
       "models_found": 0,
       "groups": [
         {
@@ -81,9 +81,9 @@
             {
               "brand_id": "mercedes-maybach",
               "brand_name": "Mercedes-Maybach",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:16.327074+00:00"
             },
             {
               "brand_id": "smart",
