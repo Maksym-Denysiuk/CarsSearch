@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g13-independent-mainstream",
       "group_name": "Independent Mainstream Manufacturers",
-      "brand_id": "mazda",
-      "brand_name": "Mazda"
+      "brand_id": "subaru",
+      "brand_name": "Subaru"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 12,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 81,
+      "brands_failed": 82,
       "models_found": 0,
       "groups": [
         {
@@ -683,9 +683,9 @@
             {
               "brand_id": "mazda",
               "brand_name": "Mazda",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:34.073847+00:00"
             },
             {
               "brand_id": "subaru",
