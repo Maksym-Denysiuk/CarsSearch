@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g02-mercedes-benz",
-      "group_name": "Mercedes-Benz Group",
-      "brand_id": "smart",
-      "brand_name": "Smart"
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "volkswagen",
+      "brand_name": "Volkswagen"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 1,
+      "groups_done": 2,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 7,
+      "brands_failed": 8,
       "models_found": 0,
       "groups": [
         {
@@ -62,7 +62,7 @@
         {
           "group_id": "g02-mercedes-benz",
           "group_name": "Mercedes-Benz Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "mercedes-benz",
@@ -88,9 +88,9 @@
             {
               "brand_id": "smart",
               "brand_name": "Smart",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:16.474667+00:00"
             }
           ]
         },
