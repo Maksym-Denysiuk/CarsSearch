@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-02",
+  "generated": "2026-08-03",
   "requests": [
     {
       "request_id": "req-0001-roadsters",
@@ -11,13 +11,15 @@
       "date_of_request": "2026-08-02",
       "status": "done",
       "search_state": {
-        "group": null,
-        "brand": null,
-        "models_done": 58
+        "group_id": null,
+        "group_name": null,
+        "brand_id": null,
+        "brand_name": null
       },
       "counts": {
-        "models": 58,
-        "offerings": 52
+        "models": 42,
+        "brands_done": 23,
+        "brands_total": 23
       }
     },
     {
@@ -27,15 +29,17 @@
       "results_path": "Requests/req-0002-sedan/results.json",
       "favorites_path": "Requests/req-0002-sedan/favorites.json",
       "date_of_request": "2026-08-02",
-      "status": "tbd",
+      "status": "in progress",
       "search_state": {
-        "group": null,
-        "brand": null,
-        "models_done": 0
+        "group_id": "g04-stellantis",
+        "group_name": "Stellantis",
+        "brand_id": "vauxhall",
+        "brand_name": "Vauxhall"
       },
       "counts": {
         "models": 0,
-        "offerings": 0
+        "brands_done": 0,
+        "brands_total": 131
       }
     },
     {
@@ -47,13 +51,15 @@
       "date_of_request": "2026-08-02",
       "status": "tbd",
       "search_state": {
-        "group": null,
-        "brand": null,
-        "models_done": 0
+        "group_id": null,
+        "group_name": null,
+        "brand_id": null,
+        "brand_name": null
       },
       "counts": {
         "models": 0,
-        "offerings": 0
+        "brands_done": 0,
+        "brands_total": 0
       }
     }
   ]
