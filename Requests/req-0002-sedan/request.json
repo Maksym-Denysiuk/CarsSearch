@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g14-specialist-low-volume",
-      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-      "brand_id": "de-tomaso",
-      "brand_name": "De Tomaso"
+      "group_id": "g15-gwm",
+      "group_name": "Great Wall Motor (GWM)",
+      "brand_id": "haval",
+      "brand_name": "Haval"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 13,
+      "groups_done": 14,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 96,
+      "brands_failed": 97,
       "models_found": 0,
       "groups": [
         {
@@ -706,7 +706,7 @@
         {
           "group_id": "g14-specialist-low-volume",
           "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "ferrari",
@@ -795,9 +795,9 @@
             {
               "brand_id": "de-tomaso",
               "brand_name": "De Tomaso",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:05.535176+00:00"
             }
           ]
         },
