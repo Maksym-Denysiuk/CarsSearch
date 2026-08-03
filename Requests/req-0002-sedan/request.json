@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g12-electric-emerging",
       "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "vinfast",
-      "brand_name": "VinFast"
+      "brand_id": "avatr",
+      "brand_name": "Avatr"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 11,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 73,
+      "brands_failed": 74,
       "models_found": 0,
       "groups": [
         {
@@ -620,9 +620,9 @@
             {
               "brand_id": "vinfast",
               "brand_name": "VinFast",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:27:59.685332+00:00"
             },
             {
               "brand_id": "avatr",
