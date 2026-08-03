@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g14-specialist-low-volume",
       "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-      "brand_id": "mclaren",
-      "brand_name": "McLaren"
+      "brand_id": "pagani",
+      "brand_name": "Pagani"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 13,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 86,
+      "brands_failed": 87,
       "models_found": 0,
       "groups": [
         {
@@ -725,9 +725,9 @@
             {
               "brand_id": "mclaren",
               "brand_name": "McLaren",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-03T00:28:34.804885+00:00"
             },
             {
               "brand_id": "pagani",
