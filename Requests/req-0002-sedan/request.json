@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g06-hyundai",
       "group_name": "Hyundai Motor Group",
-      "brand_id": "hyundai",
-      "brand_name": "Hyundai"
+      "brand_id": "kia",
+      "brand_name": "Kia"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -22,7 +22,7 @@
       "groups_total": 25,
       "groups_done": 5,
       "brands_total": 131,
-      "brands_done": 29,
+      "brands_done": 30,
       "brands_failed": 6,
       "models_found": 109,
       "groups": [
@@ -1375,14 +1375,40 @@
         {
           "group_id": "g06-hyundai",
           "group_name": "Hyundai Motor Group",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "hyundai",
               "brand_name": "Hyundai",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T02:13:21.498833+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 13,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 10
+                  },
+                  "autoscout24": {
+                    "models_discovered": 8
+                  }
+                }
+              }
             },
             {
               "brand_id": "kia",
