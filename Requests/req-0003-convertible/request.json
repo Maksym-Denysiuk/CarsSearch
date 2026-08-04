@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g14-specialist-low-volume",
       "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-      "brand_id": "manhart-performance",
-      "brand_name": "Manhart Performance"
+      "brand_id": "czinger-vehicles",
+      "brand_name": "Czinger Vehicles"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 13,
       "brands_total": 131,
-      "brands_done": 72,
+      "brands_done": 73,
       "brands_failed": 22,
       "models_found": 100,
       "groups": [
@@ -3338,9 +3338,44 @@
             {
               "brand_id": "manhart-performance",
               "brand_name": "Manhart Performance",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T16:42:02.822674+00:00",
+              "diagnostics": {
+                "models_suggested": 7,
+                "searches_attempted": 21,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 242,
+                "unique_offerings": 45,
+                "candidates_checked": 12,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 12
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 35,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "searches_attempted": 7,
+                    "candidates_checked": 12,
+                    "firewall_dropped": 12
+                  },
+                  "auto.pt": {
+                    "searches_attempted": 7,
+                    "searches_missing": 7
+                  },
+                  "autoscout24": {
+                    "searches_attempted": 7,
+                    "searches_missing": 7
+                  }
+                }
+              }
             },
             {
               "brand_id": "czinger-vehicles",
