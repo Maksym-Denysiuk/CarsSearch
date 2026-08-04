@@ -13,7 +13,7 @@
       "search_state": {
         "group": null,
         "brand": null,
-        "models_done": 58
+        "models_done": 42
       },
       "counts": {
         "models": 58,
@@ -31,7 +31,7 @@
       "search_state": {
         "group": null,
         "brand": null,
-        "models_done": 136
+        "models_done": 193
       },
       "counts": {
         "models": 136,
@@ -47,13 +47,13 @@
       "date_of_request": "2026-08-02",
       "status": "in progress",
       "search_state": {
-        "group": "Stellantis",
-        "brand": "Ram",
-        "models_done": 40
+        "group": "Renault-Nissan-Mitsubishi Alliance",
+        "brand": "Nissan",
+        "models_done": 44
       },
       "counts": {
-        "models": 35,
-        "offerings": 40
+        "models": 49,
+        "offerings": 44
       }
     }
   ]
