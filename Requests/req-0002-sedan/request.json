@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g12-electric-emerging",
       "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "xiaomi",
-      "brand_name": "Xiaomi"
+      "brand_id": "vinfast",
+      "brand_name": "VinFast"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -22,9 +22,9 @@
       "groups_total": 25,
       "groups_done": 11,
       "brands_total": 131,
-      "brands_done": 58,
+      "brands_done": 59,
       "brands_failed": 14,
-      "models_found": 163,
+      "models_found": 166,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -2691,9 +2691,47 @@
             {
               "brand_id": "xiaomi",
               "brand_name": "Xiaomi",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 3,
+              "completed_at": "2026-08-04T04:06:38.560689+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 37,
+                "unique_offerings": 37,
+                "candidates_checked": 6,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 3,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 3
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 228,
+                "model_suggestion_retries": 0,
+                "models_discovered": 2,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1,
+                    "searches_missing": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 2,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  },
+                  "standvirtual": {
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "vinfast",
