@@ -11,18 +11,18 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g12-electric-emerging",
-      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "roewe",
-      "brand_name": "Roewe"
+      "group_id": "g13-independent-mainstream",
+      "group_name": "Independent Mainstream Manufacturers",
+      "brand_id": "honda",
+      "brand_name": "Honda"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
     "progress": {
       "groups_total": 25,
-      "groups_done": 11,
+      "groups_done": 12,
       "brands_total": 131,
-      "brands_done": 63,
+      "brands_done": 64,
       "brands_failed": 15,
       "models_found": 170,
       "groups": [
@@ -2322,7 +2322,7 @@
         {
           "group_id": "g12-electric-emerging",
           "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "tesla",
@@ -2923,9 +2923,44 @@
             {
               "brand_id": "roewe",
               "brand_name": "Roewe",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T04:40:07.004731+00:00",
+              "diagnostics": {
+                "models_suggested": 8,
+                "searches_attempted": 24,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 275,
+                "unique_offerings": 51,
+                "candidates_checked": 20,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 20
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 136,
+                "model_suggestion_retries": 1,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "searches_attempted": 8,
+                    "candidates_checked": 20,
+                    "firewall_dropped": 20
+                  },
+                  "auto.pt": {
+                    "searches_attempted": 8,
+                    "searches_missing": 8
+                  },
+                  "autoscout24": {
+                    "searches_attempted": 8,
+                    "searches_missing": 8
+                  }
+                }
+              }
             }
           ]
         },
