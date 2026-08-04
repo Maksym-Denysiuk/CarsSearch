@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g10-geely",
       "group_name": "Geely Holding Group & Affiliates",
-      "brand_id": "volvo-cars",
-      "brand_name": "Volvo Cars"
+      "brand_id": "polestar",
+      "brand_name": "Polestar"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 9,
       "brands_total": 131,
       "brands_done": 46,
-      "brands_failed": 5,
+      "brands_failed": 6,
       "models_found": 66,
       "groups": [
         {
@@ -1874,9 +1874,29 @@
             {
               "brand_id": "volvo-cars",
               "brand_name": "Volvo Cars",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T15:43:08.129145+00:00",
+              "error": "model_suggestion_unparseable",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 1,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "by_source": {}
+              }
             },
             {
               "brand_id": "polestar",
