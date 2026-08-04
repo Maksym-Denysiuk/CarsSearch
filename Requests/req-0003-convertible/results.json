@@ -1945,6 +1945,121 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "lamborghini-revuelto",
+      "name": "Revuelto",
+      "manufacturer": "Lamborghini",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "lamborghini",
+      "brand_name": "Lamborghini",
+      "body_type": "convertible",
+      "tier": "ultra-exotic",
+      "first_year": null,
+      "average_budget_eur": 664872,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/lamborghini-revuelto-ver-standard-ID8PVcVX.html",
+          "price_eur": 740000,
+          "price_display": "740 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:41:27.488145Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "4 444 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/lamborghini-revuelto-ID8Q0LUo.html",
+          "price_eur": 789990,
+          "price_display": "789 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:41:27.488145Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "6 472 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-revuelto-ad-personam-lamborghini-nuernberg-elektro-benzin-orange-cat_ma41gr200796-e28b40a0-7474-4910-bfc5-52ef77e49b42",
+          "price_eur": 548970,
+          "price_display": "€ 548.970",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:41:27.488145Z",
+          "location": "Nürnberg",
+          "year": 2024,
+          "mileage": "890 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-revuelto-i-lamborghini-hamburg-elektro-benzin-blau-cat_ma41gr200796-860aa93d-5bc0-43ad-9039-ed985467f689",
+          "price_eur": 639900,
+          "price_display": "€ 639.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:41:27.488145Z",
+          "location": "Hamburg",
+          "year": 2025,
+          "mileage": "432 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-revuelto-carbon-benzin-violett-cat_ma41gr200796-333ae025-734f-4fca-9b90-c9276a567926",
+          "price_eur": 605500,
+          "price_display": "€ 605.500",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:41:27.488145Z",
+          "location": "Hannover",
+          "year": 2025,
+          "mileage": "74 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/lamborghini/revuelto?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/lamborghini/revuelto",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/lamborghini/revuelto?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
