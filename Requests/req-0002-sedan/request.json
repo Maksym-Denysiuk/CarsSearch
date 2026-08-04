@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g16-chery",
       "group_name": "Chery Group",
-      "brand_id": "jaecoo",
-      "brand_name": "Jaecoo"
+      "brand_id": "icar",
+      "brand_name": "iCar"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -22,7 +22,7 @@
       "groups_total": 25,
       "groups_done": 15,
       "brands_total": 131,
-      "brands_done": 81,
+      "brands_done": 82,
       "brands_failed": 25,
       "models_found": 182,
       "groups": [
@@ -3861,9 +3861,32 @@
             {
               "brand_id": "jaecoo",
               "brand_name": "Jaecoo",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T06:07:32.337283+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 3,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "autoscout24": {
+                    "models_discovered": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "icar",
