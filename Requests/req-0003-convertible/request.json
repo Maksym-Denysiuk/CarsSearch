@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g03-vw",
       "group_name": "Volkswagen Group",
-      "brand_id": "audi",
-      "brand_name": "Audi"
+      "brand_id": "porsche",
+      "brand_name": "Porsche"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 2,
       "brands_total": 131,
-      "brands_done": 8,
+      "brands_done": 9,
       "brands_failed": 2,
-      "models_found": 3,
+      "models_found": 14,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -328,9 +328,48 @@
             {
               "brand_id": "audi",
               "brand_name": "Audi",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 11,
+              "completed_at": "2026-08-04T08:22:02.929024+00:00",
+              "diagnostics": {
+                "models_suggested": 3,
+                "searches_attempted": 9,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 108,
+                "unique_offerings": 108,
+                "candidates_checked": 20,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 11,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 9
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 257,
+                "model_suggestion_retries": 0,
+                "models_discovered": 15,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 12,
+                    "searches_attempted": 3,
+                    "candidates_checked": 9,
+                    "firewall_dropped": 9
+                  },
+                  "autoscout24": {
+                    "models_discovered": 8,
+                    "searches_attempted": 3,
+                    "candidates_checked": 9,
+                    "firewall_kept": 9
+                  },
+                  "standvirtual": {
+                    "searches_attempted": 3,
+                    "candidates_checked": 2,
+                    "firewall_kept": 2
+                  }
+                }
+              }
             },
             {
               "brand_id": "porsche",
