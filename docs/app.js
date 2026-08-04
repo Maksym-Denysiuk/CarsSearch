@@ -12,7 +12,14 @@
   // v2: column ids changed with the multi-request schema (selling_items ->
   // offerings, brand/group/tax added). A returning visitor's v1 selection would
   // render a table of blank columns, so the key is bumped rather than migrated.
-  var COLS_LS_KEY = 'carResearchColumns.v2';
+  //
+  // v3: the spec fields are populated for the first time (by the enrichment
+  // step) and Config/spec_fields.json adds columns the stored list has never
+  // heard of. A stored selection cannot distinguish "column did not exist" from
+  // "user switched it off", so the same reasoning as v2 applies in reverse:
+  // rather than guess, reset everyone to defaults once, now that the columns
+  // finally have something in them.
+  var COLS_LS_KEY = 'carResearchColumns.v3';
   var PRICE_LS_KEY = 'carResearchPriceRanges';
   var THEME_LS_KEY = 'carResearchTheme';
 
@@ -172,6 +179,33 @@
       '<th>dup</th><th>dropped</th><th>error</th></tr></thead><tbody>' + rows + '</tbody></table></details>';
   }
 
+  /* Per-car detail, as opposed to the spec fields on the model row: these
+     describe THIS advert, not the model. `year`, `mileage` and `fuel` come
+     off the listing card and have always been captured -- they were simply
+     never rendered, so 259 years and 287 mileages sat in results.json
+     invisible. `colour` and `condition_notes` are read from the listing's
+     own page by the enrichment step. Every one is optional and an absent
+     one is not printed at all: an "n/a" per field would drown the row.
+
+     `condition_notes` in particular: absent means the advert said nothing
+     about the car's condition, NOT that the car is undamaged. Silence is
+     not a clean bill of health and is never rendered as one. */
+  function offeringFacts(o) {
+    var bits = [];
+    if (o.year) bits.push(esc(o.year));
+    if (o.mileage) bits.push(esc(o.mileage));
+    if (o.colour) bits.push(esc(o.colour));
+    if (o.fuel) bits.push(esc(o.fuel));
+    return bits.length
+      ? '<span class="listing-facts">' + bits.join(' &middot; ') + '</span>' : '';
+  }
+
+  function offeringNotes(o) {
+    if (!o.condition_notes) return '';
+    return '<span class="listing-note" title="Stated by the advert itself">' +
+      esc(o.condition_notes) + '</span>';
+  }
+
   function renderOfferings(m) {
     var items = m.offerings || [];
     var log = m.offering_search_log || [];
@@ -180,9 +214,11 @@
     }
     var body = items.map(function (o) {
       var where = o.location ? esc(o.location) : esc(o.country);
+      var facts = offeringFacts(o);
       return '<span class="listing"><span class="listing-price">' + fmtBudget(o.price_eur) + '</span>' +
+        (facts ? ' &mdash; ' + facts : '') +
         ' &mdash; ' + where + ' (<a href="' + esc(o.url) + '" target="_blank" rel="noopener">' +
-        esc(o.source_domain) + '</a>)</span>';
+        esc(o.source_domain) + '</a>)' + offeringNotes(o) + '</span>';
     }).join('');
     return '<details><summary>' + items.length + ' offering' + (items.length > 1 ? 's' : '') +
       '</summary>' + body + (log.length ? renderRoundLog(log) : '') + '</details>';
@@ -827,7 +863,51 @@
   wireRequestForm();
   loadBodyTypeChart();
 
-  fetchJson('../Requests/index.json')
+  /* Config/spec_fields.json is the single declaration of every car-detail
+     parameter (the pipeline reads the same file to build its extraction
+     prompts and to keep results.schema.json in step). Appending a column
+     per model-level field it declares is what makes adding a parameter a
+     one-line change instead of a four-place one.
+
+     Only fields COLUMNS does not already name are appended: the ones
+     spelled out above have bespoke cells -- fmtBool for roof_removable
+     renders an absent value as "n/a" rather than a definite "no", which a
+     generic renderer would get wrong.
+
+     A missing or malformed registry is non-fatal. The viewer's job is to
+     show the data that exists; it should not go blank because a config
+     file it can do without failed to load. */
+  function appendRegistryColumns(registry) {
+    var known = {};
+    COLUMNS.forEach(function (c) { known[c.id] = true; });
+    (registry.fields || []).forEach(function (f) {
+      if (f.level !== 'model' || known[f.key]) return;
+      COLUMNS.push({
+        id: f.key,
+        label: f.label,
+        sortKey: f.key,
+        numeric: f.type === 'integer',
+        defaultVisible: f.default_visible !== false,
+        cell: f.type === 'boolean'
+          ? function (m) { return fmtBool(m[f.key]); }
+          : function (m) { return esc(m[f.key]); }
+      });
+    });
+  }
+
+  fetchJson('../Config/spec_fields.json')
+    .then(function (registry) {
+      appendRegistryColumns(registry);
+      // `wireColumnPicker()` above already rendered the picker from the
+      // built-in COLUMNS, and `state.visibleColumns` was resolved from its
+      // defaults. Both have to be redone now that the registry has added
+      // to that list, or a newly declared parameter would exist in the
+      // data and in the schema but be unreachable in the UI.
+      state.visibleColumns = new Set(loadVisibleColumns());
+      renderColumnPicker();
+    })
+    .catch(function () { /* registry absent -- the built-in columns still work */ })
+    .then(function () { return fetchJson('../Requests/index.json'); })
     .then(function (index) {
       state.requests = (index.requests || []).slice().sort(function (a, b) {
         if (a.date_of_request !== b.date_of_request) return a.date_of_request < b.date_of_request ? 1 : -1;

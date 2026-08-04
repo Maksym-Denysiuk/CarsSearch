@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "note": "The one place a car-detail parameter is declared. Adding a parameter here, running `python -m tgbasics.carsearch.spec_fields sync` in the TelegramBasics repo and re-running enrichment is the whole procedure -- no prompt, pydantic model, JSON schema or viewer column is edited by hand. `source` is not decoration: it decides which code path may fill the field, and a per-car fact may never be answered from an LLM's memory.",
+  "fields": [
+    {
+      "key": "engine",
+      "label": "Engine",
+      "level": "model",
+      "type": "string",
+      "source": "llm_web",
+      "prompt": "Engine type and displacement as sold, e.g. '2.0L turbocharged petrol I4, 190 hp' or 'dual-motor electric, 340 kW'.",
+      "default_visible": true,
+      "filterable": true
+    },
+    {
+      "key": "gearbox",
+      "label": "Gearbox",
+      "level": "model",
+      "type": "string",
+      "source": "llm_web",
+      "prompt": "Transmission type, e.g. '8-speed automatic (torque converter)', '7-speed dual-clutch', '6-speed manual', 'single-speed reduction gear'. If both manual and automatic are offered, say so.",
+      "default_visible": true,
+      "filterable": true
+    },
+    {
+      "key": "fuel_or_charge_consumption",
+      "label": "Consumption",
+      "level": "model",
+      "type": "string",
+      "source": "llm_web",
+      "prompt": "Combined consumption per 100 km with its unit and cycle, e.g. '6.4 L/100 km (WLTP)' or '17.1 kWh/100 km (WLTP)'.",
+      "default_visible": true,
+      "filterable": true
+    },
+    {
+      "key": "tank_or_battery_size",
+      "label": "Tank / battery",
+      "level": "model",
+      "type": "string",
+      "source": "llm_web",
+      "prompt": "Fuel tank capacity in litres, or usable battery capacity in kWh for an electric or plug-in hybrid, e.g. '45 L' or '77 kWh usable'.",
+      "default_visible": true
+    },
+    {
+      "key": "doors",
+      "label": "Doors",
+      "level": "model",
+      "type": "integer",
+      "source": "llm_web",
+      "prompt": "Number of passenger doors, counting only side doors -- a tailgate or boot lid is not a door.",
+      "default_visible": true
+    },
+    {
+      "key": "roof_removable",
+      "label": "Roof removable",
+      "level": "model",
+      "type": "boolean",
+      "source": "llm_web",
+      "prompt": "Whether the roof can be opened or removed at all (true/false).",
+      "default_visible": true,
+      "applies_to_body_types": ["roadster", "convertible", "coupe", "suv-compact", "suv-midsize", "suv-large"]
+    },
+    {
+      "key": "roof_mechanism",
+      "label": "Roof mechanism",
+      "level": "model",
+      "type": "string",
+      "source": "llm_web",
+      "prompt": "How the roof opens or comes off, e.g. 'electric folding soft top, operable to 50 km/h', 'manual latch-and-fold soft top', 'lift-out targa panels'.",
+      "default_visible": true,
+      "applies_to_body_types": ["roadster", "convertible", "coupe", "suv-compact", "suv-midsize", "suv-large"]
+    },
+    {
+      "key": "first_year",
+      "label": "First year",
+      "level": "model",
+      "type": "integer",
+      "source": "llm_web",
+      "prompt": "The first model year of the generation currently on sale, as a four-digit year.",
+      "default_visible": false
+    },
+    {
+      "key": "model_variant",
+      "label": "Variant",
+      "level": "model",
+      "type": "string",
+      "source": "llm_web",
+      "prompt": "Generation or variant designation and production status, e.g. 'ND facelift (2024-), soft top and RF hardtop'.",
+      "default_visible": false
+    },
+    {
+      "key": "year",
+      "label": "Year",
+      "level": "offering",
+      "type": "integer",
+      "source": "card",
+      "prompt": "Year of first registration of THIS car, as shown by the advert.",
+      "default_visible": true
+    },
+    {
+      "key": "mileage",
+      "label": "Mileage",
+      "level": "offering",
+      "type": "string",
+      "source": "card",
+      "prompt": "Odometer reading of THIS car, copied verbatim including its unit, e.g. '33 642 km'.",
+      "default_visible": true
+    },
+    {
+      "key": "fuel",
+      "label": "Fuel",
+      "level": "offering",
+      "type": "string",
+      "source": "card",
+      "prompt": "Fuel or energy type of THIS car as the advert words it, e.g. 'Gasolina', 'Diesel', 'Eletrico'.",
+      "default_visible": true
+    },
+    {
+      "key": "colour",
+      "label": "Colour",
+      "level": "offering",
+      "type": "string",
+      "source": "listing_page",
+      "prompt": "Exterior colour of THIS car exactly as the advert states it. Null if the advert does not state one -- never infer a colour from a photo description or from the model.",
+      "default_visible": true
+    },
+    {
+      "key": "condition_notes",
+      "label": "Stated problems",
+      "level": "offering",
+      "type": "string",
+      "source": "listing_page",
+      "prompt": "Any defect, damage, accident history, outstanding repair, or adverse use the advert itself states about THIS car -- hail damage, a repaired accident, wear, ex-taxi or ex-rental use -- quoted or closely paraphrased. Null if the advert states none. Two rules, both absolute: (1) never write a reassurance, and that includes REPEATING one the advert made -- 'accident-free', 'unfallfrei', 'sem acidentes', 'first owner', 'full service history' and 'good condition' are all claims that the car is fine, so they belong here as null, not as text; (2) null means the advert was silent, and silence does not mean the car is undamaged.",
+      "default_visible": true
+    }
+  ]
+}

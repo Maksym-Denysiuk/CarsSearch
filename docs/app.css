@@ -234,6 +234,20 @@ details summary { cursor: pointer; color: var(--link); font-size: 0.8rem; }
 .listing { display: block; margin: 0.15rem 0; font-size: 0.8rem; }
 .listing a { color: var(--link); }
 .listing-price { font-weight: 600; }
+/* Year / mileage / colour / fuel for one advert. Muted rather than hidden
+   behind another disclosure: these are the facts a buyer scans first, and
+   the price alone never distinguished a 2024 car from a 2026 one. */
+.listing-facts { color: var(--muted); }
+/* What the advert itself said about the car's condition. Indented onto its
+   own line because it is free text of unpredictable length, and it is the
+   one per-offering field that can carry bad news. */
+.listing-note {
+  display: block;
+  margin-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+  font-size: 0.75rem;
+}
 .round-log { margin-top: 0.3rem; }
 .round-log table { min-width: 0; width: auto; font-size: 0.72rem; }
 .round-log th, .round-log td { padding: 0.15rem 0.4rem; white-space: nowrap; }

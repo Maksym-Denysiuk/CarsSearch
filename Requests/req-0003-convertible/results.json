@@ -4,7 +4,7 @@
   "generated": "2026-08-04",
   "metadata": {
     "currency": "EUR",
-    "specs_disclaimer": "Spec fields (engine, consumption, tank/battery, variant, roof, doors, tax, photo) are omitted rather than estimated: this pipeline reads listing search results, which do not publish them. Offerings, prices and years are read from the listing cards and each price was re-verified against the listing page it came from."
+    "specs_disclaimer": "Spec fields (engine, gearbox, consumption, tank/battery, doors, roof, variant, first year) were gathered by a local language model using web search and are NOT verified against any listing -- treat them as good-faith approximations for the model, not statements about any particular car, and check spec_source before relying on one. Tax fields are left absent rather than estimated. The offerings below are different: each price was re-verified against the listing page it came from, and each car's own year, mileage and colour are read from its own advert."
   },
   "models": [
     {
@@ -16,7 +16,7 @@
       "brand_id": "bmw-alpina",
       "brand_name": "BMW Alpina",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -65,7 +65,7 @@
       "brand_id": "bmw-alpina",
       "brand_name": "BMW Alpina",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -114,7 +114,7 @@
       "brand_id": "bmw-alpina",
       "brand_name": "BMW Alpina",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -163,7 +163,7 @@
       "brand_id": "bmw-alpina",
       "brand_name": "BMW Alpina",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -212,7 +212,7 @@
       "brand_id": "bmw-alpina",
       "brand_name": "BMW Alpina",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -261,7 +261,7 @@
       "brand_id": "bmw-alpina",
       "brand_name": "BMW Alpina",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -310,7 +310,7 @@
       "brand_id": "bmw-alpina",
       "brand_name": "BMW Alpina",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -359,7 +359,7 @@
       "brand_id": "bmw-alpina",
       "brand_name": "BMW Alpina",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -409,7 +409,7 @@
       "brand_name": "Rolls-Royce",
       "body_type": "convertible",
       "tier": "exotic",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 397500,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -426,7 +426,9 @@
           "location": "Köln",
           "year": null,
           "mileage": "0 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/rolls-royce-spectre-launch-paket-starlight-23-zoll-bespoke-elektro-grau-cat_ma61gr201326ge1558-f9935206-fccb-43fd-9dfe-49f274536be9",
@@ -439,7 +441,9 @@
           "location": "Berlin",
           "year": 2025,
           "mileage": "8.000 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Gunmetal",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/rolls-royce-spectre-bespoke-starlight-shooting-star-elektro-grau-cat_ma61gr201326ge1558-1d594211-e1c6-45c8-b4f1-adf5c6c81604",
@@ -452,7 +456,9 @@
           "location": "Radebeul",
           "year": null,
           "mileage": "50 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Grau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -486,7 +492,16 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "dual-motor electric (577 hp)",
+      "gearbox": "single-speed reduction gear",
+      "doors": 4,
+      "roof_removable": false,
+      "spec_source": {
+        "url": "https://www.rolls-roycemotorcars.com/en_GB/UK/Spectre-in-detail.html",
+        "retrieved_at": "2026-08-04T22:51:33.770311+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "mercedes-amg-c-63-s-e-performance-cabriolet",
@@ -497,7 +512,7 @@
       "brand_id": "mercedes-amg",
       "brand_name": "Mercedes-AMG",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -546,7 +561,7 @@
       "brand_id": "mercedes-amg",
       "brand_name": "Mercedes-AMG",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -595,7 +610,7 @@
       "brand_id": "mercedes-amg",
       "brand_name": "Mercedes-AMG",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -644,7 +659,7 @@
       "brand_id": "mercedes-amg",
       "brand_name": "Mercedes-AMG",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -693,7 +708,7 @@
       "brand_id": "mercedes-amg",
       "brand_name": "Mercedes-AMG",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -742,7 +757,7 @@
       "brand_id": "mercedes-amg",
       "brand_name": "Mercedes-AMG",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -791,7 +806,7 @@
       "brand_id": "mercedes-amg",
       "brand_name": "Mercedes-AMG",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -840,7 +855,7 @@
       "brand_id": "mercedes-amg",
       "brand_name": "Mercedes-AMG",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -889,7 +904,7 @@
       "brand_id": "mercedes-maybach",
       "brand_name": "Mercedes-Maybach",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -938,7 +953,7 @@
       "brand_id": "mercedes-maybach",
       "brand_name": "Mercedes-Maybach",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -987,7 +1002,7 @@
       "brand_id": "mercedes-maybach",
       "brand_name": "Mercedes-Maybach",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -1036,7 +1051,7 @@
       "brand_id": "mercedes-maybach",
       "brand_name": "Mercedes-Maybach",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -1085,7 +1100,7 @@
       "brand_id": "mercedes-maybach",
       "brand_name": "Mercedes-Maybach",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -1134,7 +1149,7 @@
       "brand_id": "mercedes-maybach",
       "brand_name": "Mercedes-Maybach",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -1183,7 +1198,7 @@
       "brand_id": "mercedes-maybach",
       "brand_name": "Mercedes-Maybach",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -1232,7 +1247,7 @@
       "brand_id": "mercedes-maybach",
       "brand_name": "Mercedes-Maybach",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -1282,7 +1297,7 @@
       "brand_name": "Audi",
       "body_type": "convertible",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 28725,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -1299,7 +1314,9 @@
           "location": null,
           "year": 2025,
           "mileage": "17 000 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Branco",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/audi-a3-allstreet-35-tfsi-navi-plus-ahk-matrix-acc-benzin-weiss-cat_ma9gr1624ge154va502mt251tr479949-ee5ed2cf-1e6d-4edc-8f78-0f2859d74928",
@@ -1312,7 +1329,9 @@
           "location": "Düsseldorf",
           "year": 2024,
           "mileage": "4.900 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Gletscherweiß Metallic",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/audi-a3-35-tfsi-1-5-sportback-benzin-schwarz-cat_ma9gr1624ge154va152mt251tr479949-a199ec17-212e-4c74-af10-55f7de33986e",
@@ -1325,7 +1344,9 @@
           "location": "Bochum",
           "year": 2024,
           "mileage": "37.000 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/audi-a3-s-line-30tfsi-stronic-navi-led-acc-benzin-schwarz-cat_ma9gr1624ge154va2570mt249tr135-eabcc795-f060-40fb-8150-b6c400a52b5e",
@@ -1338,7 +1359,9 @@
           "location": "Wetzlar",
           "year": 2025,
           "mileage": "27.840 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -1372,7 +1395,19 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "1.5 L turbocharged petrol I4, 150 hp",
+      "gearbox": "6-speed automatic (S tronic)",
+      "fuel_or_charge_consumption": "0.3-0.4 l/100 km (WLTP)",
+      "tank_or_battery_size": "19.7 kWh usable",
+      "doors": 5,
+      "roof_removable": false,
+      "model_variant": "8Y facelift (2024-), Sportback",
+      "spec_source": {
+        "url": "https://www.autodata.net/en/specs/audi/a3-sportback/8y-facelift-2024-40-tfsi-e",
+        "retrieved_at": "2026-08-04T22:48:35.522166+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "audi-a5",
@@ -1401,7 +1436,9 @@
           "location": null,
           "year": 2025,
           "mileage": "9 242 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Prateado",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/audi-a5-avant-quattro-led-ahk-kamera-acc-leder-parkassi-benzin-weiss-cat_ma9gr19047ge2335va486mt582tr479951-5b116eb8-4ba3-4d3d-b470-1cded8143255",
@@ -1414,7 +1451,9 @@
           "location": "Speyer",
           "year": 2025,
           "mileage": "28.313 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/audi-a5-avant-tfsi-s-tronic-s-line-tech-acc-kamera-benzin-schwarz-cat_ma9gr19047ge2335va486mt582tr479951-73aec973-e830-4436-81bf-4776bdc9e252",
@@ -1427,7 +1466,9 @@
           "location": "Roth",
           "year": 2025,
           "mileage": "6.850 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Mythosschwarz metallic",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/audi-a5-40-tfsi-quattro-s-line-blackedition-benzin-gruen-cat_ma9gr19047ge232va236mt593tr6647-bb21ce71-e98f-4b46-9112-791dbbef8dd3",
@@ -1440,7 +1481,10 @@
           "location": "Buedingen",
           "year": 2024,
           "mileage": "32.500 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grün",
+          "condition_notes": "Taxi oder Mietwagen: Ja",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -1503,7 +1547,9 @@
           "location": "Ebersberg bei München",
           "year": 2024,
           "mileage": "52.000 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/smyle/details/c956a355-146f-402f-accf-7c5d52d535e0/",
@@ -1516,7 +1562,10 @@
           "location": "Helgoland",
           "year": 2024,
           "mileage": "52.000 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß",
+          "condition_notes": "Dies ist ein Gebrauchtwagen mit Gebrauchsspuren",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/audi-tt-audi-tt-coupe-45-tfsi-s-line-bronze-selection-bo-benzin-cat_ma9gr15627ge752va695mt1308tr479980-e82d11f8-5bd5-4d6b-99b8-91a6f048544d",
@@ -1529,7 +1578,8 @@
           "location": "mainz kastel",
           "year": 2024,
           "mileage": "25.153 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "enrichment": "not_stated"
         }
       ],
       "offering_search_log": [
@@ -1563,7 +1613,15 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "Inline-4-cylinder, 1.984 L turbocharged petrol, 235 kW (320 hp)",
+      "gearbox": "S tronic (7‑speed DCT) and 6‑speed manual",
+      "fuel_or_charge_consumption": "8.4–8.2 L/100 km (WLTP)",
+      "spec_source": {
+        "url": "https://www.audi.com/en/technical-data-audi-tt-1646",
+        "retrieved_at": "2026-08-04T22:52:42.946978+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "porsche-cayenne",
@@ -1575,7 +1633,6 @@
       "brand_name": "Porsche",
       "body_type": "convertible",
       "tier": "exotic",
-      "first_year": null,
       "average_budget_eur": 131502,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -1592,7 +1649,9 @@
           "location": null,
           "year": 2025,
           "mileage": "9 717 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Verde",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/porsche-cayenne-ver-e-hybrid-ID8Q0H3G.html",
@@ -1605,7 +1664,9 @@
           "location": null,
           "year": 2024,
           "mileage": "43 474 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/porsche-cayenne-ver-e-hybrid-tiptronic-s-ID8Q0lFn.html",
@@ -1618,7 +1679,9 @@
           "location": null,
           "year": 2024,
           "mileage": "32 061 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/porsche-cayenne-coupe-turbo-e-hybrid-ha-lenk-innodri-hud-elektro-benzin-weiss-cat_ma57gr18284ge603va454mt3795tr480689-cdc7706b-4403-483b-be44-701ceac2947f",
@@ -1631,7 +1694,9 @@
           "location": "Berlin",
           "year": 2025,
           "mileage": "17.000 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/porsche-cayenne-e-hybrid-coupe-soft-close-led-matrix-21z-elektro-benzin-schwarz-cat_ma57gr18284ge603va452mt3795tr480689-74d284b5-2549-4c45-bdaf-e73f5de629bf",
@@ -1644,7 +1709,9 @@
           "location": "Trier",
           "year": 2024,
           "mileage": "21.500 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Chromitschwarzmetallic",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/porsche-cayenne-coupe-gts-burmester-keramik-pdcc-360-tv-benzin-schwarz-cat_ma57gr18284ge603va452mt10729tr480689-93c438f5-b96f-43c6-86ec-6796eb4f036a",
@@ -1657,7 +1724,9 @@
           "location": "München",
           "year": 2025,
           "mileage": "10.300 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -1691,7 +1760,8 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "first_year": null
     },
     {
       "id": "porsche-911",
@@ -1720,7 +1790,9 @@
           "location": "Germaringen",
           "year": 2025,
           "mileage": "16.351 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Violett",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/porsche-911-gt3-rs-weissach-lift-bose-ceramic-bremsen-benzin-weiss-cat_ma57gr100070ge11012va2965tr480682-cf4de874-548c-4518-8c20-869c371e33de",
@@ -1733,7 +1805,9 @@
           "location": "Berlin",
           "year": 2025,
           "mileage": "2.000 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -1779,7 +1853,6 @@
       "brand_name": "Porsche",
       "body_type": "convertible",
       "tier": "exotic",
-      "first_year": null,
       "average_budget_eur": 118620,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -1796,7 +1869,9 @@
           "location": null,
           "year": 2025,
           "mileage": "14 900 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/porsche-panamera-ID8PTeOM.html",
@@ -1809,7 +1884,9 @@
           "location": null,
           "year": 2025,
           "mileage": "39 346 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/porsche-panamera-ver-4-e-hybrid-platinum-edition-com-pdls-ID8Q07ge.html",
@@ -1822,7 +1899,9 @@
           "location": null,
           "year": 2024,
           "mileage": "13 000 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/porsche-panamera-4s-e-hybrid-mj26-export-netto-elektro-benzin-schwarz-cat_ma57gr19136ge1581va3263mt4597tr480692-91f595ee-5b31-4b17-9c33-f021e769a14e",
@@ -1835,7 +1914,9 @@
           "location": "Berlin",
           "year": 2025,
           "mileage": "15.000 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/porsche-panamera-panamera-976-porsche-garantie-1135km-1hand-voll-benzin-grau-cat_ma57gr19136ge1581va3263tr480692-313e6bbe-683f-4bc5-8225-76f77d763ac4",
@@ -1848,7 +1929,9 @@
           "location": "Osnabrück",
           "year": 2024,
           "mileage": "1.135 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/porsche-panamera-panamera-4-e-hybrid-21-sportdesign-acc-bose-pano-elektro-benzin-grau-cat_ma57gr19136ge1581va3263mt4594tr480692-1514dced-6157-4d14-a55e-855e29f27620",
@@ -1861,7 +1944,9 @@
           "location": "Prüm",
           "year": 2025,
           "mileage": "9.400 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Schiefergrau Neo",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -1895,7 +1980,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.9 L V6 Bi-Turbo PHEV",
+      "gearbox": "8-speed automatic",
+      "tank_or_battery_size": "21.8 kWh (net) / 25.9 kWh (gross), 80 L fuel",
+      "doors": 4,
+      "roof_removable": false,
+      "spec_source": {
+        "url": "https://www.energy-vehicles.com/portal/24-panamera-4-e-hybrid-saloon",
+        "retrieved_at": "2026-08-04T22:37:00.645778+00:00",
+        "method": "local-llm-web-search"
+      },
+      "first_year": null
     },
     {
       "id": "porsche-boxster",
@@ -1906,7 +2002,7 @@
       "brand_id": "porsche",
       "brand_name": "Porsche",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -1973,7 +2069,9 @@
           "location": null,
           "year": 2025,
           "mileage": "4 444 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/lamborghini-revuelto-ID8Q0LUo.html",
@@ -1986,7 +2084,9 @@
           "location": null,
           "year": 2025,
           "mileage": "6 472 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Azul",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/lamborghini-revuelto-ad-personam-lamborghini-nuernberg-elektro-benzin-orange-cat_ma41gr200796-e28b40a0-7474-4910-bfc5-52ef77e49b42",
@@ -1999,7 +2099,9 @@
           "location": "Nürnberg",
           "year": 2024,
           "mileage": "890 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Orange",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/lamborghini-revuelto-i-lamborghini-hamburg-elektro-benzin-blau-cat_ma41gr200796-860aa93d-5bc0-43ad-9039-ed985467f689",
@@ -2012,7 +2114,9 @@
           "location": "Hamburg",
           "year": 2025,
           "mileage": "432 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Blau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/lamborghini-revuelto-carbon-benzin-violett-cat_ma41gr200796-333ae025-734f-4fca-9b90-c9276a567926",
@@ -2025,7 +2129,9 @@
           "location": "Hannover",
           "year": 2025,
           "mileage": "74 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Violett",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -2088,7 +2194,9 @@
           "location": null,
           "year": 2024,
           "mileage": "8 000 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Azul",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/bentley-continental-gtc-ver-gtc-4-0-hybrid-ID8PX77F.html",
@@ -2101,7 +2209,9 @@
           "location": null,
           "year": 2025,
           "mileage": "6 000 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -2147,7 +2257,7 @@
       "brand_name": "Jeep",
       "body_type": "convertible",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 74036,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -2164,7 +2274,9 @@
           "location": null,
           "year": 2026,
           "mileage": "289 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.auto.pt/carros-usados/jeep-wrangler-sahara-2-0-tg-plug-in-hybrid-4xe-at8-id-QkdDEuiF",
@@ -2177,7 +2289,9 @@
           "location": null,
           "year": 2025,
           "mileage": "15930 km",
-          "fuel": "Híbrido"
+          "fuel": "Híbrido",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/jeep-wrangler-rubicon-unlimited-lpg-ahk-4x4-leder-kamara-benzin-schwarz-cat_ma38gr200721ge1925va2426mt2383tr6543-918c3ec1-07e8-4955-ac74-718a43f8ea34",
@@ -2190,7 +2304,9 @@
           "location": "Mönchengladbach",
           "year": 2025,
           "mileage": "8.357 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/jeep-wrangler-unlimited-sport-s-2-0-t-gdi-eu6d-benzin-weiss-cat_ma38gr200721ge1925va2426mt2383tr6674-e5de1501-64ef-47d2-800e-98c4d7ac2cae",
@@ -2203,7 +2319,10 @@
           "location": "Hamburg",
           "year": 2024,
           "mileage": "36.929 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß",
+          "condition_notes": "Unfallfahrzeug Repariert. Es handelt sich um einen reparierten Unfallschaden.",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/jeep-wrangler-willys-convenience-safety-group-benzin-gruen-cat_ma38gr200721ge1925va2426mt2383tr6543-9015e366-65f9-4aac-b290-202657282b6a",
@@ -2216,7 +2335,9 @@
           "location": "Neukirchen-Vluyn",
           "year": null,
           "mileage": "100 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grün",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -2250,7 +2371,20 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.0L turbocharged petrol I4, 197 hp",
+      "gearbox": "8-speed automatic",
+      "fuel_or_charge_consumption": "8.6 L/100 km (WLTP)",
+      "tank_or_battery_size": "70.0 L",
+      "doors": 4,
+      "roof_removable": true,
+      "roof_mechanism": "electric folding soft top, operable up to 80 km/h",
+      "model_variant": "JL facelift (2024-), soft top and hardtop (RHD)",
+      "spec_source": {
+        "url": "https://jeep-europe.com/en/model-overview/wrangler",
+        "retrieved_at": "2026-08-04T22:47:59.556828+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "vauxhall-astra",
@@ -2261,7 +2395,7 @@
       "brand_id": "vauxhall",
       "brand_name": "Vauxhall",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -2310,7 +2444,7 @@
       "brand_id": "vauxhall",
       "brand_name": "Vauxhall",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -2359,7 +2493,7 @@
       "brand_id": "vauxhall",
       "brand_name": "Vauxhall",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -2408,7 +2542,7 @@
       "brand_id": "vauxhall",
       "brand_name": "Vauxhall",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -2457,7 +2591,7 @@
       "brand_id": "vauxhall",
       "brand_name": "Vauxhall",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -2506,7 +2640,7 @@
       "brand_id": "century",
       "brand_name": "Century",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -2555,7 +2689,7 @@
       "brand_id": "century",
       "brand_name": "Century",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -2604,7 +2738,7 @@
       "brand_id": "century",
       "brand_name": "Century",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -2653,7 +2787,7 @@
       "brand_id": "century",
       "brand_name": "Century",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -2702,7 +2836,7 @@
       "brand_id": "century",
       "brand_name": "Century",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -2751,7 +2885,7 @@
       "brand_id": "century",
       "brand_name": "Century",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -2800,7 +2934,7 @@
       "brand_id": "century",
       "brand_name": "Century",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -2849,7 +2983,7 @@
       "brand_id": "century",
       "brand_name": "Century",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -2916,7 +3050,9 @@
           "location": null,
           "year": 2025,
           "mileage": "1 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/ford-mustang-5-0-v8-gt-fastback-automatik-navi-led-benzin-blau-cat_ma29gr2149ge552va433mt1079tr637-aaf51d13-6760-4a00-bffe-970bab6af2c5",
@@ -2929,7 +3065,9 @@
           "location": "Bad Segeberg",
           "year": 2025,
           "mileage": "4.167 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Atlas Blue Metallic",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/ford-mustang-fastback-5-0-magneride-4-99-fin-benzin-blau-cat_ma29gr2149ge552va433mt1079tr637-ebccc2fe-86cb-432e-84cc-2d5b7b45ad13",
@@ -2942,7 +3080,9 @@
           "location": "Cham",
           "year": null,
           "mileage": null,
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grabber-Blue Metallic",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/ford-mustang-gt-bronze-styling-paket+magneride+keyfree+navi-benzin-grau-cat_ma29gr2149ge552va433mt1079tr637-60e4550d-4f17-4126-9a8e-76ee2f16336f",
@@ -2955,7 +3095,9 @@
           "location": "Köln",
           "year": 2025,
           "mileage": "21.000 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -3001,7 +3143,6 @@
       "brand_name": "Cupra",
       "body_type": "convertible",
       "tier": "mainstream",
-      "first_year": null,
       "average_budget_eur": 27703,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -3018,7 +3159,9 @@
           "location": null,
           "year": 2024,
           "mileage": "48 459 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/cupra-formentor-ver-1-4-e-hybrid-dsg-ID8PZ5kB.html",
@@ -3031,7 +3174,9 @@
           "location": null,
           "year": 2024,
           "mileage": "56 235 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/cupra-formentor-ver-1-4-e-hybrid-dsg-ID8PZOW8.html",
@@ -3044,7 +3189,9 @@
           "location": null,
           "year": 2024,
           "mileage": "55 435 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Branco",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/cupra-formentor-1-5-tsi-benzin-blau-cat_ma51802gr200362ge783mt6294tr480031-857d10f6-2b50-48c4-98fc-76e4c5c23681",
@@ -3057,7 +3204,10 @@
           "location": "Mainz",
           "year": 2024,
           "mileage": "50.640 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Petrolblau Matt",
+          "condition_notes": "Unfallfahrzeug Repariert",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/cupra-formentor-vz-4drive-228-kw-310-ps-automatik-navi-digitales-benzin-grau-cat_ma51802gr200362ge783mt6280tr8394-5aeeb572-c2a8-4cf8-b7a5-5ecdd6cb9a37",
@@ -3070,7 +3220,9 @@
           "location": "Bergisch Gladbach",
           "year": 2024,
           "mileage": "14.877 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Magnetic grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/cupra-formentor-2-0tsi-dsg-19-pano-ahk-hagel-benzin-schwarz-cat_ma51802gr200362ge783mt6280tr8106-a4b363b0-1a82-4256-99da-642215037175",
@@ -3083,7 +3235,10 @@
           "location": "Memmingen, Amendingen",
           "year": 2025,
           "mileage": "10.554 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "condition_notes": "FAHRZEUG WIRD MIT HAGELSCHADEN VERKAUFT",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -3117,7 +3272,19 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.0 TSI turbocharged petrol I4, 204 hp",
+      "gearbox": "7-speed DSG automatic",
+      "fuel_or_charge_consumption": "7.4-7.8 L/100 km (WLTP)",
+      "tank_or_battery_size": "55 L",
+      "doors": 5,
+      "first_year": 2025,
+      "model_variant": "Facelift (2024-), 5-door, DSG",
+      "spec_source": {
+        "url": "https://www.autodata.net/en/cupra-formentor-facelift-2024-2-0-tsi-204-hp-4drive-dsg",
+        "retrieved_at": "2026-08-04T22:38:56.873809+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "fiat-500c",
@@ -3146,7 +3313,9 @@
           "location": null,
           "year": 2024,
           "mileage": "33 642 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Branco",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/fiat-500c-ver-1-0-hybrid-ID8Q0IVu.html",
@@ -3159,7 +3328,9 @@
           "location": null,
           "year": 2024,
           "mileage": "43 717 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/fiat-500c-ver-1-0-hybrid-ID8Q0IVE.html",
@@ -3172,7 +3343,9 @@
           "location": null,
           "year": 2024,
           "mileage": "44 784 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Branco",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -3235,7 +3408,8 @@
           "location": "Foggia",
           "year": 2025,
           "mileage": "70.449 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "enrichment": "not_stated"
         }
       ],
       "offering_search_log": [
@@ -3298,7 +3472,9 @@
           "location": null,
           "year": 2024,
           "mileage": "23 243 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Branco",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/mini-cabrio-ver-c-classic-ID8PZ7Mb.html",
@@ -3311,7 +3487,9 @@
           "location": null,
           "year": 2025,
           "mileage": "17 812 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/mini-cabrio-ver-c-classic-ID8PZ7M9.html",
@@ -3324,7 +3502,9 @@
           "location": null,
           "year": 2025,
           "mileage": "13 860 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Preto",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -3369,7 +3549,7 @@
       "brand_id": "mini",
       "brand_name": "MINI",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -3436,7 +3616,9 @@
           "location": "Schmelz",
           "year": 2024,
           "mileage": "38.330 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mini-mini-kamera-hud-h-k-komfort-sport-voll-benzin-weiss-cat_ma16338gr100141ge373va3867mt12401tr480450-e464a43a-9c8f-4475-9dd1-b880da5fa863",
@@ -3449,7 +3631,9 @@
           "location": "Celle",
           "year": 2024,
           "mileage": "45.036 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Nanuq Weiss",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mini-mini-navi-leder-led-pdc-komfortzugang-benzin-schwarz-cat_ma16338gr100141ge373va3867mt12401tr480450-8acc63f3-750d-472d-a6f4-4ab4b4c0a753",
@@ -3462,7 +3646,9 @@
           "location": "Sinzheim / Baden-Baden",
           "year": 2024,
           "mileage": "11.990 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -3507,7 +3693,7 @@
       "brand_id": "mini",
       "brand_name": "MINI",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -3557,7 +3743,7 @@
       "brand_name": "Maserati",
       "body_type": "convertible",
       "tier": "exotic",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 192292,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -3574,7 +3760,9 @@
           "location": "Frankfurt am Main",
           "year": null,
           "mileage": "0 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/maserati-grancabrio-modena-verde-giada-+-fuoriserie-benzin-gruen-cat_ma45gr200927ge1804tr480454-bd125db9-01d7-4596-bd80-d240d13cce11",
@@ -3587,7 +3775,9 @@
           "location": "Scharbeutz",
           "year": 2026,
           "mileage": "8.990 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grün",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/maserati-grancabrio-trofeo-fuoriserie-+-tageszulassung-benzin-cat_ma45gr200927ge1804tr480454-fa420928-725c-4b7e-9f0b-548a31dbec7e",
@@ -3600,7 +3790,9 @@
           "location": "Singen",
           "year": 2025,
           "mileage": "100 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Night Interaction",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -3634,7 +3826,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "3.0L Nettuno twin-turbo V6 (Nettuno twin-turbo 3.0L V6), 542 hp",
+      "gearbox": "8-speed automatic",
+      "doors": 2,
+      "roof_removable": true,
+      "roof_mechanism": "electric soft top, operable on the move at up to 50 km/h",
+      "model_variant": "2024–, soft top convertible (two-door, four seats)",
+      "spec_source": {
+        "url": "https://www.mediastellantis.com/us-en/maserati/press/new-maserati-grancabrio-press-june-2024",
+        "retrieved_at": "2026-08-04T22:58:35.094892+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "chevrolet-camaro",
@@ -3663,7 +3866,9 @@
           "location": "Potsdam",
           "year": null,
           "mileage": "10 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Blau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/chevrolet-camaro-coupe-6-2l-v8-eu-recaro-klappe-benzin-rot-cat_ma19gr200232-e44b002e-d641-4944-82be-dac4c18147c1",
@@ -3676,7 +3881,9 @@
           "location": "Freital",
           "year": 2026,
           "mileage": "17.470 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Rot",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/chevrolet-camaro-zl1-6-2-v8-last-call-edition-hud-shz-benzin-cat_ma19gr200232-3d46d456-61dc-4a9a-a759-a40fa09440d5",
@@ -3689,7 +3896,9 @@
           "location": "Hockenheim",
           "year": null,
           "mileage": null,
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Black/Sueded Microfiber",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -3752,7 +3961,9 @@
           "location": "Markranstädt",
           "year": 2025,
           "mileage": "6.132 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grün (Dark Verdant)",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/lotus-emira-limited-type-86-1-of-12-leipzig-benzin-blau-cat_ma44gr200886ge11116-f1e05976-bb12-4bc8-be78-4992a828aab9",
@@ -3765,7 +3976,9 @@
           "location": "Markranstädt",
           "year": 2025,
           "mileage": "20 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Blau (Seneca Blue)",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/lotus-emira-v6-se-my26-leipzig-benzin-weiss-cat_ma44gr200886ge11116-4b13fb4a-4573-49ef-b4b6-d37786aa5888",
@@ -3778,7 +3991,9 @@
           "location": "Markranstädt",
           "year": null,
           "mileage": "20 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß (Mist White)",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -3823,7 +4038,7 @@
       "brand_id": "defender",
       "brand_name": "Defender",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -3872,7 +4087,7 @@
       "brand_id": "roewe",
       "brand_name": "Roewe",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -3921,7 +4136,7 @@
       "brand_id": "roewe",
       "brand_name": "Roewe",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -3970,7 +4185,7 @@
       "brand_id": "roewe",
       "brand_name": "Roewe",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -4019,7 +4234,7 @@
       "brand_id": "roewe",
       "brand_name": "Roewe",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -4068,7 +4283,7 @@
       "brand_id": "roewe",
       "brand_name": "Roewe",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -4117,7 +4332,7 @@
       "brand_id": "roewe",
       "brand_name": "Roewe",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -4166,7 +4381,7 @@
       "brand_id": "roewe",
       "brand_name": "Roewe",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -4215,7 +4430,7 @@
       "brand_id": "roewe",
       "brand_name": "Roewe",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -4282,7 +4497,9 @@
           "location": null,
           "year": 2026,
           "mileage": "672 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Vermelho",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/mazda-mx-5-ver-1-5-sky-g-prime-line-ID8Q01zs.html",
@@ -4295,7 +4512,9 @@
           "location": null,
           "year": 2025,
           "mileage": "100 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/mazda-mx-5-ver-1-5-sky-g-prime-line-ID8PZT85.html",
@@ -4308,7 +4527,9 @@
           "location": null,
           "year": 2026,
           "mileage": "500 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mazda-mx-5-rf-homura-132-ps-recaro-bose-navi-neuwagen-benzin-grau-cat_ma46gr200955ge1783va2839mt2698tr4486-675a877e-b4d4-4b66-a492-1ee1a03483b0",
@@ -4321,7 +4542,9 @@
           "location": "Dortmund",
           "year": null,
           "mileage": null,
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mazda-mx-5-skyactiv-g-132-exclusive-line-benzin-grau-cat_ma46gr200955ge1783va3558mt2698tr3416-1ce04986-a8d0-495e-895f-af0ad5492a5e",
@@ -4334,7 +4557,9 @@
           "location": "Hamburg",
           "year": 2025,
           "mileage": "150 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mazda-mx-5-2026-g-132-exclusive-line-sofort-aktion-leder-na-benzin-grau-cat_ma46gr200955ge1783va3558mt2698tr3416-8cf1da5c-9619-404a-b8d8-d5562f54b8d6",
@@ -4347,7 +4572,9 @@
           "location": "Hilter-Hankenberge",
           "year": 2026,
           "mileage": "1 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -4410,7 +4637,9 @@
           "location": "Langenfeld (Rheinland), Stadt",
           "year": 2024,
           "mileage": "4.800 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Rot",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/ferrari-f8-v8-3-9-biturbo-benzin-schwarz-cat_ma27gr200485-ec0c0c48-4dc6-4738-a451-277e9c39884d",
@@ -4423,7 +4652,9 @@
           "location": "Monaco",
           "year": 2025,
           "mileage": "6.250 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -4486,7 +4717,9 @@
           "location": "HENGELO",
           "year": 2024,
           "mileage": "5.951 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/ferrari-portofino-portofino-m-4-0-v8-620-ch-115-km-benzin-cat_ma27gr200482-1f856ce0-4703-458d-a160-6281574e1aa0",
@@ -4499,7 +4732,8 @@
           "location": "Bastia",
           "year": 2024,
           "mileage": "120 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "enrichment": "not_stated"
         },
         {
           "url": "https://www.autoscout24.de/angebote/ferrari-portofino-m-benzin-cat_ma27gr200482-85ba55f4-824d-4d53-b906-3f52842ef808",
@@ -4512,7 +4746,8 @@
           "location": "MADRID",
           "year": null,
           "mileage": null,
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "enrichment": "not_stated"
         }
       ],
       "offering_search_log": [
@@ -4575,7 +4810,9 @@
           "location": "München",
           "year": null,
           "mileage": "380 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Giallo Triplo Strato",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/ferrari-sf90-carbon-lift-racingseat-hud-elektro-benzin-rot-cat_ma27gr200483-379eafba-c160-4d48-ae00-414cecd2c625",
@@ -4588,7 +4825,9 @@
           "location": "Bad Oeynhausen",
           "year": null,
           "mileage": null,
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Rot",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/ferrari-sf90-elektro-benzin-blau-cat_ma27gr200483-6c101c63-e00a-419f-bdac-03f3c0b4c0d2",
@@ -4601,7 +4840,9 @@
           "location": "Vaterstetten",
           "year": 2025,
           "mileage": "3.900 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Blau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -4646,7 +4887,7 @@
       "brand_id": "aston-martin",
       "brand_name": "Aston Martin",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -4713,7 +4954,9 @@
           "location": "Köln",
           "year": 2024,
           "mileage": "10.500 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "China Grey",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/aston-martin-db12-satin-onyx-black-inspire-sport-benzin-schwarz-cat_ma8gr200117-9da9b8f9-a66c-4925-964d-18f6ab524503",
@@ -4726,7 +4969,9 @@
           "location": "Köln",
           "year": 2024,
           "mileage": "6.550 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Satin Onyx Black",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/aston-martin-db12-s-coupe-ultramarine-black-dark-knight-benzin-blau-cat_ma8gr200117-61b5d229-3a13-4d39-b6d1-267ad274d9ae",
@@ -4739,7 +4984,9 @@
           "location": "Köln",
           "year": null,
           "mileage": "20 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Ultramarine Black",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -4785,7 +5032,7 @@
       "brand_name": "McLaren",
       "body_type": "convertible",
       "tier": "exotic",
-      "first_year": null,
+      "first_year": 2022,
       "average_budget_eur": 296428,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -4802,7 +5049,9 @@
           "location": null,
           "year": 2025,
           "mileage": "83 km",
-          "fuel": "Híbrido Plug-in"
+          "fuel": "Híbrido Plug-in",
+          "colour": "Laranja Metalizado",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mclaren-artura-spider-facelift-elektro-benzin-schwarz-cat_ma51519gr202641-8f23fcb4-09b3-49d0-a128-cdfff9160cbe",
@@ -4815,7 +5064,9 @@
           "location": "München, Landeshauptstadt",
           "year": 2025,
           "mileage": "6.500 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mclaren-artura-techlux-sport-exhaust-technology-mso-elektro-benzin-schwarz-cat_ma51519gr202641-1c590bf0-7e40-4d55-93f7-b1d9426c1b1b",
@@ -4828,7 +5079,9 @@
           "location": "Düsseldorf",
           "year": 2025,
           "mileage": "30 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mclaren-artura-techlux-bw-all-packs-sportexhaust-elektro-benzin-schwarz-cat_ma51519gr202641-a9ad0ca1-9a1f-4abf-8b34-9b9a1bd842f1",
@@ -4841,7 +5094,9 @@
           "location": "Nürnberg",
           "year": null,
           "mileage": "50 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -4875,7 +5130,19 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "V6 120° twin-turbocharged petrol engine, 3.0 L",
+      "gearbox": "8-speed + E-Reverse Seamless Shift Gearbox (SSG)",
+      "fuel_or_charge_consumption": "4.8 L/100 km (WLTP)",
+      "tank_or_battery_size": "7.4 kWh (refrigerant cooled Li-ion, battery under the rear of cabin)",
+      "doors": 2,
+      "roof_removable": false,
+      "model_variant": "first-generation, currently sold as coupe and Spider convertible",
+      "spec_source": {
+        "url": "https://www.mclaren.com/cars/gf_en/artura",
+        "retrieved_at": "2026-08-04T22:50:55.324987+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "mclaren-600",
@@ -4904,7 +5171,9 @@
           "location": "Hamburg",
           "year": 2024,
           "mileage": "3.530 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "McLaren Orange",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mclaren-600-750s-elite-paint-i-black-pack-i-bw-benzin-silber-cat_ma51519gr202631-20c7e196-03b0-401d-8987-98b75c0ca10b",
@@ -4917,7 +5186,9 @@
           "location": "Hamburg",
           "year": null,
           "mileage": "0 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Silber",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mclaren-600-750s-mso-paint-i-black-pack-i-bw-benzin-grau-cat_ma51519gr202631-37d9ad14-71db-489f-9a6e-1caf8a3afc71",
@@ -4930,7 +5201,9 @@
           "location": "Hamburg",
           "year": null,
           "mileage": "0 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "MSO Paint - Lava Grey",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -4975,7 +5248,7 @@
       "brand_id": "mclaren",
       "brand_name": "McLaren",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -5042,7 +5315,9 @@
           "location": "München",
           "year": 2024,
           "mileage": "3.150 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grün",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -5087,7 +5362,7 @@
       "brand_id": "mclaren",
       "brand_name": "McLaren",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -5136,7 +5411,7 @@
       "brand_id": "mclaren",
       "brand_name": "McLaren",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -5203,7 +5478,9 @@
           "location": "Nürnberg",
           "year": 2024,
           "mileage": "180 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mclaren-750-mclaren-750s-360-camera-lift-benzin-schwarz-cat_ma51519gr202640-ff69dd8d-f79c-4b97-81d2-0c78c12c7a45",
@@ -5216,7 +5493,9 @@
           "location": "Bodman-Ludwigshafen",
           "year": 2024,
           "mileage": "540 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mclaren-750-coupe-my25-carbon-extint-bw-lift-fullopt-benzin-grau-cat_ma51519gr202640-5eafadf5-d847-4993-810c-7198c617d27f",
@@ -5229,7 +5508,9 @@
           "location": "München",
           "year": 2024,
           "mileage": "10 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -5274,7 +5555,7 @@
       "brand_id": "mclaren",
       "brand_name": "McLaren",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -5341,7 +5622,8 @@
           "location": "MARBELLA",
           "year": 2026,
           "mileage": "100 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "enrichment": "not_stated"
         },
         {
           "url": "https://www.autoscout24.de/angebote/koenigsegg-jesko-attack-benzin-cat_ma51781gr202517-c310e1f1-e263-459c-a082-3c98d510281f",
@@ -5354,7 +5636,8 @@
           "location": "MARBELLA",
           "year": 2026,
           "mileage": "50 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "enrichment": "not_stated"
         }
       ],
       "offering_search_log": [
@@ -5399,7 +5682,7 @@
       "brand_id": "ariel-motor-company",
       "brand_name": "Ariel Motor Company",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -5448,7 +5731,7 @@
       "brand_id": "ariel-motor-company",
       "brand_name": "Ariel Motor Company",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -5515,7 +5798,9 @@
           "location": null,
           "year": 2024,
           "mileage": "37 946 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Branco / Preto",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -5560,7 +5845,7 @@
       "brand_id": "bac",
       "brand_name": "BAC",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -5609,7 +5894,7 @@
       "brand_id": "bac",
       "brand_name": "BAC",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -5658,7 +5943,7 @@
       "brand_id": "bac",
       "brand_name": "BAC",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -5707,7 +5992,7 @@
       "brand_id": "manhart-performance",
       "brand_name": "Manhart Performance",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -5756,7 +6041,7 @@
       "brand_id": "manhart-performance",
       "brand_name": "Manhart Performance",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -5805,7 +6090,7 @@
       "brand_id": "manhart-performance",
       "brand_name": "Manhart Performance",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -5854,7 +6139,7 @@
       "brand_id": "exeed",
       "brand_name": "Exeed",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -5903,7 +6188,7 @@
       "brand_id": "icar",
       "brand_name": "iCar",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -5952,7 +6237,7 @@
       "brand_id": "icar",
       "brand_name": "iCar",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -6001,7 +6286,7 @@
       "brand_id": "icar",
       "brand_name": "iCar",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -6050,7 +6335,7 @@
       "brand_id": "icar",
       "brand_name": "iCar",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -6099,7 +6384,7 @@
       "brand_id": "icar",
       "brand_name": "iCar",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -6148,7 +6433,7 @@
       "brand_id": "deepal",
       "brand_name": "Deepal",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -6197,7 +6482,7 @@
       "brand_id": "deepal",
       "brand_name": "Deepal",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -6246,7 +6531,7 @@
       "brand_id": "deepal",
       "brand_name": "Deepal",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -6295,7 +6580,7 @@
       "brand_id": "deepal",
       "brand_name": "Deepal",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -6344,7 +6629,7 @@
       "brand_id": "deepal",
       "brand_name": "Deepal",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -6411,7 +6696,9 @@
           "location": "Bad Hersfeld",
           "year": 2026,
           "mileage": "150 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -6456,7 +6743,7 @@
       "brand_id": "maextro",
       "brand_name": "Maextro",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -6505,7 +6792,7 @@
       "brand_id": "maextro",
       "brand_name": "Maextro",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -6554,7 +6841,7 @@
       "brand_id": "maextro",
       "brand_name": "Maextro",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -6603,7 +6890,7 @@
       "brand_id": "maextro",
       "brand_name": "Maextro",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -6652,7 +6939,7 @@
       "brand_id": "maextro",
       "brand_name": "Maextro",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -6701,7 +6988,7 @@
       "brand_id": "maextro",
       "brand_name": "Maextro",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -6750,7 +7037,7 @@
       "brand_id": "maextro",
       "brand_name": "Maextro",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
@@ -6799,7 +7086,7 @@
       "brand_id": "maextro",
       "brand_name": "Maextro",
       "body_type": "convertible",
-      "tier": "not yet available",
+      "tier": "unconfirmed",
       "first_year": null,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
