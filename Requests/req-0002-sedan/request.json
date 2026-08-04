@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g09-renault-nissan-mitsubishi",
       "group_name": "Renault-Nissan-Mitsubishi Alliance",
-      "brand_id": "nissan",
-      "brand_name": "Nissan"
+      "brand_id": "mitsubishi",
+      "brand_name": "Mitsubishi"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -22,7 +22,7 @@
       "groups_total": 25,
       "groups_done": 8,
       "brands_total": 131,
-      "brands_done": 38,
+      "brands_done": 39,
       "brands_failed": 7,
       "models_found": 121,
       "groups": [
@@ -1752,9 +1752,35 @@
             {
               "brand_id": "nissan",
               "brand_name": "Nissan",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T02:24:21.569739+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 7,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 6
+                  },
+                  "autoscout24": {
+                    "models_discovered": 5
+                  }
+                }
+              }
             },
             {
               "brand_id": "mitsubishi",
