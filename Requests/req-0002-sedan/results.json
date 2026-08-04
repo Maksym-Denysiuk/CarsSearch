@@ -7761,6 +7761,95 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "forthing-s7",
+      "name": "S7",
+      "manufacturer": "Forthing",
+      "group_id": "g19-dongfeng",
+      "group_name": "Dongfeng Motor",
+      "brand_id": "forthing",
+      "brand_name": "Forthing",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 38657,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/forthing-s7-7-reev-elektro-benzin-gruen-cat_ma51987gr203077-e9a7b6bd-1a45-4e81-8257-250498a3530a",
+          "price_eur": 36990,
+          "price_display": "€ 36.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T06:51:19.296175Z",
+          "location": "Chemnitz",
+          "year": null,
+          "mileage": "2.500 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/forthing-s7-electrique-full-options-elektro-weiss-cat_ma51987gr203077-9cee0d7b-a672-4c6e-bbe9-e3fc72713617",
+          "price_eur": 37990,
+          "price_display": "€ 37.990",
+          "country": "LU",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T06:51:19.296175Z",
+          "location": "Strassen",
+          "year": null,
+          "mileage": "50 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/forthing-s7-reev-range-extender-elektro-elektro-benzin-gruen-cat_ma51987gr203077-482241e0-6980-42bd-a38c-288e1a2feae6",
+          "price_eur": 40990,
+          "price_display": "€ 40.990",
+          "country": "AT",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T06:51:19.296175Z",
+          "location": "Mils",
+          "year": 2026,
+          "mileage": "7.800 km",
+          "fuel": "Elektro/Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/forthing/s7?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/forthing/s7",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/forthing/s7?fregfrom=2024",
+          "found": 11,
+          "new": 11,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }

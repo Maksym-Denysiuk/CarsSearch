@@ -11,20 +11,20 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g19-dongfeng",
-      "group_name": "Dongfeng Motor",
-      "brand_id": "forthing",
-      "brand_name": "Forthing"
+      "group_id": "g20-baic",
+      "group_name": "BAIC Group",
+      "brand_id": "baic",
+      "brand_name": "BAIC"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
     "progress": {
       "groups_total": 25,
-      "groups_done": 18,
+      "groups_done": 19,
       "brands_total": 131,
-      "brands_done": 86,
+      "brands_done": 87,
       "brands_failed": 29,
-      "models_found": 186,
+      "models_found": 189,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -4106,7 +4106,7 @@
         {
           "group_id": "g19-dongfeng",
           "group_name": "Dongfeng Motor",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "voyah",
@@ -4168,9 +4168,42 @@
             {
               "brand_id": "forthing",
               "brand_name": "Forthing",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 3,
+              "completed_at": "2026-08-04T06:51:19.303803+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 11,
+                "unique_offerings": 11,
+                "candidates_checked": 3,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 3,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 79,
+                "model_suggestion_retries": 0,
+                "models_discovered": 4,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "autoscout24": {
+                    "models_discovered": 4,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  },
+                  "standvirtual": {
+                    "searches_attempted": 1
+                  },
+                  "auto.pt": {
+                    "searches_attempted": 1,
+                    "searches_missing": 1
+                  }
+                }
+              }
             }
           ]
         },
