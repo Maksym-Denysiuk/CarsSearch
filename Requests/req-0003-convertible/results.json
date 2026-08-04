@@ -2136,6 +2136,121 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "jeep-wrangler",
+      "name": "Wrangler",
+      "manufacturer": "Jeep",
+      "group_id": "g04-stellantis",
+      "group_name": "Stellantis",
+      "brand_id": "jeep",
+      "brand_name": "Jeep",
+      "body_type": "convertible",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 74036,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/jeep-wrangler-ID8Q0Fcf.html",
+          "price_eur": 132300,
+          "price_display": "132 300",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:53:04.924041Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "289 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/jeep-wrangler-sahara-2-0-tg-plug-in-hybrid-4xe-at8-id-QkdDEuiF",
+          "price_eur": 73000,
+          "price_display": "73000",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:53:04.924041Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "15930 km",
+          "fuel": "Híbrido"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/jeep-wrangler-rubicon-unlimited-lpg-ahk-4x4-leder-kamara-benzin-schwarz-cat_ma38gr200721ge1925va2426mt2383tr6543-918c3ec1-07e8-4955-ac74-718a43f8ea34",
+          "price_eur": 51990,
+          "price_display": "€ 51.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:53:04.924548Z",
+          "location": "Mönchengladbach",
+          "year": 2025,
+          "mileage": "8.357 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/jeep-wrangler-unlimited-sport-s-2-0-t-gdi-eu6d-benzin-weiss-cat_ma38gr200721ge1925va2426mt2383tr6674-e5de1501-64ef-47d2-800e-98c4d7ac2cae",
+          "price_eur": 44900,
+          "price_display": "€ 44.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:53:04.924548Z",
+          "location": "Hamburg",
+          "year": 2024,
+          "mileage": "36.929 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/jeep-wrangler-willys-convenience-safety-group-benzin-gruen-cat_ma38gr200721ge1925va2426mt2383tr6543-9015e366-65f9-4aac-b290-202657282b6a",
+          "price_eur": 67990,
+          "price_display": "€ 67.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:53:04.924548Z",
+          "location": "Neukirchen-Vluyn",
+          "year": null,
+          "mileage": "100 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/jeep/wrangler?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/jeep/wrangler",
+          "found": 15,
+          "new": 15,
+          "duplicates": 0,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/jeep/wrangler?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }

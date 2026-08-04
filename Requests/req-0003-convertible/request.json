@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g04-stellantis",
       "group_name": "Stellantis",
-      "brand_id": "jeep",
-      "brand_name": "Jeep"
+      "brand_id": "ram",
+      "brand_name": "Ram"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 3,
       "brands_total": 131,
-      "brands_done": 15,
+      "brands_done": 16,
       "brands_failed": 4,
-      "models_found": 35,
+      "models_found": 40,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -675,9 +675,49 @@
             {
               "brand_id": "jeep",
               "brand_name": "Jeep",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 5,
+              "completed_at": "2026-08-04T08:53:04.927597+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 36,
+                "unique_offerings": 36,
+                "candidates_checked": 7,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 5,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 2
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 343,
+                "model_suggestion_retries": 0,
+                "models_discovered": 6,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 4,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 2,
+                    "firewall_kept": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 5,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  },
+                  "standvirtual": {
+                    "searches_attempted": 1,
+                    "candidates_checked": 1,
+                    "firewall_kept": 1
+                  }
+                }
+              }
             },
             {
               "brand_id": "ram",
