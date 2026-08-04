@@ -13,13 +13,14 @@
   // offerings, brand/group/tax added). A returning visitor's v1 selection would
   // render a table of blank columns, so the key is bumped rather than migrated.
   //
-  // v3: the spec fields are populated for the first time (by the enrichment
-  // step) and Config/spec_fields.json adds columns the stored list has never
-  // heard of. A stored selection cannot distinguish "column did not exist" from
-  // "user switched it off", so the same reasoning as v2 applies in reverse:
-  // rather than guess, reset everyone to defaults once, now that the columns
-  // finally have something in them.
-  var COLS_LS_KEY = 'carResearchColumns.v3';
+  // v3/v4: the spec fields are populated for the first time (by the enrichment
+  // step) and Config/spec_fields.json both adds columns the stored list has
+  // never heard of and now decides which are shown by default. A stored
+  // selection cannot distinguish "column did not exist" from "user switched it
+  // off", so the same reasoning as v2 applies in reverse: rather than guess,
+  // reset everyone to defaults once, now that the columns finally have
+  // something in them.
+  var COLS_LS_KEY = 'carResearchColumns.v4';
   var PRICE_LS_KEY = 'carResearchPriceRanges';
   var THEME_LS_KEY = 'carResearchTheme';
 
@@ -879,9 +880,20 @@
      file it can do without failed to load. */
   function appendRegistryColumns(registry) {
     var known = {};
-    COLUMNS.forEach(function (c) { known[c.id] = true; });
+    COLUMNS.forEach(function (c) { known[c.id] = c; });
     (registry.fields || []).forEach(function (f) {
-      if (f.level !== 'model' || known[f.key]) return;
+      if (f.level !== 'model') return;
+      if (known[f.key]) {
+        // The column already exists with a bespoke cell renderer, which is
+        // kept -- fmtBool renders an absent roof_removable as "n/a" rather
+        // than a definite "no", and a generic renderer would get that
+        // wrong. But whether it is shown by default is the registry's call,
+        // not this file's: `doors` is declared default_visible there and was
+        // hidden here, so a parameter someone deliberately asked for did not
+        // appear until they went hunting in the column picker.
+        known[f.key].defaultVisible = f.default_visible !== false;
+        return;
+      }
       COLUMNS.push({
         id: f.key,
         label: f.label,
