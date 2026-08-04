@@ -2269,6 +2269,477 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "audi-a3",
+      "name": "A3",
+      "manufacturer": "Audi",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "audi",
+      "brand_name": "Audi",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 28973,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/audi-a3-ID8Q0Lfl.html",
+          "price_eur": 35990,
+          "price_display": "35 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:06:05.320150Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "17 000 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-a3-allstreet-35-tfsi-navi-plus-ahk-matrix-acc-benzin-weiss-cat_ma9gr1624ge154va502mt251tr479949-ee5ed2cf-1e6d-4edc-8f78-0f2859d74928",
+          "price_eur": 26940,
+          "price_display": "€ 26.940",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:06:05.320150Z",
+          "location": "Düsseldorf",
+          "year": 2024,
+          "mileage": "4.900 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-a3-35-tfsi-1-5-sportback-benzin-schwarz-cat_ma9gr1624ge154va152mt251tr479949-a199ec17-212e-4c74-af10-55f7de33986e",
+          "price_eur": 24990,
+          "price_display": "€ 24.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:06:05.320150Z",
+          "location": "Bochum",
+          "year": 2024,
+          "mileage": "37.000 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-a3-s-line-35tfsi-stronic-navi-led-ahk-benzin-blau-cat_ma9gr1624ge154va2570mt251tr135-0873004f-d1b5-43e7-8faa-ea5b46b4c648",
+          "price_eur": 27970,
+          "price_display": "€ 27.970",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:06:05.320150Z",
+          "location": "Wetzlar",
+          "year": 2025,
+          "mileage": "13.940 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/audi/a3?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/audi/a3",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/audi/a3?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "audi-a4",
+      "name": "A4",
+      "manufacturer": "Audi",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "audi",
+      "brand_name": "Audi",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 31023,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-a4-avant-35-tdi-s-tronic-s-line-led-navi-lm18-aps-shz-diesel-weiss-cat_ma9gr1626ge134va134mt178tr118-520647f0-1ca9-4662-a166-08d69134cc37",
+          "price_eur": 37690,
+          "price_display": "€ 37.690",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T01:06:05.320150Z",
+          "location": "Celle",
+          "year": 2025,
+          "mileage": "3.675 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-a4-advanced-35-2-0-tdi-s-tronic-diesel-grau-cat_ma9gr1626ge134va134mt178tr111-d63d5548-6ff1-49b0-ab3a-eba91c069c45",
+          "price_eur": 26890,
+          "price_display": "€ 26.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T01:06:05.320150Z",
+          "location": "Maintal",
+          "year": 2024,
+          "mileage": "28.417 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-a4-advanced-35-2-0-tfsi-s-tronic-benzin-schwarz-cat_ma9gr1626ge134va134mt179tr111-bdc9ea0e-7078-4851-8210-fb49845b28ef",
+          "price_eur": 28490,
+          "price_display": "€ 28.490",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T01:06:05.320150Z",
+          "location": "Schweinfurt",
+          "year": 2025,
+          "mileage": "30.915 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/audi/a4?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/audi/a4",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/audi/a4?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "audi-a5",
+      "name": "A5",
+      "manufacturer": "Audi",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "audi",
+      "brand_name": "Audi",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 41644,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/audi-a5-ID8Q0NzM.html",
+          "price_eur": 49950,
+          "price_display": "49 950",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T01:06:05.320150Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "9 242 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-a5-avant-quattro-led-ahk-kamera-acc-leder-parkassi-benzin-weiss-cat_ma9gr19047ge2335va486mt582tr479951-5b116eb8-4ba3-4d3d-b470-1cded8143255",
+          "price_eur": 40740,
+          "price_display": "€ 40.740",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T01:06:05.320150Z",
+          "location": "Speyer",
+          "year": 2025,
+          "mileage": "28.313 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-a5-avant-tfsi-s-tronic-s-line-tech-acc-kamera-benzin-schwarz-cat_ma9gr19047ge2335va486mt582tr479951-73aec973-e830-4436-81bf-4776bdc9e252",
+          "price_eur": 35890,
+          "price_display": "€ 35.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T01:06:05.320150Z",
+          "location": "Roth",
+          "year": 2025,
+          "mileage": "6.850 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-a5-40-tfsi-quattro-s-line-blackedition-benzin-gruen-cat_ma9gr19047ge232va236mt593tr6647-bb21ce71-e98f-4b46-9112-791dbbef8dd3",
+          "price_eur": 39995,
+          "price_display": "€ 39.995",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T01:06:05.320150Z",
+          "location": "Buedingen",
+          "year": 2024,
+          "mileage": "32.500 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/audi/a5?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/audi/a5",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/audi/a5?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "audi-s3",
+      "name": "S3",
+      "manufacturer": "Audi",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "audi",
+      "brand_name": "Audi",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 39295,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-s3-sportback-tfsi-s-tronic-navi-plus-kamera-led-benzin-grau-cat_ma9gr202612ge10772va155mt10752tr479972-d83b5f2d-0db6-42c9-853b-194d5d57cd90",
+          "price_eur": 41418,
+          "price_display": "€ 41.418",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 4,
+          "captured_at": "2026-08-04T01:06:05.320150Z",
+          "location": "Düsseldorf",
+          "year": 2025,
+          "mileage": "20.751 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-s3-sportback-limo-2-0-tfsi-bo-benzin-grau-cat_ma9gr202612ge10772va155mt10752tr479972-b209346a-8b14-452a-a385-e6f580ec23c4",
+          "price_eur": 39980,
+          "price_display": "€ 39.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 4,
+          "captured_at": "2026-08-04T01:06:05.320150Z",
+          "location": "Schwäbisch-Gmünd",
+          "year": 2024,
+          "mileage": "30.361 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-s3-pano-bo-navi-virtual-plus-benzin-grau-cat_ma9gr202612ge10772va155mt10752tr479972-31880288-d6ab-4939-b642-ce3ef3982f7d",
+          "price_eur": 36488,
+          "price_display": "€ 36.488",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 4,
+          "captured_at": "2026-08-04T01:06:05.320150Z",
+          "location": "Mühlheim a. Main",
+          "year": 2024,
+          "mileage": "12.600 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 4,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/audi/s3?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 4,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/audi/s3",
+          "found": 4,
+          "new": 4,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 4,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/audi/s3?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "audi-a6",
+      "name": "A6",
+      "manufacturer": "Audi",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "audi",
+      "brand_name": "Audi",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 41893,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-a6-lim-tdi-matrix-beifahr-kameras-s-sitz-neuesm-diesel-grau-cat_ma9gr1628ge145va143mt216tr479952-c938bc66-cdd2-4107-ae7f-e587dd616129",
+          "price_eur": 43750,
+          "price_display": "€ 43.750",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 5,
+          "captured_at": "2026-08-04T01:06:05.320150Z",
+          "location": "Mainaschaff (bei Aschaffenburg)",
+          "year": 2025,
+          "mileage": "31.690 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-a6-a6-45-2-0-tfsi-quattro-s-tronic-benzin-grau-cat_ma9gr1628ge145va145mt218tr479952-1e0fdf56-0936-4a27-b1bb-7e30d799e420",
+          "price_eur": 32940,
+          "price_display": "€ 32.940",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 5,
+          "captured_at": "2026-08-04T01:06:05.320150Z",
+          "location": "Schweinfurt",
+          "year": 2024,
+          "mileage": "99.200 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-a6-55-tfsie-qu-s-line-63km-wltp-hud-360-elektro-benzin-schwarz-cat_ma9gr1628ge145va144mt226tr126-d69faf0a-9b61-4752-990d-bbbc2c5326f5",
+          "price_eur": 48990,
+          "price_display": "€ 48.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 5,
+          "captured_at": "2026-08-04T01:06:05.320150Z",
+          "location": "Schweinfurt",
+          "year": 2025,
+          "mileage": "19.840 km",
+          "fuel": "Elektro/Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 5,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/audi/a6?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 5,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/audi/a6",
+          "found": 12,
+          "new": 12,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 5,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/audi/a6?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
