@@ -11,16 +11,16 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g14-specialist-low-volume",
-      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-      "brand_id": "de-tomaso",
-      "brand_name": "De Tomaso"
+      "group_id": "g15-gwm",
+      "group_name": "Great Wall Motor (GWM)",
+      "brand_id": "haval",
+      "brand_name": "Haval"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 13,
+      "groups_done": 14,
       "brands_total": 131,
-      "brands_done": 73,
+      "brands_done": 74,
       "brands_failed": 23,
       "models_found": 100,
       "groups": [
@@ -2942,7 +2942,7 @@
         {
           "group_id": "g14-specialist-low-volume",
           "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "ferrari",
@@ -3407,9 +3407,32 @@
             {
               "brand_id": "de-tomaso",
               "brand_name": "De Tomaso",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T16:43:48.028850+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 3,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "autoscout24": {
+                    "models_discovered": 3
+                  }
+                }
+              }
             }
           ]
         },
