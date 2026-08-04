@@ -23,7 +23,7 @@
       "groups_done": 25,
       "brands_total": 131,
       "brands_done": 96,
-      "brands_failed": 35,
+      "brands_failed": 0,
       "models_found": 193,
       "groups": [
         {
@@ -515,36 +515,9 @@
             {
               "brand_id": "skoda",
               "brand_name": "Skoda",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T01:15:37.007303+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 13,
-                "models_rejected_as_invented": 0,
-                "by_source": {
-                  "auto.pt": {
-                    "models_discovered": 9
-                  },
-                  "autoscout24": {
-                    "models_discovered": 8
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "seat",
@@ -1020,33 +993,9 @@
             {
               "brand_id": "vauxhall",
               "brand_name": "Vauxhall",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T01:45:24.363673+00:00",
-              "error": "local_llm_context_exceeded",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {
-                  "auto.pt": {
-                    "models_discovered": 0
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "fiat",
@@ -1084,36 +1033,9 @@
             {
               "brand_id": "abarth",
               "brand_name": "Abarth",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T01:52:05.504724+00:00",
-              "error": "local_llm_context_exceeded",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 10,
-                "models_rejected_as_invented": 0,
-                "by_source": {
-                  "auto.pt": {
-                    "models_discovered": 6
-                  },
-                  "autoscout24": {
-                    "models_discovered": 10
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "maserati",
@@ -1278,36 +1200,9 @@
             {
               "brand_id": "lexus",
               "brand_name": "Lexus",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T02:01:29.936136+00:00",
-              "error": "local_llm_context_exceeded",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 17,
-                "models_rejected_as_invented": 0,
-                "by_source": {
-                  "auto.pt": {
-                    "models_discovered": 7
-                  },
-                  "autoscout24": {
-                    "models_discovered": 11
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "daihatsu",
@@ -1345,29 +1240,9 @@
             {
               "brand_id": "century",
               "brand_name": "Century",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T02:12:34.303630+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             }
           ]
         },
@@ -1604,36 +1479,9 @@
             {
               "brand_id": "buick",
               "brand_name": "Buick",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T02:19:55.922827+00:00",
-              "error": "local_llm_context_exceeded",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 8,
-                "models_rejected_as_invented": 0,
-                "by_source": {
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 8
-                  }
-                }
-              }
+              "completed_at": null
             }
           ]
         },
@@ -1936,29 +1784,9 @@
             {
               "brand_id": "geely-auto",
               "brand_name": "Geely Auto",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T02:41:23.801442+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "volvo-cars",
@@ -2146,29 +1974,9 @@
             {
               "brand_id": "tata-motors",
               "brand_name": "Tata Motors",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T03:04:32.132341+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "jaguar",
@@ -2239,83 +2047,23 @@
             {
               "brand_id": "range-rover",
               "brand_name": "Range Rover",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T03:11:24.246652+00:00",
-              "error": "no_model_names_suggested",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "defender",
               "brand_name": "Defender",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T03:18:37.833544+00:00",
-              "error": "no_model_names_suggested",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "discovery",
               "brand_name": "Discovery",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T03:27:31.350953+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             }
           ]
         },
@@ -2451,56 +2199,16 @@
             {
               "brand_id": "yangwang",
               "brand_name": "Yangwang",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T03:39:37.106666+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "fangchengbao",
               "brand_name": "Fangchengbao",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T03:48:30.077915+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "rivian",
@@ -2617,29 +2325,9 @@
             {
               "brand_id": "onvo",
               "brand_name": "Onvo",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T04:05:33.968997+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "xpeng",
@@ -2850,29 +2538,9 @@
             {
               "brand_id": "im-motors",
               "brand_name": "IM Motors",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T04:31:07.405044+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "mg",
@@ -3267,33 +2935,9 @@
             {
               "brand_id": "pagani",
               "brand_name": "Pagani",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T05:03:34.501609+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {
-                  "autoscout24": {
-                    "models_discovered": 0
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "koenigsegg",
@@ -3328,56 +2972,16 @@
             {
               "brand_id": "morgan-motor-company",
               "brand_name": "Morgan Motor Company",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T05:12:30.670584+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "ariel-motor-company",
               "brand_name": "Ariel Motor Company",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T05:14:28.386077+00:00",
-              "error": "no_model_names_suggested",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "bac",
@@ -3425,123 +3029,30 @@
             {
               "brand_id": "brabus",
               "brand_name": "Brabus",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T05:35:25.225590+00:00",
-              "error": "circuit_breaker_tripped",
-              "diagnostics": {
-                "models_suggested": 8,
-                "searches_attempted": 15,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": true,
-                "search_status": "completed_no_offerings",
-                "requests_made": 17,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {
-                  "auto.pt": {
-                    "models_discovered": 0,
-                    "searches_attempted": 5,
-                    "searches_missing": 5
-                  },
-                  "standvirtual": {
-                    "searches_attempted": 5
-                  },
-                  "autoscout24": {
-                    "searches_attempted": 5,
-                    "searches_missing": 5
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "ruf-automobile",
               "brand_name": "RUF Automobile",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T05:22:46.653013+00:00",
-              "error": "local_llm_context_exceeded",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "manhart-performance",
               "brand_name": "Manhart Performance",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T05:26:47.196070+00:00",
-              "error": "no_model_names_suggested",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "czinger-vehicles",
               "brand_name": "Czinger Vehicles",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T05:29:41.510245+00:00",
-              "error": "no_model_names_suggested",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "de-tomaso",
@@ -3643,29 +3154,9 @@
             {
               "brand_id": "tank",
               "brand_name": "Tank",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T05:44:18.919167+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "ora",
@@ -3700,29 +3191,9 @@
             {
               "brand_id": "gwm-poer",
               "brand_name": "GWM Poer",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T05:53:21.096243+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             }
           ]
         },
@@ -3764,29 +3235,9 @@
             {
               "brand_id": "exeed",
               "brand_name": "Exeed",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T06:02:23.546341+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "jetour",
@@ -3891,29 +3342,9 @@
             {
               "brand_id": "icar",
               "brand_name": "iCar",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T06:16:21.886297+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             }
           ]
         },
@@ -3955,56 +3386,16 @@
             {
               "brand_id": "deepal",
               "brand_name": "Deepal",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T06:25:56.236091+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "nevo",
               "brand_name": "Nevo",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T06:34:47.116439+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             }
           ]
         },
@@ -4141,29 +3532,9 @@
             {
               "brand_id": "m-hero",
               "brand_name": "M-Hero",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T06:50:36.389491+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "forthing",
@@ -4366,29 +3737,9 @@
             {
               "brand_id": "maextro",
               "brand_name": "Maextro",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T07:12:18.433606+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             }
           ]
         },
@@ -4440,29 +3791,9 @@
             {
               "brand_id": "aito",
               "brand_name": "AITO",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T07:21:19.741699+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "luxeed",
@@ -4510,29 +3841,9 @@
             {
               "brand_id": "stelato",
               "brand_name": "Stelato",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T07:34:06.645590+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             }
           ]
         },
@@ -4544,29 +3855,9 @@
             {
               "brand_id": "li-auto",
               "brand_name": "Li Auto",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T07:42:56.895288+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "leapmotor",
@@ -4663,63 +3954,16 @@
             {
               "brand_id": "perodua",
               "brand_name": "Perodua",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T07:49:04.517046+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "by_source": {}
-              }
+              "completed_at": null
             },
             {
               "brand_id": "lada",
               "brand_name": "Lada",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-04T07:49:24.777573+00:00",
-              "error": "local_llm_context_exceeded",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 6,
-                "models_rejected_as_invented": 0,
-                "by_source": {
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 6
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "proton",
