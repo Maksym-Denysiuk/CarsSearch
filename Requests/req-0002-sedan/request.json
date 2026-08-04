@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g25-other-national",
       "group_name": "Other National / Emerging Markets",
-      "brand_id": "perodua",
-      "brand_name": "Perodua"
+      "brand_id": "lada",
+      "brand_name": "Lada"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -23,7 +23,7 @@
       "groups_done": 24,
       "brands_total": 131,
       "brands_done": 95,
-      "brands_failed": 33,
+      "brands_failed": 34,
       "models_found": 193,
       "groups": [
         {
@@ -4663,9 +4663,29 @@
             {
               "brand_id": "perodua",
               "brand_name": "Perodua",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T07:49:04.517046+00:00",
+              "error": "local_llm_unavailable",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "by_source": {}
+              }
             },
             {
               "brand_id": "lada",
