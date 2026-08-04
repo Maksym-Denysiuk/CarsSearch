@@ -2990,6 +2990,134 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "cupra-formentor",
+      "name": "Formentor",
+      "manufacturer": "Cupra",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "cupra",
+      "brand_name": "Cupra",
+      "body_type": "convertible",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 27703,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/cupra-formentor-ID8Q0zrY.html",
+          "price_eur": 31000,
+          "price_display": "31 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T15:05:55.458908Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "48 459 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/cupra-formentor-ver-1-4-e-hybrid-dsg-ID8PZ5kB.html",
+          "price_eur": 27900,
+          "price_display": "27 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T15:05:55.459915Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "56 235 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/cupra-formentor-ver-1-4-e-hybrid-dsg-ID8PZOW8.html",
+          "price_eur": 26990,
+          "price_display": "26 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T15:05:55.459915Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "55 435 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/cupra-formentor-1-5-tsi-benzin-blau-cat_ma51802gr200362ge783mt6294tr480031-857d10f6-2b50-48c4-98fc-76e4c5c23681",
+          "price_eur": 19980,
+          "price_display": "€ 19.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T15:05:55.459915Z",
+          "location": "Mainz",
+          "year": 2024,
+          "mileage": "50.640 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/cupra-formentor-vz-4drive-228-kw-310-ps-automatik-navi-digitales-benzin-grau-cat_ma51802gr200362ge783mt6280tr8394-5aeeb572-c2a8-4cf8-b7a5-5ecdd6cb9a37",
+          "price_eur": 29950,
+          "price_display": "€ 29.950",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T15:05:55.459915Z",
+          "location": "Bergisch Gladbach",
+          "year": 2024,
+          "mileage": "14.877 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/cupra-formentor-2-0tsi-dsg-19-pano-ahk-hagel-benzin-schwarz-cat_ma51802gr200362ge783mt6280tr8106-a4b363b0-1a82-4256-99da-642215037175",
+          "price_eur": 30400,
+          "price_display": "€ 30.400",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T15:05:55.459915Z",
+          "location": "Memmingen, Amendingen",
+          "year": 2025,
+          "mileage": "10.554 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/cupra/formentor?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 34,
+          "new": 32,
+          "duplicates": 2,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/cupra/formentor",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/cupra/formentor?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
