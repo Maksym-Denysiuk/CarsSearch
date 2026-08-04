@@ -989,7 +989,7 @@
               "brand_name": "Opel",
               "status": "failed",
               "models_found": 0,
-              "completed_at": "2026-08-04T01:45:02.141986+00:00",
+              "completed_at": "2026-08-04T01:50:59.334007+00:00",
               "error": "local_llm_unavailable",
               "diagnostics": {
                 "models_suggested": 0,
@@ -1006,7 +1006,7 @@
                 "search_status": null,
                 "requests_made": 0,
                 "model_suggestion_retries": 0,
-                "models_discovered": 16,
+                "models_discovered": 17,
                 "models_rejected_as_invented": 0,
                 "by_source": {
                   "auto.pt": {
