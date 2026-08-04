@@ -5389,6 +5389,104 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "ariel-motor-company-atom",
+      "name": "Atom",
+      "manufacturer": "Ariel Motor Company",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "ariel-motor-company",
+      "brand_name": "Ariel Motor Company",
+      "body_type": "convertible",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/ariel-motor-company/atom?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 36,
+          "new": 36,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/ariel-motor-company/atom",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/ariel-motor-company/atom?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "ariel-motor-company-nomad",
+      "name": "Nomad",
+      "manufacturer": "Ariel Motor Company",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "ariel-motor-company",
+      "brand_name": "Ariel Motor Company",
+      "body_type": "convertible",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/ariel-motor-company/nomad?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 35,
+          "new": 3,
+          "duplicates": 32,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/ariel-motor-company/nomad",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/ariel-motor-company/nomad?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
     }
   ]
 }
