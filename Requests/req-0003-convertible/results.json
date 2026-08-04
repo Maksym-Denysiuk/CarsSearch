@@ -398,6 +398,95 @@
           "error": "_PageMissing: http 404"
         }
       ]
+    },
+    {
+      "id": "rolls-royce-spectre",
+      "name": "Spectre",
+      "manufacturer": "Rolls-Royce",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "rolls-royce",
+      "brand_name": "Rolls-Royce",
+      "body_type": "convertible",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 397500,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/rolls-royce-spectre-full-option-elektro-schwarz-cat_ma61gr201326ge1558-72379932-537d-411d-b3b6-830628b3139e",
+          "price_eur": 419000,
+          "price_display": "€ 419.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:09:04.068336Z",
+          "location": "Köln",
+          "year": null,
+          "mileage": "0 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/rolls-royce-spectre-launch-paket-starlight-23-zoll-bespoke-elektro-grau-cat_ma61gr201326ge1558-f9935206-fccb-43fd-9dfe-49f274536be9",
+          "price_eur": 374500,
+          "price_display": "€ 374.500",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:09:04.068336Z",
+          "location": "Berlin",
+          "year": 2025,
+          "mileage": "8.000 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/rolls-royce-spectre-bespoke-starlight-shooting-star-elektro-grau-cat_ma61gr201326ge1558-1d594211-e1c6-45c8-b4f1-adf5c6c81604",
+          "price_eur": 399000,
+          "price_display": "€ 399.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:09:04.068336Z",
+          "location": "Radebeul",
+          "year": null,
+          "mileage": "50 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/rolls-royce/spectre?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/rolls-royce/spectre",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/rolls-royce/spectre?fregfrom=2024",
+          "found": 13,
+          "new": 13,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
