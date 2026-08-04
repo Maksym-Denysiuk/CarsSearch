@@ -3270,6 +3270,282 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "mini-cabrio",
+      "name": "Cabrio",
+      "manufacturer": "MINI",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "mini",
+      "brand_name": "MINI",
+      "body_type": "convertible",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 32967,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/mini-cabrio-ver-cooper-auto-ID8PXE2G.html",
+          "price_eur": 31900,
+          "price_display": "31 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T15:23:58.140206Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "23 243 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/mini-cabrio-ver-c-classic-ID8PZ7Mb.html",
+          "price_eur": 33500,
+          "price_display": "33 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T15:23:58.140206Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "17 812 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/mini-cabrio-ver-c-classic-ID8PZ7M9.html",
+          "price_eur": 33500,
+          "price_display": "33 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T15:23:58.140206Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "13 860 km",
+          "fuel": "Gasolina"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mini/cabrio?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 15,
+          "new": 15,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mini/cabrio",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mini/cabrio?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "mini-roadster",
+      "name": "Roadster",
+      "manufacturer": "MINI",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "mini",
+      "brand_name": "MINI",
+      "body_type": "convertible",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mini/roadster?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mini/roadster",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mini/roadster?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "mini-cooper-cabrio",
+      "name": "Cooper Cabrio",
+      "manufacturer": "MINI",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "mini",
+      "brand_name": "MINI",
+      "body_type": "convertible",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 26646,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/mini-mini-trim-hk-rueckfahrkamera-shz-head-u-benzin-weiss-cat_ma16338gr100141ge373va3867mt12401tr480450-58e89d15-6c26-4e8d-a1a7-07cdfa5eee7c",
+          "price_eur": 28490,
+          "price_display": "€ 28.490",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T15:23:58.142250Z",
+          "location": "Schmelz",
+          "year": 2024,
+          "mileage": "38.330 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mini-mini-kamera-hud-h-k-komfort-sport-voll-benzin-weiss-cat_ma16338gr100141ge373va3867mt12401tr480450-e464a43a-9c8f-4475-9dd1-b880da5fa863",
+          "price_eur": 25999,
+          "price_display": "€ 25.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T15:23:58.142250Z",
+          "location": "Celle",
+          "year": 2024,
+          "mileage": "45.036 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mini-mini-navi-leder-led-pdc-komfortzugang-benzin-schwarz-cat_ma16338gr100141ge373va3867mt12401tr480450-8acc63f3-750d-472d-a6f4-4ab4b4c0a753",
+          "price_eur": 25450,
+          "price_display": "€ 25.450",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T15:23:58.142250Z",
+          "location": "Sinzheim / Baden-Baden",
+          "year": 2024,
+          "mileage": "11.990 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mini/cooper-cabrio?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 34,
+          "new": 28,
+          "duplicates": 6,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mini/cooper-cabrio",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mini/cooper-cabrio?fregfrom=2024",
+          "found": 17,
+          "new": 17,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "mini-one-cabrio",
+      "name": "One Cabrio",
+      "manufacturer": "MINI",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "mini",
+      "brand_name": "MINI",
+      "body_type": "convertible",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 4,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mini/one-cabrio?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 32,
+          "new": 0,
+          "duplicates": 32,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 4,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mini/one-cabrio",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 4,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mini/one-cabrio?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
