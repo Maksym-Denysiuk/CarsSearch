@@ -29,13 +29,13 @@
       "date_of_request": "2026-08-02",
       "status": "in progress",
       "search_state": {
-        "group": "BMW Group",
-        "brand": "BMW Alpina",
-        "models_done": 22
+        "group": "Stellantis",
+        "brand": "Fiat",
+        "models_done": 100
       },
       "counts": {
-        "models": 4,
-        "offerings": 22
+        "models": 43,
+        "offerings": 100
       }
     },
     {
