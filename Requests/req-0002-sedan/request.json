@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g05-toyota",
       "group_name": "Toyota Motor Corporation",
-      "brand_id": "lexus",
-      "brand_name": "Lexus"
+      "brand_id": "daihatsu",
+      "brand_name": "Daihatsu"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -23,7 +23,7 @@
       "groups_done": 4,
       "brands_total": 131,
       "brands_done": 28,
-      "brands_failed": 4,
+      "brands_failed": 5,
       "models_found": 109,
       "groups": [
         {
@@ -1279,9 +1279,36 @@
             {
               "brand_id": "lexus",
               "brand_name": "Lexus",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T02:01:29.936136+00:00",
+              "error": "local_llm_context_exceeded",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 17,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 7
+                  },
+                  "autoscout24": {
+                    "models_discovered": 11
+                  }
+                }
+              }
             },
             {
               "brand_id": "daihatsu",
