@@ -47,13 +47,13 @@
       "date_of_request": "2026-08-02",
       "status": "in progress",
       "search_state": {
-        "group": "BMW Group",
-        "brand": "MINI",
-        "models_done": 54
+        "group": "Dedicated Electric & Emerging Automotive Manufacturers",
+        "brand": "Denza",
+        "models_done": 69
       },
       "counts": {
-        "models": 52,
-        "offerings": 54
+        "models": 60,
+        "offerings": 69
       }
     }
   ]
