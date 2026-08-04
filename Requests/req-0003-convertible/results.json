@@ -2060,6 +2060,82 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "bentley-continental-gtc",
+      "name": "Continental GTC",
+      "manufacturer": "Bentley",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "bentley",
+      "brand_name": "Bentley",
+      "body_type": "convertible",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 347400,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "2 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bentley-continental-gtc-ver-gtc-4-0-hybrid-speed-ID8Q0z9o.html",
+          "price_eur": 349800,
+          "price_display": "349 800",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:42:21.833143Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "8 000 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bentley-continental-gtc-ver-gtc-4-0-hybrid-ID8PX77F.html",
+          "price_eur": 345000,
+          "price_display": "345 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:42:21.833143Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "6 000 km",
+          "fuel": "Híbrido Plug-In"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bentley/continental-gtc?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bentley/continental-gtc",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bentley/continental-gtc?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        }
+      ]
     }
   ]
 }
