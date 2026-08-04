@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g12-electric-emerging",
       "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "yangwang",
-      "brand_name": "Yangwang"
+      "brand_id": "fangchengbao",
+      "brand_name": "Fangchengbao"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 11,
       "brands_total": 131,
       "brands_done": 56,
-      "brands_failed": 9,
+      "brands_failed": 10,
       "models_found": 69,
       "groups": [
         {
@@ -2333,9 +2333,29 @@
             {
               "brand_id": "yangwang",
               "brand_name": "Yangwang",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T15:56:44.947906+00:00",
+              "error": "model_suggestion_unparseable",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 1,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "by_source": {}
+              }
             },
             {
               "brand_id": "fangchengbao",
