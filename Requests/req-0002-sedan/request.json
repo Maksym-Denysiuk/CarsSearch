@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g18-faw",
       "group_name": "FAW Group",
-      "brand_id": "hongqi",
-      "brand_name": "Hongqi"
+      "brand_id": "bestune",
+      "brand_name": "Bestune"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -22,9 +22,9 @@
       "groups_total": 25,
       "groups_done": 17,
       "brands_total": 131,
-      "brands_done": 83,
+      "brands_done": 84,
       "brands_failed": 28,
-      "models_found": 182,
+      "models_found": 183,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -4011,14 +4011,51 @@
         {
           "group_id": "g18-faw",
           "group_name": "FAW Group",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "hongqi",
               "brand_name": "Hongqi",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 1,
+              "completed_at": "2026-08-04T06:35:02.624880+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 33,
+                "unique_offerings": 33,
+                "candidates_checked": 4,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 1,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 3
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 56,
+                "model_suggestion_retries": 0,
+                "models_discovered": 2,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "autoscout24": {
+                    "models_discovered": 2,
+                    "searches_attempted": 1,
+                    "candidates_checked": 1,
+                    "firewall_kept": 1
+                  },
+                  "standvirtual": {
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3
+                  },
+                  "auto.pt": {
+                    "searches_attempted": 1,
+                    "searches_missing": 1
+                  }
+                }
+              }
             },
             {
               "brand_id": "bestune",
