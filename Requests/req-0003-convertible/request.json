@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g14-specialist-low-volume",
       "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-      "brand_id": "bac",
-      "brand_name": "BAC"
+      "brand_id": "brabus",
+      "brand_name": "Brabus"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 13,
       "brands_total": 131,
-      "brands_done": 71,
+      "brands_done": 72,
       "brands_failed": 20,
-      "models_found": 99,
+      "models_found": 100,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -3236,9 +3236,46 @@
             {
               "brand_id": "bac",
               "brand_name": "BAC",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 1,
+              "completed_at": "2026-08-04T16:38:15.733979+00:00",
+              "diagnostics": {
+                "models_suggested": 4,
+                "searches_attempted": 12,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 139,
+                "unique_offerings": 43,
+                "candidates_checked": 10,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 1,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 9
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 24,
+                "model_suggestion_retries": 1,
+                "models_discovered": 19,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "autoscout24": {
+                    "models_discovered": 19,
+                    "searches_attempted": 4,
+                    "searches_missing": 4
+                  },
+                  "standvirtual": {
+                    "searches_attempted": 4,
+                    "candidates_checked": 10,
+                    "firewall_dropped": 9,
+                    "firewall_kept": 1
+                  },
+                  "auto.pt": {
+                    "searches_attempted": 4,
+                    "searches_missing": 4
+                  }
+                }
+              }
             },
             {
               "brand_id": "brabus",
