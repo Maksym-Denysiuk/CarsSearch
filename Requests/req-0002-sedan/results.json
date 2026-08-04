@@ -3525,6 +3525,134 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "toyota-corolla",
+      "name": "Corolla",
+      "manufacturer": "Toyota",
+      "group_id": "g05-toyota",
+      "group_name": "Toyota Motor Corporation",
+      "brand_id": "toyota",
+      "brand_name": "Toyota",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 31115,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/toyota-corolla-ver-1-8-hybrid-comfort-ID8Q0lZU.html",
+          "price_eur": 28750,
+          "price_display": "28 750",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:58:57.762255Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "49 590 km",
+          "fuel": "Híbrido (Gasolina)"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/toyota-corolla-ID8Q0CcC.html",
+          "price_eur": 33750,
+          "price_display": "33 750",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:58:57.762255Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "25 200 km",
+          "fuel": "Híbrido (Gasolina)"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/toyota-corolla-ID8Q0srA.html",
+          "price_eur": 41250,
+          "price_display": "41 250",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:58:57.762255Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "50 180 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/toyota-corolla-1-8-hybrid-limousine-comfort-+pdc+shz+-elektro-benzin-schwarz-cat_ma70gr201440ge1229va3894mt12430tr2152-96f80fe8-6013-4f09-afd7-8c5e1ea594c0",
+          "price_eur": 22970,
+          "price_display": "€ 22.970",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:58:57.762255Z",
+          "location": "Heiligehaus",
+          "year": 2024,
+          "mileage": "40.603 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/toyota-corolla-touring-sports-1-8-hybrid-teamplayer-elektro-benzin-grau-cat_ma70gr201440ge1229va2108mt12430tr480847-c8bca3dd-488b-481f-84f8-7ef7326e9944",
+          "price_eur": 29990,
+          "price_display": "€ 29.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:58:57.762255Z",
+          "location": "Dietersheim",
+          "year": 2025,
+          "mileage": "100 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/toyota-corolla-ts-2-0-hybrid-gr-sport-led+kamera+-elektro-benzin-schwarz-cat_ma70gr201440ge1229va2108mt12431tr1991-46b2fdf8-af19-4af7-9d47-22a98c771d30",
+          "price_eur": 29980,
+          "price_display": "€ 29.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:58:57.762255Z",
+          "location": "Schwentinental",
+          "year": 2024,
+          "mileage": "7.450 km",
+          "fuel": "Elektro/Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/toyota/corolla?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 5,
+          "new": 4,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/toyota/corolla",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/toyota/corolla?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
