@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g24-chinese-ev-independents",
       "group_name": "Chinese EV Independents",
-      "brand_id": "li-auto",
-      "brand_name": "Li Auto"
+      "brand_id": "leapmotor",
+      "brand_name": "Leapmotor"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 23,
       "brands_total": 131,
       "brands_done": 94,
-      "brands_failed": 31,
+      "brands_failed": 32,
       "models_found": 101,
       "groups": [
         {
@@ -4383,14 +4383,34 @@
         {
           "group_id": "g24-chinese-ev-independents",
           "group_name": "Chinese EV Independents",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "li-auto",
               "brand_name": "Li Auto",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T17:13:03.141532+00:00",
+              "error": "no_model_names_suggested",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "by_source": {}
+              }
             },
             {
               "brand_id": "leapmotor",
