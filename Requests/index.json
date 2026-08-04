@@ -27,15 +27,15 @@
       "results_path": "Requests/req-0002-sedan/results.json",
       "favorites_path": "Requests/req-0002-sedan/favorites.json",
       "date_of_request": "2026-08-02",
-      "status": "in progress",
+      "status": "done",
       "search_state": {
-        "group": "Huawei HIMA Alliance",
-        "brand": "Luxeed",
-        "models_done": 189
+        "group": null,
+        "brand": null,
+        "models_done": 193
       },
       "counts": {
-        "models": 125,
-        "offerings": 189
+        "models": 136,
+        "offerings": 193
       }
     },
     {
