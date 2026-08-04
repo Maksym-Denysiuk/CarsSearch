@@ -3436,6 +3436,95 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "maserati-ghibli",
+      "name": "Ghibli",
+      "manufacturer": "Maserati",
+      "group_id": "g04-stellantis",
+      "group_name": "Stellantis",
+      "brand_id": "maserati",
+      "brand_name": "Maserati",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 80444,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/maserati-ghibli-my20-sonderfinanzierung-benzin-grau-cat_ma45gr200921ge1803tr480453-207ebcdd-ba9b-41b1-be88-f137e51801d2",
+          "price_eur": 48111,
+          "price_display": "€ 48.111",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:53:40.659326Z",
+          "location": "Markranstädt",
+          "year": 2026,
+          "mileage": "14.400 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/maserati-ghibli-modena-ultima-sonderleasing-benzin-schwarz-cat_ma45gr200921ge1803tr480453-57319594-8e13-4fa6-9164-fd3721081969",
+          "price_eur": 97111,
+          "price_display": "€ 97.111",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:53:40.659326Z",
+          "location": "Markranstädt",
+          "year": 2025,
+          "mileage": "55 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/maserati-ghibli-modena-ultima-benzin-schwarz-cat_ma45gr200921ge1803tr480453-d2d3af0f-517b-439e-b189-9d78ab2c12f9",
+          "price_eur": 96111,
+          "price_display": "€ 96.111",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:53:40.659326Z",
+          "location": "Markranstädt",
+          "year": 2024,
+          "mileage": "29.948 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/maserati/ghibli?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/maserati/ghibli",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/maserati/ghibli?fregfrom=2024",
+          "found": 7,
+          "new": 7,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
