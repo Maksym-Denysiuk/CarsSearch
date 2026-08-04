@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g03-vw",
       "group_name": "Volkswagen Group",
-      "brand_id": "volkswagen",
-      "brand_name": "Volkswagen"
+      "brand_id": "audi",
+      "brand_name": "Audi"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -22,9 +22,9 @@
       "groups_total": 25,
       "groups_done": 2,
       "brands_total": 131,
-      "brands_done": 8,
+      "brands_done": 9,
       "brands_failed": 0,
-      "models_found": 57,
+      "models_found": 60,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -371,14 +371,54 @@
         {
           "group_id": "g03-vw",
           "group_name": "Volkswagen Group",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "volkswagen",
               "brand_name": "Volkswagen",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 3,
+              "completed_at": "2026-08-04T01:02:17.449936+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 74,
+                "unique_offerings": 74,
+                "candidates_checked": 9,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 3,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 3,
+                  "listed year is older than the request allows": 3
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 192,
+                "model_suggestion_retries": 0,
+                "models_discovered": 12,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 9,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3
+                  },
+                  "autoscout24": {
+                    "models_discovered": 6,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  },
+                  "standvirtual": {
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "audi",
