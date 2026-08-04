@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g15-gwm",
       "group_name": "Great Wall Motor (GWM)",
-      "brand_id": "tank",
-      "brand_name": "Tank"
+      "brand_id": "ora",
+      "brand_name": "Ora"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -23,7 +23,7 @@
       "groups_done": 14,
       "brands_total": 131,
       "brands_done": 77,
-      "brands_failed": 22,
+      "brands_failed": 23,
       "models_found": 179,
       "groups": [
         {
@@ -3643,9 +3643,29 @@
             {
               "brand_id": "tank",
               "brand_name": "Tank",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T05:44:18.919167+00:00",
+              "error": "model_suggestion_unparseable",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 1,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "by_source": {}
+              }
             },
             {
               "brand_id": "ora",
