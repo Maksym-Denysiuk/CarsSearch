@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g14-specialist-low-volume",
       "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-      "brand_id": "brabus",
-      "brand_name": "Brabus"
+      "brand_id": "ruf-automobile",
+      "brand_name": "RUF Automobile"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -23,7 +23,7 @@
       "groups_done": 13,
       "brands_total": 131,
       "brands_done": 74,
-      "brands_failed": 18,
+      "brands_failed": 19,
       "models_found": 179,
       "groups": [
         {
@@ -3425,9 +3425,33 @@
             {
               "brand_id": "brabus",
               "brand_name": "Brabus",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T05:22:44.998654+00:00",
+              "error": "local_llm_unavailable",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 0
+                  }
+                }
+              }
             },
             {
               "brand_id": "ruf-automobile",
