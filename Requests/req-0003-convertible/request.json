@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g03-vw",
       "group_name": "Volkswagen Group",
-      "brand_id": "seat",
-      "brand_name": "SEAT"
+      "brand_id": "cupra",
+      "brand_name": "Cupra"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 2,
       "brands_total": 131,
-      "brands_done": 11,
+      "brands_done": 12,
       "brands_failed": 2,
       "models_found": 28,
       "groups": [
@@ -455,9 +455,35 @@
             {
               "brand_id": "seat",
               "brand_name": "SEAT",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T08:35:56.032037+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 1,
+                "models_discovered": 5,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 5
+                  },
+                  "autoscout24": {
+                    "models_discovered": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "cupra",
