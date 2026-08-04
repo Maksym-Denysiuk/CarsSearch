@@ -4578,6 +4578,249 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "tesla-model-3",
+      "name": "Model 3",
+      "manufacturer": "Tesla",
+      "group_id": "g12-electric-emerging",
+      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+      "brand_id": "tesla",
+      "brand_name": "Tesla",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 40704,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/tesla-model-3-ver-long-range-tra-o-traseira-premium-ID8Q0OO8.html",
+          "price_eur": 39990,
+          "price_display": "39 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T03:28:03.353570Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "31 364 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/tesla-model-3-ID8Q0EMg.html",
+          "price_eur": 49999,
+          "price_display": "49 999",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T03:28:03.353570Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "16 500 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/tesla-model-3-ver-tra-o-traseira-ID8Q0NTX.html",
+          "price_eur": 34500,
+          "price_display": "34 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T03:28:03.353570Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "18 000 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/tesla-model-3-tracao-traseira-premium-id-JGVktbMR",
+          "price_eur": 34950,
+          "price_display": "34950",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T03:28:03.353570Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "61661 km",
+          "fuel": "Eléctrico"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/tesla-model-3-model-3-rwd-hinterradantrieb-long-range-mwst-elektro-weiss-cat_ma51520gr201429ge1416tr480831-fdd904f1-3346-49fb-a28c-447fcfa1ea73",
+          "price_eur": 38900,
+          "price_display": "€ 38.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T03:28:03.353570Z",
+          "location": "München, Landeshauptstadt",
+          "year": 2025,
+          "mileage": "5.692 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/tesla-model-3-awd-performance-facelift-1-hand-mwst-elektro-weiss-cat_ma51520gr201429ge1416tr5802-0b92f098-83a3-4fa2-b8da-41aa0c63d14e",
+          "price_eur": 48890,
+          "price_display": "€ 48.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T03:28:03.353570Z",
+          "location": "Steinheim",
+          "year": 2024,
+          "mileage": "52.300 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/tesla-model-3-premium-reichweite-plus-hinterradantrieb-elektro-blau-cat_ma51520gr201429ge1416tr480831-4eafb1a7-0a21-4d6d-89ad-fdef8732ca55",
+          "price_eur": 37700,
+          "price_display": "€ 37.700",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T03:28:03.353570Z",
+          "location": "Viersen",
+          "year": 2025,
+          "mileage": "17.000 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/tesla/model-3?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 27,
+          "new": 25,
+          "duplicates": 2,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/tesla/model-3",
+          "found": 19,
+          "new": 19,
+          "duplicates": 0,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/tesla/model-3?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "tesla-model-s",
+      "name": "Model S",
+      "manufacturer": "Tesla",
+      "group_id": "g12-electric-emerging",
+      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+      "brand_id": "tesla",
+      "brand_name": "Tesla",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 83000,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/tesla-model-s-ver-plaid-awd-ID8PXEHr.html",
+          "price_eur": 84500,
+          "price_display": "84 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T03:28:03.353570Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "41 000 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/tesla-model-s-plaid-tri-motor-elektro-schwarz-cat_ma51520gr201430ge1417tr5803-9e3063cf-f431-4da5-8c91-b7aa9c38621b",
+          "price_eur": 85500,
+          "price_display": "€ 85.500",
+          "country": "IT",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T03:28:03.353570Z",
+          "location": "Roma",
+          "year": 2024,
+          "mileage": "29.000 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/tesla-model-s-model-s-plaid-100kwh-elektro-weiss-cat_ma51520gr201430ge1417tr480832-8ea78985-c424-4da5-888b-19895a86405e",
+          "price_eur": 77000,
+          "price_display": "€ 77.000",
+          "country": "AT",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T03:28:03.353570Z",
+          "location": "Weikersdorf am Steinfelde",
+          "year": 2024,
+          "mileage": "60.000 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/tesla-model-s-model-s-performance-dual-motor-plaid-awd-elektro-blau-cat_ma51520gr201430ge1417tr5803-98ffbee0-e7c9-45ff-846f-4264709d6c25",
+          "price_eur": 85000,
+          "price_display": "€ 85.000",
+          "country": "IT",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T03:28:03.353570Z",
+          "location": "Lecco",
+          "year": 2024,
+          "mileage": "40.000 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/tesla/model-s?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/tesla/model-s",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/tesla/model-s?fregfrom=2024",
+          "found": 6,
+          "new": 6,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
