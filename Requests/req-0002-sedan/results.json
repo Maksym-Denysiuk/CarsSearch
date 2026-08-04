@@ -3959,6 +3959,95 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "alpine-a390",
+      "name": "A390",
+      "manufacturer": "Alpine",
+      "group_id": "g09-renault-nissan-mitsubishi",
+      "group_name": "Renault-Nissan-Mitsubishi Alliance",
+      "brand_id": "alpine",
+      "brand_name": "Alpine",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 71245,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/alpine-a390-gt-bo-led-twa-pdc-2xklima-led-360-aut-kam-elektro-blau-cat_ma51796gr202875ge11041tr479334-1599069d-17b4-47f0-b2cf-469ed48a75c5",
+          "price_eur": 74385,
+          "price_display": "€ 74.385",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T02:25:02.343867Z",
+          "location": "Kassel",
+          "year": 2026,
+          "mileage": "2.500 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/alpine-a390-gt-bleker-gruppe-elektro-blau-cat_ma51796gr202875ge11041tr479334-53bc1e3c-af29-4442-b26c-13bd770302db",
+          "price_eur": 66660,
+          "price_display": "€ 66.660",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T02:25:02.343867Z",
+          "location": "Münster",
+          "year": 2026,
+          "mileage": "6.500 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/alpine-a390-gt-20-zoll-devialetsound-bo-led-twa-pdc-elektro-grau-cat_ma51796gr202875ge11041tr479334-afc9aae5-d18e-4205-a445-099a2286bd22",
+          "price_eur": 72690,
+          "price_display": "€ 72.690",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T02:25:02.343867Z",
+          "location": "Kassel",
+          "year": null,
+          "mileage": "5 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/alpine/a390?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/alpine/a390",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/alpine/a390?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
