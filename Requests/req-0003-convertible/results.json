@@ -4636,6 +4636,144 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "aston-martin-vantage-roadster",
+      "name": "Vantage Roadster",
+      "manufacturer": "Aston Martin",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "aston-martin",
+      "brand_name": "Aston Martin",
+      "body_type": "convertible",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/aston-martin/vantage-roadster?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 6,
+          "new": 6,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/aston-martin/vantage-roadster",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/aston-martin/vantage-roadster?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "aston-martin-db12",
+      "name": "DB12",
+      "manufacturer": "Aston Martin",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "aston-martin",
+      "brand_name": "Aston Martin",
+      "body_type": "convertible",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 229933,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-db12-china-grey-oxford-tan-nur-10500km-benzin-grau-cat_ma8gr200117-cfb85191-1456-4c82-889b-435f573bcdc9",
+          "price_eur": 199900,
+          "price_display": "€ 199.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T16:27:12.940168Z",
+          "location": "Köln",
+          "year": 2024,
+          "mileage": "10.500 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-db12-satin-onyx-black-inspire-sport-benzin-schwarz-cat_ma8gr200117-9da9b8f9-a66c-4925-964d-18f6ab524503",
+          "price_eur": 205000,
+          "price_display": "€ 205.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T16:27:12.940168Z",
+          "location": "Köln",
+          "year": 2024,
+          "mileage": "6.550 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-db12-s-coupe-ultramarine-black-dark-knight-benzin-blau-cat_ma8gr200117-61b5d229-3a13-4d39-b6d1-267ad274d9ae",
+          "price_eur": 284900,
+          "price_display": "€ 284.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T16:27:12.940168Z",
+          "location": "Köln",
+          "year": null,
+          "mileage": "20 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/aston-martin/db12?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 5,
+          "new": 0,
+          "duplicates": 5,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/aston-martin/db12",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/aston-martin/db12?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
