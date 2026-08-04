@@ -29,13 +29,13 @@
       "date_of_request": "2026-08-02",
       "status": "in progress",
       "search_state": {
-        "group": "Great Wall Motor (GWM)",
-        "brand": "Tank",
-        "models_done": 179
+        "group": "Huawei HIMA Alliance",
+        "brand": "Luxeed",
+        "models_done": 189
       },
       "counts": {
-        "models": 100,
-        "offerings": 179
+        "models": 125,
+        "offerings": 189
       }
     },
     {
