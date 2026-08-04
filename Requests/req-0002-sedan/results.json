@@ -3653,6 +3653,134 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "kia-ceed",
+      "name": "Ceed",
+      "manufacturer": "Kia",
+      "group_id": "g06-hyundai",
+      "group_name": "Hyundai Motor Group",
+      "brand_id": "kia",
+      "brand_name": "Kia",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 18870,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/kia-ceed-ver-1-0-t-gdi-drive-ID8PYiev.html",
+          "price_eur": 23490,
+          "price_display": "23 490",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T02:15:05.850297Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "9 000 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/kia-ceed-ver-1-0-t-gdi-drive-ID8Q0soO.html",
+          "price_eur": 19830,
+          "price_display": "19 830",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T02:15:05.850297Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "16 815 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/kia-ceed-ver-1-0-t-gdi-drive-ID8Q0GyR.html",
+          "price_eur": 20490,
+          "price_display": "20 490",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T02:15:05.850297Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "23 669 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/kia-ceed-ceed-edition-7-1-0-t-gdi-fse-ac-gra-benzin-silber-cat_ma39gr200738ge962va1316mt2407tr8327-ce03e216-1d78-4bc4-ba53-48c9e793a839",
+          "price_eur": 15350,
+          "price_display": "€ 15.350",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T02:15:05.850297Z",
+          "location": "Hamburg",
+          "year": 2024,
+          "mileage": "16.000 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/kia-ceed-ceed-1-5-t-gdi-vision-aut+kamera+acc+navi+shz+lm-benzin-schwarz-cat_ma39gr200738ge962va1316mt2412tr8205-211ae874-a123-4993-985f-ea57b9f2e2bd",
+          "price_eur": 17290,
+          "price_display": "€ 17.290",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T02:15:05.850297Z",
+          "location": "Köln",
+          "year": 2025,
+          "mileage": "72.384 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/kia-ceed-ceed-1-6-crdi-vision-navi-pdc-kamera-sitzhz-diesel-weiss-cat_ma39gr200738ge962va1316mt2413tr8327-e559f0f1-6e7d-4cc3-b298-bbc363e24917",
+          "price_eur": 16770,
+          "price_display": "€ 16.770",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T02:15:05.850297Z",
+          "location": "Eching",
+          "year": 2024,
+          "mileage": "46.635 km",
+          "fuel": "Diesel"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/kia/ceed?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 11,
+          "new": 10,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/kia/ceed",
+          "found": 12,
+          "new": 12,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/kia/ceed?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
