@@ -45,14 +45,14 @@
       "results_path": "Requests/req-0003-convertible/results.json",
       "favorites_path": "Requests/req-0003-convertible/favorites.json",
       "date_of_request": "2026-08-02",
-      "status": "in progress",
+      "status": "done",
       "search_state": {
-        "group": "Dongfeng Motor",
-        "brand": "M-Hero",
+        "group": null,
+        "brand": null,
         "models_done": 101
       },
       "counts": {
-        "models": 104,
+        "models": 112,
         "offerings": 101
       }
     }
