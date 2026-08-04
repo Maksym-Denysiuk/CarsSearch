@@ -6862,6 +6862,134 @@
           "error": "_PageMissing: http 404"
         }
       ]
+    },
+    {
+      "id": "honda-civic",
+      "name": "Civic",
+      "manufacturer": "Honda",
+      "group_id": "g13-independent-mainstream",
+      "group_name": "Independent Mainstream Manufacturers",
+      "brand_id": "honda",
+      "brand_name": "Honda",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 48428,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/honda-civic-ver-2-0-i-vtec-type-r-ID8Q0zsj.html",
+          "price_eur": 64950,
+          "price_display": "64 950",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T04:41:50.642291Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "6 524 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/honda-civic-ver-2-0-vtec-turbo-type-r-ID8Q0pyd.html",
+          "price_eur": 69500,
+          "price_display": "69 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T04:41:50.642291Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "700 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/honda-civic-ver-2-0-0-i-mmd-e-hev-sport-ID8PYoLA.html",
+          "price_eur": 41900,
+          "price_display": "41 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T04:41:50.642291Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "4 500 km",
+          "fuel": "Híbrido (Gasolina)"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/honda-civic-2-0-hybrid-elegance-led+acc+navi-elektro-benzin-grau-cat_ma31gr200622ge1980va3479mt12730tr3074-a2e2f6df-e3c7-49a1-9ff0-fb74549706bb",
+          "price_eur": 27430,
+          "price_display": "€ 27.430",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T04:41:50.642291Z",
+          "location": "Bocholt",
+          "year": 2024,
+          "mileage": "23.100 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/honda-civic-e-hev-2-0-hybrid-sport-led-einparkhilfe-wireless-elektro-benzin-schwarz-cat_ma31gr200622ge1980va3479mt12730tr7208-3de4f6d1-7cdd-4c83-9bca-5d68d99eb147",
+          "price_eur": 34890,
+          "price_display": "€ 34.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T04:41:50.642291Z",
+          "location": "München",
+          "year": 2025,
+          "mileage": "3.000 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/honda-civic-2-0-type-r-vtec-benzin-weiss-cat_ma31gr200622ge1980va3479mt12731tr480264-e2e24d23-c427-42f9-a209-4b3032af96e2",
+          "price_eur": 51900,
+          "price_display": "€ 51.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T04:41:50.642291Z",
+          "location": "Langenenslingen",
+          "year": 2025,
+          "mileage": "4.500 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/honda/civic?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 4,
+          "new": 3,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/honda/civic",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/honda/civic?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
