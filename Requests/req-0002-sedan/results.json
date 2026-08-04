@@ -3347,6 +3347,95 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "dodge-charger",
+      "name": "Charger",
+      "manufacturer": "Dodge",
+      "group_id": "g04-stellantis",
+      "group_name": "Stellantis",
+      "brand_id": "dodge",
+      "brand_name": "Dodge",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 81332,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/dodge-charger-daytona-ev-my26-650-ps-launch-elektro-schwarz-cat_ma2152gr200438-91c8e692-3720-495e-8398-d40f8b44bee4",
+          "price_eur": 89999,
+          "price_display": "€ 89.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:27:53.093167Z",
+          "location": "Potsdam",
+          "year": null,
+          "mileage": "20 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/dodge-charger-scat-pack-plus-coupe-launch-benzin-rot-cat_ma2152gr200438-d156f479-ee50-4480-8854-0bf6ba5404e8",
+          "price_eur": 76999,
+          "price_display": "€ 76.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:27:53.093167Z",
+          "location": "Potsdam",
+          "year": null,
+          "mileage": "200 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/dodge-charger-scat-pack-plus-coupe-launch-benzin-schwarz-cat_ma2152gr200438-1e2f8657-69ff-4497-898e-cc2b7e6eb519",
+          "price_eur": 76999,
+          "price_display": "€ 76.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:27:53.093167Z",
+          "location": "Potsdam",
+          "year": null,
+          "mileage": "20 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/dodge/charger?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/dodge/charger",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/dodge/charger?fregfrom=2024",
+          "found": 19,
+          "new": 19,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
