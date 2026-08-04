@@ -3781,6 +3781,184 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "genesis-g70",
+      "name": "G70",
+      "manufacturer": "Genesis",
+      "group_id": "g06-hyundai",
+      "group_name": "Hyundai Motor Group",
+      "brand_id": "genesis",
+      "brand_name": "Genesis",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 38927,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/genesis-g70-sport-2-0l-panoramadach-led-lexicon-sound-benzin-grau-cat_ma51885gr200587ge2026va3471mt6976tr7157-cdc5e7ca-c4ac-4598-8c32-f4fa7b0d0742",
+          "price_eur": 40900,
+          "price_display": "€ 40.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T02:15:30.582191Z",
+          "location": "Völklingen",
+          "year": 2025,
+          "mileage": "66 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/genesis-g70-sport-ad-led-sperrdiff-acc-el-heckklappe-apple-c-diesel-schwarz-cat_ma51885gr200587ge2026va3471mt6976tr7157-7ace848b-5228-467d-8d13-0354aa5792ef",
+          "price_eur": 35980,
+          "price_display": "€ 35.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T02:15:30.582191Z",
+          "location": "Andernach",
+          "year": 2024,
+          "mileage": "24.460 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/genesis-g70-shooting-brake-sport-2-0l-led-lexicon-sound-benzin-weiss-cat_ma51885gr200587ge2026va1170mt6976tr7157-0b7c63a2-fce4-44bc-a772-a09eb8bda964",
+          "price_eur": 39900,
+          "price_display": "€ 39.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T02:15:30.582191Z",
+          "location": "Völklingen",
+          "year": 2025,
+          "mileage": "77 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/genesis/g70?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/genesis/g70",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/genesis/g70?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "genesis-g80",
+      "name": "G80",
+      "manufacturer": "Genesis",
+      "group_id": "g06-hyundai",
+      "group_name": "Hyundai Motor Group",
+      "brand_id": "genesis",
+      "brand_name": "Genesis",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 43453,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/genesis-g80-luxury-4wd-massage-hud-alcantara-himmel-benzin-grau-cat_ma51885gr200590ge2027va3474mt6979tr480255-4df79685-28e2-45c4-b624-7eaf26176266",
+          "price_eur": 51990,
+          "price_display": "€ 51.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T02:15:30.582191Z",
+          "location": "Bielefeld",
+          "year": 2025,
+          "mileage": "4.750 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/genesis-g80-2-5t-rwd-sport-panoramadach-soundsystem-benzin-schwarz-cat_ma51885gr200590ge2027va3474mt6979tr480255-b03c4a70-df5f-42f4-96ef-1a8939effddc",
+          "price_eur": 41900,
+          "price_display": "€ 41.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T02:15:30.582191Z",
+          "location": "Holzgerlingen",
+          "year": 2024,
+          "mileage": "29.000 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/genesis-g80-2-5-t-sport-navi-cam-pano-lane-ass-benzin-schwarz-cat_ma51885gr200590ge2027va3474mt6979tr480255-0a3373c4-bca7-488e-9b4d-5267af35c988",
+          "price_eur": 36470,
+          "price_display": "€ 36.470",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T02:15:30.582191Z",
+          "location": "Egelsbach",
+          "year": 2024,
+          "mileage": "68.060 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/genesis/g80?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/genesis/g80",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/genesis/g80?fregfrom=2024",
+          "found": 3,
+          "new": 3,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }

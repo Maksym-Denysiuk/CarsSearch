@@ -11,20 +11,20 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g06-hyundai",
-      "group_name": "Hyundai Motor Group",
-      "brand_id": "genesis",
-      "brand_name": "Genesis"
+      "group_id": "g07-gm",
+      "group_name": "General Motors (GM)",
+      "brand_id": "chevrolet",
+      "brand_name": "Chevrolet"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
     "progress": {
       "groups_total": 25,
-      "groups_done": 5,
+      "groups_done": 6,
       "brands_total": 131,
-      "brands_done": 31,
+      "brands_done": 32,
       "brands_failed": 6,
-      "models_found": 115,
+      "models_found": 121,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -1375,7 +1375,7 @@
         {
           "group_id": "g06-hyundai",
           "group_name": "Hyundai Motor Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "hyundai",
@@ -1459,9 +1459,42 @@
             {
               "brand_id": "genesis",
               "brand_name": "Genesis",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 6,
+              "completed_at": "2026-08-04T02:15:30.586712+00:00",
+              "diagnostics": {
+                "models_suggested": 2,
+                "searches_attempted": 6,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 23,
+                "unique_offerings": 23,
+                "candidates_checked": 6,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 6,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 69,
+                "model_suggestion_retries": 0,
+                "models_discovered": 5,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 2
+                  },
+                  "autoscout24": {
+                    "models_discovered": 5,
+                    "searches_attempted": 2,
+                    "candidates_checked": 6,
+                    "firewall_kept": 6
+                  },
+                  "standvirtual": {
+                    "searches_attempted": 2
+                  }
+                }
+              }
             }
           ]
         },
