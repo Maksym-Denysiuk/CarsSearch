@@ -1564,6 +1564,387 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "porsche-cayenne",
+      "name": "Cayenne",
+      "manufacturer": "Porsche",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "porsche",
+      "brand_name": "Porsche",
+      "body_type": "convertible",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 131502,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/porsche-cayenne-ver-turbo-e-hybrid-ID8PZStH.html",
+          "price_eur": 189950,
+          "price_display": "189 950",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:30:03.707160Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "9 717 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/porsche-cayenne-ver-e-hybrid-ID8Q0H3G.html",
+          "price_eur": 98500,
+          "price_display": "98 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:30:03.707160Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "43 474 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/porsche-cayenne-ver-e-hybrid-tiptronic-s-ID8Q0lFn.html",
+          "price_eur": 99000,
+          "price_display": "99 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:30:03.707160Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "32 061 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-cayenne-coupe-turbo-e-hybrid-ha-lenk-innodri-hud-elektro-benzin-weiss-cat_ma57gr18284ge603va454mt3795tr480689-cdc7706b-4403-483b-be44-701ceac2947f",
+          "price_eur": 163020,
+          "price_display": "€ 163.020",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:30:03.707160Z",
+          "location": "Berlin",
+          "year": 2025,
+          "mileage": "17.000 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-cayenne-e-hybrid-coupe-soft-close-led-matrix-21z-elektro-benzin-schwarz-cat_ma57gr18284ge603va452mt3795tr480689-74d284b5-2549-4c45-bdaf-e73f5de629bf",
+          "price_eur": 92550,
+          "price_display": "€ 92.550",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:30:03.707160Z",
+          "location": "Trier",
+          "year": 2024,
+          "mileage": "21.500 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-cayenne-coupe-gts-burmester-keramik-pdcc-360-tv-benzin-schwarz-cat_ma57gr18284ge603va452mt10729tr480689-93c438f5-b96f-43c6-86ec-6796eb4f036a",
+          "price_eur": 145990,
+          "price_display": "€ 145.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T08:30:03.707160Z",
+          "location": "München",
+          "year": 2025,
+          "mileage": "10.300 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/porsche/cayenne?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 22,
+          "new": 22,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/porsche/cayenne",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/porsche/cayenne?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "porsche-911",
+      "name": "911",
+      "manufacturer": "Porsche",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "porsche",
+      "brand_name": "Porsche",
+      "body_type": "convertible",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 227225,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "2 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-911-911-carrera-cabriolet-pdls+-bose-lift-chrono-ppf-benzin-violett-cat_ma57gr100070ge11012va265tr480682-09d55b1d-decd-401f-8ea5-78f1e08b2c76",
+          "price_eur": 124950,
+          "price_display": "€ 124.950",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T08:30:03.707160Z",
+          "location": "Germaringen",
+          "year": 2025,
+          "mileage": "16.351 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-911-gt3-rs-weissach-lift-bose-ceramic-bremsen-benzin-weiss-cat_ma57gr100070ge11012va2965tr480682-cf4de874-548c-4518-8c20-869c371e33de",
+          "price_eur": 329500,
+          "price_display": "€ 329.500",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T08:30:03.707160Z",
+          "location": "Berlin",
+          "year": 2025,
+          "mileage": "2.000 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/porsche/911?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/porsche/911",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/porsche/911?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "porsche-panamera",
+      "name": "Panamera",
+      "manufacturer": "Porsche",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "porsche",
+      "brand_name": "Porsche",
+      "body_type": "convertible",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 118620,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/porsche-panamera-ver-4-e-hybrid-ID8Q0OEL.html",
+          "price_eur": 139500,
+          "price_display": "139 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T08:30:03.707160Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "14 900 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/porsche-panamera-ID8PTeOM.html",
+          "price_eur": 139990,
+          "price_display": "139 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T08:30:03.707160Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "39 346 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/porsche-panamera-ver-4-e-hybrid-platinum-edition-com-pdls-ID8Q07ge.html",
+          "price_eur": 99990,
+          "price_display": "99 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T08:30:03.707160Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "13 000 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-panamera-4s-e-hybrid-mj26-export-netto-elektro-benzin-schwarz-cat_ma57gr19136ge1581va3263mt4597tr480692-91f595ee-5b31-4b17-9c33-f021e769a14e",
+          "price_eur": 114490,
+          "price_display": "€ 114.490",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T08:30:03.707160Z",
+          "location": "Berlin",
+          "year": 2025,
+          "mileage": "15.000 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-panamera-panamera-976-porsche-garantie-1135km-1hand-voll-benzin-grau-cat_ma57gr19136ge1581va3263tr480692-313e6bbe-683f-4bc5-8225-76f77d763ac4",
+          "price_eur": 97900,
+          "price_display": "€ 97.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T08:30:03.707160Z",
+          "location": "Osnabrück",
+          "year": 2024,
+          "mileage": "1.135 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-panamera-panamera-4-e-hybrid-21-sportdesign-acc-bose-pano-elektro-benzin-grau-cat_ma57gr19136ge1581va3263mt4594tr480692-1514dced-6157-4d14-a55e-855e29f27620",
+          "price_eur": 119850,
+          "price_display": "€ 119.850",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T08:30:03.707160Z",
+          "location": "Prüm",
+          "year": 2025,
+          "mileage": "9.400 km",
+          "fuel": "Elektro/Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/porsche/panamera?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 15,
+          "new": 14,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/porsche/panamera",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/porsche/panamera?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "porsche-boxster",
+      "name": "Boxster",
+      "manufacturer": "Porsche",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "porsche",
+      "brand_name": "Porsche",
+      "body_type": "convertible",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 4,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/porsche/boxster?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 4,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/porsche/boxster",
+          "found": 8,
+          "new": 8,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 4,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/porsche/boxster?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        }
+      ]
     }
   ]
 }
