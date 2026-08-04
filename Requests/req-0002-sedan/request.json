@@ -9,20 +9,20 @@
   },
   "system_fields": {
     "date_of_request": "2026-08-02",
-    "status": "in progress",
+    "status": "done",
     "search_state": {
-      "group_id": "g25-other-national",
-      "group_name": "Other National / Emerging Markets",
-      "brand_id": "proton",
-      "brand_name": "Proton"
+      "group_id": null,
+      "group_name": null,
+      "brand_id": null,
+      "brand_name": null
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
     "progress": {
       "groups_total": 25,
-      "groups_done": 24,
+      "groups_done": 25,
       "brands_total": 131,
-      "brands_done": 95,
+      "brands_done": 96,
       "brands_failed": 35,
       "models_found": 193,
       "groups": [
@@ -4614,7 +4614,7 @@
         {
           "group_id": "g25-other-national",
           "group_name": "Other National / Emerging Markets",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "togg",
@@ -4724,9 +4724,45 @@
             {
               "brand_id": "proton",
               "brand_name": "Proton",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T07:58:32.680045+00:00",
+              "diagnostics": {
+                "models_suggested": 8,
+                "searches_attempted": 24,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 262,
+                "unique_offerings": 45,
+                "candidates_checked": 15,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 15
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 74,
+                "model_suggestion_retries": 1,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "autoscout24": {
+                    "models_discovered": 0,
+                    "searches_attempted": 8,
+                    "searches_missing": 6
+                  },
+                  "standvirtual": {
+                    "searches_attempted": 8,
+                    "candidates_checked": 15,
+                    "firewall_dropped": 15
+                  },
+                  "auto.pt": {
+                    "searches_attempted": 8,
+                    "searches_missing": 8
+                  }
+                }
+              }
             }
           ]
         }
