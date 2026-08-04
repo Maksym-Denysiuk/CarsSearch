@@ -11,18 +11,18 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g13-independent-mainstream",
-      "group_name": "Independent Mainstream Manufacturers",
-      "brand_id": "suzuki",
-      "brand_name": "Suzuki"
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "ferrari",
+      "brand_name": "Ferrari"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
     "progress": {
       "groups_total": 25,
-      "groups_done": 12,
+      "groups_done": 13,
       "brands_total": 131,
-      "brands_done": 68,
+      "brands_done": 69,
       "brands_failed": 15,
       "models_found": 179,
       "groups": [
@@ -2967,7 +2967,7 @@
         {
           "group_id": "g13-independent-mainstream",
           "group_name": "Independent Mainstream Manufacturers",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "honda",
@@ -3128,9 +3128,35 @@
             {
               "brand_id": "suzuki",
               "brand_name": "Suzuki",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T04:51:57.761788+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 16,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 13
+                  },
+                  "autoscout24": {
+                    "models_discovered": 9
+                  }
+                }
+              }
             }
           ]
         },
