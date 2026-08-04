@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g17-changan",
       "group_name": "Changan Group",
-      "brand_id": "changan",
-      "brand_name": "Changan"
+      "brand_id": "deepal",
+      "brand_name": "Deepal"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -22,7 +22,7 @@
       "groups_total": 25,
       "groups_done": 16,
       "brands_total": 131,
-      "brands_done": 82,
+      "brands_done": 83,
       "brands_failed": 26,
       "models_found": 182,
       "groups": [
@@ -3920,14 +3920,37 @@
         {
           "group_id": "g17-changan",
           "group_name": "Changan Group",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "changan",
               "brand_name": "Changan",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T06:17:05.945575+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 2,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "autoscout24": {
+                    "models_discovered": 2
+                  }
+                }
+              }
             },
             {
               "brand_id": "deepal",
