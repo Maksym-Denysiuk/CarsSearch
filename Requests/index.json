@@ -47,13 +47,13 @@
       "date_of_request": "2026-08-02",
       "status": "in progress",
       "search_state": {
-        "group": "Dedicated Electric & Emerging Automotive Manufacturers",
-        "brand": "Denza",
-        "models_done": 69
+        "group": "Specialist, Performance, Luxury & Low-Volume Brands",
+        "brand": "Morgan Motor Company",
+        "models_done": 99
       },
       "counts": {
-        "models": 60,
-        "offerings": 69
+        "models": 83,
+        "offerings": 99
       }
     }
   ]
