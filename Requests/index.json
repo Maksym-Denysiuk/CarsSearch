@@ -47,13 +47,13 @@
       "date_of_request": "2026-08-02",
       "status": "in progress",
       "search_state": {
-        "group": "Specialist, Performance, Luxury & Low-Volume Brands",
-        "brand": "Morgan Motor Company",
-        "models_done": 99
+        "group": "Dongfeng Motor",
+        "brand": "M-Hero",
+        "models_done": 101
       },
       "counts": {
-        "models": 83,
-        "offerings": 99
+        "models": 104,
+        "offerings": 101
       }
     }
   ]
