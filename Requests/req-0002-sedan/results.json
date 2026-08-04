@@ -3098,6 +3098,153 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "scout-motors-scout-motors-does-not-produce-sedan-models-in-2024",
+      "name": "Scout Motors does not produce sedan models in 2024",
+      "manufacturer": "Scout Motors",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "scout-motors",
+      "brand_name": "Scout Motors",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/scout-motors/scout-motors-does-not-produce-sedan-models-in-2024?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 36,
+          "new": 36,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/scout-motors/scout-motors-does-not-produce-sedan-models-in-2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/scout-motors/scout-motors-does-not-produce-sedan-models-in-2024?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "scout-motors-scout-motors-lineup-consists-of-suv-traveler-and-pickup-terra",
+      "name": "Scout Motors lineup consists of SUV (Traveler) and Pickup (Terra)",
+      "manufacturer": "Scout Motors",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "scout-motors",
+      "brand_name": "Scout Motors",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/scout-motors/scout-motors-lineup-consists-of-suv-traveler-and-pickup-terra?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 35,
+          "new": 3,
+          "duplicates": 32,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/scout-motors/scout-motors-lineup-consists-of-suv-traveler-and-pickup-terra",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/scout-motors/scout-motors-lineup-consists-of-suv-traveler-and-pickup-terra?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "scout-motors-no-sedan-models-match-the-criteria",
+      "name": "No sedan models match the criteria",
+      "manufacturer": "Scout Motors",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "scout-motors",
+      "brand_name": "Scout Motors",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 8,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/scout-motors/no-sedan-models-match-the-criteria?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 35,
+          "new": 0,
+          "duplicates": 35,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 8,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/scout-motors/no-sedan-models-match-the-criteria",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 8,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/scout-motors/no-sedan-models-match-the-criteria?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
     }
   ]
 }
