@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g03-vw",
       "group_name": "Volkswagen Group",
-      "brand_id": "bentley",
-      "brand_name": "Bentley"
+      "brand_id": "scout-motors",
+      "brand_name": "Scout Motors"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -22,9 +22,9 @@
       "groups_total": 25,
       "groups_done": 2,
       "brands_total": 131,
-      "brands_done": 14,
+      "brands_done": 15,
       "brands_failed": 1,
-      "models_found": 89,
+      "models_found": 93,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -648,9 +648,44 @@
             {
               "brand_id": "bentley",
               "brand_name": "Bentley",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 4,
+              "completed_at": "2026-08-04T01:24:06.698242+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 21,
+                "unique_offerings": 21,
+                "candidates_checked": 4,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 4,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 284,
+                "model_suggestion_retries": 0,
+                "models_discovered": 6,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 2,
+                    "searches_attempted": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 5,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  },
+                  "standvirtual": {
+                    "searches_attempted": 1,
+                    "candidates_checked": 1,
+                    "firewall_kept": 1
+                  }
+                }
+              }
             },
             {
               "brand_id": "scout-motors",

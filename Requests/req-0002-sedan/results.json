@@ -2996,6 +2996,108 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "bentley-flying-spur",
+      "name": "Flying Spur",
+      "manufacturer": "Bentley",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "bentley",
+      "brand_name": "Bentley",
+      "body_type": "sedan",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 274950,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bentley-flying-spur-ver-4-0-hybrid-speed-ID8PX78Y.html",
+          "price_eur": 310000,
+          "price_display": "310 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:24:06.694666Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "5 000 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bentley-flying-spur-mulliner-hybrid-v6-4-seat-executive-elektro-benzin-silber-cat_ma11gr200145ge2241va3383tr5556-c8d2c57d-52f0-4aec-8997-dbbd28c6da0f",
+          "price_eur": 230000,
+          "price_display": "€ 230.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:24:06.694666Z",
+          "location": "Herzogenrath",
+          "year": 2024,
+          "mileage": "270 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bentley-flying-spur-azure-verdant-benzin-gruen-cat_ma11gr200145ge2241va3383tr1338-7f64f3ad-28e3-4e5d-a0fe-ba2d66a4e0b6",
+          "price_eur": 199900,
+          "price_display": "€ 199.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:24:06.694666Z",
+          "location": "Köln",
+          "year": 2024,
+          "mileage": "6.845 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bentley-flying-spur-speed-rear-entertainment-dark-chrome-elektro-benzin-grau-cat_ma11gr200145ge2241va3383tr7087-fbae5d91-f2d5-4ccf-bf6c-1cf2bd249ee8",
+          "price_eur": 359900,
+          "price_display": "€ 359.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T01:24:06.694666Z",
+          "location": "Köln",
+          "year": 2025,
+          "mileage": "5.700 km",
+          "fuel": "Elektro/Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bentley/flying-spur?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bentley/flying-spur",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bentley/flying-spur?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
