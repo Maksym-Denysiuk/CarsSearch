@@ -6446,6 +6446,398 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "maextro-maextro-s800-cabriolet",
+      "name": "Maextro S800 Cabriolet",
+      "manufacturer": "Maextro",
+      "group_id": "g21-jac",
+      "group_name": "JAC Group",
+      "brand_id": "maextro",
+      "brand_name": "Maextro",
+      "body_type": "convertible",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/maextro/maextro-s800-cabriolet?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 35,
+          "new": 35,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/maextro/maextro-s800-cabriolet",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/maextro/maextro-s800-cabriolet?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "maextro-maextro-s800-grand-design-cabriolet",
+      "name": "Maextro S800 Grand Design Cabriolet",
+      "manufacturer": "Maextro",
+      "group_id": "g21-jac",
+      "group_name": "JAC Group",
+      "brand_id": "maextro",
+      "brand_name": "Maextro",
+      "body_type": "convertible",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/maextro/maextro-s800-grand-design-cabriolet?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 36,
+          "new": 4,
+          "duplicates": 32,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/maextro/maextro-s800-grand-design-cabriolet",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/maextro/maextro-s800-grand-design-cabriolet?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "maextro-maextro-s800-starlight-cabriolet",
+      "name": "Maextro S800 Starlight Cabriolet",
+      "manufacturer": "Maextro",
+      "group_id": "g21-jac",
+      "group_name": "JAC Group",
+      "brand_id": "maextro",
+      "brand_name": "Maextro",
+      "body_type": "convertible",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/maextro/maextro-s800-starlight-cabriolet?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 35,
+          "new": 3,
+          "duplicates": 32,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/maextro/maextro-s800-starlight-cabriolet",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/maextro/maextro-s800-starlight-cabriolet?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "maextro-maextro-s800-starlight-premium-cabriolet",
+      "name": "Maextro S800 Starlight Premium Cabriolet",
+      "manufacturer": "Maextro",
+      "group_id": "g21-jac",
+      "group_name": "JAC Group",
+      "brand_id": "maextro",
+      "brand_name": "Maextro",
+      "body_type": "convertible",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 4,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/maextro/maextro-s800-starlight-premium-cabriolet?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 34,
+          "new": 2,
+          "duplicates": 32,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 4,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/maextro/maextro-s800-starlight-premium-cabriolet",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 4,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/maextro/maextro-s800-starlight-premium-cabriolet?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "maextro-maextro-s800-executive-cabriolet",
+      "name": "Maextro S800 Executive Cabriolet",
+      "manufacturer": "Maextro",
+      "group_id": "g21-jac",
+      "group_name": "JAC Group",
+      "brand_id": "maextro",
+      "brand_name": "Maextro",
+      "body_type": "convertible",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 5,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/maextro/maextro-s800-executive-cabriolet?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 33,
+          "new": 1,
+          "duplicates": 32,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 5,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/maextro/maextro-s800-executive-cabriolet",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 5,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/maextro/maextro-s800-executive-cabriolet?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "maextro-maextro-s800-executive-premium-cabriolet",
+      "name": "Maextro S800 Executive Premium Cabriolet",
+      "manufacturer": "Maextro",
+      "group_id": "g21-jac",
+      "group_name": "JAC Group",
+      "brand_id": "maextro",
+      "brand_name": "Maextro",
+      "body_type": "convertible",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 6,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/maextro/maextro-s800-executive-premium-cabriolet?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 36,
+          "new": 3,
+          "duplicates": 33,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 6,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/maextro/maextro-s800-executive-premium-cabriolet",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 6,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/maextro/maextro-s800-executive-premium-cabriolet?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "maextro-maextro-s800-xinghui-cabriolet",
+      "name": "Maextro S800 Xinghui Cabriolet",
+      "manufacturer": "Maextro",
+      "group_id": "g21-jac",
+      "group_name": "JAC Group",
+      "brand_id": "maextro",
+      "brand_name": "Maextro",
+      "body_type": "convertible",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 7,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/maextro/maextro-s800-xinghui-cabriolet?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 34,
+          "new": 2,
+          "duplicates": 32,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 7,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/maextro/maextro-s800-xinghui-cabriolet",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 7,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/maextro/maextro-s800-xinghui-cabriolet?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "maextro-maextro-s800-xingyao-cabriolet",
+      "name": "Maextro S800 Xingyao Cabriolet",
+      "manufacturer": "Maextro",
+      "group_id": "g21-jac",
+      "group_name": "JAC Group",
+      "brand_id": "maextro",
+      "brand_name": "Maextro",
+      "body_type": "convertible",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 8,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/maextro/maextro-s800-xingyao-cabriolet?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 34,
+          "new": 2,
+          "duplicates": 32,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 8,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/maextro/maextro-s800-xingyao-cabriolet",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 8,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/maextro/maextro-s800-xingyao-cabriolet?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
     }
   ]
 }

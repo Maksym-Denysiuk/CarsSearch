@@ -11,16 +11,16 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g21-jac",
-      "group_name": "JAC Group",
-      "brand_id": "maextro",
-      "brand_name": "Maextro"
+      "group_id": "g22-saic",
+      "group_name": "SAIC Group",
+      "brand_id": "maxus",
+      "brand_name": "Maxus"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 20,
+      "groups_done": 21,
       "brands_total": 131,
-      "brands_done": 91,
+      "brands_done": 92,
       "brands_failed": 29,
       "models_found": 101,
       "groups": [
@@ -4173,7 +4173,7 @@
         {
           "group_id": "g21-jac",
           "group_name": "JAC Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "jac",
@@ -4208,9 +4208,44 @@
             {
               "brand_id": "maextro",
               "brand_name": "Maextro",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T17:06:09.017236+00:00",
+              "diagnostics": {
+                "models_suggested": 8,
+                "searches_attempted": 24,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 277,
+                "unique_offerings": 52,
+                "candidates_checked": 19,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 19
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 45,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "searches_attempted": 8,
+                    "candidates_checked": 19,
+                    "firewall_dropped": 19
+                  },
+                  "auto.pt": {
+                    "searches_attempted": 8,
+                    "searches_missing": 8
+                  },
+                  "autoscout24": {
+                    "searches_attempted": 8,
+                    "searches_missing": 8
+                  }
+                }
+              }
             }
           ]
         },
