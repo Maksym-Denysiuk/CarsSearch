@@ -11,23 +11,23 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g09-renault-nissan-mitsubishi",
-      "group_name": "Renault-Nissan-Mitsubishi Alliance",
-      "brand_id": "nissan",
-      "brand_name": "Nissan"
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "mini",
+      "brand_name": "MINI"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 8,
+      "groups_done": 3,
       "brands_total": 131,
-      "brands_done": 35,
+      "brands_done": 36,
       "brands_failed": 0,
       "models_found": 44,
       "groups": [
         {
           "group_id": "g01-bmw",
           "group_name": "BMW Group",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "bmw",
@@ -136,9 +136,35 @@
             {
               "brand_id": "mercedes-benz",
               "brand_name": "Mercedes-Benz",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T15:01:25.426646+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 24,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 13
+                  },
+                  "autoscout24": {
+                    "models_discovered": 17
+                  }
+                }
+              }
             },
             {
               "brand_id": "mercedes-amg",
@@ -262,7 +288,7 @@
         {
           "group_id": "g03-vw",
           "group_name": "Volkswagen Group",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "volkswagen",
@@ -536,7 +562,7 @@
         {
           "group_id": "g04-stellantis",
           "group_name": "Stellantis",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "alfa-romeo",
@@ -909,7 +935,7 @@
         {
           "group_id": "g05-toyota",
           "group_name": "Toyota Motor Corporation",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "toyota",
@@ -1111,7 +1137,7 @@
         {
           "group_id": "g07-gm",
           "group_name": "General Motors (GM)",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "chevrolet",
