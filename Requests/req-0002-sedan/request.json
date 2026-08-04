@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g10-geely",
       "group_name": "Geely Holding Group & Affiliates",
-      "brand_id": "volvo-cars",
-      "brand_name": "Volvo Cars"
+      "brand_id": "polestar",
+      "brand_name": "Polestar"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -22,7 +22,7 @@
       "groups_total": 25,
       "groups_done": 9,
       "brands_total": 131,
-      "brands_done": 44,
+      "brands_done": 45,
       "brands_failed": 7,
       "models_found": 124,
       "groups": [
@@ -1963,9 +1963,44 @@
             {
               "brand_id": "volvo-cars",
               "brand_name": "Volvo Cars",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T02:45:04.561207+00:00",
+              "diagnostics": {
+                "models_suggested": 8,
+                "searches_attempted": 24,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 283,
+                "unique_offerings": 58,
+                "candidates_checked": 23,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 23
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 53,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "searches_attempted": 8,
+                    "candidates_checked": 23,
+                    "firewall_dropped": 23
+                  },
+                  "auto.pt": {
+                    "searches_attempted": 8,
+                    "searches_missing": 8
+                  },
+                  "autoscout24": {
+                    "searches_attempted": 8,
+                    "searches_missing": 8
+                  }
+                }
+              }
             },
             {
               "brand_id": "polestar",
