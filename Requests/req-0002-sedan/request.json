@@ -11,18 +11,18 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g10-geely",
-      "group_name": "Geely Holding Group & Affiliates",
-      "brand_id": "lynk-and-co",
-      "brand_name": "Lynk & Co"
+      "group_id": "g11-tata-jlr",
+      "group_name": "Tata Motors & Jaguar Land Rover (JLR)",
+      "brand_id": "tata-motors",
+      "brand_name": "Tata Motors"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
     "progress": {
       "groups_total": 25,
-      "groups_done": 9,
+      "groups_done": 10,
       "brands_total": 131,
-      "brands_done": 48,
+      "brands_done": 49,
       "brands_failed": 7,
       "models_found": 127,
       "groups": [
@@ -1931,7 +1931,7 @@
         {
           "group_id": "g10-geely",
           "group_name": "Geely Holding Group & Affiliates",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "geely-auto",
@@ -2109,9 +2109,32 @@
             {
               "brand_id": "lynk-and-co",
               "brand_name": "Lynk & Co",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T02:55:39.735160+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 1,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 1
+                  }
+                }
+              }
             }
           ]
         },
