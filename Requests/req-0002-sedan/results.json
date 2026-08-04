@@ -4048,6 +4048,55 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "infiniti-q50",
+      "name": "Q50",
+      "manufacturer": "Infiniti",
+      "group_id": "g09-renault-nissan-mitsubishi",
+      "group_name": "Renault-Nissan-Mitsubishi Alliance",
+      "brand_id": "infiniti",
+      "brand_name": "Infiniti",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_no_offerings",
+      "search_status_note": "The search ran correctly and the sites listed nothing matching.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/infiniti/q50?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/infiniti/q50",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/infiniti/q50?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
