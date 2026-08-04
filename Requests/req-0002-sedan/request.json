@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g12-electric-emerging",
       "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "mg",
-      "brand_name": "MG"
+      "brand_id": "roewe",
+      "brand_name": "Roewe"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -22,9 +22,9 @@
       "groups_total": 25,
       "groups_done": 11,
       "brands_total": 131,
-      "brands_done": 62,
+      "brands_done": 63,
       "brands_failed": 15,
-      "models_found": 166,
+      "models_found": 170,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -2877,9 +2877,48 @@
             {
               "brand_id": "mg",
               "brand_name": "MG",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 4,
+              "completed_at": "2026-08-04T04:31:24.347376+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 9,
+                "unique_offerings": 9,
+                "candidates_checked": 5,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 4,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 1
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 90,
+                "model_suggestion_retries": 0,
+                "models_discovered": 5,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 3,
+                    "searches_attempted": 1,
+                    "candidates_checked": 1,
+                    "firewall_dropped": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 4,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  },
+                  "standvirtual": {
+                    "searches_attempted": 1,
+                    "candidates_checked": 1,
+                    "firewall_kept": 1
+                  }
+                }
+              }
             },
             {
               "brand_id": "roewe",
