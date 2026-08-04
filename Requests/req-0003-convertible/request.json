@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g14-specialist-low-volume",
       "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-      "brand_id": "mclaren",
-      "brand_name": "McLaren"
+      "brand_id": "pagani",
+      "brand_name": "Pagani"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 13,
       "brands_total": 131,
-      "brands_done": 68,
+      "brands_done": 69,
       "brands_failed": 18,
-      "models_found": 86,
+      "models_found": 97,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -3043,9 +3043,51 @@
             {
               "brand_id": "mclaren",
               "brand_name": "McLaren",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 11,
+              "completed_at": "2026-08-04T16:28:45.289488+00:00",
+              "diagnostics": {
+                "models_suggested": 8,
+                "searches_attempted": 24,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 45,
+                "unique_offerings": 39,
+                "candidates_checked": 14,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 11,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 1,
+                  "listed year is older than the request allows": 2
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 40,
+                "model_suggestion_retries": 0,
+                "models_discovered": 13,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 2,
+                    "searches_attempted": 8,
+                    "candidates_checked": 3,
+                    "firewall_kept": 1,
+                    "firewall_dropped": 2,
+                    "searches_missing": 6
+                  },
+                  "autoscout24": {
+                    "models_discovered": 12,
+                    "searches_attempted": 8,
+                    "candidates_checked": 10,
+                    "firewall_kept": 10
+                  },
+                  "standvirtual": {
+                    "searches_attempted": 8,
+                    "candidates_checked": 1,
+                    "firewall_dropped": 1
+                  }
+                }
+              }
             },
             {
               "brand_id": "pagani",

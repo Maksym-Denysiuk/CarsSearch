@@ -4774,6 +4774,545 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "mclaren-artura",
+      "name": "Artura",
+      "manufacturer": "McLaren",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "mclaren",
+      "brand_name": "McLaren",
+      "body_type": "convertible",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 296428,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.auto.pt/carros-usados/mclaren-artura-spider-performance-id-p2Wd3YHa",
+          "price_eur": 359000,
+          "price_display": "359000",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T16:28:45.283347Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "83 km",
+          "fuel": "Híbrido Plug-in"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mclaren-artura-spider-facelift-elektro-benzin-schwarz-cat_ma51519gr202641-8f23fcb4-09b3-49d0-a128-cdfff9160cbe",
+          "price_eur": 289000,
+          "price_display": "€ 289.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T16:28:45.283347Z",
+          "location": "München, Landeshauptstadt",
+          "year": 2025,
+          "mileage": "6.500 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mclaren-artura-techlux-sport-exhaust-technology-mso-elektro-benzin-schwarz-cat_ma51519gr202641-1c590bf0-7e40-4d55-93f7-b1d9426c1b1b",
+          "price_eur": 224990,
+          "price_display": "€ 224.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T16:28:45.283347Z",
+          "location": "Düsseldorf",
+          "year": 2025,
+          "mileage": "30 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mclaren-artura-techlux-bw-all-packs-sportexhaust-elektro-benzin-schwarz-cat_ma51519gr202641-a9ad0ca1-9a1f-4abf-8b34-9b9a1bd842f1",
+          "price_eur": 312720,
+          "price_display": "€ 312.720",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T16:28:45.283347Z",
+          "location": "Nürnberg",
+          "year": null,
+          "mileage": "50 km",
+          "fuel": "Elektro/Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mclaren/artura?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mclaren/artura",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mclaren/artura?fregfrom=2024",
+          "found": 10,
+          "new": 10,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "mclaren-600",
+      "name": "600",
+      "manufacturer": "McLaren",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "mclaren",
+      "brand_name": "McLaren",
+      "body_type": "convertible",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 341647,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/mclaren-600-750s-cf-exterior-i-cf-interior-i-service-paket-i-benzin-orange-cat_ma51519gr202631-6cac007b-9885-4ff3-9407-1e7fbe7ee878",
+          "price_eur": 278900,
+          "price_display": "€ 278.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T16:28:45.283347Z",
+          "location": "Hamburg",
+          "year": 2024,
+          "mileage": "3.530 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mclaren-600-750s-elite-paint-i-black-pack-i-bw-benzin-silber-cat_ma51519gr202631-20c7e196-03b0-401d-8987-98b75c0ca10b",
+          "price_eur": 365400,
+          "price_display": "€ 365.400",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T16:28:45.283347Z",
+          "location": "Hamburg",
+          "year": null,
+          "mileage": "0 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mclaren-600-750s-mso-paint-i-black-pack-i-bw-benzin-grau-cat_ma51519gr202631-37d9ad14-71db-489f-9a6e-1caf8a3afc71",
+          "price_eur": 380640,
+          "price_display": "€ 380.640",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T16:28:45.283347Z",
+          "location": "Hamburg",
+          "year": null,
+          "mileage": "0 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mclaren/600?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mclaren/600",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mclaren/600?fregfrom=2024",
+          "found": 4,
+          "new": 4,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "mclaren-570s",
+      "name": "570S",
+      "manufacturer": "McLaren",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "mclaren",
+      "brand_name": "McLaren",
+      "body_type": "convertible",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mclaren/570s?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 0,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mclaren/570s",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mclaren/570s?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "mclaren-720s",
+      "name": "720S",
+      "manufacturer": "McLaren",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "mclaren",
+      "brand_name": "McLaren",
+      "body_type": "convertible",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 236810,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "1 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/mclaren-720-720-s-carbon-keramik-warranty-benzin-gruen-cat_ma51519gr202634-a280a50e-fced-4187-812a-98e5adb99962",
+          "price_eur": 236810,
+          "price_display": "€ 236.810",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 4,
+          "captured_at": "2026-08-04T16:28:45.283347Z",
+          "location": "München",
+          "year": 2024,
+          "mileage": "3.150 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 4,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mclaren/720s?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 0,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 4,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mclaren/720s",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 4,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mclaren/720s?fregfrom=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "mclaren-650s-spider",
+      "name": "650S Spider",
+      "manufacturer": "McLaren",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "mclaren",
+      "brand_name": "McLaren",
+      "body_type": "convertible",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 5,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mclaren/650s-spider?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 0,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 5,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mclaren/650s-spider",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 5,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mclaren/650s-spider?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "mclaren-675lt",
+      "name": "675LT",
+      "manufacturer": "McLaren",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "mclaren",
+      "brand_name": "McLaren",
+      "body_type": "convertible",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 6,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mclaren/675lt?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 0,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 6,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mclaren/675lt",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 6,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mclaren/675lt?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "mclaren-750s",
+      "name": "750S",
+      "manufacturer": "McLaren",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "mclaren",
+      "brand_name": "McLaren",
+      "body_type": "convertible",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 288916,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/mclaren-750-perform-race-seats-stealth-exh-benzin-schwarz-cat_ma51519gr202640-442a7939-8fc5-4baa-8525-ce838d1286c6",
+          "price_eur": 314750,
+          "price_display": "€ 314.750",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 7,
+          "captured_at": "2026-08-04T16:28:45.283347Z",
+          "location": "Nürnberg",
+          "year": 2024,
+          "mileage": "180 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mclaren-750-mclaren-750s-360-camera-lift-benzin-schwarz-cat_ma51519gr202640-ff69dd8d-f79c-4b97-81d2-0c78c12c7a45",
+          "price_eur": 252000,
+          "price_display": "€ 252.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 7,
+          "captured_at": "2026-08-04T16:28:45.283347Z",
+          "location": "Bodman-Ludwigshafen",
+          "year": 2024,
+          "mileage": "540 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mclaren-750-coupe-my25-carbon-extint-bw-lift-fullopt-benzin-grau-cat_ma51519gr202640-5eafadf5-d847-4993-810c-7198c617d27f",
+          "price_eur": 299999,
+          "price_display": "€ 299.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 7,
+          "captured_at": "2026-08-04T16:28:45.283347Z",
+          "location": "München",
+          "year": 2024,
+          "mileage": "10 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 7,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mclaren/750s?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 0,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 7,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mclaren/750s",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 7,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mclaren/750s?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "mclaren-765lt-spider",
+      "name": "765LT Spider",
+      "manufacturer": "McLaren",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "mclaren",
+      "brand_name": "McLaren",
+      "body_type": "convertible",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 8,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mclaren/765lt-spider?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 0,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 8,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mclaren/765lt-spider",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 8,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mclaren/765lt-spider?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
