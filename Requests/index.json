@@ -47,13 +47,13 @@
       "date_of_request": "2026-08-02",
       "status": "in progress",
       "search_state": {
-        "group": "BMW Group",
-        "brand": "BMW Alpina",
-        "models_done": 0
+        "group": "Stellantis",
+        "brand": "Ram",
+        "models_done": 40
       },
       "counts": {
-        "models": 0,
-        "offerings": 0
+        "models": 35,
+        "offerings": 40
       }
     }
   ]
