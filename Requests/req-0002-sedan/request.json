@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g02-mercedes-benz",
       "group_name": "Mercedes-Benz Group",
-      "brand_id": "mercedes-amg",
-      "brand_name": "Mercedes-AMG"
+      "brand_id": "mercedes-maybach",
+      "brand_name": "Mercedes-Maybach"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -22,9 +22,9 @@
       "groups_total": 25,
       "groups_done": 1,
       "brands_total": 131,
-      "brands_done": 5,
+      "brands_done": 6,
       "brands_failed": 0,
-      "models_found": 56,
+      "models_found": 57,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -251,9 +251,45 @@
             {
               "brand_id": "mercedes-amg",
               "brand_name": "Mercedes-AMG",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 1,
+              "completed_at": "2026-08-04T00:54:33.184844+00:00",
+              "diagnostics": {
+                "models_suggested": 8,
+                "searches_attempted": 24,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 167,
+                "unique_offerings": 38,
+                "candidates_checked": 20,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 1,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 19
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 130,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "searches_attempted": 8,
+                    "candidates_checked": 20,
+                    "firewall_dropped": 19,
+                    "firewall_kept": 1
+                  },
+                  "auto.pt": {
+                    "searches_attempted": 8,
+                    "searches_missing": 8
+                  },
+                  "autoscout24": {
+                    "searches_attempted": 8,
+                    "searches_missing": 8
+                  }
+                }
+              }
             },
             {
               "brand_id": "mercedes-maybach",

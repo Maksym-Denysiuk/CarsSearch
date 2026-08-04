@@ -1382,6 +1382,412 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "mercedes-amg-a-35",
+      "name": "A 35",
+      "manufacturer": "Mercedes-AMG",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-amg",
+      "brand_name": "Mercedes-AMG",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-amg/a-35?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 22,
+          "new": 21,
+          "duplicates": 1,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-amg/a-35",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-amg/a-35?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "mercedes-amg-a-45-s",
+      "name": "A 45 S",
+      "manufacturer": "Mercedes-AMG",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-amg",
+      "brand_name": "Mercedes-AMG",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-amg/a-45-s?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 21,
+          "new": 3,
+          "duplicates": 18,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-amg/a-45-s",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-amg/a-45-s?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "mercedes-amg-c-43",
+      "name": "C 43",
+      "manufacturer": "Mercedes-AMG",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-amg",
+      "brand_name": "Mercedes-AMG",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-amg/c-43?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 20,
+          "new": 2,
+          "duplicates": 18,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-amg/c-43",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-amg/c-43?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "mercedes-amg-c-63",
+      "name": "C 63",
+      "manufacturer": "Mercedes-AMG",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-amg",
+      "brand_name": "Mercedes-AMG",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 4,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-amg/c-63?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 20,
+          "new": 2,
+          "duplicates": 18,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 4,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-amg/c-63",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 4,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-amg/c-63?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "mercedes-amg-c-63-s",
+      "name": "C 63 S",
+      "manufacturer": "Mercedes-AMG",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-amg",
+      "brand_name": "Mercedes-AMG",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 5,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-amg/c-63-s?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 21,
+          "new": 3,
+          "duplicates": 18,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 5,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-amg/c-63-s",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 5,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-amg/c-63-s?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "mercedes-amg-e-53",
+      "name": "E 53",
+      "manufacturer": "Mercedes-AMG",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-amg",
+      "brand_name": "Mercedes-AMG",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 6,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-amg/e-53?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 21,
+          "new": 2,
+          "duplicates": 19,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 6,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-amg/e-53",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 6,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-amg/e-53?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "mercedes-amg-e-63-s",
+      "name": "E 63 S",
+      "manufacturer": "Mercedes-AMG",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-amg",
+      "brand_name": "Mercedes-AMG",
+      "body_type": "sedan",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 119000,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "1 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-glc-63-amg-ver-coupe-s-e-performance-speedshift-mct9g-line-premium-ID8Q0Ea1.html",
+          "price_eur": 119000,
+          "price_display": "119 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 7,
+          "captured_at": "2026-08-04T00:54:33.181254Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "26 500 km",
+          "fuel": "Híbrido Plug-In"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 7,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-amg/e-63-s?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 20,
+          "new": 2,
+          "duplicates": 18,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 7,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-amg/e-63-s",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 7,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-amg/e-63-s?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "mercedes-amg-s-63",
+      "name": "S 63",
+      "manufacturer": "Mercedes-AMG",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-amg",
+      "brand_name": "Mercedes-AMG",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 8,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-amg/s-63?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 22,
+          "new": 3,
+          "duplicates": 19,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 8,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-amg/s-63",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 8,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-amg/s-63?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
     }
   ]
 }
