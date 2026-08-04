@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g25-other-national",
       "group_name": "Other National / Emerging Markets",
-      "brand_id": "togg",
-      "brand_name": "Togg"
+      "brand_id": "perodua",
+      "brand_name": "Perodua"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -22,9 +22,9 @@
       "groups_total": 25,
       "groups_done": 24,
       "brands_total": 131,
-      "brands_done": 94,
+      "brands_done": 95,
       "brands_failed": 33,
-      "models_found": 192,
+      "models_found": 193,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -4614,14 +4614,51 @@
         {
           "group_id": "g25-other-national",
           "group_name": "Other National / Emerging Markets",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "togg",
               "brand_name": "Togg",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 1,
+              "completed_at": "2026-08-04T07:43:33.127767+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 35,
+                "unique_offerings": 35,
+                "candidates_checked": 4,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 1,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 3
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 29,
+                "model_suggestion_retries": 0,
+                "models_discovered": 2,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "autoscout24": {
+                    "models_discovered": 2,
+                    "searches_attempted": 1,
+                    "candidates_checked": 1,
+                    "firewall_kept": 1
+                  },
+                  "standvirtual": {
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3
+                  },
+                  "auto.pt": {
+                    "searches_attempted": 1,
+                    "searches_missing": 1
+                  }
+                }
+              }
             },
             {
               "brand_id": "perodua",

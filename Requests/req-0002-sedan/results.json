@@ -8772,6 +8772,69 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "togg-t10f",
+      "name": "T10F",
+      "manufacturer": "Togg",
+      "group_id": "g25-other-national",
+      "group_name": "Other National / Emerging Markets",
+      "brand_id": "togg",
+      "brand_name": "Togg",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 49980,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "1 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/togg-t10f-v2-rwd-grosse-reichweite-elektro-schwarz-cat_ma51950gr202877ge11046mt12355tr480835-b44dd5b6-27f1-4230-87e0-0bd0559fce8c",
+          "price_eur": 49980,
+          "price_display": "€ 49.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T07:43:33.118898Z",
+          "location": "Bergkamen",
+          "year": 2026,
+          "mileage": "150 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/togg/t10f?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 34,
+          "new": 34,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/togg/t10f",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/togg/t10f?fregfrom=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
