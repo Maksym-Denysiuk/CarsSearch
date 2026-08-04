@@ -11,16 +11,16 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g06-hyundai",
-      "group_name": "Hyundai Motor Group",
-      "brand_id": "genesis",
-      "brand_name": "Genesis"
+      "group_id": "g07-gm",
+      "group_name": "General Motors (GM)",
+      "brand_id": "chevrolet",
+      "brand_name": "Chevrolet"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 5,
+      "groups_done": 6,
       "brands_total": 131,
-      "brands_done": 28,
+      "brands_done": 29,
       "brands_failed": 9,
       "models_found": 40,
       "groups": [
@@ -1247,7 +1247,7 @@
         {
           "group_id": "g06-hyundai",
           "group_name": "Hyundai Motor Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "hyundai",
@@ -1318,9 +1318,35 @@
             {
               "brand_id": "genesis",
               "brand_name": "Genesis",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T09:32:21.407103+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 6,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 0
+                  },
+                  "autoscout24": {
+                    "models_discovered": 6
+                  }
+                }
+              }
             }
           ]
         },
