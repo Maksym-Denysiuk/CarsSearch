@@ -11,20 +11,20 @@
     "date_of_request": "2026-08-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g24-chinese-ev-independents",
-      "group_name": "Chinese EV Independents",
-      "brand_id": "leapmotor",
-      "brand_name": "Leapmotor"
+      "group_id": "g25-other-national",
+      "group_name": "Other National / Emerging Markets",
+      "brand_id": "togg",
+      "brand_name": "Togg"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
     "progress": {
       "groups_total": 25,
-      "groups_done": 23,
+      "groups_done": 24,
       "brands_total": 131,
-      "brands_done": 93,
+      "brands_done": 94,
       "brands_failed": 33,
-      "models_found": 189,
+      "models_found": 192,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -4539,7 +4539,7 @@
         {
           "group_id": "g24-chinese-ev-independents",
           "group_name": "Chinese EV Independents",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "li-auto",
@@ -4571,9 +4571,43 @@
             {
               "brand_id": "leapmotor",
               "brand_name": "Leapmotor",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 3,
+              "completed_at": "2026-08-04T07:43:15.338968+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 20,
+                "unique_offerings": 20,
+                "candidates_checked": 3,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 3,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 20,
+                "model_suggestion_retries": 0,
+                "models_discovered": 5,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1,
+                    "searches_missing": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 5,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  },
+                  "standvirtual": {
+                    "searches_attempted": 1
+                  }
+                }
+              }
             }
           ]
         },

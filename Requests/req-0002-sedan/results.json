@@ -8683,6 +8683,95 @@
           "error": "_PageMissing: http 404"
         }
       ]
+    },
+    {
+      "id": "leapmotor-b10",
+      "name": "B10",
+      "manufacturer": "Leapmotor",
+      "group_id": "g24-chinese-ev-independents",
+      "group_name": "Chinese EV Independents",
+      "brand_id": "leapmotor",
+      "brand_name": "Leapmotor",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 32483,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/leapmotor-b10-67-w-bev-design-pro-max-acc+led+navi+pano+sd-elektro-schwarz-cat_ma52000gr202783ge11018mt12173tr479116-3f7c2412-ab0c-4cfe-a6d1-00ca8635892f",
+          "price_eur": 28990,
+          "price_display": "€ 28.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T07:43:15.330118Z",
+          "location": "Göppingen",
+          "year": 2026,
+          "mileage": "8.500 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/leapmotor-b10-bev-design-pro-max-navi-shz-360-k-uvm-elektro-schwarz-cat_ma52000gr202783ge11018mt12173tr479116-a4853e10-1036-4e67-83e9-ff7671816fb2",
+          "price_eur": 33480,
+          "price_display": "€ 33.480",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T07:43:15.330118Z",
+          "location": "Holzminden",
+          "year": 2025,
+          "mileage": "2.000 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/leapmotor-b10-reev-1-5-navi-shz-360-uvm-elektro-benzin-violett-cat_ma52000gr202783-cc5bea6a-8565-4804-8abc-4cc141635d9c",
+          "price_eur": 34980,
+          "price_display": "€ 34.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T07:43:15.330118Z",
+          "location": "Uslar",
+          "year": null,
+          "mileage": "10 km",
+          "fuel": "Elektro/Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/leapmotor/b10?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/leapmotor/b10",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/leapmotor/b10?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
