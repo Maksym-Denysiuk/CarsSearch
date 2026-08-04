@@ -4821,6 +4821,390 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "byd-seal",
+      "name": "Seal",
+      "manufacturer": "BYD",
+      "group_id": "g12-electric-emerging",
+      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+      "brand_id": "byd",
+      "brand_name": "BYD",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 38417,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/byd-seal-ver-excellence-ID8Q0F95.html",
+          "price_eur": 42990,
+          "price_display": "42 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T03:29:42.446231Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "11 600 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/byd-seal-ver-design-ID8Q0OO3.html",
+          "price_eur": 37850,
+          "price_display": "37 850",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T03:29:42.446231Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "34 152 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/byd-seal-ver-82-5-kwh-awd-excellence-ID8Q0txX.html",
+          "price_eur": 42490,
+          "price_display": "42 490",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T03:29:42.446231Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "14 923 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/byd-seal-82-5-kwh-design-id-HZcfrtDW",
+          "price_eur": 39950,
+          "price_display": "39950",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T03:29:42.446231Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "34152 km",
+          "fuel": "Eléctrico"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/byd-seal-seal-u-1-5-dm-i-boost-id-tJQUoYzr",
+          "price_eur": 40990,
+          "price_display": "40990",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T03:29:42.446231Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "10 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/byd-seal-82-5-kwh-design-id-Gx9nfbXf",
+          "price_eur": 48990,
+          "price_display": "48990",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T03:29:42.446231Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "1650 km",
+          "fuel": "Eléctrico"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/byd-seal-seal-u-dm-i-boost-navi-led-pano-elektro-benzin-schwarz-cat_ma16379gr200193ge2230va893tr2531-26f8626c-c858-47e4-a45c-3a539b737aab",
+          "price_eur": 29950,
+          "price_display": "€ 29.950",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T03:29:42.446231Z",
+          "location": "Siegen",
+          "year": 2025,
+          "mileage": "3.800 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/byd-seal-seal-u-dm-i-boost-navi-led-pano-elektro-benzin-grau-cat_ma16379gr200193ge2230va893tr2531-2da23ed0-a67d-49ca-83c3-865c8e577f5a",
+          "price_eur": 29950,
+          "price_display": "€ 29.950",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T03:29:42.446231Z",
+          "location": "Siegen",
+          "year": 2025,
+          "mileage": "11.450 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/byd-seal-seal-comfort-elektro-grau-cat_ma16379gr200193ge2230va3386tr2108-5a25c630-1fcf-4e8e-99db-8ad3ee9cc7f8",
+          "price_eur": 32590,
+          "price_display": "€ 32.590",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T03:29:42.446231Z",
+          "location": "Castrop-Rauxel",
+          "year": 2026,
+          "mileage": "18 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/byd/seal?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 19,
+          "new": 17,
+          "duplicates": 2,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/byd/seal",
+          "found": 7,
+          "new": 7,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/byd/seal?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "byd-han",
+      "name": "Han",
+      "manufacturer": "BYD",
+      "group_id": "g12-electric-emerging",
+      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+      "brand_id": "byd",
+      "brand_name": "BYD",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 37166,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/byd-han-han-85-4-kwh-executive-full-option-oa-cognac-leren-interieur-open-dak-elektro-silber-cat_ma16379gr200194ge2229tr480020-dda9a6ce-b782-4704-b402-44e001bb3a41",
+          "price_eur": 35500,
+          "price_display": "€ 35.500",
+          "country": "BE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T03:29:42.446231Z",
+          "location": "Anvers",
+          "year": 2024,
+          "mileage": "22.500 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/byd-han-han-85-4-kwh-executive-elektro-grau-cat_ma16379gr200194ge2229tr480020-3ae6df74-8b43-4382-ad1d-5ae1064c8d75",
+          "price_eur": 38000,
+          "price_display": "€ 38.000",
+          "country": "BE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T03:29:42.446231Z",
+          "location": "Dilsen-Stokkem",
+          "year": 2024,
+          "mileage": "26.000 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/byd-han-380-kw-awd-executive-elektro-weiss-cat_ma16379gr200194ge2229tr480020-ec54f474-0030-495c-ba40-2babfcded64d",
+          "price_eur": 37999,
+          "price_display": "€ 37.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T03:29:42.446231Z",
+          "location": "Bünde",
+          "year": 2024,
+          "mileage": "42.900 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/byd/han?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/byd/han",
+          "found": 3,
+          "new": 3,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/byd/han?fregfrom=2024",
+          "found": 9,
+          "new": 9,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "byd-seal-6",
+      "name": "Seal 6",
+      "manufacturer": "BYD",
+      "group_id": "g12-electric-emerging",
+      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+      "brand_id": "byd",
+      "brand_name": "BYD",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 32045,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/byd-seal-6-ver-6-dm-i-touring-comfort-ID8Q0Nmr.html",
+          "price_eur": 33490,
+          "price_display": "33 490",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T03:29:42.446231Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "14 546 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/byd-seal-6-ver-6-dm-i-touring-comfort-lite-ID8Q0xQB.html",
+          "price_eur": 31900,
+          "price_display": "31 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T03:29:42.446231Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "6 300 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/byd-seal-6-ver-6-1-5-dm-i-comfort-lite-ID8PZQ1G.html",
+          "price_eur": 36490,
+          "price_display": "36 490",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T03:29:42.446231Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "6 500 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/byd-seal-6-dm-i-phev-touring-boost-alu-ka-led-link-nav-nba-pd-elektro-benzin-blau-cat_ma16379gr202835ge11001mt12144tr479066-a6a88752-abb6-4154-a507-6fcd2de305c7",
+          "price_eur": 27470,
+          "price_display": "€ 27.470",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T03:29:42.446231Z",
+          "location": "Neuensalz bei Plauen",
+          "year": 2025,
+          "mileage": "26 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/byd-seal-6-dm-i-touring-comfort-privacy-pano-leder-360grad-elektro-benzin-beige-cat_ma16379gr202835ge11001mt12144tr480022-61a9a9b5-a7f2-4eb8-8a93-855fa552eb51",
+          "price_eur": 35450,
+          "price_display": "€ 35.450",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T03:29:42.446231Z",
+          "location": "Kerpen-Sindorf",
+          "year": null,
+          "mileage": "50 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/byd-seal-6-dm-i-phev-touring-boost-alu-ka-led-link-nav-nba-pd-elektro-benzin-blau-cat_ma16379gr202835ge11001mt12144tr479066-148f4f35-190b-4b14-bed2-66465967d8ed",
+          "price_eur": 27470,
+          "price_display": "€ 27.470",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-04T03:29:42.446231Z",
+          "location": "Neuensalz bei Plauen",
+          "year": 2025,
+          "mileage": "15 km",
+          "fuel": "Elektro/Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/byd/seal-6?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 11,
+          "new": 11,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/byd/seal-6",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/byd/seal-6?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
