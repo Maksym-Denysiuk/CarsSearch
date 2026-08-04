@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g19-dongfeng",
       "group_name": "Dongfeng Motor",
-      "brand_id": "m-hero",
-      "brand_name": "M-Hero"
+      "brand_id": "forthing",
+      "brand_name": "Forthing"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -23,7 +23,7 @@
       "groups_done": 18,
       "brands_total": 131,
       "brands_done": 86,
-      "brands_failed": 28,
+      "brands_failed": 29,
       "models_found": 186,
       "groups": [
         {
@@ -4141,9 +4141,29 @@
             {
               "brand_id": "m-hero",
               "brand_name": "M-Hero",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T06:50:36.389491+00:00",
+              "error": "model_suggestion_unparseable",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 1,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "by_source": {}
+              }
             },
             {
               "brand_id": "forthing",
