@@ -3427,11 +3427,11 @@
               "brand_name": "Brabus",
               "status": "failed",
               "models_found": 0,
-              "completed_at": "2026-08-04T05:22:44.998654+00:00",
-              "error": "local_llm_unavailable",
+              "completed_at": "2026-08-04T05:35:25.225590+00:00",
+              "error": "circuit_breaker_tripped",
               "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
+                "models_suggested": 8,
+                "searches_attempted": 15,
                 "search_fetch_failures": 0,
                 "parse_failures": 0,
                 "cards_parsed": 0,
@@ -3440,15 +3440,24 @@
                 "candidate_fetch_failures": 0,
                 "firewall_kept": 0,
                 "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
+                "circuit_breaker_tripped": true,
+                "search_status": "completed_no_offerings",
+                "requests_made": 17,
                 "model_suggestion_retries": 0,
                 "models_discovered": 0,
                 "models_rejected_as_invented": 0,
                 "by_source": {
                   "auto.pt": {
-                    "models_discovered": 0
+                    "models_discovered": 0,
+                    "searches_attempted": 5,
+                    "searches_missing": 5
+                  },
+                  "standvirtual": {
+                    "searches_attempted": 5
+                  },
+                  "autoscout24": {
+                    "searches_attempted": 5,
+                    "searches_missing": 5
                   }
                 }
               }
