@@ -5927,6 +5927,55 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "avatr-avatr-12",
+      "name": "Avatr 12",
+      "manufacturer": "Avatr",
+      "group_id": "g12-electric-emerging",
+      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+      "brand_id": "avatr",
+      "brand_name": "Avatr",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 8,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/avatr/avatr-12?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 33,
+          "new": 0,
+          "duplicates": 33,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 8,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/avatr/avatr-12",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 8,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/avatr/avatr-12?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
     }
   ]
 }
