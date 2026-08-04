@@ -22,8 +22,8 @@
       "groups_total": 25,
       "groups_done": 9,
       "brands_total": 131,
-      "brands_done": 43,
-      "brands_failed": 7,
+      "brands_done": 44,
+      "brands_failed": 6,
       "models_found": 124,
       "groups": [
         {
@@ -987,10 +987,9 @@
             {
               "brand_id": "opel",
               "brand_name": "Opel",
-              "status": "failed",
+              "status": "done",
               "models_found": 0,
-              "completed_at": "2026-08-04T01:50:59.334007+00:00",
-              "error": "local_llm_unavailable",
+              "completed_at": "2026-08-04T02:32:31.655244+00:00",
               "diagnostics": {
                 "models_suggested": 0,
                 "searches_attempted": 0,
@@ -1013,7 +1012,7 @@
                     "models_discovered": 11
                   },
                   "autoscout24": {
-                    "models_discovered": 10
+                    "models_discovered": 11
                   }
                 }
               }
