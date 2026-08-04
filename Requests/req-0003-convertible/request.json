@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g12-electric-emerging",
       "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "xiaomi",
-      "brand_name": "Xiaomi"
+      "brand_id": "vinfast",
+      "brand_name": "VinFast"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 11,
       "brands_total": 131,
-      "brands_done": 59,
+      "brands_done": 60,
       "brands_failed": 13,
       "models_found": 69,
       "groups": [
@@ -2534,9 +2534,35 @@
             {
               "brand_id": "xiaomi",
               "brand_name": "Xiaomi",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-04T16:05:26.784365+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 2,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "auto.pt": {
+                    "models_discovered": 0
+                  },
+                  "autoscout24": {
+                    "models_discovered": 2
+                  }
+                }
+              }
             },
             {
               "brand_id": "vinfast",
