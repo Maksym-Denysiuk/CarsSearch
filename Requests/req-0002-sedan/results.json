@@ -1788,6 +1788,398 @@
           "error": "_PageMissing: http 404"
         }
       ]
+    },
+    {
+      "id": "mercedes-maybach-s-580",
+      "name": "S 580",
+      "manufacturer": "Mercedes-Maybach",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-maybach",
+      "brand_name": "Mercedes-Maybach",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-maybach/s-580?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 34,
+          "new": 34,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-maybach/s-580",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-maybach/s-580?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "mercedes-maybach-s-580-4matic",
+      "name": "S 580 4MATIC",
+      "manufacturer": "Mercedes-Maybach",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-maybach",
+      "brand_name": "Mercedes-Maybach",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-maybach/s-580-4matic?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 34,
+          "new": 2,
+          "duplicates": 32,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-maybach/s-580-4matic",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-maybach/s-580-4matic?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "mercedes-maybach-s-680",
+      "name": "S 680",
+      "manufacturer": "Mercedes-Maybach",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-maybach",
+      "brand_name": "Mercedes-Maybach",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-maybach/s-680?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 34,
+          "new": 3,
+          "duplicates": 31,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-maybach/s-680",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-maybach/s-680?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "mercedes-maybach-s-680-4matic",
+      "name": "S 680 4MATIC",
+      "manufacturer": "Mercedes-Maybach",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-maybach",
+      "brand_name": "Mercedes-Maybach",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 4,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-maybach/s-680-4matic?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 33,
+          "new": 2,
+          "duplicates": 31,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 4,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-maybach/s-680-4matic",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 4,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-maybach/s-680-4matic?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "mercedes-maybach-s-680-pullman",
+      "name": "S 680 Pullman",
+      "manufacturer": "Mercedes-Maybach",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-maybach",
+      "brand_name": "Mercedes-Maybach",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 5,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-maybach/s-680-pullman?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 32,
+          "new": 1,
+          "duplicates": 31,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 5,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-maybach/s-680-pullman",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 5,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-maybach/s-680-pullman?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "mercedes-maybach-s-680-pullman-4matic",
+      "name": "S 680 Pullman 4MATIC",
+      "manufacturer": "Mercedes-Maybach",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-maybach",
+      "brand_name": "Mercedes-Maybach",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 6,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-maybach/s-680-pullman-4matic?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 34,
+          "new": 3,
+          "duplicates": 31,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 6,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-maybach/s-680-pullman-4matic",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 6,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-maybach/s-680-pullman-4matic?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "mercedes-maybach-eqs-580",
+      "name": "EQS 580",
+      "manufacturer": "Mercedes-Maybach",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-maybach",
+      "brand_name": "Mercedes-Maybach",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 7,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-maybach/eqs-580?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 34,
+          "new": 3,
+          "duplicates": 31,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 7,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-maybach/eqs-580",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 7,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-maybach/eqs-580?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "mercedes-maybach-eqs-580-4matic",
+      "name": "EQS 580 4MATIC",
+      "manufacturer": "Mercedes-Maybach",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-maybach",
+      "brand_name": "Mercedes-Maybach",
+      "body_type": "sedan",
+      "tier": "not yet available",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 8,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-maybach/eqs-580-4matic?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 35,
+          "new": 4,
+          "duplicates": 31,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 8,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-maybach/eqs-580-4matic",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 8,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-maybach/eqs-580-4matic?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        }
+      ]
     }
   ]
 }
