@@ -5597,6 +5597,158 @@
           "error": "_PageMissing: http 404"
         }
       ]
+    },
+    {
+      "id": "nio-et7",
+      "name": "ET7",
+      "manufacturer": "Nio",
+      "group_id": "g12-electric-emerging",
+      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+      "brand_id": "nio",
+      "brand_name": "Nio",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 39000,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "1 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/nio-et7-et7-100-kwh-ohne-batterie-elektro-grau-cat_ma51928gr201050ge1669-fdba2cfe-f3b0-4ce1-8d43-359aba8bd0b4",
+          "price_eur": 39000,
+          "price_display": "€ 39.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T03:56:43.893337Z",
+          "location": "Garching",
+          "year": 2024,
+          "mileage": "42.000 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/nio/et7?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/nio/et7",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/nio/et7?fregfrom=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "nio-et5",
+      "name": "ET5",
+      "manufacturer": "Nio",
+      "group_id": "g12-electric-emerging",
+      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+      "brand_id": "nio",
+      "brand_name": "Nio",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 31966,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/nio-et5-basis-360kw-mietbatterie-ab-169e-monatlich-led-pd-elektro-schwarz-cat_ma51928gr201049ge1668va3592tr480561-8018130f-1874-44a9-ad36-e526be39b62e",
+          "price_eur": 29999,
+          "price_display": "€ 29.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T03:56:43.893337Z",
+          "location": "Marburg",
+          "year": 2024,
+          "mileage": "21.000 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/nio-et5-touring-standard-range-elektro-cat_ma51928gr201049ge1668va1582tr480561-40f76699-50c5-45b8-b835-e4bb8fb205c5",
+          "price_eur": 39000,
+          "price_display": "€ 39.000",
+          "country": "NL",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T03:56:43.893337Z",
+          "location": "Goirle",
+          "year": 2025,
+          "mileage": "3.000 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/nio-et5-standard-range-elektro-blau-cat_ma51928gr201049ge1668va1582tr480561-88c23e92-d2c1-4960-8a32-998c9f64bf2b",
+          "price_eur": 26900,
+          "price_display": "€ 26.900",
+          "country": "NL",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-04T03:56:43.893337Z",
+          "location": "BREUKELEN",
+          "year": 2024,
+          "mileage": "141.350 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/nio/et5?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/nio/et5",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/nio/et5?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }

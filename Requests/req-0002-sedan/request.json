@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g12-electric-emerging",
       "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "nio",
-      "brand_name": "Nio"
+      "brand_id": "onvo",
+      "brand_name": "Onvo"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -22,9 +22,9 @@
       "groups_total": 25,
       "groups_done": 11,
       "brands_total": 131,
-      "brands_done": 56,
+      "brands_done": 57,
       "brands_failed": 13,
-      "models_found": 156,
+      "models_found": 160,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -2577,9 +2577,42 @@
             {
               "brand_id": "nio",
               "brand_name": "Nio",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 4,
+              "completed_at": "2026-08-04T03:56:43.900147+00:00",
+              "diagnostics": {
+                "models_suggested": 2,
+                "searches_attempted": 6,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 21,
+                "unique_offerings": 21,
+                "candidates_checked": 4,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 4,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 203,
+                "model_suggestion_retries": 0,
+                "models_discovered": 5,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "autoscout24": {
+                    "models_discovered": 5,
+                    "searches_attempted": 2,
+                    "candidates_checked": 4,
+                    "firewall_kept": 4
+                  },
+                  "standvirtual": {
+                    "searches_attempted": 2
+                  },
+                  "auto.pt": {
+                    "searches_attempted": 2,
+                    "searches_missing": 2
+                  }
+                }
+              }
             },
             {
               "brand_id": "onvo",
