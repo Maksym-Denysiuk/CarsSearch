@@ -13,8 +13,8 @@
     "search_state": {
       "group_id": "g16-chery",
       "group_name": "Chery Group",
-      "brand_id": "omoda",
-      "brand_name": "Omoda"
+      "brand_id": "jaecoo",
+      "brand_name": "Jaecoo"
     },
     "results_path": "Requests/req-0002-sedan/results.json",
     "favorites_path": "Requests/req-0002-sedan/favorites.json",
@@ -22,9 +22,9 @@
       "groups_total": 25,
       "groups_done": 15,
       "brands_total": 131,
-      "brands_done": 80,
+      "brands_done": 81,
       "brands_failed": 25,
-      "models_found": 179,
+      "models_found": 182,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -3821,9 +3821,42 @@
             {
               "brand_id": "omoda",
               "brand_name": "Omoda",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 3,
+              "completed_at": "2026-08-04T06:07:17.992901+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 20,
+                "unique_offerings": 20,
+                "candidates_checked": 3,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 3,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 37,
+                "model_suggestion_retries": 1,
+                "models_discovered": 2,
+                "models_rejected_as_invented": 0,
+                "by_source": {
+                  "autoscout24": {
+                    "models_discovered": 2,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  },
+                  "standvirtual": {
+                    "searches_attempted": 1
+                  },
+                  "auto.pt": {
+                    "searches_attempted": 1,
+                    "searches_missing": 1
+                  }
+                }
+              }
             },
             {
               "brand_id": "jaecoo",

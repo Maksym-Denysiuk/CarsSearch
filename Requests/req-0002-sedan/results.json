@@ -7520,6 +7520,95 @@
           "error": "_PageMissing: http 404"
         }
       ]
+    },
+    {
+      "id": "omoda-9",
+      "name": "9",
+      "manufacturer": "Omoda",
+      "group_id": "g16-chery",
+      "group_name": "Chery Group",
+      "brand_id": "omoda",
+      "brand_name": "Omoda",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 50527,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/omoda-9-phev-1-5-gdi-hybrid-awd-+0-fianzierung+aktion++-elektro-benzin-grau-cat_ma51991gr77476-6e0d1b53-bc31-46d5-bdd2-853125eb6287",
+          "price_eur": 52900,
+          "price_display": "€ 52.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T06:07:17.985307Z",
+          "location": "Köln",
+          "year": null,
+          "mileage": "0 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/omoda-9-premium-1-5-tgdi-phev-pano-leder-hud-rcam-matt-elektro-benzin-schwarz-cat_ma51991gr77476-33fd89f7-c011-40f8-af9f-da3b45d19d2b",
+          "price_eur": 44890,
+          "price_display": "€ 44.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T06:07:17.985307Z",
+          "location": "Düren",
+          "year": 2026,
+          "mileage": "10 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/omoda-9-superhybrid-1-5l-acc-360-pano-head-up-elektro-benzin-schwarz-cat_ma51991gr77476-b54ad765-c040-4b8a-96de-a93b31d044f3",
+          "price_eur": 53790,
+          "price_display": "€ 53.790",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-04T06:07:17.985307Z",
+          "location": "Leipzig",
+          "year": null,
+          "mileage": null,
+          "fuel": "Elektro/Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/omoda/9?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/omoda/9",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "_PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/omoda/9?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
