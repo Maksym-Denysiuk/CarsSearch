@@ -500,6 +500,95 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "fiat-500c",
+      "name": "500C",
+      "manufacturer": "Fiat",
+      "group_id": "g04-stellantis",
+      "group_name": "Stellantis",
+      "brand_id": "fiat",
+      "brand_name": "Fiat",
+      "body_type": "roadster",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 14557,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/fiat-500c-ver-1-0-hybrid-ID8Q0OGg.html",
+          "price_eur": 14490,
+          "price_display": "14 490",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T00:58:49.801027Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "33 642 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/fiat-500c-ver-1-0-hybrid-ID8Q0IVu.html",
+          "price_eur": 14590,
+          "price_display": "14 590",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T00:58:49.801540Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "43 717 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/fiat-500c-ver-1-0-hybrid-ID8Q0IVE.html",
+          "price_eur": 14590,
+          "price_display": "14 590",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T00:58:49.801540Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "44 784 km",
+          "fuel": "Gasolina"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/fiat/500c?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 14,
+          "new": 13,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/fiat/500c",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/fiat/500c?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        }
+      ]
     }
   ]
 }
