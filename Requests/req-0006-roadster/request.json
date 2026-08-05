@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g14-specialist-low-volume",
       "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-      "brand_id": "ariel-motor-company",
-      "brand_name": "Ariel Motor Company"
+      "brand_id": "bac",
+      "brand_name": "BAC"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 13,
       "brands_total": 131,
-      "brands_done": 86,
+      "brands_done": 87,
       "brands_failed": 4,
       "models_found": 9,
       "groups": [
@@ -3601,9 +3601,48 @@
             {
               "brand_id": "ariel-motor-company",
               "brand_name": "Ariel Motor Company",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T23:04:35.298339+00:00",
+              "diagnostics": {
+                "models_suggested": 3,
+                "searches_attempted": 9,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 96,
+                "unique_offerings": 34,
+                "candidates_checked": 5,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 5
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 18,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 3,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 3,
+                    "candidates_checked": 5,
+                    "firewall_dropped": 5
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 3,
+                    "searches_missing": 3
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0,
+                    "searches_attempted": 3,
+                    "searches_missing": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "bac",
