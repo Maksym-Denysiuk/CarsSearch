@@ -3017,6 +3017,108 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "alfa-romeo-giulia",
+      "name": "Giulia",
+      "manufacturer": "Alfa Romeo",
+      "group_id": "g04-stellantis",
+      "group_name": "Stellantis",
+      "brand_id": "alfa-romeo",
+      "brand_name": "Alfa Romeo",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 48213,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/alfa-romeo-giulia-ver-2-2-d-tributo-q4-at8-ID8PRh79.html",
+          "price_eur": 65000,
+          "price_display": "65 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:30:05.460830Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "14 500 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/alfa-romeo-giulia-my24-veloce-premium-paket-benzin-schwarz-cat_ma6gr200049ge2278va3967mt12278tr8275-077ff8fa-1aba-4228-ac01-100448be7ac4",
+          "price_eur": 36890,
+          "price_display": "€ 36.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:30:05.460830Z",
+          "location": "Kassel",
+          "year": 2024,
+          "mileage": "19.995 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/alfa-romeo-giulia-competizione-2-0-turbo-at8-q4-harman-kardon-el-si-benzin-rot-cat_ma6gr200049ge2278va3967mt12278tr10698-2dcb8646-aec2-4e20-8376-442168b26c68",
+          "price_eur": 36975,
+          "price_display": "€ 36.975",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:30:05.460830Z",
+          "location": "Pohlheim",
+          "year": 2024,
+          "mileage": "30.000 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/alfa-romeo-giulia-2-0-turbo-16v-at8-q4-intensa-glasschiebedach-benzin-rot-cat_ma6gr200049ge2278va3967mt12278tr10700-b57f0a4a-3b25-4dfd-b6d0-6e3016bf4e87",
+          "price_eur": 53985,
+          "price_display": "€ 53.985",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:30:05.460830Z",
+          "location": "Oberhausen",
+          "year": null,
+          "mileage": "10 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/alfa-romeo/giulia?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/alfa-romeo/giulia",
+          "found": 4,
+          "new": 4,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/alfa-romeo/giulia?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }

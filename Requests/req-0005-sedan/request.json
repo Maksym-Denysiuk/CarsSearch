@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g04-stellantis",
       "group_name": "Stellantis",
-      "brand_id": "alfa-romeo",
-      "brand_name": "Alfa Romeo"
+      "brand_id": "jeep",
+      "brand_name": "Jeep"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 3,
       "brands_total": 131,
-      "brands_done": 16,
+      "brands_done": 17,
       "brands_failed": 1,
-      "models_found": 109,
+      "models_found": 113,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -786,14 +786,55 @@
         {
           "group_id": "g04-stellantis",
           "group_name": "Stellantis",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "alfa-romeo",
               "brand_name": "Alfa Romeo",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 4,
+              "completed_at": "2026-08-05T03:30:05.465357+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 25,
+                "unique_offerings": 25,
+                "candidates_checked": 7,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 4,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 3
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 12,
+                "model_suggestion_retries": 0,
+                "models_discovered": 13,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1,
+                    "candidates_checked": 1,
+                    "firewall_kept": 1
+                  },
+                  "auto.pt": {
+                    "models_discovered": 9,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3
+                  },
+                  "autoscout24": {
+                    "models_discovered": 9,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "jeep",
