@@ -3208,6 +3208,196 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "opel-astra",
+      "name": "Astra",
+      "manufacturer": "Opel",
+      "group_id": "g04-stellantis",
+      "group_name": "Stellantis",
+      "brand_id": "opel",
+      "brand_name": "Opel",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 20424,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/opel-astra-ver-1-2-t-hybrid-gs-edct-ID8Q0eQn.html",
+          "price_eur": 24490,
+          "price_display": "24 490",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:31:21.740851Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "16 570 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/opel-astra-ver-1-2-t-gs-line-ID8Q0OKO.html",
+          "price_eur": 21950,
+          "price_display": "21 950",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:31:21.740851Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "19 457 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/opel-astra-ver-1-2-t-gs-line-ID8Q0dy4.html",
+          "price_eur": 20990,
+          "price_display": "20 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:31:21.740851Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "43 411 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/opel-astra-1-5-d-edition-aut-id-ieXftWn3",
+          "price_eur": 25600,
+          "price_display": "25600",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:31:21.740851Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "73000 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/opel-astra-st-1-5-d-elegance-t-leder-navi-led-rfk-shz-diesel-grau-cat_ma54gr1916ge226va223mt11566tr3036-7cb460d6-af08-42d7-af34-73eb180b5bf3",
+          "price_eur": 15980,
+          "price_display": "€ 15.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:31:21.740851Z",
+          "location": "Gyhum/Bockel",
+          "year": 2024,
+          "mileage": "46.734 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/opel-astra-l-gs-navi-led-headup-360-kam-winterpaket-benzin-grau-cat_ma54gr1916ge226va222mt570tr2755-ef7d8688-d542-4c34-ac8c-5e913ad41341",
+          "price_eur": 16980,
+          "price_display": "€ 16.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:31:21.740851Z",
+          "location": "Rüsselsheim",
+          "year": 2024,
+          "mileage": "21.796 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/opel-astra-l-1-2-gs-sport-360-cam-le-shz-acc-led-benzin-blau-cat_ma54gr1916ge226va222mt570tr4177-a3ddc09c-5bed-47cb-8c22-d6965db555d8",
+          "price_eur": 16980,
+          "price_display": "€ 16.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:31:21.740851Z",
+          "location": "Rüsselsheim",
+          "year": 2024,
+          "mileage": "23.386 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/opel/astra?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 32,
+          "new": 30,
+          "duplicates": 2,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/opel/astra",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/opel/astra?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "opel-insignia",
+      "name": "Insignia",
+      "manufacturer": "Opel",
+      "group_id": "g04-stellantis",
+      "group_name": "Stellantis",
+      "brand_id": "opel",
+      "brand_name": "Opel",
+      "body_type": "sedan",
+      "tier": "unconfirmed",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/opel/insignia?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/opel/insignia",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/opel/insignia?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
