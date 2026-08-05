@@ -5589,6 +5589,95 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "xpeng-p7",
+      "name": "P7",
+      "manufacturer": "Xpeng",
+      "group_id": "g12-electric-emerging",
+      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+      "brand_id": "xpeng",
+      "brand_name": "Xpeng",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 45537,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/xpeng-p7-+-rwd-long-range-carplay-massage-360kam-pano-elektro-blau-cat_ma51940gr201554ge1413-c90216f0-3175-4ff9-86c7-55e55c30d8e2",
+          "price_eur": 45360,
+          "price_display": "€ 45.360",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:46:26.727017Z",
+          "location": "Ebersberg bei München",
+          "year": 2026,
+          "mileage": "6.900 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/xpeng-p7-longrange-verfuegbar-ab-12-26-kein-leasing-elektro-schwarz-cat_ma51940gr201554ge1413-37e3dc77-f20e-4e82-9cdf-313bb9608a24",
+          "price_eur": 45890,
+          "price_display": "€ 45.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:46:26.727017Z",
+          "location": "Neuss",
+          "year": 2026,
+          "mileage": "6.215 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/xpeng-p7-elektro-schwarz-cat_ma51940gr201554ge1413-d32a4a6e-f649-4945-8606-7d589b4cf5b3",
+          "price_eur": 45360,
+          "price_display": "€ 45.360",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:46:26.727017Z",
+          "location": "Pfaffenhofen",
+          "year": 2026,
+          "mileage": "2.900 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/xpeng/p7?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 34,
+          "new": 33,
+          "duplicates": 1,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/xpeng/p7",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/xpeng/p7?fregfrom=2024",
+          "found": 16,
+          "new": 16,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
