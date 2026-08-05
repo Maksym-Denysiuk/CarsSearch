@@ -5767,6 +5767,108 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "mg-mg5",
+      "name": "MG5",
+      "manufacturer": "MG",
+      "group_id": "g12-electric-emerging",
+      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+      "brand_id": "mg",
+      "brand_name": "MG",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 28290,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/mg-mg5-ver-51-kwh-comfort-ID8Q0yrR.html",
+          "price_eur": 22290,
+          "price_display": "22 290",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:50:47.282427Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "25 196 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mg-mg5-comfort-sthz-navi-shz-alu-ahk-elektro-elektro-silber-cat_ma48gr200998ge1728tr480441-3084b6a2-c2c0-4b67-970e-9edb44d5c9bf",
+          "price_eur": 26990,
+          "price_display": "€ 26.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:50:47.282427Z",
+          "location": "Amt Wachsenburg OT Ichtershausen",
+          "year": 2025,
+          "mileage": "15.500 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mg-mg5-standard-luxury-shz-klima-led-nav-haustuerlieferu-elektro-silber-cat_ma48gr200998ge1728tr480441-44efe257-c283-40d8-802e-b3a6c359b59e",
+          "price_eur": 15000,
+          "price_display": "€ 15.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:50:47.282427Z",
+          "location": "Oberhaching",
+          "year": 2024,
+          "mileage": "33.812 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mg-mg5-im-5-710-km-reichweit-3d-sound-360-kamera-elektro-weiss-cat_ma48gr200998ge1728tr480441-dda80a58-f057-41f9-b80b-c40214b3f0b4",
+          "price_eur": 48880,
+          "price_display": "€ 48.880",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:50:47.282427Z",
+          "location": "Hamm",
+          "year": null,
+          "mileage": "10 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mg/mg5?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mg/mg5",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mg/mg5?fregfrom=2024",
+          "found": 8,
+          "new": 8,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
