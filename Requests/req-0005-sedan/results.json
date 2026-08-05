@@ -6046,6 +6046,184 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "mazda-6",
+      "name": "6",
+      "manufacturer": "Mazda",
+      "group_id": "g13-independent-mainstream",
+      "group_name": "Independent Mainstream Manufacturers",
+      "brand_id": "mazda",
+      "brand_name": "Mazda",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 28610,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/mazda-mazda6-kombi-2-0-skyactiv-g-center-line-bluetooth-navi-benzin-schwarz-cat_ma46gr200953ge1755va1461mt2624tr1792-96278bce-4314-4921-87bd-e880903e15c1",
+          "price_eur": 25950,
+          "price_display": "€ 25.950",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:52:28.032130Z",
+          "location": "Kirchseeon bei München",
+          "year": 2024,
+          "mileage": "12.000 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mazda-mazda6-kombi-2-5-exclusive-line-bose-navi-pdc-360-benzin-schwarz-cat_ma46gr200953ge1755va1461mt2624tr3374-dce9d80f-2bd8-4b42-8773-9a294d8c61e9",
+          "price_eur": 30890,
+          "price_display": "€ 30.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:52:28.032130Z",
+          "location": "Hattingen Welper",
+          "year": 2024,
+          "mileage": "4.452 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mazda-mazda6-kombi-2-0-skyactiv-g-165-center-line-360-benzin-schwarz-cat_ma46gr200953ge1755va1461mt2624tr3374-01753097-6f27-48be-a242-9cf9ff172dc3",
+          "price_eur": 28990,
+          "price_display": "€ 28.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:52:28.032130Z",
+          "location": "Memmingen",
+          "year": 2024,
+          "mileage": "5.100 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mazda/6?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mazda/6",
+          "found": 7,
+          "new": 7,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mazda/6?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "mazda-3",
+      "name": "3",
+      "manufacturer": "Mazda",
+      "group_id": "g13-independent-mainstream",
+      "group_name": "Independent Mainstream Manufacturers",
+      "brand_id": "mazda",
+      "brand_name": "Mazda",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 24343,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/mazda-mazda3-homura-led-radar-hud-navi-ahk-benzin-beige-cat_ma46gr200954ge1744mt2606tr4482-1deff1ac-1cf6-4f2e-829c-cfff22b5d78b",
+          "price_eur": 22650,
+          "price_display": "€ 22.650",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:52:28.032130Z",
+          "location": "Coburg",
+          "year": 2024,
+          "mileage": "21.550 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mazda-mazda3-2-0l-186ps-6at-exclusive-line-comb-daso-+-ahk-benzin-rot-cat_ma46gr200954ge1744mt2607tr3376-00a0d99c-a1eb-4030-bfc5-7b27c78ed3a6",
+          "price_eur": 26890,
+          "price_display": "€ 26.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:52:28.032130Z",
+          "location": "Pfaffenhofen",
+          "year": 2024,
+          "mileage": "34.243 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mazda-mazda3-2-0l-e-skyactiv-x-186ps-6at-fwd-exclusive-line-das-benzin-rot-cat_ma46gr200954ge1744mt2607tr3376-5a081ad0-afe0-4169-91e3-a0ecb4de0e46",
+          "price_eur": 23490,
+          "price_display": "€ 23.490",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:52:28.032130Z",
+          "location": "Senftenberg",
+          "year": 2024,
+          "mileage": "18.076 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mazda/3?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mazda/3",
+          "found": 11,
+          "new": 11,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mazda/3?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
