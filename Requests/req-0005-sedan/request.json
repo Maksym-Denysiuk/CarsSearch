@@ -11,16 +11,16 @@
     "date_of_request": "2026-08-05",
     "status": "in progress",
     "search_state": {
-      "group_id": "g12-electric-emerging",
-      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "roewe",
-      "brand_name": "Roewe"
+      "group_id": "g13-independent-mainstream",
+      "group_name": "Independent Mainstream Manufacturers",
+      "brand_id": "honda",
+      "brand_name": "Honda"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 11,
+      "groups_done": 12,
       "brands_total": 131,
-      "brands_done": 71,
+      "brands_done": 72,
       "brands_failed": 7,
       "models_found": 206,
       "groups": [
@@ -2675,7 +2675,7 @@
         {
           "group_id": "g12-electric-emerging",
           "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "tesla",
@@ -3392,9 +3392,48 @@
             {
               "brand_id": "roewe",
               "brand_name": "Roewe",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T03:51:43.847224+00:00",
+              "diagnostics": {
+                "models_suggested": 8,
+                "searches_attempted": 24,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 280,
+                "unique_offerings": 54,
+                "candidates_checked": 20,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 20
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 46,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 8,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 8,
+                    "candidates_checked": 20,
+                    "firewall_dropped": 20
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 8,
+                    "searches_missing": 8
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0,
+                    "searches_attempted": 8,
+                    "searches_missing": 8
+                  }
+                }
+              }
             }
           ]
         },
