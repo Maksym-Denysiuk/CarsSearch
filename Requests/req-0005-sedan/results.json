@@ -2429,6 +2429,262 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "porsche-panamera",
+      "name": "Panamera",
+      "manufacturer": "Porsche",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "porsche",
+      "brand_name": "Porsche",
+      "body_type": "sedan",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 138782,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/porsche-panamera-ver-4-e-hybrid-ID8Q0OEL.html",
+          "price_eur": 139500,
+          "price_display": "139 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:27:49.569393Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "14 900 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/porsche-panamera-ver-4s-e-hybrid-ID8Q0ywY.html",
+          "price_eur": 149000,
+          "price_display": "149 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:27:49.569393Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "43 000 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/porsche-panamera-ver-4-e-hybrid-ID8Q0Hmj.html",
+          "price_eur": 182000,
+          "price_display": "182 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:27:49.569393Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "1 500 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-panamera-4s-e-hybrid-mj26-export-netto-elektro-benzin-schwarz-cat_ma57gr19136ge1581va3263mt4597tr480692-91f595ee-5b31-4b17-9c33-f021e769a14e",
+          "price_eur": 114490,
+          "price_display": "€ 114.490",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:27:49.569393Z",
+          "location": "Berlin",
+          "year": 2025,
+          "mileage": "15.000 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-panamera-panamera-976-porsche-garantie-1135km-1hand-voll-benzin-grau-cat_ma57gr19136ge1581va3263tr480692-313e6bbe-683f-4bc5-8225-76f77d763ac4",
+          "price_eur": 97900,
+          "price_display": "€ 97.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:27:49.569393Z",
+          "location": "Osnabrück",
+          "year": 2024,
+          "mileage": "1.135 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-panamera-gts-ha-lenkung-soft-close-standheizung-benzin-grau-cat_ma57gr19136ge1581va3263mt10744tr480692-c923cdb2-9a1d-4964-b377-5ea707bdfaa1",
+          "price_eur": 149800,
+          "price_display": "€ 149.800",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:27:49.569393Z",
+          "location": "Bielefeld",
+          "year": 2025,
+          "mileage": "10.950 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/porsche/panamera?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 15,
+          "new": 14,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/porsche/panamera",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/porsche/panamera?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "porsche-taycan",
+      "name": "Taycan",
+      "manufacturer": "Porsche",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "porsche",
+      "brand_name": "Porsche",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 97098,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/porsche-taycan-ver-4s-ID8Q0yEQ.html",
+          "price_eur": 75890,
+          "price_display": "75 890",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:27:49.569393Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "17 686 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/porsche-taycan-ver-turbo-gt-weissach-ID8Q0LNl.html",
+          "price_eur": 185750,
+          "price_display": "185 750",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:27:49.569393Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "15 500 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/porsche-taycan-ver-4-ID8Q0Lag.html",
+          "price_eur": 76500,
+          "price_display": "76 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:27:49.569393Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "36 000 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-taycan-led-matrix-bose-21-performancebatterie+-elektro-schwarz-cat_ma57gr75273ge1582va3313tr9604-c51d6fd4-c749-40f4-ba58-6a85f3d8bf78",
+          "price_eur": 86600,
+          "price_display": "€ 86.600",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:27:49.569393Z",
+          "location": "Bielefeld",
+          "year": 2025,
+          "mileage": "25.152 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-taycan-taycan-360-bose-beifahrer-display-elektro-schwarz-cat_ma57gr75273ge1582va3313tr480693-e9bb8098-ab7c-4faa-80ed-1a5ef9edbef0",
+          "price_eur": 75900,
+          "price_display": "€ 75.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:27:49.569393Z",
+          "location": "Bad Segeberg ( bei Hamburg)",
+          "year": 2024,
+          "mileage": "22.000 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-taycan-4-cross-turismo-bose-21-zoll-panoramadach-elektro-grau-cat_ma57gr75273ge1582va2315mt5018tr480693-b0fb555c-23f1-4626-828d-d944518e5f6d",
+          "price_eur": 81950,
+          "price_display": "€ 81.950",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:27:49.569393Z",
+          "location": "Bonn",
+          "year": 2025,
+          "mileage": "21.140 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/porsche/taycan?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 9,
+          "new": 9,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/porsche/taycan",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/porsche/taycan?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }

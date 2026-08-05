@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g03-vw",
       "group_name": "Volkswagen Group",
-      "brand_id": "porsche",
-      "brand_name": "Porsche"
+      "brand_id": "skoda",
+      "brand_name": "Skoda"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 2,
       "brands_total": 131,
-      "brands_done": 10,
+      "brands_done": 11,
       "brands_failed": 0,
-      "models_found": 83,
+      "models_found": 95,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -491,9 +491,50 @@
             {
               "brand_id": "porsche",
               "brand_name": "Porsche",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 12,
+              "completed_at": "2026-08-05T03:27:49.573444+00:00",
+              "diagnostics": {
+                "models_suggested": 2,
+                "searches_attempted": 6,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 104,
+                "unique_offerings": 103,
+                "candidates_checked": 18,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 12,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 6
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 26,
+                "model_suggestion_retries": 0,
+                "models_discovered": 9,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 2,
+                    "candidates_checked": 6,
+                    "firewall_kept": 6
+                  },
+                  "auto.pt": {
+                    "models_discovered": 6,
+                    "searches_attempted": 2,
+                    "candidates_checked": 6,
+                    "firewall_dropped": 6
+                  },
+                  "autoscout24": {
+                    "models_discovered": 7,
+                    "searches_attempted": 2,
+                    "candidates_checked": 6,
+                    "firewall_kept": 6
+                  }
+                }
+              }
             },
             {
               "brand_id": "skoda",
