@@ -11,16 +11,16 @@
     "date_of_request": "2026-08-05",
     "status": "in progress",
     "search_state": {
-      "group_id": "g15-gwm",
-      "group_name": "Great Wall Motor (GWM)",
-      "brand_id": "gwm-poer",
-      "brand_name": "GWM Poer"
+      "group_id": "g16-chery",
+      "group_name": "Chery Group",
+      "brand_id": "chery",
+      "brand_name": "Chery"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 14,
+      "groups_done": 15,
       "brands_total": 131,
-      "brands_done": 91,
+      "brands_done": 92,
       "brands_failed": 10,
       "models_found": 224,
       "groups": [
@@ -4195,7 +4195,7 @@
         {
           "group_id": "g15-gwm",
           "group_name": "Great Wall Motor (GWM)",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "haval",
@@ -4355,9 +4355,48 @@
             {
               "brand_id": "gwm-poer",
               "brand_name": "GWM Poer",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T04:07:08.945242+00:00",
+              "diagnostics": {
+                "models_suggested": 4,
+                "searches_attempted": 12,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 143,
+                "unique_offerings": 48,
+                "candidates_checked": 12,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 12
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 30,
+                "model_suggestion_retries": 1,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 4,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 4,
+                    "candidates_checked": 12,
+                    "firewall_dropped": 12
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 4,
+                    "searches_missing": 4
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0,
+                    "searches_attempted": 4,
+                    "searches_missing": 4
+                  }
+                }
+              }
             }
           ]
         },
