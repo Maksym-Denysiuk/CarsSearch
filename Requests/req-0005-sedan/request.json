@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g12-electric-emerging",
       "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "gac-aion",
-      "brand_name": "GAC Aion"
+      "brand_id": "im-motors",
+      "brand_name": "IM Motors"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 11,
       "brands_total": 131,
-      "brands_done": 68,
+      "brands_done": 69,
       "brands_failed": 7,
       "models_found": 202,
       "groups": [
@@ -3252,9 +3252,48 @@
             {
               "brand_id": "gac-aion",
               "brand_name": "GAC Aion",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T03:48:35.429180+00:00",
+              "diagnostics": {
+                "models_suggested": 3,
+                "searches_attempted": 9,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 104,
+                "unique_offerings": 40,
+                "candidates_checked": 6,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 6
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 19,
+                "model_suggestion_retries": 1,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 3,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 3,
+                    "candidates_checked": 6,
+                    "firewall_dropped": 6
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 3,
+                    "searches_missing": 3
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0,
+                    "searches_attempted": 3,
+                    "searches_missing": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "im-motors",
