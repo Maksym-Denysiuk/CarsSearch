@@ -70,6 +70,98 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "lamborghini-temerario",
+      "name": "Temerario",
+      "manufacturer": "Lamborghini",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "lamborghini",
+      "brand_name": "Lamborghini",
+      "body_type": "roadster",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 396600,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-temerario-i-lamborghini-hamburg-i-my26-elektro-benzin-schwarz-cat_ma41gr202850-be1e588e-ddba-4cc6-8869-c4252fddb00a",
+          "price_eur": 389900,
+          "price_display": "€ 389.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T22:44:15.108338Z",
+          "location": "Hamburg",
+          "year": 2026,
+          "mileage": "1.033 km",
+          "fuel": "Elektro/Benzin",
+          "title": "Lamborghini Temerario I Lamborghini Hamburg I MY26"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-temerario-temerario-nero-sonus-p-display-lift-pr26-ready-elektro-benzin-schwarz-cat_ma41gr202850-0755f309-d830-44ea-b910-deeea75d4a93",
+          "price_eur": 399999,
+          "price_display": "€ 399.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T22:44:15.108338Z",
+          "location": "München",
+          "year": null,
+          "mileage": "0 km",
+          "fuel": "Elektro/Benzin",
+          "title": "Lamborghini Temerario TEMERARIO NERO SONUS P-DISPLAY LIFT PR26 READY!"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-temerario-elektro-benzin-schwarz-cat_ma41gr202850-1b14ac66-ee9a-42eb-859d-cedb1ad54fa3",
+          "price_eur": 399900,
+          "price_display": "€ 399.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T22:44:15.108338Z",
+          "location": "Böblingen",
+          "year": 2026,
+          "mileage": "1.050 km",
+          "fuel": "Elektro/Benzin",
+          "title": "Lamborghini Temerario"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/lamborghini/temerario?search%5Bfilter_float_first_registration_year%3Afrom%5D=2026",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/lamborghini/temerario",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/lamborghini/temerario?fregfrom=2026",
+          "found": 13,
+          "new": 13,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
