@@ -678,6 +678,69 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "daihatsu-copen",
+      "name": "Copen",
+      "manufacturer": "Daihatsu",
+      "group_id": "g05-toyota",
+      "group_name": "Toyota Motor Corporation",
+      "brand_id": "daihatsu",
+      "brand_name": "Daihatsu",
+      "body_type": "roadster",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 14500,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "1 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/daihatsu-copen-0-7-full-optional-benzin-cat_ma23gr200403-541a525c-860b-446a-8096-be80df5088bd",
+          "price_eur": 14500,
+          "price_display": "€ 14.500",
+          "country": "IT",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T00:59:50.666735Z",
+          "location": "Foggia",
+          "year": 2025,
+          "mileage": "70.449 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/daihatsu/copen?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/daihatsu/copen",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/daihatsu/copen?fregfrom=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }

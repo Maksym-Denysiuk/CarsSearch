@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g05-toyota",
       "group_name": "Toyota Motor Corporation",
-      "brand_id": "daihatsu",
-      "brand_name": "Daihatsu"
+      "brand_id": "century",
+      "brand_name": "Century"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 4,
       "brands_total": 131,
-      "brands_done": 29,
+      "brands_done": 30,
       "brands_failed": 4,
-      "models_found": 21,
+      "models_found": 22,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -1344,9 +1344,48 @@
             {
               "brand_id": "daihatsu",
               "brand_name": "Daihatsu",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 1,
+              "completed_at": "2026-08-05T00:59:50.669255+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 2,
+                "unique_offerings": 2,
+                "candidates_checked": 2,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 1,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 1
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 7,
+                "model_suggestion_retries": 0,
+                "models_discovered": 7,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1
+                  },
+                  "auto.pt": {
+                    "models_discovered": 1,
+                    "searches_attempted": 1,
+                    "candidates_checked": 1,
+                    "firewall_dropped": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 6,
+                    "searches_attempted": 1,
+                    "candidates_checked": 1,
+                    "firewall_kept": 1
+                  }
+                }
+              }
             },
             {
               "brand_id": "century",
