@@ -3920,6 +3920,184 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "genesis-g70",
+      "name": "G70",
+      "manufacturer": "Genesis",
+      "group_id": "g06-hyundai",
+      "group_name": "Hyundai Motor Group",
+      "brand_id": "genesis",
+      "brand_name": "Genesis",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 39260,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/genesis-g70-shooting-brake-sport-2-0l-led-lexicon-sound-benzin-weiss-cat_ma51885gr200587ge2026va1170mt6976tr7157-0b7c63a2-fce4-44bc-a772-a09eb8bda964",
+          "price_eur": 39900,
+          "price_display": "€ 39.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:35:05.506293Z",
+          "location": "Völklingen",
+          "year": 2025,
+          "mileage": "77 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/genesis-g70-shooting-brake-2-2-d-sport-rwd-dpf-leder-led-spe-diesel-blau-cat_ma51885gr200587ge2026va1170mt6976tr7157-45d09c8f-3907-4d5b-a108-09661db9ad6d",
+          "price_eur": 37980,
+          "price_display": "€ 37.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:35:05.506293Z",
+          "location": "Andernach",
+          "year": 2024,
+          "mileage": "17.700 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/genesis-g70-shooting-brake-sport-2-0l-led-lexicon-sound-benzin-schwarz-cat_ma51885gr200587ge2026va1170mt6976tr7157-aff7aaee-0648-4cd9-b428-9a89e794af07",
+          "price_eur": 39900,
+          "price_display": "€ 39.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:35:05.506293Z",
+          "location": "Völklingen",
+          "year": 2025,
+          "mileage": "75 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/genesis/g70?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/genesis/g70",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/genesis/g70?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "genesis-g90",
+      "name": "G90",
+      "manufacturer": "Genesis",
+      "group_id": "g06-hyundai",
+      "group_name": "Hyundai Motor Group",
+      "brand_id": "genesis",
+      "brand_name": "Genesis",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 78890,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/genesis-g90-luxury-cam-leder-pano-carplay-massage-ambiente-benzin-schwarz-cat_ma51885gr200592ge2028mt10700tr480256-0529999c-2a99-484d-8e31-5b0683901ac4",
+          "price_eur": 78990,
+          "price_display": "€ 78.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:35:05.506293Z",
+          "location": "Berlin",
+          "year": 2025,
+          "mileage": "100 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/genesis-g90-t-mild-hybrid-3-5-awd-pano-bo-hud-4-sitzer-benzin-schwarz-cat_ma51885gr200592ge2028tr480256-fd26f0fe-b95f-4300-b97f-7615600925d4",
+          "price_eur": 77790,
+          "price_display": "€ 77.790",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:35:05.506293Z",
+          "location": "Bielefeld",
+          "year": 2025,
+          "mileage": "100 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/genesis-g90-3-5t-mhev-luxury-plus-awd-4-sitzer-benzin-schwarz-cat_ma51885gr200592ge2028tr480256-4b3ae702-ba74-4295-96ac-64d75e6f7f82",
+          "price_eur": 79890,
+          "price_display": "€ 79.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:35:05.506293Z",
+          "location": "Erlangen",
+          "year": 2024,
+          "mileage": "11.800 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/genesis/g90?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/genesis/g90",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/genesis/g90?fregfrom=2024",
+          "found": 3,
+          "new": 3,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
