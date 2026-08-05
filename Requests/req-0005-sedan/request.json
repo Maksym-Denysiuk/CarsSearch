@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g04-stellantis",
       "group_name": "Stellantis",
-      "brand_id": "fiat",
-      "brand_name": "Fiat"
+      "brand_id": "abarth",
+      "brand_name": "Abarth"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 3,
       "brands_total": 131,
-      "brands_done": 24,
+      "brands_done": 25,
       "brands_failed": 2,
-      "models_found": 123,
+      "models_found": 129,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -1158,9 +1158,50 @@
             {
               "brand_id": "fiat",
               "brand_name": "Fiat",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 6,
+              "completed_at": "2026-08-05T03:32:27.982344+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 46,
+                "unique_offerings": 46,
+                "candidates_checked": 9,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 6,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 3
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 14,
+                "model_suggestion_retries": 0,
+                "models_discovered": 13,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  },
+                  "auto.pt": {
+                    "models_discovered": 12,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3
+                  },
+                  "autoscout24": {
+                    "models_discovered": 6,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "abarth",

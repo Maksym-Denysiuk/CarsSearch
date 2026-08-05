@@ -3398,6 +3398,134 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "fiat-tipo",
+      "name": "Tipo",
+      "manufacturer": "Fiat",
+      "group_id": "g04-stellantis",
+      "group_name": "Stellantis",
+      "brand_id": "fiat",
+      "brand_name": "Fiat",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 18337,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/fiat-tipo-ver-1-0-gse-t3-garmin-ID8PZalp.html",
+          "price_eur": 16500,
+          "price_display": "16 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:32:27.977173Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "34 457 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/fiat-tipo-ver-1-6-multijet-ID8PX75a.html",
+          "price_eur": 18007,
+          "price_display": "18 007",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:32:27.977173Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "36 349 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/fiat-tipo-ver-1-6-multijet-ID8PYh1q.html",
+          "price_eur": 18147,
+          "price_display": "18 147",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:32:27.977173Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "34 158 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/fiat-tipo-limousine-1-6-multijet-life-diesel-schwarz-cat_ma28gr200528ge835va3451mt11610tr4933-891aac64-edd9-4471-8703-7d9b7e0b21f3",
+          "price_eur": 19380,
+          "price_display": "€ 19.380",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:32:27.977173Z",
+          "location": "Steinach",
+          "year": 2026,
+          "mileage": "1.501 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/fiat-tipo-urban-diesel-schwarz-cat_ma28gr200528ge835va1126mt11610tr480206-9a759f39-7f83-46af-af39-f50c3f96fc2d",
+          "price_eur": 19990,
+          "price_display": "€ 19.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:32:27.977173Z",
+          "location": "Bad Nauheim",
+          "year": null,
+          "mileage": "50 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/fiat-tipo-1-6-m-jet-easy-kamera-klima-sofort-diesel-blau-cat_ma28gr200528ge835va1126mt11610tr2709-1e29a904-cd03-4240-aa44-65cd2b267997",
+          "price_eur": 17995,
+          "price_display": "€ 17.995",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:32:27.977173Z",
+          "location": "Neukirchen",
+          "year": 2025,
+          "mileage": "10 km",
+          "fuel": "Diesel"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/fiat/tipo?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 6,
+          "new": 6,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/fiat/tipo",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/fiat/tipo?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
