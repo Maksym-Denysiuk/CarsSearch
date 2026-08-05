@@ -17,7 +17,7 @@
       "brand_name": "Audi",
       "body_type": "roadster",
       "tier": "premium",
-      "first_year": 2014,
+      "first_year": null,
       "average_budget_eur": 44597,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -101,15 +101,15 @@
           "error": null
         }
       ],
-      "engine": "2.0 TFSI inline-4, 1984 cc, 235 kW (320 PS) @ 5600–6500 rpm, 400 Nm @ 2000–5600 rpm",
-      "gearbox": "7-speed S tronic",
-      "fuel_or_charge_consumption": "8.4–8.2 L/100 km (WLTP)",
+      "engine": "2.0-litre TFSI turbocharged petrol I4, 235 kW (320 hp)",
+      "gearbox": "7-speed S tronic dual-clutch automatic",
+      "fuel_or_charge_consumption": "8.3 L/100 km (WLTP)",
+      "tank_or_battery_size": "55 L",
       "doors": 2,
       "roof_removable": false,
-      "model_variant": "8S facelift (2014–), coupe and roadster, S tronic transmission",
       "spec_source": {
-        "url": "https://www.audi.de/en/technical-details-audi-tt-1646",
-        "retrieved_at": "2026-08-05T02:29:59.515656+00:00",
+        "url": "https://www.audi.co.uk/en/technical-details-audi-tt-16467",
+        "retrieved_at": "2026-08-05T16:56:56.951314+00:00",
         "method": "local-llm-web-search"
       }
     },
@@ -123,7 +123,7 @@
       "brand_name": "Porsche",
       "body_type": "roadster",
       "tier": "exotic",
-      "first_year": 2013,
+      "first_year": 2024,
       "average_budget_eur": 214117,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -207,95 +207,16 @@
           "error": null
         }
       ],
-      "engine": "3.0-liter twin-turbo flat-six-cylinder engine (Carrera 3.0, Carrera S 3.0, Carrera T 3.0, Carrera 4 3.0, Carrera 4S 3.0) or 3.6-liter twin-turbo flat-six-cylinder engine (Carrera GTS 3.6, Turbo S 3.6) or 4.0-liter naturally aspirated flat-six-cylinder engine (GT3 4.0)",
-      "gearbox": "PDK 8-speed automatic",
-      "fuel_or_charge_consumption": "10.1-10.9 L/100 km",
+      "engine": "3.0L twin-turbo flat-six, 443 hp",
+      "gearbox": "8-speed automatic (torque converter), available with 7-speed manual",
+      "fuel_or_charge_consumption": "10.1-10.7 L/100 km (WLTP)",
       "doors": 2,
       "roof_removable": true,
-      "roof_mechanism": "electric folding soft top (Cabriolet), electric roof operation (Targa)",
-      "model_variant": "992, facelift (2024-), Carrera, Carrera S, Carrera T, Carrera 4, Carrera 4S, Carrera GTS, Turbo, Turbo S, GT3, GT3 RS, GT2 RS",
+      "model_variant": "992 facelift (2024-)",
+      "body_style": "Coupe, Cabriolet, Targa",
       "spec_source": {
-        "url": "https://newsroom.porsche.com/dam/downloads/911-carrera-gts-en.pdf",
-        "retrieved_at": "2026-08-05T02:48:37.022308+00:00",
-        "method": "local-llm-web-search"
-      },
-      "tank_or_battery_size": "64 L"
-    },
-    {
-      "id": "porsche-992",
-      "name": "992",
-      "manufacturer": "Porsche",
-      "group_id": "g03-vw",
-      "group_name": "Volkswagen Group",
-      "brand_id": "porsche",
-      "brand_name": "Porsche",
-      "body_type": "roadster",
-      "tier": "exotic",
-      "first_year": 2024,
-      "average_budget_eur": 238890,
-      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
-      "search_status": "completed_insufficient_sources",
-      "search_status_note": "1 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
-      "offerings": [
-        {
-          "url": "https://www.auto.pt/carros-usados/porsche-992-gt3-touring-package-id-zrEQUKAB",
-          "price_eur": 238890,
-          "price_display": "238890",
-          "country": "PT",
-          "source_domain": "auto.pt",
-          "found_in_round": 2,
-          "captured_at": "2026-08-05T00:55:40.156022Z",
-          "location": null,
-          "year": 2024,
-          "mileage": "12635 km",
-          "fuel": "Gasolina",
-          "colour": "Preto",
-          "enrichment": "enriched"
-        }
-      ],
-      "offering_search_log": [
-        {
-          "round": 2,
-          "source": "standvirtual",
-          "url": "https://www.standvirtual.com/carros/porsche/992?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
-          "found": 35,
-          "new": 32,
-          "duplicates": 3,
-          "dropped": 3,
-          "error": null
-        },
-        {
-          "round": 2,
-          "source": "auto.pt",
-          "url": "https://www.auto.pt/carros-usados/porsche/992",
-          "found": 2,
-          "new": 2,
-          "duplicates": 0,
-          "dropped": 1,
-          "error": null
-        },
-        {
-          "round": 2,
-          "source": "autoscout24",
-          "url": "https://www.autoscout24.de/lst/porsche/992?fregfrom=2024",
-          "found": 20,
-          "new": 0,
-          "duplicates": 20,
-          "dropped": 0,
-          "error": null
-        }
-      ],
-      "engine": "3.0 L Turbocharged 6-cylinder Boxer engine, 480 hp",
-      "gearbox": "8-speed automatic transmission (PDK)",
-      "fuel_or_charge_consumption": "10.3–10.9 L/100 km (WLTP)",
-      "tank_or_battery_size": "64 L",
-      "doors": 2,
-      "roof_removable": false,
-      "roof_mechanism": "fixed roof, no roof opening",
-      "model_variant": "911 (992, facelift 2024–), Carrera S Coupe",
-      "spec_source": {
-        "url": "https://www.porsche.com/uk/en/models/911/specifications/",
-        "retrieved_at": "2026-08-05T02:38:46.723858+00:00",
+        "url": "https://www.autodata.net/en/porsche-911-992-facelift-2024",
+        "retrieved_at": "2026-08-05T16:57:25.890646+00:00",
         "method": "local-llm-web-search"
       }
     },
@@ -309,7 +230,7 @@
       "brand_name": "Porsche",
       "body_type": "roadster",
       "tier": "unconfirmed",
-      "first_year": 2017,
+      "first_year": 2016,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_insufficient_sources",
@@ -347,357 +268,17 @@
           "error": null
         }
       ],
-      "engine": "turbocharged flat-four engine",
-      "fuel_or_charge_consumption": "9.7–8.9 L/100 km (WLTP)",
-      "roof_removable": true,
-      "roof_mechanism": "electric soft-top roof, opens and closes automatically, operable up to 50 km/h",
-      "model_variant": "718 Boxster (soft top)",
-      "spec_source": {
-        "url": "https://www.caranddriver.com/reviews/718-boxster-roadster-review",
-        "retrieved_at": "2026-08-05T03:12:23.152590+00:00",
-        "method": "local-llm-web-search"
-      },
-      "gearbox": "6-speed manual or 7-speed Porsche Doppelkupplung (PDK) (both available)",
-      "tank_or_battery_size": "14.2 gal (≈53.8 L)",
-      "doors": 2
-    },
-    {
-      "id": "lamborghini-revuelto",
-      "name": "Revuelto",
-      "manufacturer": "Lamborghini",
-      "group_id": "g03-vw",
-      "group_name": "Volkswagen Group",
-      "brand_id": "lamborghini",
-      "brand_name": "Lamborghini",
-      "body_type": "roadster",
-      "tier": "ultra-exotic",
-      "first_year": null,
-      "average_budget_eur": 657752,
-      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
-      "search_status": "completed",
-      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
-      "offerings": [
-        {
-          "url": "https://www.standvirtual.com/carros/anuncio/lamborghini-revuelto-ID8Q0LUo.html",
-          "price_eur": 789990,
-          "price_display": "789 990",
-          "country": "PT",
-          "source_domain": "standvirtual.com",
-          "found_in_round": 1,
-          "captured_at": "2026-08-05T00:56:15.214016Z",
-          "location": null,
-          "year": 2025,
-          "mileage": "6 472 km",
-          "fuel": "Híbrido Plug-In",
-          "colour": "Azul",
-          "enrichment": "enriched"
-        },
-        {
-          "url": "https://www.standvirtual.com/carros/anuncio/lamborghini-revuelto-ver-standard-ID8PVcVX.html",
-          "price_eur": 740000,
-          "price_display": "740 000",
-          "country": "PT",
-          "source_domain": "standvirtual.com",
-          "found_in_round": 1,
-          "captured_at": "2026-08-05T00:56:15.214016Z",
-          "location": null,
-          "year": 2025,
-          "mileage": "4 444 km",
-          "fuel": "Híbrido Plug-In",
-          "colour": "Cinzento",
-          "enrichment": "enriched"
-        },
-        {
-          "url": "https://www.autoscout24.de/angebote/lamborghini-revuelto-ad-personam-lamborghini-nuernberg-elektro-benzin-orange-cat_ma41gr200796-e28b40a0-7474-4910-bfc5-52ef77e49b42",
-          "price_eur": 548970,
-          "price_display": "€ 548.970",
-          "country": "DE",
-          "source_domain": "autoscout24.de",
-          "found_in_round": 1,
-          "captured_at": "2026-08-05T00:56:15.214016Z",
-          "location": "Nürnberg",
-          "year": 2024,
-          "mileage": "890 km",
-          "fuel": "Elektro/Benzin",
-          "colour": "Orange",
-          "enrichment": "enriched"
-        },
-        {
-          "url": "https://www.autoscout24.de/angebote/lamborghini-revuelto-i-lamborghini-hamburg-elektro-benzin-blau-cat_ma41gr200796-860aa93d-5bc0-43ad-9039-ed985467f689",
-          "price_eur": 639900,
-          "price_display": "€ 639.900",
-          "country": "DE",
-          "source_domain": "autoscout24.de",
-          "found_in_round": 1,
-          "captured_at": "2026-08-05T00:56:15.214016Z",
-          "location": "Hamburg",
-          "year": 2025,
-          "mileage": "432 km",
-          "fuel": "Elektro/Benzin",
-          "colour": "Blau",
-          "enrichment": "enriched"
-        },
-        {
-          "url": "https://www.autoscout24.de/angebote/lamborghini-revuelto-i-lamborghini-hamburg-elektro-benzin-orange-cat_ma41gr200796-820183e0-25ad-4032-9ea4-491acfd7ac3f",
-          "price_eur": 569900,
-          "price_display": "€ 569.900",
-          "country": "DE",
-          "source_domain": "autoscout24.de",
-          "found_in_round": 1,
-          "captured_at": "2026-08-05T00:56:15.214016Z",
-          "location": "Hamburg",
-          "year": 2025,
-          "mileage": "2.937 km",
-          "fuel": "Elektro/Benzin",
-          "colour": "Orange",
-          "enrichment": "enriched"
-        }
-      ],
-      "offering_search_log": [
-        {
-          "round": 1,
-          "source": "standvirtual",
-          "url": "https://www.standvirtual.com/carros/lamborghini/revuelto?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
-          "found": 2,
-          "new": 2,
-          "duplicates": 0,
-          "dropped": 0,
-          "error": null
-        },
-        {
-          "round": 1,
-          "source": "auto.pt",
-          "url": "https://www.auto.pt/carros-usados/lamborghini/revuelto",
-          "found": 0,
-          "new": 0,
-          "duplicates": 0,
-          "dropped": 0,
-          "error": null
-        },
-        {
-          "round": 1,
-          "source": "autoscout24",
-          "url": "https://www.autoscout24.de/lst/lamborghini/revuelto?fregfrom=2024",
-          "found": 20,
-          "new": 20,
-          "duplicates": 0,
-          "dropped": 0,
-          "error": null
-        }
-      ]
-    },
-    {
-      "id": "lamborghini-temerario",
-      "name": "Temerario",
-      "manufacturer": "Lamborghini",
-      "group_id": "g03-vw",
-      "group_name": "Volkswagen Group",
-      "brand_id": "lamborghini",
-      "brand_name": "Lamborghini",
-      "body_type": "roadster",
-      "tier": "exotic",
-      "first_year": 2024,
-      "average_budget_eur": 382300,
-      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
-      "search_status": "completed_insufficient_sources",
-      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
-      "offerings": [
-        {
-          "url": "https://www.autoscout24.de/angebote/lamborghini-temerario-i-lamborghini-hamburg-i-my26-elektro-benzin-schwarz-cat_ma41gr202850-be1e588e-ddba-4cc6-8869-c4252fddb00a",
-          "price_eur": 389900,
-          "price_display": "€ 389.900",
-          "country": "DE",
-          "source_domain": "autoscout24.de",
-          "found_in_round": 2,
-          "captured_at": "2026-08-05T00:56:15.214016Z",
-          "location": "Hamburg",
-          "year": 2026,
-          "mileage": "1.033 km",
-          "fuel": "Elektro/Benzin",
-          "colour": "Schwarz",
-          "enrichment": "enriched"
-        },
-        {
-          "url": "https://www.autoscout24.de/angebote/lamborghini-temerario-i-lamborghini-hamburg-elektro-benzin-weiss-cat_ma41gr202850-3f0ceb29-19bc-4219-bd64-c38b10577644",
-          "price_eur": 357000,
-          "price_display": "€ 357.000",
-          "country": "DE",
-          "source_domain": "autoscout24.de",
-          "found_in_round": 2,
-          "captured_at": "2026-08-05T00:56:15.214016Z",
-          "location": "Hamburg",
-          "year": 2025,
-          "mileage": "7.305 km",
-          "fuel": "Elektro/Benzin",
-          "colour": "Weiß",
-          "enrichment": "enriched"
-        },
-        {
-          "url": "https://www.autoscout24.de/angebote/lamborghini-temerario-temerario-nero-sonus-p-display-lift-pr26-ready-elektro-benzin-schwarz-cat_ma41gr202850-0755f309-d830-44ea-b910-deeea75d4a93",
-          "price_eur": 399999,
-          "price_display": "€ 399.999",
-          "country": "DE",
-          "source_domain": "autoscout24.de",
-          "found_in_round": 2,
-          "captured_at": "2026-08-05T00:56:15.214016Z",
-          "location": "München",
-          "year": null,
-          "mileage": "0 km",
-          "fuel": "Elektro/Benzin",
-          "colour": "Schwarz",
-          "enrichment": "enriched"
-        }
-      ],
-      "offering_search_log": [
-        {
-          "round": 2,
-          "source": "standvirtual",
-          "url": "https://www.standvirtual.com/carros/lamborghini/temerario?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
-          "found": 0,
-          "new": 0,
-          "duplicates": 0,
-          "dropped": 0,
-          "error": null
-        },
-        {
-          "round": 2,
-          "source": "auto.pt",
-          "url": "https://www.auto.pt/carros-usados/lamborghini/temerario",
-          "found": 0,
-          "new": 0,
-          "duplicates": 0,
-          "dropped": 0,
-          "error": "PageMissing: http 404"
-        },
-        {
-          "round": 2,
-          "source": "autoscout24",
-          "url": "https://www.autoscout24.de/lst/lamborghini/temerario?fregfrom=2024",
-          "found": 15,
-          "new": 15,
-          "duplicates": 0,
-          "dropped": 0,
-          "error": null
-        }
-      ],
-      "engine": "4.0L twin-turbocharged V8, 800 hp, 730 Nm",
-      "gearbox": "8-speed automatic (dual-clutch transmission)",
-      "fuel_or_charge_consumption": "10.3–11.2 L/100 km (WLTP) combined fuel consumption; 4.3–6.4 kWh/100 km (WLTP) combined power consumption",
-      "roof_removable": false,
-      "model_variant": "HPEV plug-in hybrid with dual electric motors",
-      "spec_source": {
-        "url": "https://www.lamborghini.com/en-en/models/temerario",
-        "retrieved_at": "2026-08-05T03:02:32.221849+00:00",
-        "method": "local-llm-web-search"
-      },
+      "engine": "2.0L turbocharged petrol flat-4, 220 kW / 300 hp",
+      "gearbox": "6-speed manual and 7-speed PDK dual-clutch automatic",
+      "fuel_or_charge_consumption": "9.7–8.9 L/100 km (combined, WLTP)",
       "doors": 2,
-      "tank_or_battery_size": "82.5 L"
-    },
-    {
-      "id": "fiat-500c",
-      "name": "500C",
-      "manufacturer": "Fiat",
-      "group_id": "g04-stellantis",
-      "group_name": "Stellantis",
-      "brand_id": "fiat",
-      "brand_name": "Fiat",
-      "body_type": "roadster",
-      "tier": "mainstream",
-      "first_year": 2007,
-      "average_budget_eur": 14557,
-      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
-      "search_status": "completed_insufficient_sources",
-      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
-      "offerings": [
-        {
-          "url": "https://www.standvirtual.com/carros/anuncio/fiat-500c-ver-1-0-hybrid-ID8Q0OGg.html",
-          "price_eur": 14490,
-          "price_display": "14 490",
-          "country": "PT",
-          "source_domain": "standvirtual.com",
-          "found_in_round": 1,
-          "captured_at": "2026-08-05T00:58:49.801027Z",
-          "location": null,
-          "year": 2024,
-          "mileage": "33 642 km",
-          "fuel": "Gasolina",
-          "colour": "Branco",
-          "enrichment": "enriched"
-        },
-        {
-          "url": "https://www.standvirtual.com/carros/anuncio/fiat-500c-ver-1-0-hybrid-ID8Q0IVu.html",
-          "price_eur": 14590,
-          "price_display": "14 590",
-          "country": "PT",
-          "source_domain": "standvirtual.com",
-          "found_in_round": 1,
-          "captured_at": "2026-08-05T00:58:49.801540Z",
-          "location": null,
-          "year": 2024,
-          "mileage": "43 717 km",
-          "fuel": "Gasolina",
-          "colour": "Preto",
-          "enrichment": "enriched"
-        },
-        {
-          "url": "https://www.standvirtual.com/carros/anuncio/fiat-500c-ver-1-0-hybrid-ID8Q0IVE.html",
-          "price_eur": 14590,
-          "price_display": "14 590",
-          "country": "PT",
-          "source_domain": "standvirtual.com",
-          "found_in_round": 1,
-          "captured_at": "2026-08-05T00:58:49.801540Z",
-          "location": null,
-          "year": 2024,
-          "mileage": "44 784 km",
-          "fuel": "Gasolina",
-          "colour": "Branco",
-          "enrichment": "enriched"
-        }
-      ],
-      "offering_search_log": [
-        {
-          "round": 1,
-          "source": "standvirtual",
-          "url": "https://www.standvirtual.com/carros/fiat/500c?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
-          "found": 14,
-          "new": 13,
-          "duplicates": 1,
-          "dropped": 0,
-          "error": null
-        },
-        {
-          "round": 1,
-          "source": "auto.pt",
-          "url": "https://www.auto.pt/carros-usados/fiat/500c",
-          "found": 20,
-          "new": 20,
-          "duplicates": 0,
-          "dropped": 3,
-          "error": null
-        },
-        {
-          "round": 1,
-          "source": "autoscout24",
-          "url": "https://www.autoscout24.de/lst/fiat/500c?fregfrom=2024",
-          "found": 20,
-          "new": 20,
-          "duplicates": 0,
-          "dropped": 3,
-          "error": null
-        }
-      ],
-      "engine": "3-cylinder 1.0L Turbo petrol (69 hp)",
-      "gearbox": "5-speed manual",
-      "fuel_or_charge_consumption": "4.5 L/100 km (combined)",
-      "tank_or_battery_size": "35 L",
-      "doors": 3,
-      "roof_removable": false,
-      "roof_mechanism": "electric soft top",
-      "model_variant": "500C soft top convertible (2007-), with facelift (2016-)",
+      "roof_removable": true,
+      "roof_mechanism": "electric folding soft top, operable to 50 km/h",
+      "model_variant": "982 fourth-generation (2016-), Roadster",
+      "body_style": "Roadster",
       "spec_source": {
-        "url": "https://www.autotijd.be/nl/autos/specs/ Fiat/500C/",
-        "retrieved_at": "2026-08-05T02:32:07.528868+00:00",
+        "url": "https://www.porsche.com/international/models/718/718-models/718-boxster/",
+        "retrieved_at": "2026-08-05T17:09:21.948938+00:00",
         "method": "local-llm-web-search"
       }
     },
@@ -711,7 +292,7 @@
       "brand_name": "Lexus",
       "body_type": "roadster",
       "tier": "exotic",
-      "first_year": null,
+      "first_year": 2017,
       "average_budget_eur": 132980,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -795,13 +376,15 @@
           "error": null
         }
       ],
-      "engine": "5.0L V8, naturally aspirated (471 hp)",
+      "engine": "5.0L V-8, 471 hp",
       "gearbox": "10-speed automatic",
-      "fuel_or_charge_consumption": "6.6 L/100 km (WLTP)",
-      "tank_or_battery_size": "45 L",
+      "doors": 2,
+      "roof_removable": false,
+      "model_variant": "LC (ND, 2017-)",
+      "body_style": "coupe and convertible",
       "spec_source": {
-        "url": "https://www.autodata.net/en/lexus-lc-generation-5557",
-        "retrieved_at": "2026-08-05T02:49:51.969327+00:00",
+        "url": "https://www.caranddriver.com/reviews/2024-lexus-lc-review",
+        "retrieved_at": "2026-08-05T17:18:18.615794+00:00",
         "method": "local-llm-web-search"
       }
     },
@@ -868,17 +451,16 @@
           "error": null
         }
       ],
-      "engine": "0.658 L turbocharged 3-cylinder inline-3, 64 PS",
-      "gearbox": "7-speed Super Active Shift CVT (continuously variable)",
-      "fuel_or_charge_consumption": "4.5 L/100 km (WLTC)",
-      "tank_or_battery_size": "30 L",
+      "engine": "0.658L turbocharged petrol I3, 64 PS",
+      "gearbox": "continuously variable transmission (CVT)",
       "doors": 2,
       "roof_removable": true,
-      "roof_mechanism": "electrically operated retractable hardtop (Active Top)",
-      "model_variant": "2nd generation (LA400K), Robe, Cero, XPLAY, GR SPORT, and Coupe models",
+      "roof_mechanism": "detachable panel soft top",
+      "model_variant": "LA400K 2nd generation, soft top roadster",
+      "body_style": "2-seater soft top roadster",
       "spec_source": {
-        "url": "https://www.daihatsu.co.jp/copen/02_grade/index.html",
-        "retrieved_at": "2026-08-05T02:57:47.057201+00:00",
+        "url": "https://www.automobilisto.de/en/catalog/daihatsu/copen/copen-2nd-gen-la400k",
+        "retrieved_at": "2026-08-05T17:08:09.159780+00:00",
         "method": "local-llm-web-search"
       }
     },
@@ -892,7 +474,7 @@
       "brand_name": "Alpine",
       "body_type": "roadster",
       "tier": "premium",
-      "first_year": 2024,
+      "first_year": null,
       "average_budget_eur": 84013,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -990,126 +572,7 @@
           "dropped": 0,
           "error": null
         }
-      ],
-      "engine": "Inline 4 16 valve DOCH turbo, 1.8 L",
-      "gearbox": "7 speed dual clutch automatic",
-      "fuel_or_charge_consumption": "6.4 l/100 km",
-      "tank_or_battery_size": "45 L",
-      "doors": 2,
-      "roof_removable": false,
-      "model_variant": "R",
-      "spec_source": {
-        "url": "https://www.fastestlaps.com/models/alpine-a110r",
-        "retrieved_at": "2026-08-05T02:26:01.125177+00:00",
-        "method": "local-llm-web-search"
-      }
-    },
-    {
-      "id": "lotus-emira",
-      "name": "Emira",
-      "manufacturer": "Lotus",
-      "group_id": "g10-geely",
-      "group_name": "Geely Holding Group & Affiliates",
-      "brand_id": "lotus",
-      "brand_name": "Lotus",
-      "body_type": "roadster",
-      "tier": "exotic",
-      "first_year": 2021,
-      "average_budget_eur": 106222,
-      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
-      "search_status": "completed_insufficient_sources",
-      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
-      "offerings": [
-        {
-          "url": "https://www.autoscout24.de/angebote/lotus-emira-limited-type-86-1-of-12-sondermodell-benzin-blau-cat_ma44gr200886ge11116-d14a4356-91dc-4708-b93c-dc5413c6a546",
-          "price_eur": 103222,
-          "price_display": "€ 103.222",
-          "country": "DE",
-          "source_domain": "autoscout24.de",
-          "found_in_round": 1,
-          "captured_at": "2026-08-05T01:03:48.534636Z",
-          "location": "Markranstädt",
-          "year": 2025,
-          "mileage": "20 km",
-          "fuel": "Benzin",
-          "colour": "Blau (Seneca Blue)",
-          "enrichment": "enriched"
-        },
-        {
-          "url": "https://www.autoscout24.de/angebote/lotus-emira-turbo-se-dark-verdant-ppf-benzin-gruen-cat_ma44gr200886ge11116-d21e02af-19ec-401c-8776-6a0c939d46e3",
-          "price_eur": 112222,
-          "price_display": "€ 112.222",
-          "country": "DE",
-          "source_domain": "autoscout24.de",
-          "found_in_round": 1,
-          "captured_at": "2026-08-05T01:03:48.534636Z",
-          "location": "Markranstädt",
-          "year": 2025,
-          "mileage": "6.132 km",
-          "fuel": "Benzin",
-          "colour": "Grün",
-          "enrichment": "enriched"
-        },
-        {
-          "url": "https://www.autoscout24.de/angebote/lotus-emira-limited-type-86-1-of-12-leipzig-benzin-blau-cat_ma44gr200886ge11116-f1e05976-bb12-4bc8-be78-4992a828aab9",
-          "price_eur": 103222,
-          "price_display": "€ 103.222",
-          "country": "DE",
-          "source_domain": "autoscout24.de",
-          "found_in_round": 1,
-          "captured_at": "2026-08-05T01:03:48.534636Z",
-          "location": "Markranstädt",
-          "year": 2025,
-          "mileage": "20 km",
-          "fuel": "Benzin",
-          "colour": "Blau (Seneca Blue)",
-          "enrichment": "enriched"
-        }
-      ],
-      "offering_search_log": [
-        {
-          "round": 1,
-          "source": "standvirtual",
-          "url": "https://www.standvirtual.com/carros/lotus/emira?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
-          "found": 0,
-          "new": 0,
-          "duplicates": 0,
-          "dropped": 0,
-          "error": null
-        },
-        {
-          "round": 1,
-          "source": "auto.pt",
-          "url": "https://www.auto.pt/carros-usados/lotus/emira",
-          "found": 0,
-          "new": 0,
-          "duplicates": 0,
-          "dropped": 0,
-          "error": null
-        },
-        {
-          "round": 1,
-          "source": "autoscout24",
-          "url": "https://www.autoscout24.de/lst/lotus/emira?fregfrom=2024",
-          "found": 20,
-          "new": 20,
-          "duplicates": 0,
-          "dropped": 0,
-          "error": null
-        }
-      ],
-      "engine": "3.5-litre supercharged V6",
-      "gearbox": "8-speed automatic (DCT)",
-      "fuel_or_charge_consumption": "10.4 L/100 km (WLTP)",
-      "tank_or_battery_size": "52 L",
-      "doors": 2,
-      "roof_removable": false,
-      "model_variant": "Emira (2021-), V6 and V6 Automatic",
-      "spec_source": {
-        "url": "https://www.bing.com/.../Emira/Specs",
-        "retrieved_at": "2026-08-05T03:07:21.427863+00:00",
-        "method": "local-llm-web-search"
-      }
+      ]
     },
     {
       "id": "jaguar-f-type",
@@ -1205,10 +668,10 @@
           "error": null
         }
       ],
-      "roof_removable": true,
+      "fuel_or_charge_consumption": "6.9 L/100 km (WLTP)",
       "spec_source": {
-        "url": "https://www.jaguardealer.co.uk/vehicles/jaguar/f-type/2024",
-        "retrieved_at": "2026-08-05T03:07:57.541950+00:00",
+        "url": "https://www.jaguar.com/en/xj/jaguar-range/f-type/specifications/index.html",
+        "retrieved_at": "2026-08-05T17:02:27.504529+00:00",
         "method": "local-llm-web-search"
       }
     },
@@ -1222,7 +685,7 @@
       "brand_name": "Mazda",
       "body_type": "roadster",
       "tier": "mainstream",
-      "first_year": 2015,
+      "first_year": 2017,
       "average_budget_eur": 35072,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -1352,19 +815,20 @@
           "error": null
         }
       ],
-      "engine": "2.0L Skyactiv-G petrol I4, 184 hp",
-      "gearbox": "6-speed manual and 6-speed automatic",
+      "engine": "1.5L SkyActiv-G naturally aspirated I4, 132 hp",
+      "gearbox": "6-speed manual transmission",
+      "fuel_or_charge_consumption": "6.3 L/100 km (WLTP)",
+      "tank_or_battery_size": "45 L",
       "doors": 2,
       "roof_removable": true,
-      "roof_mechanism": "electric folding soft top, operable up to 50 km/h",
-      "model_variant": "fourth-generation soft top and RF",
+      "roof_mechanism": "electric folding soft top",
+      "model_variant": "ND facelift (2017-), soft top and RF hardtop",
+      "body_style": "Roadster",
       "spec_source": {
-        "url": "https://www.mazda.co.uk/global/en/pdf/brandsports/brandsports/2024_mazda_mx5_st_specifications_europe.pdf",
-        "retrieved_at": "2026-08-05T02:43:11.798143+00:00",
+        "url": "https://www.autodata.eu/en/mazda/mx-5/mx-5-iv-nd-facelift-2023/1.5-skyactiv-g-132hp/",
+        "retrieved_at": "2026-08-05T17:14:39.931082+00:00",
         "method": "local-llm-web-search"
-      },
-      "fuel_or_charge_consumption": "6.8 L/100 km (WLTP)",
-      "tank_or_battery_size": "45 L"
+      }
     },
     {
       "id": "ferrari-california",
@@ -1376,7 +840,7 @@
       "brand_name": "Ferrari",
       "body_type": "roadster",
       "tier": "unconfirmed",
-      "first_year": 2010,
+      "first_year": 2015,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_insufficient_sources",
@@ -1414,17 +878,16 @@
           "error": null
         }
       ],
-      "engine": "3.9L twin-turbocharged V8, 490 hp",
-      "gearbox": "7-speed dual-clutch automatic",
-      "fuel_or_charge_consumption": "8.9 L/100 km (WLTP)",
-      "tank_or_battery_size": "69 L",
+      "engine": "3.9L twin‑turbocharged V8, 552 hp",
+      "gearbox": "7‑speed dual‑clutch automatic (torque converter)",
       "doors": 2,
       "roof_removable": true,
-      "roof_mechanism": "electric folding soft top, operable to 50 km/h",
-      "model_variant": "F136, soft top only",
+      "roof_mechanism": "retractable hardtop",
+      "model_variant": "California T (2015‑), retractable hardtop soft‑top and RF hardtop",
+      "body_style": "coupe and convertible",
       "spec_source": {
-        "url": "https://www.garypoint.com/ferrari-california-ferrari-california-specifications",
-        "retrieved_at": "2026-08-05T01:59:45.564982+00:00",
+        "url": "https://www.gtopcars.com/makers/ferrari/california/",
+        "retrieved_at": "2026-08-05T17:11:04.813972+00:00",
         "method": "local-llm-web-search"
       }
     },
@@ -1438,7 +901,7 @@
       "brand_name": "Ferrari",
       "body_type": "roadster",
       "tier": "ultra-exotic",
-      "first_year": null,
+      "first_year": 2020,
       "average_budget_eur": 559938,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -1537,15 +1000,20 @@
           "error": null
         }
       ],
-      "fuel_or_charge_consumption": "6.4 L/100 km (WLTP)",
+      "engine": "4.0L twin-turbo V8 plug-in hybrid, 769 hp (1,000 hp system)",
+      "gearbox": "8-speed dual-clutch automatic (ZF)",
+      "fuel_or_charge_consumption": "7.6 L/100 km (WLTP)",
+      "tank_or_battery_size": "82 L",
+      "doors": 2,
+      "roof_removable": true,
+      "roof_mechanism": "electric soft top, folding and retractable",
+      "model_variant": "SF90 Spider (2020-), soft-top convertible",
+      "body_style": "2-seat open-top convertible",
       "spec_source": {
-        "url": "https://automobile-catalog.com/en/car/735-kw-1000-ps-986-hp",
-        "retrieved_at": "2026-08-05T03:01:23.811080+00:00",
+        "url": "https://www.ferrari.com/en-EU/auto/sf90-spider",
+        "retrieved_at": "2026-08-05T17:16:52.463739+00:00",
         "method": "local-llm-web-search"
-      },
-      "engine": "4.0 L twin‑turbo V8 plug‑in hybrid",
-      "gearbox": "8‑speed dual‑clutch",
-      "doors": 2
+      }
     },
     {
       "id": "ferrari-f8-spider",
@@ -1557,7 +1025,7 @@
       "brand_name": "Ferrari",
       "body_type": "roadster",
       "tier": "exotic",
-      "first_year": 2020,
+      "first_year": null,
       "average_budget_eur": 369000,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -1627,17 +1095,18 @@
           "error": null
         }
       ],
-      "engine": "3.9 L twin‑turbocharged V8",
-      "gearbox": "7‑speed dual‑clutch automatic (F1 DCT, torque converter)",
-      "fuel_or_charge_consumption": "11.0 L/100 km",
+      "engine": "3.9L twin-turbocharged V8, 720 cv",
+      "gearbox": "7-speed dual-clutch (F1 DCT)",
+      "fuel_or_charge_consumption": "13 L/100 km (WLTP)",
       "tank_or_battery_size": "78 L",
       "doors": 2,
       "roof_removable": true,
-      "roof_mechanism": "electric retractable hardtop, operable up to 45 km/h",
-      "model_variant": "F8 Tributo Spider, retractable hardtop, soft top and RF hardtop",
+      "roof_mechanism": "electric retractable hardtop",
+      "model_variant": "F8 Spider (2019–2023), soft top convertible",
+      "body_style": "Coupe - Cabriolet",
       "spec_source": {
-        "url": "https://www.ferrari.com/en_EN/brands-and-models/ferrari/vehicles/f8-tributo/spider",
-        "retrieved_at": "2026-08-05T03:11:35.545531+00:00",
+        "url": "https://www.autodata.net/en/ferrari/f8/f8-spider/3.9-v8-720-hp-f1-dct",
+        "retrieved_at": "2026-08-05T17:21:46.495773+00:00",
         "method": "local-llm-web-search"
       }
     },
@@ -1651,7 +1120,7 @@
       "brand_name": "Ferrari",
       "body_type": "roadster",
       "tier": "exotic",
-      "first_year": 2017,
+      "first_year": 2020,
       "average_budget_eur": 257640,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -1733,17 +1202,18 @@
           "error": null
         }
       ],
-      "engine": "3.9 L twin‑turbo V8 (F154BE), 600 hp",
-      "gearbox": "7‑speed dual‑clutch",
-      "fuel_or_charge_consumption": "10.7 L/100 km",
+      "engine": "3.9L twin-turbo V8 (F154 BH), 620 cv (456 kW) at 5750–7500 rpm, 760 Nm at 3000–5750 rpm",
+      "gearbox": "8-speed dual-clutch automatic",
+      "fuel_or_charge_consumption": "11.3 l/100 km (WLTC)",
       "tank_or_battery_size": "80 L",
       "doors": 2,
       "roof_removable": false,
-      "roof_mechanism": "electric retractable hardtop",
-      "model_variant": "Portofino first generation (2017–2023), Portofino M facelift (2020–2023), soft top retractable hardtop convertible",
+      "roof_mechanism": "electric retractable hardtop convertible roof, operable while driving, folds into the trunk",
+      "model_variant": "Portofino M (2020–2024), soft-top and RF hardtop convertible",
+      "body_style": "2-door retractable hardtop convertible",
       "spec_source": {
-        "url": "https://en.wikipedia.org/wiki/Ferrari_Portofino",
-        "retrieved_at": "2026-08-05T02:36:02.885555+00:00",
+        "url": "https://lisboa.ferraridealers.com/en-GB/ferrari-portofino-m",
+        "retrieved_at": "2026-08-05T17:03:40.984953+00:00",
         "method": "local-llm-web-search"
       }
     },
@@ -1757,7 +1227,7 @@
       "brand_name": "Aston Martin",
       "body_type": "roadster",
       "tier": "unconfirmed",
-      "first_year": 2023,
+      "first_year": 2024,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_insufficient_sources",
@@ -1795,17 +1265,16 @@
           "error": "PageMissing: http 404"
         }
       ],
-      "engine": "4.0L twin-turbocharged petrol V8",
-      "gearbox": "8-speed automatic with paddle shifters",
-      "fuel_or_charge_consumption": "11.6 L/100 km (WLTP)",
-      "tank_or_battery_size": "62.4 L",
+      "engine": "4.0L Twin Turbo V8, 510 hp",
+      "gearbox": "8-speed automatic (torque converter)",
       "doors": 2,
       "roof_removable": true,
-      "roof_mechanism": "electric folding soft top, operable at speeds up to 50 km/h",
-      "model_variant": "Phase I (2023-), soft top",
+      "roof_mechanism": "electric folding soft top, operable to 50 km/h",
+      "model_variant": "2024 V8",
+      "body_style": "Roadster",
       "spec_source": {
-        "url": "https://www.astonmartin.com/en_GB/models/vantage/roadster/",
-        "retrieved_at": "2026-08-05T02:00:13.651756+00:00",
+        "url": "https://www.caranddriver.com/specs/209-3298",
+        "retrieved_at": "2026-08-05T17:13:02.870850+00:00",
         "method": "local-llm-web-search"
       }
     },
@@ -1903,19 +1372,17 @@
           "error": null
         }
       ],
-      "engine": "4.0L twin-turbocharged petrol V8, 655 hp (489 kW)",
+      "engine": "4.0L twin-turbo V8, 655 bhp",
       "gearbox": "8-speed automatic",
       "tank_or_battery_size": "78 L",
-      "doors": 2,
       "roof_removable": false,
+      "model_variant": "AMR (2024-), V8",
+      "body_style": "coupe convertible",
       "spec_source": {
-        "url": "https://www.ultimatecarpage.com/spec/86/02/Aston-Martin-Vantage.htm",
-        "retrieved_at": "2026-08-05T03:08:22.522491+00:00",
+        "url": "https://www.ultimatecarpage.com/spec/86/2/Aston-Martin-Vantage.htm",
+        "retrieved_at": "2026-08-05T17:03:48.774990+00:00",
         "method": "local-llm-web-search"
-      },
-      "fuel_or_charge_consumption": "null",
-      "roof_mechanism": "null",
-      "model_variant": "null"
+      }
     },
     {
       "id": "morgan-motor-company-super-3",
@@ -1965,18 +1432,14 @@
           "error": "PageMissing: http 404"
         }
       ],
-      "engine": "1.5 litre three cylinder, naturally aspirated Ford engine, 118 bhp",
-      "gearbox": "manual",
-      "fuel_or_charge_consumption": "7.0 L/100 km (Combined)",
+      "engine": "1432 cc (1.432 L) in-line three cylinder, naturally aspirated",
+      "gearbox": "5-speed manual",
       "roof_removable": false,
       "spec_source": {
-        "url": "https://www.cararac.com/spec/morgan/super-3",
-        "retrieved_at": "2026-08-05T03:14:09.279122+00:00",
+        "url": "https://www.morganmotorcompany.com/models/super-3/vehicle-technical-specification",
+        "retrieved_at": "2026-08-05T17:13:37.070767+00:00",
         "method": "local-llm-web-search"
-      },
-      "tank_or_battery_size": "52 L",
-      "doors": 0,
-      "roof_mechanism": "not available"
+      }
     }
   ]
 }

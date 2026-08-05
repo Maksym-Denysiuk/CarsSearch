@@ -225,17 +225,24 @@
         ' &mdash; ' + where + ' (<a href="' + esc(o.url) + '" target="_blank" rel="noopener">' +
         esc(o.source_domain) + '</a>)' + offeringNotes(o) + '</span>';
     }).join('');
-    /* Open by default. It was collapsed back when an offering was a price
-       and a link, and hiding that kept the table scannable. Now each one
-       carries the year, mileage, colour and any damage the advert admits
-       to — the facts a buyer is actually here for — and a row that reads
-       "6 offerings" with everything folded away behind it looks, quite
-       reasonably, like a table with no detail in it.
+    /* Collapsed by default.
 
-       The search log stays in its own nested, closed disclosure: that one
-       really is diagnostics. */
+       This was open for a while, and the argument was a good one: an
+       offering stopped being a price and a link, so folding it away made
+       a row read like a table with no detail in it.
+
+       What changed is the rest of the table. The per-offering aggregate
+       columns now carry colour, year and mileage at row level
+       (offeringAggregateCell), so the detail the old default existed to
+       expose is already visible without opening anything — while a
+       75-model request with every row expanded is several screens of
+       listings between one car and the next, which is the scannability
+       the original collapsed default was protecting.
+
+       So: summary open, detail on request. The search log stays in its
+       own nested, closed disclosure — that one really is diagnostics. */
     var summary = items.length + ' offering' + (items.length > 1 ? 's' : '');
-    return '<details open><summary>' + summary + '</summary>' + body +
+    return '<details><summary>' + summary + '</summary>' + body +
       (log.length ? renderRoundLog(log) : '') + '</details>';
   }
 
