@@ -5869,6 +5869,183 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "honda-civic",
+      "name": "Civic",
+      "manufacturer": "Honda",
+      "group_id": "g13-independent-mainstream",
+      "group_name": "Independent Mainstream Manufacturers",
+      "brand_id": "honda",
+      "brand_name": "Honda",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 53187,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/honda-civic-ver-2-0-i-vtec-type-r-ID8Q0Ejw.html",
+          "price_eur": 64900,
+          "price_display": "64 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:52:01.254875Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "18 000 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/honda-civic-ver-2-0-vtec-turbo-type-r-ID8Q0pyd.html",
+          "price_eur": 69500,
+          "price_display": "69 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:52:01.254875Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "700 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/honda-civic-ver-2-0-i-vtec-type-r-ID8Q0zsj.html",
+          "price_eur": 64950,
+          "price_display": "64 950",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:52:01.254875Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "6 524 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/honda-civic-e-hev-2-0-hybrid-sport-led-einparkhilfe-wireless-elektro-benzin-schwarz-cat_ma31gr200622ge1980va3479mt12730tr7208-3de4f6d1-7cdd-4c83-9bca-5d68d99eb147",
+          "price_eur": 34890,
+          "price_display": "€ 34.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:52:01.254875Z",
+          "location": "München",
+          "year": 2025,
+          "mileage": "3.000 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/honda-civic-2-0-type-r-vtec-benzin-weiss-cat_ma31gr200622ge1980va3479mt12731tr480264-e2e24d23-c427-42f9-a209-4b3032af96e2",
+          "price_eur": 51900,
+          "price_display": "€ 51.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:52:01.254875Z",
+          "location": "Langenenslingen",
+          "year": 2025,
+          "mileage": "4.500 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/honda-civic-hybrid-e-hev-sport-facelift-mj26-elektro-benzin-grau-cat_ma31gr200622ge1980va3479mt12730tr7208-839dae0d-e55d-4d19-9f84-67b1686f9c9b",
+          "price_eur": 32980,
+          "price_display": "€ 32.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:52:01.254875Z",
+          "location": "Düsseldorf",
+          "year": 2026,
+          "mileage": "2.000 km",
+          "fuel": "Elektro/Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/honda/civic?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 5,
+          "new": 4,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/honda/civic",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/honda/civic?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "honda-accord",
+      "name": "Accord",
+      "manufacturer": "Honda",
+      "group_id": "g13-independent-mainstream",
+      "group_name": "Independent Mainstream Manufacturers",
+      "brand_id": "honda",
+      "brand_name": "Honda",
+      "body_type": "sedan",
+      "tier": "unconfirmed",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/honda/accord?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/honda/accord",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/honda/accord?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }

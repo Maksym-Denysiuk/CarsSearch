@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g13-independent-mainstream",
       "group_name": "Independent Mainstream Manufacturers",
-      "brand_id": "honda",
-      "brand_name": "Honda"
+      "brand_id": "acura",
+      "brand_name": "Acura"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 12,
       "brands_total": 131,
-      "brands_done": 72,
+      "brands_done": 73,
       "brands_failed": 7,
-      "models_found": 206,
+      "models_found": 212,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -3440,14 +3440,55 @@
         {
           "group_id": "g13-independent-mainstream",
           "group_name": "Independent Mainstream Manufacturers",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "honda",
               "brand_name": "Honda",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 6,
+              "completed_at": "2026-08-05T03:52:01.261466+00:00",
+              "diagnostics": {
+                "models_suggested": 2,
+                "searches_attempted": 6,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 46,
+                "unique_offerings": 45,
+                "candidates_checked": 10,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 6,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 4
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 18,
+                "model_suggestion_retries": 0,
+                "models_discovered": 11,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 2,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  },
+                  "auto.pt": {
+                    "models_discovered": 8,
+                    "searches_attempted": 2,
+                    "candidates_checked": 4,
+                    "firewall_dropped": 4
+                  },
+                  "autoscout24": {
+                    "models_discovered": 7,
+                    "searches_attempted": 2,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "acura",
