@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g12-electric-emerging",
       "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "avatr",
-      "brand_name": "Avatr"
+      "brand_id": "gac-aion",
+      "brand_name": "GAC Aion"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 11,
       "brands_total": 131,
-      "brands_done": 67,
+      "brands_done": 68,
       "brands_failed": 7,
       "models_found": 202,
       "groups": [
@@ -3206,9 +3206,48 @@
             {
               "brand_id": "avatr",
               "brand_name": "Avatr",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T03:47:38.283384+00:00",
+              "diagnostics": {
+                "models_suggested": 6,
+                "searches_attempted": 18,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 213,
+                "unique_offerings": 53,
+                "candidates_checked": 18,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 18
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 40,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 6,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 6,
+                    "candidates_checked": 18,
+                    "firewall_dropped": 18
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 6,
+                    "searches_missing": 6
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0,
+                    "searches_attempted": 6,
+                    "searches_missing": 6
+                  }
+                }
+              }
             },
             {
               "brand_id": "gac-aion",
