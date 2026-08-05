@@ -6411,6 +6411,95 @@
           "error": "PageMissing: http 404"
         }
       ]
+    },
+    {
+      "id": "ora-funky-cat",
+      "name": "Funky Cat",
+      "manufacturer": "Ora",
+      "group_id": "g15-gwm",
+      "group_name": "Great Wall Motor (GWM)",
+      "brand_id": "ora",
+      "brand_name": "Ora",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 21817,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/ora-funky-cat-03-400-pro+-panoramadach-elektr-heckklappe-elektro-schwarz-cat_ma51934gr201137ge1587tr480639-ed12bd21-be0b-4e4c-84ca-b133d9f70adb",
+          "price_eur": 23990,
+          "price_display": "€ 23.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T04:05:32.536530Z",
+          "location": "Andervenne/Emsland",
+          "year": 2025,
+          "mileage": "10 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ora-funky-cat-ora-03-126-kw-300-pro-navi-360-k-klima-uvm-elektro-schwarz-cat_ma51934gr201137ge1587tr756-1a3f1346-a421-4810-984f-2da3e9c2292a",
+          "price_eur": 17470,
+          "price_display": "€ 17.470",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T04:05:32.536530Z",
+          "location": "Holzminden",
+          "year": 2024,
+          "mileage": "11.356 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ora-funky-cat-400-pro+-celestial-blue-starry-black-elektro-blau-cat_ma51934gr201137ge1587tr480639-7595993d-ce79-45cc-a2ab-f4f706a2252b",
+          "price_eur": 23990,
+          "price_display": "€ 23.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T04:05:32.536530Z",
+          "location": "Bad Hersfeld",
+          "year": 2025,
+          "mileage": "20 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/ora/funky-cat?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/ora/funky-cat",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/ora/funky-cat?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
