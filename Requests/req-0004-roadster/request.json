@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g09-renault-nissan-mitsubishi",
       "group_name": "Renault-Nissan-Mitsubishi Alliance",
-      "brand_id": "renault",
-      "brand_name": "Renault"
+      "brand_id": "nissan",
+      "brand_name": "Nissan"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 8,
       "brands_total": 131,
-      "brands_done": 39,
+      "brands_done": 40,
       "brands_failed": 5,
       "models_found": 22,
       "groups": [
@@ -1784,14 +1784,44 @@
         {
           "group_id": "g09-renault-nissan-mitsubishi",
           "group_name": "Renault-Nissan-Mitsubishi Alliance",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "renault",
               "brand_name": "Renault",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T01:02:42.042698+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 10,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "models_discovered": 5
+                  },
+                  "autoscout24": {
+                    "models_discovered": 10
+                  }
+                }
+              }
             },
             {
               "brand_id": "nissan",
