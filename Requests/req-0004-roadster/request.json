@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g19-dongfeng",
       "group_name": "Dongfeng Motor",
-      "brand_id": "m-hero",
-      "brand_name": "M-Hero"
+      "brand_id": "forthing",
+      "brand_name": "Forthing"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 18,
       "brands_total": 131,
       "brands_done": 96,
-      "brands_failed": 18,
+      "brands_failed": 19,
       "models_found": 50,
       "groups": [
         {
@@ -4610,9 +4610,40 @@
             {
               "brand_id": "m-hero",
               "brand_name": "M-Hero",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T01:30:09.007880+00:00",
+              "error": "no_model_names_suggested",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 1,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0
+                  }
+                }
+              }
             },
             {
               "brand_id": "forthing",
