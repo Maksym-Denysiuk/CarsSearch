@@ -87,7 +87,7 @@
         "engine": { "type": "string" },
         "fuel_or_charge_consumption": { "type": "string" },
         "tank_or_battery_size": { "type": "string" },
-        "doors": { "type": "integer", "minimum": 1, "description": "Not pinned to 2 — requests are no longer roadster-only." },
+        "doors": { "type": "integer", "minimum": 0, "description": "Not pinned to 2 — requests are no longer roadster-only. Minimum 0, not 1: the Morgan Super 3 is an open three-wheeler with no doors at all, so 0 is a sourced fact and a floor of 1 rejected it. Negative is still refused, which is the part that was doing the work." },
         "tax": { "$ref": "#/$defs/tax_value" },
         "import_tax": { "$ref": "#/$defs/tax_value" },
         "photo": {

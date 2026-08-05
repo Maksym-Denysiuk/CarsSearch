@@ -4,7 +4,7 @@
   "generated": "2026-08-05",
   "metadata": {
     "currency": "EUR",
-    "specs_disclaimer": "Spec fields (engine, consumption, tank/battery, variant, roof, doors, tax, photo) are omitted rather than estimated: this pipeline reads listing search results, which do not publish them. Offerings, prices and years are read from the listing cards and each price was re-verified against the listing page it came from."
+    "specs_disclaimer": "Spec fields (engine, gearbox, consumption, tank/battery, doors, roof, variant, first year) were gathered by a local language model using web search and are NOT verified against any listing -- treat them as good-faith approximations for the model, not statements about any particular car, and check spec_source before relying on one. Tax fields are left absent rather than estimated. The offerings below are different: each price was re-verified against the listing page it came from, and each car's own year, mileage and colour are read from its own advert."
   },
   "models": [
     {
@@ -17,7 +17,7 @@
       "brand_name": "Audi",
       "body_type": "roadster",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2014,
       "average_budget_eur": 44597,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -34,7 +34,9 @@
           "location": "Ebersberg bei München",
           "year": 2024,
           "mileage": "52.000 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/smyle/details/c956a355-146f-402f-accf-7c5d52d535e0/",
@@ -47,7 +49,10 @@
           "location": "Helgoland",
           "year": 2024,
           "mileage": "52.000 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß",
+          "condition_notes": "Dies ist ein Gebrauchtwagen mit Gebrauchsspuren",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/audi-tt-audi-tt-coupe-45-tfsi-s-line-bronze-selection-bo-benzin-cat_ma9gr15627ge752va695mt1308tr479980-e82d11f8-5bd5-4d6b-99b8-91a6f048544d",
@@ -60,7 +65,8 @@
           "location": "mainz kastel",
           "year": 2024,
           "mileage": "25.153 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "enrichment": "not_stated"
         }
       ],
       "offering_search_log": [
@@ -94,7 +100,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.0 TFSI inline-4, 1984 cc, 235 kW (320 PS) @ 5600–6500 rpm, 400 Nm @ 2000–5600 rpm",
+      "gearbox": "7-speed S tronic",
+      "fuel_or_charge_consumption": "8.4–8.2 L/100 km (WLTP)",
+      "doors": 2,
+      "roof_removable": false,
+      "model_variant": "8S facelift (2014–), coupe and roadster, S tronic transmission",
+      "spec_source": {
+        "url": "https://www.audi.de/en/technical-details-audi-tt-1646",
+        "retrieved_at": "2026-08-05T02:29:59.515656+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "porsche-911",
@@ -106,7 +123,7 @@
       "brand_name": "Porsche",
       "body_type": "roadster",
       "tier": "exotic",
-      "first_year": null,
+      "first_year": 2013,
       "average_budget_eur": 214117,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -123,7 +140,9 @@
           "location": "Germaringen",
           "year": 2025,
           "mileage": "16.351 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Violett",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/porsche-911-gt3-rs-weissach-lift-bose-ceramic-bremsen-benzin-weiss-cat_ma57gr100070ge11012va2965tr480682-cf4de874-548c-4518-8c20-869c371e33de",
@@ -136,7 +155,9 @@
           "location": "Berlin",
           "year": 2025,
           "mileage": "2.000 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiss",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/porsche-911-911-gt3-pdk-touring-lift-bose-carbon-exclusive-manufaktur-benzin-grau-cat_ma57gr100070ge288va2968tr480682-4d995aaa-9a1e-46c7-8598-0f32cc1b167c",
@@ -149,7 +170,9 @@
           "location": "Taufkirchen",
           "year": 2024,
           "mileage": "26.550 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -183,7 +206,20 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "3.0-liter twin-turbo flat-six-cylinder engine (Carrera 3.0, Carrera S 3.0, Carrera T 3.0, Carrera 4 3.0, Carrera 4S 3.0) or 3.6-liter twin-turbo flat-six-cylinder engine (Carrera GTS 3.6, Turbo S 3.6) or 4.0-liter naturally aspirated flat-six-cylinder engine (GT3 4.0)",
+      "gearbox": "PDK 8-speed automatic",
+      "fuel_or_charge_consumption": "10.1-10.9 L/100 km",
+      "doors": 2,
+      "roof_removable": true,
+      "roof_mechanism": "electric folding soft top (Cabriolet), electric roof operation (Targa)",
+      "model_variant": "992, facelift (2024-), Carrera, Carrera S, Carrera T, Carrera 4, Carrera 4S, Carrera GTS, Turbo, Turbo S, GT3, GT3 RS, GT2 RS",
+      "spec_source": {
+        "url": "https://newsroom.porsche.com/dam/downloads/911-carrera-gts-en.pdf",
+        "retrieved_at": "2026-08-05T02:48:37.022308+00:00",
+        "method": "local-llm-web-search"
+      },
+      "tank_or_battery_size": "64 L"
     },
     {
       "id": "porsche-992",
@@ -195,7 +231,7 @@
       "brand_name": "Porsche",
       "body_type": "roadster",
       "tier": "exotic",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 238890,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -212,7 +248,9 @@
           "location": null,
           "year": 2024,
           "mileage": "12635 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Preto",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -246,7 +284,20 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "3.0 L Turbocharged 6-cylinder Boxer engine, 480 hp",
+      "gearbox": "8-speed automatic transmission (PDK)",
+      "fuel_or_charge_consumption": "10.3–10.9 L/100 km (WLTP)",
+      "tank_or_battery_size": "64 L",
+      "doors": 2,
+      "roof_removable": false,
+      "roof_mechanism": "fixed roof, no roof opening",
+      "model_variant": "911 (992, facelift 2024–), Carrera S Coupe",
+      "spec_source": {
+        "url": "https://www.porsche.com/uk/en/models/911/specifications/",
+        "retrieved_at": "2026-08-05T02:38:46.723858+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "porsche-boxster",
@@ -258,7 +309,7 @@
       "brand_name": "Porsche",
       "body_type": "roadster",
       "tier": "unconfirmed",
-      "first_year": null,
+      "first_year": 2017,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_insufficient_sources",
@@ -295,7 +346,20 @@
           "dropped": 3,
           "error": null
         }
-      ]
+      ],
+      "engine": "turbocharged flat-four engine",
+      "fuel_or_charge_consumption": "9.7–8.9 L/100 km (WLTP)",
+      "roof_removable": true,
+      "roof_mechanism": "electric soft-top roof, opens and closes automatically, operable up to 50 km/h",
+      "model_variant": "718 Boxster (soft top)",
+      "spec_source": {
+        "url": "https://www.caranddriver.com/reviews/718-boxster-roadster-review",
+        "retrieved_at": "2026-08-05T03:12:23.152590+00:00",
+        "method": "local-llm-web-search"
+      },
+      "gearbox": "6-speed manual or 7-speed Porsche Doppelkupplung (PDK) (both available)",
+      "tank_or_battery_size": "14.2 gal (≈53.8 L)",
+      "doors": 2
     },
     {
       "id": "lamborghini-revuelto",
@@ -324,7 +388,9 @@
           "location": null,
           "year": 2025,
           "mileage": "6 472 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Azul",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/lamborghini-revuelto-ver-standard-ID8PVcVX.html",
@@ -337,7 +403,9 @@
           "location": null,
           "year": 2025,
           "mileage": "4 444 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/lamborghini-revuelto-ad-personam-lamborghini-nuernberg-elektro-benzin-orange-cat_ma41gr200796-e28b40a0-7474-4910-bfc5-52ef77e49b42",
@@ -350,7 +418,9 @@
           "location": "Nürnberg",
           "year": 2024,
           "mileage": "890 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Orange",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/lamborghini-revuelto-i-lamborghini-hamburg-elektro-benzin-blau-cat_ma41gr200796-860aa93d-5bc0-43ad-9039-ed985467f689",
@@ -363,7 +433,9 @@
           "location": "Hamburg",
           "year": 2025,
           "mileage": "432 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Blau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/lamborghini-revuelto-i-lamborghini-hamburg-elektro-benzin-orange-cat_ma41gr200796-820183e0-25ad-4032-9ea4-491acfd7ac3f",
@@ -376,7 +448,9 @@
           "location": "Hamburg",
           "year": 2025,
           "mileage": "2.937 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Orange",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -422,7 +496,7 @@
       "brand_name": "Lamborghini",
       "body_type": "roadster",
       "tier": "exotic",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 382300,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -439,7 +513,9 @@
           "location": "Hamburg",
           "year": 2026,
           "mileage": "1.033 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/lamborghini-temerario-i-lamborghini-hamburg-elektro-benzin-weiss-cat_ma41gr202850-3f0ceb29-19bc-4219-bd64-c38b10577644",
@@ -452,7 +528,9 @@
           "location": "Hamburg",
           "year": 2025,
           "mileage": "7.305 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/lamborghini-temerario-temerario-nero-sonus-p-display-lift-pr26-ready-elektro-benzin-schwarz-cat_ma41gr202850-0755f309-d830-44ea-b910-deeea75d4a93",
@@ -465,7 +543,9 @@
           "location": "München",
           "year": null,
           "mileage": "0 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -499,7 +579,19 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "4.0L twin-turbocharged V8, 800 hp, 730 Nm",
+      "gearbox": "8-speed automatic (dual-clutch transmission)",
+      "fuel_or_charge_consumption": "10.3–11.2 L/100 km (WLTP) combined fuel consumption; 4.3–6.4 kWh/100 km (WLTP) combined power consumption",
+      "roof_removable": false,
+      "model_variant": "HPEV plug-in hybrid with dual electric motors",
+      "spec_source": {
+        "url": "https://www.lamborghini.com/en-en/models/temerario",
+        "retrieved_at": "2026-08-05T03:02:32.221849+00:00",
+        "method": "local-llm-web-search"
+      },
+      "doors": 2,
+      "tank_or_battery_size": "82.5 L"
     },
     {
       "id": "fiat-500c",
@@ -511,7 +603,7 @@
       "brand_name": "Fiat",
       "body_type": "roadster",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2007,
       "average_budget_eur": 14557,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -528,7 +620,9 @@
           "location": null,
           "year": 2024,
           "mileage": "33 642 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Branco",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/fiat-500c-ver-1-0-hybrid-ID8Q0IVu.html",
@@ -541,7 +635,9 @@
           "location": null,
           "year": 2024,
           "mileage": "43 717 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/fiat-500c-ver-1-0-hybrid-ID8Q0IVE.html",
@@ -554,7 +650,9 @@
           "location": null,
           "year": 2024,
           "mileage": "44 784 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Branco",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -588,7 +686,20 @@
           "dropped": 3,
           "error": null
         }
-      ]
+      ],
+      "engine": "3-cylinder 1.0L Turbo petrol (69 hp)",
+      "gearbox": "5-speed manual",
+      "fuel_or_charge_consumption": "4.5 L/100 km (combined)",
+      "tank_or_battery_size": "35 L",
+      "doors": 3,
+      "roof_removable": false,
+      "roof_mechanism": "electric soft top",
+      "model_variant": "500C soft top convertible (2007-), with facelift (2016-)",
+      "spec_source": {
+        "url": "https://www.autotijd.be/nl/autos/specs/ Fiat/500C/",
+        "retrieved_at": "2026-08-05T02:32:07.528868+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "lexus-lc",
@@ -617,7 +728,9 @@
           "location": "Euskirchen",
           "year": 2024,
           "mileage": "12.602 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/lexus-lc-ultimate-edition-nr-122-165-15j-garantie-benzin-weiss-cat_ma43gr200852ge1830va3545tr480423-fce3073d-727a-4574-a0dc-b134ba928bbc",
@@ -630,7 +743,9 @@
           "location": "Wesel",
           "year": 2024,
           "mileage": "20 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/lexus-lc-cabrio-ultimate-edition-benzin-weiss-cat_ma43gr200852ge1830va3545tr480423-8767ae27-aacf-4791-8dd2-c27bd83570df",
@@ -643,7 +758,9 @@
           "location": "Osnabrück",
           "year": 2024,
           "mileage": "3.950 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -677,7 +794,16 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "5.0L V8, naturally aspirated (471 hp)",
+      "gearbox": "10-speed automatic",
+      "fuel_or_charge_consumption": "6.6 L/100 km (WLTP)",
+      "tank_or_battery_size": "45 L",
+      "spec_source": {
+        "url": "https://www.autodata.net/en/lexus-lc-generation-5557",
+        "retrieved_at": "2026-08-05T02:49:51.969327+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "daihatsu-copen",
@@ -689,7 +815,7 @@
       "brand_name": "Daihatsu",
       "body_type": "roadster",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2014,
       "average_budget_eur": 14500,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -706,7 +832,8 @@
           "location": "Foggia",
           "year": 2025,
           "mileage": "70.449 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "enrichment": "not_stated"
         }
       ],
       "offering_search_log": [
@@ -740,7 +867,20 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "0.658 L turbocharged 3-cylinder inline-3, 64 PS",
+      "gearbox": "7-speed Super Active Shift CVT (continuously variable)",
+      "fuel_or_charge_consumption": "4.5 L/100 km (WLTC)",
+      "tank_or_battery_size": "30 L",
+      "doors": 2,
+      "roof_removable": true,
+      "roof_mechanism": "electrically operated retractable hardtop (Active Top)",
+      "model_variant": "2nd generation (LA400K), Robe, Cero, XPLAY, GR SPORT, and Coupe models",
+      "spec_source": {
+        "url": "https://www.daihatsu.co.jp/copen/02_grade/index.html",
+        "retrieved_at": "2026-08-05T02:57:47.057201+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "alpine-a110",
@@ -752,7 +892,7 @@
       "brand_name": "Alpine",
       "body_type": "roadster",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 84013,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -769,7 +909,9 @@
           "location": null,
           "year": 2025,
           "mileage": "8 500 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Azul Metalizado",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/alpine-a110-a110s-aeropaket-sabelt-microfaser-focal-premium-cu-benzin-orange-cat_ma51796gr200094ge2243tr6562-0e192663-9d13-4110-8e75-87aa508a1107",
@@ -782,7 +924,9 @@
           "location": "Saarbrücken",
           "year": 2024,
           "mileage": "10.000 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Orange",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/alpine-a110-a110s-aeropaket-carbondach-focal-premium-microfase-benzin-blau-cat_ma51796gr200094ge2243tr4227-da5c2b7f-ed5c-4dd4-a492-2d74eb65a811",
@@ -795,7 +939,9 @@
           "location": "Saarbrücken",
           "year": 2025,
           "mileage": "25 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Blau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/alpine-a110-gt-benzin-blau-cat_ma51796gr200094ge2243tr4227-2e2bc9d5-30d2-4437-af5b-aee71b1d79b6",
@@ -808,7 +954,9 @@
           "location": "Ravensburg",
           "year": 2025,
           "mileage": "6.000 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Blau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -842,7 +990,19 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "Inline 4 16 valve DOCH turbo, 1.8 L",
+      "gearbox": "7 speed dual clutch automatic",
+      "fuel_or_charge_consumption": "6.4 l/100 km",
+      "tank_or_battery_size": "45 L",
+      "doors": 2,
+      "roof_removable": false,
+      "model_variant": "R",
+      "spec_source": {
+        "url": "https://www.fastestlaps.com/models/alpine-a110r",
+        "retrieved_at": "2026-08-05T02:26:01.125177+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "lotus-emira",
@@ -854,7 +1014,7 @@
       "brand_name": "Lotus",
       "body_type": "roadster",
       "tier": "exotic",
-      "first_year": null,
+      "first_year": 2021,
       "average_budget_eur": 106222,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -871,7 +1031,9 @@
           "location": "Markranstädt",
           "year": 2025,
           "mileage": "20 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Blau (Seneca Blue)",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/lotus-emira-turbo-se-dark-verdant-ppf-benzin-gruen-cat_ma44gr200886ge11116-d21e02af-19ec-401c-8776-6a0c939d46e3",
@@ -884,7 +1046,9 @@
           "location": "Markranstädt",
           "year": 2025,
           "mileage": "6.132 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grün",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/lotus-emira-limited-type-86-1-of-12-leipzig-benzin-blau-cat_ma44gr200886ge11116-f1e05976-bb12-4bc8-be78-4992a828aab9",
@@ -897,7 +1061,9 @@
           "location": "Markranstädt",
           "year": 2025,
           "mileage": "20 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Blau (Seneca Blue)",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -931,7 +1097,19 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "3.5-litre supercharged V6",
+      "gearbox": "8-speed automatic (DCT)",
+      "fuel_or_charge_consumption": "10.4 L/100 km (WLTP)",
+      "tank_or_battery_size": "52 L",
+      "doors": 2,
+      "roof_removable": false,
+      "model_variant": "Emira (2021-), V6 and V6 Automatic",
+      "spec_source": {
+        "url": "https://www.bing.com/.../Emira/Specs",
+        "retrieved_at": "2026-08-05T03:07:21.427863+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "jaguar-f-type",
@@ -960,7 +1138,9 @@
           "location": "Mainz-Hechtsheim",
           "year": 2025,
           "mileage": "511 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/jaguar-f-type-cabriolet-p450-awd-edition-75-dab-led-benzin-blau-cat_ma37gr200706ge1928va1285tr480331-8cbd59af-076f-4458-bddb-a26e1e51ad6a",
@@ -973,7 +1153,9 @@
           "location": "Walsrode",
           "year": 2024,
           "mileage": "28.800 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Blau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/jaguar-f-type-f-type-p575-cabriolet-r-awd-benzin-rot-cat_ma37gr200706ge1928va1285tr480331-f1dff80b-0f30-4258-9723-16a12a11138b",
@@ -986,7 +1168,9 @@
           "location": "Walldürn",
           "year": 2024,
           "mileage": "15.000 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Rot",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -1020,7 +1204,13 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "roof_removable": true,
+      "spec_source": {
+        "url": "https://www.jaguardealer.co.uk/vehicles/jaguar/f-type/2024",
+        "retrieved_at": "2026-08-05T03:07:57.541950+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "mazda-mx-5",
@@ -1032,7 +1222,7 @@
       "brand_name": "Mazda",
       "body_type": "roadster",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2015,
       "average_budget_eur": 35072,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -1049,7 +1239,9 @@
           "location": null,
           "year": 2025,
           "mileage": "100 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/mazda-mx-5-ver-1-5-rf-sky-g-prime-line-ID8Q01Ap.html",
@@ -1062,7 +1254,9 @@
           "location": null,
           "year": 2026,
           "mileage": "672 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Vermelho",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/mazda-mx-5-ver-1-5-sky-g-prime-line-ID8PTMOP.html",
@@ -1075,7 +1269,9 @@
           "location": null,
           "year": 2025,
           "mileage": "1 298 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mazda-mx-5-rf-homura-132-ps-recaro-bose-navi-neuwagen-benzin-grau-cat_ma46gr200955ge1783va2839mt2698tr4486-675a877e-b4d4-4b66-a492-1ee1a03483b0",
@@ -1088,7 +1284,9 @@
           "location": "Dortmund",
           "year": null,
           "mileage": null,
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mazda-mx-5-skyactiv-g-132-exclusive-line-benzin-grau-cat_ma46gr200955ge1783va3558mt2698tr3416-1ce04986-a8d0-495e-895f-af0ad5492a5e",
@@ -1101,7 +1299,9 @@
           "location": "Hamburg",
           "year": 2025,
           "mileage": "150 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mazda-mx-5-2-0-g-184-bob-performance-x-sps-motorsport-benzin-grau-cat_ma46gr200955ge1783va3558mt2698tr4736-526475c0-32f0-4d25-a6e5-d991857a1463",
@@ -1114,7 +1314,10 @@
           "location": "Hagen",
           "year": 2024,
           "mileage": "13.500 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "condition_notes": "Taxi oder Mietwagen: Ja",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -1148,7 +1351,20 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.0L Skyactiv-G petrol I4, 184 hp",
+      "gearbox": "6-speed manual and 6-speed automatic",
+      "doors": 2,
+      "roof_removable": true,
+      "roof_mechanism": "electric folding soft top, operable up to 50 km/h",
+      "model_variant": "fourth-generation soft top and RF",
+      "spec_source": {
+        "url": "https://www.mazda.co.uk/global/en/pdf/brandsports/brandsports/2024_mazda_mx5_st_specifications_europe.pdf",
+        "retrieved_at": "2026-08-05T02:43:11.798143+00:00",
+        "method": "local-llm-web-search"
+      },
+      "fuel_or_charge_consumption": "6.8 L/100 km (WLTP)",
+      "tank_or_battery_size": "45 L"
     },
     {
       "id": "ferrari-california",
@@ -1160,7 +1376,7 @@
       "brand_name": "Ferrari",
       "body_type": "roadster",
       "tier": "unconfirmed",
-      "first_year": null,
+      "first_year": 2010,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_insufficient_sources",
@@ -1197,7 +1413,20 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "3.9L twin-turbocharged V8, 490 hp",
+      "gearbox": "7-speed dual-clutch automatic",
+      "fuel_or_charge_consumption": "8.9 L/100 km (WLTP)",
+      "tank_or_battery_size": "69 L",
+      "doors": 2,
+      "roof_removable": true,
+      "roof_mechanism": "electric folding soft top, operable to 50 km/h",
+      "model_variant": "F136, soft top only",
+      "spec_source": {
+        "url": "https://www.garypoint.com/ferrari-california-ferrari-california-specifications",
+        "retrieved_at": "2026-08-05T01:59:45.564982+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "ferrari-sf90-spider",
@@ -1226,7 +1455,9 @@
           "location": null,
           "year": 2025,
           "mileage": "3 990 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Vermelho",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/ferrari-sf90-grigio-scuro-racing-seats-elektro-benzin-grau-cat_ma27gr200483-e6f46e5d-1216-417d-8c2f-519c87c8f0cc",
@@ -1239,7 +1470,9 @@
           "location": "Mönchengladbach",
           "year": 2024,
           "mileage": "45 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/ferrari-sf90-carbon-lift-novitec-elektro-benzin-gelb-cat_ma27gr200483-77aa5e8c-d710-42fc-9d89-07be5b8b5acb",
@@ -1252,7 +1485,9 @@
           "location": "München",
           "year": null,
           "mileage": "380 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Gelb",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/ferrari-sf90-carbon-lift-racingseat-hud-elektro-benzin-rot-cat_ma27gr200483-379eafba-c160-4d48-ae00-414cecd2c625",
@@ -1265,7 +1500,9 @@
           "location": "Bad Oeynhausen",
           "year": null,
           "mileage": null,
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Rot",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -1299,7 +1536,16 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "fuel_or_charge_consumption": "6.4 L/100 km (WLTP)",
+      "spec_source": {
+        "url": "https://automobile-catalog.com/en/car/735-kw-1000-ps-986-hp",
+        "retrieved_at": "2026-08-05T03:01:23.811080+00:00",
+        "method": "local-llm-web-search"
+      },
+      "engine": "4.0 L twin‑turbo V8 plug‑in hybrid",
+      "gearbox": "8‑speed dual‑clutch",
+      "doors": 2
     },
     {
       "id": "ferrari-f8-spider",
@@ -1311,7 +1557,7 @@
       "brand_name": "Ferrari",
       "body_type": "roadster",
       "tier": "exotic",
-      "first_year": null,
+      "first_year": 2020,
       "average_budget_eur": 369000,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -1328,7 +1574,9 @@
           "location": "Monaco",
           "year": 2025,
           "mileage": "6.250 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/ferrari-f8-rosso-fiorano-benzin-rot-cat_ma27gr200485-87c34629-34dc-49a7-bb95-fc3e54dce57a",
@@ -1341,7 +1589,10 @@
           "location": "Langenfeld (Rheinland), Stadt",
           "year": 2024,
           "mileage": "4.800 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Rot",
+          "condition_notes": "Das gesamte Fahrzeug ist mit einer Schutzfolie versehen.",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -1375,7 +1626,20 @@
           "dropped": 1,
           "error": null
         }
-      ]
+      ],
+      "engine": "3.9 L twin‑turbocharged V8",
+      "gearbox": "7‑speed dual‑clutch automatic (F1 DCT, torque converter)",
+      "fuel_or_charge_consumption": "11.0 L/100 km",
+      "tank_or_battery_size": "78 L",
+      "doors": 2,
+      "roof_removable": true,
+      "roof_mechanism": "electric retractable hardtop, operable up to 45 km/h",
+      "model_variant": "F8 Tributo Spider, retractable hardtop, soft top and RF hardtop",
+      "spec_source": {
+        "url": "https://www.ferrari.com/en_EN/brands-and-models/ferrari/vehicles/f8-tributo/spider",
+        "retrieved_at": "2026-08-05T03:11:35.545531+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "ferrari-portofino",
@@ -1387,7 +1651,7 @@
       "brand_name": "Ferrari",
       "body_type": "roadster",
       "tier": "exotic",
-      "first_year": null,
+      "first_year": 2017,
       "average_budget_eur": 257640,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -1404,7 +1668,8 @@
           "location": "Bastia",
           "year": 2024,
           "mileage": "120 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "enrichment": "not_stated"
         },
         {
           "url": "https://www.autoscout24.de/angebote/ferrari-portofino-m-ferrari-munsterhuis-benzin-grau-cat_ma27gr200482-e50d2620-5df5-4e69-90d7-2be893e3eb40",
@@ -1417,7 +1682,9 @@
           "location": "HENGELO",
           "year": 2024,
           "mileage": "5.951 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/ferrari-portofino-m-benzin-cat_ma27gr200482-85ba55f4-824d-4d53-b906-3f52842ef808",
@@ -1430,7 +1697,8 @@
           "location": "MADRID",
           "year": null,
           "mileage": null,
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "enrichment": "not_stated"
         }
       ],
       "offering_search_log": [
@@ -1464,7 +1732,20 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "3.9 L twin‑turbo V8 (F154BE), 600 hp",
+      "gearbox": "7‑speed dual‑clutch",
+      "fuel_or_charge_consumption": "10.7 L/100 km",
+      "tank_or_battery_size": "80 L",
+      "doors": 2,
+      "roof_removable": false,
+      "roof_mechanism": "electric retractable hardtop",
+      "model_variant": "Portofino first generation (2017–2023), Portofino M facelift (2020–2023), soft top retractable hardtop convertible",
+      "spec_source": {
+        "url": "https://en.wikipedia.org/wiki/Ferrari_Portofino",
+        "retrieved_at": "2026-08-05T02:36:02.885555+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "aston-martin-vantage-roadster",
@@ -1476,7 +1757,7 @@
       "brand_name": "Aston Martin",
       "body_type": "roadster",
       "tier": "unconfirmed",
-      "first_year": null,
+      "first_year": 2023,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_insufficient_sources",
@@ -1513,7 +1794,20 @@
           "dropped": 0,
           "error": "PageMissing: http 404"
         }
-      ]
+      ],
+      "engine": "4.0L twin-turbocharged petrol V8",
+      "gearbox": "8-speed automatic with paddle shifters",
+      "fuel_or_charge_consumption": "11.6 L/100 km (WLTP)",
+      "tank_or_battery_size": "62.4 L",
+      "doors": 2,
+      "roof_removable": true,
+      "roof_mechanism": "electric folding soft top, operable at speeds up to 50 km/h",
+      "model_variant": "Phase I (2023-), soft top",
+      "spec_source": {
+        "url": "https://www.astonmartin.com/en_GB/models/vantage/roadster/",
+        "retrieved_at": "2026-08-05T02:00:13.651756+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "aston-martin-vantage",
@@ -1525,7 +1819,7 @@
       "brand_name": "Aston Martin",
       "body_type": "roadster",
       "tier": "exotic",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 207967,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -1542,7 +1836,9 @@
           "location": "Köln",
           "year": 2026,
           "mileage": "7.000 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grün",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/aston-martin-vantage-plasma-blue-onyx-black-benzin-blau-cat_ma8gr200111-362d7336-6ebf-4767-ba49-071e7b7047a3",
@@ -1555,7 +1851,9 @@
           "location": "Köln",
           "year": 2025,
           "mileage": "12.810 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Plasma blue",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/aston-martin-vantage-new-vantage-benzin-gruen-cat_ma8gr200111ge11112va4033mt12452-c7561ec7-06cb-4e1c-9ba8-4eb67d060f27",
@@ -1568,7 +1866,9 @@
           "location": "Schwetzingen, Stadt",
           "year": 2025,
           "mileage": "3.750 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grün",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -1602,7 +1902,20 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "4.0L twin-turbocharged petrol V8, 655 hp (489 kW)",
+      "gearbox": "8-speed automatic",
+      "tank_or_battery_size": "78 L",
+      "doors": 2,
+      "roof_removable": false,
+      "spec_source": {
+        "url": "https://www.ultimatecarpage.com/spec/86/02/Aston-Martin-Vantage.htm",
+        "retrieved_at": "2026-08-05T03:08:22.522491+00:00",
+        "method": "local-llm-web-search"
+      },
+      "fuel_or_charge_consumption": "null",
+      "roof_mechanism": "null",
+      "model_variant": "null"
     },
     {
       "id": "morgan-motor-company-super-3",
@@ -1651,7 +1964,19 @@
           "dropped": 0,
           "error": "PageMissing: http 404"
         }
-      ]
+      ],
+      "engine": "1.5 litre three cylinder, naturally aspirated Ford engine, 118 bhp",
+      "gearbox": "manual",
+      "fuel_or_charge_consumption": "7.0 L/100 km (Combined)",
+      "roof_removable": false,
+      "spec_source": {
+        "url": "https://www.cararac.com/spec/morgan/super-3",
+        "retrieved_at": "2026-08-05T03:14:09.279122+00:00",
+        "method": "local-llm-web-search"
+      },
+      "tank_or_battery_size": "52 L",
+      "doors": 0,
+      "roof_mechanism": "not available"
     }
   ]
 }
