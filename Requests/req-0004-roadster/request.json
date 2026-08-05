@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g03-vw",
       "group_name": "Volkswagen Group",
-      "brand_id": "lamborghini",
-      "brand_name": "Lamborghini"
+      "brand_id": "bentley",
+      "brand_name": "Bentley"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 2,
       "brands_total": 131,
-      "brands_done": 12,
+      "brands_done": 13,
       "brands_failed": 2,
-      "models_found": 7,
+      "models_found": 15,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -592,9 +592,47 @@
             {
               "brand_id": "lamborghini",
               "brand_name": "Lamborghini",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 8,
+              "completed_at": "2026-08-05T00:56:15.215063+00:00",
+              "diagnostics": {
+                "models_suggested": 2,
+                "searches_attempted": 6,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 37,
+                "unique_offerings": 37,
+                "candidates_checked": 8,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 8,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 16,
+                "model_suggestion_retries": 0,
+                "models_discovered": 6,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 2,
+                    "candidates_checked": 2,
+                    "firewall_kept": 2
+                  },
+                  "auto.pt": {
+                    "models_discovered": 2,
+                    "searches_attempted": 2,
+                    "searches_missing": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 6,
+                    "searches_attempted": 2,
+                    "candidates_checked": 6,
+                    "firewall_kept": 6
+                  }
+                }
+              }
             },
             {
               "brand_id": "bentley",

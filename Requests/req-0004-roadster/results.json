@@ -296,6 +296,210 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "lamborghini-revuelto",
+      "name": "Revuelto",
+      "manufacturer": "Lamborghini",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "lamborghini",
+      "brand_name": "Lamborghini",
+      "body_type": "roadster",
+      "tier": "ultra-exotic",
+      "first_year": null,
+      "average_budget_eur": 657752,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/lamborghini-revuelto-ID8Q0LUo.html",
+          "price_eur": 789990,
+          "price_display": "789 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T00:56:15.214016Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "6 472 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/lamborghini-revuelto-ver-standard-ID8PVcVX.html",
+          "price_eur": 740000,
+          "price_display": "740 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T00:56:15.214016Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "4 444 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-revuelto-ad-personam-lamborghini-nuernberg-elektro-benzin-orange-cat_ma41gr200796-e28b40a0-7474-4910-bfc5-52ef77e49b42",
+          "price_eur": 548970,
+          "price_display": "€ 548.970",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T00:56:15.214016Z",
+          "location": "Nürnberg",
+          "year": 2024,
+          "mileage": "890 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-revuelto-i-lamborghini-hamburg-elektro-benzin-blau-cat_ma41gr200796-860aa93d-5bc0-43ad-9039-ed985467f689",
+          "price_eur": 639900,
+          "price_display": "€ 639.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T00:56:15.214016Z",
+          "location": "Hamburg",
+          "year": 2025,
+          "mileage": "432 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-revuelto-i-lamborghini-hamburg-elektro-benzin-orange-cat_ma41gr200796-820183e0-25ad-4032-9ea4-491acfd7ac3f",
+          "price_eur": 569900,
+          "price_display": "€ 569.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T00:56:15.214016Z",
+          "location": "Hamburg",
+          "year": 2025,
+          "mileage": "2.937 km",
+          "fuel": "Elektro/Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/lamborghini/revuelto?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/lamborghini/revuelto",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/lamborghini/revuelto?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "lamborghini-temerario",
+      "name": "Temerario",
+      "manufacturer": "Lamborghini",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "lamborghini",
+      "brand_name": "Lamborghini",
+      "body_type": "roadster",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 382300,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-temerario-i-lamborghini-hamburg-i-my26-elektro-benzin-schwarz-cat_ma41gr202850-be1e588e-ddba-4cc6-8869-c4252fddb00a",
+          "price_eur": 389900,
+          "price_display": "€ 389.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T00:56:15.214016Z",
+          "location": "Hamburg",
+          "year": 2026,
+          "mileage": "1.033 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-temerario-i-lamborghini-hamburg-elektro-benzin-weiss-cat_ma41gr202850-3f0ceb29-19bc-4219-bd64-c38b10577644",
+          "price_eur": 357000,
+          "price_display": "€ 357.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T00:56:15.214016Z",
+          "location": "Hamburg",
+          "year": 2025,
+          "mileage": "7.305 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-temerario-temerario-nero-sonus-p-display-lift-pr26-ready-elektro-benzin-schwarz-cat_ma41gr202850-0755f309-d830-44ea-b910-deeea75d4a93",
+          "price_eur": 399999,
+          "price_display": "€ 399.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T00:56:15.214016Z",
+          "location": "München",
+          "year": null,
+          "mileage": "0 km",
+          "fuel": "Elektro/Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/lamborghini/temerario?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/lamborghini/temerario",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/lamborghini/temerario?fregfrom=2024",
+          "found": 15,
+          "new": 15,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
