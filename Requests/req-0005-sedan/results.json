@@ -6224,6 +6224,95 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "subaru-impreza",
+      "name": "Impreza",
+      "manufacturer": "Subaru",
+      "group_id": "g13-independent-mainstream",
+      "group_name": "Independent Mainstream Manufacturers",
+      "brand_id": "subaru",
+      "brand_name": "Subaru",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 29322,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/subaru-impreza-platinum-2-0ie-dyn-kurvenlicht+totwinkelassistent-benzin-grau-cat_ma67gr201385ge1473va3695mt9930tr480800-9eb79a05-b67f-4fb8-8a1c-4487a3b47287",
+          "price_eur": 32990,
+          "price_display": "€ 32.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:55:55.453767Z",
+          "location": "Bad Tabarz",
+          "year": 2025,
+          "mileage": "1.100 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/subaru-impreza-2-0ie-inventurabverkauf-my-2025-benzin-schwarz-cat_ma67gr201385ge1473va3695mt9930tr8083-5a6d7c2b-3efa-4100-9377-0d09a6ef4b08",
+          "price_eur": 24990,
+          "price_display": "€ 24.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:55:55.453767Z",
+          "location": "Hof",
+          "year": 2025,
+          "mileage": "3.888 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/subaru-impreza-trend-sti-style-sonderraeder-elektro-benzin-silber-cat_ma67gr201385ge1473va3695mt9930tr8083-d95c7900-70c2-4d4d-9364-16c301a52853",
+          "price_eur": 29986,
+          "price_display": "€ 29.986",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:55:55.453767Z",
+          "location": "Friedberg",
+          "year": 2026,
+          "mileage": "4.900 km",
+          "fuel": "Elektro/Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/subaru/impreza?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/subaru/impreza",
+          "found": 4,
+          "new": 4,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/subaru/impreza?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
