@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-05",
     "status": "in progress",
     "search_state": {
-      "group_id": null,
-      "group_name": null,
-      "brand_id": null,
-      "brand_name": null
+      "group_id": "g11-tata-jlr",
+      "group_name": "Tata Motors & Jaguar Land Rover (JLR)",
+      "brand_id": "defender",
+      "brand_name": "Defender"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 25,
+      "groups_done": 22,
       "brands_total": 131,
-      "brands_done": 121,
-      "brands_failed": 10,
+      "brands_done": 119,
+      "brands_failed": 9,
       "models_found": 238,
       "groups": [
         {
@@ -2388,16 +2388,46 @@
             {
               "brand_id": "lynk-and-co",
               "brand_name": "Lynk & Co",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T09:42:58.711128+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 1,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "models_discovered": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0
+                  }
+                }
+              }
             }
           ]
         },
         {
           "group_id": "g11-tata-jlr",
           "group_name": "Tata Motors & Jaguar Land Rover (JLR)",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "tata-motors",
@@ -2561,40 +2591,9 @@
             {
               "brand_id": "defender",
               "brand_name": "Defender",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-05T03:40:43.756062+00:00",
-              "error": "model_suggestion_unparseable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 1,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 0
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "discovery",
@@ -3630,7 +3629,7 @@
         {
           "group_id": "g14-specialist-low-volume",
           "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "ferrari",
@@ -5229,7 +5228,7 @@
         {
           "group_id": "g23-huawei-hima",
           "group_name": "Huawei HIMA Alliance",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "aito",
