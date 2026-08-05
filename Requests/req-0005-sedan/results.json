@@ -4711,6 +4711,184 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "jaguar-xe",
+      "name": "XE",
+      "manufacturer": "Jaguar",
+      "group_id": "g11-tata-jlr",
+      "group_name": "Tata Motors & Jaguar Land Rover (JLR)",
+      "brand_id": "jaguar",
+      "brand_name": "Jaguar",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 40947,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/jaguar-xe-p250-r-dynamic-hse-matrix-led-acc-apple-egsd-benzin-weiss-cat_ma37gr200705ge1931tr480335-e95a6037-84b4-4c75-976e-498bd2055cc9",
+          "price_eur": 39900,
+          "price_display": "€ 39.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:38:55.454836Z",
+          "location": "Dingolfing",
+          "year": 2024,
+          "mileage": "17.250 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/jaguar-xe-p300-sport-awd-2-0-turbo-gas-8speed-at-300bhp-benzin-cat_ma37gr200705ge1931tr480335-4f911b4c-265b-4970-9818-885abc90fe18",
+          "price_eur": 43950,
+          "price_display": "€ 43.950",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:38:55.454836Z",
+          "location": "Isernhagen",
+          "year": 2024,
+          "mileage": "39.800 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/jaguar-xe-d200-r-dynamic-s-rwd-auto-diesel-grau-cat_ma37gr200705ge1931tr6383-12eae476-8221-4bf5-91ce-675f449f7701",
+          "price_eur": 38990,
+          "price_display": "€ 38.990",
+          "country": "BE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:38:55.454836Z",
+          "location": "Arlon",
+          "year": 2024,
+          "mileage": "13.000 km",
+          "fuel": "Diesel"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/jaguar/xe?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/jaguar/xe",
+          "found": 18,
+          "new": 18,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/jaguar/xe?fregfrom=2024",
+          "found": 13,
+          "new": 13,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "jaguar-xf",
+      "name": "XF",
+      "manufacturer": "Jaguar",
+      "group_id": "g11-tata-jlr",
+      "group_name": "Tata Motors & Jaguar Land Rover (JLR)",
+      "brand_id": "jaguar",
+      "brand_name": "Jaguar",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 44350,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/jaguar-xf-sportbrake-r-dynamic-hse-awd-d200-mild-hybrid-eu6d-diesel-schwarz-cat_ma37gr200703ge1933va1294tr480336-c046def8-c640-4c56-9b9c-5434a2a9859f",
+          "price_eur": 39980,
+          "price_display": "€ 39.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:38:55.454836Z",
+          "location": "Köln",
+          "year": 2024,
+          "mileage": "18.150 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/smyle/details/2d1739aa-3ae7-4c17-8192-ac721bc54e62/",
+          "price_eur": 53080,
+          "price_display": "€ 53.080",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:38:55.454836Z",
+          "location": "Helgoland",
+          "year": 2024,
+          "mileage": "8.000 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/jaguar-xf-xf-d200-awd-sportbrake-r-dynamic-se-mild-hybrid-diesel-schwarz-cat_ma37gr200703ge1933va1294tr6390-63ec3d13-7709-4941-9cf5-2ce47b5c560d",
+          "price_eur": 39990,
+          "price_display": "€ 39.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:38:55.454836Z",
+          "location": "Ravensburg, Stadt",
+          "year": 2024,
+          "mileage": "8.600 km",
+          "fuel": "Diesel"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/jaguar/xf?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/jaguar/xf",
+          "found": 18,
+          "new": 18,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/jaguar/xf?fregfrom=2024",
+          "found": 5,
+          "new": 5,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
