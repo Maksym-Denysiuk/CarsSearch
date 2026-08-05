@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-05",
     "status": "in progress",
     "search_state": {
-      "group_id": "g20-baic",
-      "group_name": "BAIC Group",
-      "brand_id": "bj",
-      "brand_name": "BJ"
+      "group_id": "g21-jac",
+      "group_name": "JAC Group",
+      "brand_id": "jac",
+      "brand_name": "JAC"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 19,
+      "groups_done": 20,
       "brands_total": 131,
       "brands_done": 108,
-      "brands_failed": 10,
+      "brands_failed": 11,
       "models_found": 9,
       "groups": [
         {
@@ -4657,7 +4657,7 @@
         {
           "group_id": "g20-baic",
           "group_name": "BAIC Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "baic",
@@ -4745,9 +4745,40 @@
             {
               "brand_id": "bj",
               "brand_name": "BJ",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T23:13:16.590601+00:00",
+              "error": "no_model_names_suggested",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0
+                  }
+                }
+              }
             }
           ]
         },
