@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g11-tata-jlr",
       "group_name": "Tata Motors & Jaguar Land Rover (JLR)",
-      "brand_id": "jaguar",
-      "brand_name": "Jaguar"
+      "brand_id": "land-rover",
+      "brand_name": "Land Rover"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 10,
       "brands_total": 131,
-      "brands_done": 52,
+      "brands_done": 53,
       "brands_failed": 5,
-      "models_found": 29,
+      "models_found": 32,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -2305,9 +2305,50 @@
             {
               "brand_id": "jaguar",
               "brand_name": "Jaguar",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 3,
+              "completed_at": "2026-08-05T01:04:24.874811+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 29,
+                "unique_offerings": 29,
+                "candidates_checked": 7,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 3,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 4
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 12,
+                "model_suggestion_retries": 0,
+                "models_discovered": 8,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1,
+                    "candidates_checked": 1,
+                    "firewall_dropped": 1
+                  },
+                  "auto.pt": {
+                    "models_discovered": 6,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3
+                  },
+                  "autoscout24": {
+                    "models_discovered": 8,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "land-rover",

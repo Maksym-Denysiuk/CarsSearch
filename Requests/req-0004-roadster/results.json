@@ -932,6 +932,95 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "jaguar-f-type",
+      "name": "F-Type",
+      "manufacturer": "Jaguar",
+      "group_id": "g11-tata-jlr",
+      "group_name": "Tata Motors & Jaguar Land Rover (JLR)",
+      "brand_id": "jaguar",
+      "brand_name": "Jaguar",
+      "body_type": "roadster",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 92436,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/jaguar-f-type-coupe-p575-awd-totwinkel-assistent-mit-spurhalteas-benzin-schwarz-cat_ma37gr200706ge1928va1287tr480331-c3eddef8-0b63-4b09-9bab-d965307dabf9",
+          "price_eur": 119880,
+          "price_display": "€ 119.880",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T01:04:24.872135Z",
+          "location": "Mainz-Hechtsheim",
+          "year": 2025,
+          "mileage": "511 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/jaguar-f-type-cabriolet-p450-awd-edition-75-dab-led-benzin-blau-cat_ma37gr200706ge1928va1285tr480331-8cbd59af-076f-4458-bddb-a26e1e51ad6a",
+          "price_eur": 77430,
+          "price_display": "€ 77.430",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T01:04:24.872135Z",
+          "location": "Walsrode",
+          "year": 2024,
+          "mileage": "28.800 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/jaguar-f-type-f-type-p575-cabriolet-r-awd-benzin-rot-cat_ma37gr200706ge1928va1285tr480331-f1dff80b-0f30-4258-9723-16a12a11138b",
+          "price_eur": 79999,
+          "price_display": "€ 79.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T01:04:24.872135Z",
+          "location": "Walldürn",
+          "year": 2024,
+          "mileage": "15.000 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/jaguar/f-type?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/jaguar/f-type",
+          "found": 8,
+          "new": 8,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/jaguar/f-type?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
