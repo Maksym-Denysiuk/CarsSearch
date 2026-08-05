@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g25-other-national",
       "group_name": "Other National / Emerging Markets",
-      "brand_id": "perodua",
-      "brand_name": "Perodua"
+      "brand_id": "lada",
+      "brand_name": "Lada"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 24,
       "brands_total": 131,
-      "brands_done": 118,
+      "brands_done": 119,
       "brands_failed": 10,
       "models_found": 238,
       "groups": [
@@ -5565,9 +5565,48 @@
             {
               "brand_id": "perodua",
               "brand_name": "Perodua",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T04:18:18.712223+00:00",
+              "diagnostics": {
+                "models_suggested": 8,
+                "searches_attempted": 24,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 283,
+                "unique_offerings": 59,
+                "candidates_checked": 24,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 24
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 50,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 8,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 8,
+                    "candidates_checked": 24,
+                    "firewall_dropped": 24
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 8,
+                    "searches_missing": 8
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0,
+                    "searches_attempted": 8,
+                    "searches_missing": 8
+                  }
+                }
+              }
             },
             {
               "brand_id": "lada",
