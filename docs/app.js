@@ -24,6 +24,15 @@
   var PRICE_LS_KEY = 'carResearchPriceRanges';
   var THEME_LS_KEY = 'carResearchTheme';
 
+  // GitHub Contents API sync: the only way a backend-less static site can
+  // commit favorites.json to the repo itself, rather than just a local disk
+  // or download. The token is supplied by whoever is using the viewer and
+  // never leaves this browser except in requests to api.github.com.
+  var GH_OWNER = 'Maksym-Denysiuk';
+  var GH_REPO = 'CarsSearch';
+  var GH_BRANCH = 'master';
+  var GH_TOKEN_LS_KEY = 'carResearchGithubToken';
+
   var PRICE_RANGES = [
     { id: '0-50', min: 0, max: 50000 },
     { id: '50-100', min: 50000, max: 100000 },
@@ -260,6 +269,179 @@
 
   function todayIso() {
     return new Date().toISOString().slice(0, 10);
+  }
+
+  /* -------------------------------------------------------- GitHub sync
+     Direct-to-git commits via GitHub's REST Contents API, called from the
+     browser with a user-supplied token. The Contents API answers CORS
+     preflights for browser callers, so this needs no proxy and no server --
+     the token itself, not a backend, is what authorizes the write. Kept
+     entirely separate from the local file-handle path above: a visitor can
+     use either, neither, or both. */
+
+  function getGithubToken() {
+    try { return window.localStorage.getItem(GH_TOKEN_LS_KEY) || null; }
+    catch (e) { return null; }
+  }
+
+  function setGithubToken(token) {
+    try {
+      if (token) window.localStorage.setItem(GH_TOKEN_LS_KEY, token);
+      else window.localStorage.removeItem(GH_TOKEN_LS_KEY);
+    } catch (e) { /* localStorage unavailable */ }
+  }
+
+  function githubContentsUrl(requestId) {
+    return 'https://api.github.com/repos/' + GH_OWNER + '/' + GH_REPO + '/contents/' +
+      'Requests/' + encodeURIComponent(requestId) + '/favorites.json';
+  }
+
+  function githubHeaders(token) {
+    return {
+      'Authorization': 'Bearer ' + token,
+      'Accept': 'application/vnd.github+json',
+      'X-GitHub-Api-Version': '2022-11-28'
+    };
+  }
+
+  // favorites.json is plain-ASCII JSON (model ids, an ISO date), but this
+  // round-trip keeps btoa (latin1-only) safe even if that ever changes.
+  function utf8ToBase64(str) {
+    return window.btoa(unescape(encodeURIComponent(str)));
+  }
+
+  function fetchGithubSha(requestId, token) {
+    return fetch(githubContentsUrl(requestId) + '?ref=' + GH_BRANCH, { headers: githubHeaders(token) })
+      .then(function (r) {
+        if (r.status === 404) return null; // file doesn't exist yet -- first sync will create it
+        if (r.status === 401 || r.status === 403) throw new Error('GitHub rejected the token (' + r.status + ')');
+        if (!r.ok) return r.text().then(function (t) { throw new Error('GitHub GET ' + r.status + ': ' + t); });
+        return r.json().then(function (j) { return j.sha; });
+      });
+  }
+
+  function putGithubFavorites(requestId, token, sha) {
+    var body = {
+      message: 'favorites: update ' + requestId + ' (via viewer)',
+      content: utf8ToBase64(JSON.stringify(favoritesPayload(), null, 2) + '\n'),
+      branch: GH_BRANCH
+    };
+    if (sha) body.sha = sha;
+    var headers = githubHeaders(token);
+    headers['Content-Type'] = 'application/json';
+    return fetch(githubContentsUrl(requestId), { method: 'PUT', headers: headers, body: JSON.stringify(body) })
+      .then(function (r) {
+        if (r.status === 409) return { conflict: true };
+        if (r.status === 401 || r.status === 403) throw new Error('GitHub rejected the token (' + r.status + ')');
+        if (!r.ok) return r.text().then(function (t) { throw new Error('GitHub PUT ' + r.status + ': ' + t); });
+        return { conflict: false };
+      });
+  }
+
+  // Writes for the same request_id are serialized through this queue so two
+  // rapid favorite toggles can't race each other's sha (a stale sha is what
+  // the Contents API's 409 means -- someone else, here just "an earlier
+  // write from this same browser", touched the file first).
+  var ghSyncQueue = {};
+
+  function attemptGithubWrite(requestId, token, retriesLeft) {
+    return fetchGithubSha(requestId, token).then(function (sha) {
+      return putGithubFavorites(requestId, token, sha);
+    }).then(function (result) {
+      if (result.conflict && retriesLeft > 0) return attemptGithubWrite(requestId, token, retriesLeft - 1);
+      if (result.conflict) throw new Error('GitHub write conflict -- try again');
+    });
+  }
+
+  function syncFavoritesToGithub(requestId) {
+    var token = getGithubToken();
+    if (!token) return Promise.reject(new Error('No GitHub token configured'));
+    var prior = ghSyncQueue[requestId] || Promise.resolve();
+    var next = prior.catch(function () {}).then(function () { return attemptGithubWrite(requestId, token, 2); });
+    ghSyncQueue[requestId] = next;
+    return next;
+  }
+
+  function setGithubSyncStatus(text, isError) {
+    var el = document.getElementById('ghSyncStatus');
+    if (!el) return;
+    el.textContent = text;
+    el.classList.toggle('is-error', !!isError);
+  }
+
+  function updateGithubSyncButtonUi() {
+    var btn = document.getElementById('githubSyncBtn');
+    if (!btn) return;
+    if (getGithubToken()) {
+      btn.textContent = 'GitHub sync: on';
+      btn.title = 'Auto-committing favorites.json straight to GitHub on every star click. Click to reconfigure or disconnect.';
+    } else {
+      btn.textContent = 'Sync to GitHub';
+      btn.title = 'Set up automatic commits of favorites.json straight to GitHub via a personal access token -- no backend involved.';
+    }
+  }
+
+  // Fire-and-forget, used after every favorite toggle so a linked GitHub
+  // token keeps the committed file mirroring what's on screen.
+  function autoSyncFavoritesToGithub() {
+    if (!getGithubToken()) return;
+    var requestId = state.requestId;
+    setGithubSyncStatus('Syncing to GitHub…');
+    syncFavoritesToGithub(requestId).then(function () {
+      if (state.requestId === requestId) setGithubSyncStatus('Synced to GitHub just now');
+    }).catch(function (e) {
+      if (state.requestId === requestId) {
+        setGithubSyncStatus('GitHub sync failed: ' + (e && e.message ? e.message : 'unknown error'), true);
+      }
+    });
+  }
+
+  function wireGithubSyncDialog() {
+    var dialog = document.getElementById('githubSyncDialog');
+    var btn = document.getElementById('githubSyncBtn');
+    if (!dialog || !btn) return;
+
+    btn.addEventListener('click', function () {
+      document.getElementById('githubTokenInput').value = getGithubToken() || '';
+      document.getElementById('githubSyncResult').hidden = true;
+      dialog.showModal();
+    });
+
+    document.getElementById('githubTokenSave').addEventListener('click', function () {
+      var input = document.getElementById('githubTokenInput');
+      var token = input.value.trim();
+      var result = document.getElementById('githubSyncResult');
+      result.hidden = false;
+      result.className = 'form-result';
+      if (!token) {
+        result.className = 'form-result is-error';
+        result.textContent = 'Paste a token first.';
+        return;
+      }
+      setGithubToken(token);
+      updateGithubSyncButtonUi();
+      result.textContent = 'Saving and syncing…';
+      syncFavoritesToGithub(state.requestId).then(function () {
+        result.textContent = 'Connected -- favorites synced to GitHub.';
+        setGithubSyncStatus('Synced to GitHub just now');
+        setTimeout(function () { dialog.close(); }, 900);
+      }).catch(function (e) {
+        result.className = 'form-result is-error';
+        result.textContent = 'Could not sync: ' + (e && e.message ? e.message : 'unknown error') +
+          '. Check the token has Contents: Read and write on this repo.';
+      });
+    });
+
+    document.getElementById('githubTokenDisconnect').addEventListener('click', function () {
+      setGithubToken(null);
+      updateGithubSyncButtonUi();
+      setGithubSyncStatus('');
+      document.getElementById('githubTokenInput').value = '';
+      var result = document.getElementById('githubSyncResult');
+      result.hidden = false;
+      result.className = 'form-result';
+      result.textContent = 'Disconnected. Favorites will no longer auto-sync to GitHub.';
+    });
   }
 
   /* ------------------------------------------------------------ cell HTML */
@@ -641,6 +823,7 @@
     if (state.favorites.has(id)) { state.favorites.delete(id); } else { state.favorites.add(id); }
     saveFavoritesToLocalStorage();
     autoSaveFavorites();
+    autoSyncFavoritesToGithub();
     render();
   }
 
@@ -876,6 +1059,7 @@
       var local = loadFavoritesFromLocalStorage();
       state.favorites = new Set(local !== null ? local : seeded);
       reattachFavHandle(requestId);
+      setGithubSyncStatus(getGithubToken() ? 'Auto-syncing to GitHub' : '');
 
       state.collapsedGroups.clear();
       statusEl.hidden = true;
@@ -1061,6 +1245,8 @@
   wirePriceFilter();
   wireRequestPicker();
   wireExportFavorites();
+  wireGithubSyncDialog();
+  updateGithubSyncButtonUi();
   wireDialogs();
   wireRequestForm();
   loadBodyTypeChart();

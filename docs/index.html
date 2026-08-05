@@ -64,6 +64,8 @@
     </div>
     <button type="button" class="btn" id="exportFavBtn" title="Download favorites.json to commit back into the repo">Export favorites.json</button>
     <span class="stat" id="favSaveStatus"></span>
+    <button type="button" class="btn" id="githubSyncBtn" title="Set up automatic commits of favorites.json straight to GitHub via a personal access token -- no backend involved.">Sync to GitHub</button>
+    <span class="stat" id="ghSyncStatus"></span>
     <span class="stat" id="count"></span>
   </div>
   <div class="filters-bar" id="filtersBar">
@@ -175,6 +177,32 @@
   </div>
 </dialog>
 
-<script src="app.js?v=6"></script>
+<dialog id="githubSyncDialog" class="request-dialog">
+  <button type="button" class="dialog-close" data-close-dialog aria-label="Close">&times;</button>
+  <h2>Sync favorites to GitHub</h2>
+  <p class="field-hint">
+    Commits <code>Requests/&lt;request&gt;/favorites.json</code> straight to
+    <code>Maksym-Denysiuk/CarsSearch</code> on every star click, calling GitHub's REST API
+    directly from this page &mdash; no backend involved. Needs a token scoped to
+    <em>this repository only</em>.
+  </p>
+  <ol class="field-hint">
+    <li>Create a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained personal access token</a>.</li>
+    <li>Resource owner <code>Maksym-Denysiuk</code>, repository access &rarr; only select repositories &rarr; <code>CarsSearch</code>.</li>
+    <li>Permissions &rarr; Repository permissions &rarr; <strong>Contents: Read and write</strong>. Nothing else.</li>
+    <li>Paste the token below. It is stored only in this browser's local storage and sent only to <code>api.github.com</code>.</li>
+  </ol>
+  <label class="field">
+    <span class="field-label">Personal access token</span>
+    <input type="password" id="githubTokenInput" autocomplete="off" placeholder="github_pat_...">
+  </label>
+  <div class="form-actions">
+    <button type="button" class="btn" id="githubTokenDisconnect">Disconnect</button>
+    <button type="button" class="btn-accent" id="githubTokenSave">Save &amp; sync now</button>
+  </div>
+  <p class="form-result" id="githubSyncResult" hidden></p>
+</dialog>
+
+<script src="app.js?v=7"></script>
 </body>
 </html>
