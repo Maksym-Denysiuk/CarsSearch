@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g06-hyundai",
       "group_name": "Hyundai Motor Group",
-      "brand_id": "kia",
-      "brand_name": "Kia"
+      "brand_id": "genesis",
+      "brand_name": "Genesis"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 5,
       "brands_total": 131,
-      "brands_done": 35,
+      "brands_done": 36,
       "brands_failed": 1,
       "models_found": 4,
       "groups": [
@@ -1453,9 +1453,39 @@
             {
               "brand_id": "kia",
               "brand_name": "Kia",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T22:48:03.986502+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 12,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "models_discovered": 7
+                  },
+                  "autoscout24": {
+                    "models_discovered": 8
+                  }
+                }
+              }
             },
             {
               "brand_id": "genesis",
