@@ -589,6 +589,95 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "lexus-lc",
+      "name": "LC",
+      "manufacturer": "Lexus",
+      "group_id": "g05-toyota",
+      "group_name": "Toyota Motor Corporation",
+      "brand_id": "lexus",
+      "brand_name": "Lexus",
+      "body_type": "roadster",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 132980,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/lexus-lc-ultimate-edition-ultimate-edition-50-165-benzin-weiss-cat_ma43gr200852ge1830va3545tr480423-062c3316-99ee-402b-b95c-584142161781",
+          "price_eur": 119000,
+          "price_display": "€ 119.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T00:59:31.415789Z",
+          "location": "Euskirchen",
+          "year": 2024,
+          "mileage": "12.602 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lexus-lc-ultimate-edition-nr-122-165-15j-garantie-benzin-weiss-cat_ma43gr200852ge1830va3545tr480423-fce3073d-727a-4574-a0dc-b134ba928bbc",
+          "price_eur": 149950,
+          "price_display": "€ 149.950",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T00:59:31.415789Z",
+          "location": "Wesel",
+          "year": 2024,
+          "mileage": "20 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lexus-lc-cabrio-ultimate-edition-benzin-weiss-cat_ma43gr200852ge1830va3545tr480423-8767ae27-aacf-4791-8dd2-c27bd83570df",
+          "price_eur": 129990,
+          "price_display": "€ 129.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T00:59:31.415789Z",
+          "location": "Osnabrück",
+          "year": 2024,
+          "mileage": "3.950 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/lexus/lc?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 34,
+          "new": 33,
+          "duplicates": 1,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/lexus/lc",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/lexus/lc?fregfrom=2024",
+          "found": 3,
+          "new": 3,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
