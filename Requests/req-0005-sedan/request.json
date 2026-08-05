@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g12-electric-emerging",
       "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "onvo",
-      "brand_name": "Onvo"
+      "brand_id": "xpeng",
+      "brand_name": "Xpeng"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 11,
       "brands_total": 131,
-      "brands_done": 63,
+      "brands_done": 64,
       "brands_failed": 7,
       "models_found": 196,
       "groups": [
@@ -3027,9 +3027,48 @@
             {
               "brand_id": "onvo",
               "brand_name": "Onvo",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T03:46:03.736256+00:00",
+              "diagnostics": {
+                "models_suggested": 8,
+                "searches_attempted": 24,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 276,
+                "unique_offerings": 37,
+                "candidates_checked": 4,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 4
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 32,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 8,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 8,
+                    "candidates_checked": 4,
+                    "firewall_dropped": 4
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 8,
+                    "searches_missing": 8
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0,
+                    "searches_attempted": 8,
+                    "searches_missing": 8
+                  }
+                }
+              }
             },
             {
               "brand_id": "xpeng",
