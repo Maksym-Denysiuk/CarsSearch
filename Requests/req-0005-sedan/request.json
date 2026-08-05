@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g07-gm",
       "group_name": "General Motors (GM)",
-      "brand_id": "chevrolet",
-      "brand_name": "Chevrolet"
+      "brand_id": "gmc",
+      "brand_name": "GMC"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 6,
       "brands_total": 131,
-      "brands_done": 35,
+      "brands_done": 36,
       "brands_failed": 3,
       "models_found": 150,
       "groups": [
@@ -1677,14 +1677,51 @@
         {
           "group_id": "g07-gm",
           "group_name": "General Motors (GM)",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "chevrolet",
               "brand_name": "Chevrolet",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T03:35:17.744237+00:00",
+              "diagnostics": {
+                "models_suggested": 2,
+                "searches_attempted": 6,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 10,
+                "unique_offerings": 10,
+                "candidates_checked": 3,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 3
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 11,
+                "model_suggestion_retries": 0,
+                "models_discovered": 11,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 2
+                  },
+                  "auto.pt": {
+                    "models_discovered": 7,
+                    "searches_attempted": 2,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3
+                  },
+                  "autoscout24": {
+                    "models_discovered": 9,
+                    "searches_attempted": 2
+                  }
+                }
+              }
             },
             {
               "brand_id": "gmc",
