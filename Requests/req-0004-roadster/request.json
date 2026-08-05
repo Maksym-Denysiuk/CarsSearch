@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g17-changan",
       "group_name": "Changan Group",
-      "brand_id": "deepal",
-      "brand_name": "Deepal"
+      "brand_id": "nevo",
+      "brand_name": "Nevo"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 16,
       "brands_total": 131,
-      "brands_done": 92,
+      "brands_done": 93,
       "brands_failed": 17,
       "models_found": 50,
       "groups": [
@@ -4401,9 +4401,48 @@
             {
               "brand_id": "deepal",
               "brand_name": "Deepal",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T01:25:31.535965+00:00",
+              "diagnostics": {
+                "models_suggested": 5,
+                "searches_attempted": 15,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 174,
+                "unique_offerings": 45,
+                "candidates_checked": 12,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 12
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 29,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 5,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 5,
+                    "candidates_checked": 12,
+                    "firewall_dropped": 12
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 5,
+                    "searches_missing": 5
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0,
+                    "searches_attempted": 5,
+                    "searches_missing": 5
+                  }
+                }
+              }
             },
             {
               "brand_id": "nevo",
