@@ -13,7 +13,7 @@
       "search_state": {
         "group": null,
         "brand": null,
-        "models_done": 58
+        "models_done": 42
       },
       "counts": {
         "models": 58,
@@ -31,7 +31,7 @@
       "search_state": {
         "group": null,
         "brand": null,
-        "models_done": 136
+        "models_done": 193
       },
       "counts": {
         "models": 136,
@@ -49,7 +49,7 @@
       "search_state": {
         "group": null,
         "brand": null,
-        "models_done": 112
+        "models_done": 101
       },
       "counts": {
         "models": 112,
@@ -67,7 +67,7 @@
       "search_state": {
         "group": null,
         "brand": null,
-        "models_done": 20
+        "models_done": 50
       },
       "counts": {
         "models": 20,
@@ -81,15 +81,15 @@
       "results_path": "Requests/req-0005-sedan/results.json",
       "favorites_path": "Requests/req-0005-sedan/favorites.json",
       "date_of_request": "2026-08-05",
-      "status": "tbd",
+      "status": "in progress",
       "search_state": {
-        "group": null,
-        "brand": null,
-        "models_done": 0
+        "group": "Stellantis",
+        "brand": "Vauxhall",
+        "models_done": 123
       },
       "counts": {
-        "models": 0,
-        "offerings": 0
+        "models": 36,
+        "offerings": 123
       }
     }
   ]
