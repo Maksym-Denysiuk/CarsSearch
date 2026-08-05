@@ -5678,6 +5678,95 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "xiaomi-su7",
+      "name": "SU7",
+      "manufacturer": "Xiaomi",
+      "group_id": "g12-electric-emerging",
+      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+      "brand_id": "xiaomi",
+      "brand_name": "Xiaomi",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 89000,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/xiaomi-su7-ultra-ceramic-carbon-eu-registration-elektro-grau-cat_ma52031gr77244-3c6bc4cf-3f0e-4a2f-978a-b52bb26b1cac",
+          "price_eur": 96999,
+          "price_display": "€ 96.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:46:39.637002Z",
+          "location": "Hamburg, Freie und Hansestadt",
+          "year": 2025,
+          "mileage": "4.000 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/xiaomi-su7-el-elektro-gruen-cat_ma52031gr77244-1bd35c8d-fbd1-41f6-93db-090ec3771d01",
+          "price_eur": 55000,
+          "price_display": "€ 55.000",
+          "country": "FR",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:46:39.637002Z",
+          "location": "Croissy-Beaubourg",
+          "year": 2025,
+          "mileage": "16.000 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/xiaomi-su7-su7-ultra-elektro-gold-cat_ma52031gr77244-3c820907-dee1-48af-9663-aba6147ffb06",
+          "price_eur": 115000,
+          "price_display": "€ 115.000",
+          "country": "FR",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:46:39.637002Z",
+          "location": "Luçon",
+          "year": 2025,
+          "mileage": "11.000 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/xiaomi/su7?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 33,
+          "new": 33,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/xiaomi/su7",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/xiaomi/su7?fregfrom=2024",
+          "found": 4,
+          "new": 4,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
