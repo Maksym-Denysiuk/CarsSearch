@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "request_id": "req-0004-roadster",
+  "generated": "2026-08-05",
+  "metadata": {
+    "currency": "EUR",
+    "specs_disclaimer": "Spec fields (engine, consumption, tank/battery, variant, roof, doors, tax, photo) are omitted rather than estimated: this pipeline reads listing search results, which do not publish them. Offerings, prices and years are read from the listing cards and each price was re-verified against the listing page it came from."
+  },
+  "models": []
+}
