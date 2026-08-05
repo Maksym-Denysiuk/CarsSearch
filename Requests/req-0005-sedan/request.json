@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g12-electric-emerging",
       "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "lucid-motors",
-      "brand_name": "Lucid Motors"
+      "brand_id": "nio",
+      "brand_name": "Nio"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 11,
       "brands_total": 131,
-      "brands_done": 61,
+      "brands_done": 62,
       "brands_failed": 7,
       "models_found": 192,
       "groups": [
@@ -2936,9 +2936,50 @@
             {
               "brand_id": "lucid-motors",
               "brand_name": "Lucid Motors",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T03:44:46.396679+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 36,
+                "unique_offerings": 36,
+                "candidates_checked": 3,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 3
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 10,
+                "model_suggestion_retries": 0,
+                "models_discovered": 1,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3
+                  },
+                  "auto.pt": {
+                    "vocabulary_via_alias": 1,
+                    "models_discovered": 1,
+                    "searches_attempted": 1,
+                    "searches_missing": 1
+                  },
+                  "autoscout24": {
+                    "vocabulary_via_alias": 1,
+                    "models_discovered": 1,
+                    "searches_attempted": 1,
+                    "searches_missing": 1
+                  }
+                }
+              }
             },
             {
               "brand_id": "nio",
