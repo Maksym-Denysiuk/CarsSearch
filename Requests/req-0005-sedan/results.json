@@ -6678,6 +6678,95 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "bestune-b70",
+      "name": "B70",
+      "manufacturer": "Bestune",
+      "group_id": "g18-faw",
+      "group_name": "FAW Group",
+      "brand_id": "bestune",
+      "brand_name": "Bestune",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 30415,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/bestune-b70-vollausstattung-160-kw-218-ps-autom-6-gan-benzin-silber-cat_ma52007gr203074-b3f6994c-9da2-4d76-b111-349798dd3079",
+          "price_eur": 31285,
+          "price_display": "€ 31.285",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T04:11:49.933538Z",
+          "location": "Hebertsfelden",
+          "year": 2026,
+          "mileage": "4.900 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bestune-b70-bestune-b70-vollausstattung-benzin-silber-cat_ma52007gr203074-89d15676-8c7e-4ec7-ab01-7815f93fe4c0",
+          "price_eur": 29995,
+          "price_display": "€ 29.995",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T04:11:49.933538Z",
+          "location": "Falkenstein-Siebenhitz",
+          "year": 2026,
+          "mileage": "10 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bestune-b70-benzin-schwarz-cat_ma52007gr203074-5456ed2c-258b-4de9-bffe-d8250e0e4482",
+          "price_eur": 29965,
+          "price_display": "€ 29.965",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T04:11:49.933538Z",
+          "location": "Schömberg",
+          "year": null,
+          "mileage": null,
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bestune/b70?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 36,
+          "new": 36,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bestune/b70",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bestune/b70?fregfrom=2024",
+          "found": 6,
+          "new": 6,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
