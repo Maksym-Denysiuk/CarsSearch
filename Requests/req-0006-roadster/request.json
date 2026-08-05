@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g07-gm",
       "group_name": "General Motors (GM)",
-      "brand_id": "chevrolet",
-      "brand_name": "Chevrolet"
+      "brand_id": "gmc",
+      "brand_name": "GMC"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 6,
       "brands_total": 131,
-      "brands_done": 37,
+      "brands_done": 38,
       "brands_failed": 1,
       "models_found": 4,
       "groups": [
@@ -1529,14 +1529,44 @@
         {
           "group_id": "g07-gm",
           "group_name": "General Motors (GM)",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "chevrolet",
               "brand_name": "Chevrolet",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T22:48:10.428065+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 13,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "models_discovered": 7
+                  },
+                  "autoscout24": {
+                    "models_discovered": 10
+                  }
+                }
+              }
             },
             {
               "brand_id": "gmc",
