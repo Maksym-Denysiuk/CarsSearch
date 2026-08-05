@@ -4520,6 +4520,108 @@
           "error": "PageMissing: http 404"
         }
       ]
+    },
+    {
+      "id": "lotus-emeya",
+      "name": "Emeya",
+      "manufacturer": "Lotus",
+      "group_id": "g10-geely",
+      "group_name": "Geely Holding Group & Affiliates",
+      "brand_id": "lotus",
+      "brand_name": "Lotus",
+      "body_type": "sedan",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 108122,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/lotus-emeya-ver-r-ID8Q0lDv.html",
+          "price_eur": 90490,
+          "price_display": "90 490",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:37:49.979068Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "44 000 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lotus-emeya-sonderfolierung-unikat-elektro-grau-cat_ma44gr200884ge1819tr480432-aea37216-612e-47f0-a262-cb05341167d5",
+          "price_eur": 99888,
+          "price_display": "€ 99.888",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:37:49.979068Z",
+          "location": "Markranstädt",
+          "year": null,
+          "mileage": "20 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lotus-emeya-base-sonderangebot-elektro-schwarz-cat_ma44gr200884ge1819tr480432-416da83d-18a6-422f-abc3-ce8477aecffb",
+          "price_eur": 102888,
+          "price_display": "€ 102.888",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:37:49.979068Z",
+          "location": "Markranstädt",
+          "year": null,
+          "mileage": "20 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lotus-emeya-r-sonderleasing-elektro-orange-cat_ma44gr200884ge1819tr480432-67c0d8eb-1af8-4d30-b465-3b274ddcec3d",
+          "price_eur": 139222,
+          "price_display": "€ 139.222",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:37:49.979068Z",
+          "location": "Markranstädt",
+          "year": null,
+          "mileage": "20 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/lotus/emeya?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 2,
+          "new": 1,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/lotus/emeya",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/lotus/emeya?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
