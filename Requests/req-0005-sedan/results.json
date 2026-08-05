@@ -1310,6 +1310,233 @@
           "error": "PageMissing: http 404"
         }
       ]
+    },
+    {
+      "id": "rolls-royce-ghost",
+      "name": "Ghost",
+      "manufacturer": "Rolls-Royce",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "rolls-royce",
+      "brand_name": "Rolls-Royce",
+      "body_type": "sedan",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 462967,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/rolls-royce-ghost-black-badge-2026-benzin-schwarz-cat_ma61gr201321ge1555-2cfb2c3d-8851-4e55-a062-92f0cd9ff170",
+          "price_eur": 484900,
+          "price_display": "€ 484.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:22:47.388922Z",
+          "location": "Radebeul",
+          "year": null,
+          "mileage": "50 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/rolls-royce-ghost-black-badge-hud-acc-360-kam-rfk-navi-led-benzin-schwarz-cat_ma61gr201321ge1555-2e2cd3f6-99d0-48e7-b79d-8c6a0b330599",
+          "price_eur": 459000,
+          "price_display": "€ 459.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:22:47.388922Z",
+          "location": "Köln",
+          "year": null,
+          "mileage": "0 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/rolls-royce-ghost-ghost-black-badge-benzin-schwarz-cat_ma61gr201321ge1555-0b8d159d-2c3f-4909-8af7-8b9fb11a9176",
+          "price_eur": 445000,
+          "price_display": "€ 445.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:22:47.388922Z",
+          "location": "Lauf",
+          "year": 2026,
+          "mileage": "1.500 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/rolls-royce/ghost?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/rolls-royce/ghost",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/rolls-royce/ghost?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "rolls-royce-phantom",
+      "name": "Phantom",
+      "manufacturer": "Rolls-Royce",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "rolls-royce",
+      "brand_name": "Rolls-Royce",
+      "body_type": "sedan",
+      "tier": "ultra-exotic",
+      "first_year": null,
+      "average_budget_eur": 763407,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/rolls-royce-phantom-ewb-by-novitec-+shooting-star+bespoke+-benzin-schwarz-cat_ma61gr201323ge1557-812b1295-bac4-4bf9-898c-7af4c6e8035b",
+          "price_eur": 938910,
+          "price_display": "€ 938.910",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:22:47.388922Z",
+          "location": "Stuhr",
+          "year": null,
+          "mileage": "50 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/rolls-royce-phantom-swb-extended-two-tone-full-benzin-schwarz-cat_ma61gr201323ge1557-23a394e9-5bd0-44d5-9cf8-cd4977403754",
+          "price_eur": 593810,
+          "price_display": "€ 593.810",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:22:47.388922Z",
+          "location": "Gersthofen",
+          "year": 2024,
+          "mileage": "13.500 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/rolls-royce-phantom-ewb-+shooting-star+bespoke+-benzin-schwarz-cat_ma61gr201323ge1557-379a101f-a7f4-44eb-a821-d7d17e7a8115",
+          "price_eur": 757500,
+          "price_display": "€ 757.500",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:22:47.388922Z",
+          "location": "Stuhr",
+          "year": null,
+          "mileage": "50 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/rolls-royce/phantom?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/rolls-royce/phantom",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/rolls-royce/phantom?fregfrom=2024",
+          "found": 7,
+          "new": 7,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "rolls-royce-wraith",
+      "name": "Wraith",
+      "manufacturer": "Rolls-Royce",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "rolls-royce",
+      "brand_name": "Rolls-Royce",
+      "body_type": "sedan",
+      "tier": "unconfirmed",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_no_offerings",
+      "search_status_note": "The search ran correctly and the sites listed nothing matching.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/rolls-royce/wraith?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/rolls-royce/wraith",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/rolls-royce/wraith?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }

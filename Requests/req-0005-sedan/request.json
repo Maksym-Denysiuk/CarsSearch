@@ -11,23 +11,23 @@
     "date_of_request": "2026-08-05",
     "status": "in progress",
     "search_state": {
-      "group_id": "g01-bmw",
-      "group_name": "BMW Group",
-      "brand_id": "rolls-royce",
-      "brand_name": "Rolls-Royce"
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-benz",
+      "brand_name": "Mercedes-Benz"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 0,
+      "groups_done": 1,
       "brands_total": 131,
-      "brands_done": 3,
+      "brands_done": 4,
       "brands_failed": 0,
-      "models_found": 43,
+      "models_found": 49,
       "groups": [
         {
           "group_id": "g01-bmw",
           "group_name": "BMW Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "bmw",
@@ -168,9 +168,44 @@
             {
               "brand_id": "rolls-royce",
               "brand_name": "Rolls-Royce",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 6,
+              "completed_at": "2026-08-05T03:22:47.392945+00:00",
+              "diagnostics": {
+                "models_suggested": 3,
+                "searches_attempted": 9,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 27,
+                "unique_offerings": 27,
+                "candidates_checked": 6,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 6,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 18,
+                "model_suggestion_retries": 0,
+                "models_discovered": 11,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 3
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 3
+                  },
+                  "autoscout24": {
+                    "models_discovered": 11,
+                    "searches_attempted": 3,
+                    "candidates_checked": 6,
+                    "firewall_kept": 6
+                  }
+                }
+              }
             }
           ]
         },
