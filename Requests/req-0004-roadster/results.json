@@ -843,6 +843,95 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "lotus-emira",
+      "name": "Emira",
+      "manufacturer": "Lotus",
+      "group_id": "g10-geely",
+      "group_name": "Geely Holding Group & Affiliates",
+      "brand_id": "lotus",
+      "brand_name": "Lotus",
+      "body_type": "roadster",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 106222,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/lotus-emira-limited-type-86-1-of-12-sondermodell-benzin-blau-cat_ma44gr200886ge11116-d14a4356-91dc-4708-b93c-dc5413c6a546",
+          "price_eur": 103222,
+          "price_display": "€ 103.222",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T01:03:48.534636Z",
+          "location": "Markranstädt",
+          "year": 2025,
+          "mileage": "20 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lotus-emira-turbo-se-dark-verdant-ppf-benzin-gruen-cat_ma44gr200886ge11116-d21e02af-19ec-401c-8776-6a0c939d46e3",
+          "price_eur": 112222,
+          "price_display": "€ 112.222",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T01:03:48.534636Z",
+          "location": "Markranstädt",
+          "year": 2025,
+          "mileage": "6.132 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lotus-emira-limited-type-86-1-of-12-leipzig-benzin-blau-cat_ma44gr200886ge11116-f1e05976-bb12-4bc8-be78-4992a828aab9",
+          "price_eur": 103222,
+          "price_display": "€ 103.222",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T01:03:48.534636Z",
+          "location": "Markranstädt",
+          "year": 2025,
+          "mileage": "20 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/lotus/emira?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/lotus/emira",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/lotus/emira?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
