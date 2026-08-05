@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g03-vw",
       "group_name": "Volkswagen Group",
-      "brand_id": "seat",
-      "brand_name": "SEAT"
+      "brand_id": "cupra",
+      "brand_name": "Cupra"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 2,
       "brands_total": 131,
-      "brands_done": 12,
+      "brands_done": 13,
       "brands_failed": 0,
-      "models_found": 103,
+      "models_found": 109,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -587,9 +587,50 @@
             {
               "brand_id": "seat",
               "brand_name": "SEAT",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 6,
+              "completed_at": "2026-08-05T03:28:35.280504+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 44,
+                "unique_offerings": 44,
+                "candidates_checked": 9,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 6,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 3
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 14,
+                "model_suggestion_retries": 0,
+                "models_discovered": 5,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  },
+                  "auto.pt": {
+                    "models_discovered": 5,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3
+                  },
+                  "autoscout24": {
+                    "models_discovered": 4,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "cupra",

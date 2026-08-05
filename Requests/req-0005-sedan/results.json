@@ -2889,6 +2889,134 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "seat-leon",
+      "name": "Leon",
+      "manufacturer": "SEAT",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "seat",
+      "brand_name": "SEAT",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 21127,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/seat-leon-ver-1-5-tsi-opf-style-edition-ID8Q0zjt.html",
+          "price_eur": 19990,
+          "price_display": "19 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:28:35.276485Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "84 000 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/seat-leon-ver-1-4-e-hybrid-fr-dsg-ID8Q0ytd.html",
+          "price_eur": 25750,
+          "price_display": "25 750",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:28:35.276485Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "42 397 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/seat-leon-ver-1-0-tsi-style-ID8Q0EOT.html",
+          "price_eur": 22900,
+          "price_display": "22 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:28:35.276485Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "25 500 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/seat-leon-sportstourer-1-0-tsi-style-led-pdc-acc-benzin-grau-cat_ma64gr15869ge494va405mt845tr454-c8334d35-2792-43bd-9d12-7e0f25ca2b7b",
+          "price_eur": 16740,
+          "price_display": "€ 16.740",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:28:35.276485Z",
+          "location": "Gardelegen",
+          "year": 2024,
+          "mileage": "26.806 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/seat-leon-1-5-tsi-fr-navi-led-rfk-acc-totwinkel-ass-benzin-grau-cat_ma64gr15869ge494va3217mt854tr436-73ab1432-28f8-4d66-a03b-228cf4e59ae7",
+          "price_eur": 22433,
+          "price_display": "€ 22.433",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:28:35.276485Z",
+          "location": "Kassel",
+          "year": 2025,
+          "mileage": "24.300 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/seat-leon-style-benzin-weiss-cat_ma64gr15869ge494va3217mt845tr436-192dbde3-824e-47f4-bdb3-6c84895f7ada",
+          "price_eur": 18950,
+          "price_display": "€ 18.950",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:28:35.276485Z",
+          "location": "Aschaffenburg",
+          "year": 2025,
+          "mileage": "11.600 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/seat/leon?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 4,
+          "new": 4,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/seat/leon",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/seat/leon?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
