@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g13-independent-mainstream",
       "group_name": "Independent Mainstream Manufacturers",
-      "brand_id": "mazda",
-      "brand_name": "Mazda"
+      "brand_id": "subaru",
+      "brand_name": "Subaru"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 12,
       "brands_total": 131,
-      "brands_done": 77,
+      "brands_done": 78,
       "brands_failed": 4,
-      "models_found": 4,
+      "models_found": 9,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -3239,9 +3239,50 @@
             {
               "brand_id": "mazda",
               "brand_name": "Mazda",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 5,
+              "completed_at": "2026-08-05T22:56:41.070634+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 30,
+                "unique_offerings": 29,
+                "candidates_checked": 8,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 5,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 3
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 13,
+                "model_suggestion_retries": 0,
+                "models_discovered": 11,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1,
+                    "candidates_checked": 2,
+                    "firewall_kept": 2
+                  },
+                  "auto.pt": {
+                    "models_discovered": 10,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3
+                  },
+                  "autoscout24": {
+                    "models_discovered": 9,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "subaru",
