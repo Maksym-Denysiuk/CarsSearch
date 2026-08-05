@@ -741,6 +741,108 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "alpine-a110",
+      "name": "A110",
+      "manufacturer": "Alpine",
+      "group_id": "g09-renault-nissan-mitsubishi",
+      "group_name": "Renault-Nissan-Mitsubishi Alliance",
+      "brand_id": "alpine",
+      "brand_name": "Alpine",
+      "body_type": "roadster",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 84013,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/alpine-a110-ver-s-ID8Q0F3n.html",
+          "price_eur": 94990,
+          "price_display": "94 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T01:03:03.086448Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "8 500 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/alpine-a110-a110s-aeropaket-sabelt-microfaser-focal-premium-cu-benzin-orange-cat_ma51796gr200094ge2243tr6562-0e192663-9d13-4110-8e75-87aa508a1107",
+          "price_eur": 79580,
+          "price_display": "€ 79.580",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T01:03:03.086448Z",
+          "location": "Saarbrücken",
+          "year": 2024,
+          "mileage": "10.000 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/alpine-a110-a110s-aeropaket-carbondach-focal-premium-microfase-benzin-blau-cat_ma51796gr200094ge2243tr4227-da5c2b7f-ed5c-4dd4-a492-2d74eb65a811",
+          "price_eur": 89990,
+          "price_display": "€ 89.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T01:03:03.086448Z",
+          "location": "Saarbrücken",
+          "year": 2025,
+          "mileage": "25 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/alpine-a110-gt-benzin-blau-cat_ma51796gr200094ge2243tr4227-2e2bc9d5-30d2-4437-af5b-aee71b1d79b6",
+          "price_eur": 71490,
+          "price_display": "€ 71.490",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T01:03:03.086448Z",
+          "location": "Ravensburg",
+          "year": 2025,
+          "mileage": "6.000 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/alpine/a110?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/alpine/a110",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/alpine/a110?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
