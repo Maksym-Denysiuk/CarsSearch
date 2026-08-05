@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g14-specialist-low-volume",
       "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-      "brand_id": "ferrari",
-      "brand_name": "Ferrari"
+      "brand_id": "aston-martin",
+      "brand_name": "Aston Martin"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 13,
       "brands_total": 131,
-      "brands_done": 72,
+      "brands_done": 73,
       "brands_failed": 12,
-      "models_found": 38,
+      "models_found": 47,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -3369,14 +3369,59 @@
         {
           "group_id": "g14-specialist-low-volume",
           "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "ferrari",
               "brand_name": "Ferrari",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 9,
+              "completed_at": "2026-08-05T01:16:22.030201+00:00",
+              "diagnostics": {
+                "models_suggested": 4,
+                "searches_attempted": 12,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 41,
+                "unique_offerings": 37,
+                "candidates_checked": 16,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 9,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 4,
+                  "title does not mention the searched model": 3
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 30,
+                "model_suggestion_retries": 0,
+                "models_discovered": 16,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 4,
+                    "candidates_checked": 4,
+                    "firewall_dropped": 3,
+                    "firewall_kept": 1
+                  },
+                  "auto.pt": {
+                    "models_discovered": 6,
+                    "searches_attempted": 4,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3,
+                    "searches_missing": 2
+                  },
+                  "autoscout24": {
+                    "models_discovered": 12,
+                    "searches_attempted": 4,
+                    "candidates_checked": 9,
+                    "firewall_kept": 8,
+                    "firewall_dropped": 1
+                  }
+                }
+              }
             },
             {
               "brand_id": "aston-martin",

@@ -1149,6 +1149,322 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "ferrari-california",
+      "name": "California",
+      "manufacturer": "Ferrari",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "ferrari",
+      "brand_name": "Ferrari",
+      "body_type": "roadster",
+      "tier": "unconfirmed",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/ferrari/california?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/ferrari/california",
+          "found": 4,
+          "new": 4,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/ferrari/california?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "ferrari-sf90-spider",
+      "name": "SF90 Spider",
+      "manufacturer": "Ferrari",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "ferrari",
+      "brand_name": "Ferrari",
+      "body_type": "roadster",
+      "tier": "ultra-exotic",
+      "first_year": null,
+      "average_budget_eur": 559938,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/ferrari-sf90-ver-standard-ID8Q0O1l.html",
+          "price_eur": 599900,
+          "price_display": "599 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T01:16:22.027656Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "3 990 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ferrari-sf90-grigio-scuro-racing-seats-elektro-benzin-grau-cat_ma27gr200483-e6f46e5d-1216-417d-8c2f-519c87c8f0cc",
+          "price_eur": 468800,
+          "price_display": "€ 468.800",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T01:16:22.027656Z",
+          "location": "Mönchengladbach",
+          "year": 2024,
+          "mileage": "45 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ferrari-sf90-carbon-lift-novitec-elektro-benzin-gelb-cat_ma27gr200483-77aa5e8c-d710-42fc-9d89-07be5b8b5acb",
+          "price_eur": 696150,
+          "price_display": "€ 696.150",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T01:16:22.027656Z",
+          "location": "München",
+          "year": null,
+          "mileage": "380 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ferrari-sf90-carbon-lift-racingseat-hud-elektro-benzin-rot-cat_ma27gr200483-379eafba-c160-4d48-ae00-414cecd2c625",
+          "price_eur": 474900,
+          "price_display": "€ 474.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T01:16:22.027656Z",
+          "location": "Bad Oeynhausen",
+          "year": null,
+          "mileage": null,
+          "fuel": "Elektro/Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/ferrari/sf90-spider?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 4,
+          "new": 4,
+          "duplicates": 0,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/ferrari/sf90-spider",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/ferrari/sf90-spider?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "ferrari-f8-spider",
+      "name": "F8 Spider",
+      "manufacturer": "Ferrari",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "ferrari",
+      "brand_name": "Ferrari",
+      "body_type": "roadster",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 369000,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "2 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/ferrari-f8-v8-3-9-biturbo-benzin-schwarz-cat_ma27gr200485-ec0c0c48-4dc6-4738-a451-277e9c39884d",
+          "price_eur": 350000,
+          "price_display": "€ 350.000",
+          "country": "FR",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-05T01:16:22.027656Z",
+          "location": "Monaco",
+          "year": 2025,
+          "mileage": "6.250 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ferrari-f8-rosso-fiorano-benzin-rot-cat_ma27gr200485-87c34629-34dc-49a7-bb95-fc3e54dce57a",
+          "price_eur": 388000,
+          "price_display": "€ 388.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-05T01:16:22.027656Z",
+          "location": "Langenfeld (Rheinland), Stadt",
+          "year": 2024,
+          "mileage": "4.800 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/ferrari/f8-spider?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 4,
+          "new": 0,
+          "duplicates": 4,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/ferrari/f8-spider",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/ferrari/f8-spider?fregfrom=2024",
+          "found": 5,
+          "new": 5,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "ferrari-portofino",
+      "name": "Portofino",
+      "manufacturer": "Ferrari",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "ferrari",
+      "brand_name": "Ferrari",
+      "body_type": "roadster",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 257640,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/ferrari-portofino-portofino-m-4-0-v8-620-ch-115-km-benzin-cat_ma27gr200482-1f856ce0-4703-458d-a160-6281574e1aa0",
+          "price_eur": 249000,
+          "price_display": "€ 249.000",
+          "country": "FR",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 4,
+          "captured_at": "2026-08-05T01:16:22.027656Z",
+          "location": "Bastia",
+          "year": 2024,
+          "mileage": "120 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ferrari-portofino-m-ferrari-munsterhuis-benzin-grau-cat_ma27gr200482-e50d2620-5df5-4e69-90d7-2be893e3eb40",
+          "price_eur": 289950,
+          "price_display": "€ 289.950",
+          "country": "NL",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 4,
+          "captured_at": "2026-08-05T01:16:22.027656Z",
+          "location": "HENGELO",
+          "year": 2024,
+          "mileage": "5.951 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ferrari-portofino-m-benzin-cat_ma27gr200482-85ba55f4-824d-4d53-b906-3f52842ef808",
+          "price_eur": 233971,
+          "price_display": "€ 233.971",
+          "country": "ES",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 4,
+          "captured_at": "2026-08-05T01:16:22.027656Z",
+          "location": "MADRID",
+          "year": null,
+          "mileage": null,
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 4,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/ferrari/portofino?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 4,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/ferrari/portofino",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 4,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/ferrari/portofino?fregfrom=2024",
+          "found": 3,
+          "new": 3,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
