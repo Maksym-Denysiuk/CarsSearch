@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-04",
+  "generated": "2026-08-05",
   "requests": [
     {
       "request_id": "req-0001-roadsters",
@@ -13,7 +13,7 @@
       "search_state": {
         "group": null,
         "brand": null,
-        "models_done": 58
+        "models_done": 42
       },
       "counts": {
         "models": 58,
@@ -31,7 +31,7 @@
       "search_state": {
         "group": null,
         "brand": null,
-        "models_done": 136
+        "models_done": 193
       },
       "counts": {
         "models": 136,
@@ -49,7 +49,7 @@
       "search_state": {
         "group": null,
         "brand": null,
-        "models_done": 112
+        "models_done": 101
       },
       "counts": {
         "models": 112,
@@ -63,15 +63,15 @@
       "results_path": "Requests/req-0004-roadster/results.json",
       "favorites_path": "Requests/req-0004-roadster/favorites.json",
       "date_of_request": "2026-08-05",
-      "status": "tbd",
+      "status": "in progress",
       "search_state": {
-        "group": null,
-        "brand": null,
-        "models_done": 0
+        "group": "Stellantis",
+        "brand": "Lancia",
+        "models_done": 18
       },
       "counts": {
-        "models": 0,
-        "offerings": 0
+        "models": 7,
+        "offerings": 18
       }
     }
   ]
