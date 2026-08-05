@@ -6615,6 +6615,69 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "hongqi-eh7",
+      "name": "EH7",
+      "manufacturer": "Hongqi",
+      "group_id": "g18-faw",
+      "group_name": "FAW Group",
+      "brand_id": "hongqi",
+      "brand_name": "Hongqi",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 39990,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "1 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/hongqi-eh7-exclusive-111kwh-655km-reichweite-tageszulassung-elektro-schwarz-cat_ma51988gr77128-d24fc77c-b19f-43a0-9b25-e07c8579044c",
+          "price_eur": 39990,
+          "price_display": "€ 39.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T04:11:38.220211Z",
+          "location": "Bad Hersfeld",
+          "year": 2026,
+          "mileage": "150 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/hongqi/eh7?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 34,
+          "new": 34,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/hongqi/eh7",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/hongqi/eh7?fregfrom=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
