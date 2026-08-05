@@ -9,7 +9,7 @@
   },
   "system_fields": {
     "date_of_request": "2026-08-05",
-    "status": "done",
+    "status": "in progress",
     "search_state": {
       "group_id": null,
       "group_name": null,
@@ -2388,40 +2388,9 @@
             {
               "brand_id": "lynk-and-co",
               "brand_name": "Lynk & Co",
-              "status": "done",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-05T03:38:25.386031+00:00",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 3,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 1
-                  },
-                  "autoscout24": {
-                    "vocabulary_via_alias": 1,
-                    "models_discovered": 3
-                  }
-                }
-              }
+              "completed_at": null
             }
           ]
         },
@@ -3945,48 +3914,9 @@
             {
               "brand_id": "bac",
               "brand_name": "BAC",
-              "status": "done",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-05T03:58:52.991797+00:00",
-              "diagnostics": {
-                "models_suggested": 2,
-                "searches_attempted": 6,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 68,
-                "unique_offerings": 36,
-                "candidates_checked": 5,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {
-                  "title does not mention the searched model": 5
-                },
-                "circuit_breaker_tripped": false,
-                "search_status": "completed_insufficient_sources",
-                "requests_made": 14,
-                "model_suggestion_retries": 0,
-                "models_discovered": 19,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0,
-                    "searches_attempted": 2,
-                    "candidates_checked": 5,
-                    "firewall_dropped": 5
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0,
-                    "searches_attempted": 2,
-                    "searches_missing": 2
-                  },
-                  "autoscout24": {
-                    "models_discovered": 19,
-                    "searches_attempted": 2,
-                    "searches_missing": 2
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "brabus",
@@ -5342,39 +5272,9 @@
             {
               "brand_id": "luxeed",
               "brand_name": "Luxeed",
-              "status": "done",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-05T04:15:08.426019+00:00",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 14,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 14
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "stelato",

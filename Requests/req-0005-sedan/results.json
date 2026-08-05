@@ -4,7 +4,7 @@
   "generated": "2026-08-05",
   "metadata": {
     "currency": "EUR",
-    "specs_disclaimer": "Spec fields (engine, consumption, tank/battery, variant, roof, doors, tax, photo) are omitted rather than estimated: this pipeline reads listing search results, which do not publish them. Offerings, prices and years are read from the listing cards and each price was re-verified against the listing page it came from."
+    "specs_disclaimer": "Spec fields (engine, gearbox, consumption, tank/battery, doors, roof, variant, first year) were gathered by a local language model using web search and are NOT verified against any listing -- treat them as good-faith approximations for the model, not statements about any particular car, and check spec_source before relying on one. Tax fields are left absent rather than estimated. The offerings below are different: each price was re-verified against the listing page it came from, and each car's own year, mileage and colour are read from its own advert."
   },
   "models": [
     {
@@ -17,7 +17,7 @@
       "brand_name": "BMW",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2020,
       "average_budget_eur": 39306,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -34,7 +34,9 @@
           "location": null,
           "year": 2024,
           "mileage": "28 000 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/bmw-320-ver-e-pack-m-auto-ID8Q0EI6.html",
@@ -47,7 +49,9 @@
           "location": null,
           "year": 2024,
           "mileage": "63 000 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/bmw-320-ver-d-pack-desportivo-m-auto-ID8PV3nj.html",
@@ -60,7 +64,9 @@
           "location": null,
           "year": 2024,
           "mileage": "41 409 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Azul",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-3er-i-m-sport-paket-led-acc-hud-360-cam-garantie-benzin-grau-cat_ma13gr100038ge28va105mt103tr479990-efc22c40-14ef-47de-a003-32746b2cda40",
@@ -73,7 +79,9 @@
           "location": "Bekond",
           "year": 2025,
           "mileage": "26.000 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-3er-d-xdrive-limousine-m-sportpaket-navi+acc+shz-diesel-weiss-cat_ma13gr100038ge28va105mt118tr479990-30e50bbc-b00e-4a02-a769-a17adca7b856",
@@ -86,7 +94,9 @@
           "location": "Idar-Oberstein",
           "year": 2025,
           "mileage": "5.394 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-3er-d-xdrive-m-sport-pro-ahk-acc-hifi-360-sthz-diesel-grau-cat_ma13gr100038ge28va106mt118tr479990-c04fe166-b1de-437f-a262-27aa19f71380",
@@ -99,7 +109,9 @@
           "location": "Roßtal",
           "year": 2025,
           "mileage": "50.000 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "SKYSCRAPER GRAU",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -133,7 +145,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.0L turbocharged petrol I4, 135 kW (184 hp)",
+      "gearbox": "8-speed automatic (torque converter)",
+      "fuel_or_charge_consumption": "6.8-6.6 L/100 km (WLTP)",
+      "tank_or_battery_size": "59 L",
+      "doors": 4,
+      "model_variant": "G20 LCI facelift (2020-)",
+      "spec_source": {
+        "url": "https://www.bmw.com/en/bmw_m_new_products/bmw_3_series_sedan.html",
+        "retrieved_at": "2026-08-05T04:57:38.120194+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "bmw-530",
@@ -145,7 +168,7 @@
       "brand_name": "BMW",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 60727,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -162,7 +185,9 @@
           "location": null,
           "year": 2025,
           "mileage": "15 752 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/bmw-530-ver-e-xdrive-pack-desportivo-m-pro-ID8Q0F6e.html",
@@ -175,7 +200,9 @@
           "location": null,
           "year": 2025,
           "mileage": "23 000 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/bmw-530-ver-e-pack-desportivo-m-pro-ID8PUnve.html",
@@ -188,7 +215,9 @@
           "location": null,
           "year": 2024,
           "mileage": "22 152 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-5er-530e-m-sport-plug-in-hybrid-2-0-140ps-head-up-navi-temp-sitzh-harman-kardon-360-kamera-panoramaglasdach-led-r19-eu6e-elektro-benzin-schwarz-cat_ma13gr100039ge128va108mt488tr479992-5a5c53e6-13c0-46eb-800b-4f97592b935b",
@@ -201,7 +230,9 @@
           "location": "Köln",
           "year": 2026,
           "mileage": "26.002 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-5er-xdrive-m-sportpro-21-acc-360-ahk-sitzlueft-elektro-benzin-grau-cat_ma13gr100039ge128va109mt488tr479992-2df1b5f2-e5d6-465f-b0d6-75cb86bcfdc4",
@@ -214,7 +245,9 @@
           "location": "Königsbrunn",
           "year": 2026,
           "mileage": "4.150 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "(0A90) Sophistograu Brillant",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-5er-e-touring-m-sport-acc-ahk-hk-elektro-benzin-weiss-cat_ma13gr100039ge128va109mt488tr479992-1ffc3f34-441d-405c-85e3-312960b39731",
@@ -227,7 +260,9 @@
           "location": "Landshut",
           "year": 2025,
           "mileage": "7.000 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -261,7 +296,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.0 l 1998 cm³ turbocharged petrol I4, 190 hp",
+      "gearbox": "8-speed automatic Steptronic (torque converter)",
+      "fuel_or_charge_consumption": "21.1-23.3 kWh/100 km (WLTP)",
+      "tank_or_battery_size": "19.4 kWh usable battery",
+      "doors": 4,
+      "model_variant": "Sedan (G60) 530e Plug-in Hybrid xDrive Steptronic",
+      "spec_source": {
+        "url": "https://www.autodata.net/en/bmw/5-series-sedan-g60/530e-299-hp-plug-in-hybrid-xdrive-stepronic/",
+        "retrieved_at": "2026-08-05T06:08:31.724943+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "bmw-316",
@@ -273,7 +319,7 @@
       "brand_name": "BMW",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2019,
       "average_budget_eur": 28233,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -290,7 +336,9 @@
           "location": "Desio - MB",
           "year": 2024,
           "mileage": "16.825 km",
-          "fuel": "Elektro/Diesel"
+          "fuel": "Elektro/Diesel",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-3er-g21-2022-touring-316d-touring-mhev-48v-msport-auto-elektro-diesel-grau-cat_ma13gr100038ge28va106mt123tr196-8b73b833-2da3-47a8-a957-9d1ad9bfda5a",
@@ -303,7 +351,9 @@
           "location": "Settimo Torinese - Torino - To",
           "year": 2024,
           "mileage": "12.837 km",
-          "fuel": "Elektro/Diesel"
+          "fuel": "Elektro/Diesel",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-3er-316d-touring-f31-diesel-weiss-cat_ma13gr100038ge28va106mt123-64bb6b74-1f24-41f9-b304-248a0bb4d972",
@@ -316,7 +366,10 @@
           "location": "Roma",
           "year": 2025,
           "mileage": "152.000 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Weiß",
+          "condition_notes": "La carrozzeria presenta normali segni di utilizzo compatibili con l'età del veicolo.",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -350,7 +403,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.0L Turbocharged 4-cylinder, 116 hp",
+      "gearbox": "8-speed Steptronic automatic",
+      "fuel_or_charge_consumption": "5.9 L/100 km (WLTP)",
+      "tank_or_battery_size": "52 L",
+      "doors": 4,
+      "model_variant": "G20 LCI, 2019–",
+      "spec_source": {
+        "url": "https://www.bmw.com/en/models/bmw-3-series/specifications.html",
+        "retrieved_at": "2026-08-05T06:45:24.726808+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "bmw-318",
@@ -362,7 +426,7 @@
       "brand_name": "BMW",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2020,
       "average_budget_eur": 27972,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -379,7 +443,9 @@
           "location": null,
           "year": 2025,
           "mileage": "22 000 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-3er-geschwindigre-dab-pdc-cockpitplus-widscreen-benzin-schwarz-cat_ma13gr100038ge28va105mt102tr479990-4a5ff05c-88fe-43a6-bb1a-c57afbd3f48e",
@@ -392,7 +458,9 @@
           "location": "Celle",
           "year": 2024,
           "mileage": "46.017 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-3er-d-ahk-acc-led-h-k-leder-sportsitze-carplay-diesel-weiss-cat_ma13gr100038ge28va106mt117tr479990-f0cacafd-a430-4482-875c-7a27f88ce0b6",
@@ -405,7 +473,9 @@
           "location": "Pinneberg",
           "year": 2024,
           "mileage": "205.520 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-3er-dab-pdc-widscreen-geschwindigkeitsreg-led-benzin-schwarz-cat_ma13gr100038ge28va105mt102tr479990-ad731724-31ce-437e-a2f8-86b554e4f163",
@@ -418,7 +488,9 @@
           "location": "Celle",
           "year": 2024,
           "mileage": "37.557 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -452,7 +524,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.0L turbocharged petrol I4, 115 kW / 156 hp (B48B20A)",
+      "gearbox": "8-speed automatic (BMW Steptronic)",
+      "fuel_or_charge_consumption": "6.3-7.1 l/100 km (WLTP)",
+      "tank_or_battery_size": "59 L",
+      "doors": 4,
+      "model_variant": "3 Series Sedan (G20) 318i, production 2020–2026",
+      "spec_source": {
+        "url": "https://www.bmwgroup.com/en/media/offers-specifications/specifications-cars/bmw-3-series-g20-318i.html",
+        "retrieved_at": "2026-08-05T05:47:02.320421+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "bmw-440",
@@ -464,7 +547,7 @@
       "brand_name": "BMW",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2021,
       "average_budget_eur": 58620,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -481,7 +564,10 @@
           "location": "Oldenburg",
           "year": 2025,
           "mileage": "43.178 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Blau",
+          "condition_notes": "Unfallfahrzeug Repariert",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-4er-i-cabrio-open-air-inno-carbon-m-sport-pro-benzin-schwarz-cat_ma13gr100097ge322va299mt690tr478942-e966c1b9-1da4-47f2-acd1-ea5d5a509215",
@@ -494,7 +580,9 @@
           "location": "Germaringen",
           "year": 2024,
           "mileage": "12.660 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "BLACK SAPPHIRE METALLIC",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-4er-m440i-xdrive-coupe-m-sportpaket-pro-acc-harman-kar-benzin-grau-cat_ma13gr100097ge322va300mt690tr478942-5dbcca59-a942-47e8-9d23-62bbebd70921",
@@ -507,7 +595,9 @@
           "location": "Soltau",
           "year": 2025,
           "mileage": "12.600 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -541,7 +631,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "M TwinPower Turbo petrol, 2.0L",
+      "gearbox": "8-speed Steptronic with optional Sport",
+      "fuel_or_charge_consumption": "6.9 L/100 km (combined)",
+      "tank_or_battery_size": "63 L",
+      "doors": 2,
+      "model_variant": "G22 Coupé, 2021–present, soft top (non‑convertible)",
+      "spec_source": {
+        "url": "https://www.bmw.com/en/all-models/4-series/coupé/2024/bmw-4-series-coupé-specifications.html",
+        "retrieved_at": "2026-08-05T05:56:21.048843+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "bmw-i4",
@@ -553,7 +654,7 @@
       "brand_name": "BMW",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 48640,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -570,7 +671,9 @@
           "location": null,
           "year": 2024,
           "mileage": "14 400 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Vermelho",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/bmw-i4-ver-m50-pack-desportivo-m-pro-ID8Q0AjG.html",
@@ -583,7 +686,9 @@
           "location": null,
           "year": 2024,
           "mileage": "37 200 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/bmw-i4-ver-edrive40-ID8PRNd6.html",
@@ -596,7 +701,9 @@
           "location": null,
           "year": 2024,
           "mileage": "8 500 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-i4-edrive40-gran-coupe-m-paket-head-up+sthz+navi-elektro-schwarz-cat_ma13gr75941ge766mt1338tr480011-9881d464-47f0-4184-a689-182912b844c0",
@@ -609,7 +716,9 @@
           "location": "Bad Kreuznach",
           "year": 2025,
           "mileage": "14.900 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-i4-m50-gran-coupe-m-sport-ahk-hk-da-pro-360-elektro-blau-cat_ma13gr75941ge766mt1339tr480011-b52c2790-18ed-4524-ba86-0e0f365c59c2",
@@ -622,7 +731,9 @@
           "location": "Mülheim an der Ruhr",
           "year": 2025,
           "mileage": "30.283 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Blau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-i4-gran-coupe-m-sport-navi-acc-pdc-elektro-schwarz-cat_ma13gr75941ge766mt1337tr5345-e5c63280-132f-4720-bb87-1ee2bb766814",
@@ -635,7 +746,9 @@
           "location": "Egelsbach",
           "year": 2024,
           "mileage": "28.890 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz - BLACK SAPPHIRE METALLIC",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -669,7 +782,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "Electric motor #1: 230 kW @ 8000 - 17000 rpm, 365 Nm @ 0 - 5000 rpm, Location: Rear; Electric motor #2: 190 kW @ 8000 - 17000 rpm, 430 Nm @ 0 - 5000 rpm, Location: Front; Drivetrain: All-wheel drive (AWD)",
+      "gearbox": "Automatic transmission",
+      "tank_or_battery_size": "84.3 kWh",
+      "doors": 4,
+      "model_variant": "G26 LCI (2024-)",
+      "spec_source": {
+        "url": "https://www.bmw.com/en/models/bmw-i/i4.html",
+        "retrieved_at": "2026-08-05T07:01:44.827365+00:00",
+        "method": "local-llm-web-search"
+      },
+      "fuel_or_charge_consumption": "17.1 kWh/100 km (WLTP)"
     },
     {
       "id": "bmw-220",
@@ -681,7 +805,7 @@
       "brand_name": "BMW",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 27760,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -698,7 +822,9 @@
           "location": "Hamm",
           "year": 2025,
           "mileage": "13.002 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-2er-220-gran-coupe-+-garantie-bis-02-2030-benzin-weiss-cat_ma13gr100098ge10825va315mt715tr479989-10c658cb-61b7-4010-8296-e8345b39dd0e",
@@ -711,7 +837,9 @@
           "location": "Lünen",
           "year": 2025,
           "mileage": "14.002 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-2er-i-active-tourer-benzin-grau-cat_ma13gr100098ge352va426mt715tr479989-b7f09e2a-4278-4e42-b36b-c9678865d231",
@@ -724,7 +852,9 @@
           "location": "Nürtingen",
           "year": 2025,
           "mileage": "8.500 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -758,7 +888,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "1.5 L turbocharged petrol I3, mild-hybrid 156 hp",
+      "gearbox": "7-speed automatic Steptronic DCT",
+      "fuel_or_charge_consumption": "5.2-5.7 L/100 km (WLTP)",
+      "doors": 4,
+      "model_variant": "F74 (2024-)",
+      "spec_source": {
+        "url": "https://www.autodata.net/en/bmw-2-series-coupe-g42-220i-184hp-steptronic",
+        "retrieved_at": "2026-08-05T06:24:25.760158+00:00",
+        "method": "local-llm-web-search"
+      },
+      "tank_or_battery_size": "52 L"
     },
     {
       "id": "bmw-340",
@@ -770,7 +911,7 @@
       "brand_name": "BMW",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2019,
       "average_budget_eur": 62553,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -787,7 +928,9 @@
           "location": "Bad Wiessee",
           "year": 2025,
           "mileage": "14.685 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Blau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-3er-m340i-xdrive-touring-pro-acc-360-pano-hud-hifi-benzin-grau-cat_ma13gr100038ge28va106mt132tr479990-5ab43960-08f5-4a0f-a580-f07e1a500f29",
@@ -800,7 +943,9 @@
           "location": "Bad Wiessee",
           "year": 2025,
           "mileage": "11.533 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-3er-m340i-xdrive-lim-m-sport-18-sportsitz-ambiente-h-benzin-schwarz-cat_ma13gr100038ge28va105mt132tr479990-e4075386-0557-46ab-89aa-cedb55502a95",
@@ -813,7 +958,9 @@
           "location": "Oberhausen",
           "year": 2025,
           "mileage": "7.548 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -847,7 +994,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "3.0L straight-six petrol, 275 kW (375 hp)",
+      "gearbox": "8-speed Steptronic automatic (torque converter)",
+      "fuel_or_charge_consumption": "7.8 l/100 km (WLTP)",
+      "tank_or_battery_size": "50 L",
+      "doors": 4,
+      "model_variant": "G20 M340i xDrive Sedan (2024-)",
+      "spec_source": {
+        "url": "https://www.bmw.com/en/all-models/overview-model-and-performance/bmw-m340i-xdrive-sedan/2022/bmw-m340i-xdrive-sedan.html",
+        "retrieved_at": "2026-08-05T07:11:53.685920+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "bmw-430",
@@ -859,7 +1017,7 @@
       "brand_name": "BMW",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 54578,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -876,7 +1034,9 @@
           "location": null,
           "year": 2025,
           "mileage": "11 000 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/bmw-430-ver-i-xdrive-pack-desportivo-m-pro-auto-ID8Q0n2D.html",
@@ -889,7 +1049,9 @@
           "location": null,
           "year": 2024,
           "mileage": "19 000 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Pérola",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-4er-430i-xdrive-m-sport-pro-19zoll-sd-360-lenkradh-benzin-gruen-cat_ma13gr100097ge322va301mt684tr479991-dd061667-8836-4ada-9d89-b1bce937726a",
@@ -902,7 +1064,9 @@
           "location": "Meitingen bei Augsburg",
           "year": 2026,
           "mileage": "5.400 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grün",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-4er-i-xdrive-gran-coupe-ahk-360-head-up-rfk-hifi-benzin-schwarz-cat_ma13gr100097ge322va301mt684tr479991-9d573764-bec2-4398-bf8b-711497a68193",
@@ -915,7 +1079,9 @@
           "location": "Oldenburg",
           "year": 2025,
           "mileage": "4.812 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-4er-i-xdrive-gran-coupe-m-sportpaket-benzin-weiss-cat_ma13gr100097ge322va301mt684tr479991-bd960d2c-89fe-4446-9a8e-58a88d004ecd",
@@ -928,7 +1094,9 @@
           "location": "Duisburg",
           "year": 2025,
           "mileage": "11.833 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -962,7 +1130,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.0-liter TwinPower Turbo inline-4-cylinder gasoline engine, 255 hp",
+      "gearbox": "8-speed automatic Steptronic (all models)",
+      "fuel_or_charge_consumption": "6.9-7.7 l/100 km (WLTP)",
+      "tank_or_battery_size": "59 l",
+      "doors": 2,
+      "model_variant": "G22 LCI facelift (2024-), Coupe",
+      "spec_source": {
+        "url": "https://www.autodata.net/en/bmw-4-series-coupe-g22-lci-facelift-2024-430i-255-hp-mild-hybrid-xdrive-284288",
+        "retrieved_at": "2026-08-05T07:09:43.650205+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "bmw-520",
@@ -974,7 +1153,7 @@
       "brand_name": "BMW",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2017,
       "average_budget_eur": 48312,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -991,7 +1170,9 @@
           "location": null,
           "year": 2024,
           "mileage": "39 410 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/bmw-520-ver-d-pack-desportivo-m-ID8PZQ0l.html",
@@ -1004,7 +1185,9 @@
           "location": null,
           "year": 2025,
           "mileage": "30 866 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/bmw-520-ver-d-pack-m-auto-ID8PTX23.html",
@@ -1017,7 +1200,9 @@
           "location": null,
           "year": 2024,
           "mileage": "32 000 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bmw-5er-kamera-dab-drivingassist-sport-led-18zoll-diesel-grau-cat_ma13gr100039ge128va109mt475tr479992-cedfb203-5f63-402e-968e-94a4fa0b8c3b",
@@ -1030,7 +1215,9 @@
           "location": "Celle",
           "year": 2025,
           "mileage": "30.746 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Sophistograu Brillanteffekt -A",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -1064,7 +1251,18 @@
           "dropped": 2,
           "error": null
         }
-      ]
+      ],
+      "engine": "In-line 4-cylinder, 2.0 L, TwinPower Turbo, 184 hp (135 kW)",
+      "gearbox": "8-speed automatic transmission",
+      "fuel_or_charge_consumption": "5.8 L/100 km (combined, WLTP)",
+      "tank_or_battery_size": "66 L",
+      "doors": 4,
+      "model_variant": "G30/G31, 2017–2024 (Euro market)",
+      "spec_source": {
+        "url": "https://www.bmw.co.uk/en/all-models/5-series/sedan/specifications.html",
+        "retrieved_at": "2026-08-05T05:47:10.220833+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "bmw-745",
@@ -1076,7 +1274,7 @@
       "brand_name": "BMW",
       "body_type": "sedan",
       "tier": "unconfirmed",
-      "first_year": null,
+      "first_year": 2026,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_no_offerings",
@@ -1113,7 +1311,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "Electric, 160 kW (218 hp)",
+      "gearbox": "single-speed reduction gear",
+      "fuel_or_charge_consumption": "159 Wh/km",
+      "tank_or_battery_size": "67.1 kWh",
+      "doors": 5,
+      "model_variant": "B05 Electric hatchback (2026-)",
+      "spec_source": {
+        "url": "https://ev-database.com/car/3564/Leapmotor-B05-67.1-kWh",
+        "retrieved_at": "2026-08-05T09:14:46.856838+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "bmw-alpina-b3",
@@ -1125,7 +1334,7 @@
       "brand_name": "BMW Alpina",
       "body_type": "sedan",
       "tier": "unconfirmed",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_insufficient_sources",
@@ -1162,7 +1371,18 @@
           "dropped": 0,
           "error": "PageMissing: http 404"
         }
-      ]
+      ],
+      "engine": "3.0L bi-turbo petrol I6, 2993 cm3 (S58B30), 529 PS",
+      "gearbox": "8-speed automatic (switchtronic)",
+      "fuel_or_charge_consumption": "10.5–10.6 L/100 km (WLTP)",
+      "tank_or_battery_size": "59 L",
+      "doors": 4,
+      "model_variant": "G20 facelift (2024–)",
+      "spec_source": {
+        "url": "https://www.bmwgroup.com/content/dam/bmwgroup/bmwgroup/market/bmweurope/en/pdf/2024/Alpina/B3-Brochure-2024.pdf",
+        "retrieved_at": "2026-08-05T08:26:25.067693+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "bmw-alpina-b5",
@@ -1174,7 +1394,7 @@
       "brand_name": "BMW Alpina",
       "body_type": "sedan",
       "tier": "unconfirmed",
-      "first_year": null,
+      "first_year": 2020,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_insufficient_sources",
@@ -1211,7 +1431,18 @@
           "dropped": 0,
           "error": "PageMissing: http 404"
         }
-      ]
+      ],
+      "engine": "4.4 L V8 Bi-Turbo (BMW N63B44)",
+      "gearbox": "8-speed automatic (torque converter)",
+      "fuel_or_charge_consumption": "11.6 L/100 km (combined, UK mpg ≈ 24.4)",
+      "tank_or_battery_size": "68 L",
+      "doors": 4,
+      "model_variant": "G30 (2020-), Saloon (GT)",
+      "spec_source": {
+        "url": "https://www.enjoycarpe.com/alpina/23-b5-gt-saloon",
+        "retrieved_at": "2026-08-05T08:27:11.945841+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "bmw-alpina-d3",
@@ -1223,7 +1454,7 @@
       "brand_name": "BMW Alpina",
       "body_type": "sedan",
       "tier": "unconfirmed",
-      "first_year": null,
+      "first_year": 2020,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_insufficient_sources",
@@ -1260,7 +1491,18 @@
           "dropped": 0,
           "error": "PageMissing: http 404"
         }
-      ]
+      ],
+      "engine": "3.0L bi-turbo diesel I6, 355 hp",
+      "gearbox": "8-speed automatic (Steptronic)",
+      "fuel_or_charge_consumption": "6.5 L/100 km (WLTP)",
+      "tank_or_battery_size": "67 L",
+      "doors": 4,
+      "model_variant": "G20 facelift (2020-), sedan",
+      "spec_source": {
+        "url": "https://www.bmwgroup.com/en/markets/vehicles/alpina/alpina-d3/specifications.html",
+        "retrieved_at": "2026-08-05T08:28:31.404526+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "bmw-alpina-d5",
@@ -1272,7 +1514,7 @@
       "brand_name": "BMW Alpina",
       "body_type": "sedan",
       "tier": "unconfirmed",
-      "first_year": null,
+      "first_year": 2020,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_insufficient_sources",
@@ -1309,7 +1551,18 @@
           "dropped": 0,
           "error": "PageMissing: http 404"
         }
-      ]
+      ],
+      "engine": "3.0L Inline 6 Bi-Turbo Diesel, 402 hp",
+      "gearbox": "8-speed automatic (torque converter)",
+      "fuel_or_charge_consumption": "6.4 L/100 km (WLTP)",
+      "tank_or_battery_size": "64 L",
+      "doors": 4,
+      "model_variant": "G30 facelift (2020-2024)",
+      "spec_source": {
+        "url": "https://www.encycarpedia.com/us/alpina/2020-d5-s-awd-specs/",
+        "retrieved_at": "2026-08-05T08:51:50.737538+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "rolls-royce-ghost",
@@ -1321,7 +1574,7 @@
       "brand_name": "Rolls-Royce",
       "body_type": "sedan",
       "tier": "exotic",
-      "first_year": null,
+      "first_year": 2020,
       "average_budget_eur": 462967,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -1338,7 +1591,9 @@
           "location": "Radebeul",
           "year": null,
           "mileage": "50 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/rolls-royce-ghost-black-badge-hud-acc-360-kam-rfk-navi-led-benzin-schwarz-cat_ma61gr201321ge1555-2e2cd3f6-99d0-48e7-b79d-8c6a0b330599",
@@ -1351,7 +1606,9 @@
           "location": "Köln",
           "year": null,
           "mileage": "0 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/rolls-royce-ghost-ghost-black-badge-benzin-schwarz-cat_ma61gr201321ge1555-0b8d159d-2c3f-4909-8af7-8b9fb11a9176",
@@ -1364,7 +1621,9 @@
           "location": "Lauf",
           "year": 2026,
           "mileage": "1.500 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -1398,7 +1657,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "6.7L V12 turbocharged petrol V12, 563 hp",
+      "gearbox": "8-speed automatic (torque converter)",
+      "fuel_or_charge_consumption": "12/19/14 mpg (EPA city/highway/combined)",
+      "tank_or_battery_size": "82.6 L (approx., from 21.8 US gallons)",
+      "doors": 4,
+      "model_variant": "second generation (2020-), saloon",
+      "spec_source": {
+        "url": "https://www.carbuzz.com/cars/rolls-royce/ghost/2024/",
+        "retrieved_at": "2026-08-05T06:46:24.554880+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "rolls-royce-phantom",
@@ -1410,7 +1680,7 @@
       "brand_name": "Rolls-Royce",
       "body_type": "sedan",
       "tier": "ultra-exotic",
-      "first_year": null,
+      "first_year": 2017,
       "average_budget_eur": 763407,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -1427,7 +1697,9 @@
           "location": "Stuhr",
           "year": null,
           "mileage": "50 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/rolls-royce-phantom-swb-extended-two-tone-full-benzin-schwarz-cat_ma61gr201323ge1557-23a394e9-5bd0-44d5-9cf8-cd4977403754",
@@ -1440,7 +1712,9 @@
           "location": "Gersthofen",
           "year": 2024,
           "mileage": "13.500 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/rolls-royce-phantom-ewb-+shooting-star+bespoke+-benzin-schwarz-cat_ma61gr201323ge1557-379a101f-a7f4-44eb-a821-d7d17e7a8115",
@@ -1453,7 +1727,9 @@
           "location": "Stuhr",
           "year": null,
           "mileage": "50 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -1487,7 +1763,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "6.75 L petrol V12 twin-turbo, 423 kW / 571 hp",
+      "gearbox": "8-speed automatic (ZF, torque converter)",
+      "spec_source": {
+        "url": "https://en.wikipedia.org/wiki/Rolls-Royce_Phantom",
+        "retrieved_at": "2026-08-05T09:04:14.647884+00:00",
+        "method": "local-llm-web-search"
+      },
+      "fuel_or_charge_consumption": "18.7 L/100 km (WLTP)",
+      "tank_or_battery_size": "89.4 L",
+      "doors": 4,
+      "model_variant": "Phantom VIII (2017-), long wheelbase (LWB) Saloon"
     },
     {
       "id": "rolls-royce-wraith",
@@ -1548,7 +1835,7 @@
       "brand_name": "Mercedes-Benz",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2021,
       "average_budget_eur": 43680,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -1565,7 +1852,9 @@
           "location": null,
           "year": 2025,
           "mileage": "17 483 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-c-200-amg-edition-panod-360ka-night-sound-distro-benzin-schwarz-cat_ma47gr100056ge13va120mt293tr2920-8458a11e-26c2-4d91-ad63-6efab878688a",
@@ -1578,7 +1867,9 @@
           "location": "Magdeburg",
           "year": 2025,
           "mileage": "8.059 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-c-200-avantgarde-kamera-led-totwinkel-sitzhzg-benzin-grau-cat_ma47gr100056ge13va120mt293tr1301-18806e98-83ca-418c-85f4-d68da2c353e7",
@@ -1591,7 +1882,9 @@
           "location": "Potsdam",
           "year": 2024,
           "mileage": "1.862 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau (Selenitgrau, Metallic)",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-c-200-amg-line-mbux-totw-night-digitallight-benzin-grau-cat_ma47gr100056ge13va120mt293tr2913-e4e7d172-b3de-4fe6-9ce9-b791f2771f4b",
@@ -1604,7 +1897,9 @@
           "location": "Rheinbach",
           "year": 2025,
           "mileage": "5.379 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -1638,7 +1933,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.0L turbocharged petrol I4",
+      "gearbox": "9G-TRONIC 9-speed automatic with ONDECK function",
+      "fuel_or_charge_consumption": "6.1 L/100 km (WLTP)",
+      "tank_or_battery_size": "66 L",
+      "doors": 4,
+      "model_variant": "W206 facelift (2021-), sedans",
+      "spec_source": {
+        "url": "https://www.automobile-catalog.com/car/specs/2024/3004190-mercedes-benz_c_200.html",
+        "retrieved_at": "2026-08-05T05:22:30.948127+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "mercedes-benz-c-220",
@@ -1650,7 +1956,7 @@
       "brand_name": "Mercedes-Benz",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2021,
       "average_budget_eur": 44783,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -1667,7 +1973,9 @@
           "location": null,
           "year": 2024,
           "mileage": "25 000 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-c-220-ver-d-4matic-all-terrain-ID8Q0wuY.html",
@@ -1680,7 +1988,9 @@
           "location": null,
           "year": 2025,
           "mileage": "21 178 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Prateado",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-c-220-ver-d-avantgarde-ID8Q003D.html",
@@ -1693,7 +2003,9 @@
           "location": null,
           "year": 2025,
           "mileage": "36 500 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-d-t-avantgarde-ahk+360-+distro+keyless+18-diesel-grau-cat_ma47gr100056ge13va122mt294tr1296-ee2210eb-105b-4297-8621-2f06a67f63c9",
@@ -1706,7 +2018,9 @@
           "location": "Karlsruhe",
           "year": 2024,
           "mileage": "36.500 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-d-avantgarde+led+kame+pano+ambi+lrhz+totw-diesel-schwarz-cat_ma47gr100056ge13va120mt294tr1301-327baba0-8dff-4dd1-8eaf-d78d7b99707b",
@@ -1719,7 +2033,9 @@
           "location": "Donauwörth",
           "year": 2025,
           "mileage": "29.181 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-d-amg-bumester-distro-lhz-360-ambiente-diesel-schwarz-cat_ma47gr100056ge13va120mt294tr1149-dc2ef2ec-6f12-40d5-b7f9-0c9d9241bd34",
@@ -1732,7 +2048,9 @@
           "location": "Erkrath",
           "year": 2024,
           "mileage": "51.000 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -1766,7 +2084,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.0 L (1993 cm³), diesel, mild-hybrid (EQ Boost)",
+      "gearbox": "9G-TRONIC automatic",
+      "fuel_or_charge_consumption": "4.7-5.5 l/100 km (WLTP)",
+      "doors": 4,
+      "model_variant": "C-class (W206)",
+      "spec_source": {
+        "url": "https://www.autocatalog.com/en/mercedes-benz/c-class/c-class-w206/specs",
+        "retrieved_at": "2026-08-05T07:02:27.257715+00:00",
+        "method": "local-llm-web-search"
+      },
+      "tank_or_battery_size": "66 L"
     },
     {
       "id": "mercedes-benz-c-300",
@@ -1778,7 +2107,7 @@
       "brand_name": "Mercedes-Benz",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2021,
       "average_budget_eur": 45628,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -1795,7 +2124,9 @@
           "location": null,
           "year": 2025,
           "mileage": "20 822 km",
-          "fuel": "Híbrido (Diesel)"
+          "fuel": "Híbrido (Diesel)",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-c-300-ver-e-amg-line-ID8Q0Fgz.html",
@@ -1808,7 +2139,9 @@
           "location": null,
           "year": 2025,
           "mileage": "77 500 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-c-300-ver-e-9g-tronic-avantgarde-advanced-ID8Q0DdG.html",
@@ -1821,7 +2154,9 @@
           "location": null,
           "year": 2025,
           "mileage": "21 000 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-t-e-amg-line-distro-night-paket-360-kame-elektro-benzin-grau-cat_ma47gr100056ge13va122mt301tr2920-ad0837d4-572a-4904-a8e2-37bb517e1329",
@@ -1834,7 +2169,9 @@
           "location": "Trittau",
           "year": 2025,
           "mileage": "8.479 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-d-amg-mbux+360-+dig-led+ahk+night+distroni-diesel-schwarz-cat_ma47gr100056ge13va120mt301tr1167-805edcc2-fd34-42da-bd3e-9b9ed5c9b22c",
@@ -1847,7 +2184,10 @@
           "location": "Karlsruhe",
           "year": 2025,
           "mileage": "14.507 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Schwarz",
+          "condition_notes": "Vornutzung als Mietfahrzeug / MB-Rent",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-c-300-d-t-amg-line+-distronic-led-kamera-spurh-diesel-grau-cat_ma47gr100056ge13va122mt301tr2913-66b50f78-4bab-4429-ac7f-80b1513aa86f",
@@ -1860,7 +2200,9 @@
           "location": "Geesthacht",
           "year": 2025,
           "mileage": "17.300 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Grau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -1894,7 +2236,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.0L turbocharged petrol I4, 255 hp",
+      "gearbox": "9-speed automatic (torque converter)",
+      "fuel_or_charge_consumption": "30 mpg US combined (EPA)",
+      "tank_or_battery_size": "17.4 US gal (≈66 L)",
+      "doors": 4,
+      "model_variant": "W206 C-Class (2021-), sedan",
+      "spec_source": {
+        "url": "https://www.caranddriver.com/specs/2024-mercedes-benz-c-class-c-300-4dr-sedan",
+        "retrieved_at": "2026-08-05T04:59:29.219003+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "mercedes-benz-e-200",
@@ -1906,7 +2259,7 @@
       "brand_name": "Mercedes-Benz",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 42847,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -1923,7 +2276,9 @@
           "location": "Schorndorf",
           "year": 2025,
           "mileage": "27.950 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mercedes-benz-e-klasse-t-avantgarde+mbux+led+distr+totw+ambiente-benzin-grau-cat_ma47gr100061ge36va126mt446tr479092-bb011813-5df6-43b0-ae94-4cbb496374d5",
@@ -1936,7 +2291,9 @@
           "location": "Celle",
           "year": 2025,
           "mileage": "15.825 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mercedes-benz-e-klasse-d-amg-sport-digital-pano-night-ahk-distr-diesel-weiss-cat_ma47gr100061ge36va125mt446tr479093-fabcb398-c3f3-4a7a-92e6-c79d28cce966",
@@ -1949,7 +2306,10 @@
           "location": "Lüdenscheid",
           "year": 2025,
           "mileage": "8.489 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Weiß",
+          "condition_notes": "Taxi oder Mietwagen: Ja",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -1983,7 +2343,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.0L turbocharged petrol I4, 1999 cc, M254 E20 DEH",
+      "gearbox": "9-speed automatic (torque converter)",
+      "tank_or_battery_size": "66 L",
+      "doors": 4,
+      "spec_source": {
+        "url": "https://www.mercedes-benz.nl/nl/nl/passengercars/e-class/sedan/w214/model-e-200.html",
+        "retrieved_at": "2026-08-05T07:17:36.802487+00:00",
+        "method": "local-llm-web-search"
+      },
+      "fuel_or_charge_consumption": "6.3 L/100 km (WLTP)",
+      "model_variant": "W214, Sedan (2024-)"
     },
     {
       "id": "mercedes-benz-s-400",
@@ -1995,7 +2366,7 @@
       "brand_name": "Mercedes-Benz",
       "body_type": "sedan",
       "tier": "exotic",
-      "first_year": null,
+      "first_year": 2020,
       "average_budget_eur": 114000,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -2012,7 +2383,9 @@
           "location": null,
           "year": 2025,
           "mileage": "18 500 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Cinzento Metalizado",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mercedes-benz-s-klasse-d-4m-l-amg-first-class-fond-np-198-000-e-diesel-schwarz-cat_ma47gr100066ge247va243mt604tr480526-28c8cbb2-7cd7-4fca-a52c-3c0705ec621f",
@@ -2025,7 +2398,9 @@
           "location": "Krefeld",
           "year": 2024,
           "mileage": "14.100 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "obsidianschwarz metallic",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -2059,7 +2434,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.9 L diesel, inline-six, 330 hp",
+      "gearbox": "9-speed automatic (9G-TRONIC)",
+      "fuel_or_charge_consumption": "6.7–7.9 l/100 km (WLTP)",
+      "doors": 4,
+      "model_variant": "S-class (W223), S 400d (330 hp) 4MATIC 9G-TRONIC (sedan)",
+      "spec_source": {
+        "url": "https://www.autodata.net/en/mercedes-benz-s-class-w223-s-400-d-330-hp-4matic",
+        "retrieved_at": "2026-08-05T09:17:58.365955+00:00",
+        "method": "local-llm-web-search"
+      },
+      "tank_or_battery_size": "65 L"
     },
     {
       "id": "volkswagen-passat",
@@ -2071,7 +2457,7 @@
       "brand_name": "Volkswagen",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 23857,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -2088,7 +2474,10 @@
           "location": "Fernwald-Steinbach",
           "year": 2025,
           "mileage": "43.978 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Schwarz",
+          "condition_notes": "Taxi oder Mietwagen: Ja",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/volkswagen-passat-1-5tsi-dsg-business-apps-navi-acc-led-dab-benzin-schwarz-cat_ma74gr100100ge217va213mt546tr1529-6072a4e9-a098-4938-9b92-db8955c88225",
@@ -2101,7 +2490,9 @@
           "location": "Bad Hersfeld",
           "year": 2024,
           "mileage": "92.800 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/volkswagen-passat-2-0-tdi-business-navi-kamera-totw-diesel-grau-cat_ma74gr100100ge218va213mt558tr1529-da5bcba2-32df-4721-9ed6-9c9fd39d0937",
@@ -2114,7 +2505,9 @@
           "location": "Leonberg",
           "year": 2025,
           "mileage": "48.450 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Diabasgrau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -2148,7 +2541,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "1.5 L turbocharged petrol I4 mild hybrid, 150 hp; 2.0 L turbocharged petrol I4, 193 hp; 2.0 L turbocharged petrol I4, 265 hp; 1.5 L turbocharged petrol I4 mild hybrid, 204 hp",
+      "gearbox": "7-speed DSG",
+      "fuel_or_charge_consumption": "4.8–5.5 L/100 km (WLTP)",
+      "tank_or_battery_size": "51 L",
+      "doors": 5,
+      "model_variant": "Ninth generation, MQB platform",
+      "spec_source": {
+        "url": "https://www.encycapedia.com/24-passat",
+        "retrieved_at": "2026-08-05T06:51:13.086733+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "audi-e-tron",
@@ -2160,7 +2564,7 @@
       "brand_name": "Audi",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2023,
       "average_budget_eur": 54121,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -2177,7 +2581,9 @@
           "location": "Trier",
           "year": 2026,
           "mileage": "7.300 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Kieselgrau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/audi-e-tron-ahk-matrix-acc-side-assist-elektro-blau-cat_ma9gr75259-a1bcd462-aac2-47bd-bb90-e0c3aba3d64f",
@@ -2190,7 +2596,10 @@
           "location": "Bielefeld",
           "year": 2025,
           "mileage": "8.004 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Geysirblau Metallic",
+          "condition_notes": "During cosmetic refinements, subsequent paint work and Smart-Repair corrections are possible.",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/audi-e-tron-quattro-performance-pano-beifahrerdisplay-tec-elektro-gruen-cat_ma9gr75259-35d2d95d-b0da-4d44-a82a-4354ee417d12",
@@ -2203,7 +2612,9 @@
           "location": "Karlsruhe",
           "year": null,
           "mileage": "10 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Grün",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -2237,7 +2648,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "electric, synchronous motor",
+      "gearbox": "single-speed automatic transmission",
+      "fuel_or_charge_consumption": "16.2–19.2 kWh/100 km (WLTP)",
+      "tank_or_battery_size": "77 kWh usable battery (net)",
+      "doors": 5,
+      "spec_source": {
+        "url": "https://www.caranddriver.com/reviews/2024-audi-q8-e-tron-review",
+        "retrieved_at": "2026-08-05T07:35:25.725307+00:00",
+        "method": "local-llm-web-search"
+      },
+      "model_variant": "Q8 e-tron facelift (2024-), larger 106 kWh battery; Q8 e-tron and Sportback"
     },
     {
       "id": "audi-a3",
@@ -2249,7 +2671,7 @@
       "brand_name": "Audi",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2020,
       "average_budget_eur": 28950,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -2266,7 +2688,9 @@
           "location": null,
           "year": 2025,
           "mileage": "17 000 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Branco",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/audi-a3-allstreet-35-tfsi-ahk-carplay-led-pdc-sitzh-benzin-gruen-cat_ma9gr1624ge154va502mt251tr479949-da50a1be-762f-4cd5-a849-0db5c8020991",
@@ -2279,7 +2703,9 @@
           "location": "Erlangen",
           "year": 2025,
           "mileage": "13.050 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grün",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/audi-a3-allstreet-35-tfsi-navi-plus-ahk-matrix-acc-benzin-weiss-cat_ma9gr1624ge154va502mt251tr479949-ee5ed2cf-1e6d-4edc-8f78-0f2859d74928",
@@ -2292,7 +2718,9 @@
           "location": "Düsseldorf",
           "year": 2024,
           "mileage": "4.900 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Gletscherweiß Metallic",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/audi-a3-35-tfsi-1-5-sportback-benzin-schwarz-cat_ma9gr1624ge154va152mt251tr479949-a199ec17-212e-4c74-af10-55f7de33986e",
@@ -2305,7 +2733,9 @@
           "location": "Bochum",
           "year": 2024,
           "mileage": "37.000 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -2339,7 +2769,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "1.5-liter turbocharged gasoline engine, 148 horsepower",
+      "gearbox": "7-speed dual-clutch (S tronic)",
+      "fuel_or_charge_consumption": "Combined 6.3 L/100 km (WLTP)",
+      "tank_or_battery_size": "Fuel tank capacity 50 liters",
+      "doors": 5,
+      "model_variant": "Generation 8Y (facelifted for 2024)",
+      "spec_source": {
+        "url": "https://www.caranddriver.com/reviews/2024-audi-a3-review",
+        "retrieved_at": "2026-08-05T05:47:58.664494+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "audi-a4",
@@ -2351,7 +2792,7 @@
       "brand_name": "Audi",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2019,
       "average_budget_eur": 30523,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -2368,7 +2809,10 @@
           "location": "Fernwald-Steinbach",
           "year": 2024,
           "mileage": "25.318 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Navarrablau Metallic",
+          "condition_notes": "Unfallfahrzeug Repariert",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/audi-a4-avant-35-tdi-s-tronic-s-line-led-navi-lm18-aps-shz-diesel-weiss-cat_ma9gr1626ge134va134mt178tr118-520647f0-1ca9-4662-a166-08d69134cc37",
@@ -2381,7 +2825,9 @@
           "location": "Celle",
           "year": 2025,
           "mileage": "3.675 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/audi-a4-advanced-35-2-0-tdi-s-tronic-diesel-grau-cat_ma9gr1626ge134va134mt178tr111-d63d5548-6ff1-49b0-ab3a-eba91c069c45",
@@ -2394,7 +2840,9 @@
           "location": "Maintal",
           "year": 2024,
           "mileage": "28.417 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Grau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -2428,7 +2876,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "Intercooled Turbo Gas/Electric I-4, 2.0 L",
+      "gearbox": "7-Speed S tronic automatic",
+      "doors": 4,
+      "spec_source": {
+        "url": "https://media.audi.com/media/presskit/eu/audi-a4-2024/specs.pdf",
+        "retrieved_at": "2026-08-05T07:35:57.345249+00:00",
+        "method": "local-llm-web-search"
+      },
+      "fuel_or_charge_consumption": "6.8-7.1 l/100 km (WLTP)",
+      "model_variant": "B9 (2019-), facelift (2024-), sedan and Avant estate, multiple engines (e.g., 40 TFSI, 45 TFSI, 40 TDI, 45 TDI), S line and S line pro trim levels, 3.0‑litre V6 diesels also offered",
+      "tank_or_battery_size": "58 L"
     },
     {
       "id": "porsche-panamera",
@@ -2440,7 +2899,7 @@
       "brand_name": "Porsche",
       "body_type": "sedan",
       "tier": "exotic",
-      "first_year": null,
+      "first_year": 2016,
       "average_budget_eur": 138782,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -2457,7 +2916,9 @@
           "location": null,
           "year": 2025,
           "mileage": "14 900 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/porsche-panamera-ver-4s-e-hybrid-ID8Q0ywY.html",
@@ -2470,7 +2931,9 @@
           "location": null,
           "year": 2024,
           "mileage": "43 000 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/porsche-panamera-ver-4-e-hybrid-ID8Q0Hmj.html",
@@ -2483,7 +2946,9 @@
           "location": null,
           "year": 2026,
           "mileage": "1 500 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/porsche-panamera-4s-e-hybrid-mj26-export-netto-elektro-benzin-schwarz-cat_ma57gr19136ge1581va3263mt4597tr480692-91f595ee-5b31-4b17-9c33-f021e769a14e",
@@ -2496,7 +2961,9 @@
           "location": "Berlin",
           "year": 2025,
           "mileage": "15.000 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Tiefschwarzmetallic (2T)",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/porsche-panamera-panamera-976-porsche-garantie-1135km-1hand-voll-benzin-grau-cat_ma57gr19136ge1581va3263tr480692-313e6bbe-683f-4bc5-8225-76f77d763ac4",
@@ -2509,7 +2976,9 @@
           "location": "Osnabrück",
           "year": 2024,
           "mileage": "1.135 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/porsche-panamera-gts-ha-lenkung-soft-close-standheizung-benzin-grau-cat_ma57gr19136ge1581va3263mt10744tr480692-c923cdb2-9a1d-4964-b377-5ea707bdfaa1",
@@ -2522,7 +2991,9 @@
           "location": "Bielefeld",
           "year": 2025,
           "mileage": "10.950 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -2556,7 +3027,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.9 L V6 Bi-Turbo petrol, 260 kW (353 PS)",
+      "gearbox": "8-speed automatic (PDK)",
+      "fuel_or_charge_consumption": "9.6 L/100 km (WLTP)",
+      "tank_or_battery_size": "75 L",
+      "doors": 4,
+      "model_variant": "G3 generation (2016-), liftback and Sport Turismo variants",
+      "spec_source": {
+        "url": "https://www.encycarpedia.de/porsche/panamera-2024",
+        "retrieved_at": "2026-08-05T05:00:53.323214+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "porsche-taycan",
@@ -2568,7 +3050,7 @@
       "brand_name": "Porsche",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 97098,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -2585,7 +3067,9 @@
           "location": null,
           "year": 2024,
           "mileage": "17 686 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/porsche-taycan-ver-turbo-gt-weissach-ID8Q0LNl.html",
@@ -2598,7 +3082,9 @@
           "location": null,
           "year": 2024,
           "mileage": "15 500 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Roxo",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/porsche-taycan-ver-4-ID8Q0Lag.html",
@@ -2611,7 +3097,9 @@
           "location": null,
           "year": 2024,
           "mileage": "36 000 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/porsche-taycan-led-matrix-bose-21-performancebatterie+-elektro-schwarz-cat_ma57gr75273ge1582va3313tr9604-c51d6fd4-c749-40f4-ba58-6a85f3d8bf78",
@@ -2624,7 +3112,9 @@
           "location": "Bielefeld",
           "year": 2025,
           "mileage": "25.152 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/porsche-taycan-taycan-360-bose-beifahrer-display-elektro-schwarz-cat_ma57gr75273ge1582va3313tr480693-e9bb8098-ab7c-4faa-80ed-1a5ef9edbef0",
@@ -2637,7 +3127,9 @@
           "location": "Bad Segeberg ( bei Hamburg)",
           "year": 2024,
           "mileage": "22.000 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/porsche-taycan-4-cross-turismo-bose-21-zoll-panoramadach-elektro-grau-cat_ma57gr75273ge1582va2315mt5018tr480693-b0fb555c-23f1-4626-828d-d944518e5f6d",
@@ -2650,7 +3142,9 @@
           "location": "Bonn",
           "year": 2025,
           "mileage": "21.140 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Grau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -2684,7 +3178,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "dual electric motor, 300 kW / 408 PS",
+      "gearbox": "2-speed direct-drive",
+      "fuel_or_charge_consumption": "19.1 – 16.1 kWh/100 km (WLTP)",
+      "tank_or_battery_size": "82.3 kWh usable",
+      "doors": 4,
+      "model_variant": "2024-2026",
+      "spec_source": {
+        "url": "https://ev-database.org/car/2098/Porsche-Taycan",
+        "retrieved_at": "2026-08-05T05:02:17.390576+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "skoda-octavia",
@@ -2696,7 +3201,7 @@
       "brand_name": "Skoda",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 27638,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -2713,7 +3218,9 @@
           "location": "Dresden/Weißig",
           "year": 2025,
           "mileage": "16.012 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/skoda-octavia-combi-2-0-tdi-+navi+shz+pano+pdc+el-heckk-diesel-blau-cat_ma65gr15222va287tr480782-34090d31-c3de-459d-92e9-7c398ba27612",
@@ -2726,7 +3233,9 @@
           "location": "Aachen",
           "year": 2025,
           "mileage": "19.733 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Blau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/skoda-octavia-combi-2-0-tour-360-cam-acc-headup-matrix-diesel-grau-cat_ma65gr15222va287tr480782-3e748fb0-98d7-4bc2-9834-4474a19bf8ea",
@@ -2739,7 +3248,10 @@
           "location": "Dortmund",
           "year": 2025,
           "mileage": "18.397 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Grau",
+          "condition_notes": "Unfallfahrzeug Repariert",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -2773,7 +3285,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.0 TSI turbocharged petrol I4, 204 hp",
+      "gearbox": "7-speed dual-clutch",
+      "fuel_or_charge_consumption": "6.8 L/100 km (WLTP)",
+      "tank_or_battery_size": "55 L",
+      "doors": 5,
+      "model_variant": "IV facelift (2024-)",
+      "spec_source": {
+        "url": "https://www.skoda-auto.com/en/vehicles/octavia/",
+        "retrieved_at": "2026-08-05T07:23:21.347249+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "skoda-superb",
@@ -2785,7 +3308,7 @@
       "brand_name": "Skoda",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 33057,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -2802,7 +3325,9 @@
           "location": null,
           "year": 2026,
           "mileage": "1 000 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/skoda-superb-ver-1-5-tsi-iv-selection-dsg-ID8PZTR2.html",
@@ -2815,7 +3340,9 @@
           "location": null,
           "year": 2025,
           "mileage": "8 000 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/skoda-superb-2-0tdi-combi-dsg-selection+led+kamera+acc-diesel-grau-cat_ma65gr16621ge564va434mt1087tr655-beb4598a-967f-49cc-aceb-9898bae3a104",
@@ -2828,7 +3355,9 @@
           "location": "Hamburg",
           "year": 2025,
           "mileage": "16.131 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/skoda-superb-combi-1-5etsi-cam-acc-navi-carplay-sitzhz-benzin-grau-cat_ma65gr16621ge564va434mt1081tr653-51ae70cc-b9fc-46f1-ad88-befe4a3f8014",
@@ -2841,7 +3370,9 @@
           "location": "Dortmund",
           "year": 2025,
           "mileage": "9.999 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Graphite-Grau Metallic",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/skoda-superb-combi-1-5tsi-dsg-navi-kamera-el-klappe-kessy-benzin-schwarz-cat_ma65gr16621ge563va434mt1081tr653-fbb09b20-cfe8-462d-8574-c3a3c19ef552",
@@ -2854,7 +3385,9 @@
           "location": "Sickte",
           "year": 2024,
           "mileage": "44.900 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -2888,7 +3421,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "1.5 TSI Plug-in Hybrid (EA288 evo), 272 hp, 1968 cm3",
+      "gearbox": "DSG",
+      "fuel_or_charge_consumption": "5.5 L/100 km (WLTP)",
+      "tank_or_battery_size": "25.7 kWh usable",
+      "doors": 5,
+      "model_variant": "Superb IV iV 1.5 TSI Plug-in Hybrid (2024–)",
+      "spec_source": {
+        "url": "https://www.skoda-drive.com/en/vehicles/superb/iv",
+        "retrieved_at": "2026-08-05T07:09:54.777526+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "seat-leon",
@@ -2900,7 +3444,7 @@
       "brand_name": "SEAT",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2020,
       "average_budget_eur": 21127,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -2917,7 +3461,9 @@
           "location": null,
           "year": 2024,
           "mileage": "84 000 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "vermelha",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/seat-leon-ver-1-4-e-hybrid-fr-dsg-ID8Q0ytd.html",
@@ -2930,7 +3476,9 @@
           "location": null,
           "year": 2024,
           "mileage": "42 397 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/seat-leon-ver-1-0-tsi-style-ID8Q0EOT.html",
@@ -2943,7 +3491,9 @@
           "location": null,
           "year": 2024,
           "mileage": "25 500 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/seat-leon-sportstourer-1-0-tsi-style-led-pdc-acc-benzin-grau-cat_ma64gr15869ge494va405mt845tr454-c8334d35-2792-43bd-9d12-7e0f25ca2b7b",
@@ -2956,7 +3506,9 @@
           "location": "Gardelegen",
           "year": 2024,
           "mileage": "26.806 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/seat-leon-1-5-tsi-fr-navi-led-rfk-acc-totwinkel-ass-benzin-grau-cat_ma64gr15869ge494va3217mt854tr436-73ab1432-28f8-4d66-a03b-228cf4e59ae7",
@@ -2969,7 +3521,10 @@
           "location": "Kassel",
           "year": 2025,
           "mileage": "24.300 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "condition_notes": "Taxi oder Mietwagen",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/seat-leon-style-benzin-weiss-cat_ma64gr15869ge494va3217mt845tr436-192dbde3-824e-47f4-bdb3-6c84895f7ada",
@@ -2982,7 +3537,9 @@
           "location": "Aschaffenburg",
           "year": 2025,
           "mileage": "11.600 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Nevada Weiß Metallic",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -3016,7 +3573,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "1.5 TSI (1.5L), 115 PS (85 kW), 220 Nm",
+      "gearbox": "6-speed manual (or optionally 7-speed DSG)",
+      "fuel_or_charge_consumption": "6.0 L/100 km (WLTP)",
+      "doors": 5,
+      "model_variant": "Leon IV (2020-)",
+      "spec_source": {
+        "url": "https://www.caraara.com/spec/seat/leon/station-wagon-est-2020/",
+        "retrieved_at": "2026-08-05T08:06:25.690054+00:00",
+        "method": "local-llm-web-search"
+      },
+      "tank_or_battery_size": "50 L"
     },
     {
       "id": "alfa-romeo-giulia",
@@ -3028,7 +3596,7 @@
       "brand_name": "Alfa Romeo",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2015,
       "average_budget_eur": 48213,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -3045,7 +3613,9 @@
           "location": null,
           "year": 2025,
           "mileage": "14 500 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Branco",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/alfa-romeo-giulia-my24-veloce-premium-paket-benzin-schwarz-cat_ma6gr200049ge2278va3967mt12278tr8275-077ff8fa-1aba-4228-ac01-100448be7ac4",
@@ -3058,7 +3628,9 @@
           "location": "Kassel",
           "year": 2024,
           "mileage": "19.995 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/alfa-romeo-giulia-competizione-2-0-turbo-at8-q4-harman-kardon-el-si-benzin-rot-cat_ma6gr200049ge2278va3967mt12278tr10698-2dcb8646-aec2-4e20-8376-442168b26c68",
@@ -3071,7 +3643,9 @@
           "location": "Pohlheim",
           "year": 2024,
           "mileage": "30.000 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Rot",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/alfa-romeo-giulia-2-0-turbo-16v-at8-q4-intensa-glasschiebedach-benzin-rot-cat_ma6gr200049ge2278va3967mt12278tr10700-b57f0a4a-3b25-4dfd-b6d0-6e3016bf4e87",
@@ -3084,7 +3658,9 @@
           "location": "Oberhausen",
           "year": null,
           "mileage": "10 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Rot",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -3118,7 +3694,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.0L turbocharged petrol I-4, 280 hp",
+      "gearbox": "8-speed automatic (torque converter)",
+      "tank_or_battery_size": "57.8 L (approx. 57.8 L)",
+      "doors": 4,
+      "spec_source": {
+        "url": "https://www.alfaromeo.com/models/quadrifoglio/giulia-quadrifoglio",
+        "retrieved_at": "2026-08-05T06:44:42.643703+00:00",
+        "method": "local-llm-web-search"
+      },
+      "fuel_or_charge_consumption": "10.1 L/100 km (WLTP)",
+      "model_variant": "939 (2015-), Giulia Quadrifoglio"
     },
     {
       "id": "dodge-charger",
@@ -3130,7 +3717,7 @@
       "brand_name": "Dodge",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 78999,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -3147,7 +3734,9 @@
           "location": "Potsdam",
           "year": null,
           "mileage": "20 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/dodge-charger-scat-pack-plus-coupe-launch-benzin-rot-cat_ma2152gr200438-d156f479-ee50-4480-8854-0bf6ba5404e8",
@@ -3160,7 +3749,9 @@
           "location": "Potsdam",
           "year": null,
           "mileage": "200 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Rot",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/dodge-charger-r-t-plus-4-doors-benzin-grau-cat_ma2152gr200438-18abd4f5-8556-4eba-b537-44ba75eb61d9",
@@ -3173,7 +3764,9 @@
           "location": "Potsdam",
           "year": null,
           "mileage": "20 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -3207,7 +3800,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "5.8L V8, 611 hp",
+      "gearbox": "8-speed automatic",
+      "fuel_or_charge_consumption": "19.5 mpg combined (US)",
+      "tank_or_battery_size": "15.0 gallons (57.0 L)",
+      "doors": 4,
+      "model_variant": "Eighth-generation Charger, ICE and EV (2024-), sedan and liftback body styles",
+      "spec_source": {
+        "url": "https://www.autodatahub.net/vehicle-specifications/2024-dodge-charger-specifications.html",
+        "retrieved_at": "2026-08-05T06:36:12.943425+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "opel-astra",
@@ -3219,7 +3823,7 @@
       "brand_name": "Opel",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2021,
       "average_budget_eur": 20424,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -3236,7 +3840,9 @@
           "location": null,
           "year": 2025,
           "mileage": "16 570 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/opel-astra-ver-1-2-t-gs-line-ID8Q0OKO.html",
@@ -3249,7 +3855,9 @@
           "location": null,
           "year": 2024,
           "mileage": "19 457 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/opel-astra-ver-1-2-t-gs-line-ID8Q0dy4.html",
@@ -3262,7 +3870,9 @@
           "location": null,
           "year": 2024,
           "mileage": "43 411 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.auto.pt/carros-usados/opel-astra-1-5-d-edition-aut-id-ieXftWn3",
@@ -3275,7 +3885,9 @@
           "location": null,
           "year": 2025,
           "mileage": "73000 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/opel-astra-st-1-5-d-elegance-t-leder-navi-led-rfk-shz-diesel-grau-cat_ma54gr1916ge226va223mt11566tr3036-7cb460d6-af08-42d7-af34-73eb180b5bf3",
@@ -3288,7 +3900,9 @@
           "location": "Gyhum/Bockel",
           "year": 2024,
           "mileage": "46.734 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/opel-astra-l-gs-navi-led-headup-360-kam-winterpaket-benzin-grau-cat_ma54gr1916ge226va222mt570tr2755-ef7d8688-d542-4c34-ac8c-5e913ad41341",
@@ -3301,7 +3915,9 @@
           "location": "Rüsselsheim",
           "year": 2024,
           "mileage": "21.796 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/opel-astra-l-1-2-gs-sport-360-cam-le-shz-acc-led-benzin-blau-cat_ma54gr1916ge226va222mt570tr4177-a3ddc09c-5bed-47cb-8c22-d6965db555d8",
@@ -3314,7 +3930,9 @@
           "location": "Rüsselsheim",
           "year": 2024,
           "mileage": "23.386 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Blau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -3348,7 +3966,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "1.2L turbocharged petrol I3, 130 hp",
+      "gearbox": "8-speed automatic",
+      "fuel_or_charge_consumption": "5.8 l/100 km (WLTP2)",
+      "spec_source": {
+        "url": "https://www.auto-data.net/en/opel-astra-l-specifications-2021-2026",
+        "retrieved_at": "2026-08-05T09:00:46.630894+00:00",
+        "method": "local-llm-web-search"
+      },
+      "tank_or_battery_size": "51 L",
+      "doors": 5,
+      "model_variant": "Astra L (2021-), hatchback, estate and Sports Tourer; includes GSe plug-in hybrid and 54 kWh electric models"
     },
     {
       "id": "opel-insignia",
@@ -3360,7 +3989,7 @@
       "brand_name": "Opel",
       "body_type": "sedan",
       "tier": "unconfirmed",
-      "first_year": null,
+      "first_year": 2017,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_insufficient_sources",
@@ -3397,7 +4026,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "1.6L turbocharged petrol I4, 130 hp",
+      "gearbox": "8-speed automatic (torque converter)",
+      "fuel_or_charge_consumption": "4.9 L/100 km (combined)",
+      "tank_or_battery_size": "50 L",
+      "doors": 5,
+      "model_variant": "Insignia B (2017-2020 facelift)",
+      "spec_source": {
+        "url": "https://www.autodata-net.com/en/opel-insignia-model-239",
+        "retrieved_at": "2026-08-05T08:35:22.817610+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "fiat-tipo",
@@ -3409,7 +4049,7 @@
       "brand_name": "Fiat",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2015,
       "average_budget_eur": 18337,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -3426,7 +4066,9 @@
           "location": null,
           "year": 2024,
           "mileage": "34 457 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Branco",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/fiat-tipo-ver-1-6-multijet-ID8PX75a.html",
@@ -3439,7 +4081,9 @@
           "location": null,
           "year": 2024,
           "mileage": "36 349 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Cinzento Metalizado",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/fiat-tipo-ver-1-6-multijet-ID8PYh1q.html",
@@ -3452,7 +4096,9 @@
           "location": null,
           "year": 2024,
           "mileage": "34 158 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/fiat-tipo-limousine-1-6-multijet-life-diesel-schwarz-cat_ma28gr200528ge835va3451mt11610tr4933-891aac64-edd9-4471-8703-7d9b7e0b21f3",
@@ -3465,7 +4111,9 @@
           "location": "Steinach",
           "year": 2026,
           "mileage": "1.501 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/fiat-tipo-urban-diesel-schwarz-cat_ma28gr200528ge835va1126mt11610tr480206-9a759f39-7f83-46af-af39-f50c3f96fc2d",
@@ -3478,7 +4126,9 @@
           "location": "Bad Nauheim",
           "year": null,
           "mileage": "50 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/fiat-tipo-1-6-m-jet-easy-kamera-klima-sofort-diesel-blau-cat_ma28gr200528ge835va1126mt11610tr2709-1e29a904-cd03-4240-aa44-65cd2b267997",
@@ -3491,7 +4141,9 @@
           "location": "Neukirchen",
           "year": 2025,
           "mileage": "10 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Blau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -3525,7 +4177,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "1.3 MultiJet Turbocharged diesel I4, 95 hp",
+      "gearbox": "5-speed manual",
+      "fuel_or_charge_consumption": "4.6 L/100 km (combined)",
+      "tank_or_battery_size": "45 L",
+      "doors": 4,
+      "model_variant": "Tipo (356) 1.3 MultiJet (95 Hp) – Sedan, 2018–2020",
+      "spec_source": {
+        "url": "https://www.automobile-catalog.com/make/fiat/tipo_2gen.html",
+        "retrieved_at": "2026-08-05T07:31:34.785930+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "maserati-ghibli",
@@ -3537,7 +4200,7 @@
       "brand_name": "Maserati",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2014,
       "average_budget_eur": 80444,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -3554,7 +4217,9 @@
           "location": "Markranstädt",
           "year": 2026,
           "mileage": "14.400 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/maserati-ghibli-modena-ultima-sonderleasing-benzin-schwarz-cat_ma45gr200921ge1803tr480453-57319594-8e13-4fa6-9164-fd3721081969",
@@ -3567,7 +4232,9 @@
           "location": "Markranstädt",
           "year": 2025,
           "mileage": "55 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/maserati-ghibli-modena-ultima-benzin-schwarz-cat_ma45gr200921ge1803tr480453-d2d3af0f-517b-439e-b189-9d78ab2c12f9",
@@ -3580,7 +4247,9 @@
           "location": "Markranstädt",
           "year": 2024,
           "mileage": "29.948 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -3614,7 +4283,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "3.8 L twin‑turbo V8, 572 hp",
+      "gearbox": "8‑speed automatic (ZF) with manual, sport and corsa modes",
+      "fuel_or_charge_consumption": "16/13/20 mpg (EPA)",
+      "tank_or_battery_size": "21.1 gallons",
+      "doors": 4,
+      "model_variant": "Final edition (2024)",
+      "spec_source": {
+        "url": "https://www.caranddriver.com/reviews/2024-maserati-ghibli-review/pricing-and-specs",
+        "retrieved_at": "2026-08-05T07:36:40.561166+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "toyota-corolla",
@@ -3626,7 +4306,7 @@
       "brand_name": "Toyota",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2018,
       "average_budget_eur": 30282,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -3643,7 +4323,9 @@
           "location": null,
           "year": 2024,
           "mileage": "49 590 km",
-          "fuel": "Híbrido (Gasolina)"
+          "fuel": "Híbrido (Gasolina)",
+          "colour": "Branco",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/toyota-corolla-ID8Q0srA.html",
@@ -3656,7 +4338,9 @@
           "location": null,
           "year": 2024,
           "mileage": "50 180 km",
-          "fuel": "Híbrido Plug-In"
+          "fuel": "Híbrido Plug-In",
+          "colour": "Azul",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/toyota-corolla-ID8Q0P20.html",
@@ -3669,7 +4353,9 @@
           "location": null,
           "year": 2024,
           "mileage": "25 200 km",
-          "fuel": "Híbrido (Gasolina)"
+          "fuel": "Híbrido (Gasolina)",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/toyota-corolla-1-8-hybrid-limousine-comfort-+pdc+shz+-elektro-benzin-schwarz-cat_ma70gr201440ge1229va3894mt12430tr2152-96f80fe8-6013-4f09-afd7-8c5e1ea594c0",
@@ -3682,7 +4368,9 @@
           "location": "Heiligehaus",
           "year": 2024,
           "mileage": "40.603 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/toyota-corolla-touring-sports-1-8-hybrid-teamplayer-elektro-benzin-grau-cat_ma70gr201440ge1229va2108mt12430tr480847-c8bca3dd-488b-481f-84f8-7ef7326e9944",
@@ -3695,7 +4383,9 @@
           "location": "Dietersheim",
           "year": 2025,
           "mileage": "100 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/toyota-corolla-touring-sports-2-0-cvt-team-d-navi-kam-elektro-benzin-schwarz-cat_ma70gr201440ge1229va2108mt12431tr7776-348fad72-b41e-4346-ad69-1cad6c7f9a47",
@@ -3708,7 +4398,10 @@
           "location": "Neuss",
           "year": 2024,
           "mileage": "46.100 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Mysticschwarz",
+          "condition_notes": "Taxi oder Mietwagen",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -3742,7 +4435,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "1.8L 4-cylinder petrol I4, 132 hp",
+      "gearbox": "6-speed manual",
+      "fuel_or_charge_consumption": "7.8 l/100 km (combined)",
+      "tank_or_battery_size": "50 L",
+      "doors": 4,
+      "model_variant": "Corolla XII (E210) Sedan",
+      "spec_source": {
+        "url": "https://www.automateddata.net/en/car/toyota/corolla/corolla-xii-e210/1-8-vvt-i-132hp",
+        "retrieved_at": "2026-08-05T05:07:25.800747+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "lexus-is-300",
@@ -3803,7 +4507,7 @@
       "brand_name": "Hyundai",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 35292,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -3820,7 +4524,9 @@
           "location": null,
           "year": 2024,
           "mileage": "17 500 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Verde",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/hyundai-ioniq-6-ver-77-kwh-vanguard-ID8Q0oTn.html",
@@ -3833,7 +4539,9 @@
           "location": null,
           "year": 2025,
           "mileage": "8 000 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Prateado",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/hyundai-ioniq-6-ver-77-kwh-vanguard-ID8PYogA.html",
@@ -3846,7 +4554,9 @@
           "location": null,
           "year": 2024,
           "mileage": "38 500 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/hyundai-ioniq-6-uniq-elektro-navi-digitales-cockpit-memory-sitze-s-elektro-blau-cat_ma33gr76256ge925mt2269tr7798-66dec423-bc7c-499a-8467-40905eca605a",
@@ -3859,7 +4569,10 @@
           "location": "Köln",
           "year": 2025,
           "mileage": "26.823 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Blau",
+          "condition_notes": "Taxi oder Mietwagen: Ja",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/hyundai-ioniq-6-uniq-77-4-kwh-229-ps-20-zoll-elektro-grau-cat_ma33gr76256ge925mt2269tr8221-8c629ff4-6ffc-4ebe-a394-cd18c460c4b5",
@@ -3872,7 +4585,9 @@
           "location": "Mainz-Kastel",
           "year": 2025,
           "mileage": "12.230 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/hyundai-ioniq-6-techniq-77-4-kwh-acc-navi-led-carplay-elektro-grau-cat_ma33gr76256ge925mt2269tr7798-7c0bc919-47f9-4592-bcdc-6869fdfa3f61",
@@ -3885,7 +4600,10 @@
           "location": "Egelsbach",
           "year": 2024,
           "mileage": "19.757 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Nocturne Gray Metallic / MET",
+          "condition_notes": "Besichtigung nur nach Terminvereinbarung möglich, das Fahrzeug befindet sich aktuell auf dem Speditionsweg in unser Haus!",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -3919,7 +4637,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "Electric permanent-magnet synchronous motor (PMSM) (149 hp for SE RWD Standard Range, 225 hp for SE RWD Long Range, 320 hp for Limited AWD)",
+      "gearbox": "Single-speed reduction gear",
+      "spec_source": {
+        "url": "https://www.hyundai.com/eu/en/models/ioniq-6-n/technical-data-downloads.html",
+        "retrieved_at": "2026-08-05T07:06:12.262917+00:00",
+        "method": "local-llm-web-search"
+      },
+      "fuel_or_charge_consumption": "21.2 kWh/100 km (WLTP)",
+      "tank_or_battery_size": "84.0 kWh",
+      "doors": 4,
+      "model_variant": "IONIQ 6 N (2024-)"
     },
     {
       "id": "genesis-g70",
@@ -3931,7 +4660,7 @@
       "brand_name": "Genesis",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2017,
       "average_budget_eur": 39260,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -3948,7 +4677,9 @@
           "location": "Völklingen",
           "year": 2025,
           "mileage": "77 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/genesis-g70-shooting-brake-2-2-d-sport-rwd-dpf-leder-led-spe-diesel-blau-cat_ma51885gr200587ge2026va1170mt6976tr7157-45d09c8f-3907-4d5b-a108-09661db9ad6d",
@@ -3961,7 +4692,9 @@
           "location": "Andernach",
           "year": 2024,
           "mileage": "17.700 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Blau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/genesis-g70-shooting-brake-sport-2-0l-led-lexicon-sound-benzin-schwarz-cat_ma51885gr200587ge2026va1170mt6976tr7157-aff7aaee-0648-4cd9-b428-9a89e794af07",
@@ -3974,7 +4707,9 @@
           "location": "Völklingen",
           "year": 2025,
           "mileage": "75 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -4008,7 +4743,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.0T petrol I4, 245 PS",
+      "gearbox": "8-speed automatic",
+      "fuel_or_charge_consumption": "8.9 L/100 km (WLTP)",
+      "tank_or_battery_size": "60 L",
+      "doors": 4,
+      "model_variant": "Gen 1 (2017-2024)",
+      "spec_source": {
+        "url": "https://www.genesis.com/eu/en/models/g70/",
+        "retrieved_at": "2026-08-05T06:58:07.431525+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "genesis-g90",
@@ -4020,7 +4766,7 @@
       "brand_name": "Genesis",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2022,
       "average_budget_eur": 78890,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -4037,7 +4783,9 @@
           "location": "Berlin",
           "year": 2025,
           "mileage": "100 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/genesis-g90-t-mild-hybrid-3-5-awd-pano-bo-hud-4-sitzer-benzin-schwarz-cat_ma51885gr200592ge2028tr480256-fd26f0fe-b95f-4300-b97f-7615600925d4",
@@ -4050,7 +4798,9 @@
           "location": "Bielefeld",
           "year": 2025,
           "mileage": "100 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/genesis-g90-3-5t-mhev-luxury-plus-awd-4-sitzer-benzin-schwarz-cat_ma51885gr200592ge2028tr480256-4b3ae702-ba74-4295-96ac-64d75e6f7f82",
@@ -4063,7 +4813,9 @@
           "location": "Erlangen",
           "year": 2024,
           "mileage": "11.800 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -4097,7 +4849,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "3.5 T-GDi twin-turbo V6, 380 PS/280 kW",
+      "gearbox": "8-speed automatic",
+      "fuel_or_charge_consumption": "null",
+      "tank_or_battery_size": "73 L",
+      "doors": 4,
+      "model_variant": "G90 3.5 Turbo, gasoline",
+      "spec_source": {
+        "url": "https://www.genesis.com/worldwide/en/models/luxury-sedan/g90/specs.html",
+        "retrieved_at": "2026-08-05T09:05:28.256831+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "chevrolet-aveo",
@@ -4109,7 +4872,7 @@
       "brand_name": "Chevrolet",
       "body_type": "sedan",
       "tier": "unconfirmed",
-      "first_year": null,
+      "first_year": 2023,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_insufficient_sources",
@@ -4146,7 +4909,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "1.5L naturally aspirated petrol I4",
+      "gearbox": "6-speed manual and CVT",
+      "fuel_or_charge_consumption": "4.9-5.5 l/100 km",
+      "tank_or_battery_size": "45 L",
+      "doors": 4,
+      "model_variant": "Aveo III Hatchback (2023-)",
+      "spec_source": {
+        "url": "https://www.autodata.net/en/chevrolet-aveo-iii-hatchback-1-5-99hp",
+        "retrieved_at": "2026-08-05T09:21:15.781534+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "chevrolet-caprice",
@@ -4195,7 +4969,17 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "6.0-liter V8, 360 hp",
+      "gearbox": "6-speed automatic",
+      "tank_or_battery_size": "72 L",
+      "doors": 4,
+      "model_variant": "2025",
+      "spec_source": {
+        "url": "https://www.chevroletcaprice.eu/2025-price-in-europe",
+        "retrieved_at": "2026-08-05T08:37:27.246156+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "renault-megane",
@@ -4207,7 +4991,7 @@
       "brand_name": "Renault",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2019,
       "average_budget_eur": 35283,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -4224,7 +5008,9 @@
           "location": null,
           "year": 2024,
           "mileage": "49 699 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/renault-megane-ver-1-8-tce-r-s-ultime-edc-ID8PXaaA.html",
@@ -4237,7 +5023,9 @@
           "location": null,
           "year": 2024,
           "mileage": "700 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Laranja",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/renault-megane-ID8PZCkq.html",
@@ -4250,7 +5038,9 @@
           "location": null,
           "year": 2025,
           "mileage": "42 099 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/renault-megane-techno-ev-60-220-optimum-charge-elektro-grau-cat_ma60gr201267ge1153va2902mt4438tr7799-db33ea5f-b1bb-4e82-8de2-1aca95936f87",
@@ -4263,7 +5053,9 @@
           "location": "Gera",
           "year": 2024,
           "mileage": "9.670 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Dolomit-Grau Metallic",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/renault-megane-electric-esprit-alpine-grau-satiniert-ev60-220hp-elektro-grau-cat_ma60gr201267ge1153va2902mt4436tr480712-88f2f705-cdb1-42d0-8bf7-add8eb693ce9",
@@ -4276,7 +5068,9 @@
           "location": "Freising",
           "year": 2025,
           "mileage": "9.000 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/renault-megane-esprit-alpine-harman-kardon-ev60-augmented-vision-elektro-grau-cat_ma60gr201267ge1153va2902mt4436tr480712-6b680000-cf9a-4ae4-b650-fd6b16387e3c",
@@ -4289,7 +5083,9 @@
           "location": "Freising",
           "year": 2025,
           "mileage": "15.700 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Grau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -4323,7 +5119,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "1.3L turbocharged petrol I4, 140 hp",
+      "gearbox": "7-speed dual-clutch",
+      "fuel_or_charge_consumption": "6.4 L/100 km (WLTP)",
+      "tank_or_battery_size": "50 L",
+      "doors": 5,
+      "model_variant": "4th generation (2019-), facelifted for 2024",
+      "spec_source": {
+        "url": "https://www.automobile-catalog.com/car/2024/2985500/renault-megane-hatch-tce-140-edc/",
+        "retrieved_at": "2026-08-05T07:07:53.988595+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "infiniti-q60",
@@ -4335,7 +5142,7 @@
       "brand_name": "Infiniti",
       "body_type": "sedan",
       "tier": "unconfirmed",
-      "first_year": null,
+      "first_year": 2021,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_no_offerings",
@@ -4372,7 +5179,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "Turbo 4-Cylinder, 5.2 L, 306 hp",
+      "gearbox": "Automatic 4-speed, AWD",
+      "fuel_or_charge_consumption": "6.5 L/100 km (WLTP)",
+      "tank_or_battery_size": "74 L",
+      "doors": 4,
+      "model_variant": "MKII (2021-), coupe and convertible",
+      "spec_source": {
+        "url": "https://www.infiniti.co.uk/en-gb/models/q60/specifications/",
+        "retrieved_at": "2026-08-05T08:54:37.927670+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "infiniti-q50",
@@ -4384,7 +5202,7 @@
       "brand_name": "Infiniti",
       "body_type": "sedan",
       "tier": "unconfirmed",
-      "first_year": null,
+      "first_year": 2014,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_no_offerings",
@@ -4421,7 +5239,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "3.0L twin-turbocharged V6, 300 hp",
+      "gearbox": "7-speed automatic",
+      "fuel_or_charge_consumption": "5.8 L/100 km (WLTP)",
+      "tank_or_battery_size": "20.0 gal",
+      "doors": 4,
+      "model_variant": "RWD/Sport (2024-), sedan, 4-door",
+      "spec_source": {
+        "url": "https://www.confctcar.com/33694/infiniti-q50-asp",
+        "retrieved_at": "2026-08-05T08:38:33.071725+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "geely-auto-starray-em-i",
@@ -4433,7 +5262,7 @@
       "brand_name": "Geely Auto",
       "body_type": "sedan",
       "tier": "unconfirmed",
-      "first_year": null,
+      "first_year": 2026,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_insufficient_sources",
@@ -4470,7 +5299,18 @@
           "dropped": 0,
           "error": "PageMissing: http 404"
         }
-      ]
+      ],
+      "engine": "1.5L (262 hp) plug-in hybrid E-DHT",
+      "gearbox": "automatic transmission E-DHT",
+      "fuel_or_charge_consumption": "2.4 L/100 km (WLTP)",
+      "tank_or_battery_size": "51 L",
+      "doors": 5,
+      "model_variant": "Starray EM-i /2026/",
+      "spec_source": {
+        "url": "https://www.autodata.net/en/geely-starray-em-i-1.5l-262hp-plug-in-hybrid-e-dht-2026/specs",
+        "retrieved_at": "2026-08-05T09:23:03.615492+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "volvo-cars-s60",
@@ -4482,7 +5322,7 @@
       "brand_name": "Volvo Cars",
       "body_type": "sedan",
       "tier": "unconfirmed",
-      "first_year": null,
+      "first_year": 2010,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_insufficient_sources",
@@ -4519,7 +5359,18 @@
           "dropped": 0,
           "error": "PageMissing: http 404"
         }
-      ]
+      ],
+      "engine": "Intercooled Turbo Gas/Electric I-4, 2.0 L",
+      "gearbox": "8-Speed Geartronic Automatic",
+      "fuel_or_charge_consumption": "6.6 L/100 km (WLTP)",
+      "tank_or_battery_size": "60 L",
+      "doors": 4,
+      "model_variant": "Inscription (2020-), soft top and RF hardtop",
+      "spec_source": {
+        "url": "https://www.thecarconnection.com/specifications/volvo_s60_2024",
+        "retrieved_at": "2026-08-05T09:24:48.891813+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "lotus-emeya",
@@ -4531,7 +5382,7 @@
       "brand_name": "Lotus",
       "body_type": "sedan",
       "tier": "exotic",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 108122,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -4548,7 +5399,9 @@
           "location": null,
           "year": 2024,
           "mileage": "44 000 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Amarelo",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/lotus-emeya-sonderfolierung-unikat-elektro-grau-cat_ma44gr200884ge1819tr480432-aea37216-612e-47f0-a262-cb05341167d5",
@@ -4561,7 +5414,9 @@
           "location": "Markranstädt",
           "year": null,
           "mileage": "20 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/lotus-emeya-base-sonderangebot-elektro-schwarz-cat_ma44gr200884ge1819tr480432-416da83d-18a6-422f-abc3-ce8477aecffb",
@@ -4574,7 +5429,9 @@
           "location": "Markranstädt",
           "year": null,
           "mileage": "20 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/lotus-emeya-r-sonderleasing-elektro-orange-cat_ma44gr200884ge1819tr480432-67c0d8eb-1af8-4d30-b465-3b274ddcec3d",
@@ -4587,7 +5444,9 @@
           "location": "Markranstädt",
           "year": null,
           "mileage": "20 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Orange (Fireglow Orange )",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -4621,7 +5480,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "dual-motor electric, 450 kW (612 PS / 603 hp)",
+      "gearbox": "single-speed reduction gear",
+      "fuel_or_charge_consumption": "18.7–22.4 kWh/100 km (WLTP)",
+      "tank_or_battery_size": "102 kWh (gross)",
+      "doors": 4,
+      "model_variant": "Emeya (2024-), all-electric GT",
+      "spec_source": {
+        "url": "https://www.lotuscars.com/en/emea",
+        "retrieved_at": "2026-08-05T05:27:43.404329+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "zeekr-001",
@@ -4633,7 +5503,7 @@
       "brand_name": "Zeekr",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2021,
       "average_budget_eur": 52849,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -4650,7 +5520,10 @@
           "location": "MARIAHOUT",
           "year": 2024,
           "mileage": "38.351 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz",
+          "condition_notes": "Frond window broke",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/zeekr-1-rwd-business-edition-100-kwh-620-km-actieradius-elektro-grau-cat_ma51964gr201558ge1410tr480944-dd46254d-802e-43c1-8b02-b34c779c0f88",
@@ -4663,7 +5536,9 @@
           "location": "VELP",
           "year": 2026,
           "mileage": "72 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/zeekr-1-rwd-business-edition-100-kwh-pano-dak-hud-ma-elektro-schwarz-cat_ma51964gr201558ge1410tr480944-0a00755a-d775-4b2d-8a62-f2b890f127d1",
@@ -4676,7 +5551,9 @@
           "location": "VELP",
           "year": 2025,
           "mileage": "1.800 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -4710,7 +5587,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "dual-motor electric, 400 kW",
+      "gearbox": "single-speed reduction gear",
+      "tank_or_battery_size": "100 kWh usable",
+      "doors": 5,
+      "model_variant": "MY21 (2021-), multiple variants",
+      "spec_source": {
+        "url": "https://www.manualsplus.net/m/10hffad7a0591b5fbfdbc69d482b17e43ac62652340a3540fa15be0a51be0a51",
+        "retrieved_at": "2026-08-05T07:38:42.567455+00:00",
+        "method": "local-llm-web-search"
+      },
+      "fuel_or_charge_consumption": "17,3-18,5 kWh/100 km (WLTP)"
     },
     {
       "id": "jaguar-xe",
@@ -4722,7 +5610,7 @@
       "brand_name": "Jaguar",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2015,
       "average_budget_eur": 40947,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -4739,7 +5627,9 @@
           "location": "Dingolfing",
           "year": 2024,
           "mileage": "17.250 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/jaguar-xe-p300-sport-awd-2-0-turbo-gas-8speed-at-300bhp-benzin-cat_ma37gr200705ge1931tr480335-4f911b4c-265b-4970-9818-885abc90fe18",
@@ -4752,7 +5642,9 @@
           "location": "Isernhagen",
           "year": 2024,
           "mileage": "39.800 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Metallic",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/jaguar-xe-d200-r-dynamic-s-rwd-auto-diesel-grau-cat_ma37gr200705ge1931tr6383-12eae476-8221-4bf5-91ce-675f449f7701",
@@ -4765,7 +5657,9 @@
           "location": "Arlon",
           "year": 2024,
           "mileage": "13.000 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Grau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -4799,7 +5693,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "1,997 cc (2.0 L) inline-4 petrol (Ingenium)",
+      "gearbox": "8-speed automatic",
+      "spec_source": {
+        "url": "https://www.autodata.com/en/jaguar/xe",
+        "retrieved_at": "2026-08-05T09:07:03.130518+00:00",
+        "method": "local-llm-web-search"
+      },
+      "fuel_or_charge_consumption": "6.9 L/100 km (WLTP)",
+      "tank_or_battery_size": "63 L",
+      "doors": 4,
+      "model_variant": "null"
     },
     {
       "id": "jaguar-xf",
@@ -4811,7 +5716,7 @@
       "brand_name": "Jaguar",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2021,
       "average_budget_eur": 44350,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -4828,7 +5733,9 @@
           "location": "Köln",
           "year": 2024,
           "mileage": "18.150 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Santorini black metallic",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/smyle/details/2d1739aa-3ae7-4c17-8192-ac721bc54e62/",
@@ -4841,7 +5748,10 @@
           "location": "Helgoland",
           "year": 2024,
           "mileage": "8.000 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Schwarz",
+          "condition_notes": "Dies ist ein Gebrauchtwagen mit Gebrauchsspuren. Karosserie: Kratzer bis maximal 3 cm Länge, Dellen maximal 2 cm Durchmesser, nicht mehr als vier kleine Lackschäden auf Bierdeckelfläche. Windschutzscheibe: keine Steinschläge im Sichtfeld des Fahrers oder größeren Steinschläge (größer als 3 mm). Innenraum: an der Kofferraumladekante und Verkleidung können Oberflächliche Abschürfungen durch Ein- und Ausladen entstehen, Altersbedingte Abnutzungsspuren an Bedienelementen. Räume, Felgen, Reifen: Bordsteinschäden an den Rädern und Felgen sind möglich.",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/jaguar-xf-xf-d200-awd-sportbrake-r-dynamic-se-mild-hybrid-diesel-schwarz-cat_ma37gr200703ge1933va1294tr6390-63ec3d13-7709-4941-9cf5-2ce47b5c560d",
@@ -4854,7 +5764,9 @@
           "location": "Ravensburg, Stadt",
           "year": 2024,
           "mileage": "8.600 km",
-          "fuel": "Diesel"
+          "fuel": "Diesel",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -4888,7 +5800,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "fuel_or_charge_consumption": "0.0 l/100km (WLTP)",
+      "spec_source": {
+        "url": "https://www.jaguar.co.uk/en_gb/all-vehicles/xf/specifications.html",
+        "retrieved_at": "2026-08-05T08:11:41.358624+00:00",
+        "method": "local-llm-web-search"
+      },
+      "engine": "2.0L turbocharged petrol I4, 246 hp",
+      "gearbox": "8-speed automatic (Sequential Shift Control)",
+      "tank_or_battery_size": "67 L",
+      "doors": 4,
+      "model_variant": "JAGUAR XF (J220) - 4th Generation (2021-2024)"
     },
     {
       "id": "tesla-model-3",
@@ -4900,7 +5823,7 @@
       "brand_name": "Tesla",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2023,
       "average_budget_eur": 39520,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -4917,7 +5840,9 @@
           "location": null,
           "year": 2024,
           "mileage": "31 364 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Branco",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/tesla-model-3-ver-tra-o-traseira-premium-ID8Q0P4m.html",
@@ -4930,7 +5855,9 @@
           "location": null,
           "year": 2024,
           "mileage": "133 000 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Branco",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/tesla-model-3-ver-tra-o-traseira-ID8Q0NTX.html",
@@ -4943,7 +5870,9 @@
           "location": null,
           "year": 2024,
           "mileage": "18 000 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Branco",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.auto.pt/carros-usados/tesla-model-3-tracao-traseira-premium-id-45DXEytT",
@@ -4956,7 +5885,9 @@
           "location": null,
           "year": 2024,
           "mileage": "133000 km",
-          "fuel": "Eléctrico"
+          "fuel": "Eléctrico",
+          "colour": "Branco Metalizado",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/tesla-model-3-performance-elektro-schwarz-cat_ma51520gr201429ge1416tr5802-aec6c5b1-c742-40ac-8011-559a2de57ee1",
@@ -4969,7 +5900,8 @@
           "location": "Hanau",
           "year": 2025,
           "mileage": "11.341 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "enrichment": "listing_gone"
         },
         {
           "url": "https://www.autoscout24.de/angebote/tesla-model-3-model-3-highland-lr-awd-hw4-2024-elektro-weiss-cat_ma51520gr201429ge1416tr480831-3efe74c2-404b-4a2f-b08e-1f9afde68e60",
@@ -4982,7 +5914,9 @@
           "location": "Emsbüren",
           "year": 2024,
           "mileage": "25.600 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Pearl White Multi-Coat",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/tesla-model-3-model-3-rwd-hinterradantrieb-long-range-mwst-elektro-weiss-cat_ma51520gr201429ge1416tr480831-fdd904f1-3346-49fb-a28c-447fcfa1ea73",
@@ -4995,7 +5929,9 @@
           "location": "München, Landeshauptstadt",
           "year": 2025,
           "mileage": "5.692 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -5029,7 +5965,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "Electric, 425 hp (SAE)",
+      "gearbox": "1-Speed Automatic",
+      "doors": 4,
+      "spec_source": {
+        "url": "https://www.tesla.com/en_GB/model3",
+        "retrieved_at": "2026-08-05T06:37:58.735496+00:00",
+        "method": "local-llm-web-search"
+      },
+      "fuel_or_charge_consumption": "12.9 kWh/100 km (WLTP Class 3)",
+      "tank_or_battery_size": "62 kWh",
+      "model_variant": "Highland (2023-), soft top and RF hardtop"
     },
     {
       "id": "tesla-model-s",
@@ -5041,7 +5988,7 @@
       "brand_name": "Tesla",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2012,
       "average_budget_eur": 81750,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -5058,7 +6005,9 @@
           "location": null,
           "year": 2024,
           "mileage": "41 000 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Azul",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/tesla-model-s-model-s-performance-dual-motor-plaid-awd-elektro-grau-cat_ma51520gr201430ge1417tr5803-e852abb7-d23e-4a7b-88ce-8df0ca28ee7c",
@@ -5071,7 +6020,9 @@
           "location": "Lendinara",
           "year": 2024,
           "mileage": "20.225 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/tesla-model-s-model-s-plaid-100kwh-elektro-weiss-cat_ma51520gr201430ge1417tr480832-8ea78985-c424-4da5-888b-19895a86405e",
@@ -5084,7 +6035,9 @@
           "location": "Weikersdorf am Steinfelde",
           "year": 2024,
           "mileage": "60.000 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/tesla-model-s-plaid-tri-motor-elektro-schwarz-cat_ma51520gr201430ge1417tr5803-9e3063cf-f431-4da5-8c91-b7aa9c38621b",
@@ -5097,7 +6050,9 @@
           "location": "Roma",
           "year": 2024,
           "mileage": "29.000 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -5131,7 +6086,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "dual-motor electric, 250 kW front and rear",
+      "tank_or_battery_size": "100 kWh",
+      "doors": 4,
+      "spec_source": {
+        "url": "https://www.tesla.com/support/en_GB/model-s/specifications",
+        "retrieved_at": "2026-08-05T07:31:41.726122+00:00",
+        "method": "local-llm-web-search"
+      },
+      "gearbox": "single-speed reduction gear",
+      "fuel_or_charge_consumption": "17.0 kWh/100 km (EPA)",
+      "model_variant": "ND facelift (2024-), soft top and RF hardtop"
     },
     {
       "id": "byd-seal",
@@ -5143,7 +6109,7 @@
       "brand_name": "BYD",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 39112,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -5160,7 +6126,9 @@
           "location": null,
           "year": 2024,
           "mileage": "11 600 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/byd-seal-ver-design-ID8Q0OO3.html",
@@ -5173,7 +6141,9 @@
           "location": null,
           "year": 2024,
           "mileage": "34 152 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Branco Pérola",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/byd-seal-ver-82-5-kwh-awd-excellence-ID8Q0txX.html",
@@ -5186,7 +6156,9 @@
           "location": null,
           "year": 2025,
           "mileage": "14 923 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.auto.pt/carros-usados/byd-seal-82-5-kwh-design-id-HZcfrtDW",
@@ -5199,7 +6171,9 @@
           "location": null,
           "year": 2024,
           "mileage": "34152 km",
-          "fuel": "Eléctrico"
+          "fuel": "Eléctrico",
+          "colour": "Branco Pérola",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.auto.pt/carros-usados/byd-seal-seal-u-1-5-dm-i-boost-id-tJQUoYzr",
@@ -5212,7 +6186,9 @@
           "location": null,
           "year": 2026,
           "mileage": "10 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.auto.pt/carros-usados/byd-seal-82-5-kwh-design-id-Gx9nfbXf",
@@ -5225,7 +6201,9 @@
           "location": null,
           "year": 2026,
           "mileage": "1650 km",
-          "fuel": "Eléctrico"
+          "fuel": "Eléctrico",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/byd-seal-1-5-boost-headup+360gradkamera+sitzheitzng+apple-c-elektro-benzin-grau-cat_ma16379gr200193ge2230va893tr1489-566496d8-83e1-4ecd-9ace-63ca6a4c8b3b",
@@ -5238,7 +6216,9 @@
           "location": "Neuss",
           "year": 2025,
           "mileage": "14.767 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/byd-seal-ev-excellence-awd-82-5-kwh-elektro-gruen-cat_ma16379gr200193ge2230va3386tr3315-73e078bf-b464-4132-bf4a-508c394ebefe",
@@ -5251,7 +6231,10 @@
           "location": "Düsseldorf",
           "year": 2025,
           "mileage": "13.280 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Grün",
+          "condition_notes": "Taxi oder Mietwagen",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/byd-seal-boost-phev-1-5-160kw-navi-klima-sitzhzg-carplay-elektro-benzin-schwarz-cat_ma16379gr200193ge2230va893tr1489-9a3588c2-50d6-4b47-a815-6b7f78a90323",
@@ -5264,7 +6247,9 @@
           "location": "Düsseldorf",
           "year": 2025,
           "mileage": "15.508 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -5298,7 +6283,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "dual-motor electric, 160 kW",
+      "gearbox": "single-speed",
+      "fuel_or_charge_consumption": "20.5 kWh/100 km (WLTP)",
+      "tank_or_battery_size": "87 kWh total",
+      "doors": 5,
+      "model_variant": "SEAL U 87 kWh Design (2024)",
+      "spec_source": {
+        "url": "https://ev-database.org/car/6207/Byd-SEAL-U-87-kWh-Design",
+        "retrieved_at": "2026-08-05T04:55:47.985589+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "byd-han",
@@ -5310,7 +6306,7 @@
       "brand_name": "BYD",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2020,
       "average_budget_eur": 37166,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -5327,7 +6323,9 @@
           "location": "Anvers",
           "year": 2024,
           "mileage": "22.500 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Silber Metallic",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/byd-han-380-kw-awd-executive-elektro-weiss-cat_ma16379gr200194ge2229tr480020-ec54f474-0030-495c-ba40-2babfcded64d",
@@ -5340,7 +6338,9 @@
           "location": "Bünde",
           "year": 2024,
           "mileage": "42.900 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/byd-han-han-85-4-kwh-executive-elektro-grau-cat_ma16379gr200194ge2229tr480020-3ae6df74-8b43-4382-ad1d-5ae1064c8d75",
@@ -5353,7 +6353,9 @@
           "location": "Dilsen-Stokkem",
           "year": 2024,
           "mileage": "26.000 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Grau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -5387,7 +6389,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "dual-motor electric, 380 kW (517 PS)",
+      "gearbox": "single-speed reduction gear",
+      "fuel_or_charge_consumption": "185 Wh/km (WLTP)",
+      "tank_or_battery_size": "85.4 kWh usable",
+      "doors": 4,
+      "model_variant": "ND (2020-), AWD electric sedan",
+      "spec_source": {
+        "url": "https://ev-database.com/car/1784/BYD-HAN",
+        "retrieved_at": "2026-08-05T07:26:40.655666+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "lucid-motors-air",
@@ -5399,7 +6412,7 @@
       "brand_name": "Lucid Motors",
       "body_type": "sedan",
       "tier": "unconfirmed",
-      "first_year": null,
+      "first_year": 2023,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_insufficient_sources",
@@ -5436,7 +6449,17 @@
           "dropped": 0,
           "error": "PageMissing: http 404"
         }
-      ]
+      ],
+      "engine": "dual-motor electric, 819 hp",
+      "gearbox": "single-speed reduction gear",
+      "fuel_or_charge_consumption": "135 Wh/km (WLTP)",
+      "tank_or_battery_size": "117.0 kWh usable",
+      "model_variant": "2023–2025 generation",
+      "spec_source": {
+        "url": "https://ev-database.org/car/1944/Lucid-Air",
+        "retrieved_at": "2026-08-05T09:28:28.344869+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "nio-et7",
@@ -5448,7 +6471,7 @@
       "brand_name": "Nio",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2022,
       "average_budget_eur": 39000,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -5465,7 +6488,10 @@
           "location": "Garching",
           "year": 2024,
           "mileage": "42.000 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Grau",
+          "condition_notes": "100 kWh (ohne Batterie)",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -5499,7 +6525,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "dual-motor electric, 480 kW (653 hp)",
+      "gearbox": "single-speed reduction gear",
+      "tank_or_battery_size": "100 kWh gross",
+      "doors": 4,
+      "model_variant": "ET7 (2022–), 4-door sedan",
+      "spec_source": {
+        "url": "https://www.ultimatespecs.com/car-specs/nio/133437/nio-et7-100-kwh-specs",
+        "retrieved_at": "2026-08-05T08:51:01.841595+00:00",
+        "method": "local-llm-web-search"
+      },
+      "fuel_or_charge_consumption": "17.2 kWh/100 km (WLTP)"
     },
     {
       "id": "nio-et5",
@@ -5511,7 +6548,7 @@
       "brand_name": "Nio",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2022,
       "average_budget_eur": 31966,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -5528,7 +6565,9 @@
           "location": "Goirle",
           "year": 2025,
           "mileage": "3.000 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Andere",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/nio-et5-basis-360kw-mietbatterie-ab-169e-monatlich-led-pd-elektro-schwarz-cat_ma51928gr201049ge1668va3592tr480561-8018130f-1874-44a9-ad36-e526be39b62e",
@@ -5541,7 +6580,9 @@
           "location": "Marburg",
           "year": 2024,
           "mileage": "21.000 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/nio-et5-standard-range-elektro-blau-cat_ma51928gr201049ge1668va1582tr480561-88c23e92-d2c1-4960-8a32-998c9f64bf2b",
@@ -5554,7 +6595,9 @@
           "location": "BREUKELEN",
           "year": 2024,
           "mileage": "141.350 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Blau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -5588,7 +6631,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "dual-motor electric, 360 kW (150 kW front, 210 kW rear)",
+      "gearbox": "1-speed fixed-ratio transmission",
+      "fuel_or_charge_consumption": "17.1 kWh/100 km (WLTP)",
+      "tank_or_battery_size": "75 kWh usable",
+      "doors": 4,
+      "model_variant": "ET5 (2022–)",
+      "spec_source": {
+        "url": "https://www.datacarss.com/data/nio/et5/2024/params",
+        "retrieved_at": "2026-08-05T07:27:01.696883+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "xpeng-p7",
@@ -5600,7 +6654,7 @@
       "brand_name": "Xpeng",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 45537,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -5617,7 +6671,9 @@
           "location": "Ebersberg bei München",
           "year": 2026,
           "mileage": "6.900 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Blau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/xpeng-p7-longrange-verfuegbar-ab-12-26-kein-leasing-elektro-schwarz-cat_ma51940gr201554ge1413-37e3dc77-f20e-4e82-9cdf-313bb9608a24",
@@ -5630,7 +6686,9 @@
           "location": "Neuss",
           "year": 2026,
           "mileage": "6.215 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "MIDNIGHT BLACK METALLIC",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/xpeng-p7-elektro-schwarz-cat_ma51940gr201554ge1413-d32a4a6e-f649-4945-8606-7d589b4cf5b3",
@@ -5643,7 +6701,9 @@
           "location": "Pfaffenhofen",
           "year": 2026,
           "mileage": "2.900 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -5677,7 +6737,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "tank_or_battery_size": "60.7 kWh usable",
+      "doors": 5,
+      "spec_source": {
+        "url": "https://www.autodata.net/en/xpeng-p7--2024-2025-2026/specs/fuel-consumption",
+        "retrieved_at": "2026-08-05T07:45:44.098935+00:00",
+        "method": "local-llm-web-search"
+      },
+      "engine": "electric, up to 313 hp",
+      "gearbox": "single-speed reduction gear",
+      "fuel_or_charge_consumption": "17.1 kWh/100 km (WLTP)",
+      "model_variant": "P7+ (2024-), fastback"
     },
     {
       "id": "xiaomi-su7",
@@ -5689,7 +6760,7 @@
       "brand_name": "Xiaomi",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 89000,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -5706,7 +6777,9 @@
           "location": "Hamburg, Freie und Hansestadt",
           "year": 2025,
           "mileage": "4.000 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/xiaomi-su7-el-elektro-gruen-cat_ma52031gr77244-1bd35c8d-fbd1-41f6-93db-090ec3771d01",
@@ -5719,7 +6792,9 @@
           "location": "Croissy-Beaubourg",
           "year": 2025,
           "mileage": "16.000 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Grün",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/xiaomi-su7-su7-ultra-elektro-gold-cat_ma52031gr77244-3c820907-dee1-48af-9663-aba6147ffb06",
@@ -5732,7 +6807,9 @@
           "location": "Luçon",
           "year": 2025,
           "mileage": "11.000 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Gold",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -5766,7 +6843,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "dual-motor electric",
+      "gearbox": "single-speed reduction gear",
+      "tank_or_battery_size": "101 kWh usable",
+      "doors": 4,
+      "model_variant": "Xiaomi SU7 Max (2024-), electric all‑wheel‑drive sedan",
+      "spec_source": {
+        "url": "https://evkx.net/models/xiaomi/su7/specs",
+        "retrieved_at": "2026-08-05T09:16:02.887331+00:00",
+        "method": "local-llm-web-search"
+      },
+      "fuel_or_charge_consumption": "16.3 kWh/100 km (WLTP)"
     },
     {
       "id": "mg-mg5",
@@ -5778,7 +6866,7 @@
       "brand_name": "MG",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 28290,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -5795,7 +6883,9 @@
           "location": null,
           "year": 2024,
           "mileage": "25 196 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Branco",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mg-mg5-comfort-sthz-navi-shz-alu-ahk-elektro-elektro-silber-cat_ma48gr200998ge1728tr480441-3084b6a2-c2c0-4b67-970e-9edb44d5c9bf",
@@ -5808,7 +6898,9 @@
           "location": "Amt Wachsenburg OT Ichtershausen",
           "year": 2025,
           "mileage": "15.500 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Silber",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mg-mg5-standard-luxury-shz-klima-led-nav-haustuerlieferu-elektro-silber-cat_ma48gr200998ge1728tr480441-44efe257-c283-40d8-802e-b3a6c359b59e",
@@ -5821,7 +6913,10 @@
           "location": "Oberhaching",
           "year": 2024,
           "mileage": "33.812 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Silber",
+          "condition_notes": "Normale und sichtbare Gebrauchsspuren können jedoch bestehen bleiben, sofern sie die Sicherheit, Funktionsfähigkeit oder gewöhnliche Nutzung des Fahrzeugs nicht beeinträchtigen. Kleinere Kratzer, Steinschläge, kleinere Dellen, Spuren an Stoßfängern und Türkanten, leichte optische Beschädigungen an den Felgen sowie Gebrauchsspuren im Innen- oder Kofferraum. Diese optischen Gebrauchsspuren sind Bestandteil des angebotenen Fahrzeugzustands und im Preis berücksichtigt.",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mg-mg5-im-5-710-km-reichweit-3d-sound-360-kamera-elektro-weiss-cat_ma48gr200998ge1728tr480441-dda80a58-f057-41f9-b80b-c40214b3f0b4",
@@ -5834,7 +6929,9 @@
           "location": "Hamm",
           "year": null,
           "mileage": "10 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -5868,7 +6965,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "Electric, single motor",
+      "gearbox": "Single-speed reduction gear",
+      "fuel_or_charge_consumption": "15.6 kWh/100 km (WLTP)",
+      "tank_or_battery_size": "61.1 kWh usable",
+      "doors": 5,
+      "model_variant": "SW EV (2024-)",
+      "spec_source": {
+        "url": "https://www.automobile-catalog.com/car/2024/mg/mg5/mg5_swev.html",
+        "retrieved_at": "2026-08-05T05:51:58.853861+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "honda-civic",
@@ -5880,7 +6988,7 @@
       "brand_name": "Honda",
       "body_type": "sedan",
       "tier": "premium",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 53187,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -5897,7 +7005,9 @@
           "location": null,
           "year": 2025,
           "mileage": "18 000 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/honda-civic-ver-2-0-vtec-turbo-type-r-ID8Q0pyd.html",
@@ -5910,7 +7020,9 @@
           "location": null,
           "year": 2025,
           "mileage": "700 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Azul",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/honda-civic-ver-2-0-i-vtec-type-r-ID8Q0zsj.html",
@@ -5923,7 +7035,9 @@
           "location": null,
           "year": 2025,
           "mileage": "6 524 km",
-          "fuel": "Gasolina"
+          "fuel": "Gasolina",
+          "colour": "Preto Metalizado",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/honda-civic-e-hev-2-0-hybrid-sport-led-einparkhilfe-wireless-elektro-benzin-schwarz-cat_ma31gr200622ge1980va3479mt12730tr7208-3de4f6d1-7cdd-4c83-9bca-5d68d99eb147",
@@ -5936,7 +7050,9 @@
           "location": "München",
           "year": 2025,
           "mileage": "3.000 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/honda-civic-2-0-type-r-vtec-benzin-weiss-cat_ma31gr200622ge1980va3479mt12731tr480264-e2e24d23-c427-42f9-a209-4b3032af96e2",
@@ -5949,7 +7065,9 @@
           "location": "Langenenslingen",
           "year": 2025,
           "mileage": "4.500 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Weiß",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/honda-civic-hybrid-e-hev-sport-facelift-mj26-elektro-benzin-grau-cat_ma31gr200622ge1980va3479mt12730tr7208-839dae0d-e55d-4d19-9f84-67b1686f9c9b",
@@ -5962,7 +7080,9 @@
           "location": "Düsseldorf",
           "year": 2026,
           "mileage": "2.000 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -5996,7 +7116,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "1.5L turbocharged petrol I4, 180 hp",
+      "gearbox": "Continuously variable transmission (CVT)",
+      "tank_or_battery_size": "47 L",
+      "spec_source": {
+        "url": "https://www.autosaver.eu/en/auto/honda-civic-hev-2024",
+        "retrieved_at": "2026-08-05T07:09:30.355784+00:00",
+        "method": "local-llm-web-search"
+      },
+      "doors": 5,
+      "model_variant": "Civic XI (facelift 2024)",
+      "fuel_or_charge_consumption": "5.0 L/100 km (WLTP)"
     },
     {
       "id": "honda-accord",
@@ -6008,7 +7139,7 @@
       "brand_name": "Honda",
       "body_type": "sedan",
       "tier": "unconfirmed",
-      "first_year": null,
+      "first_year": 2020,
       "average_budget_eur": null,
       "average_budget_basis": "No offerings survived verification.",
       "search_status": "completed_insufficient_sources",
@@ -6045,7 +7176,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "1.5-liter turbocharged inline-4, 190 hp",
+      "gearbox": "eCVT with drive mode selector",
+      "fuel_or_charge_consumption": "5.8 L/100 km (WLTP)",
+      "tank_or_battery_size": "50 L",
+      "doors": 4,
+      "model_variant": "Twelfth generation (2020-), on sale in Europe",
+      "spec_source": {
+        "url": "https://www.honda.de/en/accords/models/specification/",
+        "retrieved_at": "2026-08-05T08:58:08.795867+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "mazda-6",
@@ -6057,7 +7199,7 @@
       "brand_name": "Mazda",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2018,
       "average_budget_eur": 28610,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -6074,7 +7216,9 @@
           "location": "Kirchseeon bei München",
           "year": 2024,
           "mileage": "12.000 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mazda-mazda6-kombi-2-5-exclusive-line-bose-navi-pdc-360-benzin-schwarz-cat_ma46gr200953ge1755va1461mt2624tr3374-dce9d80f-2bd8-4b42-8773-9a294d8c61e9",
@@ -6087,7 +7231,10 @@
           "location": "Hattingen Welper",
           "year": 2024,
           "mileage": "4.452 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "condition_notes": "Unfallfahrzeug, Repariert",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mazda-mazda6-kombi-2-0-skyactiv-g-165-center-line-360-benzin-schwarz-cat_ma46gr200953ge1755va1461mt2624tr3374-01753097-6f27-48be-a242-9cf9ff172dc3",
@@ -6100,7 +7247,9 @@
           "location": "Memmingen",
           "year": 2024,
           "mileage": "5.100 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -6134,7 +7283,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.5 SKYACTIV-G petrol I4, 191 hp",
+      "gearbox": "6-speed automatic (torque converter)",
+      "fuel_or_charge_consumption": "6.6 L/100 km (WLTP)",
+      "tank_or_battery_size": "62.2 L",
+      "doors": 4,
+      "model_variant": "GJ-series Sedan (facelift 2018-), 4-door saloon",
+      "spec_source": {
+        "url": "https://www.enjoycarpe.com/mazda/18-6-2-skyactiv-g-194-tourer-estates-specs.html",
+        "retrieved_at": "2026-08-05T07:51:02.896306+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "mazda-3",
@@ -6146,7 +7306,7 @@
       "brand_name": "Mazda",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 24343,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -6163,7 +7323,9 @@
           "location": "Coburg",
           "year": 2024,
           "mileage": "21.550 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Beige",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mazda-mazda3-2-0l-186ps-6at-exclusive-line-comb-daso-+-ahk-benzin-rot-cat_ma46gr200954ge1744mt2607tr3376-00a0d99c-a1eb-4030-bfc5-7b27c78ed3a6",
@@ -6176,7 +7338,10 @@
           "location": "Pfaffenhofen",
           "year": 2024,
           "mileage": "34.243 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Rot",
+          "condition_notes": "Unfallfahrzeug, Repariert",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/mazda-mazda3-2-0l-e-skyactiv-x-186ps-6at-fwd-exclusive-line-das-benzin-rot-cat_ma46gr200954ge1744mt2607tr3376-5a081ad0-afe0-4169-91e3-a0ecb4de0e46",
@@ -6189,7 +7354,9 @@
           "location": "Senftenberg",
           "year": 2024,
           "mileage": "18.076 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Rot",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -6223,7 +7390,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.5 L turbocharged petrol I-4, 227 hp",
+      "gearbox": "6-speed SKYACTIV-Drive automatic",
+      "fuel_or_charge_consumption": "6.2 L/100 km (WLTP)",
+      "tank_or_battery_size": "45 L",
+      "doors": 4,
+      "model_variant": "Mazda3 (2024), petrol (e‑Skyactiv‑G and e‑Skyactiv‑X) and Turbo versions on sale in Europe",
+      "spec_source": {
+        "url": "https://www.automobile-catalog.com/2024-mazda-3-sedan-specifications",
+        "retrieved_at": "2026-08-05T08:13:11.063785+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "subaru-impreza",
@@ -6235,7 +7413,7 @@
       "brand_name": "Subaru",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 29322,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -6252,7 +7430,9 @@
           "location": "Bad Tabarz",
           "year": 2025,
           "mileage": "1.100 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Grau",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/subaru-impreza-2-0ie-inventurabverkauf-my-2025-benzin-schwarz-cat_ma67gr201385ge1473va3695mt9930tr8083-5a6d7c2b-3efa-4100-9377-0d09a6ef4b08",
@@ -6265,7 +7445,9 @@
           "location": "Hof",
           "year": 2025,
           "mileage": "3.888 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/subaru-impreza-trend-sti-style-sonderraeder-elektro-benzin-silber-cat_ma67gr201385ge1473va3695mt9930tr8083-d95c7900-70c2-4d4d-9364-16c301a52853",
@@ -6278,7 +7460,9 @@
           "location": "Friedberg",
           "year": 2026,
           "mileage": "4.900 km",
-          "fuel": "Elektro/Benzin"
+          "fuel": "Elektro/Benzin",
+          "colour": "Silber",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -6312,105 +7496,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
-    },
-    {
-      "id": "bac-116",
-      "name": "116",
-      "manufacturer": "BAC",
-      "group_id": "g14-specialist-low-volume",
-      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-      "brand_id": "bac",
-      "brand_name": "BAC",
-      "body_type": "sedan",
-      "tier": "unconfirmed",
-      "first_year": null,
-      "average_budget_eur": null,
-      "average_budget_basis": "No offerings survived verification.",
-      "search_status": "completed_insufficient_sources",
-      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
-      "offerings": [],
-      "offering_search_log": [
-        {
-          "round": 1,
-          "source": "standvirtual",
-          "url": "https://www.standvirtual.com/carros/bac/116?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
-          "found": 34,
-          "new": 34,
-          "duplicates": 0,
-          "dropped": 3,
-          "error": null
-        },
-        {
-          "round": 1,
-          "source": "auto.pt",
-          "url": "https://www.auto.pt/carros-usados/bac/116",
-          "found": 0,
-          "new": 0,
-          "duplicates": 0,
-          "dropped": 0,
-          "error": "PageMissing: http 404"
-        },
-        {
-          "round": 1,
-          "source": "autoscout24",
-          "url": "https://www.autoscout24.de/lst/bac/116?fregfrom=2024",
-          "found": 0,
-          "new": 0,
-          "duplicates": 0,
-          "dropped": 0,
-          "error": "PageMissing: http 404"
-        }
-      ]
-    },
-    {
-      "id": "bac-a3",
-      "name": "A3",
-      "manufacturer": "BAC",
-      "group_id": "g14-specialist-low-volume",
-      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-      "brand_id": "bac",
-      "brand_name": "BAC",
-      "body_type": "sedan",
-      "tier": "unconfirmed",
-      "first_year": null,
-      "average_budget_eur": null,
-      "average_budget_basis": "No offerings survived verification.",
-      "search_status": "completed_insufficient_sources",
-      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
-      "offerings": [],
-      "offering_search_log": [
-        {
-          "round": 2,
-          "source": "standvirtual",
-          "url": "https://www.standvirtual.com/carros/bac/a3?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
-          "found": 34,
-          "new": 2,
-          "duplicates": 32,
-          "dropped": 2,
-          "error": null
-        },
-        {
-          "round": 2,
-          "source": "auto.pt",
-          "url": "https://www.auto.pt/carros-usados/bac/a3",
-          "found": 0,
-          "new": 0,
-          "duplicates": 0,
-          "dropped": 0,
-          "error": "PageMissing: http 404"
-        },
-        {
-          "round": 2,
-          "source": "autoscout24",
-          "url": "https://www.autoscout24.de/lst/bac/a3?fregfrom=2024",
-          "found": 0,
-          "new": 0,
-          "duplicates": 0,
-          "dropped": 0,
-          "error": "PageMissing: http 404"
-        }
-      ]
+      ],
+      "engine": "2.0 l Boxer I4, mild hybrid MHEV",
+      "gearbox": "automatic transmission CVT",
+      "fuel_or_charge_consumption": "7.3 l/100 km (WLTP)",
+      "tank_or_battery_size": "48 L",
+      "doors": 5,
+      "model_variant": "VI Hatchback (2024-)",
+      "spec_source": {
+        "url": "https://www.auto-data.net/en/subaru-impreza-vi-hatchback-2.0ie-136-hp-mild-hybrid-awd-cvt",
+        "retrieved_at": "2026-08-05T07:54:26.263008+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "ora-funky-cat",
@@ -6422,7 +7519,7 @@
       "brand_name": "Ora",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2023,
       "average_budget_eur": 21817,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -6439,7 +7536,9 @@
           "location": "Andervenne/Emsland",
           "year": 2025,
           "mileage": "10 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/ora-funky-cat-ora-03-126-kw-300-pro-navi-360-k-klima-uvm-elektro-schwarz-cat_ma51934gr201137ge1587tr756-1a3f1346-a421-4810-984f-2da3e9c2292a",
@@ -6452,7 +7551,9 @@
           "location": "Holzminden",
           "year": 2024,
           "mileage": "11.356 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/ora-funky-cat-400-pro+-celestial-blue-starry-black-elektro-blau-cat_ma51934gr201137ge1587tr480639-7595993d-ce79-45cc-a2ab-f4f706a2252b",
@@ -6465,7 +7566,9 @@
           "location": "Bad Hersfeld",
           "year": 2025,
           "mileage": "20 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Celestial blue / starry black",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -6499,7 +7602,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "front-wheel-drive electric, 171 hp and 250 Nm of torque",
+      "gearbox": "single-speed reduction gear",
+      "fuel_or_charge_consumption": "16 kWh/100 km (WLTP)",
+      "tank_or_battery_size": "58 kWh battery",
+      "spec_source": {
+        "url": "https://www.arenaev.com/ora_funky_cat_48kwh_full_specs",
+        "retrieved_at": "2026-08-05T09:13:22.784269+00:00",
+        "method": "local-llm-web-search"
+      },
+      "doors": 5,
+      "model_variant": "ORA Funky Cat 48kWh for European market (available to order, released 2023 April)"
     },
     {
       "id": "changan-deepal-s07",
@@ -6511,7 +7625,7 @@
       "brand_name": "Changan",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2025,
       "average_budget_eur": 39554,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
@@ -6528,7 +7642,9 @@
           "location": null,
           "year": 2026,
           "mileage": "50 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Cinzento",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.standvirtual.com/carros/anuncio/changan-deepal-s07-ver-80-kwh-ID8Q0GcD.html",
@@ -6541,7 +7657,9 @@
           "location": null,
           "year": 2026,
           "mileage": "15 000 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Verde",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/changan-deepal-s07-ev-79-97kwh-rwd-360grad-20zoll-ahk-panorama-elektro-schwarz-cat_ma52058gr202826ge10998-53e4a187-7b96-4da4-96cb-c9e3a25b549d",
@@ -6554,7 +7672,9 @@
           "location": "Halstenbek",
           "year": 2026,
           "mileage": "5.892 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/changan-deepal-s07-80kwh-panorama-navi-leder-ahk-20-lmf-elektro-schwarz-cat_ma52058gr202826ge10998-fa0048a3-9026-4552-88df-208c067dde16",
@@ -6567,7 +7687,9 @@
           "location": "Burgstädt",
           "year": null,
           "mileage": "10 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/changan-deepal-s07-deepal-s07-80kwh-pano-leder-360-20-elektro-schwarz-cat_ma52058gr202826ge10998-d29b2b5a-c20a-412a-838b-8ec30965a5e0",
@@ -6580,7 +7702,9 @@
           "location": "Wuppertal",
           "year": 2026,
           "mileage": "0 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -6614,7 +7738,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "1.5 L naturally aspirated I4 petrol, 98 hp, 125 Nm",
+      "gearbox": "1-speed automatic transmission",
+      "fuel_or_charge_consumption": "3.88 l/100 km (NEDC)",
+      "tank_or_battery_size": "39.05 kWh battery (gross) / 45 L fuel tank",
+      "doors": 5,
+      "model_variant": "S07 (facelift 2024)",
+      "spec_source": {
+        "url": "https://www.autodata.net/en/deepal-s07-model-3566",
+        "retrieved_at": "2026-08-05T05:46:25.448127+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "hongqi-eh7",
@@ -6626,7 +7761,7 @@
       "brand_name": "Hongqi",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 39990,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -6643,7 +7778,9 @@
           "location": "Bad Hersfeld",
           "year": 2026,
           "mileage": "150 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -6677,7 +7814,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "dual‑motor electric, 619 hp",
+      "gearbox": "single‑speed automatic transmission",
+      "fuel_or_charge_consumption": "18 kWh/100 km (WLTP)",
+      "tank_or_battery_size": "81.6 kWh usable",
+      "doors": 4,
+      "model_variant": "EH7 BEV, 2024–",
+      "spec_source": {
+        "url": "https://www.autodata.net/en/hongqi-eh7-85-kwh-619-hp-4wd-2024-/specs/",
+        "retrieved_at": "2026-08-05T08:04:14.603647+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "bestune-b70",
@@ -6689,7 +7837,7 @@
       "brand_name": "Bestune",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2014,
       "average_budget_eur": 30415,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -6706,7 +7854,9 @@
           "location": "Hebertsfelden",
           "year": 2026,
           "mileage": "4.900 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Silber",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bestune-b70-bestune-b70-vollausstattung-benzin-silber-cat_ma52007gr203074-89d15676-8c7e-4ec7-ab01-7815f93fe4c0",
@@ -6719,7 +7869,9 @@
           "location": "Falkenstein-Siebenhitz",
           "year": 2026,
           "mileage": "10 km",
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Silber",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/bestune-b70-benzin-schwarz-cat_ma52007gr203074-5456ed2c-258b-4de9-bffe-d8250e0e4482",
@@ -6732,7 +7884,9 @@
           "location": "Schömberg",
           "year": null,
           "mileage": null,
-          "fuel": "Benzin"
+          "fuel": "Benzin",
+          "colour": "Schwarz",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -6766,7 +7920,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "2.0TC I4",
+      "gearbox": "6-speed automatic",
+      "fuel_or_charge_consumption": "6.4 L/100 km",
+      "tank_or_battery_size": "null",
+      "doors": 4,
+      "model_variant": "First generation (2014-2024), sedan",
+      "spec_source": {
+        "url": "https://www.arawheels.com/car/bestune-b70-2024/",
+        "retrieved_at": "2026-08-05T09:13:51.350931+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "maxus-euniq-5",
@@ -6778,7 +7943,7 @@
       "brand_name": "Maxus",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2023,
       "average_budget_eur": 35695,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -6795,7 +7960,9 @@
           "location": null,
           "year": 2025,
           "mileage": "24 810 km",
-          "fuel": "Elétrico"
+          "fuel": "Elétrico",
+          "colour": "Preto",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/maxus-euniq-5-grand-wagon-70kwh+leder+6-sitzer+-elektro-schwarz-cat_ma51803gr200948ge1796-38ba3dc3-e180-40b0-9fdf-8527034f4d04",
@@ -6808,7 +7975,9 @@
           "location": "Langwedel",
           "year": 2025,
           "mileage": "8.000 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Schwarz metallic",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -6842,7 +8011,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "Electric, front transverse motor, 177 kW",
+      "gearbox": "Single-speed transmission (1 gear)",
+      "fuel_or_charge_consumption": "14.9 kWh/100 km (WLTP)",
+      "tank_or_battery_size": "70 kWh gross battery",
+      "doors": 4,
+      "model_variant": "Second generation (2023-), single motor FWD, 70 kWh battery",
+      "spec_source": {
+        "url": "https://eu.maxus.com/vehicles/euniq-5/specifications",
+        "retrieved_at": "2026-08-05T07:59:44.071848+00:00",
+        "method": "local-llm-web-search"
+      }
     },
     {
       "id": "leapmotor-b05",
@@ -6854,7 +8034,7 @@
       "brand_name": "Leapmotor",
       "body_type": "sedan",
       "tier": "mainstream",
-      "first_year": null,
+      "first_year": 2024,
       "average_budget_eur": 31870,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed_insufficient_sources",
@@ -6871,7 +8051,9 @@
           "location": "Zeesen",
           "year": null,
           "mileage": "0 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Gelb",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/leapmotor-b05-bev-design-pro-max-navi-shz-360-k-uvm-elektro-gelb-cat_ma52000gr202860-c8d9f1a1-1a3d-4203-937d-b30b44b02cb5",
@@ -6884,7 +8066,9 @@
           "location": "Hameln",
           "year": null,
           "mileage": "1.000 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Gelb",
+          "enrichment": "enriched"
         },
         {
           "url": "https://www.autoscout24.de/angebote/leapmotor-b05-pro-max-bev-67-1-kwh-400v-acc-klima-navi-elektro-gelb-cat_ma52000gr202860-51ee6209-ad1e-4db2-b9b9-3b99d0b5bd3d",
@@ -6897,7 +8081,9 @@
           "location": "Karlsruhe",
           "year": 2026,
           "mileage": "5.000 km",
-          "fuel": "Elektro"
+          "fuel": "Elektro",
+          "colour": "Gelb",
+          "enrichment": "enriched"
         }
       ],
       "offering_search_log": [
@@ -6931,7 +8117,18 @@
           "dropped": 0,
           "error": null
         }
-      ]
+      ],
+      "engine": "dual-motor electric, 160 kW",
+      "gearbox": "single-speed reduction gear",
+      "fuel_or_charge_consumption": "17.1 kWh/100 km (WLTP)",
+      "tank_or_battery_size": "67.1 kWh total",
+      "doors": 5,
+      "model_variant": "first generation, Pro and Pro Max variants, rear-wheel-drive, electric SUV, platform LEAP 3.5 (2024-)",
+      "spec_source": {
+        "url": "https://www.arenaev.com/leapmotor_b05_pro_max-specs",
+        "retrieved_at": "2026-08-05T09:17:15.912331+00:00",
+        "method": "local-llm-web-search"
+      }
     }
   ]
 }
