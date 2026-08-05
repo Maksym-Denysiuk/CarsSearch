@@ -6,5 +6,95 @@
     "currency": "EUR",
     "specs_disclaimer": "Spec fields (engine, consumption, tank/battery, variant, roof, doors, tax, photo) are omitted rather than estimated: this pipeline reads listing search results, which do not publish them. Offerings, prices and years are read from the listing cards and each price was re-verified against the listing page it came from."
   },
-  "models": []
+  "models": [
+    {
+      "id": "audi-tt",
+      "name": "TT",
+      "manufacturer": "Audi",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "audi",
+      "brand_name": "Audi",
+      "body_type": "roadster",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 44597,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-tt-45-2-0-tfsi-roadster-quattro-xenon-sportsitz-benzin-weiss-cat_ma9gr15627ge752va696mt1308tr479980-58be85c5-8103-4d9a-baf8-c4a11b8b82a6",
+          "price_eur": 44900,
+          "price_display": "€ 44.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T00:55:03.669883Z",
+          "location": "Ebersberg bei München",
+          "year": 2024,
+          "mileage": "52.000 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/smyle/details/c956a355-146f-402f-accf-7c5d52d535e0/",
+          "price_eur": 44900,
+          "price_display": "€ 44.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T00:55:03.669883Z",
+          "location": "Helgoland",
+          "year": 2024,
+          "mileage": "52.000 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-tt-audi-tt-coupe-45-tfsi-s-line-bronze-selection-bo-benzin-cat_ma9gr15627ge752va695mt1308tr479980-e82d11f8-5bd5-4d6b-99b8-91a6f048544d",
+          "price_eur": 43990,
+          "price_display": "€ 43.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T00:55:03.669883Z",
+          "location": "mainz kastel",
+          "year": 2024,
+          "mileage": "25.153 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/audi/tt?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/audi/tt",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/audi/tt?fregfrom=2024",
+          "found": 6,
+          "new": 6,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    }
+  ]
 }
