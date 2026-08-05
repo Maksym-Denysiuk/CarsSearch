@@ -11,16 +11,16 @@
     "date_of_request": "2026-08-05",
     "status": "in progress",
     "search_state": {
-      "group_id": "g05-toyota",
-      "group_name": "Toyota Motor Corporation",
-      "brand_id": "century",
-      "brand_name": "Century"
+      "group_id": "g06-hyundai",
+      "group_name": "Hyundai Motor Group",
+      "brand_id": "hyundai",
+      "brand_name": "Hyundai"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 4,
+      "groups_done": 5,
       "brands_total": 131,
-      "brands_done": 33,
+      "brands_done": 34,
       "brands_failed": 1,
       "models_found": 4,
       "groups": [
@@ -1247,7 +1247,7 @@
         {
           "group_id": "g05-toyota",
           "group_name": "Toyota Motor Corporation",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "toyota",
@@ -1363,9 +1363,48 @@
             {
               "brand_id": "century",
               "brand_name": "Century",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T22:47:55.809611+00:00",
+              "diagnostics": {
+                "models_suggested": 2,
+                "searches_attempted": 6,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 66,
+                "unique_offerings": 34,
+                "candidates_checked": 4,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 4
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 14,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 2,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 2,
+                    "candidates_checked": 4,
+                    "firewall_dropped": 4
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 2,
+                    "searches_missing": 2
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0,
+                    "searches_attempted": 2,
+                    "searches_missing": 2
+                  }
+                }
+              }
             }
           ]
         },
