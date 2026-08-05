@@ -4622,6 +4622,95 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "zeekr-001",
+      "name": "001",
+      "manufacturer": "Zeekr",
+      "group_id": "g10-geely",
+      "group_name": "Geely Holding Group & Affiliates",
+      "brand_id": "zeekr",
+      "brand_name": "Zeekr",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 52849,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/zeekr-1-awd-performance-544pk-100kwh-panoramadak-warmtepom-elektro-schwarz-cat_ma51964gr201558ge1410tr480944-a69161ce-b9ce-4a50-89d7-abdf3bc436cf",
+          "price_eur": 49537,
+          "price_display": "€ 49.537",
+          "country": "NL",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:38:18.512604Z",
+          "location": "MARIAHOUT",
+          "year": 2024,
+          "mileage": "38.351 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/zeekr-1-rwd-business-edition-100-kwh-620-km-actieradius-elektro-grau-cat_ma51964gr201558ge1410tr480944-dd46254d-802e-43c1-8b02-b34c779c0f88",
+          "price_eur": 55010,
+          "price_display": "€ 55.010",
+          "country": "NL",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:38:18.512604Z",
+          "location": "VELP",
+          "year": 2026,
+          "mileage": "72 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/zeekr-1-rwd-business-edition-100-kwh-pano-dak-hud-ma-elektro-schwarz-cat_ma51964gr201558ge1410tr480944-0a00755a-d775-4b2d-8a62-f2b890f127d1",
+          "price_eur": 54000,
+          "price_display": "€ 54.000",
+          "country": "NL",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:38:18.512604Z",
+          "location": "VELP",
+          "year": 2025,
+          "mileage": "1.800 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/zeekr/001?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/zeekr/001",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/zeekr/001?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
