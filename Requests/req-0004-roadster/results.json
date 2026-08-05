@@ -95,6 +95,207 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "porsche-911",
+      "name": "911",
+      "manufacturer": "Porsche",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "porsche",
+      "brand_name": "Porsche",
+      "body_type": "roadster",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 214117,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-911-911-carrera-cabriolet-pdls+-bose-lift-chrono-ppf-benzin-violett-cat_ma57gr100070ge11012va265tr480682-09d55b1d-decd-401f-8ea5-78f1e08b2c76",
+          "price_eur": 124950,
+          "price_display": "€ 124.950",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T00:55:40.156022Z",
+          "location": "Germaringen",
+          "year": 2025,
+          "mileage": "16.351 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-911-gt3-rs-weissach-lift-bose-ceramic-bremsen-benzin-weiss-cat_ma57gr100070ge11012va2965tr480682-cf4de874-548c-4518-8c20-869c371e33de",
+          "price_eur": 329500,
+          "price_display": "€ 329.500",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T00:55:40.156022Z",
+          "location": "Berlin",
+          "year": 2025,
+          "mileage": "2.000 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-911-911-gt3-pdk-touring-lift-bose-carbon-exclusive-manufaktur-benzin-grau-cat_ma57gr100070ge288va2968tr480682-4d995aaa-9a1e-46c7-8598-0f32cc1b167c",
+          "price_eur": 187900,
+          "price_display": "€ 187.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T00:55:40.156022Z",
+          "location": "Taufkirchen",
+          "year": 2024,
+          "mileage": "26.550 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/porsche/911?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/porsche/911",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/porsche/911?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "porsche-992",
+      "name": "992",
+      "manufacturer": "Porsche",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "porsche",
+      "brand_name": "Porsche",
+      "body_type": "roadster",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 238890,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "1 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.auto.pt/carros-usados/porsche-992-gt3-touring-package-id-zrEQUKAB",
+          "price_eur": 238890,
+          "price_display": "238890",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T00:55:40.156022Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "12635 km",
+          "fuel": "Gasolina"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/porsche/992?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 35,
+          "new": 32,
+          "duplicates": 3,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/porsche/992",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/porsche/992?fregfrom=2024",
+          "found": 20,
+          "new": 0,
+          "duplicates": 20,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "porsche-boxster",
+      "name": "Boxster",
+      "manufacturer": "Porsche",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "porsche",
+      "brand_name": "Porsche",
+      "body_type": "roadster",
+      "tier": "unconfirmed",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/porsche/boxster?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/porsche/boxster",
+          "found": 8,
+          "new": 8,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/porsche/boxster?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        }
+      ]
     }
   ]
 }
