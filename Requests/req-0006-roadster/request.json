@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g16-chery",
       "group_name": "Chery Group",
-      "brand_id": "exeed",
-      "brand_name": "Exeed"
+      "brand_id": "jetour",
+      "brand_name": "Jetour"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 15,
       "brands_total": 131,
-      "brands_done": 95,
+      "brands_done": 96,
       "brands_failed": 8,
       "models_found": 9,
       "groups": [
@@ -4124,9 +4124,48 @@
             {
               "brand_id": "exeed",
               "brand_name": "Exeed",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T23:08:59.086576+00:00",
+              "diagnostics": {
+                "models_suggested": 6,
+                "searches_attempted": 18,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 195,
+                "unique_offerings": 35,
+                "candidates_checked": 5,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 5
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 27,
+                "model_suggestion_retries": 1,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 6,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 6,
+                    "candidates_checked": 5,
+                    "firewall_dropped": 5
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 6,
+                    "searches_missing": 6
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0,
+                    "searches_attempted": 6,
+                    "searches_missing": 6
+                  }
+                }
+              }
             },
             {
               "brand_id": "jetour",
