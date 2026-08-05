@@ -9,19 +9,19 @@
   },
   "system_fields": {
     "date_of_request": "2026-08-05",
-    "status": "in progress",
+    "status": "done",
     "search_state": {
-      "group_id": "g25-other-national",
-      "group_name": "Other National / Emerging Markets",
-      "brand_id": "proton",
-      "brand_name": "Proton"
+      "group_id": null,
+      "group_name": null,
+      "brand_id": null,
+      "brand_name": null
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 24,
+      "groups_done": 25,
       "brands_total": 131,
       "brands_done": 107,
-      "brands_failed": 23,
+      "brands_failed": 24,
       "models_found": 50,
       "groups": [
         {
@@ -5151,7 +5151,7 @@
         {
           "group_id": "g25-other-national",
           "group_name": "Other National / Emerging Markets",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "togg",
@@ -5268,9 +5268,40 @@
             {
               "brand_id": "proton",
               "brand_name": "Proton",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T01:35:17.038633+00:00",
+              "error": "no_model_names_suggested",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 1,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0
+                  }
+                }
+              }
             }
           ]
         }
