@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g06-hyundai",
       "group_name": "Hyundai Motor Group",
-      "brand_id": "hyundai",
-      "brand_name": "Hyundai"
+      "brand_id": "kia",
+      "brand_name": "Kia"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 5,
       "brands_total": 131,
-      "brands_done": 32,
+      "brands_done": 33,
       "brands_failed": 3,
-      "models_found": 138,
+      "models_found": 144,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -1543,14 +1543,55 @@
         {
           "group_id": "g06-hyundai",
           "group_name": "Hyundai Motor Group",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "hyundai",
               "brand_name": "Hyundai",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 6,
+              "completed_at": "2026-08-05T03:34:39.799146+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 27,
+                "unique_offerings": 27,
+                "candidates_checked": 9,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 6,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 3
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 14,
+                "model_suggestion_retries": 0,
+                "models_discovered": 14,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  },
+                  "auto.pt": {
+                    "models_discovered": 10,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3
+                  },
+                  "autoscout24": {
+                    "models_discovered": 10,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "kia",

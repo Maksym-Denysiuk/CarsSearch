@@ -3792,6 +3792,134 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "hyundai-ioniq-6",
+      "name": "IONIQ 6",
+      "manufacturer": "Hyundai",
+      "group_id": "g06-hyundai",
+      "group_name": "Hyundai Motor Group",
+      "brand_id": "hyundai",
+      "brand_name": "Hyundai",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 35292,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/hyundai-ioniq-6-ver-77-kwh-vanguard-ID8Q0MKr.html",
+          "price_eur": 33900,
+          "price_display": "33 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:34:39.793578Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "17 500 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/hyundai-ioniq-6-ver-77-kwh-vanguard-ID8Q0oTn.html",
+          "price_eur": 39990,
+          "price_display": "39 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:34:39.793578Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "8 000 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/hyundai-ioniq-6-ver-77-kwh-vanguard-ID8PYogA.html",
+          "price_eur": 37990,
+          "price_display": "37 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:34:39.793578Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "38 500 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/hyundai-ioniq-6-uniq-elektro-navi-digitales-cockpit-memory-sitze-s-elektro-blau-cat_ma33gr76256ge925mt2269tr7798-66dec423-bc7c-499a-8467-40905eca605a",
+          "price_eur": 32890,
+          "price_display": "€ 32.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:34:39.793578Z",
+          "location": "Köln",
+          "year": 2025,
+          "mileage": "26.823 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/hyundai-ioniq-6-uniq-77-4-kwh-229-ps-20-zoll-elektro-grau-cat_ma33gr76256ge925mt2269tr8221-8c629ff4-6ffc-4ebe-a394-cd18c460c4b5",
+          "price_eur": 35990,
+          "price_display": "€ 35.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:34:39.793578Z",
+          "location": "Mainz-Kastel",
+          "year": 2025,
+          "mileage": "12.230 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/hyundai-ioniq-6-techniq-77-4-kwh-acc-navi-led-carplay-elektro-grau-cat_ma33gr76256ge925mt2269tr7798-7c0bc919-47f9-4592-bcdc-6869fdfa3f61",
+          "price_eur": 30990,
+          "price_display": "€ 30.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:34:39.793578Z",
+          "location": "Egelsbach",
+          "year": 2024,
+          "mileage": "19.757 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/hyundai/ioniq-6?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 3,
+          "new": 3,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/hyundai/ioniq-6",
+          "found": 4,
+          "new": 4,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/hyundai/ioniq-6?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
