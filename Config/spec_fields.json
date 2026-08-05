@@ -8,7 +8,7 @@
       "level": "model",
       "type": "string",
       "source": "llm_web",
-      "prompt": "Engine type and displacement as sold, e.g. '2.0L turbocharged petrol I4, 190 hp' or 'dual-motor electric, 340 kW'.",
+      "prompt": "Engine type and displacement as sold, e.g. '2.0L turbocharged petrol I4, 190 hp' or 'dual-motor electric, 340 kW'. If the car is a hybrid or plug-in hybrid, say so and give BOTH the combustion engine's own output and the total system output, e.g. '2.0L turbo petrol I4 plug-in hybrid, 190 hp (299 hp system)' -- one figure alone reads as a different, weaker car.",
       "default_visible": true,
       "filterable": true
     },
@@ -89,6 +89,16 @@
       "default_visible": false
     },
     {
+      "key": "body_style",
+      "label": "Body style",
+      "level": "model",
+      "type": "string",
+      "source": "llm_web",
+      "prompt": "The body style or styles this model is actually sold in, in the words the specification page uses, e.g. 'saloon and estate', '5-door hatchback', 'coupe and convertible', '4-door fastback'. List every style currently offered; if only one, name only that one. This is what the manufacturer builds, not what anyone was looking for.",
+      "default_visible": true,
+      "filterable": true
+    },
+    {
       "key": "year",
       "label": "Year",
       "level": "offering",
@@ -114,6 +124,15 @@
       "source": "card",
       "prompt": "Fuel or energy type of THIS car as the advert words it, e.g. 'Gasolina', 'Diesel', 'Eletrico'.",
       "default_visible": true
+    },
+    {
+      "key": "title",
+      "label": "Advert title",
+      "level": "offering",
+      "type": "string",
+      "source": "card",
+      "prompt": "The advert's own headline for THIS car, copied verbatim from the search-results card. A seller wrote it, so it names the trim and generation more reliably than anything else on the card -- and it may also carry dealer noise, punctuation and marketing words. It is a label, not a source: never read a claim about the car out of it.",
+      "default_visible": false
     },
     {
       "key": "colour",
