@@ -2685,6 +2685,210 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "skoda-octavia",
+      "name": "Octavia",
+      "manufacturer": "Skoda",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "skoda",
+      "brand_name": "Skoda",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 27638,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/skoda-octavia-1-5-tsi-mhev-dsg-selection-dab-navi-elektro-benzin-grau-cat_ma65gr15222ge294va287mt646tr6833-fac4a5a6-6be3-4fa9-983d-f01ed31fb292",
+          "price_eur": 27980,
+          "price_display": "€ 27.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:28:13.536640Z",
+          "location": "Dresden/Weißig",
+          "year": 2025,
+          "mileage": "16.012 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/skoda-octavia-combi-2-0-tdi-+navi+shz+pano+pdc+el-heckk-diesel-blau-cat_ma65gr15222va287tr480782-34090d31-c3de-459d-92e9-7c398ba27612",
+          "price_eur": 26490,
+          "price_display": "€ 26.490",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:28:13.536640Z",
+          "location": "Aachen",
+          "year": 2025,
+          "mileage": "19.733 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/skoda-octavia-combi-2-0-tour-360-cam-acc-headup-matrix-diesel-grau-cat_ma65gr15222va287tr480782-3e748fb0-98d7-4bc2-9834-4474a19bf8ea",
+          "price_eur": 28444,
+          "price_display": "€ 28.444",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:28:13.536640Z",
+          "location": "Dortmund",
+          "year": 2025,
+          "mileage": "18.397 km",
+          "fuel": "Diesel"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/skoda/octavia?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/skoda/octavia",
+          "found": 10,
+          "new": 10,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/skoda/octavia?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "skoda-superb",
+      "name": "Superb",
+      "manufacturer": "Skoda",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "skoda",
+      "brand_name": "Skoda",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 33057,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/skoda-superb-ver-1-5-tsi-iv-sportline-dsg-ID8Q0Ihu.html",
+          "price_eur": 41900,
+          "price_display": "41 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:28:13.536640Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "1 000 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/skoda-superb-ver-1-5-tsi-iv-selection-dsg-ID8PZTR2.html",
+          "price_eur": 37900,
+          "price_display": "37 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:28:13.536640Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "8 000 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/skoda-superb-2-0tdi-combi-dsg-selection+led+kamera+acc-diesel-grau-cat_ma65gr16621ge564va434mt1087tr655-beb4598a-967f-49cc-aceb-9898bae3a104",
+          "price_eur": 28695,
+          "price_display": "€ 28.695",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:28:13.536640Z",
+          "location": "Hamburg",
+          "year": 2025,
+          "mileage": "16.131 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/skoda-superb-combi-1-5etsi-cam-acc-navi-carplay-sitzhz-benzin-grau-cat_ma65gr16621ge564va434mt1081tr653-51ae70cc-b9fc-46f1-ad88-befe4a3f8014",
+          "price_eur": 30991,
+          "price_display": "€ 30.991",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:28:13.536640Z",
+          "location": "Dortmund",
+          "year": 2025,
+          "mileage": "9.999 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/skoda-superb-combi-1-5tsi-dsg-navi-kamera-el-klappe-kessy-benzin-schwarz-cat_ma65gr16621ge563va434mt1081tr653-fbb09b20-cfe8-462d-8574-c3a3c19ef552",
+          "price_eur": 25800,
+          "price_display": "€ 25.800",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:28:13.536640Z",
+          "location": "Sickte",
+          "year": 2024,
+          "mileage": "44.900 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/skoda/superb?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/skoda/superb",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/skoda/superb?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
