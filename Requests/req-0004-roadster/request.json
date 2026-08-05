@@ -11,16 +11,16 @@
     "date_of_request": "2026-08-05",
     "status": "in progress",
     "search_state": {
-      "group_id": "g20-baic",
-      "group_name": "BAIC Group",
-      "brand_id": "bj",
-      "brand_name": "BJ"
+      "group_id": "g21-jac",
+      "group_name": "JAC Group",
+      "brand_id": "jac",
+      "brand_name": "JAC"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 19,
+      "groups_done": 20,
       "brands_total": 131,
-      "brands_done": 99,
+      "brands_done": 100,
       "brands_failed": 19,
       "models_found": 50,
       "groups": [
@@ -4687,7 +4687,7 @@
         {
           "group_id": "g20-baic",
           "group_name": "BAIC Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "baic",
@@ -4775,9 +4775,48 @@
             {
               "brand_id": "bj",
               "brand_name": "BJ",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-05T01:32:43.936521+00:00",
+              "diagnostics": {
+                "models_suggested": 8,
+                "searches_attempted": 24,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 277,
+                "unique_offerings": 52,
+                "candidates_checked": 20,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 20
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 50,
+                "model_suggestion_retries": 1,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 8,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 8,
+                    "candidates_checked": 20,
+                    "firewall_dropped": 20
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 8,
+                    "searches_missing": 8
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0,
+                    "searches_attempted": 8,
+                    "searches_missing": 8
+                  }
+                }
+              }
             }
           ]
         },
