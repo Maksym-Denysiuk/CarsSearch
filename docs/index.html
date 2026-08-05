@@ -17,7 +17,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="app.css">
+<!-- ?v= is a cache buster, and it is load-bearing rather than tidy: GitHub
+     Pages serves these assets with a long cache lifetime, so a deploy that
+     adds a column leaves returning visitors running the old script
+     indefinitely. That is exactly what happened when the spec columns
+     landed — they were live and invisible — and "everyone please
+     hard-reload" is not a fix. Bump this whenever app.js or app.css
+     changes. -->
+<link rel="stylesheet" href="app.css?v=6">
 </head>
 <body>
 <div id="splash"><img src="assets/logo.png" alt="Maksym Denysiuk logo"></div>
@@ -167,6 +174,6 @@
   </div>
 </dialog>
 
-<script src="app.js"></script>
+<script src="app.js?v=6"></script>
 </body>
 </html>

@@ -140,6 +140,7 @@
         "models_suggested": { "type": "integer", "minimum": 0, "description": "Candidate model names the search actually used." },
         "models_discovered": { "type": "integer", "minimum": 0, "description": "Distinct model names the sources themselves published for this brand. Zero means no source could answer and a vocabulary had to be recalled rather than looked up." },
         "models_rejected_as_invented": { "type": "integer", "minimum": 0, "description": "Suggested names no source had listed, dropped before they could reach a URL." },
+        "models_unverified_dropped": { "type": "integer", "minimum": 0, "description": "Recalled model names that were searched, found nothing, and were therefore not published as rows. Only non-zero when models_discovered is 0: with no published vocabulary to check a name against, a name that also failed to surface a single car for sale has no evidence behind it at all, and a row would assert that the model exists. req-0003-convertible published 65 such rows before this existed." },
         "model_suggestion_retries": { "type": "integer", "minimum": 0 },
         "searches_attempted": { "type": "integer", "minimum": 0 },
         "search_fetch_failures": { "type": "integer", "minimum": 0, "description": "Equal to searches_attempted means the sites refused us, not that they had no cars." },

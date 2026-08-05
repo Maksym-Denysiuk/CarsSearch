@@ -20,7 +20,7 @@
   // off", so the same reasoning as v2 applies in reverse: rather than guess,
   // reset everyone to defaults once, now that the columns finally have
   // something in them.
-  var COLS_LS_KEY = 'carResearchColumns.v4';
+  var COLS_LS_KEY = 'carResearchColumns.v5';
   var PRICE_LS_KEY = 'carResearchPriceRanges';
   var THEME_LS_KEY = 'carResearchTheme';
 
@@ -201,10 +201,14 @@
       ? '<span class="listing-facts">' + bits.join(' &middot; ') + '</span>' : '';
   }
 
+  /* Marked and not muted. This started as small italic grey text, which
+     made the one field that can carry bad news -- hail damage, a repaired
+     accident, ex-taxi use -- the quietest thing on the row. A buyer
+     scanning prices should not have to squint to find it. */
   function offeringNotes(o) {
     if (!o.condition_notes) return '';
     return '<span class="listing-note" title="Stated by the advert itself">' +
-      esc(o.condition_notes) + '</span>';
+      '&#9888; ' + esc(o.condition_notes) + '</span>';
   }
 
   function renderOfferings(m) {
@@ -221,8 +225,18 @@
         ' &mdash; ' + where + ' (<a href="' + esc(o.url) + '" target="_blank" rel="noopener">' +
         esc(o.source_domain) + '</a>)' + offeringNotes(o) + '</span>';
     }).join('');
-    return '<details><summary>' + items.length + ' offering' + (items.length > 1 ? 's' : '') +
-      '</summary>' + body + (log.length ? renderRoundLog(log) : '') + '</details>';
+    /* Open by default. It was collapsed back when an offering was a price
+       and a link, and hiding that kept the table scannable. Now each one
+       carries the year, mileage, colour and any damage the advert admits
+       to — the facts a buyer is actually here for — and a row that reads
+       "6 offerings" with everything folded away behind it looks, quite
+       reasonably, like a table with no detail in it.
+
+       The search log stays in its own nested, closed disclosure: that one
+       really is diagnostics. */
+    var summary = items.length + ' offering' + (items.length > 1 ? 's' : '');
+    return '<details open><summary>' + summary + '</summary>' + body +
+      (log.length ? renderRoundLog(log) : '') + '</details>';
   }
 
   /* ------------------------------------------------------------- storage */
@@ -289,7 +303,44 @@
   function sortValue(m, key) {
     if (key === 'favorite') return state.favorites.has(m.id) ? 1 : 0;
     if (key === 'offerings_count') return (m.offerings || []).length;
+    // Aggregated per-offering columns (see offeringValues): sort on the
+    // first distinct value, which for the sorted list means the lowest
+    // year / first colour alphabetically. Sorting a set needs a
+    // representative and the smallest is the least surprising one.
+    if (key.indexOf('offering:') === 0) {
+      var vals = offeringValues(m, key.slice('offering:'.length));
+      return vals.length ? vals[0] : null;
+    }
     return m[key];
+  }
+
+  /* Distinct values of one per-offering field across a model's listings,
+     sorted. A model row covers several real cars, so there is no single
+     year or colour to show -- "2024, 2025" is the honest answer and a
+     picked-one-at-random is not. Values are used verbatim: mileage arrives
+     as the site printed it ("33 642 km", "70.449 km") and reparsing those
+     into a number to average them would invent precision the cards do not
+     carry. */
+  function offeringValues(m, key) {
+    var seen = {};
+    var out = [];
+    (m.offerings || []).forEach(function (o) {
+      var v = o[key];
+      if (v === null || v === undefined || v === '') return;
+      var s = String(v);
+      if (!seen[s]) { seen[s] = true; out.push(s); }
+    });
+    return out.sort();
+  }
+
+  function offeringAggregateCell(m, key) {
+    var vals = offeringValues(m, key);
+    if (!vals.length) return '';
+    // Three then a count: a model with eight offerings in eight colours
+    // would otherwise make its row taller than the rest of the table.
+    var shown = vals.slice(0, 3).join(', ');
+    return esc(shown) + (vals.length > 3
+      ? ' <span class="empty-note">+' + (vals.length - 3) + '</span>' : '');
   }
 
   function filteredSortedModels() {
@@ -882,6 +933,25 @@
     var known = {};
     COLUMNS.forEach(function (c) { known[c.id] = c; });
     (registry.fields || []).forEach(function (f) {
+      if (f.level === 'offering') {
+        /* Per-car fields get a column too, not only a line inside the
+           expanded Offerings cell. They were offerings-only at first, and
+           that made "показать пробег и цвет" technically true and
+           practically false: a parameter you have to expand a row to read
+           is not in the table. The cell aggregates across the model's
+           listings, because one row covers several real cars. */
+        if (known[f.key]) return;
+        COLUMNS.push({
+          id: f.key,
+          label: f.label,
+          sortKey: 'offering:' + f.key,
+          numeric: f.type === 'integer',
+          defaultVisible: f.default_visible !== false,
+          cell: function (m) { return offeringAggregateCell(m, f.key); }
+        });
+        known[f.key] = COLUMNS[COLUMNS.length - 1];
+        return;
+      }
       if (f.level !== 'model') return;
       if (known[f.key]) {
         // The column already exists with a bespoke cell renderer, which is

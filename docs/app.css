@@ -11,6 +11,9 @@
   --fg: #0a1420;
   --muted: #5b6472;
   --accent: #b8860b;
+  /* Stated defects. Warm and legible against both backgrounds without
+     shouting like a pure red error. */
+  --warn: #b4470f;
   --accent-2: #8a6508;
   --accent-soft: rgba(184,134,11,0.12);
   --accent-ink: #ffffff;
@@ -31,6 +34,7 @@
   --fg: #eef1f5;
   --muted: #9fb0c0;
   --accent: #cda23c;
+  --warn: #f0a06a;
   --accent-2: #96691a;
   --accent-soft: rgba(205,162,60,0.15);
   --accent-ink: #0a1420;
@@ -238,15 +242,17 @@ details summary { cursor: pointer; color: var(--link); font-size: 0.8rem; }
    behind another disclosure: these are the facts a buyer scans first, and
    the price alone never distinguished a 2024 car from a 2026 one. */
 .listing-facts { color: var(--muted); }
-/* What the advert itself said about the car's condition. Indented onto its
-   own line because it is free text of unpredictable length, and it is the
-   one per-offering field that can carry bad news. */
+/* What the advert itself said about the car's condition. Its own line
+   because it is free text of unpredictable length, and it is the one
+   per-offering field that can carry bad news -- so it is deliberately NOT
+   muted like the facts above it. It was, at first, and a repaired accident
+   rendered in small grey italics is a warning nobody reads. */
 .listing-note {
   display: block;
   margin-left: 1rem;
-  color: var(--muted);
-  font-style: italic;
-  font-size: 0.75rem;
+  color: var(--warn, #c2410c);
+  font-size: 0.78rem;
+  font-weight: 500;
 }
 .round-log { margin-top: 0.3rem; }
 .round-log table { min-width: 0; width: auto; font-size: 0.72rem; }
