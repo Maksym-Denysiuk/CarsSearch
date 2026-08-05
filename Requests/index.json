@@ -99,10 +99,10 @@
       "results_path": "Requests/req-0006-roadster/results.json",
       "favorites_path": "Requests/req-0006-roadster/favorites.json",
       "date_of_request": "2026-08-05",
-      "status": "in progress",
+      "status": "done",
       "search_state": {
-        "group": "Chinese EV Independents",
-        "brand": "Li Auto",
+        "group": null,
+        "brand": null,
         "models_done": 9
       },
       "counts": {
