@@ -1465,6 +1465,144 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "aston-martin-vantage-roadster",
+      "name": "Vantage Roadster",
+      "manufacturer": "Aston Martin",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "aston-martin",
+      "brand_name": "Aston Martin",
+      "body_type": "roadster",
+      "tier": "unconfirmed",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/aston-martin/vantage-roadster?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 5,
+          "new": 5,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/aston-martin/vantage-roadster",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/aston-martin/vantage-roadster?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "aston-martin-vantage",
+      "name": "Vantage",
+      "manufacturer": "Aston Martin",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "aston-martin",
+      "brand_name": "Aston Martin",
+      "body_type": "roadster",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 207967,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-vantage-titanium-grey-onyx-black-benzin-gruen-cat_ma8gr200111-0392c4e0-b852-4e5f-848c-e1e075156b47",
+          "price_eur": 220000,
+          "price_display": "€ 220.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T01:17:10.608035Z",
+          "location": "Köln",
+          "year": 2026,
+          "mileage": "7.000 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-vantage-plasma-blue-onyx-black-benzin-blau-cat_ma8gr200111-362d7336-6ebf-4767-ba49-071e7b7047a3",
+          "price_eur": 189900,
+          "price_display": "€ 189.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T01:17:10.608564Z",
+          "location": "Köln",
+          "year": 2025,
+          "mileage": "12.810 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-vantage-new-vantage-benzin-gruen-cat_ma8gr200111ge11112va4033mt12452-c7561ec7-06cb-4e1c-9ba8-4eb67d060f27",
+          "price_eur": 214000,
+          "price_display": "€ 214.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T01:17:10.608564Z",
+          "location": "Schwetzingen, Stadt",
+          "year": 2025,
+          "mileage": "3.750 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/aston-martin/vantage?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 5,
+          "new": 0,
+          "duplicates": 5,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/aston-martin/vantage",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/aston-martin/vantage?fregfrom=2024",
+          "found": 10,
+          "new": 10,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
