@@ -4,7 +4,72 @@
   "generated": "2026-08-05",
   "metadata": {
     "currency": "EUR",
-    "specs_disclaimer": "No models researched yet -- this request is pending its first search pass."
+    "specs_disclaimer": "Spec fields (engine, consumption, tank/battery, variant, roof, doors, tax, photo) are omitted rather than estimated: this pipeline reads listing search results, which do not publish them. Offerings, prices and years are read from the listing cards and each price was re-verified against the listing page it came from."
   },
-  "models": []
+  "models": [
+    {
+      "id": "porsche-boxster",
+      "name": "Boxster",
+      "manufacturer": "Porsche",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "porsche",
+      "brand_name": "Porsche",
+      "body_type": "roadster",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 199493,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "1 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-boxster-718-spyder-rs-benzin-blau-cat_ma57gr1955ge1572va2296tr480688-39f31a47-e643-4b88-a6b1-a42e188c49de",
+          "price_eur": 199493,
+          "price_display": "€ 199.493",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T22:43:37.586440Z",
+          "location": "Bielefeld",
+          "year": null,
+          "mileage": "25 km",
+          "fuel": "Benzin",
+          "title": "Porsche Boxster 718 Spyder RS"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/porsche/boxster?search%5Bfilter_float_first_registration_year%3Afrom%5D=2026",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/porsche/boxster",
+          "found": 8,
+          "new": 8,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/porsche/boxster?fregfrom=2026",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 2,
+          "error": null
+        }
+      ]
+    }
+  ]
 }
