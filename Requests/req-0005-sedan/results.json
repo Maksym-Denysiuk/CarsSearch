@@ -4196,6 +4196,134 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "renault-megane",
+      "name": "Megane",
+      "manufacturer": "Renault",
+      "group_id": "g09-renault-nissan-mitsubishi",
+      "group_name": "Renault-Nissan-Mitsubishi Alliance",
+      "brand_id": "renault",
+      "brand_name": "Renault",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 35283,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/renault-megane-ver-1-3-tce-techno-edc-ID8Q0t1P.html",
+          "price_eur": 22500,
+          "price_display": "22 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:36:15.812367Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "49 699 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/renault-megane-ver-1-8-tce-r-s-ultime-edc-ID8PXaaA.html",
+          "price_eur": 69950,
+          "price_display": "69 950",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:36:15.812367Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "700 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/renault-megane-ID8PZCkq.html",
+          "price_eur": 30490,
+          "price_display": "30 490",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:36:15.812367Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "42 099 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/renault-megane-techno-ev-60-220-optimum-charge-elektro-grau-cat_ma60gr201267ge1153va2902mt4438tr7799-db33ea5f-b1bb-4e82-8de2-1aca95936f87",
+          "price_eur": 28000,
+          "price_display": "€ 28.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:36:15.812367Z",
+          "location": "Gera",
+          "year": 2024,
+          "mileage": "9.670 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/renault-megane-electric-esprit-alpine-grau-satiniert-ev60-220hp-elektro-grau-cat_ma60gr201267ge1153va2902mt4436tr480712-88f2f705-cdb1-42d0-8bf7-add8eb693ce9",
+          "price_eur": 30880,
+          "price_display": "€ 30.880",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:36:15.812367Z",
+          "location": "Freising",
+          "year": 2025,
+          "mileage": "9.000 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/renault-megane-esprit-alpine-harman-kardon-ev60-augmented-vision-elektro-grau-cat_ma60gr201267ge1153va2902mt4436tr480712-6b680000-cf9a-4ae4-b650-fd6b16387e3c",
+          "price_eur": 29880,
+          "price_display": "€ 29.880",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:36:15.812367Z",
+          "location": "Freising",
+          "year": 2025,
+          "mileage": "15.700 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/renault/megane?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 4,
+          "new": 4,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/renault/megane",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/renault/megane?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
