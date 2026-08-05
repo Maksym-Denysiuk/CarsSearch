@@ -1537,6 +1537,529 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "mercedes-benz-c-200",
+      "name": "C 200",
+      "manufacturer": "Mercedes-Benz",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-benz",
+      "brand_name": "Mercedes-Benz",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 43680,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-c-200-ver-amg-line-ID8Q0Fqg.html",
+          "price_eur": 51490,
+          "price_display": "51 490",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "17 483 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-c-200-amg-edition-panod-360ka-night-sound-distro-benzin-schwarz-cat_ma47gr100056ge13va120mt293tr2920-8458a11e-26c2-4d91-ad63-6efab878688a",
+          "price_eur": 43550,
+          "price_display": "€ 43.550",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": "Magdeburg",
+          "year": 2025,
+          "mileage": "8.059 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-c-200-avantgarde-kamera-led-totwinkel-sitzhzg-benzin-grau-cat_ma47gr100056ge13va120mt293tr1301-18806e98-83ca-418c-85f4-d68da2c353e7",
+          "price_eur": 35980,
+          "price_display": "€ 35.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": "Potsdam",
+          "year": 2024,
+          "mileage": "1.862 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-c-200-amg-line-mbux-totw-night-digitallight-benzin-grau-cat_ma47gr100056ge13va120mt293tr2913-e4e7d172-b3de-4fe6-9ce9-b791f2771f4b",
+          "price_eur": 43700,
+          "price_display": "€ 43.700",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": "Rheinbach",
+          "year": 2025,
+          "mileage": "5.379 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-benz/c-200?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 2,
+          "new": 1,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-benz/c-200",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-benz/c-200?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "mercedes-benz-c-220",
+      "name": "C 220",
+      "manufacturer": "Mercedes-Benz",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-benz",
+      "brand_name": "Mercedes-Benz",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 44783,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-c-220-ver-t-d-9g-tronic-amg-line-ID8Q0lDy.html",
+          "price_eur": 49250,
+          "price_display": "49 250",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "25 000 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-c-220-ver-d-4matic-all-terrain-ID8Q0wuY.html",
+          "price_eur": 59900,
+          "price_display": "59 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "21 178 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-c-220-ver-d-avantgarde-ID8Q003D.html",
+          "price_eur": 45000,
+          "price_display": "45 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "36 500 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-d-t-avantgarde-ahk+360-+distro+keyless+18-diesel-grau-cat_ma47gr100056ge13va122mt294tr1296-ee2210eb-105b-4297-8621-2f06a67f63c9",
+          "price_eur": 34770,
+          "price_display": "€ 34.770",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": "Karlsruhe",
+          "year": 2024,
+          "mileage": "36.500 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-d-avantgarde+led+kame+pano+ambi+lrhz+totw-diesel-schwarz-cat_ma47gr100056ge13va120mt294tr1301-327baba0-8dff-4dd1-8eaf-d78d7b99707b",
+          "price_eur": 37789,
+          "price_display": "€ 37.789",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": "Donauwörth",
+          "year": 2025,
+          "mileage": "29.181 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-d-amg-bumester-distro-lhz-360-ambiente-diesel-schwarz-cat_ma47gr100056ge13va120mt294tr1149-dc2ef2ec-6f12-40d5-b7f9-0c9d9241bd34",
+          "price_eur": 41990,
+          "price_display": "€ 41.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": "Erkrath",
+          "year": 2024,
+          "mileage": "51.000 km",
+          "fuel": "Diesel"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-benz/c-220?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 32,
+          "new": 29,
+          "duplicates": 3,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-benz/c-220",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-benz/c-220?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "mercedes-benz-c-300",
+      "name": "C 300",
+      "manufacturer": "Mercedes-Benz",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-benz",
+      "brand_name": "Mercedes-Benz",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 45628,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-c-300-ID8Q0hdz.html",
+          "price_eur": 50000,
+          "price_display": "50 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 3,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "20 822 km",
+          "fuel": "Híbrido (Diesel)"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-c-300-ver-e-amg-line-ID8Q0Fgz.html",
+          "price_eur": 52500,
+          "price_display": "52 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 3,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "77 500 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-c-300-ver-e-9g-tronic-avantgarde-advanced-ID8Q0DdG.html",
+          "price_eur": 42000,
+          "price_display": "42 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 3,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "21 000 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-t-e-amg-line-distro-night-paket-360-kame-elektro-benzin-grau-cat_ma47gr100056ge13va122mt301tr2920-ad0837d4-572a-4904-a8e2-37bb517e1329",
+          "price_eur": 44950,
+          "price_display": "€ 44.950",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": "Trittau",
+          "year": 2025,
+          "mileage": "8.479 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-d-amg-mbux+360-+dig-led+ahk+night+distroni-diesel-schwarz-cat_ma47gr100056ge13va120mt301tr1167-805edcc2-fd34-42da-bd3e-9b9ed5c9b22c",
+          "price_eur": 46430,
+          "price_display": "€ 46.430",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": "Karlsruhe",
+          "year": 2025,
+          "mileage": "14.507 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mercedes-benz-c-klasse-c-300-d-t-amg-line+-distronic-led-kamera-spurh-diesel-grau-cat_ma47gr100056ge13va122mt301tr2913-66b50f78-4bab-4429-ac7f-80b1513aa86f",
+          "price_eur": 37890,
+          "price_display": "€ 37.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": "Geesthacht",
+          "year": 2025,
+          "mileage": "17.300 km",
+          "fuel": "Diesel"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-benz/c-300?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 34,
+          "new": 31,
+          "duplicates": 3,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-benz/c-300",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-benz/c-300?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "mercedes-benz-e-200",
+      "name": "E 200",
+      "manufacturer": "Mercedes-Benz",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-benz",
+      "brand_name": "Mercedes-Benz",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 42847,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/mercedes-benz-e-klasse-avantgarde-led-rfk-keyless-dab-totw-shz-benzin-schwarz-cat_ma47gr100061ge36va125mt446tr479092-ffca4153-d35e-4e6d-864b-bf700da24d24",
+          "price_eur": 39890,
+          "price_display": "€ 39.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 4,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": "Schorndorf",
+          "year": 2025,
+          "mileage": "27.950 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mercedes-benz-e-klasse-t-avantgarde+mbux+led+distr+totw+ambiente-benzin-grau-cat_ma47gr100061ge36va126mt446tr479092-bb011813-5df6-43b0-ae94-4cbb496374d5",
+          "price_eur": 38770,
+          "price_display": "€ 38.770",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 4,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": "Celle",
+          "year": 2025,
+          "mileage": "15.825 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mercedes-benz-e-klasse-d-amg-sport-digital-pano-night-ahk-distr-diesel-weiss-cat_ma47gr100061ge36va125mt446tr479093-fabcb398-c3f3-4a7a-92e6-c79d28cce966",
+          "price_eur": 49880,
+          "price_display": "€ 49.880",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 4,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": "Lüdenscheid",
+          "year": 2025,
+          "mileage": "8.489 km",
+          "fuel": "Diesel"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 4,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-benz/e-200?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 4,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-benz/e-200",
+          "found": 7,
+          "new": 7,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 4,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-benz/e-200?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "mercedes-benz-s-400",
+      "name": "S 400",
+      "manufacturer": "Mercedes-Benz",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-benz",
+      "brand_name": "Mercedes-Benz",
+      "body_type": "sedan",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 114000,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "2 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-s-400-ver-d-4matic-ID8Q0iwD.html",
+          "price_eur": 119500,
+          "price_display": "119 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 5,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "18 500 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mercedes-benz-s-klasse-d-4m-l-amg-first-class-fond-np-198-000-e-diesel-schwarz-cat_ma47gr100066ge247va243mt604tr480526-28c8cbb2-7cd7-4fca-a52c-3c0705ec621f",
+          "price_eur": 108500,
+          "price_display": "€ 108.500",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 5,
+          "captured_at": "2026-08-05T03:23:47.729440Z",
+          "location": "Krefeld",
+          "year": 2024,
+          "mileage": "14.100 km",
+          "fuel": "Diesel"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 5,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mercedes-benz/s-400?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 5,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mercedes-benz/s-400",
+          "found": 6,
+          "new": 6,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 5,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mercedes-benz/s-400?fregfrom=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }

@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g02-mercedes-benz",
       "group_name": "Mercedes-Benz Group",
-      "brand_id": "mercedes-benz",
-      "brand_name": "Mercedes-Benz"
+      "brand_id": "mercedes-amg",
+      "brand_name": "Mercedes-AMG"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 1,
       "brands_total": 131,
-      "brands_done": 4,
+      "brands_done": 5,
       "brands_failed": 0,
-      "models_found": 49,
+      "models_found": 70,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -212,14 +212,55 @@
         {
           "group_id": "g02-mercedes-benz",
           "group_name": "Mercedes-Benz Group",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "mercedes-benz",
               "brand_name": "Mercedes-Benz",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 21,
+              "completed_at": "2026-08-05T03:23:47.732514+00:00",
+              "diagnostics": {
+                "models_suggested": 5,
+                "searches_attempted": 15,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 223,
+                "unique_offerings": 216,
+                "candidates_checked": 36,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 21,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 15
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 53,
+                "model_suggestion_retries": 0,
+                "models_discovered": 24,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 5,
+                    "candidates_checked": 8,
+                    "firewall_kept": 8
+                  },
+                  "auto.pt": {
+                    "models_discovered": 15,
+                    "searches_attempted": 5,
+                    "candidates_checked": 15,
+                    "firewall_dropped": 15
+                  },
+                  "autoscout24": {
+                    "models_discovered": 17,
+                    "searches_attempted": 5,
+                    "candidates_checked": 13,
+                    "firewall_kept": 13
+                  }
+                }
+              }
             },
             {
               "brand_id": "mercedes-amg",
