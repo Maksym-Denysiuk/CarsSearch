@@ -87,7 +87,7 @@
     models: [],
     sortKey: 'average_budget_eur', sortDir: 1,
     groupBy: '', collapsedGroups: new Set(),
-    favorites: new Set(), view: 'all',
+    favorites: new Set(), view: 'all', favHandle: null,
     visibleColumns: null, priceRanges: null,
     bodyTypes: []          // [{id, label}] read out of assets/body-types.svg
   };
@@ -135,6 +135,127 @@
     a.click();
     document.body.removeChild(a);
     setTimeout(function () { URL.revokeObjectURL(url); }, 0);
+  }
+
+  /* --------------------------------------------- direct favorites.json save
+     Chromium's File System Access API lets the page hold a handle to a real
+     file on disk and write to it directly, instead of round-tripping through
+     the Downloads folder. Firefox/Safari don't implement it, so everything
+     here is additive: unsupported browsers silently keep the old
+     download-and-commit-by-hand flow. The handle is per request_id (favorites
+     are per request) and is persisted in IndexedDB, since it isn't
+     JSON-serializable and can't live in localStorage. */
+
+  var FS_SUPPORTED = typeof window.showSaveFilePicker === 'function';
+  var FS_DB_NAME = 'carResearchFileHandles';
+  var FS_STORE = 'handles';
+
+  function openHandleDb() {
+    return new Promise(function (resolve, reject) {
+      var req = indexedDB.open(FS_DB_NAME, 1);
+      req.onupgradeneeded = function () {
+        req.result.createObjectStore(FS_STORE);
+      };
+      req.onsuccess = function () { resolve(req.result); };
+      req.onerror = function () { reject(req.error); };
+    });
+  }
+
+  function getStoredHandle(requestId) {
+    return openHandleDb().then(function (db) {
+      return new Promise(function (resolve) {
+        var tx = db.transaction(FS_STORE, 'readonly');
+        var req = tx.objectStore(FS_STORE).get(requestId);
+        req.onsuccess = function () { resolve(req.result || null); };
+        req.onerror = function () { resolve(null); };
+      });
+    }).catch(function () { return null; });
+  }
+
+  function setStoredHandle(requestId, handle) {
+    return openHandleDb().then(function (db) {
+      return new Promise(function (resolve) {
+        var tx = db.transaction(FS_STORE, 'readwrite');
+        tx.objectStore(FS_STORE).put(handle, requestId);
+        tx.oncomplete = function () { resolve(); };
+        tx.onerror = function () { resolve(); };
+      });
+    }).catch(function () {});
+  }
+
+  function favoritesPayload() {
+    return {
+      schema_version: 1,
+      request_id: state.requestId,
+      metadata: {
+        description: 'User-curated shortlist for ' + state.requestId +
+          ', referencing model ids from this request\'s results.json.',
+        updated: todayIso(),
+        note: 'Exported from the viewer. Commit this over ' +
+          state.requestId + '/favorites.json to persist the selection for other browsers.'
+      },
+      favorite_ids: Array.from(state.favorites).sort()
+    };
+  }
+
+  function writeFavoritesToHandle(handle) {
+    return handle.createWritable().then(function (writable) {
+      return writable.write(JSON.stringify(favoritesPayload(), null, 2) + '\n').then(function () {
+        return writable.close();
+      });
+    });
+  }
+
+  function setFavSaveStatus(text) {
+    var el = document.getElementById('favSaveStatus');
+    if (el) el.textContent = text;
+  }
+
+  function updateExportButtonUi() {
+    var btn = document.getElementById('exportFavBtn');
+    if (!btn) return;
+    if (state.favHandle) {
+      btn.textContent = 'Favorites.json linked';
+      btn.title = 'Auto-saving favorites straight to the linked file on disk. Click to re-save now.';
+      setFavSaveStatus('Auto-saving to disk');
+    } else if (FS_SUPPORTED) {
+      btn.textContent = 'Link favorites.json';
+      btn.title = 'Pick the favorites.json file on disk to auto-save into (Requests/' + state.requestId + '/favorites.json).';
+      setFavSaveStatus('');
+    } else {
+      btn.textContent = 'Export favorites.json';
+      btn.title = 'Download favorites.json to commit back into the repo (this browser does not support direct file save).';
+      setFavSaveStatus('');
+    }
+  }
+
+  // Called on request load: reattach a previously-granted handle for this
+  // request without prompting, if the browser still recognizes the grant.
+  function reattachFavHandle(requestId) {
+    state.favHandle = null;
+    if (!FS_SUPPORTED) { updateExportButtonUi(); return; }
+    getStoredHandle(requestId).then(function (handle) {
+      if (state.requestId !== requestId) return;
+      if (!handle) { updateExportButtonUi(); return; }
+      handle.queryPermission({ mode: 'readwrite' }).then(function (perm) {
+        if (perm === 'granted' && state.requestId === requestId) {
+          state.favHandle = handle;
+        }
+        updateExportButtonUi();
+      }).catch(function () { updateExportButtonUi(); });
+    });
+  }
+
+  // Fire-and-forget write, used after every favorite toggle so the linked
+  // file always mirrors what's on screen without another click.
+  function autoSaveFavorites() {
+    if (!state.favHandle) return;
+    writeFavoritesToHandle(state.favHandle).catch(function () {
+      // Handle went stale (file moved/deleted, permission revoked outside
+      // the browser) -- fall back to prompting again on the next click.
+      state.favHandle = null;
+      updateExportButtonUi();
+    });
   }
 
   function todayIso() {
@@ -519,6 +640,7 @@
   function toggleFavorite(id) {
     if (state.favorites.has(id)) { state.favorites.delete(id); } else { state.favorites.add(id); }
     saveFavoritesToLocalStorage();
+    autoSaveFavorites();
     render();
   }
 
@@ -644,19 +766,39 @@
 
   function wireExportFavorites() {
     document.getElementById('exportFavBtn').addEventListener('click', function () {
-      var payload = {
-        schema_version: 1,
-        request_id: state.requestId,
-        metadata: {
-          description: 'User-curated shortlist for ' + state.requestId +
-            ', referencing model ids from this request\'s results.json.',
-          updated: todayIso(),
-          note: 'Exported from the viewer. Commit this over ' +
-            state.requestId + '/favorites.json to persist the selection for other browsers.'
-        },
-        favorite_ids: Array.from(state.favorites).sort()
-      };
-      download('favorites.json', JSON.stringify(payload, null, 2) + '\n');
+      if (state.favHandle) {
+        setFavSaveStatus('Saving…');
+        writeFavoritesToHandle(state.favHandle).then(function () {
+          setFavSaveStatus('Saved just now');
+        }).catch(function () {
+          state.favHandle = null;
+          updateExportButtonUi();
+          download('favorites.json', JSON.stringify(favoritesPayload(), null, 2) + '\n');
+        });
+        return;
+      }
+      if (!FS_SUPPORTED) {
+        download('favorites.json', JSON.stringify(favoritesPayload(), null, 2) + '\n');
+        return;
+      }
+      var requestIdAtPick = state.requestId;
+      window.showSaveFilePicker({
+        suggestedName: 'favorites.json',
+        types: [{ description: 'JSON', accept: { 'application/json': ['.json'] } }]
+      }).then(function (handle) {
+        return writeFavoritesToHandle(handle).then(function () {
+          return setStoredHandle(requestIdAtPick, handle);
+        }).then(function () {
+          if (state.requestId === requestIdAtPick) {
+            state.favHandle = handle;
+            updateExportButtonUi();
+            setFavSaveStatus('Saved just now');
+          }
+        });
+      }).catch(function (e) {
+        if (e && e.name === 'AbortError') return; // user cancelled the picker
+        download('favorites.json', JSON.stringify(favoritesPayload(), null, 2) + '\n');
+      });
     });
   }
 
@@ -733,6 +875,7 @@
       var seeded = Array.isArray(res[2].favorite_ids) ? res[2].favorite_ids : [];
       var local = loadFavoritesFromLocalStorage();
       state.favorites = new Set(local !== null ? local : seeded);
+      reattachFavHandle(requestId);
 
       state.collapsedGroups.clear();
       statusEl.hidden = true;
