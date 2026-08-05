@@ -6,5 +6,1114 @@
     "currency": "EUR",
     "specs_disclaimer": "Spec fields (engine, consumption, tank/battery, variant, roof, doors, tax, photo) are omitted rather than estimated: this pipeline reads listing search results, which do not publish them. Offerings, prices and years are read from the listing cards and each price was re-verified against the listing page it came from."
   },
-  "models": []
+  "models": [
+    {
+      "id": "bmw-320",
+      "name": "320",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 39306,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-320-ver-e-auto-ID8Q0wmB.html",
+          "price_eur": 34500,
+          "price_display": "34 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:21:44.985342Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "28 000 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-320-ver-e-pack-m-auto-ID8Q0EI6.html",
+          "price_eur": 42500,
+          "price_display": "42 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:21:44.985342Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "63 000 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-320-ver-d-pack-desportivo-m-auto-ID8PV3nj.html",
+          "price_eur": 41900,
+          "price_display": "41 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:21:44.985342Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "41 409 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-3er-i-m-sport-paket-led-acc-hud-360-cam-garantie-benzin-grau-cat_ma13gr100038ge28va105mt103tr479990-efc22c40-14ef-47de-a003-32746b2cda40",
+          "price_eur": 38990,
+          "price_display": "€ 38.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:21:44.985342Z",
+          "location": "Bekond",
+          "year": 2025,
+          "mileage": "26.000 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-3er-d-xdrive-limousine-m-sportpaket-navi+acc+shz-diesel-weiss-cat_ma13gr100038ge28va105mt118tr479990-30e50bbc-b00e-4a02-a769-a17adca7b856",
+          "price_eur": 38645,
+          "price_display": "€ 38.645",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:21:44.985342Z",
+          "location": "Idar-Oberstein",
+          "year": 2025,
+          "mileage": "5.394 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-3er-d-xdrive-m-sport-pro-ahk-acc-hifi-360-sthz-diesel-grau-cat_ma13gr100038ge28va106mt118tr479990-c04fe166-b1de-437f-a262-27aa19f71380",
+          "price_eur": 39300,
+          "price_display": "€ 39.300",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:21:44.985342Z",
+          "location": "Roßtal",
+          "year": 2025,
+          "mileage": "50.000 km",
+          "fuel": "Diesel"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/320?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 35,
+          "new": 32,
+          "duplicates": 3,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/320",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/320?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bmw-530",
+      "name": "530",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 60727,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-530-ver-e-pack-desportivo-m-pro-ID8Q0EFF.html",
+          "price_eur": 58990,
+          "price_display": "58 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "15 752 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-530-ver-e-xdrive-pack-desportivo-m-pro-ID8Q0F6e.html",
+          "price_eur": 62500,
+          "price_display": "62 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "23 000 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-530-ver-e-pack-desportivo-m-pro-ID8PUnve.html",
+          "price_eur": 64900,
+          "price_display": "64 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "22 152 km",
+          "fuel": "Híbrido Plug-In"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-5er-530e-m-sport-plug-in-hybrid-2-0-140ps-head-up-navi-temp-sitzh-harman-kardon-360-kamera-panoramaglasdach-led-r19-eu6e-elektro-benzin-schwarz-cat_ma13gr100039ge128va108mt488tr479992-5a5c53e6-13c0-46eb-800b-4f97592b935b",
+          "price_eur": 53490,
+          "price_display": "€ 53.490",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Köln",
+          "year": 2026,
+          "mileage": "26.002 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-5er-xdrive-m-sportpro-21-acc-360-ahk-sitzlueft-elektro-benzin-grau-cat_ma13gr100039ge128va109mt488tr479992-2df1b5f2-e5d6-465f-b0d6-75cb86bcfdc4",
+          "price_eur": 68489,
+          "price_display": "€ 68.489",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Königsbrunn",
+          "year": 2026,
+          "mileage": "4.150 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-5er-e-touring-m-sport-acc-ahk-hk-elektro-benzin-weiss-cat_ma13gr100039ge128va109mt488tr479992-1ffc3f34-441d-405c-85e3-312960b39731",
+          "price_eur": 55990,
+          "price_display": "€ 55.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Landshut",
+          "year": 2025,
+          "mileage": "7.000 km",
+          "fuel": "Elektro/Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/530?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 36,
+          "new": 32,
+          "duplicates": 4,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/530",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/530?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bmw-316",
+      "name": "316",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 28233,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-3er-serie-3-berlina-316d-mhev-48v-auto-elektro-diesel-weiss-cat_ma13gr100038ge28va105mt123-e0b64e21-3578-482f-bf55-e6a0b2d730c3",
+          "price_eur": 34500,
+          "price_display": "€ 34.500",
+          "country": "IT",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Desio - MB",
+          "year": 2024,
+          "mileage": "16.825 km",
+          "fuel": "Elektro/Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-3er-g21-2022-touring-316d-touring-mhev-48v-msport-auto-elektro-diesel-grau-cat_ma13gr100038ge28va106mt123tr196-8b73b833-2da3-47a8-a957-9d1ad9bfda5a",
+          "price_eur": 38200,
+          "price_display": "€ 38.200",
+          "country": "IT",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Settimo Torinese - Torino - To",
+          "year": 2024,
+          "mileage": "12.837 km",
+          "fuel": "Elektro/Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-3er-316d-touring-f31-diesel-weiss-cat_ma13gr100038ge28va106mt123-64bb6b74-1f24-41f9-b304-248a0bb4d972",
+          "price_eur": 12000,
+          "price_display": "€ 12.000",
+          "country": "IT",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Roma",
+          "year": 2025,
+          "mileage": "152.000 km",
+          "fuel": "Diesel"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/316?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/316",
+          "found": 8,
+          "new": 8,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/316?fregfrom=2024",
+          "found": 4,
+          "new": 4,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bmw-318",
+      "name": "318",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 27972,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-318-ver-d-auto-ID8PZFLq.html",
+          "price_eur": 41900,
+          "price_display": "41 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 4,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "22 000 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-3er-geschwindigre-dab-pdc-cockpitplus-widscreen-benzin-schwarz-cat_ma13gr100038ge28va105mt102tr479990-4a5ff05c-88fe-43a6-bb1a-c57afbd3f48e",
+          "price_eur": 26499,
+          "price_display": "€ 26.499",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 4,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Celle",
+          "year": 2024,
+          "mileage": "46.017 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-3er-d-ahk-acc-led-h-k-leder-sportsitze-carplay-diesel-weiss-cat_ma13gr100038ge28va106mt117tr479990-f0cacafd-a430-4482-875c-7a27f88ce0b6",
+          "price_eur": 16990,
+          "price_display": "€ 16.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 4,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Pinneberg",
+          "year": 2024,
+          "mileage": "205.520 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-3er-dab-pdc-widscreen-geschwindigkeitsreg-led-benzin-schwarz-cat_ma13gr100038ge28va105mt102tr479990-ad731724-31ce-437e-a2f8-86b554e4f163",
+          "price_eur": 26499,
+          "price_display": "€ 26.499",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 4,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Celle",
+          "year": 2024,
+          "mileage": "37.557 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 4,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/318?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 4,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/318",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 4,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/318?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bmw-440",
+      "name": "440",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 58620,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-4er-m440d-xdrive-coupe-ahk-360-standhz-head-up-rfk-diesel-blau-cat_ma13gr100097ge322va300mt689tr478942-64d4ebab-ab81-485c-8d8e-5ff6b50ca643",
+          "price_eur": 54900,
+          "price_display": "€ 54.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 5,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Oldenburg",
+          "year": 2025,
+          "mileage": "43.178 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-4er-i-cabrio-open-air-inno-carbon-m-sport-pro-benzin-schwarz-cat_ma13gr100097ge322va299mt690tr478942-e966c1b9-1da4-47f2-acd1-ea5d5a509215",
+          "price_eur": 59969,
+          "price_display": "€ 59.969",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 5,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Germaringen",
+          "year": 2024,
+          "mileage": "12.660 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-4er-m440i-xdrive-coupe-m-sportpaket-pro-acc-harman-kar-benzin-grau-cat_ma13gr100097ge322va300mt690tr478942-5dbcca59-a942-47e8-9d23-62bbebd70921",
+          "price_eur": 60990,
+          "price_display": "€ 60.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 5,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Soltau",
+          "year": 2025,
+          "mileage": "12.600 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 5,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/440?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 5,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/440",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 5,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/440?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bmw-i4",
+      "name": "i4",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 48640,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-i4-ver-edrive40-ID8Q0vep.html",
+          "price_eur": 44990,
+          "price_display": "44 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 6,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "14 400 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-i4-ver-m50-pack-desportivo-m-pro-ID8Q0AjG.html",
+          "price_eur": 62890,
+          "price_display": "62 890",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 6,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "37 200 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-i4-ver-edrive40-ID8PRNd6.html",
+          "price_eur": 43990,
+          "price_display": "43 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 6,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "8 500 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-i4-edrive40-gran-coupe-m-paket-head-up+sthz+navi-elektro-schwarz-cat_ma13gr75941ge766mt1338tr480011-9881d464-47f0-4184-a689-182912b844c0",
+          "price_eur": 46500,
+          "price_display": "€ 46.500",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 6,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Bad Kreuznach",
+          "year": 2025,
+          "mileage": "14.900 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-i4-m50-gran-coupe-m-sport-ahk-hk-da-pro-360-elektro-blau-cat_ma13gr75941ge766mt1339tr480011-b52c2790-18ed-4524-ba86-0e0f365c59c2",
+          "price_eur": 53500,
+          "price_display": "€ 53.500",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 6,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Mülheim an der Ruhr",
+          "year": 2025,
+          "mileage": "30.283 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-i4-gran-coupe-m-sport-navi-acc-pdc-elektro-schwarz-cat_ma13gr75941ge766mt1337tr5345-e5c63280-132f-4720-bb87-1ee2bb766814",
+          "price_eur": 39970,
+          "price_display": "€ 39.970",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 6,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Egelsbach",
+          "year": 2024,
+          "mileage": "28.890 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 6,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/i4?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 34,
+          "new": 32,
+          "duplicates": 2,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 6,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/i4",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 6,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/i4?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bmw-220",
+      "name": "220",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 27760,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-2er-220-gran-coupe-+-garantie-bis-06-2030-benzin-weiss-cat_ma13gr100098ge10825va315mt715tr479989-38390e1d-8b04-4f53-9e76-724bf8092c70",
+          "price_eur": 27790,
+          "price_display": "€ 27.790",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 7,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Hamm",
+          "year": 2025,
+          "mileage": "13.002 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-2er-220-gran-coupe-+-garantie-bis-02-2030-benzin-weiss-cat_ma13gr100098ge10825va315mt715tr479989-10c658cb-61b7-4010-8296-e8345b39dd0e",
+          "price_eur": 27889,
+          "price_display": "€ 27.889",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 7,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Lünen",
+          "year": 2025,
+          "mileage": "14.002 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-2er-i-active-tourer-benzin-grau-cat_ma13gr100098ge352va426mt715tr479989-b7f09e2a-4278-4e42-b36b-c9678865d231",
+          "price_eur": 27600,
+          "price_display": "€ 27.600",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 7,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Nürtingen",
+          "year": 2025,
+          "mileage": "8.500 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 7,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/220?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 7,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/220",
+          "found": 12,
+          "new": 12,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 7,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/220?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bmw-340",
+      "name": "340",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 62553,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-3er-m340i-xdrive-limousine-pro-m-sitze-hud-hk-360-benzin-blau-cat_ma13gr100038ge28va105mt132tr479990-2157cfd6-624c-4295-9665-c6a58266d7bf",
+          "price_eur": 63790,
+          "price_display": "€ 63.790",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 8,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Bad Wiessee",
+          "year": 2025,
+          "mileage": "14.685 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-3er-m340i-xdrive-touring-pro-acc-360-pano-hud-hifi-benzin-grau-cat_ma13gr100038ge28va106mt132tr479990-5ab43960-08f5-4a0f-a580-f07e1a500f29",
+          "price_eur": 62890,
+          "price_display": "€ 62.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 8,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Bad Wiessee",
+          "year": 2025,
+          "mileage": "11.533 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-3er-m340i-xdrive-lim-m-sport-18-sportsitz-ambiente-h-benzin-schwarz-cat_ma13gr100038ge28va105mt132tr479990-e4075386-0557-46ab-89aa-cedb55502a95",
+          "price_eur": 60980,
+          "price_display": "€ 60.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 8,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Oberhausen",
+          "year": 2025,
+          "mileage": "7.548 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 8,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/340?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 8,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/340",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 8,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/340?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bmw-430",
+      "name": "430",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 54578,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-430-ver-i-xdrive-auto-ID8Q0OMP.html",
+          "price_eur": 62800,
+          "price_display": "62 800",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 9,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "11 000 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-430-ver-i-xdrive-pack-desportivo-m-pro-auto-ID8Q0n2D.html",
+          "price_eur": 64900,
+          "price_display": "64 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 9,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "19 000 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-4er-430i-xdrive-m-sport-pro-19zoll-sd-360-lenkradh-benzin-gruen-cat_ma13gr100097ge322va301mt684tr479991-dd061667-8836-4ada-9d89-b1bce937726a",
+          "price_eur": 49900,
+          "price_display": "€ 49.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 9,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Meitingen bei Augsburg",
+          "year": 2026,
+          "mileage": "5.400 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-4er-i-xdrive-gran-coupe-ahk-360-head-up-rfk-hifi-benzin-schwarz-cat_ma13gr100097ge322va301mt684tr479991-9d573764-bec2-4398-bf8b-711497a68193",
+          "price_eur": 50900,
+          "price_display": "€ 50.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 9,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Oldenburg",
+          "year": 2025,
+          "mileage": "4.812 km",
+          "fuel": "Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-4er-i-xdrive-gran-coupe-m-sportpaket-benzin-weiss-cat_ma13gr100097ge322va301mt684tr479991-bd960d2c-89fe-4446-9a8e-58a88d004ecd",
+          "price_eur": 44390,
+          "price_display": "€ 44.390",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 9,
+          "captured_at": "2026-08-05T03:21:44.995929Z",
+          "location": "Duisburg",
+          "year": 2025,
+          "mileage": "11.833 km",
+          "fuel": "Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 9,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/430?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 9,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/430",
+          "found": 5,
+          "new": 5,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 9,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/430?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bmw-520",
+      "name": "520",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "sedan",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 48312,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-520-ver-d-xdrive-pack-desportivo-m-ID8Q0HQC.html",
+          "price_eur": 48500,
+          "price_display": "48 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 10,
+          "captured_at": "2026-08-05T03:21:44.996432Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "39 410 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-520-ver-d-pack-desportivo-m-ID8PZQ0l.html",
+          "price_eur": 50900,
+          "price_display": "50 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 10,
+          "captured_at": "2026-08-05T03:21:44.996432Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "30 866 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-520-ver-d-pack-m-auto-ID8PTX23.html",
+          "price_eur": 54850,
+          "price_display": "54 850",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 10,
+          "captured_at": "2026-08-05T03:21:44.996432Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "32 000 km",
+          "fuel": "Diesel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-5er-kamera-dab-drivingassist-sport-led-18zoll-diesel-grau-cat_ma13gr100039ge128va109mt475tr479992-cedfb203-5f63-402e-968e-94a4fa0b8c3b",
+          "price_eur": 38999,
+          "price_display": "€ 38.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 10,
+          "captured_at": "2026-08-05T03:21:44.996432Z",
+          "location": "Celle",
+          "year": 2025,
+          "mileage": "30.746 km",
+          "fuel": "Diesel"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 10,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/520?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 23,
+          "new": 23,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 10,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/520",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 10,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/520?fregfrom=2024",
+          "found": 20,
+          "new": 18,
+          "duplicates": 2,
+          "dropped": 2,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bmw-745",
+      "name": "745",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "sedan",
+      "tier": "unconfirmed",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_no_offerings",
+      "search_status_note": "The search ran correctly and the sites listed nothing matching.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 11,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/745?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 11,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/745",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 11,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/745?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    }
+  ]
 }
