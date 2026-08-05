@@ -5132,6 +5132,262 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "byd-seal",
+      "name": "Seal",
+      "manufacturer": "BYD",
+      "group_id": "g12-electric-emerging",
+      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+      "brand_id": "byd",
+      "brand_name": "BYD",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 39112,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/byd-seal-ver-excellence-ID8Q0F95.html",
+          "price_eur": 42990,
+          "price_display": "42 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:42:35.072769Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "11 600 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/byd-seal-ver-design-ID8Q0OO3.html",
+          "price_eur": 37850,
+          "price_display": "37 850",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:42:35.072769Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "34 152 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/byd-seal-ver-82-5-kwh-awd-excellence-ID8Q0txX.html",
+          "price_eur": 42490,
+          "price_display": "42 490",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:42:35.072769Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "14 923 km",
+          "fuel": "Elétrico"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/byd-seal-82-5-kwh-design-id-HZcfrtDW",
+          "price_eur": 39950,
+          "price_display": "39950",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:42:35.072769Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "34152 km",
+          "fuel": "Eléctrico"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/byd-seal-seal-u-1-5-dm-i-boost-id-tJQUoYzr",
+          "price_eur": 40990,
+          "price_display": "40990",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:42:35.072769Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "10 km",
+          "fuel": "Gasolina"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/byd-seal-82-5-kwh-design-id-Gx9nfbXf",
+          "price_eur": 48990,
+          "price_display": "48990",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:42:35.072769Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "1650 km",
+          "fuel": "Eléctrico"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/byd-seal-1-5-boost-headup+360gradkamera+sitzheitzng+apple-c-elektro-benzin-grau-cat_ma16379gr200193ge2230va893tr1489-566496d8-83e1-4ecd-9ace-63ca6a4c8b3b",
+          "price_eur": 29380,
+          "price_display": "€ 29.380",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:42:35.072769Z",
+          "location": "Neuss",
+          "year": 2025,
+          "mileage": "14.767 km",
+          "fuel": "Elektro/Benzin"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/byd-seal-ev-excellence-awd-82-5-kwh-elektro-gruen-cat_ma16379gr200193ge2230va3386tr3315-73e078bf-b464-4132-bf4a-508c394ebefe",
+          "price_eur": 39990,
+          "price_display": "€ 39.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:42:35.072769Z",
+          "location": "Düsseldorf",
+          "year": 2025,
+          "mileage": "13.280 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/byd-seal-boost-phev-1-5-160kw-navi-klima-sitzhzg-carplay-elektro-benzin-schwarz-cat_ma16379gr200193ge2230va893tr1489-9a3588c2-50d6-4b47-a815-6b7f78a90323",
+          "price_eur": 29380,
+          "price_display": "€ 29.380",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-05T03:42:35.072769Z",
+          "location": "Düsseldorf",
+          "year": 2025,
+          "mileage": "15.508 km",
+          "fuel": "Elektro/Benzin"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/byd/seal?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 20,
+          "new": 18,
+          "duplicates": 2,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/byd/seal",
+          "found": 7,
+          "new": 7,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/byd/seal?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "byd-han",
+      "name": "Han",
+      "manufacturer": "BYD",
+      "group_id": "g12-electric-emerging",
+      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+      "brand_id": "byd",
+      "brand_name": "BYD",
+      "body_type": "sedan",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 37166,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/byd-han-han-85-4-kwh-executive-full-option-oa-cognac-leren-interieur-open-dak-elektro-silber-cat_ma16379gr200194ge2229tr480020-dda9a6ce-b782-4704-b402-44e001bb3a41",
+          "price_eur": 35500,
+          "price_display": "€ 35.500",
+          "country": "BE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:42:35.072769Z",
+          "location": "Anvers",
+          "year": 2024,
+          "mileage": "22.500 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/byd-han-380-kw-awd-executive-elektro-weiss-cat_ma16379gr200194ge2229tr480020-ec54f474-0030-495c-ba40-2babfcded64d",
+          "price_eur": 37999,
+          "price_display": "€ 37.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:42:35.072769Z",
+          "location": "Bünde",
+          "year": 2024,
+          "mileage": "42.900 km",
+          "fuel": "Elektro"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/byd-han-han-85-4-kwh-executive-elektro-grau-cat_ma16379gr200194ge2229tr480020-3ae6df74-8b43-4382-ad1d-5ae1064c8d75",
+          "price_eur": 38000,
+          "price_display": "€ 38.000",
+          "country": "BE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-05T03:42:35.072769Z",
+          "location": "Dilsen-Stokkem",
+          "year": 2024,
+          "mileage": "26.000 km",
+          "fuel": "Elektro"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/byd/han?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/byd/han",
+          "found": 3,
+          "new": 3,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/byd/han?fregfrom=2024",
+          "found": 9,
+          "new": 9,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }

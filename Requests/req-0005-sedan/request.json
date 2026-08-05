@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g12-electric-emerging",
       "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "byd",
-      "brand_name": "BYD"
+      "brand_id": "denza",
+      "brand_name": "Denza"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 11,
       "brands_total": 131,
-      "brands_done": 57,
+      "brands_done": 58,
       "brands_failed": 6,
-      "models_found": 180,
+      "models_found": 192,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -2729,9 +2729,51 @@
             {
               "brand_id": "byd",
               "brand_name": "BYD",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 12,
+              "completed_at": "2026-08-05T03:42:35.078948+00:00",
+              "diagnostics": {
+                "models_suggested": 2,
+                "searches_attempted": 6,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 59,
+                "unique_offerings": 57,
+                "candidates_checked": 15,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 12,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 3
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 23,
+                "model_suggestion_retries": 0,
+                "models_discovered": 9,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 2,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  },
+                  "auto.pt": {
+                    "models_discovered": 7,
+                    "searches_attempted": 2,
+                    "candidates_checked": 6,
+                    "firewall_kept": 3,
+                    "firewall_dropped": 3
+                  },
+                  "autoscout24": {
+                    "models_discovered": 7,
+                    "searches_attempted": 2,
+                    "candidates_checked": 6,
+                    "firewall_kept": 6
+                  }
+                }
+              }
             },
             {
               "brand_id": "denza",
