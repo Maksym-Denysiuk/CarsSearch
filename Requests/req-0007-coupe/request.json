@@ -20,9 +20,9 @@
       "groups_total": 25,
       "groups_done": 0,
       "brands_total": 131,
-      "brands_done": 0,
-      "brands_failed": 1,
-      "models_found": 0,
+      "brands_done": 1,
+      "brands_failed": 0,
+      "models_found": 9,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -32,37 +32,47 @@
             {
               "brand_id": "bmw",
               "brand_name": "BMW",
-              "status": "failed",
-              "models_found": 0,
-              "completed_at": "2026-08-08T01:51:23.437468+00:00",
-              "error": "local_llm_tool_error",
+              "status": "done",
+              "models_found": 9,
+              "completed_at": "2026-08-08T23:52:38.284885+00:00",
               "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
+                "models_suggested": 3,
+                "searches_attempted": 9,
                 "search_fetch_failures": 0,
                 "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
+                "cards_parsed": 71,
+                "unique_offerings": 70,
+                "candidates_checked": 16,
                 "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
+                "firewall_kept": 9,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 7
+                },
                 "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
+                "search_status": "completed",
+                "requests_made": 27,
                 "model_suggestion_retries": 0,
-                "models_discovered": 18,
+                "models_discovered": 22,
                 "models_rejected_as_invented": 0,
                 "models_unverified_dropped": 0,
                 "by_source": {
                   "standvirtual": {
-                    "models_discovered": 0
+                    "models_discovered": 0,
+                    "searches_attempted": 3,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
                   },
                   "auto.pt": {
-                    "models_discovered": 12
+                    "models_discovered": 14,
+                    "searches_attempted": 3,
+                    "candidates_checked": 7,
+                    "firewall_dropped": 7
                   },
                   "autoscout24": {
-                    "models_discovered": 11
+                    "models_discovered": 12,
+                    "searches_attempted": 3,
+                    "candidates_checked": 6,
+                    "firewall_kept": 6
                   }
                 }
               }

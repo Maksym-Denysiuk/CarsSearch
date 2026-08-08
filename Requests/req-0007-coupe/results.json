@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "request_id": "req-0007-coupe",
+  "generated": "2026-08-08",
+  "metadata": {
+    "currency": "EUR",
+    "specs_disclaimer": "Spec fields (engine, consumption, tank/battery, variant, roof, doors, tax, photo) are omitted rather than estimated: this pipeline reads listing search results, which do not publish them. Offerings, prices and years are read from the listing cards and each price was re-verified against the listing page it came from."
+  },
+  "models": [
+    {
+      "id": "bmw-420",
+      "name": "420",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "coupe",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 47281,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-420-ver-d-pack-m-auto-ID8PXoRM.html",
+          "price_eur": 51850,
+          "price_display": "51 850",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-08T23:52:38.272095Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "19 900 km",
+          "fuel": "Diesel",
+          "title": "BMW 420 d Pack M Auto"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-420-ver-d-xdrive-pack-m-auto-ID8PZPi0.html",
+          "price_eur": 56950,
+          "price_display": "56 950",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-08T23:52:38.281667Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "16 000 km",
+          "fuel": "Diesel",
+          "title": "BMW 420 d xDrive Pack M Auto"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-420-ver-d-pack-desportivo-m-pro-auto-ID8Q0Js1.html",
+          "price_eur": 57900,
+          "price_display": "57 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-08T23:52:38.281667Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "19 500 km",
+          "fuel": "Diesel",
+          "title": "BMW 420 d Pack Desportivo M Pro Auto"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-4er-m-sport-acc+hifi+360-+hud-diesel-weiss-cat_ma13gr100097ge322va301mt679tr479991-7d9c31b6-76b3-4cea-bb8e-2bc546512b12",
+          "price_eur": 39890,
+          "price_display": "€ 39.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-08T23:52:38.281667Z",
+          "location": "Eisenach",
+          "year": 2024,
+          "mileage": "39.199 km",
+          "fuel": "Diesel",
+          "title": "BMW 420 M-Sport ACC+HIFI+360°+HUD"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-4er-i-m-sportpaket-innovationspaket-comfortpaket-parki-benzin-schwarz-cat_ma13gr100097ge322va301mt680tr479991-d1bef244-3e74-47db-bf5e-339bb4ab567d",
+          "price_eur": 41450,
+          "price_display": "€ 41.450",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-08T23:52:38.281667Z",
+          "location": "Prien am Chiemsee",
+          "year": 2025,
+          "mileage": "12.980 km",
+          "fuel": "Benzin",
+          "title": "BMW 420 i M Sportpaket-Innovationspaket-Comfortpaket-Parki"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-4er-i-m-sportpaket-pro-navi+pano+e-sitze-memo-+bt-benzin-blau-cat_ma13gr100097ge322va300mt680tr479991-9fcc48ec-f0cd-4ddf-bf4b-a2f10c79e233",
+          "price_eur": 35645,
+          "price_display": "€ 35.645",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-08T23:52:38.281667Z",
+          "location": "Idar-Oberstein",
+          "year": 2024,
+          "mileage": "48.900 km",
+          "fuel": "Benzin",
+          "title": "BMW 420 i M Sportpaket Pro Navi+Pano+E.Sitze Memo.+BT"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/420?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 7,
+          "new": 6,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/420",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/420?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bmw-425",
+      "name": "425",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "coupe",
+      "tier": "unconfirmed",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/425?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/425",
+          "found": 3,
+          "new": 3,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/425?fregfrom=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bmw-440",
+      "name": "440",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "coupe",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 59313,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-4er-m440d-xdrive-coupe-ahk-360-standhz-head-up-rfk-diesel-blau-cat_ma13gr100097ge322va300mt689tr478942-64d4ebab-ab81-485c-8d8e-5ff6b50ca643",
+          "price_eur": 54490,
+          "price_display": "€ 54.490",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-08T23:52:38.282176Z",
+          "location": "Oldenburg",
+          "year": 2025,
+          "mileage": "43.178 km",
+          "fuel": "Diesel",
+          "title": "BMW 440 M440d xDrive Coupé AHK 360° STANDHZ HEAD-UP RFK"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-4er-i-cabrio-open-air-inno-carbon-m-sport-pro-benzin-schwarz-cat_ma13gr100097ge322va299mt690tr478942-e966c1b9-1da4-47f2-acd1-ea5d5a509215",
+          "price_eur": 59969,
+          "price_display": "€ 59.969",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-08T23:52:38.282176Z",
+          "location": "Germaringen",
+          "year": 2024,
+          "mileage": "12.660 km",
+          "fuel": "Benzin",
+          "title": "BMW 440 i Cabrio OPEN-AIR INNO CARBON M SPORT PRO"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-4er-m440d-xdrive-cabrio-nackenwaermer-upe-98040-inkl-diesel-rot-cat_ma13gr100097ge322va299mt689tr478942-d9acd2c0-a180-4996-a716-3d097297ba83",
+          "price_eur": 63480,
+          "price_display": "€ 63.480",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-08T23:52:38.282176Z",
+          "location": "Mülheim a. d. Ruhr",
+          "year": 2025,
+          "mileage": "16.044 km",
+          "fuel": "Diesel",
+          "title": "BMW 440 M440d xDrive Cabrio //Nackenwärmer UPE:98040,-inkl"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/440?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/440",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/440?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    }
+  ]
+}
