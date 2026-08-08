@@ -11,352 +11,31 @@
     "date_of_request": "2026-08-07",
     "status": "in progress",
     "search_state": {
-      "group_id": "g04-stellantis",
-      "group_name": "Stellantis",
-      "brand_id": "opel",
-      "brand_name": "Opel"
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw-alpina",
+      "brand_name": "BMW Alpina"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 3,
+      "groups_done": 0,
       "brands_total": 131,
       "brands_done": 0,
-      "brands_failed": 24,
+      "brands_failed": 1,
       "models_found": 0,
       "groups": [
         {
           "group_id": "g01-bmw",
           "group_name": "BMW Group",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "bmw",
               "brand_name": "BMW",
               "status": "failed",
               "models_found": 0,
-              "completed_at": "2026-08-07T19:48:43.052308+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 22,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 13
-                  },
-                  "autoscout24": {
-                    "models_discovered": 14
-                  }
-                }
-              }
-            },
-            {
-              "brand_id": "bmw-alpina",
-              "brand_name": "BMW Alpina",
-              "status": "failed",
-              "models_found": 0,
-              "completed_at": "2026-08-07T19:48:49.262861+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 9,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "vocabulary_via_alias": 1,
-                    "models_discovered": 1
-                  },
-                  "autoscout24": {
-                    "vocabulary_via_alias": 1,
-                    "models_discovered": 9
-                  }
-                }
-              }
-            },
-            {
-              "brand_id": "mini",
-              "brand_name": "MINI",
-              "status": "failed",
-              "models_found": 0,
-              "completed_at": "2026-08-07T19:48:52.362751+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 15,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 7
-                  },
-                  "autoscout24": {
-                    "models_discovered": 9
-                  }
-                }
-              }
-            },
-            {
-              "brand_id": "rolls-royce",
-              "brand_name": "Rolls-Royce",
-              "status": "failed",
-              "models_found": 0,
-              "completed_at": "2026-08-07T19:48:56.797877+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 11,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 11
-                  }
-                }
-              }
-            }
-          ]
-        },
-        {
-          "group_id": "g02-mercedes-benz",
-          "group_name": "Mercedes-Benz Group",
-          "status": "done",
-          "brands": [
-            {
-              "brand_id": "mercedes-benz",
-              "brand_name": "Mercedes-Benz",
-              "status": "failed",
-              "models_found": 0,
-              "completed_at": "2026-08-07T19:48:59.872074+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 26,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 15
-                  },
-                  "autoscout24": {
-                    "models_discovered": 16
-                  }
-                }
-              }
-            },
-            {
-              "brand_id": "mercedes-amg",
-              "brand_name": "Mercedes-AMG",
-              "status": "failed",
-              "models_found": 0,
-              "completed_at": "2026-08-07T19:49:05.835843+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 0
-                  }
-                }
-              }
-            },
-            {
-              "brand_id": "mercedes-maybach",
-              "brand_name": "Mercedes-Maybach",
-              "status": "failed",
-              "models_found": 0,
-              "completed_at": "2026-08-07T19:49:12.082867+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 3,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "vocabulary_via_alias": 1,
-                    "models_discovered": 3
-                  }
-                }
-              }
-            },
-            {
-              "brand_id": "smart",
-              "brand_name": "Smart",
-              "status": "failed",
-              "models_found": 0,
-              "completed_at": "2026-08-07T19:49:15.380261+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 4,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 4
-                  },
-                  "autoscout24": {
-                    "models_discovered": 3
-                  }
-                }
-              }
-            }
-          ]
-        },
-        {
-          "group_id": "g03-vw",
-          "group_name": "Volkswagen Group",
-          "status": "done",
-          "brands": [
-            {
-              "brand_id": "volkswagen",
-              "brand_name": "Volkswagen",
-              "status": "failed",
-              "models_found": 0,
-              "completed_at": "2026-08-07T19:49:18.479249+00:00",
-              "error": "local_llm_unavailable",
+              "completed_at": "2026-08-08T01:51:23.437468+00:00",
+              "error": "local_llm_tool_error",
               "diagnostics": {
                 "models_suggested": 0,
                 "searches_attempted": 0,
@@ -380,83 +59,7 @@
                     "models_discovered": 0
                   },
                   "auto.pt": {
-                    "models_discovered": 15
-                  },
-                  "autoscout24": {
-                    "models_discovered": 7
-                  }
-                }
-              }
-            },
-            {
-              "brand_id": "audi",
-              "brand_name": "Audi",
-              "status": "failed",
-              "models_found": 0,
-              "completed_at": "2026-08-07T19:49:21.584786+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 23,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 16
-                  },
-                  "autoscout24": {
-                    "models_discovered": 9
-                  }
-                }
-              }
-            },
-            {
-              "brand_id": "porsche",
-              "brand_name": "Porsche",
-              "status": "failed",
-              "models_found": 0,
-              "completed_at": "2026-08-07T19:49:24.838864+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 12,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 7
+                    "models_discovered": 12
                   },
                   "autoscout24": {
                     "models_discovered": 11
@@ -465,232 +68,130 @@
               }
             },
             {
+              "brand_id": "bmw-alpina",
+              "brand_name": "BMW Alpina",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "mini",
+              "brand_name": "MINI",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "rolls-royce",
+              "brand_name": "Rolls-Royce",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g02-mercedes-benz",
+          "group_name": "Mercedes-Benz Group",
+          "status": "in progress",
+          "brands": [
+            {
+              "brand_id": "mercedes-benz",
+              "brand_name": "Mercedes-Benz",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "mercedes-amg",
+              "brand_name": "Mercedes-AMG",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "mercedes-maybach",
+              "brand_name": "Mercedes-Maybach",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "smart",
+              "brand_name": "Smart",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "group_id": "g03-vw",
+          "group_name": "Volkswagen Group",
+          "status": "in progress",
+          "brands": [
+            {
+              "brand_id": "volkswagen",
+              "brand_name": "Volkswagen",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "audi",
+              "brand_name": "Audi",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
+              "brand_id": "porsche",
+              "brand_name": "Porsche",
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
+            },
+            {
               "brand_id": "skoda",
               "brand_name": "Skoda",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-07T19:49:28.167815+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 13,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 10
-                  },
-                  "autoscout24": {
-                    "models_discovered": 9
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "seat",
               "brand_name": "SEAT",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-07T19:49:29.255763+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 6,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 4
-                  },
-                  "autoscout24": {
-                    "models_discovered": 5
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "cupra",
               "brand_name": "Cupra",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-07T19:49:32.974675+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 7,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 6
-                  },
-                  "autoscout24": {
-                    "models_discovered": 4
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "lamborghini",
               "brand_name": "Lamborghini",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-07T19:49:35.952515+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 6,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 2
-                  },
-                  "autoscout24": {
-                    "models_discovered": 6
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "bentley",
               "brand_name": "Bentley",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-07T19:49:39.182530+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 7,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 2
-                  },
-                  "autoscout24": {
-                    "models_discovered": 6
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "scout-motors",
               "brand_name": "Scout Motors",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-07T19:49:45.124758+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 0
-                  }
-                }
-              }
+              "completed_at": null
             }
           ]
         },
@@ -702,268 +203,51 @@
             {
               "brand_id": "alfa-romeo",
               "brand_name": "Alfa Romeo",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-07T19:51:49.239086+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 12,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 10
-                  },
-                  "autoscout24": {
-                    "models_discovered": 9
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "jeep",
               "brand_name": "Jeep",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-07T19:54:31.178564+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 6,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 4
-                  },
-                  "autoscout24": {
-                    "models_discovered": 5
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "ram",
               "brand_name": "Ram",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-07T19:59:41.440428+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 0
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "dodge",
               "brand_name": "Dodge",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-07T20:04:57.440059+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 9,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 6
-                  },
-                  "autoscout24": {
-                    "models_discovered": 5
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "chrysler",
               "brand_name": "Chrysler",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-07T20:10:14.356011+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 7,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 2
-                  },
-                  "autoscout24": {
-                    "models_discovered": 7
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "peugeot",
               "brand_name": "Peugeot",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-07T20:15:29.718175+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 19,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 12
-                  },
-                  "autoscout24": {
-                    "models_discovered": 11
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "citroen",
               "brand_name": "Citroën",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-07T20:20:47.438978+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 13,
-                "models_rejected_as_invented": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 8
-                  },
-                  "autoscout24": {
-                    "models_discovered": 8
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "opel",
