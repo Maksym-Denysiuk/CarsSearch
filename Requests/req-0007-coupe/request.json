@@ -11,16 +11,16 @@
     "date_of_request": "2026-08-07",
     "status": "in progress",
     "search_state": {
-      "group_id": "g04-stellantis",
-      "group_name": "Stellantis",
-      "brand_id": "ds-automobiles",
-      "brand_name": "DS Automobiles"
+      "group_id": "g05-toyota",
+      "group_name": "Toyota Motor Corporation",
+      "brand_id": "lexus",
+      "brand_name": "Lexus"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 13,
+      "groups_done": 14,
       "brands_total": 131,
-      "brands_done": 87,
+      "brands_done": 88,
       "brands_failed": 13,
       "models_found": 110,
       "groups": [
@@ -748,7 +748,7 @@
         {
           "group_id": "g04-stellantis",
           "group_name": "Stellantis",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "alfa-romeo",
@@ -1247,9 +1247,40 @@
             {
               "brand_id": "ds-automobiles",
               "brand_name": "DS Automobiles",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-09T04:05:29.563804+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 11,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "vocabulary_via_alias": 1,
+                    "models_discovered": 6
+                  },
+                  "autoscout24": {
+                    "models_discovered": 5
+                  }
+                }
+              }
             }
           ]
         },
