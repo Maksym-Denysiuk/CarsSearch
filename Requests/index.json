@@ -119,13 +119,13 @@
       "date_of_request": "2026-08-07",
       "status": "in progress",
       "search_state": {
-        "group": "Dedicated Electric & Emerging Automotive Manufacturers",
-        "brand": "GAC Aion",
-        "models_done": 91
+        "group": "Great Wall Motor (GWM)",
+        "brand": "Ora",
+        "models_done": 99
       },
       "counts": {
-        "models": 23,
-        "offerings": 91
+        "models": 26,
+        "offerings": 99
       }
     }
   ]
