@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g12-electric-emerging",
       "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "im-motors",
-      "brand_name": "IM Motors"
+      "brand_id": "roewe",
+      "brand_name": "Roewe"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 17,
       "brands_total": 131,
-      "brands_done": 97,
+      "brands_done": 98,
       "brands_failed": 16,
       "models_found": 113,
       "groups": [
@@ -3083,9 +3083,48 @@
             {
               "brand_id": "im-motors",
               "brand_name": "IM Motors",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-09T04:16:13.920150+00:00",
+              "diagnostics": {
+                "models_suggested": 3,
+                "searches_attempted": 9,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 100,
+                "unique_offerings": 36,
+                "candidates_checked": 6,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 6
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 21,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 3,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 3,
+                    "candidates_checked": 6,
+                    "firewall_dropped": 6
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 3,
+                    "searches_missing": 3
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0,
+                    "searches_attempted": 3,
+                    "searches_missing": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "mg",
