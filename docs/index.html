@@ -24,7 +24,7 @@
      landed — they were live and invisible — and "everyone please
      hard-reload" is not a fix. Bump this whenever app.js or app.css
      changes. -->
-<link rel="stylesheet" href="app.css?v=6">
+<link rel="stylesheet" href="app.css?v=7">
 </head>
 <body>
 <div id="splash"><img src="assets/logo.png" alt="Maksym Denysiuk logo"></div>
@@ -42,44 +42,49 @@
       <button type="button" class="theme-toggle" id="themeToggle" title="Switch to light theme" aria-label="Switch to light theme">&#9728;</button>
     </div>
   </div>
-  <div class="controls">
-    <div class="view-toggle" id="viewToggle" role="tablist" aria-label="View">
-      <span class="toggle-thumb" aria-hidden="true"></span>
-      <button type="button" class="toggle-btn active" id="tabAll" role="tab" aria-selected="true">All in request</button>
-      <button type="button" class="toggle-btn" id="tabFavorites" role="tab" aria-selected="false">Favorite in request (<span id="favCount">0</span>)</button>
+  <details class="controls-panel" id="controlsPanel">
+    <summary class="controls-summary">Filters &amp; view</summary>
+    <div class="controls-panel-body">
+      <div class="controls">
+        <div class="view-toggle" id="viewToggle" role="tablist" aria-label="View">
+          <span class="toggle-thumb" aria-hidden="true"></span>
+          <button type="button" class="toggle-btn active" id="tabAll" role="tab" aria-selected="true">All in request</button>
+          <button type="button" class="toggle-btn" id="tabFavorites" role="tab" aria-selected="false">Favorite in request (<span id="favCount">0</span>)</button>
+        </div>
+        <input type="search" id="search" placeholder="Filter by name, brand, tier, engine...">
+        <select id="groupBy">
+          <option value="">No grouping</option>
+          <option value="tier">Group by tier</option>
+          <option value="brand_name">Group by brand</option>
+          <option value="group_name">Group by manufacturer group</option>
+          <option value="body_type">Group by body type</option>
+          <option value="search_status">Group by search status</option>
+          <option value="roof_removable">Group by roof removable</option>
+        </select>
+        <div class="col-picker">
+          <button type="button" class="btn" id="colPickerBtn" aria-haspopup="true" aria-expanded="false">Columns</button>
+          <div class="col-picker-panel" id="colPickerPanel"></div>
+        </div>
+        <button type="button" class="btn" id="exportFavBtn" title="Download favorites.json to commit back into the repo">Export favorites.json</button>
+        <span class="stat" id="favSaveStatus"></span>
+        <button type="button" class="btn" id="githubSyncBtn" title="Set up automatic commits of favorites.json straight to GitHub via a personal access token -- no backend involved.">Sync to GitHub</button>
+        <span class="stat" id="ghSyncStatus"></span>
+        <span class="stat" id="count"></span>
+      </div>
+      <div class="filters-bar" id="filtersBar">
+        <span class="filters-label">Price range:</span>
+        <button type="button" class="chip-toggle active" data-range="0-50">&euro;0 &ndash; 50k</button>
+        <button type="button" class="chip-toggle active" data-range="50-100">&euro;50k &ndash; 100k</button>
+        <button type="button" class="chip-toggle" data-range="100-120">&euro;100k &ndash; 120k</button>
+        <button type="button" class="chip-toggle" data-range="120+">&euro;120k+</button>
+        <span class="filters-divider" aria-hidden="true"></span>
+        <span class="filters-label">Engine:</span>
+        <input type="search" id="engineFilter" class="filter-input" placeholder="e.g. V8, electric, turbo">
+        <span class="filters-label">Consumption:</span>
+        <input type="search" id="consumptionFilter" class="filter-input" placeholder="e.g. kWh, L/100km">
+      </div>
     </div>
-    <input type="search" id="search" placeholder="Filter by name, brand, tier, engine...">
-    <select id="groupBy">
-      <option value="">No grouping</option>
-      <option value="tier">Group by tier</option>
-      <option value="brand_name">Group by brand</option>
-      <option value="group_name">Group by manufacturer group</option>
-      <option value="body_type">Group by body type</option>
-      <option value="search_status">Group by search status</option>
-      <option value="roof_removable">Group by roof removable</option>
-    </select>
-    <div class="col-picker">
-      <button type="button" class="btn" id="colPickerBtn" aria-haspopup="true" aria-expanded="false">Columns</button>
-      <div class="col-picker-panel" id="colPickerPanel"></div>
-    </div>
-    <button type="button" class="btn" id="exportFavBtn" title="Download favorites.json to commit back into the repo">Export favorites.json</button>
-    <span class="stat" id="favSaveStatus"></span>
-    <button type="button" class="btn" id="githubSyncBtn" title="Set up automatic commits of favorites.json straight to GitHub via a personal access token -- no backend involved.">Sync to GitHub</button>
-    <span class="stat" id="ghSyncStatus"></span>
-    <span class="stat" id="count"></span>
-  </div>
-  <div class="filters-bar" id="filtersBar">
-    <span class="filters-label">Price range:</span>
-    <button type="button" class="chip-toggle active" data-range="0-50">&euro;0 &ndash; 50k</button>
-    <button type="button" class="chip-toggle active" data-range="50-100">&euro;50k &ndash; 100k</button>
-    <button type="button" class="chip-toggle" data-range="100-120">&euro;100k &ndash; 120k</button>
-    <button type="button" class="chip-toggle" data-range="120+">&euro;120k+</button>
-    <span class="filters-divider" aria-hidden="true"></span>
-    <span class="filters-label">Engine:</span>
-    <input type="search" id="engineFilter" class="filter-input" placeholder="e.g. V8, electric, turbo">
-    <span class="filters-label">Consumption:</span>
-    <input type="search" id="consumptionFilter" class="filter-input" placeholder="e.g. kWh, L/100km">
-  </div>
+  </details>
 </header>
 <main>
   <div id="status">Loading requests&hellip;</div>

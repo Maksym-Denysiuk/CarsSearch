@@ -187,6 +187,27 @@ h1 { margin: 0 0 0.25rem; font-size: 1.3rem; font-family: 'Playfair Display', Ge
   border-color: var(--accent);
   box-shadow: var(--shadow-glow);
 }
+/* Collapsible wrapper around .controls + .filters-bar. Desktop always shows
+   the body regardless of the native `open` attribute; only the mobile media
+   query below turns this into a real disclosure with a tappable summary --
+   see the phone screenshot that prompted this: filters ate the whole
+   viewport before the table even started. */
+.controls-panel { margin-top: 0.5rem; }
+.controls-summary {
+  display: none;
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  list-style: none;
+}
+.controls-summary::-webkit-details-marker { display: none; }
+.controls-summary::before { content: '\25b8'; display: inline-block; margin-right: 0.35rem; transition: transform 0.1s ease; }
+.controls-panel[open] .controls-summary::before { transform: rotate(90deg); }
+.controls-summary:hover { color: var(--accent); }
+@media (min-width: 641px) {
+  .controls-panel-body { display: block !important; }
+}
 .controls {
   display: flex;
   flex-wrap: wrap;
@@ -540,8 +561,13 @@ dialog h3:first-child { margin-top: 0; }
   main { padding: 1rem 1rem 2rem; }
   .footer-inner { padding: 1.5rem 1rem 1rem; }
   .footer-bottom { padding: 0.9rem 1rem; }
+  .controls-summary { display: flex; align-items: center; padding: 0.5rem 0; }
+  .controls-panel-body { padding-top: 0.4rem; }
+  .controls-panel:not([open]) .controls-panel-body { display: none; }
   .view-toggle { width: 100%; }
-  .toggle-btn { padding: 0.65rem 0.5rem; font-size: 0.82rem; }
+  .toggle-btn { padding: 0.45rem 0.35rem; font-size: 0.75rem; }
+  .btn-accent { padding: 0.35rem 0.75rem; font-size: 0.8rem; }
+  .btn { padding: 0.35rem 0.6rem; font-size: 0.8rem; }
   input[type="search"] { min-width: 0; flex-basis: 100%; }
   .filter-input { width: 100%; }
   .col-picker-panel { left: auto; right: 0; }
