@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g14-specialist-low-volume",
       "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-      "brand_id": "ferrari",
-      "brand_name": "Ferrari"
+      "brand_id": "aston-martin",
+      "brand_name": "Aston Martin"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 13,
       "brands_total": 131,
-      "brands_done": 58,
+      "brands_done": 59,
       "brands_failed": 26,
       "models_found": 91,
       "groups": [
@@ -3375,14 +3375,44 @@
         {
           "group_id": "g14-specialist-low-volume",
           "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "ferrari",
               "brand_name": "Ferrari",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-09T02:43:27.247212+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 16,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "models_discovered": 8
+                  },
+                  "autoscout24": {
+                    "models_discovered": 12
+                  }
+                }
+              }
             },
             {
               "brand_id": "aston-martin",
