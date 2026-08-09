@@ -2250,6 +2250,182 @@
           "error": "PageMissing: http 404"
         }
       ]
+    },
+    {
+      "id": "xpeng-g6",
+      "name": "G6",
+      "manufacturer": "Xpeng",
+      "group_id": "g12-electric-emerging",
+      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+      "brand_id": "xpeng",
+      "brand_name": "Xpeng",
+      "body_type": "coupe",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 45785,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/xpeng-g6-ver-87-5-kwh-long-range-ID8Q0Bcs.html",
+          "price_eur": 43990,
+          "price_display": "43 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T02:29:35.853840Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "9 995 km",
+          "fuel": "Elétrico",
+          "title": "Xpeng G6 87.5 kWh Long Range"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/xpeng-g6-ver-68-5-kwh-standard-range-ID8Q0yaj.html",
+          "price_eur": 40990,
+          "price_display": "40 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T02:29:35.853840Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "1 098 km",
+          "fuel": "Elétrico",
+          "title": "Xpeng G6 68.5 kWh Standard Range"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/xpeng-g6-ver-87-5-kwh-long-range-ID8Q0NZJ.html",
+          "price_eur": 43850,
+          "price_display": "43 850",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T02:29:35.853840Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "19 000 km",
+          "fuel": "Elétrico",
+          "title": "Xpeng G6 87.5 kWh Long Range"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/xpeng-g6-80-8-kwh-long-range-id-nWBLUq1M",
+          "price_eur": 48990,
+          "price_display": "48990",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T02:29:35.853840Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "5 km",
+          "fuel": "Eléctrico",
+          "title": "XPeng G6 80.8 kWh Long Range"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/xpeng-g6-80-8-kwh-long-range-id-rC3bAvBF",
+          "price_eur": 48990,
+          "price_display": "48990",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T02:29:35.853840Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "5 km",
+          "fuel": "Eléctrico",
+          "title": "XPeng G6 80.8 kWh Long Range"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/xpeng-g6-87-5-kwh-long-range-id-64gvaUE6",
+          "price_eur": 43990,
+          "price_display": "43990",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T02:29:35.853840Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "9995 km",
+          "fuel": "Eléctrico",
+          "title": "XPeng G6 87.5 kWh Long Range"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/xpeng-g6-2025-rwd-standard-range-sitzklima-acc-pano-elektro-blau-cat_ma51940gr201595-ccdbddba-b91a-4ec1-be42-fbd055dc7fac",
+          "price_eur": 41736,
+          "price_display": "€ 41.736",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T02:29:35.853840Z",
+          "location": "Ebersberg bei München",
+          "year": 2026,
+          "mileage": "3.000 km",
+          "fuel": "Elektro",
+          "title": "Xpeng G6 2025 RWD Standard Range Sitzklima ACC Pano"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/xpeng-g6-awd-performance-elektro-weiss-cat_ma51940gr201595-873f1632-e6eb-438e-b470-d7b7d257e086",
+          "price_eur": 49940,
+          "price_display": "€ 49.940",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T02:29:35.853840Z",
+          "location": "Vechta",
+          "year": 2026,
+          "mileage": "3.500 km",
+          "fuel": "Elektro",
+          "title": "Xpeng G6 AWD Performance"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/xpeng-g6-2025-rwd-long-range-ahk-carplay-360kam-pano-elektro-blau-cat_ma51940gr201595-d736b440-09c9-4d9f-8bd8-e353f3a67cb6",
+          "price_eur": 49590,
+          "price_display": "€ 49.590",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T02:29:35.853840Z",
+          "location": "Ebersberg bei München",
+          "year": null,
+          "mileage": "10 km",
+          "fuel": "Elektro",
+          "title": "Xpeng G6 2025 RWD Long Range AHK CarPlay 360Kam Pano"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/xpeng/g6?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 20,
+          "new": 19,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/xpeng/g6",
+          "found": 6,
+          "new": 6,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/xpeng/g6?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
