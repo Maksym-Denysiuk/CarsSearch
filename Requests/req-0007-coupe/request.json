@@ -11,18 +11,18 @@
     "date_of_request": "2026-08-07",
     "status": "in progress",
     "search_state": {
-      "group_id": "g03-vw",
-      "group_name": "Volkswagen Group",
-      "brand_id": "cupra",
-      "brand_name": "Cupra"
+      "group_id": "g04-stellantis",
+      "group_name": "Stellantis",
+      "brand_id": "peugeot",
+      "brand_name": "Peugeot"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 12,
+      "groups_done": 13,
       "brands_total": 131,
-      "brands_done": 83,
+      "brands_done": 84,
       "brands_failed": 13,
-      "models_found": 105,
+      "models_found": 110,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -385,7 +385,7 @@
         {
           "group_id": "g03-vw",
           "group_name": "Volkswagen Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "volkswagen",
@@ -587,9 +587,49 @@
             {
               "brand_id": "cupra",
               "brand_name": "Cupra",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 5,
+              "completed_at": "2026-08-09T04:02:51.520748+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 28,
+                "unique_offerings": 28,
+                "candidates_checked": 6,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 5,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 1
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 11,
+                "model_suggestion_retries": 0,
+                "models_discovered": 7,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1
+                  },
+                  "auto.pt": {
+                    "models_discovered": 6,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 2,
+                    "firewall_dropped": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 5,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "lamborghini",

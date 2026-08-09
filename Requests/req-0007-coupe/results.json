@@ -2822,6 +2822,126 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "cupra-leon",
+      "name": "Leon",
+      "manufacturer": "Cupra",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "cupra",
+      "brand_name": "Cupra",
+      "body_type": "coupe",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 24900,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.auto.pt/carros-usados/cupra-leon-1-5-etsi-mid-dsg-id-PwFyHHwV",
+          "price_eur": 31490,
+          "price_display": "31490",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T04:02:51.507647Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "7500 km",
+          "fuel": "Gasolina",
+          "title": "Cupra Leon 1.5 eTSI MID DSG"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/cupra-leon-1-5-e-hybrid-dsg-id-KnEhpj8U",
+          "price_eur": 28500,
+          "price_display": "28500",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T04:02:51.507647Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "26015 km",
+          "fuel": "Híbrido Plug-in",
+          "title": "Cupra Leon 1.5 e-Hybrid DSG"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/cupra-leon-vz-e-hybrid-1-4-tsi-navi-shz-rfk-uvm-elektro-benzin-grau-cat_ma51802gr200363ge784va1016mt6285tr8393-b168ea48-eace-487b-b736-312a39dcf892",
+          "price_eur": 24570,
+          "price_display": "€ 24.570",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T04:02:51.507647Z",
+          "location": "Hameln",
+          "year": 2024,
+          "mileage": "53.006 km",
+          "fuel": "Elektro/Benzin",
+          "title": "CUPRA Leon VZ e-Hybrid 1.4 TSI*NAVI*SHZ*RFK*uvm"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/cupra-leon-1-5-tsi-sportstourer-+-navi-+-kamera-+-voll-led-+-benzin-weiss-cat_ma51802gr200363ge784va1016mt6301tr480032-4e129f20-4c56-4f36-9862-398d74912284",
+          "price_eur": 21990,
+          "price_display": "€ 21.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T04:02:51.507647Z",
+          "location": "Bessenbach",
+          "year": 2024,
+          "mileage": "13.200 km",
+          "fuel": "Benzin",
+          "title": "CUPRA Leon 1,5 TSI Sportstourer + Navi + Kamera + Voll LED +"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/cupra-leon-1-5-etsi-sportstourer-r-kamera-carplay-navi-benzin-weiss-cat_ma51802gr200363ge784va1016mt11561tr480032-ee17c0cb-01fa-4a0a-ad4d-7cc7a961970e",
+          "price_eur": 17950,
+          "price_display": "€ 17.950",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T04:02:51.507647Z",
+          "location": "Schöppenstedt",
+          "year": 2025,
+          "mileage": "26.245 km",
+          "fuel": "Benzin",
+          "title": "CUPRA Leon 1.5 eTSI Sportstourer*R-KAMERA*CARPLAY*NAVI"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/cupra/leon?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/cupra/leon",
+          "found": 8,
+          "new": 8,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/cupra/leon?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
