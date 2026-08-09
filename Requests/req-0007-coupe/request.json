@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g06-hyundai",
       "group_name": "Hyundai Motor Group",
-      "brand_id": "hyundai",
-      "brand_name": "Hyundai"
+      "brand_id": "kia",
+      "brand_name": "Kia"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 5,
       "brands_total": 131,
-      "brands_done": 25,
+      "brands_done": 26,
       "brands_failed": 10,
       "models_found": 78,
       "groups": [
@@ -1446,14 +1446,44 @@
         {
           "group_id": "g06-hyundai",
           "group_name": "Hyundai Motor Group",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "hyundai",
               "brand_name": "Hyundai",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-09T01:14:06.760534+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 15,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "models_discovered": 10
+                  },
+                  "autoscout24": {
+                    "models_discovered": 12
+                  }
+                }
+              }
             },
             {
               "brand_id": "kia",
