@@ -2426,6 +2426,268 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "mclaren-artura",
+      "name": "Artura",
+      "manufacturer": "McLaren",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "mclaren",
+      "brand_name": "McLaren",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 261473,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.auto.pt/carros-usados/mclaren-artura-spider-performance-id-p2Wd3YHa",
+          "price_eur": 359000,
+          "price_display": "359000",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T02:46:04.030031Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "83 km",
+          "fuel": "Híbrido Plug-in",
+          "title": "McLaren Artura SPIDER PERFORMANCE"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mclaren-artura-mso-ceramic-grey-tech-lux-technology-pack-elektro-benzin-grau-cat_ma51519gr202641-5bec5ce4-f81a-4108-b070-b336a633b3a8",
+          "price_eur": 172900,
+          "price_display": "€ 172.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T02:46:04.030031Z",
+          "location": "Weingarten",
+          "year": 2024,
+          "mileage": "19.580 km",
+          "fuel": "Elektro/Benzin",
+          "title": "McLaren Artura MSO Ceramic Grey Tech Lux Technology Pack"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mclaren-artura-spider-facelift-elektro-benzin-schwarz-cat_ma51519gr202641-8f23fcb4-09b3-49d0-a128-cdfff9160cbe",
+          "price_eur": 289000,
+          "price_display": "€ 289.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T02:46:04.030031Z",
+          "location": "München, Landeshauptstadt",
+          "year": 2025,
+          "mileage": "6.500 km",
+          "fuel": "Elektro/Benzin",
+          "title": "McLaren Artura Spider Facelift"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mclaren-artura-techlux-sport-exhaust-technology-mso-elektro-benzin-schwarz-cat_ma51519gr202641-1c590bf0-7e40-4d55-93f7-b1d9426c1b1b",
+          "price_eur": 224990,
+          "price_display": "€ 224.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T02:46:04.030031Z",
+          "location": "Düsseldorf",
+          "year": 2025,
+          "mileage": "30 km",
+          "fuel": "Elektro/Benzin",
+          "title": "McLaren Artura TechLux, Sport Exhaust, Technology, MSO"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mclaren/artura?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mclaren/artura",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mclaren/artura?fregfrom=2024",
+          "found": 11,
+          "new": 11,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "mclaren-720s",
+      "name": "720S",
+      "manufacturer": "McLaren",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "mclaren",
+      "brand_name": "McLaren",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 236810,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "1 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/mclaren-720-720-s-carbon-keramik-warranty-benzin-gruen-cat_ma51519gr202634-a280a50e-fced-4187-812a-98e5adb99962",
+          "price_eur": 236810,
+          "price_display": "€ 236.810",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-09T02:46:04.030031Z",
+          "location": "München",
+          "year": 2024,
+          "mileage": "3.150 km",
+          "fuel": "Benzin",
+          "title": "McLaren 720S 720 S *CARBON*KERAMIK*WARRANTY*"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mclaren/720s?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 0,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mclaren/720s",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mclaren/720s?fregfrom=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "mclaren-750s",
+      "name": "750S",
+      "manufacturer": "McLaren",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "mclaren",
+      "brand_name": "McLaren",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 286250,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/mclaren-750-perform-race-seats-stealth-exh-benzin-schwarz-cat_ma51519gr202640-442a7939-8fc5-4baa-8525-ce838d1286c6",
+          "price_eur": 306750,
+          "price_display": "€ 306.750",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-09T02:46:04.030031Z",
+          "location": "Nürnberg",
+          "year": 2024,
+          "mileage": "180 km",
+          "fuel": "Benzin",
+          "title": "McLaren 750S Perform. | Race Seats | Stealth Exh."
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mclaren-750-mclaren-750s-360-camera-lift-benzin-schwarz-cat_ma51519gr202640-ff69dd8d-f79c-4b97-81d2-0c78c12c7a45",
+          "price_eur": 252000,
+          "price_display": "€ 252.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-09T02:46:04.030031Z",
+          "location": "Bodman-Ludwigshafen",
+          "year": 2024,
+          "mileage": "540 km",
+          "fuel": "Benzin",
+          "title": "McLaren 750S McLaren 750S | 360 Camera, Lift"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mclaren-750-coupe-my25-carbon-extint-bw-lift-fullopt-benzin-grau-cat_ma51519gr202640-5eafadf5-d847-4993-810c-7198c617d27f",
+          "price_eur": 299999,
+          "price_display": "€ 299.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-09T02:46:04.030031Z",
+          "location": "München",
+          "year": 2024,
+          "mileage": "10 km",
+          "fuel": "Benzin",
+          "title": "McLaren 750S COUPE MY25 CARBON EXT&INT B&W LIFT FULLOPT!"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mclaren/750s?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 0,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mclaren/750s",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mclaren/750s?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
