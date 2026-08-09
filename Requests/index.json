@@ -119,13 +119,13 @@
       "date_of_request": "2026-08-07",
       "status": "in progress",
       "search_state": {
-        "group": "Huawei HIMA Alliance",
-        "brand": "Stelato",
-        "models_done": 105
+        "group": "Chery Group",
+        "brand": "iCar",
+        "models_done": 113
       },
       "counts": {
-        "models": 27,
-        "offerings": 105
+        "models": 29,
+        "offerings": 113
       }
     }
   ]
