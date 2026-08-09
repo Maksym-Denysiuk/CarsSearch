@@ -11,16 +11,16 @@
     "date_of_request": "2026-08-07",
     "status": "in progress",
     "search_state": {
-      "group_id": "g14-specialist-low-volume",
-      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-      "brand_id": "manhart-performance",
-      "brand_name": "Manhart Performance"
+      "group_id": "g15-gwm",
+      "group_name": "Great Wall Motor (GWM)",
+      "brand_id": "tank",
+      "brand_name": "Tank"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 18,
+      "groups_done": 19,
       "brands_total": 131,
-      "brands_done": 100,
+      "brands_done": 101,
       "brands_failed": 17,
       "models_found": 113,
       "groups": [
@@ -3406,7 +3406,7 @@
         {
           "group_id": "g14-specialist-low-volume",
           "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "ferrari",
@@ -3810,9 +3810,48 @@
             {
               "brand_id": "manhart-performance",
               "brand_name": "Manhart Performance",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-09T04:18:22.569688+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 35,
+                "unique_offerings": 35,
+                "candidates_checked": 3,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 3
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 10,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 1,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1,
+                    "searches_missing": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1,
+                    "searches_missing": 1
+                  }
+                }
+              }
             },
             {
               "brand_id": "czinger-vehicles",
