@@ -119,13 +119,13 @@
       "date_of_request": "2026-08-07",
       "status": "in progress",
       "search_state": {
-        "group": "Stellantis",
-        "brand": "Vauxhall",
-        "models_done": 66
+        "group": "Geely Holding Group & Affiliates",
+        "brand": "Geely Auto",
+        "models_done": 82
       },
       "counts": {
-        "models": 17,
-        "offerings": 66
+        "models": 21,
+        "offerings": 82
       }
     }
   ]
