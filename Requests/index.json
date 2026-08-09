@@ -119,13 +119,13 @@
       "date_of_request": "2026-08-07",
       "status": "in progress",
       "search_state": {
-        "group": "Great Wall Motor (GWM)",
-        "brand": "Ora",
-        "models_done": 99
+        "group": "Huawei HIMA Alliance",
+        "brand": "Stelato",
+        "models_done": 105
       },
       "counts": {
-        "models": 26,
-        "offerings": 99
+        "models": 27,
+        "offerings": 105
       }
     }
   ]
