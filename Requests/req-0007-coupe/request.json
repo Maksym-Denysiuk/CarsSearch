@@ -11,16 +11,16 @@
     "date_of_request": "2026-08-07",
     "status": "in progress",
     "search_state": {
-      "group_id": "g24-chinese-ev-independents",
-      "group_name": "Chinese EV Independents",
-      "brand_id": "leapmotor",
-      "brand_name": "Leapmotor"
+      "group_id": "g25-other-national",
+      "group_name": "Other National / Emerging Markets",
+      "brand_id": "togg",
+      "brand_name": "Togg"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 23,
+      "groups_done": 24,
       "brands_total": 131,
-      "brands_done": 104,
+      "brands_done": 105,
       "brands_failed": 22,
       "models_found": 113,
       "groups": [
@@ -5085,7 +5085,7 @@
         {
           "group_id": "g24-chinese-ev-independents",
           "group_name": "Chinese EV Independents",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "li-auto",
@@ -5128,9 +5128,39 @@
             {
               "brand_id": "leapmotor",
               "brand_name": "Leapmotor",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-09T04:21:21.020282+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 5,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0
+                  },
+                  "autoscout24": {
+                    "models_discovered": 5
+                  }
+                }
+              }
             }
           ]
         },
