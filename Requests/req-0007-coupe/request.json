@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-07",
     "status": "in progress",
     "search_state": {
-      "group_id": "g16-chery",
-      "group_name": "Chery Group",
-      "brand_id": "icar",
-      "brand_name": "iCar"
+      "group_id": "g19-dongfeng",
+      "group_name": "Dongfeng Motor",
+      "brand_id": "m-hero",
+      "brand_name": "M-Hero"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 20,
+      "groups_done": 21,
       "brands_total": 131,
       "brands_done": 102,
-      "brands_failed": 18,
+      "brands_failed": 19,
       "models_found": 113,
       "groups": [
         {
@@ -4135,7 +4135,7 @@
         {
           "group_id": "g16-chery",
           "group_name": "Chery Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "chery",
@@ -4326,9 +4326,40 @@
             {
               "brand_id": "icar",
               "brand_name": "iCar",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-09T04:19:24.799777+00:00",
+              "error": "no_model_names_suggested",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0
+                  }
+                }
+              }
             }
           ]
         },
