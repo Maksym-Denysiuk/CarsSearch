@@ -1989,6 +1989,112 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "toyota-supra",
+      "name": "Supra",
+      "manufacturer": "Toyota",
+      "group_id": "g05-toyota",
+      "group_name": "Toyota Motor Corporation",
+      "brand_id": "toyota",
+      "brand_name": "Toyota",
+      "body_type": "coupe",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 95160,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/toyota-supra-ID8Q0nYz.html",
+          "price_eur": 39990,
+          "price_display": "39 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T01:01:07.209720Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "140 000 km",
+          "fuel": "Gasolina",
+          "title": "Toyota Supra"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/toyota-supra-gr-a90-final-edition-limited-300stueck-benzin-schwarz-cat_ma70gr201448ge1271va3723mt4987tr480867-d11d3dd8-4d7b-49f7-af00-e1f8779b46f9",
+          "price_eur": 135695,
+          "price_display": "€ 135.695",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T01:01:07.209720Z",
+          "location": "Köln",
+          "year": 2026,
+          "mileage": "5 km",
+          "fuel": "Benzin",
+          "title": "Toyota Supra GR A90 Final Edition *Limited 300Stück*"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/toyota-supra-gr-final-edition-kw-v3-recaro-podium-1-300-benzin-schwarz-cat_ma70gr201448ge1271va3723mt4987tr480867-d6e01b9c-7d59-4b97-8c4e-f9f5e134a765",
+          "price_eur": 138516,
+          "price_display": "€ 138.516",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T01:01:07.209720Z",
+          "location": "Dormagen",
+          "year": null,
+          "mileage": "5 km",
+          "fuel": "Benzin",
+          "title": "Toyota Supra GR FINAL EDITION KW V3*Recaro Podium 1/300"
+        },
+        {
+          "url": "https://www.autoscout24.de/smyle/details/f1fff092-4792-43b8-8871-db5c3bd5859b/",
+          "price_eur": 66440,
+          "price_display": "€ 66.440",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T01:01:07.209720Z",
+          "location": "Helgoland",
+          "year": 2024,
+          "mileage": "20.337 km",
+          "fuel": "Benzin",
+          "title": "Toyota Supra 3.0 Legend AC Schnitzer *HUD*JBL*Leder*CAM*"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/toyota/supra?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/toyota/supra",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/toyota/supra?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }

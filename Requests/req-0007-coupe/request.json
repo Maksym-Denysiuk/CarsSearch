@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g05-toyota",
       "group_name": "Toyota Motor Corporation",
-      "brand_id": "toyota",
-      "brand_name": "Toyota"
+      "brand_id": "lexus",
+      "brand_name": "Lexus"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 4,
       "brands_total": 131,
-      "brands_done": 23,
+      "brands_done": 24,
       "brands_failed": 8,
-      "models_found": 74,
+      "models_found": 78,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -1278,14 +1278,55 @@
         {
           "group_id": "g05-toyota",
           "group_name": "Toyota Motor Corporation",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "toyota",
               "brand_name": "Toyota",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 4,
+              "completed_at": "2026-08-09T01:01:07.212744+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 22,
+                "unique_offerings": 22,
+                "candidates_checked": 5,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 4,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 1
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 10,
+                "model_suggestion_retries": 0,
+                "models_discovered": 18,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1,
+                    "candidates_checked": 1,
+                    "firewall_kept": 1
+                  },
+                  "auto.pt": {
+                    "models_discovered": 13,
+                    "searches_attempted": 1,
+                    "candidates_checked": 1,
+                    "firewall_dropped": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 9,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "lexus",
