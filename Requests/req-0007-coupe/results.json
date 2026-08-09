@@ -1367,6 +1367,112 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "smart-3",
+      "name": "#3",
+      "manufacturer": "Smart",
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "smart",
+      "brand_name": "Smart",
+      "body_type": "coupe",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 31556,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.auto.pt/carros-usados/smart-3-pro-id-WsWJCTJJ",
+          "price_eur": 37499,
+          "price_display": "37499",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T00:08:47.789160Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "14800 km",
+          "fuel": "Eléctrico",
+          "title": "Smart #3 Pro+"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/smart-3-pro-zertifiziert-warum-weils-besser-ist-elektro-weiss-cat_ma15525gr201368ge1517va3960tr6168-b35d2fde-c040-46fd-8927-2fe74c8c688a",
+          "price_eur": 28555,
+          "price_display": "€ 28.555",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T00:08:47.789160Z",
+          "location": "Bruchsal",
+          "year": 2024,
+          "mileage": "8.497 km",
+          "fuel": "Elektro",
+          "title": "smart #3 PRO #ZERTIFIZIERT! #WARUM? WEIL´S BESSER IST!"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/smart-3-3-pro+-led-360-cam-acc-memory-keyless-totwinkel-elektro-silber-cat_ma15525gr201368ge1517va3960tr6168-ba019ba6-7fa5-4bdb-a053-60330f876e22",
+          "price_eur": 29480,
+          "price_display": "€ 29.480",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T00:08:47.789160Z",
+          "location": "Magdeburg",
+          "year": 2024,
+          "mileage": "10.068 km",
+          "fuel": "Elektro",
+          "title": "smart #3 #3 Pro+ LED 360°Cam ACC Memory Keyless Totwinkel"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/smart-3-200-kw-pro-pano+360-+carplay+memory-elektro-schwarz-cat_ma15525gr201368ge1517va3960tr480950-d5cbcf09-ccf0-446b-bbb6-519830b6c150",
+          "price_eur": 30690,
+          "price_display": "€ 30.690",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T00:08:47.789160Z",
+          "location": "Stade",
+          "year": 2025,
+          "mileage": "12.590 km",
+          "fuel": "Elektro",
+          "title": "smart #3 200 KW Pro Pano+360°+CARPLAY+MEMORY"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/smart/3?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/smart/3",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/smart/3?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }

@@ -11,18 +11,18 @@
     "date_of_request": "2026-08-07",
     "status": "in progress",
     "search_state": {
-      "group_id": "g02-mercedes-benz",
-      "group_name": "Mercedes-Benz Group",
-      "brand_id": "smart",
-      "brand_name": "Smart"
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "volkswagen",
+      "brand_name": "Volkswagen"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 1,
+      "groups_done": 2,
       "brands_total": 131,
-      "brands_done": 7,
+      "brands_done": 8,
       "brands_failed": 0,
-      "models_found": 51,
+      "models_found": 55,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -201,7 +201,7 @@
         {
           "group_id": "g02-mercedes-benz",
           "group_name": "Mercedes-Benz Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "mercedes-benz",
@@ -339,9 +339,46 @@
             {
               "brand_id": "smart",
               "brand_name": "Smart",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 4,
+              "completed_at": "2026-08-09T00:08:47.793735+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 21,
+                "unique_offerings": 21,
+                "candidates_checked": 4,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 4,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 9,
+                "model_suggestion_retries": 0,
+                "models_discovered": 5,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1
+                  },
+                  "auto.pt": {
+                    "models_discovered": 4,
+                    "searches_attempted": 1,
+                    "candidates_checked": 1,
+                    "firewall_kept": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 3,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  }
+                }
+              }
             }
           ]
         },
