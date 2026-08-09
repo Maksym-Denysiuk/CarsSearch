@@ -524,15 +524,15 @@
       "engine": "2.0L turbocharged petrol I4, 156 hp",
       "gearbox": "8-speed automatic (torque converter)",
       "fuel_or_charge_consumption": "5.5 L/100 km (combined)",
-      "tank_or_battery_size": "47 L",
+      "tank_or_battery_size": "59 L",
       "doors": 4,
       "first_year": 2019,
       "model_variant": "G20/LCI (2019-), 4-door saloon",
       "body_style": "4-door saloon",
       "spec_source": {
         "url": "https://www.carfolio.com/bmw-318i-804375",
-        "retrieved_at": "2026-08-05T14:44:14.034811+00:00",
-        "method": "local-llm-web-search"
+        "retrieved_at": "2026-08-09T00:00:00+00:00",
+        "method": "claude-manual-verification"
       }
     },
     {
@@ -631,15 +631,15 @@
       "engine": "3.0L turbocharged petrol I6, 382 hp",
       "gearbox": "8-speed automatic",
       "fuel_or_charge_consumption": "8.6 L/100 km (combined)",
-      "tank_or_battery_size": "15.6 L",
+      "tank_or_battery_size": "59 L",
       "doors": 4,
       "first_year": 2019,
       "model_variant": "G20/G28 (2019-), sedans and station wagons",
       "body_style": "four-door saloon and five-door estate",
       "spec_source": {
-        "url": "https://www.caranddriver.com/bmw/3-series/specs/2024/bmw_3-series_bmw-m340i_2024",
-        "retrieved_at": "2026-08-05T14:55:06.718608+00:00",
-        "method": "local-llm-web-search"
+        "url": "https://www.carfolio.com/bmw-m340i-xdrive-804177",
+        "retrieved_at": "2026-08-09T00:00:00+00:00",
+        "method": "claude-manual-verification"
       }
     },
     {
@@ -3335,12 +3335,12 @@
           "error": null
         }
       ],
-      "engine": "Turbo 4-Cylinder, 5.2 L, 306 hp",
-      "gearbox": "4-Speed Automatic",
+      "engine": "3.0L twin-turbo petrol V6, 300 hp (400 hp on Red Sport 400 trim)",
+      "gearbox": "7-speed automatic (torque converter)",
       "spec_source": {
-        "url": "https://www.vedgecars.com/infiniti/q60/2024-specifications",
-        "retrieved_at": "2026-08-05T16:33:59.576970+00:00",
-        "method": "local-llm-web-search"
+        "url": "https://www.infinitiusa.com/vehicles/discontinued-vehicles/q60.html",
+        "retrieved_at": "2026-08-09T00:00:00+00:00",
+        "method": "claude-manual-verification"
       }
     },
     {
@@ -5044,12 +5044,12 @@
       "tank_or_battery_size": "45 L",
       "doors": 4,
       "first_year": 2020,
-      "model_variant": "4th generation (2020-), soft-top and RF hardtop",
+      "model_variant": "4th generation (2019-), sedan and hatchback",
       "body_style": "sedan and hatchback",
       "spec_source": {
-        "url": "https://www.topspeed.com/mazga/3/2024/",
-        "retrieved_at": "2026-08-05T16:07:50.533985+00:00",
-        "method": "local-llm-web-search"
+        "url": "https://www.cars.com/research/mazda-mazda3-2024/",
+        "retrieved_at": "2026-08-09T00:00:00+00:00",
+        "method": "claude-manual-verification"
       }
     },
     {

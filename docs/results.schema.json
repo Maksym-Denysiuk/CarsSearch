@@ -73,11 +73,7 @@
         "brand_id": { "type": ["string", "null"], "description": "Config/brands.json brand id; null when the manufacturer is not on the checklist." },
         "brand_name": { "type": ["string", "null"] },
         "body_type": { "$ref": "#/$defs/body_type" },
-        "tier": {
-          "type": "string",
-          "enum": ["mainstream", "premium", "exotic", "ultra-exotic", "not yet available", "unconfirmed"],
-          "description": "Price-derived market tier. Pure function of average_budget_eur plus the sold-out/bespoke and trim-spread exceptions; never hand-picked against the number."
-        },
+        "tier": { "$ref": "#/$defs/tier" },
         "model_variant": { "type": "string", "description": "Generation / variant / trim detail and production-status notes." },
         "first_year": { "type": ["integer", "null"], "description": "First model year of this generation/variant, when known." },
         "average_budget_eur": { "type": ["integer", "null"], "minimum": 0, "description": "round(mean(offerings.price_eur)) where offerings exist; otherwise a stated estimate; null when unpriced." },
@@ -118,7 +114,7 @@
           "items": { "$ref": "#/$defs/search_round" }
         },
         "gearbox": {"type": "string", "description": "Transmission type, e.g. '8-speed automatic (torque converter)', '7-speed dual-clutch', '6-speed manual', 'single-speed reduction gear'. If both manual and automatic are offered, say so. Written only when actually sourced; absent -- never null -- when it was not."},
-        "spec_source": {"type": "object", "description": "Where this row's spec fields came from. Present only when they were filled by the enrichment step; absent on rows whose specs were hand-researched or never filled. A spec claim with no page behind it is discarded rather than written, so this object existing is the assertion that a page was read.", "required": ["url", "retrieved_at", "method"], "additionalProperties": false, "properties": {"url": {"type": "string", "description": "The page the values were read from."}, "retrieved_at": {"type": "string", "description": "ISO-8601 timestamp."}, "method": {"type": "string", "enum": ["local-llm-web-search"], "description": "How the page was reached. An enum so a future method is a visible change."}}},
+        "spec_source": {"type": "object", "description": "Where this row's spec fields came from. Present only when they were filled by the enrichment step; absent on rows whose specs were hand-researched or never filled. A spec claim with no page behind it is discarded rather than written, so this object existing is the assertion that a page was read.", "required": ["url", "retrieved_at", "method"], "additionalProperties": false, "properties": {"url": {"type": "string", "description": "The page the values were read from."}, "retrieved_at": {"type": "string", "description": "ISO-8601 timestamp."}, "method": {"type": "string", "enum": ["local-llm-web-search", "claude-manual-verification"], "description": "How the page was reached. An enum so a future method is a visible change. 'claude-manual-verification' is a spec corrected by hand against a named source page after the enrichment step wrote a wrong value; it is still a page that was read, so it carries the same url/retrieved_at obligation."}}},
         "body_style": {"type": "string", "description": "The body style or styles this model is actually sold in, in the words the specification page uses, e.g. 'saloon and estate', '5-door hatchback', 'coupe and convertible', '4-door fastback'. List every style currently offered; if only one, name only that one. This is what the manufacturer builds, not what anyone was looking for. Written only when actually sourced; absent -- never null -- when it was not."}
       }
     },
@@ -192,6 +188,11 @@
         "van"
       ],
       "description": "Kept identical to request.schema.json's body_type enum — tools/verify.py asserts the two lists match."
+    },
+    "tier": {
+      "type": "string",
+      "enum": ["mainstream", "premium", "exotic", "ultra-exotic", "not yet available", "unconfirmed"],
+      "description": "Price-derived market tier. Pure function of average_budget_eur plus the sold-out/bespoke and trim-spread exceptions; never hand-picked against the number."
     },
     "country": {
       "type": "string",
