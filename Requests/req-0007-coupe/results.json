@@ -6,5 +6,204 @@
     "currency": "EUR",
     "specs_disclaimer": "Spec fields (engine, consumption, tank/battery, variant, roof, doors, tax, photo) are omitted rather than estimated: this pipeline reads listing search results, which do not publish them. Offerings, prices and years are read from the listing cards and each price was re-verified against the listing page it came from."
   },
-  "models": []
+  "models": [
+    {
+      "id": "bmw-220",
+      "name": "220",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "coupe",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 29463,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-2er-220-gran-coupe-+-garantie-bis-06-2030-benzin-weiss-cat_ma13gr100098ge10825va315mt715tr479989-38390e1d-8b04-4f53-9e76-724bf8092c70",
+          "price_eur": 27490,
+          "price_display": "€ 27.490",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T23:43:14.181067Z",
+          "location": "Hamm",
+          "year": 2025,
+          "mileage": "13.002 km",
+          "fuel": "Benzin",
+          "title": "BMW 214 220 Gran Coupé + GARANTIE-bis-06.2030"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-2er-i-active-tourer-benzin-grau-cat_ma13gr100098ge352va426mt715tr479989-b7f09e2a-4278-4e42-b36b-c9678865d231",
+          "price_eur": 27600,
+          "price_display": "€ 27.600",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T23:43:14.182070Z",
+          "location": "Nürtingen",
+          "year": 2025,
+          "mileage": "8.500 km",
+          "fuel": "Benzin",
+          "title": "BMW 220 i Active Tourer"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-2er-i-xdrive-gran-coupe-m-sport-benzin-weiss-cat_ma13gr100098ge351va315mt715tr293-1e1c62f2-14f5-4870-9472-89f3009c983e",
+          "price_eur": 33300,
+          "price_display": "€ 33.300",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T23:43:14.182070Z",
+          "location": "Nürtingen",
+          "year": 2024,
+          "mileage": "9.900 km",
+          "fuel": "Benzin",
+          "title": "BMW 220 i xDrive Gran Coupé , M Sport"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/220?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/220",
+          "found": 14,
+          "new": 14,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/220?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bmw-218",
+      "name": "218",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "coupe",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 31442,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-218-ver-i-pack-desportivo-m-pro-auto-ID8Q0M1B.html",
+          "price_eur": 47900,
+          "price_display": "47 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-09T23:43:14.182572Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "14 000 km",
+          "fuel": "Gasolina",
+          "title": "BMW 218 i Pack Desportivo M Pro Auto"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-2er-i-gran-coupe-sport-line-pano-adaptled-rfk-hifi-benzin-weiss-cat_ma13gr100098ge351va315mt713tr294-97d851ad-6ac2-48bc-b9af-eeece601ada4",
+          "price_eur": 25999,
+          "price_display": "€ 25.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-09T23:43:14.182572Z",
+          "location": "Meerbusch",
+          "year": 2024,
+          "mileage": "13.000 km",
+          "fuel": "Benzin",
+          "title": "BMW 218 i Gran Coupe Sport Line PANO/ADAPTLED/RFK/HIFI"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-2er-i-gran-coupe-m-sport-lc-prof-acc-ahk-benzin-grau-cat_ma13gr100098ge351va315mt713tr293-17661273-c68b-4b33-877a-5d510f48cad1",
+          "price_eur": 27887,
+          "price_display": "€ 27.887",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-09T23:43:14.182572Z",
+          "location": "Landshut",
+          "year": 2024,
+          "mileage": "37.500 km",
+          "fuel": "Benzin",
+          "title": "BMW 218 i Gran Coupé [M Sport, LC Prof., ACC, AHK]"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-2er-acc-kzu-adpt-led-2zk-hifi-shz-benzin-schwarz-cat_ma13gr100098ge352va426mt713tr479989-edf21c5d-7cf8-49c5-8cec-8f33dc501526",
+          "price_eur": 23980,
+          "price_display": "€ 23.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-09T23:43:14.182572Z",
+          "location": "Roßtal",
+          "year": 2025,
+          "mileage": "15.200 km",
+          "fuel": "Benzin",
+          "title": "BMW 218 ACC KZU adpt.LED 2ZK HiFi SHZ"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/218?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/218",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/218?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    }
+  ]
 }
