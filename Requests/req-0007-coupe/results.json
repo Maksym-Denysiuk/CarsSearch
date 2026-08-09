@@ -1473,6 +1473,310 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "audi-a7",
+      "name": "A7",
+      "manufacturer": "Audi",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "audi",
+      "brand_name": "Audi",
+      "body_type": "coupe",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 61601,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/audi-a7-ver-45-tdi-quattro-s-tronic-ID8Q0v8p.html",
+          "price_eur": 73990,
+          "price_display": "73 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T00:16:48.636434Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "43 500 km",
+          "fuel": "Diesel",
+          "title": "Audi A7 Sportback 45 TDI quattro S tronic"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-a7-50-tfsi-e-qu-s-line-oppaket-bo-pan-elektro-benzin-schwarz-cat_ma9gr19216ge592mt1131tr479954-27bca5b2-deb6-4c1b-b029-dfa6c56d784c",
+          "price_eur": 58990,
+          "price_display": "€ 58.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T00:16:48.636434Z",
+          "location": "Haßfurt",
+          "year": 2025,
+          "mileage": "15.350 km",
+          "fuel": "Elektro/Benzin",
+          "title": "Audi A7 50 TFSI e qu.S line OpPaket*B&O*Pan"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-a7-45-tfsi-s-line-s-tronic-pano-ahk-benzin-weiss-cat_ma9gr19216ge592mt1129tr479954-909c9c2a-1c05-4db6-9f65-37ec15cabb13",
+          "price_eur": 58139,
+          "price_display": "€ 58.139",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T00:16:48.636434Z",
+          "location": "Berlin",
+          "year": 2025,
+          "mileage": "10.063 km",
+          "fuel": "Benzin",
+          "title": "Audi A7 45 TFSI S line S tronic *PANO*AHK*"
+        },
+        {
+          "url": "https://www.autoscout24.de/smyle/details/136219de-d429-4f7b-99af-a7b04ac9edd5/",
+          "price_eur": 55284,
+          "price_display": "€ 55.284",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T00:16:48.636434Z",
+          "location": "Helgoland",
+          "year": 2025,
+          "mileage": "8.226 km",
+          "fuel": "Benzin",
+          "title": "Audi A7 Sportback 45 TFSI S tronic OptikP 360 ACC AHK"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/audi/a7?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 2,
+          "new": 1,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/audi/a7",
+          "found": 8,
+          "new": 8,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/audi/a7?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "audi-a5",
+      "name": "A5",
+      "manufacturer": "Audi",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "audi",
+      "brand_name": "Audi",
+      "body_type": "coupe",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 40716,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/audi-a5-ID8Q0NzM.html",
+          "price_eur": 49950,
+          "price_display": "49 950",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-09T00:16:48.636434Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "9 242 km",
+          "fuel": "Diesel",
+          "title": "Audi A5"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-a5-avant-quattro-led-ahk-kamera-acc-leder-parkassi-benzin-weiss-cat_ma9gr19047ge2335va486mt582tr479951-5b116eb8-4ba3-4d3d-b470-1cded8143255",
+          "price_eur": 39980,
+          "price_display": "€ 39.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-09T00:16:48.636434Z",
+          "location": "Speyer",
+          "year": 2025,
+          "mileage": "28.313 km",
+          "fuel": "Benzin",
+          "title": "Audi A5 Avant quattro LED AHK KAMERA ACC LEDER PARKASSI..."
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-a5-avant-tfsi-s-line-navi+-acc-tech-kamera-optik-schw-benzin-grau-cat_ma9gr19047ge2335va486mt582tr479951-16246381-cf57-47a4-bef6-229e47e2faff",
+          "price_eur": 32940,
+          "price_display": "€ 32.940",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-09T00:16:48.636434Z",
+          "location": "Magdeburg",
+          "year": 2025,
+          "mileage": "20.878 km",
+          "fuel": "Benzin",
+          "title": "Audi A5 Avant TFSI S line/Navi+/ACC/TECH/Kamera/Optik schw"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-a5-40-tfsi-quattro-s-line-blackedition-benzin-gruen-cat_ma9gr19047ge232va236mt593tr6647-bb21ce71-e98f-4b46-9112-791dbbef8dd3",
+          "price_eur": 39995,
+          "price_display": "€ 39.995",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-09T00:16:48.636434Z",
+          "location": "Buedingen",
+          "year": 2024,
+          "mileage": "32.500 km",
+          "fuel": "Benzin",
+          "title": "Audi A5 40 TFSI Quattro S line*BlackEdition"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/audi/a5?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/audi/a5",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/audi/a5?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "audi-s5",
+      "name": "S5",
+      "manufacturer": "Audi",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "audi",
+      "brand_name": "Audi",
+      "body_type": "coupe",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 54583,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-s5-sportback-v6-tdi-quattro-competition-edition-plus-diesel-schwarz-cat_ma9gr202617ge10787va235mt10760tr479973-9b542d3d-b1b8-4c04-b1b5-bec38d62c5ee",
+          "price_eur": 51890,
+          "price_display": "€ 51.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-09T00:16:48.636434Z",
+          "location": "Helmstedt",
+          "year": 2024,
+          "mileage": "27.000 km",
+          "fuel": "Diesel",
+          "title": "Audi S5 Sportback V6 TDI quattro Competition Edition Plus"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-s5-3-0-tfsi-qu-ahk-matrix-bo-hud-360-benzin-grau-cat_ma9gr202617ge10814va745mt10761tr479973-93c62749-a23a-42f6-94c7-3370e7fb1f2e",
+          "price_eur": 57880,
+          "price_display": "€ 57.880",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-09T00:16:48.636434Z",
+          "location": "Haßfurt",
+          "year": 2025,
+          "mileage": "21.060 km",
+          "fuel": "Benzin",
+          "title": "Audi S5 3.0 TFSI qu.AHK*Matrix*B&O*HuD*360°"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/audi-s5-tfsi-quattro-s-tronic-navi-matrix-benzin-rot-cat_ma9gr202617ge10814va736mt10761tr479973-a76ed404-8632-48d5-8327-08e069be406c",
+          "price_eur": 53980,
+          "price_display": "€ 53.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-08-09T00:16:48.636434Z",
+          "location": "Kitzingen",
+          "year": 2024,
+          "mileage": "23.000 km",
+          "fuel": "Benzin",
+          "title": "Audi S5 TFSI quattro S-tronic/ Navi, Matrix"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/audi/s5?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/audi/s5",
+          "found": 3,
+          "new": 3,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/audi/s5?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
