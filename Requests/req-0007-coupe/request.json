@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g01-bmw",
       "group_name": "BMW Group",
-      "brand_id": "bmw-alpina",
-      "brand_name": "BMW Alpina"
+      "brand_id": "mini",
+      "brand_name": "MINI"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 0,
       "brands_total": 131,
-      "brands_done": 1,
+      "brands_done": 2,
       "brands_failed": 0,
       "models_found": 7,
       "groups": [
@@ -83,9 +83,43 @@
             {
               "brand_id": "bmw-alpina",
               "brand_name": "BMW Alpina",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-09T23:46:26.365772+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 8,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "vocabulary_via_alias": 1,
+                    "models_discovered": 1
+                  },
+                  "autoscout24": {
+                    "vocabulary_via_alias": 1,
+                    "models_discovered": 8
+                  }
+                }
+              }
             },
             {
               "brand_id": "mini",
