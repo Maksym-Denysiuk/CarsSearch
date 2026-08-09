@@ -117,10 +117,10 @@
       "results_path": "Requests/req-0007-coupe/results.json",
       "favorites_path": "Requests/req-0007-coupe/favorites.json",
       "date_of_request": "2026-08-07",
-      "status": "in progress",
+      "status": "done",
       "search_state": {
-        "group": "Chery Group",
-        "brand": "iCar",
+        "group": null,
+        "brand": null,
         "models_done": 113
       },
       "counts": {
