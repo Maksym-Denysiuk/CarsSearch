@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g20-baic",
       "group_name": "BAIC Group",
-      "brand_id": "arcfox",
-      "brand_name": "Arcfox"
+      "brand_id": "bj",
+      "brand_name": "BJ"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 19,
       "brands_total": 131,
-      "brands_done": 78,
+      "brands_done": 79,
       "brands_failed": 39,
       "models_found": 105,
       "groups": [
@@ -4699,9 +4699,48 @@
             {
               "brand_id": "arcfox",
               "brand_name": "Arcfox",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-09T03:40:00.215512+00:00",
+              "diagnostics": {
+                "models_suggested": 5,
+                "searches_attempted": 15,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 178,
+                "unique_offerings": 50,
+                "candidates_checked": 15,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 15
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 34,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 5,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 5,
+                    "candidates_checked": 15,
+                    "firewall_dropped": 15
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 5,
+                    "searches_missing": 5
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0,
+                    "searches_attempted": 5,
+                    "searches_missing": 5
+                  }
+                }
+              }
             },
             {
               "brand_id": "bj",
