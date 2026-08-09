@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-07",
     "status": "in progress",
     "search_state": {
-      "group_id": "g16-chery",
-      "group_name": "Chery Group",
-      "brand_id": "icar",
-      "brand_name": "iCar"
+      "group_id": "g17-changan",
+      "group_name": "Changan Group",
+      "brand_id": "changan",
+      "brand_name": "Changan"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 15,
+      "groups_done": 16,
       "brands_total": 131,
       "brands_done": 72,
-      "brands_failed": 35,
+      "brands_failed": 36,
       "models_found": 99,
       "groups": [
         {
@@ -4088,7 +4088,7 @@
         {
           "group_id": "g16-chery",
           "group_name": "Chery Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "chery",
@@ -4280,9 +4280,40 @@
             {
               "brand_id": "icar",
               "brand_name": "iCar",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-09T03:22:24.860635+00:00",
+              "error": "local_llm_tool_error",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0
+                  }
+                }
+              }
             }
           ]
         },
