@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g04-stellantis",
       "group_name": "Stellantis",
-      "brand_id": "chrysler",
-      "brand_name": "Chrysler"
+      "brand_id": "peugeot",
+      "brand_name": "Peugeot"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 3,
       "brands_total": 131,
-      "brands_done": 18,
+      "brands_done": 19,
       "brands_failed": 3,
       "models_found": 66,
       "groups": [
@@ -893,9 +893,39 @@
             {
               "brand_id": "chrysler",
               "brand_name": "Chrysler",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-09T00:39:03.521924+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 7,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "models_discovered": 2
+                  },
+                  "autoscout24": {
+                    "models_discovered": 7
+                  }
+                }
+              }
             },
             {
               "brand_id": "peugeot",
