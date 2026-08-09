@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g17-changan",
       "group_name": "Changan Group",
-      "brand_id": "changan",
-      "brand_name": "Changan"
+      "brand_id": "deepal",
+      "brand_name": "Deepal"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 16,
       "brands_total": 131,
-      "brands_done": 72,
+      "brands_done": 73,
       "brands_failed": 36,
-      "models_found": 99,
+      "models_found": 105,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -4320,14 +4320,52 @@
         {
           "group_id": "g17-changan",
           "group_name": "Changan Group",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "changan",
               "brand_name": "Changan",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 6,
+              "completed_at": "2026-08-09T03:24:44.488664+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 13,
+                "unique_offerings": 12,
+                "candidates_checked": 6,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 6,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 11,
+                "model_suggestion_retries": 0,
+                "models_discovered": 2,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1,
+                    "searches_missing": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 2,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "deepal",

@@ -2688,6 +2688,140 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "changan-deepal-s07",
+      "name": "Deepal S07",
+      "manufacturer": "Changan",
+      "group_id": "g17-changan",
+      "group_name": "Changan Group",
+      "brand_id": "changan",
+      "brand_name": "Changan",
+      "body_type": "coupe",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 39878,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/changan-deepal-s07-ver-80-kwh-ID8Q0GcD.html",
+          "price_eur": 40990,
+          "price_display": "40 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T03:24:44.485078Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "15 000 km",
+          "fuel": "Elétrico",
+          "title": "Changan Deepal S07 80 kWh"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/changan-deepal-s07-ver-80-kwh-ID8Q0Pny.html",
+          "price_eur": 41500,
+          "price_display": "41 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T03:24:44.485078Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "3 500 km",
+          "fuel": "Elétrico",
+          "title": "Changan Deepal S07 80 kWh"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/changan-deepal-s07-ver-80-kwh-ID8PZ2NY.html",
+          "price_eur": 42900,
+          "price_display": "42 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T03:24:44.485078Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "50 km",
+          "fuel": "Elétrico",
+          "title": "Changan Deepal S07 80 kWh"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/changan-deepal-s07-ev-79-97kwh-rwd-360grad-20zoll-ahk-panorama-elektro-schwarz-cat_ma52058gr202826ge10998-53e4a187-7b96-4da4-96cb-c9e3a25b549d",
+          "price_eur": 38890,
+          "price_display": "€ 38.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T03:24:44.485078Z",
+          "location": "Halstenbek",
+          "year": 2026,
+          "mileage": "5.892 km",
+          "fuel": "Elektro",
+          "title": "Changan Deepal S07 EV 79,97kWh RWD 360Grad/20Zoll/AHK/Panorama"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/changan-deepal-s07-80kwh-panorama-navi-leder-ahk-20-lmf-elektro-schwarz-cat_ma52058gr202826ge10998-fa0048a3-9026-4552-88df-208c067dde16",
+          "price_eur": 37990,
+          "price_display": "€ 37.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T03:24:44.485078Z",
+          "location": "Burgstädt",
+          "year": null,
+          "mileage": "10 km",
+          "fuel": "Elektro",
+          "title": "Changan Deepal S07 /80kWh/Panorama/Navi/Leder/AHK/20\"LMF"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/changan-deepal-s07-deepal-s07-80kwh-pano-leder-360-20-elektro-schwarz-cat_ma52058gr202826ge10998-d29b2b5a-c20a-412a-838b-8ec30965a5e0",
+          "price_eur": 36998,
+          "price_display": "€ 36.998",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T03:24:44.485078Z",
+          "location": "Wuppertal",
+          "year": 2026,
+          "mileage": "0 km",
+          "fuel": "Elektro",
+          "title": "Changan Deepal S07 Deepal S07|80kWh|Pano/Leder|360°|20\"|"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/changan/deepal-s07?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 4,
+          "new": 3,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/changan/deepal-s07",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/changan/deepal-s07?fregfrom=2024",
+          "found": 9,
+          "new": 9,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
