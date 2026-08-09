@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g04-stellantis",
       "group_name": "Stellantis",
-      "brand_id": "maserati",
-      "brand_name": "Maserati"
+      "brand_id": "lancia",
+      "brand_name": "Lancia"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 3,
       "brands_total": 131,
-      "brands_done": 21,
+      "brands_done": 22,
       "brands_failed": 7,
-      "models_found": 66,
+      "models_found": 74,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -1156,9 +1156,46 @@
             {
               "brand_id": "maserati",
               "brand_name": "Maserati",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 8,
+              "completed_at": "2026-08-09T00:55:37.374337+00:00",
+              "diagnostics": {
+                "models_suggested": 2,
+                "searches_attempted": 6,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 30,
+                "unique_offerings": 30,
+                "candidates_checked": 8,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 8,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 16,
+                "model_suggestion_retries": 0,
+                "models_discovered": 9,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 2,
+                    "candidates_checked": 2,
+                    "firewall_kept": 2
+                  },
+                  "auto.pt": {
+                    "models_discovered": 5,
+                    "searches_attempted": 2
+                  },
+                  "autoscout24": {
+                    "models_discovered": 7,
+                    "searches_attempted": 2,
+                    "candidates_checked": 6,
+                    "firewall_kept": 6
+                  }
+                }
+              }
             },
             {
               "brand_id": "lancia",

@@ -1777,6 +1777,218 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "maserati-granturismo",
+      "name": "GranTurismo",
+      "manufacturer": "Maserati",
+      "group_id": "g04-stellantis",
+      "group_name": "Stellantis",
+      "brand_id": "maserati",
+      "brand_name": "Maserati",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 182070,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/maserati-granturismo-ver-3-0-v6-trofeo-ID8PY1AR.html",
+          "price_eur": 239999,
+          "price_display": "239 999",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T00:55:37.371300Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "50 km",
+          "fuel": "Gasolina",
+          "title": "Maserati Granturismo 3.0 V6 Trofeo"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/maserati-granturismo-folgore-bev-maserati-regensburg-elektro-blau-cat_ma45gr200924ge1808tr480455-bb0c2554-7d2c-4481-b230-cf287dc62fd7",
+          "price_eur": 144490,
+          "price_display": "€ 144.490",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T00:55:37.371300Z",
+          "location": "Regensburg",
+          "year": 2025,
+          "mileage": "150 km",
+          "fuel": "Elektro",
+          "title": "Maserati GranTurismo Folgore BEV - Maserati Regensburg"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/maserati-granturismo-trofeo-facelift-my27-590ps-jetzt-zur-bestellak-benzin-weiss-cat_ma45gr200924ge1808tr8110-12a11fa1-5e05-4969-b1a9-79b08f44af61",
+          "price_eur": 190800,
+          "price_display": "€ 190.800",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T00:55:37.371300Z",
+          "location": "Frankfurt am Main",
+          "year": null,
+          "mileage": "0 km",
+          "fuel": "Benzin",
+          "title": "Maserati GranTurismo Trofeo - Facelift MY27 590PS – Jetzt zur Bestellak"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/maserati-granturismo-facelift-my27-490-ps-jetzt-zur-bestellaktion-zum-benzin-weiss-cat_ma45gr200924ge1808tr480455-4d984a89-fbfd-43e4-96f6-1e811f7a6e5d",
+          "price_eur": 152990,
+          "price_display": "€ 152.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-09T00:55:37.371300Z",
+          "location": "Frankfurt am Main",
+          "year": null,
+          "mileage": "0 km",
+          "fuel": "Benzin",
+          "title": "Maserati GranTurismo Facelift MY27 490 PS – Jetzt zur Bestellaktion zum"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/maserati/granturismo?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/maserati/granturismo",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/maserati/granturismo?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "maserati-mc20",
+      "name": "MC20",
+      "manufacturer": "Maserati",
+      "group_id": "g04-stellantis",
+      "group_name": "Stellantis",
+      "brand_id": "maserati",
+      "brand_name": "Maserati",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 259148,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/maserati-mc20-ver-3-0-v6-ID8Q0GtI.html",
+          "price_eur": 275000,
+          "price_display": "275 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-08-09T00:55:37.371300Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "2 500 km",
+          "fuel": "Gasolina",
+          "title": "Maserati MC20 3.0 V6"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/maserati-mc20-cielo-mcpura-cielo-my27-verde-terra-fuoriserie-benzin-gruen-cat_ma45gr200926ge1811va1443tr480458-abdf8bf0-0a39-46b8-82e8-234451d050d8",
+          "price_eur": 313790,
+          "price_display": "€ 313.790",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-09T00:55:37.371300Z",
+          "location": "Singen",
+          "year": null,
+          "mileage": "60 km",
+          "fuel": "Benzin",
+          "title": "Maserati MC20 Cielo MCPURA Cielo MY27 VERDE TERRA FUORISERIE"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/maserati-mc20-3-0-v6-new-carbon-keramik-lift-shz-sonus-benzin-blau-cat_ma45gr200926ge1811va1444tr480458-5869ff80-fa01-44aa-8487-b9ceee2eb5d2",
+          "price_eur": 189900,
+          "price_display": "€ 189.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-09T00:55:37.371300Z",
+          "location": "Bad Oeynhausen",
+          "year": null,
+          "mileage": null,
+          "fuel": "Benzin",
+          "title": "Maserati MC20 3.0 V6 *NEW* Carbon/Keramik/Lift/SHZ/Sonus"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/maserati-mc20-coupe-maserati-regensburg-benzin-schwarz-cat_ma45gr200926ge1811va1444tr480458-f83a652b-fb66-4964-9fee-7b4a2072f9c9",
+          "price_eur": 257900,
+          "price_display": "€ 257.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-09T00:55:37.371300Z",
+          "location": "Regensburg",
+          "year": 2025,
+          "mileage": "1.550 km",
+          "fuel": "Benzin",
+          "title": "Maserati MC20 Coupe - Maserati Regensburg"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/maserati/mc20?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/maserati/mc20",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/maserati/mc20?fregfrom=2024",
+          "found": 8,
+          "new": 8,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
