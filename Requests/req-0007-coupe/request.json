@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g05-toyota",
       "group_name": "Toyota Motor Corporation",
-      "brand_id": "lexus",
-      "brand_name": "Lexus"
+      "brand_id": "century",
+      "brand_name": "Century"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 14,
       "brands_total": 131,
-      "brands_done": 88,
+      "brands_done": 89,
       "brands_failed": 13,
-      "models_found": 110,
+      "models_found": 113,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -1340,9 +1340,45 @@
             {
               "brand_id": "lexus",
               "brand_name": "Lexus",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 3,
+              "completed_at": "2026-08-09T04:08:43.645983+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 3,
+                "unique_offerings": 3,
+                "candidates_checked": 3,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 3,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 8,
+                "model_suggestion_retries": 1,
+                "models_discovered": 19,
+                "models_rejected_as_invented": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1
+                  },
+                  "auto.pt": {
+                    "models_discovered": 8,
+                    "searches_attempted": 1,
+                    "searches_missing": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 12,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "daihatsu",
