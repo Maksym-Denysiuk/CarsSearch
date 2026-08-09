@@ -119,13 +119,13 @@
       "date_of_request": "2026-08-07",
       "status": "in progress",
       "search_state": {
-        "group": "Geely Holding Group & Affiliates",
-        "brand": "Geely Auto",
-        "models_done": 82
+        "group": "Dedicated Electric & Emerging Automotive Manufacturers",
+        "brand": "GAC Aion",
+        "models_done": 91
       },
       "counts": {
-        "models": 21,
-        "offerings": 82
+        "models": 23,
+        "offerings": 91
       }
     }
   ]
