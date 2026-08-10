@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g09-renault-nissan-mitsubishi",
       "group_name": "Renault-Nissan-Mitsubishi Alliance",
-      "brand_id": "alpine",
-      "brand_name": "Alpine"
+      "brand_id": "infiniti",
+      "brand_name": "Infiniti"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 8,
       "brands_total": 131,
-      "brands_done": 37,
+      "brands_done": 38,
       "brands_failed": 10,
-      "models_found": 92,
+      "models_found": 95,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -2030,9 +2030,50 @@
             {
               "brand_id": "alpine",
               "brand_name": "Alpine",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 3,
+              "completed_at": "2026-08-10T01:37:11.022439+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 21,
+                "unique_offerings": 21,
+                "candidates_checked": 4,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 3,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 1
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 9,
+                "model_suggestion_retries": 0,
+                "models_discovered": 3,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1
+                  },
+                  "auto.pt": {
+                    "models_discovered": 2,
+                    "searches_attempted": 1,
+                    "candidates_checked": 1,
+                    "firewall_dropped": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 3,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "infiniti",
