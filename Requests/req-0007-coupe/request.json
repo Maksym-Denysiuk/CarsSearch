@@ -18,67 +18,23 @@
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 2,
+      "groups_done": 1,
       "brands_total": 131,
-      "brands_done": 12,
+      "brands_done": 11,
       "brands_failed": 2,
-      "models_found": 41,
+      "models_found": 34,
       "groups": [
         {
           "group_id": "g01-bmw",
           "group_name": "BMW Group",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "bmw",
               "brand_name": "BMW",
-              "status": "done",
-              "models_found": 7,
-              "completed_at": "2026-08-09T23:43:14.592066+00:00",
-              "diagnostics": {
-                "models_suggested": 2,
-                "searches_attempted": 6,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 77,
-                "unique_offerings": 77,
-                "candidates_checked": 15,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 7,
-                "firewall_drops_by_reason": {
-                  "listed year is older than the request allows": 8
-                },
-                "circuit_breaker_tripped": false,
-                "search_status": "completed",
-                "requests_made": 23,
-                "model_suggestion_retries": 0,
-                "models_discovered": 22,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0,
-                    "searches_attempted": 2,
-                    "candidates_checked": 3,
-                    "firewall_dropped": 2,
-                    "firewall_kept": 1
-                  },
-                  "auto.pt": {
-                    "models_discovered": 14,
-                    "searches_attempted": 2,
-                    "candidates_checked": 6,
-                    "firewall_dropped": 6
-                  },
-                  "autoscout24": {
-                    "models_discovered": 13,
-                    "searches_attempted": 2,
-                    "candidates_checked": 6,
-                    "firewall_kept": 6
-                  }
-                }
-              }
+              "status": "pending",
+              "models_found": 0,
+              "completed_at": null
             },
             {
               "brand_id": "bmw-alpina",
@@ -646,7 +602,7 @@
             {
               "brand_id": "lamborghini",
               "brand_name": "Lamborghini",
-              "status": "pending",
+              "status": "in progress",
               "models_found": 0,
               "completed_at": null
             },
