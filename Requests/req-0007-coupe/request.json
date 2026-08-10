@@ -11,30 +11,62 @@
     "date_of_request": "2026-08-07",
     "status": "in progress",
     "search_state": {
-      "group_id": "g03-vw",
-      "group_name": "Volkswagen Group",
-      "brand_id": "lamborghini",
-      "brand_name": "Lamborghini"
+      "group_id": "g02-mercedes-benz",
+      "group_name": "Mercedes-Benz Group",
+      "brand_id": "mercedes-benz",
+      "brand_name": "Mercedes-Benz"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 1,
       "brands_total": 131,
-      "brands_done": 11,
-      "brands_failed": 2,
+      "brands_done": 12,
+      "brands_failed": 0,
       "models_found": 34,
       "groups": [
         {
           "group_id": "g01-bmw",
           "group_name": "BMW Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "bmw",
               "brand_name": "BMW",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-10T00:12:56.689808+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 19,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "models_discovered": 14
+                  },
+                  "autoscout24": {
+                    "models_discovered": 11
+                  }
+                }
+              }
             },
             {
               "brand_id": "bmw-alpina",
@@ -160,87 +192,21 @@
         {
           "group_id": "g02-mercedes-benz",
           "group_name": "Mercedes-Benz Group",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "mercedes-benz",
               "brand_name": "Mercedes-Benz",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-09T23:53:12.216418+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 27,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 16
-                  },
-                  "autoscout24": {
-                    "models_discovered": 16
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "mercedes-amg",
               "brand_name": "Mercedes-AMG",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-09T23:58:46.128097+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 0
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "mercedes-maybach",
@@ -602,7 +568,7 @@
             {
               "brand_id": "lamborghini",
               "brand_name": "Lamborghini",
-              "status": "in progress",
+              "status": "pending",
               "models_found": 0,
               "completed_at": null
             },
