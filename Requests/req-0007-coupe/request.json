@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g12-electric-emerging",
       "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "fangchengbao",
-      "brand_name": "Fangchengbao"
+      "brand_id": "rivian",
+      "brand_name": "Rivian"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 11,
       "brands_total": 131,
-      "brands_done": 49,
+      "brands_done": 50,
       "brands_failed": 17,
       "models_found": 104,
       "groups": [
@@ -2826,9 +2826,50 @@
             {
               "brand_id": "fangchengbao",
               "brand_name": "Fangchengbao",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-10T02:12:10.084551+00:00",
+              "diagnostics": {
+                "models_suggested": 6,
+                "searches_attempted": 18,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 210,
+                "unique_offerings": 50,
+                "candidates_checked": 16,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 16
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 38,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 6,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 6,
+                    "candidates_checked": 16,
+                    "firewall_dropped": 16
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 6,
+                    "searches_missing": 6
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0,
+                    "searches_attempted": 6,
+                    "searches_missing": 6
+                  }
+                }
+              }
             },
             {
               "brand_id": "rivian",
