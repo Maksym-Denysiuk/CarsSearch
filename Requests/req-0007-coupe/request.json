@@ -18,23 +18,71 @@
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 11,
+      "groups_done": 12,
       "brands_total": 131,
-      "brands_done": 89,
+      "brands_done": 90,
       "brands_failed": 17,
-      "models_found": 102,
+      "models_found": 125,
       "groups": [
         {
           "group_id": "g01-bmw",
           "group_name": "BMW Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "bmw",
               "brand_name": "BMW",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 23,
+              "completed_at": "2026-08-10T04:08:04.256808+00:00",
+              "diagnostics": {
+                "models_suggested": 4,
+                "searches_attempted": 12,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 173,
+                "unique_offerings": 169,
+                "candidates_checked": 36,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 23,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 9,
+                  "title does not mention the searched model": 3,
+                  "title names a conflicting body style": 1
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 50,
+                "model_suggestion_retries": 0,
+                "models_discovered": 21,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 4,
+                    "candidates_checked": 12,
+                    "firewall_kept": 9,
+                    "firewall_dropped": 3
+                  },
+                  "auto.pt": {
+                    "models_discovered": 14,
+                    "searches_attempted": 4,
+                    "candidates_checked": 12,
+                    "firewall_dropped": 9,
+                    "firewall_kept": 3
+                  },
+                  "autoscout24": {
+                    "models_discovered": 13,
+                    "searches_attempted": 4,
+                    "candidates_checked": 12,
+                    "firewall_kept": 11,
+                    "firewall_dropped": 1
+                  }
+                }
+              }
             },
             {
               "brand_id": "bmw-alpina",
