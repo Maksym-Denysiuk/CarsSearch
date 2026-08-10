@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g05-toyota",
       "group_name": "Toyota Motor Corporation",
-      "brand_id": "lexus",
-      "brand_name": "Lexus"
+      "brand_id": "daihatsu",
+      "brand_name": "Daihatsu"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 14,
       "brands_total": 131,
-      "brands_done": 94,
+      "brands_done": 95,
       "brands_failed": 18,
-      "models_found": 132,
+      "models_found": 134,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -1419,9 +1419,55 @@
             {
               "brand_id": "lexus",
               "brand_name": "Lexus",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 2,
+              "completed_at": "2026-08-10T04:14:04.743513+00:00",
+              "diagnostics": {
+                "models_suggested": 2,
+                "searches_attempted": 6,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 69,
+                "unique_offerings": 36,
+                "candidates_checked": 9,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 2,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 3,
+                  "listed year is older than the request allows": 3,
+                  "title names a conflicting body style": 1
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 17,
+                "model_suggestion_retries": 0,
+                "models_discovered": 17,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 2,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3
+                  },
+                  "auto.pt": {
+                    "models_discovered": 8,
+                    "searches_attempted": 2,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3
+                  },
+                  "autoscout24": {
+                    "models_discovered": 10,
+                    "searches_attempted": 2,
+                    "candidates_checked": 3,
+                    "firewall_kept": 2,
+                    "firewall_dropped": 1
+                  }
+                }
+              }
             },
             {
               "brand_id": "daihatsu",
