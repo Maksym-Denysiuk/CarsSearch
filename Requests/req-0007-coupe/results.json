@@ -1918,6 +1918,70 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "chevrolet-camaro",
+      "name": "Camaro",
+      "manufacturer": "Chevrolet",
+      "group_id": "g07-gm",
+      "group_name": "General Motors (GM)",
+      "brand_id": "chevrolet",
+      "brand_name": "Chevrolet",
+      "body_type": "coupe",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 53970,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "1 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/chevrolet-camaro-coupe-6-2l-v8-eu-recaro-klappe-benzin-rot-cat_ma19gr200232-e44b002e-d641-4944-82be-dac4c18147c1",
+          "price_eur": 53970,
+          "price_display": "€ 53.970",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T01:25:21.105451Z",
+          "location": "Freital",
+          "year": 2026,
+          "mileage": "17.470 km",
+          "fuel": "Benzin",
+          "title": "Chevrolet Camaro Coupé 6.2L V8 EU Recaro Klappe"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/chevrolet/camaro?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/chevrolet/camaro",
+          "found": 5,
+          "new": 5,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/chevrolet/camaro?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 2,
+          "error": null
+        }
+      ]
     }
   ]
 }
