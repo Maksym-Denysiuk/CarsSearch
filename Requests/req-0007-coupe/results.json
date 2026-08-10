@@ -1812,6 +1812,112 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "alfa-romeo-giulia",
+      "name": "Giulia",
+      "manufacturer": "Alfa Romeo",
+      "group_id": "g04-stellantis",
+      "group_name": "Stellantis",
+      "brand_id": "alfa-romeo",
+      "brand_name": "Alfa Romeo",
+      "body_type": "coupe",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 43555,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/alfa-romeo-giulia-ver-2-2-d-tributo-q4-at8-ID8PRh79.html",
+          "price_eur": 65000,
+          "price_display": "65 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T00:41:23.722551Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "14 500 km",
+          "fuel": "Diesel",
+          "title": "Alfa Romeo Giulia 2.2 D Tributo Q4 AT8"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/alfa-romeo-giulia-my24-sprint-2-0-turbo-16v-206kw-280-ps-at8-q4-benzin-grau-cat_ma6gr200049ge2278va3967mt12278tr7349-36078ea5-ed63-4ddd-976f-2e2507866b53",
+          "price_eur": 36840,
+          "price_display": "€ 36.840",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T00:41:23.722551Z",
+          "location": "Dülmen",
+          "year": 2024,
+          "mileage": "17.839 km",
+          "fuel": "Benzin",
+          "title": "Alfa Romeo Giulia MY24 SPRINT 2.0 Turbo 16V 206kW (280 PS) AT8 - Q4"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/alfa-romeo-giulia-my24-veloce-premium-paket-benzin-schwarz-cat_ma6gr200049ge2278va3967mt12278tr8275-077ff8fa-1aba-4228-ac01-100448be7ac4",
+          "price_eur": 36890,
+          "price_display": "€ 36.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T00:41:23.722551Z",
+          "location": "Kassel",
+          "year": 2024,
+          "mileage": "19.995 km",
+          "fuel": "Benzin",
+          "title": "Alfa Romeo Giulia MY24 Veloce Premium Paket"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/alfa-romeo-giulia-veloce-q4-2-0-turbo-16v-kam-+keyless+shz-benzin-grau-cat_ma6gr200049ge2278va3967mt12278tr8275-37ba1273-dc91-44e8-bbaf-40e0bd09a32d",
+          "price_eur": 35490,
+          "price_display": "€ 35.490",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T00:41:23.722551Z",
+          "location": "Oldenburg",
+          "year": 2024,
+          "mileage": "22.564 km",
+          "fuel": "Benzin",
+          "title": "Alfa Romeo Giulia Veloce Q4 2.0 Turbo 16V Kam.+KeyLess+SHZ"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/alfa-romeo/giulia?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/alfa-romeo/giulia",
+          "found": 5,
+          "new": 5,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/alfa-romeo/giulia?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
