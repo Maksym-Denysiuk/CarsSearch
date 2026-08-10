@@ -119,12 +119,12 @@
       "date_of_request": "2026-08-07",
       "status": "in progress",
       "search_state": {
-        "group": "Tata Motors & Jaguar Land Rover (JLR)",
-        "brand": "Discovery",
+        "group": "Specialist, Performance, Luxury & Low-Volume Brands",
+        "brand": "McLaren",
         "models_done": 104
       },
       "counts": {
-        "models": 20,
+        "models": 21,
         "offerings": 104
       }
     }
