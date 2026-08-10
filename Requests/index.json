@@ -119,13 +119,13 @@
       "date_of_request": "2026-08-07",
       "status": "in progress",
       "search_state": {
-        "group": "Hyundai Motor Group",
-        "brand": "Kia",
-        "models_done": 83
+        "group": "Tata Motors & Jaguar Land Rover (JLR)",
+        "brand": "Discovery",
+        "models_done": 104
       },
       "counts": {
-        "models": 15,
-        "offerings": 83
+        "models": 20,
+        "offerings": 104
       }
     }
   ]
