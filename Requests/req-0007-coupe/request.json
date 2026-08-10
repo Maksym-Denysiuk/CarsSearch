@@ -11,16 +11,16 @@
     "date_of_request": "2026-08-07",
     "status": "in progress",
     "search_state": {
-      "group_id": "g09-renault-nissan-mitsubishi",
-      "group_name": "Renault-Nissan-Mitsubishi Alliance",
-      "brand_id": "dacia",
-      "brand_name": "Dacia"
+      "group_id": "g10-geely",
+      "group_name": "Geely Holding Group & Affiliates",
+      "brand_id": "geely-auto",
+      "brand_name": "Geely Auto"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 8,
+      "groups_done": 9,
       "brands_total": 131,
-      "brands_done": 39,
+      "brands_done": 40,
       "brands_failed": 10,
       "models_found": 95,
       "groups": [
@@ -1908,7 +1908,7 @@
         {
           "group_id": "g09-renault-nissan-mitsubishi",
           "group_name": "Renault-Nissan-Mitsubishi Alliance",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "renault",
@@ -2117,9 +2117,41 @@
             {
               "brand_id": "dacia",
               "brand_name": "Dacia",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-10T01:38:05.592286+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 6,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "models_discovered": 4
+                  },
+                  "autoscout24": {
+                    "models_discovered": 6
+                  }
+                }
+              }
             }
           ]
         },
