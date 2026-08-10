@@ -1982,6 +1982,168 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "ford-capri",
+      "name": "Capri",
+      "manufacturer": "Ford",
+      "group_id": "g08-ford",
+      "group_name": "Ford Motor Company",
+      "brand_id": "ford",
+      "brand_name": "Ford",
+      "body_type": "coupe",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 37995,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/ford-capri-ver-77kwh-rwd-premium-ID8Q0QiZ.html",
+          "price_eur": 36900,
+          "price_display": "36 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T01:29:28.358517Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "51 237 km",
+          "fuel": "Elétrico",
+          "title": "Ford Capri 77kWh RWD Premium"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/ford-capri-ver-77-kwh-premium-ID8Q0ESy.html",
+          "price_eur": 39990,
+          "price_display": "39 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T01:29:28.358517Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "17 418 km",
+          "fuel": "Elétrico",
+          "title": "Ford Capri 77 kWh Premium"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/ford-capri-ver-77-kwh-premium-ID8Q0Jxt.html",
+          "price_eur": 43500,
+          "price_display": "43 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T01:29:28.358517Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "4 900 km",
+          "fuel": "Elétrico",
+          "title": "Ford Capri 77 kWh Premium"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/ford-capri-77kwh-rwd-premium-id-xFzKHjtc",
+          "price_eur": 36900,
+          "price_display": "36900",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T01:29:28.358517Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "51237 km",
+          "fuel": "Eléctrico",
+          "title": "Ford Capri 77kWh RWD Premium"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/ford-capri-77-kwh-premium-id-oDV5aJfZ",
+          "price_eur": 39990,
+          "price_display": "39990",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T01:29:28.358517Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "17418 km",
+          "fuel": "Eléctrico",
+          "title": "Ford Capri 77 kWh Premium"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ford-capri-210-kw-rwd-basis-+-allwetterreifen-+-massagesitz-+-elektro-schwarz-cat_ma29gr1756ge844mt10904tr480213-eae62b1a-b76a-4616-b125-e37346508f94",
+          "price_eur": 35750,
+          "price_display": "€ 35.750",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T01:29:28.358517Z",
+          "location": "Neuss",
+          "year": 2025,
+          "mileage": "7.997 km",
+          "fuel": "Elektro",
+          "title": "Ford Capri 210 kW RWD Basis + Allwetterreifen + Massagesitz +"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ford-capri-125-kw-rwd-premium-+-panoramadach-+-el-heckklappe-elektro-weiss-cat_ma29gr1756ge844mt10905tr5986-b848258f-8c02-4e26-a0ad-8611b2ed698a",
+          "price_eur": 32450,
+          "price_display": "€ 32.450",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T01:29:28.358517Z",
+          "location": "Neuss",
+          "year": 2024,
+          "mileage": "10.236 km",
+          "fuel": "Elektro",
+          "title": "Ford Capri 125 kW RWD Premium + Panoramadach + el. Heckklappe"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ford-capri-210-kw-rwd-premium-tempomat-kamera-navi-elektro-grau-cat_ma29gr1756ge844mt10904tr5986-545d5c05-6e2f-4907-a9db-687429105684",
+          "price_eur": 38480,
+          "price_display": "€ 38.480",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T01:29:28.358517Z",
+          "location": "Leipzig",
+          "year": 2024,
+          "mileage": "2.240 km",
+          "fuel": "Elektro",
+          "title": "Ford Capri 210 kW RWD Premium Tempomat Kamera Navi"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/ford/capri?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 7,
+          "new": 6,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/ford/capri",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/ford/capri?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
