@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g12-electric-emerging",
       "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-      "brand_id": "xpeng",
-      "brand_name": "Xpeng"
+      "brand_id": "xiaomi",
+      "brand_name": "Xiaomi"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 11,
       "brands_total": 131,
-      "brands_done": 53,
+      "brands_done": 54,
       "brands_failed": 18,
       "models_found": 104,
       "groups": [
@@ -3033,9 +3033,41 @@
             {
               "brand_id": "xpeng",
               "brand_name": "Xpeng",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-10T02:18:38.033311+00:00",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 4,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "models_discovered": 3
+                  },
+                  "autoscout24": {
+                    "models_discovered": 4
+                  }
+                }
+              }
             },
             {
               "brand_id": "xiaomi",
