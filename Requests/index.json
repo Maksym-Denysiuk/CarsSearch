@@ -117,15 +117,15 @@
       "results_path": "Requests/req-0007-coupe/results.json",
       "favorites_path": "Requests/req-0007-coupe/favorites.json",
       "date_of_request": "2026-08-07",
-      "status": "in progress",
+      "status": "done",
       "search_state": {
-        "group": "Volkswagen Group",
-        "brand": "Scout Motors",
-        "models_done": 102
+        "group": null,
+        "brand": null,
+        "models_done": 140
       },
       "counts": {
-        "models": 21,
-        "offerings": 102
+        "models": 31,
+        "offerings": 140
       }
     }
   ]
