@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g11-tata-jlr",
       "group_name": "Tata Motors & Jaguar Land Rover (JLR)",
-      "brand_id": "land-rover",
-      "brand_name": "Land Rover"
+      "brand_id": "range-rover",
+      "brand_name": "Range Rover"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 10,
       "brands_total": 131,
-      "brands_done": 46,
+      "brands_done": 47,
       "brands_failed": 12,
-      "models_found": 95,
+      "models_found": 104,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -2488,9 +2488,55 @@
             {
               "brand_id": "land-rover",
               "brand_name": "Land Rover",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 9,
+              "completed_at": "2026-08-10T01:55:25.085272+00:00",
+              "diagnostics": {
+                "models_suggested": 2,
+                "searches_attempted": 6,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 105,
+                "unique_offerings": 96,
+                "candidates_checked": 15,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 9,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 3,
+                  "title does not mention the searched model": 3
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 23,
+                "model_suggestion_retries": 0,
+                "models_discovered": 7,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 2,
+                    "candidates_checked": 6,
+                    "firewall_kept": 3,
+                    "firewall_dropped": 3
+                  },
+                  "auto.pt": {
+                    "models_discovered": 5,
+                    "searches_attempted": 2,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3,
+                    "searches_missing": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 4,
+                    "searches_attempted": 2,
+                    "candidates_checked": 6,
+                    "firewall_kept": 6
+                  }
+                }
+              }
             },
             {
               "brand_id": "range-rover",

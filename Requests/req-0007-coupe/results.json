@@ -2236,6 +2236,232 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "land-rover-range-rover-sport",
+      "name": "Range Rover Sport",
+      "manufacturer": "Land Rover",
+      "group_id": "g11-tata-jlr",
+      "group_name": "Tata Motors & Jaguar Land Rover (JLR)",
+      "brand_id": "land-rover",
+      "brand_name": "Land Rover",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 120345,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/land-rover-range-rover-sport-ver-p460e-dynamic-hse-ID8Q0QG3.html",
+          "price_eur": 129990,
+          "price_display": "129 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T01:55:24.583775Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "8 000 km",
+          "fuel": "Híbrido Plug-In",
+          "title": "Land Rover Range Rover Sport P460e Dynamic HSE"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/land-rover-range-rover-sport-ver-3-0-p460e-dynamic-hse-ID8Q0Nh5.html",
+          "price_eur": 97500,
+          "price_display": "97 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T01:55:24.583775Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "57 771 km",
+          "fuel": "Híbrido Plug-In",
+          "title": "Land Rover Range Rover Sport 3.0 P460e Dynamic HSE"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/land-rover-range-rover-sport-ID8Q0Klx.html",
+          "price_eur": 120000,
+          "price_display": "120 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T01:55:24.583775Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "10 000 km",
+          "fuel": "Híbrido Plug-In",
+          "title": "Land Rover Range Rover Sport"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/land-rover-range-rover-sport-autobiography-p530-4-4-v8-mild-hybrid-eu6e-park-as-benzin-schwarz-cat_ma15641gr200833ge1868mt2562tr2680-2ab3390e-3bd8-4b3e-9a38-4b5786edc364",
+          "price_eur": 117790,
+          "price_display": "€ 117.790",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T01:55:24.583775Z",
+          "location": "Köln",
+          "year": 2025,
+          "mileage": "6.150 km",
+          "fuel": "Benzin",
+          "title": "Land Rover Range Rover Sport Autobiography P530 4.4 V8 Mild-Hybrid EU6e Park-As"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/land-rover-range-rover-sport-p460e-hybrid-dynamic-hse-22-elektro-benzin-schwarz-cat_ma15641gr200833ge1868mt2570tr2670-2ec0a259-b615-47f7-92d5-66ece10cddb2",
+          "price_eur": 112800,
+          "price_display": "€ 112.800",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T01:55:24.584310Z",
+          "location": "Kolbermoor",
+          "year": 2026,
+          "mileage": "50 km",
+          "fuel": "Elektro/Benzin",
+          "title": "Land Rover Range Rover Sport P460e Hybrid Dynamic HSE -22%"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/land-rover-range-rover-sport-p530-autobiography-benzin-schwarz-cat_ma15641gr200833ge1868mt2573tr1257-cc1ac05d-f12a-493f-990d-e9bbccf45664",
+          "price_eur": 143990,
+          "price_display": "€ 143.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T01:55:24.584310Z",
+          "location": "Regensburg",
+          "year": 2025,
+          "mileage": "1.550 km",
+          "fuel": "Benzin",
+          "title": "Land Rover Range Rover Sport P530 Autobiography"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/land-rover/range-rover-sport?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 12,
+          "new": 11,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/land-rover/range-rover-sport",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/land-rover/range-rover-sport?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "land-rover-range-rover-velar",
+      "name": "Range Rover Velar",
+      "manufacturer": "Land Rover",
+      "group_id": "g11-tata-jlr",
+      "group_name": "Tata Motors & Jaguar Land Rover (JLR)",
+      "brand_id": "land-rover",
+      "brand_name": "Land Rover",
+      "body_type": "coupe",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 57193,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/land-rover-range-rover-velar-p400-autobiography-22-black-benzin-schwarz-cat_ma15641gr200837ge1869va3541mt2591tr2679-0c954511-7243-49ba-986c-ba2cf8332aeb",
+          "price_eur": 64890,
+          "price_display": "€ 64.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-10T01:55:24.584310Z",
+          "location": "Nürnberg",
+          "year": 2024,
+          "mileage": "43.490 km",
+          "fuel": "Benzin",
+          "title": "Land Rover Range Rover Velar P400 Autobiography 22 Black"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/land-rover-range-rover-velar-d300-dynamic-se-headup-pano-navi-diesel-grau-cat_ma15641gr200837ge1869va3541mt2589tr2679-cbae3038-af66-437f-a39f-68aaba6e344b",
+          "price_eur": 54800,
+          "price_display": "€ 54.800",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-10T01:55:24.584310Z",
+          "location": "Kolbermoor",
+          "year": 2024,
+          "mileage": "22.980 km",
+          "fuel": "Diesel",
+          "title": "Land Rover Range Rover Velar D300 Dynamic SE HeadUp/Pano Navi"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/land-rover-range-rover-velar-d300-awd-dynamic-se-ahk-21-wi-diesel-grau-cat_ma15641gr200837ge1869va3541mt2589tr2679-249b3636-ffd3-4217-b93c-c8ba932a84a1",
+          "price_eur": 51890,
+          "price_display": "€ 51.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-08-10T01:55:24.584310Z",
+          "location": "Göttingen",
+          "year": 2025,
+          "mileage": "41.990 km",
+          "fuel": "Diesel",
+          "title": "Land Rover Range Rover Velar D300 AWD Dynamic SE AHK 21\" Wi"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/land-rover/range-rover-velar?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 33,
+          "new": 25,
+          "duplicates": 8,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/land-rover/range-rover-velar",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/land-rover/range-rover-velar?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
