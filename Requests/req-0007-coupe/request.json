@@ -11,17 +11,17 @@
     "date_of_request": "2026-08-07",
     "status": "in progress",
     "search_state": {
-      "group_id": "g11-tata-jlr",
-      "group_name": "Tata Motors & Jaguar Land Rover (JLR)",
-      "brand_id": "discovery",
-      "brand_name": "Discovery"
+      "group_id": "g12-electric-emerging",
+      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+      "brand_id": "byd",
+      "brand_name": "BYD"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 17,
+      "groups_done": 18,
       "brands_total": 131,
       "brands_done": 98,
-      "brands_failed": 20,
+      "brands_failed": 21,
       "models_found": 140,
       "groups": [
         {
@@ -2447,7 +2447,7 @@
         {
           "group_id": "g11-tata-jlr",
           "group_name": "Tata Motors & Jaguar Land Rover (JLR)",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "tata-motors",
@@ -2664,9 +2664,47 @@
             {
               "brand_id": "discovery",
               "brand_name": "Discovery",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-10T04:28:04.177277+00:00",
+              "error": "circuit_breaker_tripped",
+              "diagnostics": {
+                "models_suggested": 8,
+                "searches_attempted": 15,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": true,
+                "search_status": "completed_no_offerings",
+                "requests_made": 19,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 5,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 5
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 5,
+                    "searches_missing": 5
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0,
+                    "searches_attempted": 5,
+                    "searches_missing": 5
+                  }
+                }
+              }
             }
           ]
         },
