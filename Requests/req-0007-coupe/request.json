@@ -13,15 +13,15 @@
     "search_state": {
       "group_id": "g11-tata-jlr",
       "group_name": "Tata Motors & Jaguar Land Rover (JLR)",
-      "brand_id": "defender",
-      "brand_name": "Defender"
+      "brand_id": "discovery",
+      "brand_name": "Discovery"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 17,
       "brands_total": 131,
       "brands_done": 98,
-      "brands_failed": 19,
+      "brands_failed": 20,
       "models_found": 140,
       "groups": [
         {
@@ -2624,9 +2624,42 @@
             {
               "brand_id": "defender",
               "brand_name": "Defender",
-              "status": "pending",
+              "status": "failed",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-10T04:27:16.758349+00:00",
+              "error": "local_llm_tool_error",
+              "diagnostics": {
+                "models_suggested": 0,
+                "searches_attempted": 0,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 0,
+                "unique_offerings": 0,
+                "candidates_checked": 0,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": null,
+                "requests_made": 0,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0
+                  }
+                }
+              }
             },
             {
               "brand_id": "discovery",
