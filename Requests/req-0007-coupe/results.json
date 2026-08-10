@@ -3379,6 +3379,140 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "polestar-4",
+      "name": "4",
+      "manufacturer": "Polestar",
+      "group_id": "g10-geely",
+      "group_name": "Geely Holding Group & Affiliates",
+      "brand_id": "polestar",
+      "brand_name": "Polestar",
+      "body_type": "coupe",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 50737,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.auto.pt/carros-usados/polestar-4-long-range-single-i-v-a-dedutivel-id-Et0WqToi",
+          "price_eur": 48900,
+          "price_display": "48900",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T04:16:20.358826Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "13320 km",
+          "fuel": "Eléctrico",
+          "title": "Polestar 4 Long Range Single I.V.A DEDUTIVEL"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/polestar-4-long-range-100-kwh-single-motor-plus-id-0jowkDew",
+          "price_eur": 46990,
+          "price_display": "46990",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T04:16:20.358826Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "15000 km",
+          "fuel": "Eléctrico",
+          "title": "Polestar 4 Long Range 100 kWh Single Motor Plus"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/polestar-4-94-kwh-id-E3zDCzBV",
+          "price_eur": 54900,
+          "price_display": "54900",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T04:16:20.358826Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "9534 km",
+          "fuel": "Eléctrico",
+          "title": "Polestar 4 94 kWh"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/polestar-4-200-kw-long-range-single-22kw-pilot-pixel-hk-elektro-grau-cat_ma51817gr201237ge1586-8c65ae28-b82c-47c0-a205-00f4640b1d55",
+          "price_eur": 45990,
+          "price_display": "€ 45.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T04:16:20.358826Z",
+          "location": "Bad Hersfeld",
+          "year": 2025,
+          "mileage": "6.709 km",
+          "fuel": "Elektro",
+          "title": "Polestar 4 200 kW Long Range Single 22KW Pilot Pixel HK"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/polestar-4-long-range-dual-motor-elektro-silber-cat_ma51817gr201237ge1586-5943683f-5d07-4665-bc96-7bbf2fa9884e",
+          "price_eur": 55740,
+          "price_display": "€ 55.740",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T04:16:20.358826Z",
+          "location": "Düsseldorf",
+          "year": 2025,
+          "mileage": "500 km",
+          "fuel": "Elektro",
+          "title": "Polestar 4 Long Range Dual Motor"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/polestar-4-long-range-dual-pilot-plus-21-bluetooth-led-elektro-weiss-cat_ma51817gr201237ge1586-343d4b15-e76b-4606-9f4b-085d46fcf23b",
+          "price_eur": 51900,
+          "price_display": "€ 51.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-08-10T04:16:20.358826Z",
+          "location": "Traunstein/Obb.",
+          "year": 2024,
+          "mileage": "12.950 km",
+          "fuel": "Elektro",
+          "title": "Polestar 4 Long Range Dual PILOT PLUS 21 Bluetooth LED"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/polestar/4?search%5Bfilter_float_first_registration_year%3Afrom%5D=2024",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/polestar/4",
+          "found": 5,
+          "new": 5,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/polestar/4?fregfrom=2024",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }

@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g10-geely",
       "group_name": "Geely Holding Group & Affiliates",
-      "brand_id": "polestar",
-      "brand_name": "Polestar"
+      "brand_id": "zeekr",
+      "brand_name": "Zeekr"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 16,
       "brands_total": 131,
-      "brands_done": 97,
+      "brands_done": 98,
       "brands_failed": 18,
-      "models_found": 134,
+      "models_found": 140,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -2281,9 +2281,48 @@
             {
               "brand_id": "polestar",
               "brand_name": "Polestar",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 6,
+              "completed_at": "2026-08-10T04:16:20.553208+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 25,
+                "unique_offerings": 25,
+                "candidates_checked": 6,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 6,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 11,
+                "model_suggestion_retries": 0,
+                "models_discovered": 3,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1
+                  },
+                  "auto.pt": {
+                    "models_discovered": 3,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  },
+                  "autoscout24": {
+                    "models_discovered": 3,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "lotus",
