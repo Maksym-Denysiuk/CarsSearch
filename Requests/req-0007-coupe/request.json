@@ -13,14 +13,14 @@
     "search_state": {
       "group_id": "g04-stellantis",
       "group_name": "Stellantis",
-      "brand_id": "abarth",
-      "brand_name": "Abarth"
+      "brand_id": "maserati",
+      "brand_name": "Maserati"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 13,
       "brands_total": 131,
-      "brands_done": 92,
+      "brands_done": 93,
       "brands_failed": 18,
       "models_found": 125,
       "groups": [
@@ -1202,9 +1202,48 @@
             {
               "brand_id": "abarth",
               "brand_name": "Abarth",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-08-10T04:11:52.995101+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 2,
+                "unique_offerings": 2,
+                "candidates_checked": 2,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 2
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 7,
+                "model_suggestion_retries": 0,
+                "models_discovered": 8,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1
+                  },
+                  "auto.pt": {
+                    "models_discovered": 6,
+                    "searches_attempted": 1,
+                    "candidates_checked": 2,
+                    "firewall_dropped": 2
+                  },
+                  "autoscout24": {
+                    "models_discovered": 6,
+                    "searches_attempted": 1
+                  }
+                }
+              }
             },
             {
               "brand_id": "maserati",
