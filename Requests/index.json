@@ -117,15 +117,15 @@
       "results_path": "Requests/req-0007-coupe/results.json",
       "favorites_path": "Requests/req-0007-coupe/favorites.json",
       "date_of_request": "2026-08-07",
-      "status": "tbd",
+      "status": "in progress",
       "search_state": {
-        "group": "BMW Group",
-        "brand": "BMW",
-        "models_done": 0
+        "group": "Hyundai Motor Group",
+        "brand": "Kia",
+        "models_done": 83
       },
       "counts": {
-        "models": 0,
-        "offerings": 0
+        "models": 15,
+        "offerings": 83
       }
     }
   ]
