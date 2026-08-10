@@ -928,7 +928,7 @@
       "body_type": "coupe",
       "tier": "mainstream",
       "first_year": null,
-      "average_budget_eur": 32974,
+      "average_budget_eur": 34073,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
       "search_status_note": "Enough surviving offerings from enough distinct source domains.",
@@ -1002,20 +1002,6 @@
           "mileage": "18.800 km",
           "fuel": "Benzin",
           "title": "Mercedes-Benz CLA 180 Coupé LED/NAVI/KAMERA"
-        },
-        {
-          "url": "https://www.autoscout24.de/angebote/mercedes-benz-cla-shooting-brake-kamera-led-navi-benzin-schwarz-cat_ma47gr100096ge252va248mt617tr3183-50d3856a-a430-45a9-ad4a-188634343a9b",
-          "price_eur": 27480,
-          "price_display": "€ 27.480",
-          "country": "DE",
-          "source_domain": "autoscout24.de",
-          "found_in_round": 2,
-          "captured_at": "2026-08-10T00:19:22.957589Z",
-          "location": "Geislingen / Steige",
-          "year": 2025,
-          "mileage": "14.500 km",
-          "fuel": "Benzin",
-          "title": "Mercedes-Benz CLA 180 Shooting Brake KAMERA/LED/NAVI"
         }
       ],
       "offering_search_log": [
@@ -1062,7 +1048,7 @@
       "body_type": "coupe",
       "tier": "premium",
       "first_year": null,
-      "average_budget_eur": 41783,
+      "average_budget_eur": 45380,
       "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
       "search_status": "completed",
       "search_status_note": "Enough surviving offerings from enough distinct source domains.",
@@ -1136,20 +1122,6 @@
           "mileage": "18.542 km",
           "fuel": "Diesel",
           "title": "Mercedes-Benz CLA 220 d Coupé AMG-Sport/Pano/Night/Distr/Totw"
-        },
-        {
-          "url": "https://www.autoscout24.de/angebote/mercedes-benz-cla-d-shooting-brake-aut-entry-led-shz-klima-nav-ha-diesel-grau-cat_ma47gr100096ge252va248mt619tr480499-2a41b176-8603-435e-998a-06d739891f69",
-          "price_eur": 23800,
-          "price_display": "€ 23.800",
-          "country": "DE",
-          "source_domain": "autoscout24.de",
-          "found_in_round": 3,
-          "captured_at": "2026-08-10T00:19:22.957589Z",
-          "location": "Oberhaching",
-          "year": 2024,
-          "mileage": "73.609 km",
-          "fuel": "Diesel",
-          "title": "Mercedes-Benz CLA 220 d Shooting Brake Aut. Entry - LED/SHZ/Klima/Nav/Ha"
         }
       ],
       "offering_search_log": [

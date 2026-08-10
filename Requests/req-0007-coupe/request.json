@@ -9,64 +9,32 @@
   },
   "system_fields": {
     "date_of_request": "2026-08-07",
-    "status": "done",
+    "status": "in progress",
     "search_state": {
-      "group_id": null,
-      "group_name": null,
-      "brand_id": null,
-      "brand_name": null
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "scout-motors",
+      "brand_name": "Scout Motors"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 25,
+      "groups_done": 11,
       "brands_total": 131,
-      "brands_done": 90,
-      "brands_failed": 41,
-      "models_found": 104,
+      "brands_done": 89,
+      "brands_failed": 17,
+      "models_found": 102,
       "groups": [
         {
           "group_id": "g01-bmw",
           "group_name": "BMW Group",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "bmw",
               "brand_name": "BMW",
-              "status": "done",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T00:12:56.689808+00:00",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 19,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 14
-                  },
-                  "autoscout24": {
-                    "models_discovered": 11
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "bmw-alpina",
@@ -198,7 +166,7 @@
               "brand_id": "mercedes-benz",
               "brand_name": "Mercedes-Benz",
               "status": "done",
-              "models_found": 40,
+              "models_found": 38,
               "completed_at": "2026-08-10T00:19:24.560375+00:00",
               "diagnostics": {
                 "models_suggested": 7,
@@ -376,7 +344,7 @@
         {
           "group_id": "g03-vw",
           "group_name": "Volkswagen Group",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "volkswagen",
@@ -737,49 +705,16 @@
             {
               "brand_id": "scout-motors",
               "brand_name": "Scout Motors",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T00:34:38.349198+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 0
-                  }
-                }
-              }
+              "completed_at": null
             }
           ]
         },
         {
           "group_id": "g04-stellantis",
           "group_name": "Stellantis",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "alfa-romeo",
@@ -834,42 +769,9 @@
             {
               "brand_id": "jeep",
               "brand_name": "Jeep",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T00:46:55.326027+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 6,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 4
-                  },
-                  "autoscout24": {
-                    "models_discovered": 6
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "ram",
@@ -913,42 +815,9 @@
             {
               "brand_id": "dodge",
               "brand_name": "Dodge",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T00:47:18.481565+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 9,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 6
-                  },
-                  "autoscout24": {
-                    "models_discovered": 5
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "chrysler",
@@ -1188,82 +1057,16 @@
             {
               "brand_id": "abarth",
               "brand_name": "Abarth",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T01:00:44.406662+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 8,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 1,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 6
-                  },
-                  "autoscout24": {
-                    "models_discovered": 6
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "maserati",
               "brand_name": "Maserati",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T01:10:46.414907+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 7,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 1,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 5
-                  },
-                  "autoscout24": {
-                    "models_discovered": 5
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "lancia",
@@ -1349,7 +1152,7 @@
         {
           "group_id": "g05-toyota",
           "group_name": "Toyota Motor Corporation",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "toyota",
@@ -1393,82 +1196,16 @@
             {
               "brand_id": "lexus",
               "brand_name": "Lexus",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T01:19:07.883341+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 19,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 8
-                  },
-                  "autoscout24": {
-                    "models_discovered": 12
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "daihatsu",
               "brand_name": "Daihatsu",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T01:19:09.386842+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 6,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 1
-                  },
-                  "autoscout24": {
-                    "models_discovered": 6
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "century",
@@ -1515,7 +1252,7 @@
         {
           "group_id": "g06-hyundai",
           "group_name": "Hyundai Motor Group",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "hyundai",
@@ -1598,42 +1335,9 @@
             {
               "brand_id": "genesis",
               "brand_name": "Genesis",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T01:24:19.039388+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 7,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 7
-                  }
-                }
-              }
+              "completed_at": null
             }
           ]
         },
@@ -2158,7 +1862,7 @@
         {
           "group_id": "g10-geely",
           "group_name": "Geely Holding Group & Affiliates",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "geely-auto",
@@ -2244,42 +1948,9 @@
             {
               "brand_id": "polestar",
               "brand_name": "Polestar",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T01:46:45.997671+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 3,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 3
-                  },
-                  "autoscout24": {
-                    "models_discovered": 3
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "lotus",
@@ -2323,42 +1994,9 @@
             {
               "brand_id": "zeekr",
               "brand_name": "Zeekr",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T01:54:20.539907+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 4,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 4
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "lynk-and-co",
@@ -2404,7 +2042,7 @@
         {
           "group_id": "g11-tata-jlr",
           "group_name": "Tata Motors & Jaguar Land Rover (JLR)",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "tata-motors",
@@ -2581,89 +2219,23 @@
             {
               "brand_id": "defender",
               "brand_name": "Defender",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T02:01:04.612493+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 0
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "discovery",
               "brand_name": "Discovery",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T02:01:19.392372+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 0
-                  }
-                }
-              }
+              "completed_at": null
             }
           ]
         },
         {
           "group_id": "g12-electric-emerging",
           "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "tesla",
@@ -2707,42 +2279,9 @@
             {
               "brand_id": "byd",
               "brand_name": "BYD",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T02:07:34.035957+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 9,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 7
-                  },
-                  "autoscout24": {
-                    "models_discovered": 7
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "denza",
@@ -2786,42 +2325,9 @@
             {
               "brand_id": "yangwang",
               "brand_name": "Yangwang",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T02:10:38.952891+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 0
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "fangchengbao",
@@ -3072,42 +2578,9 @@
             {
               "brand_id": "xiaomi",
               "brand_name": "Xiaomi",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T02:18:48.447775+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 2,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 2
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "vinfast",
@@ -3577,7 +3050,7 @@
         {
           "group_id": "g14-specialist-low-volume",
           "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "ferrari",
@@ -3819,42 +3292,9 @@
             {
               "brand_id": "ariel-motor-company",
               "brand_name": "Ariel Motor Company",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T02:45:48.001889+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 0
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "bac",
@@ -3979,82 +3419,16 @@
             {
               "brand_id": "manhart-performance",
               "brand_name": "Manhart Performance",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T02:57:38.061849+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 0
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "czinger-vehicles",
               "brand_name": "Czinger Vehicles",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T02:58:24.187667+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 0
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "de-tomaso",
@@ -4100,7 +3474,7 @@
         {
           "group_id": "g15-gwm",
           "group_name": "Great Wall Motor (GWM)",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "haval",
@@ -4183,42 +3557,9 @@
             {
               "brand_id": "tank",
               "brand_name": "Tank",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T03:03:42.083081+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 0
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "ora",
@@ -4304,7 +3645,7 @@
         {
           "group_id": "g16-chery",
           "group_name": "Chery Group",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "chery",
@@ -4348,42 +3689,9 @@
             {
               "brand_id": "exeed",
               "brand_name": "Exeed",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T03:14:48.196607+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 0
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "jetour",
@@ -4891,7 +4199,7 @@
         {
           "group_id": "g20-baic",
           "group_name": "BAIC Group",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "baic",
@@ -4935,42 +4243,9 @@
             {
               "brand_id": "arcfox",
               "brand_name": "Arcfox",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T03:42:00.727963+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 0
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "bj",
@@ -5157,7 +4432,7 @@
         {
           "group_id": "g23-huawei-hima",
           "group_name": "Huawei HIMA Alliance",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "aito",
@@ -5202,89 +4477,23 @@
             {
               "brand_id": "luxeed",
               "brand_name": "Luxeed",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T03:52:59.173316+00:00",
-              "error": "local_llm_unavailable",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 0
-                  }
-                }
-              }
+              "completed_at": null
             },
             {
               "brand_id": "stelato",
               "brand_name": "Stelato",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T03:53:08.548198+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 0,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 0
-                  }
-                }
-              }
+              "completed_at": null
             }
           ]
         },
         {
           "group_id": "g24-chinese-ev-independents",
           "group_name": "Chinese EV Independents",
-          "status": "done",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "li-auto",
@@ -5329,42 +4538,9 @@
             {
               "brand_id": "leapmotor",
               "brand_name": "Leapmotor",
-              "status": "failed",
+              "status": "pending",
               "models_found": 0,
-              "completed_at": "2026-08-10T03:58:24.217927+00:00",
-              "error": "local_llm_tool_error",
-              "diagnostics": {
-                "models_suggested": 0,
-                "searches_attempted": 0,
-                "search_fetch_failures": 0,
-                "parse_failures": 0,
-                "cards_parsed": 0,
-                "unique_offerings": 0,
-                "candidates_checked": 0,
-                "candidate_fetch_failures": 0,
-                "firewall_kept": 0,
-                "firewall_drops_by_reason": {},
-                "circuit_breaker_tripped": false,
-                "search_status": null,
-                "requests_made": 0,
-                "model_suggestion_retries": 0,
-                "models_discovered": 4,
-                "models_rejected_as_invented": 0,
-                "model_suggestion_context_splits": 0,
-                "model_suggestion_context_drops": 0,
-                "models_unverified_dropped": 0,
-                "by_source": {
-                  "standvirtual": {
-                    "models_discovered": 0
-                  },
-                  "auto.pt": {
-                    "models_discovered": 0
-                  },
-                  "autoscout24": {
-                    "models_discovered": 4
-                  }
-                }
-              }
+              "completed_at": null
             }
           ]
         },
