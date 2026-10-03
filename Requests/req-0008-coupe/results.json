@@ -1518,6 +1518,55 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "lexus-lc",
+      "name": "LC",
+      "manufacturer": "Lexus",
+      "group_id": "g05-toyota",
+      "group_name": "Toyota Motor Corporation",
+      "brand_id": "lexus",
+      "brand_name": "Lexus",
+      "body_type": "coupe",
+      "tier": "unconfirmed",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/lexus/lc?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 36,
+          "new": 34,
+          "duplicates": 2,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/lexus/lc",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/lexus/lc?fregfrom=2022",
+          "found": 4,
+          "new": 4,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        }
+      ]
     }
   ]
 }
