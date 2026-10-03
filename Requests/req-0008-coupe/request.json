@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g08-ford",
       "group_name": "Ford Motor Company",
-      "brand_id": "ford",
-      "brand_name": "Ford"
+      "brand_id": "lincoln",
+      "brand_name": "Lincoln"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 7,
       "brands_total": 131,
-      "brands_done": 39,
+      "brands_done": 40,
       "brands_failed": 3,
-      "models_found": 62,
+      "models_found": 68,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -1851,14 +1851,57 @@
         {
           "group_id": "g08-ford",
           "group_name": "Ford Motor Company",
-          "status": "pending",
+          "status": "in progress",
           "brands": [
             {
               "brand_id": "ford",
               "brand_name": "Ford",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 6,
+              "completed_at": "2026-10-03T04:21:13.311095+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 31,
+                "unique_offerings": 31,
+                "candidates_checked": 9,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 6,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 3
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 14,
+                "model_suggestion_retries": 0,
+                "models_discovered": 15,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  },
+                  "auto.pt": {
+                    "models_discovered": 11,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 3
+                  },
+                  "autoscout24": {
+                    "models_discovered": 10,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "lincoln",

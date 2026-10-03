@@ -1723,6 +1723,140 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "ford-mustang",
+      "name": "Mustang",
+      "manufacturer": "Ford",
+      "group_id": "g08-ford",
+      "group_name": "Ford Motor Company",
+      "brand_id": "ford",
+      "brand_name": "Ford",
+      "body_type": "coupe",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 82048,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/ford-mustang-ver-5-0-ti-vct-mach-1-aut-ID8Q0Rzt.html",
+          "price_eur": 97500,
+          "price_display": "97 500",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:21:12.976470Z",
+          "location": null,
+          "year": 2022,
+          "mileage": "21 000 km",
+          "fuel": "Gasolina",
+          "title": "Ford Mustang 5.0 Ti-VCT Mach 1 Aut."
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/ford-mustang-ver-5-0-ti-vct-mach-1-ID8Q0kB8.html",
+          "price_eur": 109900,
+          "price_display": "109 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:21:12.976470Z",
+          "location": null,
+          "year": 2023,
+          "mileage": "3 794 km",
+          "fuel": "Gasolina",
+          "title": "Ford Mustang 5.0 Ti-VCT Mach 1"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/ford-mustang-ver-5-0-ti-vct-dark-horse-ID8Q0Xpj.html",
+          "price_eur": 102599,
+          "price_display": "102 599",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:21:12.976470Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "599 km",
+          "fuel": "Gasolina",
+          "title": "Ford Mustang 5.0 Ti-VCT Dark Horse"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ford-mustang-5-0-gt-bo-apple-shz-sbl-totw-kamera-r19-benzin-grau-cat_ma29gr2149ge551va433mt1079tr640-fdc8c8df-4d6e-4dae-8dbe-20a7d4f086e7",
+          "price_eur": 33450,
+          "price_display": "€ 33.450",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:21:12.976470Z",
+          "location": "Rennerod",
+          "year": 2022,
+          "mileage": "44.227 km",
+          "fuel": "Benzin",
+          "title": "Ford Mustang 5.0 GT/B&O/APPLE/SHZ/SBL/TOTW/KAMERA/R19"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ford-mustang-5-0-dark-horse-supercharged-750-ps-benzin-blau-cat_ma29gr2149ge552va433mt1079tr638-7822f5e5-86b6-402c-93ce-c7171dfb3cb4",
+          "price_eur": 99990,
+          "price_display": "€ 99.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:21:12.976470Z",
+          "location": "Troisdorf",
+          "year": 2024,
+          "mileage": "6.855 km",
+          "fuel": "Benzin",
+          "title": "Ford Mustang 5.0 DARK HORSE SUPERCHARGED | 750 PS"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ford-mustang-5-0-ti-vct-v8-gt-fastback-sync4-bo-benzin-blau-cat_ma29gr2149ge552va433mt1079tr637-d7ac0812-ed2f-43f2-9ff3-ddd54a5ed61f",
+          "price_eur": 48850,
+          "price_display": "€ 48.850",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:21:12.976470Z",
+          "location": "Rosenfeld",
+          "year": 2025,
+          "mileage": "40.272 km",
+          "fuel": "Benzin",
+          "title": "Ford Mustang 5.0 Ti-VCT V8 GT Fastback  *SYNC4*B&O*"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/ford/mustang?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 3,
+          "new": 3,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/ford/mustang",
+          "found": 8,
+          "new": 8,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/ford/mustang?fregfrom=2022",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
