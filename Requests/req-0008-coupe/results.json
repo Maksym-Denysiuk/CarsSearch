@@ -1857,6 +1857,161 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "alpine-a110",
+      "name": "A110",
+      "manufacturer": "Alpine",
+      "group_id": "g09-renault-nissan-mitsubishi",
+      "group_name": "Renault-Nissan-Mitsubishi Alliance",
+      "brand_id": "alpine",
+      "brand_name": "Alpine",
+      "body_type": "coupe",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 81040,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/alpine-a110-ver-s-ID8Q0F3n.html",
+          "price_eur": 94990,
+          "price_display": "94 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:21:54.697606Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "12 000 km",
+          "fuel": "Gasolina",
+          "title": "Alpine A110 S"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/alpine-a110-basis-252-ps-telemetrics-einparkhilfe-hinten-benzin-weiss-cat_ma51796gr200094ge2243tr479937-f8e43031-0c31-4f2b-8ff8-6e1600a9b6d5",
+          "price_eur": 54290,
+          "price_display": "€ 54.290",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:21:54.697606Z",
+          "location": "Saarbrücken",
+          "year": 2023,
+          "mileage": "14.000 km",
+          "fuel": "Benzin",
+          "title": "Alpine A110 Basis 252 PS Telemetrics Einparkhilfe hinten"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/alpine-a110-r-1-8-tce-300-eu6d-benzin-schwarz-cat_ma51796gr200094ge2243tr479937-01d80d2f-427b-415e-8916-75607631570b",
+          "price_eur": 96890,
+          "price_display": "€ 96.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:21:54.697606Z",
+          "location": "Berlin - Steglitz",
+          "year": 2024,
+          "mileage": "15.100 km",
+          "fuel": "Benzin",
+          "title": "Alpine Alpine A110 R 1.8 TCe 300 EU6d"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/alpine-a110-gts-last-call-benzin-blau-cat_ma51796gr200094-488a3977-8ff7-4739-a426-c6dc76346960",
+          "price_eur": 77990,
+          "price_display": "€ 77.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:21:54.697606Z",
+          "location": "Berlin",
+          "year": null,
+          "mileage": null,
+          "fuel": "Benzin",
+          "title": "Alpine A110 GTS - Last Call"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/alpine/a110?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/alpine/a110",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/alpine/a110?fregfrom=2022",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "alpine-alpine-a110",
+      "name": "Alpine A110",
+      "manufacturer": "Alpine",
+      "group_id": "g09-renault-nissan-mitsubishi",
+      "group_name": "Renault-Nissan-Mitsubishi Alliance",
+      "brand_id": "alpine",
+      "brand_name": "Alpine",
+      "body_type": "coupe",
+      "tier": "unconfirmed",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/alpine/alpine-a110?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 6,
+          "new": 4,
+          "duplicates": 2,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/alpine/alpine-a110",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/alpine/alpine-a110?fregfrom=2022",
+          "found": 20,
+          "new": 0,
+          "duplicates": 20,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
