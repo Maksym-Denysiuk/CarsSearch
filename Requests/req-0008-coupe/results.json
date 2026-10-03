@@ -2393,6 +2393,112 @@
           "error": "PageMissing: http 404"
         }
       ]
+    },
+    {
+      "id": "xpeng-p7",
+      "name": "P7",
+      "manufacturer": "Xpeng",
+      "group_id": "g12-electric-emerging",
+      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+      "brand_id": "xpeng",
+      "brand_name": "Xpeng",
+      "body_type": "coupe",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 44808,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.auto.pt/carros-usados/xpeng-p7-86kwh-awd-performance-id-zbYsXoaQ",
+          "price_eur": 43900,
+          "price_display": "43900",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:30:25.952876Z",
+          "location": null,
+          "year": 2023,
+          "mileage": "19315 km",
+          "fuel": "Eléctrico",
+          "title": "XPeng P7 86kWh AWD Performance"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/xpeng-p7-+-rwd-long-range-carplay-massage-360kam-pano-elektro-blau-cat_ma51940gr201554ge1413-c90216f0-3175-4ff9-86c7-55e55c30d8e2",
+          "price_eur": 44352,
+          "price_display": "€ 44.352",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:30:25.952876Z",
+          "location": "Ebersberg bei München",
+          "year": 2026,
+          "mileage": "9.900 km",
+          "fuel": "Elektro",
+          "title": "Xpeng P7 + RWD Long Range CarPlay Massage 360Kam Pano"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/xpeng-p7-p7-awd-performance-elektro-schwarz-cat_ma51940gr201554ge1413-ed0ebf7a-a604-418d-9dbc-72e627ba7078",
+          "price_eur": 41999,
+          "price_display": "€ 41.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:30:25.952876Z",
+          "location": "Viersen, Stadt",
+          "year": 2025,
+          "mileage": "21.558 km",
+          "fuel": "Elektro",
+          "title": "Xpeng P7 P7 AWD Performance"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/xpeng-p7-long-range+arctic-white+darkgray-nappa-elektro-weiss-cat_ma51940gr201554ge1413-0ef68a61-9422-4db5-af55-8dbb22c19b78",
+          "price_eur": 48980,
+          "price_display": "€ 48.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:30:25.952876Z",
+          "location": "Münster",
+          "year": null,
+          "mileage": "10 km",
+          "fuel": "Elektro",
+          "title": "Xpeng P7 Long Range+arctic white+darkgray Nappa"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/xpeng/p7?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 28,
+          "new": 26,
+          "duplicates": 2,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/xpeng/p7",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/xpeng/p7?fregfrom=2022",
+          "found": 12,
+          "new": 12,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
