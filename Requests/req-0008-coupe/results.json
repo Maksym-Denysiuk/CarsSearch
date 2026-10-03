@@ -1567,6 +1567,84 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "chevrolet-camaro",
+      "name": "Camaro",
+      "manufacturer": "Chevrolet",
+      "group_id": "g07-gm",
+      "group_name": "General Motors (GM)",
+      "brand_id": "chevrolet",
+      "brand_name": "Chevrolet",
+      "body_type": "coupe",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 38490,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "2 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/chevrolet-camaro-6-2-v8-lt1-rs-garantie-+schiebedach-+bose-benzin-weiss-cat_ma19gr200232-b9dad4c9-0ce9-4b6d-8e89-bf36add82378",
+          "price_eur": 43990,
+          "price_display": "€ 43.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:20:31.390669Z",
+          "location": "Troisdorf",
+          "year": 2023,
+          "mileage": "14.300 km",
+          "fuel": "Benzin",
+          "title": "Chevrolet Camaro 6,2 V8 LT1 RS Garantie +Schiebedach +BOSE"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/chevrolet-camaro-rs-3-6l-v6-zl1-aut-kamera-benzin-schwarz-cat_ma19gr200232-5ac91886-42ca-4060-9e9a-42b05dc28a24",
+          "price_eur": 32990,
+          "price_display": "€ 32.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:20:31.390669Z",
+          "location": "Mudau",
+          "year": 2023,
+          "mileage": "50.000 km",
+          "fuel": "Benzin",
+          "title": "Chevrolet Camaro RS *3,6l V6 ZL1 / AUT / KAMERA*"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/chevrolet/camaro?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/chevrolet/camaro",
+          "found": 7,
+          "new": 7,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/chevrolet/camaro?fregfrom=2022",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        }
+      ]
     }
   ]
 }
