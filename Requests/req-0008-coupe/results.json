@@ -2577,6 +2577,154 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "mazda-mx-5",
+      "name": "MX-5",
+      "manufacturer": "Mazda",
+      "group_id": "g13-independent-mainstream",
+      "group_name": "Independent Mainstream Manufacturers",
+      "brand_id": "mazda",
+      "brand_name": "Mazda",
+      "body_type": "coupe",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 33666,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/mazda-mx-5-ver-1-5-rf-sky-g-prime-line-ID8Q127q.html",
+          "price_eur": 27000,
+          "price_display": "27 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:36:57.606552Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "7 000 km",
+          "fuel": "Gasolina",
+          "title": "Mazda MX-5 1.5 RF Sky-G Prime-line"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/mazda-mx-5-ver-1-5-sky-g-excellence-navi-blue-st-platinum-ID8Q0Naa.html",
+          "price_eur": 26800,
+          "price_display": "26 800",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:36:57.606552Z",
+          "location": null,
+          "year": 2023,
+          "mileage": "22 972 km",
+          "fuel": "Gasolina",
+          "title": "Mazda MX-5 1.5 Sky-G Excellence Navi Blue ST-Platinum"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/mazda-mx-5-ver-1-5-sky-g-prime-line-ID8Q01zs.html",
+          "price_eur": 32950,
+          "price_display": "32 950",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:36:57.606552Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "1 900 km",
+          "fuel": "Gasolina",
+          "title": "Mazda MX-5 1.5 Sky-G Prime-line"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/mazda-mx-5-1-5-rf-sky-g-prime-line-id-G9ENUs1Z",
+          "price_eur": 35000,
+          "price_display": "35000",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:36:57.606552Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "1650 km",
+          "fuel": "Gasolina",
+          "title": "Mazda MX-5 1.5 RF Sky-G Prime-line"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mazda-mx-5-rf-selection-184-ps-recaro-bose-bilstein-benzin-rot-cat_ma46gr200955ge1783va2839mt2700tr6854-bb0ec3a7-460f-4d7a-be72-1e97407835b0",
+          "price_eur": 29930,
+          "price_display": "€ 29.930",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:36:57.606552Z",
+          "location": "Dortmund",
+          "year": 2022,
+          "mileage": "43.029 km",
+          "fuel": "Benzin",
+          "title": "Mazda MX-5 RF Selection 184 PS *Recaro*BOSE*Bilstein*"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mazda-mx-5-rf-homura-132-ps-recaro-bose-navi-neu-benzin-grau-cat_ma46gr200955ge1783va2839mt2698tr4486-f7f9e955-d4ca-4126-a0c5-520e42b43aae",
+          "price_eur": 33990,
+          "price_display": "€ 33.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:36:57.606552Z",
+          "location": "Dortmund",
+          "year": 2026,
+          "mileage": "5 km",
+          "fuel": "Benzin",
+          "title": "Mazda MX-5 RF Homura 132 PS *Recaro*Bose*Navi*NEU*"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/mazda-mx-5-2-0-g-184-bob-performance-x-sps-motorsport-benzin-grau-cat_ma46gr200955ge1783va3558mt2698tr4736-526475c0-32f0-4d25-a6e5-d991857a1463",
+          "price_eur": 49989,
+          "price_display": "€ 49.989",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:36:57.606552Z",
+          "location": "Hagen",
+          "year": 2024,
+          "mileage": "14.508 km",
+          "fuel": "Benzin",
+          "title": "Mazda MX-5 2.0 G 184 BOB.PERFORMANCE x SPS Motorsport"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/mazda/mx-5?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 10,
+          "new": 10,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/mazda/mx-5",
+          "found": 12,
+          "new": 12,
+          "duplicates": 0,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/mazda/mx-5?fregfrom=2022",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
