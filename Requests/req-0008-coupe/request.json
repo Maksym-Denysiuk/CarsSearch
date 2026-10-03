@@ -11,16 +11,16 @@
     "date_of_request": "2026-10-02",
     "status": "in progress",
     "search_state": {
-      "group_id": "g17-changan",
-      "group_name": "Changan Group",
-      "brand_id": "nevo",
-      "brand_name": "Nevo"
+      "group_id": "g18-faw",
+      "group_name": "FAW Group",
+      "brand_id": "hongqi",
+      "brand_name": "Hongqi"
     },
     "progress": {
       "groups_total": 25,
-      "groups_done": 16,
+      "groups_done": 17,
       "brands_total": 131,
-      "brands_done": 96,
+      "brands_done": 97,
       "brands_failed": 14,
       "models_found": 133,
       "groups": [
@@ -4727,7 +4727,7 @@
         {
           "group_id": "g17-changan",
           "group_name": "Changan Group",
-          "status": "in progress",
+          "status": "done",
           "brands": [
             {
               "brand_id": "changan",
@@ -4811,9 +4811,50 @@
             {
               "brand_id": "nevo",
               "brand_name": "Nevo",
-              "status": "pending",
+              "status": "done",
               "models_found": 0,
-              "completed_at": null
+              "completed_at": "2026-10-03T04:50:00.361197+00:00",
+              "diagnostics": {
+                "models_suggested": 2,
+                "searches_attempted": 6,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 70,
+                "unique_offerings": 38,
+                "candidates_checked": 6,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 0,
+                "firewall_drops_by_reason": {
+                  "title does not mention the searched model": 6
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 18,
+                "model_suggestion_retries": 0,
+                "models_discovered": 0,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 2,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 2,
+                    "candidates_checked": 6,
+                    "firewall_dropped": 6
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 2,
+                    "searches_missing": 2
+                  },
+                  "autoscout24": {
+                    "models_discovered": 0,
+                    "searches_attempted": 2,
+                    "searches_missing": 2
+                  }
+                }
+              }
             }
           ]
         },
