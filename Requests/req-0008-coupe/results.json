@@ -656,6 +656,338 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "lamborghini-aventador",
+      "name": "Aventador",
+      "manufacturer": "Lamborghini",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "lamborghini",
+      "brand_name": "Lamborghini",
+      "body_type": "coupe",
+      "tier": "ultra-exotic",
+      "first_year": null,
+      "average_budget_eur": 815905,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "2 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-aventador-svj-coupe-+-lift-+-carbon-+-benzin-gelb-cat_ma41gr200788ge11104-147cdc40-7bf8-47f6-9bb3-742d95c86ed2",
+          "price_eur": 831810,
+          "price_display": "€ 831.810",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:08:52.579624Z",
+          "location": "Stuhr",
+          "year": 2022,
+          "mileage": "100 km",
+          "fuel": "Benzin",
+          "title": "Lamborghini Aventador SVJ COUPE + LIFT + CARBON +"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-aventador-ultimae-roadstar-+-lifting-benzin-grau-cat_ma41gr200788ge11104-59e35fcf-5b3c-4109-a2bd-99c7223e501f",
+          "price_eur": 799999,
+          "price_display": "€ 799.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:08:52.579624Z",
+          "location": "Schweitenkirchen",
+          "year": 2022,
+          "mileage": "2.000 km",
+          "fuel": "Benzin",
+          "title": "Lamborghini Aventador ULTIMAE ROADSTAR + Lifting"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/lamborghini/aventador?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/lamborghini/aventador",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/lamborghini/aventador?fregfrom=2022",
+          "found": 7,
+          "new": 7,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "lamborghini-revuelto",
+      "name": "Revuelto",
+      "manufacturer": "Lamborghini",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "lamborghini",
+      "brand_name": "Lamborghini",
+      "body_type": "coupe",
+      "tier": "ultra-exotic",
+      "first_year": null,
+      "average_budget_eur": 643267,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/lamborghini-revuelto-ver-standard-ID8PVcVX.html",
+          "price_eur": 740000,
+          "price_display": "740 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:08:52.579624Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "4 444 km",
+          "fuel": "Híbrido Plug-In",
+          "title": "Lamborghini Revuelto 6.5 V12"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/lamborghini-revuelto-ver-standard-ID8Q1183.html",
+          "price_eur": 799900,
+          "price_display": "799 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:08:52.579624Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "1 500 km",
+          "fuel": "Híbrido Plug-In",
+          "title": "Lamborghini Revuelto 6.5 V12"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/lamborghini-revuelto-ver-standard-ID8Q15MD.html",
+          "price_eur": 690000,
+          "price_display": "690 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:08:52.579624Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "4 000 km",
+          "fuel": "Híbrido Plug-In",
+          "title": "Lamborghini Revuelto 6.5 V12"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-revuelto-i-lamborghini-hamburg-i-azzurro-thetys-elektro-benzin-silber-cat_ma41gr200796-05de3381-831c-4930-a9ca-12aa1a6ed0b5",
+          "price_eur": 539900,
+          "price_display": "€ 539.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:08:52.579624Z",
+          "location": "Hamburg",
+          "year": 2025,
+          "mileage": "14.482 km",
+          "fuel": "Elektro/Benzin",
+          "title": "Lamborghini Revuelto I Lamborghini Hamburg I AZZURRO THETYS"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-revuelto-i-lamborghini-hamburg-elektro-benzin-orange-cat_ma41gr200796-820183e0-25ad-4032-9ea4-491acfd7ac3f",
+          "price_eur": 569900,
+          "price_display": "€ 569.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:08:52.579624Z",
+          "location": "Hamburg",
+          "year": 2025,
+          "mileage": "2.937 km",
+          "fuel": "Elektro/Benzin",
+          "title": "Lamborghini Revuelto I Lamborghini Hamburg"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-revuelto-arancio-dac-my24-carbon-ppf-arancio-elektro-benzin-orange-cat_ma41gr200796-b25f1036-a8d3-451b-857e-0c6529dd7d25",
+          "price_eur": 519900,
+          "price_display": "€ 519.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:08:52.579624Z",
+          "location": "Nürnberg",
+          "year": 2024,
+          "mileage": "6.900 km",
+          "fuel": "Elektro/Benzin",
+          "title": "Lamborghini Revuelto Arancio Dac MY24|Carbon|PPF|Arancio"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/lamborghini/revuelto?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 3,
+          "new": 3,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/lamborghini/revuelto",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/lamborghini/revuelto?fregfrom=2022",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "lamborghini-temerario",
+      "name": "Temerario",
+      "manufacturer": "Lamborghini",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "lamborghini",
+      "brand_name": "Lamborghini",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 423358,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/lamborghini-temerario-ID8Q0Tul.html",
+          "price_eur": 529990,
+          "price_display": "529 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 3,
+          "captured_at": "2026-10-03T04:08:52.579624Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "1 050 km",
+          "fuel": "Híbrido Plug-In",
+          "title": "Lamborghini Temerario"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/lamborghini-temerario-ID8Q0SKC.html",
+          "price_eur": 520000,
+          "price_display": "520 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 3,
+          "captured_at": "2026-10-03T04:08:52.579624Z",
+          "location": null,
+          "year": 2026,
+          "mileage": "100 km",
+          "fuel": "Híbrido Plug-In",
+          "title": "Lamborghini Temerario"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-temerario-temerario-nero-sonus-p-display-lift-pr26-ready-elektro-benzin-schwarz-cat_ma41gr202850-ed08ea9a-bdd4-43ae-8bcc-337f94cce4f7",
+          "price_eur": 399999,
+          "price_display": "€ 399.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-10-03T04:08:52.579624Z",
+          "location": "München",
+          "year": null,
+          "mileage": "0 km",
+          "fuel": "Elektro/Benzin",
+          "title": "Lamborghini Temerario TEMERARIO NERO SONUS P-DISPLAY LIFT PR26 READY!"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-temerario-verde-citrea-full-high-assistant-pack-elektro-benzin-gruen-cat_ma41gr202850-69830ebe-f2d2-405a-a1f8-a5e19e631591",
+          "price_eur": 326900,
+          "price_display": "€ 326.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-10-03T04:08:52.579624Z",
+          "location": "Düsseldorf",
+          "year": 2026,
+          "mileage": "800 km",
+          "fuel": "Elektro/Benzin",
+          "title": "Lamborghini Temerario Verde Citrea, Full High Assistant Pack"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lamborghini-temerario-verde-ermes-ppf-front-1-hand-elektro-benzin-gruen-cat_ma41gr202850-73bd9bd4-3a69-4e74-bab9-73b0af693431",
+          "price_eur": 339900,
+          "price_display": "€ 339.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-10-03T04:08:52.579624Z",
+          "location": "Böblingen",
+          "year": 2025,
+          "mileage": "16.200 km",
+          "fuel": "Elektro/Benzin",
+          "title": "Lamborghini Temerario Verde Ermes / PPF Front / 1.Hand"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/lamborghini/temerario?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/lamborghini/temerario",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/lamborghini/temerario?fregfrom=2022",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
