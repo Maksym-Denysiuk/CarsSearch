@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "request_id": "req-0008-coupe",
+  "generated": "2026-10-03",
+  "metadata": {
+    "currency": "EUR",
+    "specs_disclaimer": "Spec fields (engine, consumption, tank/battery, variant, roof, doors, tax, photo) are omitted rather than estimated: this pipeline reads listing search results, which do not publish them. Offerings, prices and years are read from the listing cards and each price was re-verified against the listing page it came from."
+  },
+  "models": [
+    {
+      "id": "bmw-225",
+      "name": "225",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "coupe",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 27106,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-225-ID8Q0T4d.html",
+          "price_eur": 27980,
+          "price_display": "27 980",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:04:15.208991Z",
+          "location": null,
+          "year": 2023,
+          "mileage": "61 586 km",
+          "fuel": "Híbrido Plug-In",
+          "title": "BMW 225"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-225-ID8Q15rh.html",
+          "price_eur": 28900,
+          "price_display": "28 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:04:15.210520Z",
+          "location": null,
+          "year": 2023,
+          "mileage": "30 000 km",
+          "fuel": "Híbrido Plug-In",
+          "title": "BMW 225"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/bmw-225-xe-xdrive-m-sport-id-pEFGrEWT",
+          "price_eur": 25950,
+          "price_display": "25950",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:04:15.210520Z",
+          "location": null,
+          "year": 2023,
+          "mileage": "117500 km",
+          "fuel": "Híbrido Plug-in",
+          "title": "BMW 225 Xe xdrive m sport"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/bmw-225-e-xdrive-m-sport-id-Gjr8A76A",
+          "price_eur": 28750,
+          "price_display": "28750",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:04:15.210520Z",
+          "location": null,
+          "year": 2023,
+          "mileage": "73370 km",
+          "fuel": "Híbrido Plug-in",
+          "title": "BMW 225 e xDrive M Sport"
+        },
+        {
+          "url": "https://www.autoscout24.de/smyle/details/21ef2350-faa3-42d4-a392-cf053cccea09/",
+          "price_eur": 23950,
+          "price_display": "€ 23.950",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:04:15.210520Z",
+          "location": "Helgoland",
+          "year": 2023,
+          "mileage": "74.830 km",
+          "fuel": "Elektro/Benzin",
+          "title": "BMW 225 e xDrive Aut.  360° ACC  PANO"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/225?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 3,
+          "new": 2,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/225",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/225?fregfrom=2022",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 2,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bmw-x4",
+      "name": "X4",
+      "manufacturer": "BMW",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "bmw",
+      "brand_name": "BMW",
+      "body_type": "coupe",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 44836,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-x4-ver-20-d-xdrive-pack-auto-ID8Q0XxM.html",
+          "price_eur": 52750,
+          "price_display": "52 750",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:04:15.213131Z",
+          "location": null,
+          "year": 2022,
+          "mileage": "79 000 km",
+          "fuel": "Diesel",
+          "title": "BMW X4 20 d xDrive Pack M Auto"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-x4-ver-m40i-ID8Q10Fv.html",
+          "price_eur": 44990,
+          "price_display": "44 990",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:04:15.213131Z",
+          "location": null,
+          "year": 2022,
+          "mileage": "123 217 km",
+          "fuel": "Gasolina",
+          "title": "BMW X4 M40i"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bmw-x4-ver-20-d-xdrive-x-pack-auto-ID8Q10Cu.html",
+          "price_eur": 52900,
+          "price_display": "52 900",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:04:15.213131Z",
+          "location": null,
+          "year": 2022,
+          "mileage": "61 946 km",
+          "fuel": "Diesel",
+          "title": "BMW X4 20 d xDrive xLine Pack M Auto"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-x4-xdrive20d-autom-leder-klimaauto-sitzheizung-diesel-schwarz-cat_ma13gr20364ge72va3293mt392tr8508-3ce7fc07-f642-4bf0-9cea-6d58783b0e28",
+          "price_eur": 32900,
+          "price_display": "€ 32.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:04:15.213131Z",
+          "location": "Neuss",
+          "year": 2022,
+          "mileage": "100.000 km",
+          "fuel": "Diesel",
+          "title": "BMW X4 xDrive20d Autom. Leder Klimaauto. Sitzheizung"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-x4-xdrive30d-m-sport-matrix-pano-navipro-acc-20-diesel-grau-cat_ma13gr20364ge72va3293mt396tr480004-f0d6474a-7965-44a8-a8f8-e5d9c8165ad4",
+          "price_eur": 39484,
+          "price_display": "€ 39.484",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:04:15.213131Z",
+          "location": "Düsseldorf",
+          "year": 2024,
+          "mileage": "83.200 km",
+          "fuel": "Diesel",
+          "title": "BMW X4 xDrive30d M Sport Matrix Pano NaviPro ACC 20\""
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bmw-x4-xdrive30d-m-sport-laser-navi-acc-leder-hifi-diesel-schwarz-cat_ma13gr20364ge72va3293mt396tr5342-ca8b9991-9603-4c3e-a65b-c71cf814807b",
+          "price_eur": 45990,
+          "price_display": "€ 45.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:04:15.214682Z",
+          "location": "Erding, Altenerding",
+          "year": 2023,
+          "mileage": "23.800 km",
+          "fuel": "Diesel",
+          "title": "BMW X4 xDrive30d*M Sport*Laser*Navi*ACC*Leder*HiFi*"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bmw/x4?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 8,
+          "new": 6,
+          "duplicates": 2,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bmw/x4",
+          "found": 12,
+          "new": 12,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bmw/x4?fregfrom=2022",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    }
+  ]
+}
