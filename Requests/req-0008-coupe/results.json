@@ -2817,6 +2817,282 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "ferrari-f8",
+      "name": "F8",
+      "manufacturer": "Ferrari",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "ferrari",
+      "brand_name": "Ferrari",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 309533,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/ferrari-f8-racing-seat-de-ppf-benzin-grau-cat_ma27gr200485-44a53e86-dcd4-4b5a-a429-4ac1ce5522b6",
+          "price_eur": 298900,
+          "price_display": "€ 298.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:37:46.812616Z",
+          "location": "Pastetten",
+          "year": 2022,
+          "mileage": "1.900 km",
+          "fuel": "Benzin",
+          "title": "Ferrari F8 Tributo Racing Seat / DE / PPF"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ferrari-f8-ulrich-frankfurt-benzin-schwarz-cat_ma27gr200485-3a517c1a-505c-4d27-9a6d-a4f3a2ceca6b",
+          "price_eur": 289800,
+          "price_display": "€ 289.800",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:37:46.812616Z",
+          "location": "Frankfurt",
+          "year": 2022,
+          "mileage": "11.800 km",
+          "fuel": "Benzin",
+          "title": "Ferrari F8 Tributo Ulrich Frankfurt ***"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ferrari-f8-benzin-rot-cat_ma27gr200485-68c5b273-089a-4dd9-8417-097acaafc653",
+          "price_eur": 339900,
+          "price_display": "€ 339.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:37:46.812616Z",
+          "location": "Böblingen",
+          "year": 2022,
+          "mileage": "2.100 km",
+          "fuel": "Benzin",
+          "title": "Ferrari F8 Tributo"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/ferrari/f8?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 19,
+          "new": 16,
+          "duplicates": 3,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/ferrari/f8",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/ferrari/f8?fregfrom=2022",
+          "found": 16,
+          "new": 16,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "ferrari-roma",
+      "name": "Roma",
+      "manufacturer": "Ferrari",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "ferrari",
+      "brand_name": "Ferrari",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 199650,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.auto.pt/carros-usados/ferrari-roma-coupe-id-AprhU5yE",
+          "price_eur": 207500,
+          "price_display": "207500",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:37:46.812616Z",
+          "location": null,
+          "year": 2023,
+          "mileage": "26800 km",
+          "fuel": "Gasolina",
+          "title": "Ferrari Roma Coupé"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ferrari-roma-magneride-beifahrerdispl-jbl-carbon-benzin-schwarz-cat_ma27gr200477-7ffb26b6-4f18-4a94-9f0b-02eaa6e57b6a",
+          "price_eur": 193950,
+          "price_display": "€ 193.950",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:37:46.812616Z",
+          "location": "Mülheim an der Ruhr",
+          "year": 2024,
+          "mileage": "15.000 km",
+          "fuel": "Benzin",
+          "title": "Ferrari Roma MagneRide*BeifahrerDispl*JBL*Carbon"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ferrari-roma-carbon-scuderia-garantieverlaengerung-11-27-benzin-schwarz-cat_ma27gr200477-9a7519cb-fa62-4ce5-a464-92f02a983c79",
+          "price_eur": 197500,
+          "price_display": "€ 197.500",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:37:46.812616Z",
+          "location": "Eggenstein",
+          "year": 2022,
+          "mileage": "14.997 km",
+          "fuel": "Benzin",
+          "title": "Ferrari Roma Carbon Scuderia Garantieverlängerung 11.27"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/ferrari/roma?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 5,
+          "new": 0,
+          "duplicates": 5,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/ferrari/roma",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/ferrari/roma?fregfrom=2022",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "ferrari-296-gtb",
+      "name": "296 GTB",
+      "manufacturer": "Ferrari",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "ferrari",
+      "brand_name": "Ferrari",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 346200,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/ferrari-296-dct-assetto-fiorano-carbon-race-seat-360-elektro-benzin-rot-cat_ma27gr200494-1708cda8-bc3f-4126-8f5c-aa3761e52000",
+          "price_eur": 239900,
+          "price_display": "€ 239.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-10-03T04:37:46.812616Z",
+          "location": "München",
+          "year": 2024,
+          "mileage": "24.000 km",
+          "fuel": "Elektro/Benzin",
+          "title": "Ferrari 296 GTB DCT Assetto Fiorano CARBON~RACE SEAT~360"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ferrari-296-296gtb-speciale-rosso-corsa-full-carbon-lift-new-elektro-benzin-rot-cat_ma27gr200494-21507adb-7bd1-41ea-87bb-2d6bb9e26854",
+          "price_eur": 549900,
+          "price_display": "€ 549.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-10-03T04:37:46.812616Z",
+          "location": "Wernigerode",
+          "year": null,
+          "mileage": "34 km",
+          "fuel": "Elektro/Benzin",
+          "title": "Ferrari 296 GTB 296GTB Speciale*Rosso Corsa*Full Carbon*Lift*NEW"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/ferrari-296-adas-lift-360-carbon-racing-seats-31-elektro-benzin-grau-cat_ma27gr200494-ec3a2528-52a7-465f-bcef-0beb0ce2d348",
+          "price_eur": 248800,
+          "price_display": "€ 248.800",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-10-03T04:37:46.812616Z",
+          "location": "Mönchengladbach",
+          "year": 2023,
+          "mileage": "300 km",
+          "fuel": "Elektro/Benzin",
+          "title": "Ferrari 296 GTB *ADAS*LIFT*360*CARBON*RACING SEATS*31%"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/ferrari/296-gtb?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 1,
+          "new": 0,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/ferrari/296-gtb",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/ferrari/296-gtb?fregfrom=2022",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
