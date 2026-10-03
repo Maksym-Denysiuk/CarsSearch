@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g14-specialist-low-volume",
       "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
-      "brand_id": "aston-martin",
-      "brand_name": "Aston Martin"
+      "brand_id": "mclaren",
+      "brand_name": "McLaren"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 13,
       "brands_total": 131,
-      "brands_done": 77,
+      "brands_done": 78,
       "brands_failed": 8,
-      "models_found": 110,
+      "models_found": 125,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -3716,9 +3716,57 @@
             {
               "brand_id": "aston-martin",
               "brand_name": "Aston Martin",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 15,
+              "completed_at": "2026-10-03T04:38:51.015405+00:00",
+              "diagnostics": {
+                "models_suggested": 7,
+                "searches_attempted": 21,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 223,
+                "unique_offerings": 107,
+                "candidates_checked": 20,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 15,
+                "firewall_drops_by_reason": {
+                  "listed year is older than the request allows": 3,
+                  "title does not mention the searched model": 2
+                },
+                "circuit_breaker_tripped": false,
+                "search_status": "completed",
+                "requests_made": 43,
+                "model_suggestion_retries": 0,
+                "models_discovered": 13,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 7,
+                    "candidates_checked": 3,
+                    "firewall_dropped": 2,
+                    "firewall_kept": 1
+                  },
+                  "auto.pt": {
+                    "models_discovered": 4,
+                    "searches_attempted": 7,
+                    "candidates_checked": 4,
+                    "firewall_dropped": 3,
+                    "firewall_kept": 1,
+                    "searches_missing": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 10,
+                    "searches_attempted": 7,
+                    "searches_missing": 2,
+                    "candidates_checked": 13,
+                    "firewall_kept": 13
+                  }
+                }
+              }
             },
             {
               "brand_id": "mclaren",

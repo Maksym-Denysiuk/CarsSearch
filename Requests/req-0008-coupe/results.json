@@ -3093,6 +3093,565 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "aston-martin-db9-coupe",
+      "name": "DB9 Coupe",
+      "manufacturer": "Aston Martin",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "aston-martin",
+      "brand_name": "Aston Martin",
+      "body_type": "coupe",
+      "tier": "unconfirmed",
+      "first_year": null,
+      "average_budget_eur": null,
+      "average_budget_basis": "No offerings survived verification.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "0 surviving offering(s) from 0 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/aston-martin/db9-coupe?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/aston-martin/db9-coupe",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/aston-martin/db9-coupe?fregfrom=2022",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "aston-martin-vantage-coupe",
+      "name": "Vantage Coupé",
+      "manufacturer": "Aston Martin",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "aston-martin",
+      "brand_name": "Aston Martin",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 275000,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "2 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/aston-martin-v8-vantage-coupe-ver-v8-ID8PZSKP.html",
+          "price_eur": 275000,
+          "price_display": "275 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:38:50.056725Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "22 000 km",
+          "fuel": "Gasolina",
+          "title": "Aston Martin Vantage Coupe V8"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/aston-martin-vantage-coupe-v8-id-n3mzix3E",
+          "price_eur": 275000,
+          "price_display": "275000",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:38:50.056725Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "22000 km",
+          "fuel": "Gasolina",
+          "title": "Aston Martin Vantage Coupé V8"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/aston-martin/vantage-coupe?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 28,
+          "new": 25,
+          "duplicates": 3,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/aston-martin/vantage-coupe",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/aston-martin/vantage-coupe?fregfrom=2022",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        }
+      ]
+    },
+    {
+      "id": "aston-martin-vantage",
+      "name": "Vantage",
+      "manufacturer": "Aston Martin",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "aston-martin",
+      "brand_name": "Aston Martin",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 158458,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-vantage-v8-magnetic-silver-onyx-black-benzin-grau-cat_ma8gr200111-6e83ed12-0c64-4cab-a3ab-c6d0b143dd93",
+          "price_eur": 123900,
+          "price_display": "€ 123.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-10-03T04:38:50.056725Z",
+          "location": "Köln",
+          "year": 2023,
+          "mileage": "12.060 km",
+          "fuel": "Benzin",
+          "title": "Aston Martin Vantage V8 Magnetic Silver / Onyx Black"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-vantage-plasma-blue-onyx-black-benzin-blau-cat_ma8gr200111-362d7336-6ebf-4767-ba49-071e7b7047a3",
+          "price_eur": 169900,
+          "price_display": "€ 169.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-10-03T04:38:50.057729Z",
+          "location": "Köln",
+          "year": 2025,
+          "mileage": "12.810 km",
+          "fuel": "Benzin",
+          "title": "Aston Martin Vantage Plasma Blue / Onyx Black"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-vantage-4-0-v8-benzin-schwarz-cat_ma8gr200111-f7973fa6-dc38-4771-809c-9b4efa2aeaba",
+          "price_eur": 181575,
+          "price_display": "€ 181.575",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 3,
+          "captured_at": "2026-10-03T04:38:50.057729Z",
+          "location": "Stuttgart",
+          "year": null,
+          "mileage": "0 km",
+          "fuel": "Benzin",
+          "title": "Aston Martin Vantage 4.0 V8"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 3,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/aston-martin/vantage?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 28,
+          "new": 0,
+          "duplicates": 28,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/aston-martin/vantage",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 3,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/aston-martin/vantage?fregfrom=2022",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "aston-martin-db12",
+      "name": "DB12",
+      "manufacturer": "Aston Martin",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "aston-martin",
+      "brand_name": "Aston Martin",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 251063,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-db12-china-grey-oxford-tan-nur-10500km-benzin-grau-cat_ma8gr200117-cfb85191-1456-4c82-889b-435f573bcdc9",
+          "price_eur": 199900,
+          "price_display": "€ 199.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 4,
+          "captured_at": "2026-10-03T04:38:50.057729Z",
+          "location": "Köln",
+          "year": 2024,
+          "mileage": "10.500 km",
+          "fuel": "Benzin",
+          "title": "Aston Martin DB12 China Grey Oxford Tan nur 10500km"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-db12-s-coupe-ultramarine-black-dark-knight-benzin-blau-cat_ma8gr200117-61b5d229-3a13-4d39-b6d1-267ad274d9ae",
+          "price_eur": 284900,
+          "price_display": "€ 284.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 4,
+          "captured_at": "2026-10-03T04:38:50.057729Z",
+          "location": "Köln",
+          "year": null,
+          "mileage": "20 km",
+          "fuel": "Benzin",
+          "title": "Aston Martin DB12 S Coupe Ultramarine Black - Dark Knight"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-db12-4-0-v8-benzin-blau-cat_ma8gr200117-cfa2ed36-8c83-469e-9270-dcb66a344069",
+          "price_eur": 268390,
+          "price_display": "€ 268.390",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 4,
+          "captured_at": "2026-10-03T04:38:50.057729Z",
+          "location": "Stuttgart",
+          "year": null,
+          "mileage": "0 km",
+          "fuel": "Benzin",
+          "title": "Aston Martin DB12 4.0 V8"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 4,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/aston-martin/db12?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 1,
+          "new": 0,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 4,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/aston-martin/db12",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 4,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/aston-martin/db12?fregfrom=2022",
+          "found": 18,
+          "new": 18,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "aston-martin-db9",
+      "name": "DB9",
+      "manufacturer": "Aston Martin",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "aston-martin",
+      "brand_name": "Aston Martin",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 254900,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "1 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-db9-gt-bond-edition-1-of-150-v12-6-0-548-benzin-silber-cat_ma8gr200112-a5d91c39-f9c6-4bae-9168-9401ea23a9df",
+          "price_eur": 254900,
+          "price_display": "€ 254.900",
+          "country": "FR",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 5,
+          "captured_at": "2026-10-03T04:38:50.057729Z",
+          "location": "Paris",
+          "year": 2025,
+          "mileage": "4.530 km",
+          "fuel": "Benzin",
+          "title": "Aston Martin DB9 GT Bond Edition (1 Of 150) V12 6.0 548"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 5,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/aston-martin/db9?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 28,
+          "new": 0,
+          "duplicates": 28,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 5,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/aston-martin/db9",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 5,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/aston-martin/db9?fregfrom=2022",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "aston-martin-dbs",
+      "name": "DBS",
+      "manufacturer": "Aston Martin",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "aston-martin",
+      "brand_name": "Aston Martin",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 301640,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-dbs-5-2-v12-volante-bo-brd-carbon-benzin-grau-cat_ma8gr200109ge11091va4027tr479554-11235a18-985b-4fa8-9ca9-71065b0eca91",
+          "price_eur": 229960,
+          "price_display": "€ 229.960",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 6,
+          "captured_at": "2026-10-03T04:38:50.057729Z",
+          "location": "Ehringshausen - Katzenfurt",
+          "year": 2022,
+          "mileage": "10.564 km",
+          "fuel": "Benzin",
+          "title": "Aston Martin DBS 5.2 V12 Volante B&O BRD Carbon"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-dbs-5-2-v12-770-ultimate-1-300-carbon-seats-ppf-benzin-grau-cat_ma8gr200109ge11091va4027tr479554-c6bd6d21-84b9-4138-b1b6-60d685d729e0",
+          "price_eur": 315960,
+          "price_display": "€ 315.960",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 6,
+          "captured_at": "2026-10-03T04:38:50.057729Z",
+          "location": "Ehringshausen - Katzenfurt",
+          "year": 2023,
+          "mileage": "2.996 km",
+          "fuel": "Benzin",
+          "title": "Aston Martin DBS 5.2 V12 770 Ultimate 1/300 Carbon Seats PPF"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-dbs-aston-martin-dbs-1-300-carbon-titanium-benzin-schwarz-cat_ma8gr200109ge11091va4027tr479554-1460e8b1-64dd-4fd8-b5dc-12b7fcab9f0c",
+          "price_eur": 359000,
+          "price_display": "€ 359.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 6,
+          "captured_at": "2026-10-03T04:38:50.057729Z",
+          "location": "Bodman-Ludwigshafen",
+          "year": 2024,
+          "mileage": "4.200 km",
+          "fuel": "Benzin",
+          "title": "Aston Martin DBS Aston Martin DBS | 1/300, Carbon, Titanium"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 6,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/aston-martin/dbs?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 28,
+          "new": 0,
+          "duplicates": 28,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 6,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/aston-martin/dbs",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 6,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/aston-martin/dbs?fregfrom=2022",
+          "found": 19,
+          "new": 19,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "aston-martin-vanquish",
+      "name": "Vanquish",
+      "manufacturer": "Aston Martin",
+      "group_id": "g14-specialist-low-volume",
+      "group_name": "Specialist, Performance, Luxury & Low-Volume Brands",
+      "brand_id": "aston-martin",
+      "brand_name": "Aston Martin",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 416665,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-vanquish-presentation-spec-q-carbon-bespoke-benzin-rot-cat_ma8gr200114ge11093va4031tr479568-2c4bf4d6-f23f-4363-acdc-eb952df91316",
+          "price_eur": 359990,
+          "price_display": "€ 359.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 7,
+          "captured_at": "2026-10-03T04:38:50.057729Z",
+          "location": "Bad Schussenried",
+          "year": 2024,
+          "mileage": "11.000 km",
+          "fuel": "Benzin",
+          "title": "Aston Martin Vanquish PRESENTATION SPEC Q CARBON BESPOKE"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-vanquish-volante-benzin-schwarz-cat_ma8gr200114ge11093va4030tr479941-bc8c3054-d6eb-458b-b8db-0e0904dc2aed",
+          "price_eur": 390007,
+          "price_display": "€ 390.007",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 7,
+          "captured_at": "2026-10-03T04:38:50.057729Z",
+          "location": "Filderstadt",
+          "year": null,
+          "mileage": null,
+          "fuel": "Benzin",
+          "title": "Aston Martin Vanquish Volante"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/aston-martin-vanquish-v12-full-carbon-option-ppf-benzin-schwarz-cat_ma8gr200114-54e7cdfe-1c4c-4543-8a8e-0c043d80025f",
+          "price_eur": 499999,
+          "price_display": "€ 499.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 7,
+          "captured_at": "2026-10-03T04:38:50.057729Z",
+          "location": "Radebeul",
+          "year": null,
+          "mileage": "92 km",
+          "fuel": "Benzin",
+          "title": "Aston Martin Vanquish V12 Full Carbon Option/PPF"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 7,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/aston-martin/vanquish?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 28,
+          "new": 0,
+          "duplicates": 28,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 7,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/aston-martin/vanquish",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 7,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/aston-martin/vanquish?fregfrom=2022",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
