@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g13-independent-mainstream",
       "group_name": "Independent Mainstream Manufacturers",
-      "brand_id": "subaru",
-      "brand_name": "Subaru"
+      "brand_id": "suzuki",
+      "brand_name": "Suzuki"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 12,
       "brands_total": 131,
-      "brands_done": 74,
+      "brands_done": 75,
       "brands_failed": 8,
-      "models_found": 98,
+      "models_found": 101,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -3572,9 +3572,46 @@
             {
               "brand_id": "subaru",
               "brand_name": "Subaru",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 3,
+              "completed_at": "2026-10-03T04:37:08.747183+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 9,
+                "unique_offerings": 9,
+                "candidates_checked": 3,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 3,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 8,
+                "model_suggestion_retries": 0,
+                "models_discovered": 9,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1
+                  },
+                  "auto.pt": {
+                    "models_discovered": 2,
+                    "searches_attempted": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 8,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "suzuki",

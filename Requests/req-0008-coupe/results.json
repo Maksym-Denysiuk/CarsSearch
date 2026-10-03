@@ -2725,6 +2725,98 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "subaru-brz",
+      "name": "BRZ",
+      "manufacturer": "Subaru",
+      "group_id": "g13-independent-mainstream",
+      "group_name": "Independent Mainstream Manufacturers",
+      "brand_id": "subaru",
+      "brand_name": "Subaru",
+      "body_type": "coupe",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 35976,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/subaru-brz-sport-virtual-kamera-carplay-1-hand-benzin-schwarz-cat_ma67gr201389ge1462mt9927tr7237-f42c2728-e620-49cc-9bcf-8a4d73d76864",
+          "price_eur": 35950,
+          "price_display": "€ 35.950",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:37:08.575284Z",
+          "location": "Arnsberg",
+          "year": 2023,
+          "mileage": "47.717 km",
+          "fuel": "Benzin",
+          "title": "Subaru BRZ Sport *Virtual*Kamera*CarPlay*1.Hand*"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/subaru-brz-2-4-sport-sti-paket-miltek-benzin-weiss-cat_ma67gr201389ge1462mt9927tr7237-cfbf357f-aeba-4ab4-b254-8ffc62f6b0c7",
+          "price_eur": 38999,
+          "price_display": "€ 38.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:37:08.575284Z",
+          "location": "Bautzen",
+          "year": 2024,
+          "mileage": "19.250 km",
+          "fuel": "Benzin",
+          "title": "Subaru BRZ 2,4 Sport STI Paket Miltek"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/subaru-brz-2-4i-sport-es-aut-kamera-acc-shz-2xklima-led-benzin-weiss-cat_ma67gr201389ge1462mt9927tr480798-814ba0e2-48de-4b38-ac4a-021bd19c3e6a",
+          "price_eur": 32980,
+          "price_display": "€ 32.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:37:08.575284Z",
+          "location": "Kiel",
+          "year": 2024,
+          "mileage": "37.000 km",
+          "fuel": "Benzin",
+          "title": "Subaru BRZ 2.4i Sport ES AUT*Kamera*ACC*SHZ*2xKlima*LED"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/subaru/brz?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/subaru/brz",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/subaru/brz?fregfrom=2022",
+          "found": 9,
+          "new": 9,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
