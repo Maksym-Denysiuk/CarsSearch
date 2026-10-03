@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-02",
+  "generated": "2026-10-03",
   "requests": [
     {
       "request_id": "req-0001-roadsters",
@@ -135,15 +135,15 @@
       "results_path": "Requests/req-0008-coupe/results.json",
       "favorites_path": "Requests/req-0008-coupe/favorites.json",
       "date_of_request": "2026-10-02",
-      "status": "tbd",
+      "status": "in progress",
       "search_state": {
-        "group": null,
-        "brand": null,
-        "models_done": 0
+        "group": "Stellantis",
+        "brand": "Vauxhall",
+        "models_done": 49
       },
       "counts": {
-        "models": 0,
-        "offerings": 0
+        "models": 12,
+        "offerings": 49
       }
     }
   ]
