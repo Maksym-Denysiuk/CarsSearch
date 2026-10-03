@@ -2061,6 +2061,140 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "polestar-4",
+      "name": "4",
+      "manufacturer": "Polestar",
+      "group_id": "g10-geely",
+      "group_name": "Geely Holding Group & Affiliates",
+      "brand_id": "polestar",
+      "brand_name": "Polestar",
+      "body_type": "coupe",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 50943,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.auto.pt/carros-usados/polestar-4-long-range-100-kwh-dual-motor-performance-prime-id-VeXbxmQV",
+          "price_eur": 57900,
+          "price_display": "57900",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:22:39.668462Z",
+          "location": null,
+          "year": 2025,
+          "mileage": "21261 km",
+          "fuel": "Eléctrico",
+          "title": "Polestar 4 Long Range 100 kWh Dual Motor Performance Prime"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/polestar-4-long-range-dual-i-v-a-dedutivel-id-XLJvdygo",
+          "price_eur": 55900,
+          "price_display": "55900",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:22:39.668462Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "19027 km",
+          "fuel": "Eléctrico",
+          "title": "Polestar 4 Long Range Dual I.V.A DEDUTIVEL"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/polestar-4-long-range-single-i-v-a-dedutivel-id-Et0WqToi",
+          "price_eur": 48900,
+          "price_display": "48900",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:22:39.668462Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "13320 km",
+          "fuel": "Eléctrico",
+          "title": "Polestar 4 Long Range Single I.V.A DEDUTIVEL"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/polestar-4-long-range-dual-motor-elektro-silber-cat_ma51817gr201237ge1586-5943683f-5d07-4665-bc96-7bbf2fa9884e",
+          "price_eur": 53980,
+          "price_display": "€ 53.980",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:22:39.668462Z",
+          "location": "Düsseldorf",
+          "year": 2025,
+          "mileage": "500 km",
+          "fuel": "Elektro",
+          "title": "Polestar 4 Long Range Dual Motor"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/polestar-4-polestar-4-rwd-100kwh-plus-pilot-21-elektro-weiss-cat_ma51817gr201237ge1586-562b1cb7-cb06-4520-935f-0d479d000a90",
+          "price_eur": 44990,
+          "price_display": "€ 44.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:22:39.668462Z",
+          "location": "Fernwald-Steinbach",
+          "year": 2024,
+          "mileage": "47.624 km",
+          "fuel": "Elektro",
+          "title": "Polestar 4 Polestar 4 RWD 100kWh Plus Pilot 21\""
+        },
+        {
+          "url": "https://www.autoscout24.de/smyle/details/beabadf0-56be-4d27-8c39-d6dbbe610df0/",
+          "price_eur": 43990,
+          "price_display": "€ 43.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:22:39.668462Z",
+          "location": "Helgoland",
+          "year": 2025,
+          "mileage": "9.638 km",
+          "fuel": "Elektro",
+          "title": "Polestar 4 100kWh Long Range Single 22KW Pixel Pilot 360-Grad"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/polestar/4?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/polestar/4",
+          "found": 6,
+          "new": 6,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/polestar/4?fregfrom=2022",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
