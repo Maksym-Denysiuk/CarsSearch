@@ -352,6 +352,218 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "porsche-911",
+      "name": "911",
+      "manufacturer": "Porsche",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "porsche",
+      "brand_name": "Porsche",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 192175,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed",
+      "search_status_note": "Enough surviving offerings from enough distinct source domains.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/porsche-911-ID8Q0XFP.html",
+          "price_eur": 255000,
+          "price_display": "255 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:07:45.661865Z",
+          "location": null,
+          "year": 2022,
+          "mileage": "8 000 km",
+          "fuel": "Gasolina",
+          "title": "Porsche 911 Série F"
+        },
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/porsche-911-ID8Q0OFE.html",
+          "price_eur": 230000,
+          "price_display": "230 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:07:45.661865Z",
+          "location": null,
+          "year": 2023,
+          "mileage": "8 000 km",
+          "fuel": "Gasolina",
+          "title": "Porsche 911 Série F"
+        },
+        {
+          "url": "https://www.auto.pt/carros-usados/porsche-911-carrera-id-Y26Ps9M4",
+          "price_eur": 116900,
+          "price_display": "116900",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:07:45.661865Z",
+          "location": null,
+          "year": 2022,
+          "mileage": "98650 km",
+          "fuel": "Gasolina",
+          "title": "Porsche 911 Carrera"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-911-911-gt3-clubsportpaket-liftsystem-va-bose-benzin-gruen-cat_ma57gr100070ge11012va274tr480682-76c72f74-7da8-4450-aa5e-fe48422ccbf9",
+          "price_eur": 245073,
+          "price_display": "€ 245.073",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:07:45.661865Z",
+          "location": "Papendorf",
+          "year": null,
+          "mileage": "0 km",
+          "fuel": "Benzin",
+          "title": "Porsche 992 911 GT3 Clubsportpaket Liftsystem-VA BOSE"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-911-911-carrera-benzin-schwarz-cat_ma57gr100070ge288va2957tr480682-a1a5c37d-0373-4d4e-9e4f-69b842b9e189",
+          "price_eur": 113900,
+          "price_display": "€ 113.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:07:45.661865Z",
+          "location": "Bergisch Gladbach",
+          "year": 2024,
+          "mileage": "28.100 km",
+          "fuel": "Benzin",
+          "title": "Porsche 992 911 Carrera"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/porsche/911?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 3,
+          "new": 2,
+          "duplicates": 1,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/porsche/911",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/porsche/911?fregfrom=2022",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 1,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "porsche-cayman",
+      "name": "Cayman",
+      "manufacturer": "Porsche",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "porsche",
+      "brand_name": "Porsche",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 110183,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-cayman-718-cayman-gt4-benzin-gruen-cat_ma57gr18684ge1576va2308tr480690-77ddb89e-5d63-472f-ae3c-efa27b77fa83",
+          "price_eur": 109900,
+          "price_display": "€ 109.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:07:45.661865Z",
+          "location": "Grolsheim",
+          "year": 2022,
+          "mileage": "3.500 km",
+          "fuel": "Benzin",
+          "title": "Porsche Cayman 718 Cayman GT4"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-cayman-718-style-edition-pasm-rueckfahrkamera-benzin-weiss-cat_ma57gr18684ge1576va2305tr480690-73ee9619-a57f-476d-8bd0-1a0c5acfba92",
+          "price_eur": 67750,
+          "price_display": "€ 67.750",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:07:45.661865Z",
+          "location": "Papendorf",
+          "year": 2023,
+          "mileage": "43.899 km",
+          "fuel": "Benzin",
+          "title": "Porsche Cayman 718 Style Edition PASM Rückfahrkamera"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/porsche-cayman-718-cayman-gt4-rs-weissach-chrono-bose-benzin-grau-cat_ma57gr18684ge1576va2309tr480690-ba327e32-2a65-4c1a-876d-05b72fcc177e",
+          "price_eur": 152900,
+          "price_display": "€ 152.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 2,
+          "captured_at": "2026-10-03T04:07:45.661865Z",
+          "location": "Grünwald",
+          "year": 2022,
+          "mileage": "3.512 km",
+          "fuel": "Benzin",
+          "title": "Porsche Cayman 718 Cayman GT4 RS / WEISSACH / CHRONO / BOSE"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 2,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/porsche/cayman?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/porsche/cayman",
+          "found": 3,
+          "new": 3,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 2,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/porsche/cayman?fregfrom=2022",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
