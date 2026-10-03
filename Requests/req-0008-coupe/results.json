@@ -2499,6 +2499,84 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "xiaomi-su7",
+      "name": "SU7",
+      "manufacturer": "Xiaomi",
+      "group_id": "g12-electric-emerging",
+      "group_name": "Dedicated Electric & Emerging Automotive Manufacturers",
+      "brand_id": "xiaomi",
+      "brand_name": "Xiaomi",
+      "body_type": "coupe",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 92250,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "2 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/xiaomi-su7-su7-ultra-elektro-gold-cat_ma52031gr77244-3c820907-dee1-48af-9663-aba6147ffb06",
+          "price_eur": 115000,
+          "price_display": "€ 115.000",
+          "country": "FR",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:33:47.519382Z",
+          "location": "Luçon",
+          "year": 2025,
+          "mileage": "11.000 km",
+          "fuel": "Elektro",
+          "title": "Xiaomi SU7 su7 ultra"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/xiaomi-su7-max-founders-edition-419-5000-selten-673ps-deutsche-eu-zulassung-probefahrt-moeglich-elektro-grau-cat_ma52031gr77244-bdaa3458-4ca2-4690-8d78-b0239f8007ac",
+          "price_eur": 69500,
+          "price_display": "€ 69.500",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:33:47.519382Z",
+          "location": "Schwalmstadt, Konfirmationsstadt",
+          "year": 2024,
+          "mileage": "27.000 km",
+          "fuel": "Elektro",
+          "title": "Xiaomi SU7 Max Founders Edition #419/5000 Selten 673PS | Deutsche/EU Zulassung | Probefahrt möglich"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/xiaomi/su7?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 34,
+          "new": 34,
+          "duplicates": 0,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/xiaomi/su7",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/xiaomi/su7?fregfrom=2022",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
