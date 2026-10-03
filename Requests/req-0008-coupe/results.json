@@ -988,6 +988,112 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "bentley-continental-gt",
+      "name": "Continental GT",
+      "manufacturer": "Bentley",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "bentley",
+      "brand_name": "Bentley",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 279947,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.standvirtual.com/carros/anuncio/bentley-continental-ver-gt-v8-ID8PWPvG.html",
+          "price_eur": 239000,
+          "price_display": "239 000",
+          "country": "PT",
+          "source_domain": "standvirtual.com",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:09:05.410118Z",
+          "location": null,
+          "year": 2022,
+          "mileage": "33 000 km",
+          "fuel": "Gasolina",
+          "title": "Bentley Continental GT V8"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bentley-continental-mansory-1of1-speed-first-edition-elektro-benzin-grau-cat_ma11gr200144ge11045va863tr7086-b16ec175-80b3-4905-96bf-79154a5efe14",
+          "price_eur": 444999,
+          "price_display": "€ 444.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:09:05.410118Z",
+          "location": "Celle",
+          "year": 2024,
+          "mileage": "6.198 km",
+          "fuel": "Elektro/Benzin",
+          "title": "Bentley Continental GT MANSORY 1of1 Speed First Edition"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bentley-continental-+v8s+new+black-edition+1of20+naim-benzin-schwarz-cat_ma11gr200144ge2239va863tr480026-cfe40d03-fe7e-43ff-af46-7ce46f0be4e4",
+          "price_eur": 199990,
+          "price_display": "€ 199.990",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:09:05.410118Z",
+          "location": "Berlin",
+          "year": null,
+          "mileage": "20 km",
+          "fuel": "Benzin",
+          "title": "Bentley Continental GT +V8S+NEW+BLACK.EDITION+1of20+NAIM"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/bentley-continental-v8-mulliner-edition-blackline-benzin-gruen-cat_ma11gr200144ge2239va863tr5557-f3ffd093-1390-4d66-9065-5ae269158490",
+          "price_eur": 235800,
+          "price_display": "€ 235.800",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:09:05.410118Z",
+          "location": "Berlin",
+          "year": 2024,
+          "mileage": "17.000 km",
+          "fuel": "Benzin",
+          "title": "Bentley Continental GTC V8 MULLINER EDITION - BLACKLINE"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/bentley/continental-gt?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 21,
+          "new": 17,
+          "duplicates": 4,
+          "dropped": 2,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/bentley/continental-gt",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/bentley/continental-gt?fregfrom=2022",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
