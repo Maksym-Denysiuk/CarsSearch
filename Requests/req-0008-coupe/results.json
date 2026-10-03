@@ -564,6 +564,98 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "cupra-formentor-vz5",
+      "name": "Formentor VZ5",
+      "manufacturer": "Cupra",
+      "group_id": "g03-vw",
+      "group_name": "Volkswagen Group",
+      "brand_id": "cupra",
+      "brand_name": "Cupra",
+      "body_type": "coupe",
+      "tier": "mainstream",
+      "first_year": null,
+      "average_budget_eur": 38422,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/cupra-formentor-2-0-tsi-vz5-4drive-opf-euro-6d-benzin-schwarz-cat_ma51802gr200362ge783mt10688tr481066-7cb4e9a9-a1eb-4939-9691-1409497726d8",
+          "price_eur": 36477,
+          "price_display": "€ 36.477",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:08:22.702988Z",
+          "location": "Sangerhausen",
+          "year": 2023,
+          "mileage": "55.730 km",
+          "fuel": "Benzin",
+          "title": "CUPRA Formentor 2.0 TSI VZ5 4Drive OPF EURO 6d"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/cupra-formentor-2-5-tsi-4d-carbon-pano+memo+360+-benzin-schwarz-cat_ma51802gr200362ge783mt10688tr481066-5d10cb7f-d0ae-4b91-93d0-18d461aa6dd5",
+          "price_eur": 41400,
+          "price_display": "€ 41.400",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:08:22.702988Z",
+          "location": "Berlin",
+          "year": 2024,
+          "mileage": "7.596 km",
+          "fuel": "Benzin",
+          "title": "CUPRA Formentor VZ5 2.5 TSI 4D CARBON PANO+MEMO+360+"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/cupra-formentor-vz5-2-5-tsi-navi-rfk-beats-schalensitz-benzin-schwarz-cat_ma51802gr200362ge783mt10688tr481066-4662fb39-6a5e-4d0f-b2a1-da549852643e",
+          "price_eur": 37390,
+          "price_display": "€ 37.390",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:08:22.702988Z",
+          "location": "Haßfurt",
+          "year": 2022,
+          "mileage": "23.400 km",
+          "fuel": "Benzin",
+          "title": "CUPRA Formentor VZ5 2.5 TSI Navi*RFK*Beats*Schalensitz"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/cupra/formentor-vz5?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 34,
+          "new": 32,
+          "duplicates": 2,
+          "dropped": 3,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/cupra/formentor-vz5",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/cupra/formentor-vz5?fregfrom=2022",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
