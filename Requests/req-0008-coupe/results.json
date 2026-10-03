@@ -260,6 +260,98 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "rolls-royce-spectre",
+      "name": "Spectre",
+      "manufacturer": "Rolls-Royce",
+      "group_id": "g01-bmw",
+      "group_name": "BMW Group",
+      "brand_id": "rolls-royce",
+      "brand_name": "Rolls-Royce",
+      "body_type": "coupe",
+      "tier": "ultra-exotic",
+      "first_year": null,
+      "average_budget_eur": 518350,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "3 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/rolls-royce-spectre-launch-paket-starlight-23-zoll-bespoke-elektro-grau-cat_ma61gr201326ge1558-85941eb5-26ea-450e-8847-1eca371df573",
+          "price_eur": 388500,
+          "price_display": "€ 388.500",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:04:56.840736Z",
+          "location": "Berlin",
+          "year": 2025,
+          "mileage": "8.000 km",
+          "fuel": "Elektro",
+          "title": "Rolls-Royce Spectre Launch Paket Starlight 23\" Zoll Bespoke"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/rolls-royce-spectre-by-mansory+widebody+-elektro-schwarz-cat_ma61gr201326ge1558-0ab75c32-368d-4775-98a8-bd901c82f5e3",
+          "price_eur": 767550,
+          "price_display": "€ 767.550",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:04:56.840736Z",
+          "location": "Stuhr",
+          "year": null,
+          "mileage": "50 km",
+          "fuel": "Elektro",
+          "title": "Rolls-Royce Spectre BY MANSORY+WIDEBODY+"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/rolls-royce-spectre-provenance-elektro-schwarz-cat_ma61gr201326ge1558-90eea1d7-b676-4b5d-aa14-95e0de87ea11",
+          "price_eur": 399000,
+          "price_display": "€ 399.000",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:04:56.840736Z",
+          "location": "Berlin",
+          "year": 2024,
+          "mileage": "700 km",
+          "fuel": "Elektro",
+          "title": "Rolls-Royce Spectre #Provenance"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/rolls-royce/spectre?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/rolls-royce/spectre",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/rolls-royce/spectre?fregfrom=2022",
+          "found": 10,
+          "new": 10,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
