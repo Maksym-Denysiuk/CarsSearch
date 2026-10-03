@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g10-geely",
       "group_name": "Geely Holding Group & Affiliates",
-      "brand_id": "lotus",
-      "brand_name": "Lotus"
+      "brand_id": "zeekr",
+      "brand_name": "Zeekr"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 9,
       "brands_total": 131,
-      "brands_done": 50,
+      "brands_done": 51,
       "brands_failed": 3,
-      "models_found": 78,
+      "models_found": 82,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -2337,9 +2337,48 @@
             {
               "brand_id": "lotus",
               "brand_name": "Lotus",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 4,
+              "completed_at": "2026-10-03T04:22:53.959289+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 21,
+                "unique_offerings": 21,
+                "candidates_checked": 4,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 4,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 9,
+                "model_suggestion_retries": 0,
+                "models_discovered": 6,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1
+                  },
+                  "auto.pt": {
+                    "models_discovered": 3,
+                    "searches_attempted": 1,
+                    "candidates_checked": 1,
+                    "firewall_kept": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 5,
+                    "searches_attempted": 1,
+                    "candidates_checked": 3,
+                    "firewall_kept": 3
+                  }
+                }
+              }
             },
             {
               "brand_id": "zeekr",

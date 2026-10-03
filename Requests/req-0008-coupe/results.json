@@ -2195,6 +2195,112 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "lotus-emira",
+      "name": "Emira",
+      "manufacturer": "Lotus",
+      "group_id": "g10-geely",
+      "group_name": "Geely Holding Group & Affiliates",
+      "brand_id": "lotus",
+      "brand_name": "Lotus",
+      "body_type": "coupe",
+      "tier": "premium",
+      "first_year": null,
+      "average_budget_eur": 86445,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "4 surviving offering(s) from 2 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.auto.pt/carros-usados/lotus-emira-2-0-turbo-first-edition-id-gEDqTGqM",
+          "price_eur": 99900,
+          "price_display": "99900",
+          "country": "PT",
+          "source_domain": "auto.pt",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:22:53.707289Z",
+          "location": null,
+          "year": 2024,
+          "mileage": "5175 km",
+          "fuel": "Gasolina",
+          "title": "Lotus Emira 2.0 Turbo First Edition"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lotus-emira-first-edition-v6-keyless-rueckfahrkam-705e-benzin-gruen-cat_ma44gr200886ge11116-788e2eab-0dd0-4af3-9561-68a946cb6d1d",
+          "price_eur": 87989,
+          "price_display": "€ 87.989",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:22:53.707289Z",
+          "location": "Korb",
+          "year": 2023,
+          "mileage": "14.278 km",
+          "fuel": "Benzin",
+          "title": "Lotus Emira First Edition V6/Keyless/Rückfahrkam/*705€"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lotus-emira-2-0-turbo-first-edition-leder-konjak-benzin-gruen-cat_ma44gr200886ge11116-b6a7cf1f-f99c-437d-ac97-cfb2a2074ba9",
+          "price_eur": 74890,
+          "price_display": "€ 74.890",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:22:53.707289Z",
+          "location": "Remscheid",
+          "year": 2025,
+          "mileage": "27.500 km",
+          "fuel": "Benzin",
+          "title": "Lotus Emira 2.0 Turbo First Edition Leder Konjak"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/lotus-emira-emira-2-0-turbo-first-edition-benzin-blau-cat_ma44gr200886ge11116-a5ee9d10-53d7-44d2-8782-b9de420599fa",
+          "price_eur": 82999,
+          "price_display": "€ 82.999",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:22:53.707289Z",
+          "location": "Wuppertal",
+          "year": 2024,
+          "mileage": "5.171 km",
+          "fuel": "Benzin",
+          "title": "Lotus Emira Emira 2.0 Turbo First Edition"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/lotus/emira?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/lotus/emira",
+          "found": 1,
+          "new": 1,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/lotus/emira?fregfrom=2022",
+          "found": 20,
+          "new": 20,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }
