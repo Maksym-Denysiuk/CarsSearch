@@ -1645,6 +1645,84 @@
           "error": null
         }
       ]
+    },
+    {
+      "id": "cadillac-ct5",
+      "name": "CT5",
+      "manufacturer": "Cadillac",
+      "group_id": "g07-gm",
+      "group_name": "General Motors (GM)",
+      "brand_id": "cadillac",
+      "brand_name": "Cadillac",
+      "body_type": "coupe",
+      "tier": "exotic",
+      "first_year": null,
+      "average_budget_eur": 110900,
+      "average_budget_basis": "Mean of the price_eur of every offering below, each verified against its own listing page.",
+      "search_status": "completed_insufficient_sources",
+      "search_status_note": "2 surviving offering(s) from 1 source domain(s); 5 offerings from 2 domains are required to call a search complete.",
+      "offerings": [
+        {
+          "url": "https://www.autoscout24.de/angebote/cadillac-ct5-navigation-voll-leder-pdc+kamera-klima+shz-bi-xeno-benzin-silber-cat_ma17gr200211-d75c3443-e2fd-4a18-8b34-573569f91ef0",
+          "price_eur": 51900,
+          "price_display": "€ 51.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:20:50.138993Z",
+          "location": "Düsseldorf",
+          "year": 2025,
+          "mileage": "8.511 km",
+          "fuel": "Benzin",
+          "title": "Cadillac CT5 Navigation Voll-Leder PDC+Kamera Klima+SHZ Bi-Xeno"
+        },
+        {
+          "url": "https://www.autoscout24.de/angebote/cadillac-ct5-v-series-blackwing-my26-benzin-schwarz-cat_ma17gr200211-dd50fd9e-b94a-4edd-84fe-57d0d22cd933",
+          "price_eur": 169900,
+          "price_display": "€ 169.900",
+          "country": "DE",
+          "source_domain": "autoscout24.de",
+          "found_in_round": 1,
+          "captured_at": "2026-10-03T04:20:50.138993Z",
+          "location": "München",
+          "year": null,
+          "mileage": null,
+          "fuel": "Benzin",
+          "title": "Cadillac CT5 -V Series Blackwing MY26"
+        }
+      ],
+      "offering_search_log": [
+        {
+          "round": 1,
+          "source": "standvirtual",
+          "url": "https://www.standvirtual.com/carros/cadillac/ct5?search%5Bfilter_float_first_registration_year%3Afrom%5D=2022",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        },
+        {
+          "round": 1,
+          "source": "auto.pt",
+          "url": "https://www.auto.pt/carros-usados/cadillac/ct5",
+          "found": 0,
+          "new": 0,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": "PageMissing: http 404"
+        },
+        {
+          "round": 1,
+          "source": "autoscout24",
+          "url": "https://www.autoscout24.de/lst/cadillac/ct5?fregfrom=2022",
+          "found": 2,
+          "new": 2,
+          "duplicates": 0,
+          "dropped": 0,
+          "error": null
+        }
+      ]
     }
   ]
 }

@@ -13,16 +13,16 @@
     "search_state": {
       "group_id": "g07-gm",
       "group_name": "General Motors (GM)",
-      "brand_id": "cadillac",
-      "brand_name": "Cadillac"
+      "brand_id": "buick",
+      "brand_name": "Buick"
     },
     "progress": {
       "groups_total": 25,
       "groups_done": 6,
       "brands_total": 131,
-      "brands_done": 37,
+      "brands_done": 38,
       "brands_failed": 3,
-      "models_found": 60,
+      "models_found": 62,
       "groups": [
         {
           "group_id": "g01-bmw",
@@ -1765,9 +1765,47 @@
             {
               "brand_id": "cadillac",
               "brand_name": "Cadillac",
-              "status": "pending",
-              "models_found": 0,
-              "completed_at": null
+              "status": "done",
+              "models_found": 2,
+              "completed_at": "2026-10-03T04:20:50.224425+00:00",
+              "diagnostics": {
+                "models_suggested": 1,
+                "searches_attempted": 3,
+                "search_fetch_failures": 0,
+                "parse_failures": 0,
+                "cards_parsed": 2,
+                "unique_offerings": 2,
+                "candidates_checked": 2,
+                "candidate_fetch_failures": 0,
+                "firewall_kept": 2,
+                "firewall_drops_by_reason": {},
+                "circuit_breaker_tripped": false,
+                "search_status": "completed_insufficient_sources",
+                "requests_made": 7,
+                "model_suggestion_retries": 0,
+                "models_discovered": 7,
+                "models_rejected_as_invented": 0,
+                "model_suggestion_context_splits": 0,
+                "model_suggestion_context_drops": 0,
+                "models_unverified_dropped": 0,
+                "by_source": {
+                  "standvirtual": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1
+                  },
+                  "auto.pt": {
+                    "models_discovered": 0,
+                    "searches_attempted": 1,
+                    "searches_missing": 1
+                  },
+                  "autoscout24": {
+                    "models_discovered": 7,
+                    "searches_attempted": 1,
+                    "candidates_checked": 2,
+                    "firewall_kept": 2
+                  }
+                }
+              }
             },
             {
               "brand_id": "buick",
